@@ -784,7 +784,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-5278
     - https://www.openwall.com/lists/oss-security/2025/05/27/2
     PublishedDate: '2025-05-27T21:15:23.197Z'
-    LastModifiedDate: '2026-09-07T23:16:50.573Z'
+    LastModifiedDate: '2026-09-08T15:18:38.923Z'
   - VulnerabilityID: CVE-2026-56391
     PkgID: coreutils@9.7-3
     PkgName: coreutils
@@ -1816,6 +1816,8 @@
       trusted by the cached store but rejected by the callback-selected store is
       then incorrectly accepted.
     Severity: LOW
+    CweIDs:
+    - CWE-295
     VendorSeverity:
       debian: 1
     References:
@@ -1823,7 +1825,7 @@
     - https://curl.se/docs/CVE-2026-82208.json
     - https://hackerone.com/reports/3973090
     PublishedDate: '2026-09-06T18:17:22.733Z'
-    LastModifiedDate: '2026-09-06T18:17:22.733Z'
+    LastModifiedDate: '2026-09-08T19:20:00.13Z'
   - VulnerabilityID: CVE-2026-9547
     PkgID: curl@8.14.1-2+deb13u4
     PkgName: curl
@@ -1923,12 +1925,14 @@
       attack can inject a premature or shortcut response that bypasses complete peer
       validation.
     Severity: UNKNOWN
+    CweIDs:
+    - CWE-923
     References:
     - https://curl.se/docs/CVE-2026-13608.html
     - https://curl.se/docs/CVE-2026-13608.json
     - https://hackerone.com/reports/3822248
     PublishedDate: '2026-09-06T18:17:19.81Z'
-    LastModifiedDate: '2026-09-06T18:17:19.81Z'
+    LastModifiedDate: '2026-09-08T16:18:00.317Z'
   - VulnerabilityID: CVE-2026-18924
     PkgID: curl@8.14.1-2+deb13u4
     PkgName: curl
@@ -1952,12 +1956,14 @@
       handle is set to share connections with other handles, can lead to
       use-after-free in the cleanup process.
     Severity: UNKNOWN
+    CweIDs:
+    - CWE-416
     References:
     - https://curl.se/docs/CVE-2026-18924.html
     - https://curl.se/docs/CVE-2026-18924.json
     - https://hackerone.com/reports/3916059
     PublishedDate: '2026-09-06T18:17:20.553Z'
-    LastModifiedDate: '2026-09-06T18:17:20.553Z'
+    LastModifiedDate: '2026-09-08T16:18:06Z'
   - VulnerabilityID: CVE-2026-19931
     PkgID: curl@8.14.1-2+deb13u4
     PkgName: curl
@@ -1982,12 +1988,14 @@
       using empty credentials. This can make user B's request get sent over user A's
       previously authenticated connection.
     Severity: UNKNOWN
+    CweIDs:
+    - CWE-488
     References:
     - https://curl.se/docs/CVE-2026-19931.html
     - https://curl.se/docs/CVE-2026-19931.json
     - https://hackerone.com/reports/3923520
     PublishedDate: '2026-09-06T18:17:20.733Z'
-    LastModifiedDate: '2026-09-06T18:17:20.733Z'
+    LastModifiedDate: '2026-09-08T16:18:07.08Z'
   - VulnerabilityID: CVE-2026-80229
     PkgID: curl@8.14.1-2+deb13u4
     PkgName: curl
@@ -2015,12 +2023,14 @@
       active connection retains a dangling pointer, leading to a heap-use-after-free
       upon subsequent I/O or post-handshake operations.
     Severity: UNKNOWN
+    CweIDs:
+    - CWE-416
     References:
     - https://curl.se/docs/CVE-2026-80229.html
     - https://curl.se/docs/CVE-2026-80229.json
     - https://hackerone.com/reports/3969255
     PublishedDate: '2026-09-06T18:17:22.217Z'
-    LastModifiedDate: '2026-09-06T18:17:22.217Z'
+    LastModifiedDate: '2026-09-08T16:18:15.72Z'
   - VulnerabilityID: CVE-2026-80230
     PkgID: curl@8.14.1-2+deb13u4
     PkgName: curl
@@ -2047,12 +2057,14 @@
       pinning check under these disabled-verification conditions allows
       unauthenticated connections to succeed when they should be rejected.
     Severity: UNKNOWN
+    CweIDs:
+    - CWE-295
     References:
     - https://curl.se/docs/CVE-2026-80230.html
     - https://curl.se/docs/CVE-2026-80230.json
     - https://hackerone.com/reports/3969300
     PublishedDate: '2026-09-06T18:17:22.327Z'
-    LastModifiedDate: '2026-09-06T18:17:22.327Z'
+    LastModifiedDate: '2026-09-08T19:19:54.063Z'
   - VulnerabilityID: CVE-2026-80255
     PkgID: curl@8.14.1-2+deb13u4
     PkgName: curl
@@ -2077,12 +2089,14 @@
       store the cookie without its Secure flag. The cookie might then wrongfully be
       sent over plaintext HTTP on subsequent requests to the same host.
     Severity: UNKNOWN
+    CweIDs:
+    - CWE-201
     References:
     - https://curl.se/docs/CVE-2026-80255.html
     - https://curl.se/docs/CVE-2026-80255.json
     - https://hackerone.com/reports/3972395
     PublishedDate: '2026-09-06T18:17:22.623Z'
-    LastModifiedDate: '2026-09-06T18:17:22.623Z'
+    LastModifiedDate: '2026-09-08T19:19:54.52Z'
   - VulnerabilityID: CVE-2026-82209
     PkgID: curl@8.14.1-2+deb13u4
     PkgName: curl
@@ -2113,12 +2127,14 @@
       arbitrary sibling subdomains under the same public suffix (e.g.,
       `attacker.co.uk`).
     Severity: UNKNOWN
+    CweIDs:
+    - CWE-201
     References:
     - https://curl.se/docs/CVE-2026-82209.html
     - https://curl.se/docs/CVE-2026-82209.json
     - https://hackerone.com/reports/3972385
     PublishedDate: '2026-09-06T18:17:22.847Z'
-    LastModifiedDate: '2026-09-06T18:17:22.847Z'
+    LastModifiedDate: '2026-09-08T19:20:00.313Z'
   - VulnerabilityID: CVE-2026-53910
     PkgID: diffutils@1:3.10-4
     PkgName: diffutils
@@ -4610,6 +4626,7 @@
     - https://linux.oracle.com/errata/ELSA-2026-61625-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-41992
     - https://ubuntu.com/security/notices/USN-8512-1
+    - https://ubuntu.com/security/notices/USN-8733-1
     - https://www.cve.org/CVERecord?id=CVE-2026-41992
     - https://www.gnu.org/software/gzip
     - https://www.gnu.org/software/gzip/
@@ -4682,6 +4699,7 @@
     - https://linux.oracle.com/errata/ELSA-2026-61625-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-41991
     - https://ubuntu.com/security/notices/USN-8512-1
+    - https://ubuntu.com/security/notices/USN-8733-1
     - https://www.cve.org/CVERecord?id=CVE-2026-41991
     - https://www.gnu.org/software/gzip
     - https://www.gnu.org/software/gzip/
@@ -5579,6 +5597,7 @@
     Severity: MEDIUM
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:H/A:H
@@ -5586,6 +5605,7 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-19499
     - https://nvd.nist.gov/vuln/detail/CVE-2026-19499
+    - https://ubuntu.com/security/notices/USN-8737-1
     - https://www.cve.org/CVERecord?id=CVE-2026-19499
   - VulnerabilityID: CVE-2026-19542
     PkgID: libc-bin@2.41-12+deb13u3
@@ -5609,6 +5629,7 @@
     Severity: MEDIUM
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:L
@@ -5616,6 +5637,7 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-19542
     - https://nvd.nist.gov/vuln/detail/CVE-2026-19542
+    - https://ubuntu.com/security/notices/USN-8737-1
     - https://www.cve.org/CVERecord?id=CVE-2026-19542
   - VulnerabilityID: CVE-2026-5435
     PkgID: libc-bin@2.41-12+deb13u3
@@ -5878,6 +5900,7 @@
     - CWE-908
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
@@ -5886,7 +5909,9 @@
     - https://access.redhat.com/security/cve/CVE-2026-6368
     - https://nvd.nist.gov/vuln/detail/CVE-2026-6368
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34090
+    - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2026-0014
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2026-0014;h=1e9a0039f07471ddfe6816e5df04875bec409f92;hb=HEAD
+    - https://ubuntu.com/security/notices/USN-8737-1
     - https://www.cve.org/CVERecord?id=CVE-2026-6368
     PublishedDate: '2026-08-10T19:17:30.713Z'
     LastModifiedDate: '2026-09-03T16:43:15.293Z'
@@ -5914,6 +5939,7 @@
     - CWE-121
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -5922,6 +5948,8 @@
     - https://access.redhat.com/security/cve/CVE-2026-6791
     - https://nvd.nist.gov/vuln/detail/CVE-2026-6791
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34091
+    - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2026-0013
+    - https://ubuntu.com/security/notices/USN-8737-1
     - https://www.cve.org/CVERecord?id=CVE-2026-6791
     PublishedDate: '2026-08-10T19:17:30.877Z'
     LastModifiedDate: '2026-09-03T16:43:15.293Z'
@@ -5947,6 +5975,7 @@
     Severity: MEDIUM
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -5954,6 +5983,7 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-77117
     - https://nvd.nist.gov/vuln/detail/CVE-2026-77117
+    - https://ubuntu.com/security/notices/USN-8737-1
     - https://www.cve.org/CVERecord?id=CVE-2026-77117
   - VulnerabilityID: CVE-2026-80489
     PkgID: libc-bin@2.41-12+deb13u3
@@ -5977,6 +6007,7 @@
     Severity: MEDIUM
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -5984,6 +6015,7 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-80489
     - https://nvd.nist.gov/vuln/detail/CVE-2026-80489
+    - https://ubuntu.com/security/notices/USN-8737-1
     - https://www.cve.org/CVERecord?id=CVE-2026-80489
   - VulnerabilityID: CVE-2010-4756
     PkgID: libc-bin@2.41-12+deb13u3
@@ -6372,6 +6404,7 @@
     Severity: MEDIUM
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:H/A:H
@@ -6379,6 +6412,7 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-19499
     - https://nvd.nist.gov/vuln/detail/CVE-2026-19499
+    - https://ubuntu.com/security/notices/USN-8737-1
     - https://www.cve.org/CVERecord?id=CVE-2026-19499
   - VulnerabilityID: CVE-2026-19542
     PkgID: libc-l10n@2.41-12+deb13u3
@@ -6402,6 +6436,7 @@
     Severity: MEDIUM
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:L
@@ -6409,6 +6444,7 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-19542
     - https://nvd.nist.gov/vuln/detail/CVE-2026-19542
+    - https://ubuntu.com/security/notices/USN-8737-1
     - https://www.cve.org/CVERecord?id=CVE-2026-19542
   - VulnerabilityID: CVE-2026-5435
     PkgID: libc-l10n@2.41-12+deb13u3
@@ -6671,6 +6707,7 @@
     - CWE-908
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
@@ -6679,7 +6716,9 @@
     - https://access.redhat.com/security/cve/CVE-2026-6368
     - https://nvd.nist.gov/vuln/detail/CVE-2026-6368
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34090
+    - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2026-0014
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2026-0014;h=1e9a0039f07471ddfe6816e5df04875bec409f92;hb=HEAD
+    - https://ubuntu.com/security/notices/USN-8737-1
     - https://www.cve.org/CVERecord?id=CVE-2026-6368
     PublishedDate: '2026-08-10T19:17:30.713Z'
     LastModifiedDate: '2026-09-03T16:43:15.293Z'
@@ -6707,6 +6746,7 @@
     - CWE-121
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -6715,6 +6755,8 @@
     - https://access.redhat.com/security/cve/CVE-2026-6791
     - https://nvd.nist.gov/vuln/detail/CVE-2026-6791
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34091
+    - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2026-0013
+    - https://ubuntu.com/security/notices/USN-8737-1
     - https://www.cve.org/CVERecord?id=CVE-2026-6791
     PublishedDate: '2026-08-10T19:17:30.877Z'
     LastModifiedDate: '2026-09-03T16:43:15.293Z'
@@ -6740,6 +6782,7 @@
     Severity: MEDIUM
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -6747,6 +6790,7 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-77117
     - https://nvd.nist.gov/vuln/detail/CVE-2026-77117
+    - https://ubuntu.com/security/notices/USN-8737-1
     - https://www.cve.org/CVERecord?id=CVE-2026-77117
   - VulnerabilityID: CVE-2026-80489
     PkgID: libc-l10n@2.41-12+deb13u3
@@ -6770,6 +6814,7 @@
     Severity: MEDIUM
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -6777,6 +6822,7 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-80489
     - https://nvd.nist.gov/vuln/detail/CVE-2026-80489
+    - https://ubuntu.com/security/notices/USN-8737-1
     - https://www.cve.org/CVERecord?id=CVE-2026-80489
   - VulnerabilityID: CVE-2010-4756
     PkgID: libc-l10n@2.41-12+deb13u3
@@ -7165,6 +7211,7 @@
     Severity: MEDIUM
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:H/A:H
@@ -7172,6 +7219,7 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-19499
     - https://nvd.nist.gov/vuln/detail/CVE-2026-19499
+    - https://ubuntu.com/security/notices/USN-8737-1
     - https://www.cve.org/CVERecord?id=CVE-2026-19499
   - VulnerabilityID: CVE-2026-19542
     PkgID: libc6@2.41-12+deb13u3
@@ -7195,6 +7243,7 @@
     Severity: MEDIUM
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:L
@@ -7202,6 +7251,7 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-19542
     - https://nvd.nist.gov/vuln/detail/CVE-2026-19542
+    - https://ubuntu.com/security/notices/USN-8737-1
     - https://www.cve.org/CVERecord?id=CVE-2026-19542
   - VulnerabilityID: CVE-2026-5435
     PkgID: libc6@2.41-12+deb13u3
@@ -7464,6 +7514,7 @@
     - CWE-908
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
@@ -7472,7 +7523,9 @@
     - https://access.redhat.com/security/cve/CVE-2026-6368
     - https://nvd.nist.gov/vuln/detail/CVE-2026-6368
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34090
+    - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2026-0014
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2026-0014;h=1e9a0039f07471ddfe6816e5df04875bec409f92;hb=HEAD
+    - https://ubuntu.com/security/notices/USN-8737-1
     - https://www.cve.org/CVERecord?id=CVE-2026-6368
     PublishedDate: '2026-08-10T19:17:30.713Z'
     LastModifiedDate: '2026-09-03T16:43:15.293Z'
@@ -7500,6 +7553,7 @@
     - CWE-121
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -7508,6 +7562,8 @@
     - https://access.redhat.com/security/cve/CVE-2026-6791
     - https://nvd.nist.gov/vuln/detail/CVE-2026-6791
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34091
+    - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2026-0013
+    - https://ubuntu.com/security/notices/USN-8737-1
     - https://www.cve.org/CVERecord?id=CVE-2026-6791
     PublishedDate: '2026-08-10T19:17:30.877Z'
     LastModifiedDate: '2026-09-03T16:43:15.293Z'
@@ -7533,6 +7589,7 @@
     Severity: MEDIUM
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -7540,6 +7597,7 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-77117
     - https://nvd.nist.gov/vuln/detail/CVE-2026-77117
+    - https://ubuntu.com/security/notices/USN-8737-1
     - https://www.cve.org/CVERecord?id=CVE-2026-77117
   - VulnerabilityID: CVE-2026-80489
     PkgID: libc6@2.41-12+deb13u3
@@ -7563,6 +7621,7 @@
     Severity: MEDIUM
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -7570,6 +7629,7 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-80489
     - https://nvd.nist.gov/vuln/detail/CVE-2026-80489
+    - https://ubuntu.com/security/notices/USN-8737-1
     - https://www.cve.org/CVERecord?id=CVE-2026-80489
   - VulnerabilityID: CVE-2010-4756
     PkgID: libc6@2.41-12+deb13u3
@@ -8799,6 +8859,8 @@
       trusted by the cached store but rejected by the callback-selected store is
       then incorrectly accepted.
     Severity: LOW
+    CweIDs:
+    - CWE-295
     VendorSeverity:
       debian: 1
     References:
@@ -8806,7 +8868,7 @@
     - https://curl.se/docs/CVE-2026-82208.json
     - https://hackerone.com/reports/3973090
     PublishedDate: '2026-09-06T18:17:22.733Z'
-    LastModifiedDate: '2026-09-06T18:17:22.733Z'
+    LastModifiedDate: '2026-09-08T19:20:00.13Z'
   - VulnerabilityID: CVE-2026-9547
     PkgID: libcurl3t64-gnutls@8.14.1-2+deb13u4
     PkgName: libcurl3t64-gnutls
@@ -8906,12 +8968,14 @@
       attack can inject a premature or shortcut response that bypasses complete peer
       validation.
     Severity: UNKNOWN
+    CweIDs:
+    - CWE-923
     References:
     - https://curl.se/docs/CVE-2026-13608.html
     - https://curl.se/docs/CVE-2026-13608.json
     - https://hackerone.com/reports/3822248
     PublishedDate: '2026-09-06T18:17:19.81Z'
-    LastModifiedDate: '2026-09-06T18:17:19.81Z'
+    LastModifiedDate: '2026-09-08T16:18:00.317Z'
   - VulnerabilityID: CVE-2026-18924
     PkgID: libcurl3t64-gnutls@8.14.1-2+deb13u4
     PkgName: libcurl3t64-gnutls
@@ -8935,12 +8999,14 @@
       handle is set to share connections with other handles, can lead to
       use-after-free in the cleanup process.
     Severity: UNKNOWN
+    CweIDs:
+    - CWE-416
     References:
     - https://curl.se/docs/CVE-2026-18924.html
     - https://curl.se/docs/CVE-2026-18924.json
     - https://hackerone.com/reports/3916059
     PublishedDate: '2026-09-06T18:17:20.553Z'
-    LastModifiedDate: '2026-09-06T18:17:20.553Z'
+    LastModifiedDate: '2026-09-08T16:18:06Z'
   - VulnerabilityID: CVE-2026-19931
     PkgID: libcurl3t64-gnutls@8.14.1-2+deb13u4
     PkgName: libcurl3t64-gnutls
@@ -8965,12 +9031,14 @@
       using empty credentials. This can make user B's request get sent over user A's
       previously authenticated connection.
     Severity: UNKNOWN
+    CweIDs:
+    - CWE-488
     References:
     - https://curl.se/docs/CVE-2026-19931.html
     - https://curl.se/docs/CVE-2026-19931.json
     - https://hackerone.com/reports/3923520
     PublishedDate: '2026-09-06T18:17:20.733Z'
-    LastModifiedDate: '2026-09-06T18:17:20.733Z'
+    LastModifiedDate: '2026-09-08T16:18:07.08Z'
   - VulnerabilityID: CVE-2026-80229
     PkgID: libcurl3t64-gnutls@8.14.1-2+deb13u4
     PkgName: libcurl3t64-gnutls
@@ -8998,12 +9066,14 @@
       active connection retains a dangling pointer, leading to a heap-use-after-free
       upon subsequent I/O or post-handshake operations.
     Severity: UNKNOWN
+    CweIDs:
+    - CWE-416
     References:
     - https://curl.se/docs/CVE-2026-80229.html
     - https://curl.se/docs/CVE-2026-80229.json
     - https://hackerone.com/reports/3969255
     PublishedDate: '2026-09-06T18:17:22.217Z'
-    LastModifiedDate: '2026-09-06T18:17:22.217Z'
+    LastModifiedDate: '2026-09-08T16:18:15.72Z'
   - VulnerabilityID: CVE-2026-80230
     PkgID: libcurl3t64-gnutls@8.14.1-2+deb13u4
     PkgName: libcurl3t64-gnutls
@@ -9030,12 +9100,14 @@
       pinning check under these disabled-verification conditions allows
       unauthenticated connections to succeed when they should be rejected.
     Severity: UNKNOWN
+    CweIDs:
+    - CWE-295
     References:
     - https://curl.se/docs/CVE-2026-80230.html
     - https://curl.se/docs/CVE-2026-80230.json
     - https://hackerone.com/reports/3969300
     PublishedDate: '2026-09-06T18:17:22.327Z'
-    LastModifiedDate: '2026-09-06T18:17:22.327Z'
+    LastModifiedDate: '2026-09-08T19:19:54.063Z'
   - VulnerabilityID: CVE-2026-80255
     PkgID: libcurl3t64-gnutls@8.14.1-2+deb13u4
     PkgName: libcurl3t64-gnutls
@@ -9060,12 +9132,14 @@
       store the cookie without its Secure flag. The cookie might then wrongfully be
       sent over plaintext HTTP on subsequent requests to the same host.
     Severity: UNKNOWN
+    CweIDs:
+    - CWE-201
     References:
     - https://curl.se/docs/CVE-2026-80255.html
     - https://curl.se/docs/CVE-2026-80255.json
     - https://hackerone.com/reports/3972395
     PublishedDate: '2026-09-06T18:17:22.623Z'
-    LastModifiedDate: '2026-09-06T18:17:22.623Z'
+    LastModifiedDate: '2026-09-08T19:19:54.52Z'
   - VulnerabilityID: CVE-2026-82209
     PkgID: libcurl3t64-gnutls@8.14.1-2+deb13u4
     PkgName: libcurl3t64-gnutls
@@ -9096,12 +9170,14 @@
       arbitrary sibling subdomains under the same public suffix (e.g.,
       `attacker.co.uk`).
     Severity: UNKNOWN
+    CweIDs:
+    - CWE-201
     References:
     - https://curl.se/docs/CVE-2026-82209.html
     - https://curl.se/docs/CVE-2026-82209.json
     - https://hackerone.com/reports/3972385
     PublishedDate: '2026-09-06T18:17:22.847Z'
-    LastModifiedDate: '2026-09-06T18:17:22.847Z'
+    LastModifiedDate: '2026-09-08T19:20:00.313Z'
   - VulnerabilityID: CVE-2026-12064
     PkgID: libcurl4t64@8.14.1-2+deb13u4
     PkgName: libcurl4t64
@@ -10009,6 +10085,8 @@
       trusted by the cached store but rejected by the callback-selected store is
       then incorrectly accepted.
     Severity: LOW
+    CweIDs:
+    - CWE-295
     VendorSeverity:
       debian: 1
     References:
@@ -10016,7 +10094,7 @@
     - https://curl.se/docs/CVE-2026-82208.json
     - https://hackerone.com/reports/3973090
     PublishedDate: '2026-09-06T18:17:22.733Z'
-    LastModifiedDate: '2026-09-06T18:17:22.733Z'
+    LastModifiedDate: '2026-09-08T19:20:00.13Z'
   - VulnerabilityID: CVE-2026-9547
     PkgID: libcurl4t64@8.14.1-2+deb13u4
     PkgName: libcurl4t64
@@ -10116,12 +10194,14 @@
       attack can inject a premature or shortcut response that bypasses complete peer
       validation.
     Severity: UNKNOWN
+    CweIDs:
+    - CWE-923
     References:
     - https://curl.se/docs/CVE-2026-13608.html
     - https://curl.se/docs/CVE-2026-13608.json
     - https://hackerone.com/reports/3822248
     PublishedDate: '2026-09-06T18:17:19.81Z'
-    LastModifiedDate: '2026-09-06T18:17:19.81Z'
+    LastModifiedDate: '2026-09-08T16:18:00.317Z'
   - VulnerabilityID: CVE-2026-18924
     PkgID: libcurl4t64@8.14.1-2+deb13u4
     PkgName: libcurl4t64
@@ -10145,12 +10225,14 @@
       handle is set to share connections with other handles, can lead to
       use-after-free in the cleanup process.
     Severity: UNKNOWN
+    CweIDs:
+    - CWE-416
     References:
     - https://curl.se/docs/CVE-2026-18924.html
     - https://curl.se/docs/CVE-2026-18924.json
     - https://hackerone.com/reports/3916059
     PublishedDate: '2026-09-06T18:17:20.553Z'
-    LastModifiedDate: '2026-09-06T18:17:20.553Z'
+    LastModifiedDate: '2026-09-08T16:18:06Z'
   - VulnerabilityID: CVE-2026-19931
     PkgID: libcurl4t64@8.14.1-2+deb13u4
     PkgName: libcurl4t64
@@ -10175,12 +10257,14 @@
       using empty credentials. This can make user B's request get sent over user A's
       previously authenticated connection.
     Severity: UNKNOWN
+    CweIDs:
+    - CWE-488
     References:
     - https://curl.se/docs/CVE-2026-19931.html
     - https://curl.se/docs/CVE-2026-19931.json
     - https://hackerone.com/reports/3923520
     PublishedDate: '2026-09-06T18:17:20.733Z'
-    LastModifiedDate: '2026-09-06T18:17:20.733Z'
+    LastModifiedDate: '2026-09-08T16:18:07.08Z'
   - VulnerabilityID: CVE-2026-80229
     PkgID: libcurl4t64@8.14.1-2+deb13u4
     PkgName: libcurl4t64
@@ -10208,12 +10292,14 @@
       active connection retains a dangling pointer, leading to a heap-use-after-free
       upon subsequent I/O or post-handshake operations.
     Severity: UNKNOWN
+    CweIDs:
+    - CWE-416
     References:
     - https://curl.se/docs/CVE-2026-80229.html
     - https://curl.se/docs/CVE-2026-80229.json
     - https://hackerone.com/reports/3969255
     PublishedDate: '2026-09-06T18:17:22.217Z'
-    LastModifiedDate: '2026-09-06T18:17:22.217Z'
+    LastModifiedDate: '2026-09-08T16:18:15.72Z'
   - VulnerabilityID: CVE-2026-80230
     PkgID: libcurl4t64@8.14.1-2+deb13u4
     PkgName: libcurl4t64
@@ -10240,12 +10326,14 @@
       pinning check under these disabled-verification conditions allows
       unauthenticated connections to succeed when they should be rejected.
     Severity: UNKNOWN
+    CweIDs:
+    - CWE-295
     References:
     - https://curl.se/docs/CVE-2026-80230.html
     - https://curl.se/docs/CVE-2026-80230.json
     - https://hackerone.com/reports/3969300
     PublishedDate: '2026-09-06T18:17:22.327Z'
-    LastModifiedDate: '2026-09-06T18:17:22.327Z'
+    LastModifiedDate: '2026-09-08T19:19:54.063Z'
   - VulnerabilityID: CVE-2026-80255
     PkgID: libcurl4t64@8.14.1-2+deb13u4
     PkgName: libcurl4t64
@@ -10270,12 +10358,14 @@
       store the cookie without its Secure flag. The cookie might then wrongfully be
       sent over plaintext HTTP on subsequent requests to the same host.
     Severity: UNKNOWN
+    CweIDs:
+    - CWE-201
     References:
     - https://curl.se/docs/CVE-2026-80255.html
     - https://curl.se/docs/CVE-2026-80255.json
     - https://hackerone.com/reports/3972395
     PublishedDate: '2026-09-06T18:17:22.623Z'
-    LastModifiedDate: '2026-09-06T18:17:22.623Z'
+    LastModifiedDate: '2026-09-08T19:19:54.52Z'
   - VulnerabilityID: CVE-2026-82209
     PkgID: libcurl4t64@8.14.1-2+deb13u4
     PkgName: libcurl4t64
@@ -10306,12 +10396,14 @@
       arbitrary sibling subdomains under the same public suffix (e.g.,
       `attacker.co.uk`).
     Severity: UNKNOWN
+    CweIDs:
+    - CWE-201
     References:
     - https://curl.se/docs/CVE-2026-82209.html
     - https://curl.se/docs/CVE-2026-82209.json
     - https://hackerone.com/reports/3972385
     PublishedDate: '2026-09-06T18:17:22.847Z'
-    LastModifiedDate: '2026-09-06T18:17:22.847Z'
+    LastModifiedDate: '2026-09-08T19:20:00.313Z'
   - VulnerabilityID: CVE-2026-19617
     PkgID: libdevmapper1.02.1@2:1.02.205-2
     PkgName: libdevmapper1.02.1
@@ -11035,6 +11127,92 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-63381
     PublishedDate: '2026-08-20T18:16:35.53Z'
     LastModifiedDate: '2026-08-21T22:16:42.327Z'
+  - VulnerabilityID: CVE-2026-76956
+    PkgID: libexpat1@2.8.3-1~deb13u1
+    PkgName: libexpat1
+    PkgIdentifier:
+      PURL: pkg:deb/debian/libexpat1@2.8.3-1~deb13u1?arch=amd64&distro=debian-13.6
+      UID: bacd3a088c2a3546
+    InstalledVersion: 2.8.3-1~deb13u1
+    Status: affected
+    Layer:
+      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
+      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-76956
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:9ff322a6d10f9c1e56e77d890ab69dddfc154311cf8bae3c184754f5555cb35b
+    Title: 'libexpat: libexpat: Denial of Service via hash flooding attack with crafted XML'
+    Description: In libexpat 2.8.2 and 2.8.3 before 2.8.4, misinterpretation of getentropy's return code leads to insufficient entropy, which results in being vulnerable to hash flooding attacks, causing a denial of service via crafted XML content.
+    Severity: HIGH
+    CweIDs:
+    - CWE-394
+    VendorSeverity:
+      azure: 2
+      nvd: 3
+      redhat: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-76956
+    - https://github.com/libexpat/libexpat/pull/1326
+    - https://github.com/libexpat/libexpat/pull/1329
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-76956
+    - https://www.cve.org/CVERecord?id=CVE-2026-76956
+    PublishedDate: '2026-08-20T05:16:29.61Z'
+    LastModifiedDate: '2026-09-08T21:08:20.697Z'
+  - VulnerabilityID: CVE-2026-76957
+    PkgID: libexpat1@2.8.3-1~deb13u1
+    PkgName: libexpat1
+    PkgIdentifier:
+      PURL: pkg:deb/debian/libexpat1@2.8.3-1~deb13u1?arch=amd64&distro=debian-13.6
+      UID: bacd3a088c2a3546
+    InstalledVersion: 2.8.3-1~deb13u1
+    Status: affected
+    Layer:
+      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
+      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-76957
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:f1494bdd29dc6a2e36cc8815efdf14419df109205467187a63fc2a8e5d90155f
+    Title: 'libexpat: libexpat: Memory corruption vulnerability allows arbitrary code execution or denial of service'
+    Description: 'libexpat before 2.8.4 lacks handler call depth tracking with custom encoding callbacks. Thus, a use-after-free can occur. NOTE: this is similar to CVE-2026-50219, CVE-2026-56131 and CVE-2026-56412.'
+    Severity: HIGH
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      amazon: 3
+      azure: 2
+      nvd: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 4.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-76957
+    - https://github.com/libexpat/libexpat/pull/1322
+    - https://github.com/libexpat/libexpat/pull/1329
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-76957
+    - https://www.cve.org/CVERecord?id=CVE-2026-76957
+    PublishedDate: '2026-08-20T05:16:29.747Z'
+    LastModifiedDate: '2026-09-08T20:56:31.86Z'
   - VulnerabilityID: CVE-2025-66382
     PkgID: libexpat1@2.8.3-1~deb13u1
     PkgName: libexpat1
@@ -11117,82 +11295,6 @@
     - https://www.vulncheck.com/advisories/expat-denial-of-service-via-storeatts-quadratic-complexity
     PublishedDate: '2026-08-18T15:16:57Z'
     LastModifiedDate: '2026-08-20T16:17:40.66Z'
-  - VulnerabilityID: CVE-2026-76956
-    PkgID: libexpat1@2.8.3-1~deb13u1
-    PkgName: libexpat1
-    PkgIdentifier:
-      PURL: pkg:deb/debian/libexpat1@2.8.3-1~deb13u1?arch=amd64&distro=debian-13.6
-      UID: bacd3a088c2a3546
-    InstalledVersion: 2.8.3-1~deb13u1
-    Status: affected
-    Layer:
-      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
-      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-76956
-    DataSource:
-      ID: debian
-      Name: Debian Security Tracker
-      URL: https://salsa.debian.org/security-tracker-team/security-tracker
-    Fingerprint: sha256:9ff322a6d10f9c1e56e77d890ab69dddfc154311cf8bae3c184754f5555cb35b
-    Title: 'libexpat: libexpat: Denial of Service via hash flooding attack with crafted XML'
-    Description: In libexpat 2.8.2 and 2.8.3 before 2.8.4, misinterpretation of getentropy's return code leads to insufficient entropy, which results in being vulnerable to hash flooding attacks, causing a denial of service via crafted XML content.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-394
-    VendorSeverity:
-      azure: 2
-      redhat: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 5.9
-    References:
-    - https://access.redhat.com/security/cve/CVE-2026-76956
-    - https://github.com/libexpat/libexpat/pull/1326
-    - https://github.com/libexpat/libexpat/pull/1329
-    - https://nvd.nist.gov/vuln/detail/CVE-2026-76956
-    - https://www.cve.org/CVERecord?id=CVE-2026-76956
-    PublishedDate: '2026-08-20T05:16:29.61Z'
-    LastModifiedDate: '2026-09-03T17:37:43.45Z'
-  - VulnerabilityID: CVE-2026-76957
-    PkgID: libexpat1@2.8.3-1~deb13u1
-    PkgName: libexpat1
-    PkgIdentifier:
-      PURL: pkg:deb/debian/libexpat1@2.8.3-1~deb13u1?arch=amd64&distro=debian-13.6
-      UID: bacd3a088c2a3546
-    InstalledVersion: 2.8.3-1~deb13u1
-    Status: affected
-    Layer:
-      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
-      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-76957
-    DataSource:
-      ID: debian
-      Name: Debian Security Tracker
-      URL: https://salsa.debian.org/security-tracker-team/security-tracker
-    Fingerprint: sha256:f1494bdd29dc6a2e36cc8815efdf14419df109205467187a63fc2a8e5d90155f
-    Title: 'libexpat: libexpat: Memory corruption vulnerability allows arbitrary code execution or denial of service'
-    Description: 'libexpat before 2.8.4 lacks handler call depth tracking with custom encoding callbacks. Thus, a use-after-free can occur. NOTE: this is similar to CVE-2026-50219, CVE-2026-56131 and CVE-2026-56412.'
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-416
-    VendorSeverity:
-      amazon: 3
-      azure: 2
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
-        V3Score: 4.9
-    References:
-    - https://access.redhat.com/security/cve/CVE-2026-76957
-    - https://github.com/libexpat/libexpat/pull/1322
-    - https://github.com/libexpat/libexpat/pull/1329
-    - https://nvd.nist.gov/vuln/detail/CVE-2026-76957
-    - https://www.cve.org/CVERecord?id=CVE-2026-76957
-    PublishedDate: '2026-08-20T05:16:29.747Z'
-    LastModifiedDate: '2026-09-03T17:37:43.45Z'
   - VulnerabilityID: CVE-2018-6829
     PkgID: libgcrypt20@1.11.0-7+deb13u1
     PkgName: libgcrypt20
@@ -14682,7 +14784,7 @@
     - https://github.com/PCRE2Project/pcre2/releases/tag/pcre2-10.48
     - https://github.com/PCRE2Project/pcre2/security/advisories/GHSA-3r4p-g7gg-ppmf
     PublishedDate: '2026-09-05T06:17:10.37Z'
-    LastModifiedDate: '2026-09-05T14:17:23.897Z'
+    LastModifiedDate: '2026-09-08T19:20:09.063Z'
   - VulnerabilityID: TEMP-0000000-21C4F8
     PkgID: libpcre2-8-0@10.46-1~deb13u1
     PkgName: libpcre2-8-0
@@ -14779,7 +14881,7 @@
     Fingerprint: sha256:556aa5e8ec757c68203c96a535ad0adb0ff8e3147350f90da8a8f6799cc10696
     Title: 'perl: Perl: Incorrect regular expression processing via large regular expressions'
     Description: |-
-      Perl versions through 5.43.9 produce silently incorrect regular expression matches when an alternation of more than 65535 fixed string branches is compiled into a trie in Perl_study_chunk.
+      Perl versions before 5.40.5-RC1, from 5.41.0 before 5.42.3-RC1, from 5.43.0 before 5.43.10 produce silently incorrect regular expression matches when an alternation of more than 65535 fixed string branches is compiled into a trie in Perl_study_chunk.
 
       When such branches are combined into a trie, the delta between the first branch and the shared tail is stored in a 16-bit field. A branch count above 65535 overflows the field, and the trie's match decision table is truncated with no warning or error.
 
@@ -14811,7 +14913,7 @@
     - https://ubuntu.com/security/notices/USN-8684-1
     - https://www.cve.org/CVERecord?id=CVE-2026-13221
     PublishedDate: '2026-07-13T17:16:48.923Z'
-    LastModifiedDate: '2026-07-14T18:15:18.85Z'
+    LastModifiedDate: '2026-09-08T22:17:37.217Z'
   - VulnerabilityID: CVE-2026-42496
     PkgID: libperl5.40@5.40.1-6
     PkgName: libperl5.40
@@ -14901,7 +15003,7 @@
     Fingerprint: sha256:c426a1c6c7bee64baa44122adb8a053a0b234a07de9e52deccbb0c3173065d3f
     Title: 'perl: Perl: Heap buffer overflow when compiling regular expressions on 32-bit builds'
     Description: |-
-      Perl versions through 5.43.10 have a heap buffer overflow when compiling regular expressions with a repeated fixed string on 32-bit builds.
+      Perl versions before 5.40.5-RC1, from 5.41.0 before 5.42.3-RC1, from 5.43.0 before 5.43.11 have a heap buffer overflow when compiling regular expressions with a repeated fixed string on 32-bit builds.
 
       Perl_study_chunk in regcomp_study.c checked the size of the joined substring buffer in characters rather than bytes. For a quantified fixed substring with a large minimum count, the byte length mincount * l could overflow SSize_t, producing an undersized SvGROW allocation; the subsequent copy writes past the end of the buffer.
 
@@ -14932,7 +15034,7 @@
     - https://ubuntu.com/security/notices/USN-8467-1
     - https://www.cve.org/CVERecord?id=CVE-2026-8376
     PublishedDate: '2026-05-26T00:16:57.15Z'
-    LastModifiedDate: '2026-07-23T11:10:00.12Z'
+    LastModifiedDate: '2026-09-08T22:19:18.373Z'
   - VulnerabilityID: CVE-2026-42497
     PkgID: libperl5.40@5.40.1-6
     PkgName: libperl5.40
@@ -15078,7 +15180,7 @@
     Fingerprint: sha256:b8b1b6e8f96babd9a2cace67a0dd9e942b63017b03433c9d0f2c984eb22018e1
     Title: 'perl: Perl: Information disclosure via integer overflow in pack/unpack operations'
     Description: |-
-      Perl versions through 5.43.10 have an integer overflow in S_measure_struct leading to an out-of-bounds heap read in pack and unpack.
+      Perl versions before 5.40.5-RC1, from 5.41.0 before 5.42.3-RC1, from 5.43.0 before 5.43.11 have an integer overflow in S_measure_struct leading to an out-of-bounds heap read in pack and unpack.
 
       S_measure_struct adds each item's size times its repeat count to a running total with no overflow check, so a large repeat count in a pack or unpack template wraps the signed SSize_t total negative. The @, X, and x position codes then guard their moves with a signed length comparison that passes when the length is negative, advancing the buffer pointer out of bounds.
 
@@ -15111,7 +15213,7 @@
     - https://ubuntu.com/security/notices/USN-8684-1
     - https://www.cve.org/CVERecord?id=CVE-2026-57432
     PublishedDate: '2026-07-13T17:17:55.67Z'
-    LastModifiedDate: '2026-07-14T18:04:48.367Z'
+    LastModifiedDate: '2026-09-08T22:18:30.64Z'
   - VulnerabilityID: CVE-2026-57433
     PkgID: libperl5.40@5.40.1-6
     PkgName: libperl5.40
@@ -15347,6 +15449,7 @@
     - CWE-787
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H
@@ -15358,9 +15461,10 @@
     - https://github.com/Perl/perl5/commit/54cf3d44cbbedd17d774e9a37921963e8fd5d0cb.patch
     - https://github.com/Perl/perl5/commit/568e6fd238867bb9e99fa3f47cba3169009239e0.patch
     - https://nvd.nist.gov/vuln/detail/CVE-2026-15534
+    - https://ubuntu.com/security/notices/USN-8736-1
     - https://www.cve.org/CVERecord?id=CVE-2026-15534
     PublishedDate: '2026-08-09T18:16:42.8Z'
-    LastModifiedDate: '2026-08-28T15:42:20.06Z'
+    LastModifiedDate: '2026-09-08T22:17:38.113Z'
   - VulnerabilityID: CVE-2026-19487
     PkgID: libperl5.40@5.40.1-6
     PkgName: libperl5.40
@@ -15395,6 +15499,7 @@
     - CWE-670
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
@@ -15404,7 +15509,9 @@
     - https://access.redhat.com/security/cve/CVE-2026-19487
     - https://github.com/Perl/perl5/commit/1a21abacaf6f684928bae8baaa153733c8c238eb.patch
     - https://github.com/Perl/perl5/issues/22892
+    - https://lists.security.metacpan.org/cve-announce/msg/42658992/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-19487
+    - https://ubuntu.com/security/notices/USN-8736-1
     - https://www.cve.org/CVERecord?id=CVE-2026-19487
     PublishedDate: '2026-08-13T16:17:59.44Z'
     LastModifiedDate: '2026-08-28T15:42:20.06Z'
@@ -17886,6 +17993,220 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-6653
     PublishedDate: '2026-06-22T14:17:51.113Z'
     LastModifiedDate: '2026-07-14T16:00:16.047Z'
+  - VulnerabilityID: CVE-2026-86140
+    PkgID: libxml2@2.12.7+dfsg+really2.9.14-2.1+deb13u3
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:deb/debian/libxml2@2.12.7%2Bdfsg%2Breally2.9.14-2.1%2Bdeb13u3?arch=amd64&distro=debian-13.6
+      UID: 165365e2b028ae73
+    InstalledVersion: 2.12.7+dfsg+really2.9.14-2.1+deb13u3
+    Status: affected
+    Layer:
+      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
+      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-86140
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:cfa6d56658716a655e232b8ed5cb715cc652d95bada6f72a32d15befa078ac66
+    Title: 'libxml2: libxml2: Arbitrary code execution via stack-based buffer overflow in xmlSnprintfElements'
+    Description: In libxml2 before 2.15.4, xmlSnprintfElements in valid.c has a strcat stack-based buffer overflow.
+    Severity: HIGH
+    CweIDs:
+    - CWE-121
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L
+        V3Score: 8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-86140
+    - https://github.com/GNOME/libxml2/commit/d1686f91dbda141a752200419d35639fd6b38340
+    - https://github.com/GNOME/libxml2/compare/v2.15.3...v2.15.4
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-86140
+    - https://www.cve.org/CVERecord?id=CVE-2026-86140
+    PublishedDate: '2026-09-05T05:17:12.877Z'
+    LastModifiedDate: '2026-09-08T21:14:09.04Z'
+  - VulnerabilityID: CVE-2026-86138
+    PkgID: libxml2@2.12.7+dfsg+really2.9.14-2.1+deb13u3
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:deb/debian/libxml2@2.12.7%2Bdfsg%2Breally2.9.14-2.1%2Bdeb13u3?arch=amd64&distro=debian-13.6
+      UID: 165365e2b028ae73
+    InstalledVersion: 2.12.7+dfsg+really2.9.14-2.1+deb13u3
+    Status: affected
+    Layer:
+      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
+      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-86138
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:865abb0f67a0bed46f32e3c2f572199da867d79f2329cc9d9817084f3bc43efe
+    Title: 'libxml2: libxml2: Arbitrary code execution via heap-based buffer overflow'
+    Description: In libxml2 before 2.15.4, xmlDictAddQString in dict.c has an integer overflow and resultant heap-based buffer overflow.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:L
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-86138
+    - https://github.com/GNOME/libxml2/commit/a4cba4b5b5a8c42e155ed42d2d2a44955465a2e4
+    - https://github.com/GNOME/libxml2/compare/v2.15.3...v2.15.4
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-86138
+    - https://www.cve.org/CVERecord?id=CVE-2026-86138
+    PublishedDate: '2026-09-05T05:17:12.6Z'
+    LastModifiedDate: '2026-09-08T21:14:09.04Z'
+  - VulnerabilityID: CVE-2026-86139
+    PkgID: libxml2@2.12.7+dfsg+really2.9.14-2.1+deb13u3
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:deb/debian/libxml2@2.12.7%2Bdfsg%2Breally2.9.14-2.1%2Bdeb13u3?arch=amd64&distro=debian-13.6
+      UID: 165365e2b028ae73
+    InstalledVersion: 2.12.7+dfsg+really2.9.14-2.1+deb13u3
+    Status: affected
+    Layer:
+      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
+      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-86139
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:ba82dcbb3ef5b17750ef64722007e322a26079e6a80f5ef3f750a48b9cce5a28
+    Title: 'libxml2: libxml2: Integer overflow in xmlURIEscapeStr may lead to arbitrary code execution'
+    Description: In libxml2 before 2.15.4, xmlURIEscapeStr in uri.c has an integer overflow.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      redhat: 2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-86139
+    - https://github.com/GNOME/libxml2/commit/8edbbdb09f24d26a2f900141fddc2b9d014f53b0
+    - https://github.com/GNOME/libxml2/compare/v2.15.3...v2.15.4
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-86139
+    - https://www.cve.org/CVERecord?id=CVE-2026-86139
+    PublishedDate: '2026-09-05T05:17:12.73Z'
+    LastModifiedDate: '2026-09-08T21:14:09.04Z'
+  - VulnerabilityID: CVE-2026-86142
+    PkgID: libxml2@2.12.7+dfsg+really2.9.14-2.1+deb13u3
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:deb/debian/libxml2@2.12.7%2Bdfsg%2Breally2.9.14-2.1%2Bdeb13u3?arch=amd64&distro=debian-13.6
+      UID: 165365e2b028ae73
+    InstalledVersion: 2.12.7+dfsg+really2.9.14-2.1+deb13u3
+    Status: affected
+    Layer:
+      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
+      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-86142
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:c42e7ab4f0041c96c76ddad4294161c42946c716f7cf91345f598c5a305e239a
+    Title: 'libxml2: libxml2: Heap-based buffer overflow in xmlXPtrEval due to xpointer length saturation'
+    Description: In libxml2 before 2.15.4, there is a heap-based buffer overflow in xmlXPtrEvalXPtrPart because of xmlXPtrEval xpointer length saturation.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L
+        V3Score: 6.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-86142
+    - https://github.com/GNOME/libxml2/commit/6b3a736c0edc74ceec3d82f5252499d7911b3a58
+    - https://github.com/GNOME/libxml2/compare/v2.15.3...v2.15.4
+    - https://gitlab.gnome.org/GNOME/libxml2/-/work_items/1113
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-86142
+    - https://www.cve.org/CVERecord?id=CVE-2026-86142
+    PublishedDate: '2026-09-05T05:17:13.133Z'
+    LastModifiedDate: '2026-09-08T21:14:09.04Z'
+  - VulnerabilityID: CVE-2026-86143
+    PkgID: libxml2@2.12.7+dfsg+really2.9.14-2.1+deb13u3
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:deb/debian/libxml2@2.12.7%2Bdfsg%2Breally2.9.14-2.1%2Bdeb13u3?arch=amd64&distro=debian-13.6
+      UID: 165365e2b028ae73
+    InstalledVersion: 2.12.7+dfsg+really2.9.14-2.1+deb13u3
+    Status: affected
+    Layer:
+      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
+      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-86143
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:e807810baf432b17dc250b252dc5b7b56e9e2d20ef55dbd94295453bacf2b50d
+    Title: 'libxml2: libxml2: Data integrity issues due to integer overflow in write callbacks'
+    Description: In xmlIO in libxml2 before 2.15.4, an inconsistency in xmlOutputWriteCallback and xmlBufUse causes negative lengths to reach write callbacks, aka a lack of a check for integer overflow before calling writecallback. This has security relevance for many types of uses of that length value within a callback.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-192
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L
+        V3Score: 6.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-86143
+    - https://github.com/GNOME/libxml2/commit/90f293ba74d28b1d570920382e707586f68ebf35
+    - https://github.com/GNOME/libxml2/compare/v2.15.3...v2.15.4
+    - https://gitlab.gnome.org/GNOME/libxml2/-/work_items/1111
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-86143
+    - https://www.cve.org/CVERecord?id=CVE-2026-86143
+    PublishedDate: '2026-09-05T05:17:13.27Z'
+    LastModifiedDate: '2026-09-08T21:14:09.04Z'
+  - VulnerabilityID: CVE-2026-86144
+    PkgID: libxml2@2.12.7+dfsg+really2.9.14-2.1+deb13u3
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:deb/debian/libxml2@2.12.7%2Bdfsg%2Breally2.9.14-2.1%2Bdeb13u3?arch=amd64&distro=debian-13.6
+      UID: 165365e2b028ae73
+    InstalledVersion: 2.12.7+dfsg+really2.9.14-2.1+deb13u3
+    Status: affected
+    Layer:
+      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
+      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-86144
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:efe1e7aa26d7fac02b185f52a7b55f92048fd0d960b190c93b2d5e1698321b1b
+    Title: 'libxml2: libxml2: Information disclosure, SSRF, or denial of service due to improper parseFlags propagation.'
+    Description: In xinclude in libxml2 before 2.15.4, xmlXIncludeProcess and xmlXIncludeProcessTree do not propagate parseFlags. This has security relevance for, for example, the XML_PARSE_NONET flag, if (without it) a custom resource loader accesses the internet and triggers XML external entity injection, SSRF, or a denial of service (e.g., for an attacker-controlled internet resource that is intentionally slow).
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-669
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:L/I:L/A:L
+        V3Score: 5.6
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-86144
+    - https://github.com/GNOME/libxml2/commit/b63cd517afecb76582dd9488c55e54ceaf50de61
+    - https://github.com/GNOME/libxml2/compare/v2.15.3...v2.15.4
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-86144
+    - https://www.cve.org/CVERecord?id=CVE-2026-86144
+    PublishedDate: '2026-09-05T05:17:13.407Z'
+    LastModifiedDate: '2026-09-08T21:14:09.04Z'
   - VulnerabilityID: CVE-2026-11979
     PkgID: libxml2@2.12.7+dfsg+really2.9.14-2.1+deb13u3
     PkgName: libxml2
@@ -17970,98 +18291,26 @@
       Name: Debian Security Tracker
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
     Fingerprint: sha256:39c2f7fccfd7c00b8ce86c3b1599d1a5a6e3900868221b5a64293afc784d8f79
-    Title: In libxml2 before 2.15.4, xmlFAParsePosCharGroup has an out-of-bounds  ...
+    Title: 'libxml2: libxml2: Denial of Service via out-of-bounds read in xmlFAParsePosCharGroup'
     Description: In libxml2 before 2.15.4, xmlFAParsePosCharGroup has an out-of-bounds read, aka an out-of-bounds read in the NXT macro in xmlregexp.
-    Severity: UNKNOWN
+    Severity: LOW
     CweIDs:
     - CWE-125
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 2.9
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-86137
     - https://github.com/GNOME/libxml2/commit/76fe08d97de88bfaef2f7d5cd27f11954cc5bee2
     - https://github.com/GNOME/libxml2/compare/v2.15.3...v2.15.4
     - https://gitlab.gnome.org/GNOME/libxml2/-/work_items/1099
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-86137
+    - https://www.cve.org/CVERecord?id=CVE-2026-86137
     PublishedDate: '2026-09-05T05:17:11.49Z'
-    LastModifiedDate: '2026-09-05T05:17:11.49Z'
-  - VulnerabilityID: CVE-2026-86138
-    PkgID: libxml2@2.12.7+dfsg+really2.9.14-2.1+deb13u3
-    PkgName: libxml2
-    PkgIdentifier:
-      PURL: pkg:deb/debian/libxml2@2.12.7%2Bdfsg%2Breally2.9.14-2.1%2Bdeb13u3?arch=amd64&distro=debian-13.6
-      UID: 165365e2b028ae73
-    InstalledVersion: 2.12.7+dfsg+really2.9.14-2.1+deb13u3
-    Status: affected
-    Layer:
-      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
-      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-86138
-    DataSource:
-      ID: debian
-      Name: Debian Security Tracker
-      URL: https://salsa.debian.org/security-tracker-team/security-tracker
-    Fingerprint: sha256:865abb0f67a0bed46f32e3c2f572199da867d79f2329cc9d9817084f3bc43efe
-    Title: In libxml2 before 2.15.4, xmlDictAddQString in dict.c has an integer o ...
-    Description: In libxml2 before 2.15.4, xmlDictAddQString in dict.c has an integer overflow and resultant heap-based buffer overflow.
-    Severity: UNKNOWN
-    CweIDs:
-    - CWE-190
-    References:
-    - https://github.com/GNOME/libxml2/commit/a4cba4b5b5a8c42e155ed42d2d2a44955465a2e4
-    - https://github.com/GNOME/libxml2/compare/v2.15.3...v2.15.4
-    PublishedDate: '2026-09-05T05:17:12.6Z'
-    LastModifiedDate: '2026-09-05T05:17:12.6Z'
-  - VulnerabilityID: CVE-2026-86139
-    PkgID: libxml2@2.12.7+dfsg+really2.9.14-2.1+deb13u3
-    PkgName: libxml2
-    PkgIdentifier:
-      PURL: pkg:deb/debian/libxml2@2.12.7%2Bdfsg%2Breally2.9.14-2.1%2Bdeb13u3?arch=amd64&distro=debian-13.6
-      UID: 165365e2b028ae73
-    InstalledVersion: 2.12.7+dfsg+really2.9.14-2.1+deb13u3
-    Status: affected
-    Layer:
-      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
-      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-86139
-    DataSource:
-      ID: debian
-      Name: Debian Security Tracker
-      URL: https://salsa.debian.org/security-tracker-team/security-tracker
-    Fingerprint: sha256:ba82dcbb3ef5b17750ef64722007e322a26079e6a80f5ef3f750a48b9cce5a28
-    Title: In libxml2 before 2.15.4, xmlURIEscapeStr in uri.c has an integer over ...
-    Description: In libxml2 before 2.15.4, xmlURIEscapeStr in uri.c has an integer overflow.
-    Severity: UNKNOWN
-    CweIDs:
-    - CWE-190
-    References:
-    - https://github.com/GNOME/libxml2/commit/8edbbdb09f24d26a2f900141fddc2b9d014f53b0
-    - https://github.com/GNOME/libxml2/compare/v2.15.3...v2.15.4
-    PublishedDate: '2026-09-05T05:17:12.73Z'
-    LastModifiedDate: '2026-09-05T05:17:12.73Z'
-  - VulnerabilityID: CVE-2026-86140
-    PkgID: libxml2@2.12.7+dfsg+really2.9.14-2.1+deb13u3
-    PkgName: libxml2
-    PkgIdentifier:
-      PURL: pkg:deb/debian/libxml2@2.12.7%2Bdfsg%2Breally2.9.14-2.1%2Bdeb13u3?arch=amd64&distro=debian-13.6
-      UID: 165365e2b028ae73
-    InstalledVersion: 2.12.7+dfsg+really2.9.14-2.1+deb13u3
-    Status: affected
-    Layer:
-      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
-      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-86140
-    DataSource:
-      ID: debian
-      Name: Debian Security Tracker
-      URL: https://salsa.debian.org/security-tracker-team/security-tracker
-    Fingerprint: sha256:cfa6d56658716a655e232b8ed5cb715cc652d95bada6f72a32d15befa078ac66
-    Title: In libxml2 before 2.15.4, xmlSnprintfElements in valid.c has a strcat  ...
-    Description: In libxml2 before 2.15.4, xmlSnprintfElements in valid.c has a strcat stack-based buffer overflow.
-    Severity: UNKNOWN
-    CweIDs:
-    - CWE-121
-    References:
-    - https://github.com/GNOME/libxml2/commit/d1686f91dbda141a752200419d35639fd6b38340
-    - https://github.com/GNOME/libxml2/compare/v2.15.3...v2.15.4
-    PublishedDate: '2026-09-05T05:17:12.877Z'
-    LastModifiedDate: '2026-09-05T05:17:12.877Z'
+    LastModifiedDate: '2026-09-08T21:14:09.04Z'
   - VulnerabilityID: CVE-2026-86141
     PkgID: libxml2@2.12.7+dfsg+really2.9.14-2.1+deb13u3
     PkgName: libxml2
@@ -18079,100 +18328,26 @@
       Name: Debian Security Tracker
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
     Fingerprint: sha256:60b6ccc56acad06ac98201a09347cfe02615c23a981477e4dc758a4baf62627c
-    Title: xmlregexp in libxml2 before 2.15.4 has a NULL pointer dereference in x ...
+    Title: 'libxml2: libxml2: Denial of Service due to NULL pointer dereference in xmlRegNewParserCtxt'
     Description: xmlregexp in libxml2 before 2.15.4 has a NULL pointer dereference in xmlRegNewParserCtxt after a strdup failure, i.e., it does not calculate a string length after NULL checking.
-    Severity: UNKNOWN
+    Severity: LOW
     CweIDs:
     - CWE-252
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 2.9
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-86141
     - https://github.com/GNOME/libxml2/commit/e89a8aae4c9b40cdafcf66b3f9e57c62db37bb55
     - https://github.com/GNOME/libxml2/compare/v2.15.3...v2.15.4
     - https://gitlab.gnome.org/GNOME/libxml2/-/work_items/1107
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-86141
+    - https://www.cve.org/CVERecord?id=CVE-2026-86141
     PublishedDate: '2026-09-05T05:17:13.007Z'
-    LastModifiedDate: '2026-09-05T05:17:13.007Z'
-  - VulnerabilityID: CVE-2026-86142
-    PkgID: libxml2@2.12.7+dfsg+really2.9.14-2.1+deb13u3
-    PkgName: libxml2
-    PkgIdentifier:
-      PURL: pkg:deb/debian/libxml2@2.12.7%2Bdfsg%2Breally2.9.14-2.1%2Bdeb13u3?arch=amd64&distro=debian-13.6
-      UID: 165365e2b028ae73
-    InstalledVersion: 2.12.7+dfsg+really2.9.14-2.1+deb13u3
-    Status: affected
-    Layer:
-      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
-      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-86142
-    DataSource:
-      ID: debian
-      Name: Debian Security Tracker
-      URL: https://salsa.debian.org/security-tracker-team/security-tracker
-    Fingerprint: sha256:c42e7ab4f0041c96c76ddad4294161c42946c716f7cf91345f598c5a305e239a
-    Title: In libxml2 before 2.15.4, there is a heap-based buffer overflow in xml ...
-    Description: In libxml2 before 2.15.4, there is a heap-based buffer overflow in xmlXPtrEvalXPtrPart because of xmlXPtrEval xpointer length saturation.
-    Severity: UNKNOWN
-    CweIDs:
-    - CWE-122
-    References:
-    - https://github.com/GNOME/libxml2/commit/6b3a736c0edc74ceec3d82f5252499d7911b3a58
-    - https://github.com/GNOME/libxml2/compare/v2.15.3...v2.15.4
-    - https://gitlab.gnome.org/GNOME/libxml2/-/work_items/1113
-    PublishedDate: '2026-09-05T05:17:13.133Z'
-    LastModifiedDate: '2026-09-05T05:17:13.133Z'
-  - VulnerabilityID: CVE-2026-86143
-    PkgID: libxml2@2.12.7+dfsg+really2.9.14-2.1+deb13u3
-    PkgName: libxml2
-    PkgIdentifier:
-      PURL: pkg:deb/debian/libxml2@2.12.7%2Bdfsg%2Breally2.9.14-2.1%2Bdeb13u3?arch=amd64&distro=debian-13.6
-      UID: 165365e2b028ae73
-    InstalledVersion: 2.12.7+dfsg+really2.9.14-2.1+deb13u3
-    Status: affected
-    Layer:
-      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
-      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-86143
-    DataSource:
-      ID: debian
-      Name: Debian Security Tracker
-      URL: https://salsa.debian.org/security-tracker-team/security-tracker
-    Fingerprint: sha256:e807810baf432b17dc250b252dc5b7b56e9e2d20ef55dbd94295453bacf2b50d
-    Title: In xmlIO in libxml2 before 2.15.4, an inconsistency in xmlOutputWriteC ...
-    Description: In xmlIO in libxml2 before 2.15.4, an inconsistency in xmlOutputWriteCallback and xmlBufUse causes negative lengths to reach write callbacks, aka a lack of a check for integer overflow before calling writecallback. This has security relevance for many types of uses of that length value within a callback.
-    Severity: UNKNOWN
-    CweIDs:
-    - CWE-192
-    References:
-    - https://github.com/GNOME/libxml2/commit/90f293ba74d28b1d570920382e707586f68ebf35
-    - https://github.com/GNOME/libxml2/compare/v2.15.3...v2.15.4
-    - https://gitlab.gnome.org/GNOME/libxml2/-/work_items/1111
-    PublishedDate: '2026-09-05T05:17:13.27Z'
-    LastModifiedDate: '2026-09-05T05:17:13.27Z'
-  - VulnerabilityID: CVE-2026-86144
-    PkgID: libxml2@2.12.7+dfsg+really2.9.14-2.1+deb13u3
-    PkgName: libxml2
-    PkgIdentifier:
-      PURL: pkg:deb/debian/libxml2@2.12.7%2Bdfsg%2Breally2.9.14-2.1%2Bdeb13u3?arch=amd64&distro=debian-13.6
-      UID: 165365e2b028ae73
-    InstalledVersion: 2.12.7+dfsg+really2.9.14-2.1+deb13u3
-    Status: affected
-    Layer:
-      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
-      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-86144
-    DataSource:
-      ID: debian
-      Name: Debian Security Tracker
-      URL: https://salsa.debian.org/security-tracker-team/security-tracker
-    Fingerprint: sha256:efe1e7aa26d7fac02b185f52a7b55f92048fd0d960b190c93b2d5e1698321b1b
-    Title: In xinclude in libxml2 before 2.15.4, xmlXIncludeProcess and xmlXInclu ...
-    Description: In xinclude in libxml2 before 2.15.4, xmlXIncludeProcess and xmlXIncludeProcessTree do not propagate parseFlags. This has security relevance for, for example, the XML_PARSE_NONET flag, if (without it) a custom resource loader accesses the internet and triggers XML external entity injection, SSRF, or a denial of service (e.g., for an attacker-controlled internet resource that is intentionally slow).
-    Severity: UNKNOWN
-    CweIDs:
-    - CWE-669
-    References:
-    - https://github.com/GNOME/libxml2/commit/b63cd517afecb76582dd9488c55e54ceaf50de61
-    - https://github.com/GNOME/libxml2/compare/v2.15.3...v2.15.4
-    PublishedDate: '2026-09-05T05:17:13.407Z'
-    LastModifiedDate: '2026-09-05T05:17:13.407Z'
+    LastModifiedDate: '2026-09-08T21:14:09.04Z'
   - VulnerabilityID: CVE-2012-2663
     PkgID: libxtables12@1.8.11-2
     PkgName: libxtables12
@@ -18279,6 +18454,7 @@
     Severity: MEDIUM
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:H/A:H
@@ -18286,6 +18462,7 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-19499
     - https://nvd.nist.gov/vuln/detail/CVE-2026-19499
+    - https://ubuntu.com/security/notices/USN-8737-1
     - https://www.cve.org/CVERecord?id=CVE-2026-19499
   - VulnerabilityID: CVE-2026-19542
     PkgID: locales@2.41-12+deb13u3
@@ -18309,6 +18486,7 @@
     Severity: MEDIUM
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:L
@@ -18316,6 +18494,7 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-19542
     - https://nvd.nist.gov/vuln/detail/CVE-2026-19542
+    - https://ubuntu.com/security/notices/USN-8737-1
     - https://www.cve.org/CVERecord?id=CVE-2026-19542
   - VulnerabilityID: CVE-2026-5435
     PkgID: locales@2.41-12+deb13u3
@@ -18578,6 +18757,7 @@
     - CWE-908
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
@@ -18586,7 +18766,9 @@
     - https://access.redhat.com/security/cve/CVE-2026-6368
     - https://nvd.nist.gov/vuln/detail/CVE-2026-6368
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34090
+    - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2026-0014
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2026-0014;h=1e9a0039f07471ddfe6816e5df04875bec409f92;hb=HEAD
+    - https://ubuntu.com/security/notices/USN-8737-1
     - https://www.cve.org/CVERecord?id=CVE-2026-6368
     PublishedDate: '2026-08-10T19:17:30.713Z'
     LastModifiedDate: '2026-09-03T16:43:15.293Z'
@@ -18614,6 +18796,7 @@
     - CWE-121
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -18622,6 +18805,8 @@
     - https://access.redhat.com/security/cve/CVE-2026-6791
     - https://nvd.nist.gov/vuln/detail/CVE-2026-6791
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34091
+    - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2026-0013
+    - https://ubuntu.com/security/notices/USN-8737-1
     - https://www.cve.org/CVERecord?id=CVE-2026-6791
     PublishedDate: '2026-08-10T19:17:30.877Z'
     LastModifiedDate: '2026-09-03T16:43:15.293Z'
@@ -18647,6 +18832,7 @@
     Severity: MEDIUM
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -18654,6 +18840,7 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-77117
     - https://nvd.nist.gov/vuln/detail/CVE-2026-77117
+    - https://ubuntu.com/security/notices/USN-8737-1
     - https://www.cve.org/CVERecord?id=CVE-2026-77117
   - VulnerabilityID: CVE-2026-80489
     PkgID: locales@2.41-12+deb13u3
@@ -18677,6 +18864,7 @@
     Severity: MEDIUM
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -18684,6 +18872,7 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-80489
     - https://nvd.nist.gov/vuln/detail/CVE-2026-80489
+    - https://ubuntu.com/security/notices/USN-8737-1
     - https://www.cve.org/CVERecord?id=CVE-2026-80489
   - VulnerabilityID: CVE-2010-4756
     PkgID: locales@2.41-12+deb13u3
@@ -23676,7 +23865,7 @@
     Fingerprint: sha256:030a9dc3476f8ad6029fb847e6f6236ea979c72c2bb1c83c79a6ad7ded0667b4
     Title: 'perl: Perl: Incorrect regular expression processing via large regular expressions'
     Description: |-
-      Perl versions through 5.43.9 produce silently incorrect regular expression matches when an alternation of more than 65535 fixed string branches is compiled into a trie in Perl_study_chunk.
+      Perl versions before 5.40.5-RC1, from 5.41.0 before 5.42.3-RC1, from 5.43.0 before 5.43.10 produce silently incorrect regular expression matches when an alternation of more than 65535 fixed string branches is compiled into a trie in Perl_study_chunk.
 
       When such branches are combined into a trie, the delta between the first branch and the shared tail is stored in a 16-bit field. A branch count above 65535 overflows the field, and the trie's match decision table is truncated with no warning or error.
 
@@ -23708,7 +23897,7 @@
     - https://ubuntu.com/security/notices/USN-8684-1
     - https://www.cve.org/CVERecord?id=CVE-2026-13221
     PublishedDate: '2026-07-13T17:16:48.923Z'
-    LastModifiedDate: '2026-07-14T18:15:18.85Z'
+    LastModifiedDate: '2026-09-08T22:17:37.217Z'
   - VulnerabilityID: CVE-2026-42496
     PkgID: perl@5.40.1-6
     PkgName: perl
@@ -23798,7 +23987,7 @@
     Fingerprint: sha256:dea3fbd1dfc1665a1e3b58d11bad424c2af96e23154f5de3ee32664d633c0c95
     Title: 'perl: Perl: Heap buffer overflow when compiling regular expressions on 32-bit builds'
     Description: |-
-      Perl versions through 5.43.10 have a heap buffer overflow when compiling regular expressions with a repeated fixed string on 32-bit builds.
+      Perl versions before 5.40.5-RC1, from 5.41.0 before 5.42.3-RC1, from 5.43.0 before 5.43.11 have a heap buffer overflow when compiling regular expressions with a repeated fixed string on 32-bit builds.
 
       Perl_study_chunk in regcomp_study.c checked the size of the joined substring buffer in characters rather than bytes. For a quantified fixed substring with a large minimum count, the byte length mincount * l could overflow SSize_t, producing an undersized SvGROW allocation; the subsequent copy writes past the end of the buffer.
 
@@ -23829,7 +24018,7 @@
     - https://ubuntu.com/security/notices/USN-8467-1
     - https://www.cve.org/CVERecord?id=CVE-2026-8376
     PublishedDate: '2026-05-26T00:16:57.15Z'
-    LastModifiedDate: '2026-07-23T11:10:00.12Z'
+    LastModifiedDate: '2026-09-08T22:19:18.373Z'
   - VulnerabilityID: CVE-2026-42497
     PkgID: perl@5.40.1-6
     PkgName: perl
@@ -23975,7 +24164,7 @@
     Fingerprint: sha256:4237f8e5b0b2d36e3c5c497eed385bb0c1672fbee3eba1b1b444de87dfd89959
     Title: 'perl: Perl: Information disclosure via integer overflow in pack/unpack operations'
     Description: |-
-      Perl versions through 5.43.10 have an integer overflow in S_measure_struct leading to an out-of-bounds heap read in pack and unpack.
+      Perl versions before 5.40.5-RC1, from 5.41.0 before 5.42.3-RC1, from 5.43.0 before 5.43.11 have an integer overflow in S_measure_struct leading to an out-of-bounds heap read in pack and unpack.
 
       S_measure_struct adds each item's size times its repeat count to a running total with no overflow check, so a large repeat count in a pack or unpack template wraps the signed SSize_t total negative. The @, X, and x position codes then guard their moves with a signed length comparison that passes when the length is negative, advancing the buffer pointer out of bounds.
 
@@ -24008,7 +24197,7 @@
     - https://ubuntu.com/security/notices/USN-8684-1
     - https://www.cve.org/CVERecord?id=CVE-2026-57432
     PublishedDate: '2026-07-13T17:17:55.67Z'
-    LastModifiedDate: '2026-07-14T18:04:48.367Z'
+    LastModifiedDate: '2026-09-08T22:18:30.64Z'
   - VulnerabilityID: CVE-2026-57433
     PkgID: perl@5.40.1-6
     PkgName: perl
@@ -24244,6 +24433,7 @@
     - CWE-787
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H
@@ -24255,9 +24445,10 @@
     - https://github.com/Perl/perl5/commit/54cf3d44cbbedd17d774e9a37921963e8fd5d0cb.patch
     - https://github.com/Perl/perl5/commit/568e6fd238867bb9e99fa3f47cba3169009239e0.patch
     - https://nvd.nist.gov/vuln/detail/CVE-2026-15534
+    - https://ubuntu.com/security/notices/USN-8736-1
     - https://www.cve.org/CVERecord?id=CVE-2026-15534
     PublishedDate: '2026-08-09T18:16:42.8Z'
-    LastModifiedDate: '2026-08-28T15:42:20.06Z'
+    LastModifiedDate: '2026-09-08T22:17:38.113Z'
   - VulnerabilityID: CVE-2026-19487
     PkgID: perl@5.40.1-6
     PkgName: perl
@@ -24292,6 +24483,7 @@
     - CWE-670
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
@@ -24301,7 +24493,9 @@
     - https://access.redhat.com/security/cve/CVE-2026-19487
     - https://github.com/Perl/perl5/commit/1a21abacaf6f684928bae8baaa153733c8c238eb.patch
     - https://github.com/Perl/perl5/issues/22892
+    - https://lists.security.metacpan.org/cve-announce/msg/42658992/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-19487
+    - https://ubuntu.com/security/notices/USN-8736-1
     - https://www.cve.org/CVERecord?id=CVE-2026-19487
     PublishedDate: '2026-08-13T16:17:59.44Z'
     LastModifiedDate: '2026-08-28T15:42:20.06Z'
@@ -24538,7 +24732,7 @@
     Fingerprint: sha256:82f1086d2430399316bb08dc4368213e613026e14b3bececda1f4821ffacb061
     Title: 'perl: Perl: Incorrect regular expression processing via large regular expressions'
     Description: |-
-      Perl versions through 5.43.9 produce silently incorrect regular expression matches when an alternation of more than 65535 fixed string branches is compiled into a trie in Perl_study_chunk.
+      Perl versions before 5.40.5-RC1, from 5.41.0 before 5.42.3-RC1, from 5.43.0 before 5.43.10 produce silently incorrect regular expression matches when an alternation of more than 65535 fixed string branches is compiled into a trie in Perl_study_chunk.
 
       When such branches are combined into a trie, the delta between the first branch and the shared tail is stored in a 16-bit field. A branch count above 65535 overflows the field, and the trie's match decision table is truncated with no warning or error.
 
@@ -24570,7 +24764,7 @@
     - https://ubuntu.com/security/notices/USN-8684-1
     - https://www.cve.org/CVERecord?id=CVE-2026-13221
     PublishedDate: '2026-07-13T17:16:48.923Z'
-    LastModifiedDate: '2026-07-14T18:15:18.85Z'
+    LastModifiedDate: '2026-09-08T22:17:37.217Z'
   - VulnerabilityID: CVE-2026-42496
     PkgID: perl-base@5.40.1-6
     PkgName: perl-base
@@ -24660,7 +24854,7 @@
     Fingerprint: sha256:11bf448ea2c6771883f3bc0a8707c9c25aef182629e8103970be4280a463dab1
     Title: 'perl: Perl: Heap buffer overflow when compiling regular expressions on 32-bit builds'
     Description: |-
-      Perl versions through 5.43.10 have a heap buffer overflow when compiling regular expressions with a repeated fixed string on 32-bit builds.
+      Perl versions before 5.40.5-RC1, from 5.41.0 before 5.42.3-RC1, from 5.43.0 before 5.43.11 have a heap buffer overflow when compiling regular expressions with a repeated fixed string on 32-bit builds.
 
       Perl_study_chunk in regcomp_study.c checked the size of the joined substring buffer in characters rather than bytes. For a quantified fixed substring with a large minimum count, the byte length mincount * l could overflow SSize_t, producing an undersized SvGROW allocation; the subsequent copy writes past the end of the buffer.
 
@@ -24691,7 +24885,7 @@
     - https://ubuntu.com/security/notices/USN-8467-1
     - https://www.cve.org/CVERecord?id=CVE-2026-8376
     PublishedDate: '2026-05-26T00:16:57.15Z'
-    LastModifiedDate: '2026-07-23T11:10:00.12Z'
+    LastModifiedDate: '2026-09-08T22:19:18.373Z'
   - VulnerabilityID: CVE-2026-42497
     PkgID: perl-base@5.40.1-6
     PkgName: perl-base
@@ -24837,7 +25031,7 @@
     Fingerprint: sha256:37984e5fac181443044819a6c843b3adc6022194fdc8a7b01f2b089c7561bb1a
     Title: 'perl: Perl: Information disclosure via integer overflow in pack/unpack operations'
     Description: |-
-      Perl versions through 5.43.10 have an integer overflow in S_measure_struct leading to an out-of-bounds heap read in pack and unpack.
+      Perl versions before 5.40.5-RC1, from 5.41.0 before 5.42.3-RC1, from 5.43.0 before 5.43.11 have an integer overflow in S_measure_struct leading to an out-of-bounds heap read in pack and unpack.
 
       S_measure_struct adds each item's size times its repeat count to a running total with no overflow check, so a large repeat count in a pack or unpack template wraps the signed SSize_t total negative. The @, X, and x position codes then guard their moves with a signed length comparison that passes when the length is negative, advancing the buffer pointer out of bounds.
 
@@ -24870,7 +25064,7 @@
     - https://ubuntu.com/security/notices/USN-8684-1
     - https://www.cve.org/CVERecord?id=CVE-2026-57432
     PublishedDate: '2026-07-13T17:17:55.67Z'
-    LastModifiedDate: '2026-07-14T18:04:48.367Z'
+    LastModifiedDate: '2026-09-08T22:18:30.64Z'
   - VulnerabilityID: CVE-2026-57433
     PkgID: perl-base@5.40.1-6
     PkgName: perl-base
@@ -25106,6 +25300,7 @@
     - CWE-787
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H
@@ -25117,9 +25312,10 @@
     - https://github.com/Perl/perl5/commit/54cf3d44cbbedd17d774e9a37921963e8fd5d0cb.patch
     - https://github.com/Perl/perl5/commit/568e6fd238867bb9e99fa3f47cba3169009239e0.patch
     - https://nvd.nist.gov/vuln/detail/CVE-2026-15534
+    - https://ubuntu.com/security/notices/USN-8736-1
     - https://www.cve.org/CVERecord?id=CVE-2026-15534
     PublishedDate: '2026-08-09T18:16:42.8Z'
-    LastModifiedDate: '2026-08-28T15:42:20.06Z'
+    LastModifiedDate: '2026-09-08T22:17:38.113Z'
   - VulnerabilityID: CVE-2026-19487
     PkgID: perl-base@5.40.1-6
     PkgName: perl-base
@@ -25154,6 +25350,7 @@
     - CWE-670
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
@@ -25163,7 +25360,9 @@
     - https://access.redhat.com/security/cve/CVE-2026-19487
     - https://github.com/Perl/perl5/commit/1a21abacaf6f684928bae8baaa153733c8c238eb.patch
     - https://github.com/Perl/perl5/issues/22892
+    - https://lists.security.metacpan.org/cve-announce/msg/42658992/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-19487
+    - https://ubuntu.com/security/notices/USN-8736-1
     - https://www.cve.org/CVERecord?id=CVE-2026-19487
     PublishedDate: '2026-08-13T16:17:59.44Z'
     LastModifiedDate: '2026-08-28T15:42:20.06Z'
@@ -25400,7 +25599,7 @@
     Fingerprint: sha256:ac3306d50514754f82e19a4986888c27896747a40c2db5e140c4585b058da2e7
     Title: 'perl: Perl: Incorrect regular expression processing via large regular expressions'
     Description: |-
-      Perl versions through 5.43.9 produce silently incorrect regular expression matches when an alternation of more than 65535 fixed string branches is compiled into a trie in Perl_study_chunk.
+      Perl versions before 5.40.5-RC1, from 5.41.0 before 5.42.3-RC1, from 5.43.0 before 5.43.10 produce silently incorrect regular expression matches when an alternation of more than 65535 fixed string branches is compiled into a trie in Perl_study_chunk.
 
       When such branches are combined into a trie, the delta between the first branch and the shared tail is stored in a 16-bit field. A branch count above 65535 overflows the field, and the trie's match decision table is truncated with no warning or error.
 
@@ -25432,7 +25631,7 @@
     - https://ubuntu.com/security/notices/USN-8684-1
     - https://www.cve.org/CVERecord?id=CVE-2026-13221
     PublishedDate: '2026-07-13T17:16:48.923Z'
-    LastModifiedDate: '2026-07-14T18:15:18.85Z'
+    LastModifiedDate: '2026-09-08T22:17:37.217Z'
   - VulnerabilityID: CVE-2026-42496
     PkgID: perl-modules-5.40@5.40.1-6
     PkgName: perl-modules-5.40
@@ -25522,7 +25721,7 @@
     Fingerprint: sha256:a2c1e1909aa52ce9c81b5805d06e4da7566aa500ecb0acbaaef745b6088461bc
     Title: 'perl: Perl: Heap buffer overflow when compiling regular expressions on 32-bit builds'
     Description: |-
-      Perl versions through 5.43.10 have a heap buffer overflow when compiling regular expressions with a repeated fixed string on 32-bit builds.
+      Perl versions before 5.40.5-RC1, from 5.41.0 before 5.42.3-RC1, from 5.43.0 before 5.43.11 have a heap buffer overflow when compiling regular expressions with a repeated fixed string on 32-bit builds.
 
       Perl_study_chunk in regcomp_study.c checked the size of the joined substring buffer in characters rather than bytes. For a quantified fixed substring with a large minimum count, the byte length mincount * l could overflow SSize_t, producing an undersized SvGROW allocation; the subsequent copy writes past the end of the buffer.
 
@@ -25553,7 +25752,7 @@
     - https://ubuntu.com/security/notices/USN-8467-1
     - https://www.cve.org/CVERecord?id=CVE-2026-8376
     PublishedDate: '2026-05-26T00:16:57.15Z'
-    LastModifiedDate: '2026-07-23T11:10:00.12Z'
+    LastModifiedDate: '2026-09-08T22:19:18.373Z'
   - VulnerabilityID: CVE-2026-42497
     PkgID: perl-modules-5.40@5.40.1-6
     PkgName: perl-modules-5.40
@@ -25699,7 +25898,7 @@
     Fingerprint: sha256:16e9690a21a646dd86e9b874ffdbafa99bec50ecf0a76cab79ea49d992c990ea
     Title: 'perl: Perl: Information disclosure via integer overflow in pack/unpack operations'
     Description: |-
-      Perl versions through 5.43.10 have an integer overflow in S_measure_struct leading to an out-of-bounds heap read in pack and unpack.
+      Perl versions before 5.40.5-RC1, from 5.41.0 before 5.42.3-RC1, from 5.43.0 before 5.43.11 have an integer overflow in S_measure_struct leading to an out-of-bounds heap read in pack and unpack.
 
       S_measure_struct adds each item's size times its repeat count to a running total with no overflow check, so a large repeat count in a pack or unpack template wraps the signed SSize_t total negative. The @, X, and x position codes then guard their moves with a signed length comparison that passes when the length is negative, advancing the buffer pointer out of bounds.
 
@@ -25732,7 +25931,7 @@
     - https://ubuntu.com/security/notices/USN-8684-1
     - https://www.cve.org/CVERecord?id=CVE-2026-57432
     PublishedDate: '2026-07-13T17:17:55.67Z'
-    LastModifiedDate: '2026-07-14T18:04:48.367Z'
+    LastModifiedDate: '2026-09-08T22:18:30.64Z'
   - VulnerabilityID: CVE-2026-57433
     PkgID: perl-modules-5.40@5.40.1-6
     PkgName: perl-modules-5.40
@@ -25968,6 +26167,7 @@
     - CWE-787
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H
@@ -25979,9 +26179,10 @@
     - https://github.com/Perl/perl5/commit/54cf3d44cbbedd17d774e9a37921963e8fd5d0cb.patch
     - https://github.com/Perl/perl5/commit/568e6fd238867bb9e99fa3f47cba3169009239e0.patch
     - https://nvd.nist.gov/vuln/detail/CVE-2026-15534
+    - https://ubuntu.com/security/notices/USN-8736-1
     - https://www.cve.org/CVERecord?id=CVE-2026-15534
     PublishedDate: '2026-08-09T18:16:42.8Z'
-    LastModifiedDate: '2026-08-28T15:42:20.06Z'
+    LastModifiedDate: '2026-09-08T22:17:38.113Z'
   - VulnerabilityID: CVE-2026-19487
     PkgID: perl-modules-5.40@5.40.1-6
     PkgName: perl-modules-5.40
@@ -26016,6 +26217,7 @@
     - CWE-670
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
@@ -26025,7 +26227,9 @@
     - https://access.redhat.com/security/cve/CVE-2026-19487
     - https://github.com/Perl/perl5/commit/1a21abacaf6f684928bae8baaa153733c8c238eb.patch
     - https://github.com/Perl/perl5/issues/22892
+    - https://lists.security.metacpan.org/cve-announce/msg/42658992/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-19487
+    - https://ubuntu.com/security/notices/USN-8736-1
     - https://www.cve.org/CVERecord?id=CVE-2026-19487
     PublishedDate: '2026-08-13T16:17:59.44Z'
     LastModifiedDate: '2026-08-28T15:42:20.06Z'
@@ -26292,7 +26496,7 @@
       Name: Debian Security Tracker
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
     Fingerprint: sha256:8c2da85dc4086c47b301bec5fefe688b59428904bb040108a28eb7a984831e28
-    Title: Sudo through 1.9.17p2 fails to apply intercept policy checks to the ex ...
+    Title: 'sudo: Sudo: Policy bypass allows unauthorized program execution via execveat'
     Description: Sudo through 1.9.17p2 fails to apply intercept policy checks to the execveat system call in ptrace-based intercept mode. Users permitted to run specific commands can execute denied programs by calling execveat directly or through fexecve, bypassing policy enforcement and logging.
     Severity: LOW
     CweIDs:
@@ -26300,11 +26504,18 @@
     VendorSeverity:
       azure: 3
       debian: 1
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-82474
     - https://github.com/sudo-project/sudo
     - https://github.com/sudo-project/sudo/blob/v1.9.17p2/src/exec_ptrace.c
     - https://github.com/sudo-project/sudo/commit/71fbe42dcd5a1c8f799540583a2dfb2ae6221edf
     - https://nvd.nist.gov/vuln/detail/CVE-2026-82474
+    - https://www.cve.org/CVERecord?id=CVE-2026-82474
     - https://www.vulncheck.com/advisories/sudo-through-1.9-17p2-intercept-policy-bypass-via-execveat
     PublishedDate: '2026-08-29T17:17:59.91Z'
     LastModifiedDate: '2026-09-02T18:21:27.45Z'
@@ -43174,17 +43385,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:62406
     - https://access.redhat.com/errata/RHSA-2026:63136
     - https://access.redhat.com/security/cve/CVE-2026-33818
-    - https://bugzilla.redhat.com/2467809
-    - https://bugzilla.redhat.com/2467820
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
-    - https://bugzilla.redhat.com/2515827
     - https://bugzilla.redhat.com/2515838
     - https://bugzilla.redhat.com/2515839
-    - https://bugzilla.redhat.com/2515840
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515815
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515820
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515838
@@ -43194,7 +43400,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56858
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/9/ALSA-2026-62406.html
+    - https://errata.almalinux.org/9/ALSA-2026-63136.html
     - https://errata.rockylinux.org/RLSA-2026:63136
     - https://go.dev/cl/814980
     - https://go.dev/issue/80405
@@ -44040,17 +44246,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
         V3Score: 8.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:62406
     - https://access.redhat.com/errata/RHSA-2026:63136
     - https://access.redhat.com/security/cve/CVE-2026-56858
-    - https://bugzilla.redhat.com/2467809
-    - https://bugzilla.redhat.com/2467820
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
-    - https://bugzilla.redhat.com/2515827
     - https://bugzilla.redhat.com/2515838
     - https://bugzilla.redhat.com/2515839
-    - https://bugzilla.redhat.com/2515840
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515815
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515820
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515838
@@ -44060,7 +44261,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56858
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/9/ALSA-2026-62406.html
+    - https://errata.almalinux.org/9/ALSA-2026-63136.html
     - https://errata.rockylinux.org/RLSA-2026:63136
     - https://go.dev/cl/807100
     - https://go.dev/issue/80435
@@ -44191,17 +44392,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:62406
     - https://access.redhat.com/errata/RHSA-2026:63136
     - https://access.redhat.com/security/cve/CVE-2026-56860
-    - https://bugzilla.redhat.com/2467809
-    - https://bugzilla.redhat.com/2467820
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
-    - https://bugzilla.redhat.com/2515827
     - https://bugzilla.redhat.com/2515838
     - https://bugzilla.redhat.com/2515839
-    - https://bugzilla.redhat.com/2515840
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515815
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515820
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515838
@@ -44211,7 +44407,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56858
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/9/ALSA-2026-62406.html
+    - https://errata.almalinux.org/9/ALSA-2026-63136.html
     - https://errata.rockylinux.org/RLSA-2026:63136
     - https://go.dev/cl/803681
     - https://go.dev/issue/80494
@@ -44263,17 +44459,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:62406
     - https://access.redhat.com/errata/RHSA-2026:63136
     - https://access.redhat.com/security/cve/CVE-2026-56862
-    - https://bugzilla.redhat.com/2467809
-    - https://bugzilla.redhat.com/2467820
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
-    - https://bugzilla.redhat.com/2515827
     - https://bugzilla.redhat.com/2515838
     - https://bugzilla.redhat.com/2515839
-    - https://bugzilla.redhat.com/2515840
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515815
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515820
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515838
@@ -44283,7 +44474,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56858
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/9/ALSA-2026-62406.html
+    - https://errata.almalinux.org/9/ALSA-2026-63136.html
     - https://errata.rockylinux.org/RLSA-2026:63136
     - https://go.dev/cl/804261
     - https://go.dev/issue/80528
@@ -47100,17 +47291,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:62406
     - https://access.redhat.com/errata/RHSA-2026:63136
     - https://access.redhat.com/security/cve/CVE-2026-33818
-    - https://bugzilla.redhat.com/2467809
-    - https://bugzilla.redhat.com/2467820
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
-    - https://bugzilla.redhat.com/2515827
     - https://bugzilla.redhat.com/2515838
     - https://bugzilla.redhat.com/2515839
-    - https://bugzilla.redhat.com/2515840
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515815
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515820
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515838
@@ -47120,7 +47306,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56858
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/9/ALSA-2026-62406.html
+    - https://errata.almalinux.org/9/ALSA-2026-63136.html
     - https://errata.rockylinux.org/RLSA-2026:63136
     - https://go.dev/cl/814980
     - https://go.dev/issue/80405
@@ -47966,17 +48152,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
         V3Score: 8.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:62406
     - https://access.redhat.com/errata/RHSA-2026:63136
     - https://access.redhat.com/security/cve/CVE-2026-56858
-    - https://bugzilla.redhat.com/2467809
-    - https://bugzilla.redhat.com/2467820
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
-    - https://bugzilla.redhat.com/2515827
     - https://bugzilla.redhat.com/2515838
     - https://bugzilla.redhat.com/2515839
-    - https://bugzilla.redhat.com/2515840
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515815
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515820
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515838
@@ -47986,7 +48167,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56858
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/9/ALSA-2026-62406.html
+    - https://errata.almalinux.org/9/ALSA-2026-63136.html
     - https://errata.rockylinux.org/RLSA-2026:63136
     - https://go.dev/cl/807100
     - https://go.dev/issue/80435
@@ -48117,17 +48298,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:62406
     - https://access.redhat.com/errata/RHSA-2026:63136
     - https://access.redhat.com/security/cve/CVE-2026-56860
-    - https://bugzilla.redhat.com/2467809
-    - https://bugzilla.redhat.com/2467820
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
-    - https://bugzilla.redhat.com/2515827
     - https://bugzilla.redhat.com/2515838
     - https://bugzilla.redhat.com/2515839
-    - https://bugzilla.redhat.com/2515840
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515815
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515820
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515838
@@ -48137,7 +48313,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56858
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/9/ALSA-2026-62406.html
+    - https://errata.almalinux.org/9/ALSA-2026-63136.html
     - https://errata.rockylinux.org/RLSA-2026:63136
     - https://go.dev/cl/803681
     - https://go.dev/issue/80494
@@ -48189,17 +48365,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:62406
     - https://access.redhat.com/errata/RHSA-2026:63136
     - https://access.redhat.com/security/cve/CVE-2026-56862
-    - https://bugzilla.redhat.com/2467809
-    - https://bugzilla.redhat.com/2467820
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
-    - https://bugzilla.redhat.com/2515827
     - https://bugzilla.redhat.com/2515838
     - https://bugzilla.redhat.com/2515839
-    - https://bugzilla.redhat.com/2515840
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515815
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515820
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515838
@@ -48209,7 +48380,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56858
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/9/ALSA-2026-62406.html
+    - https://errata.almalinux.org/9/ALSA-2026-63136.html
     - https://errata.rockylinux.org/RLSA-2026:63136
     - https://go.dev/cl/804261
     - https://go.dev/issue/80528
@@ -49196,17 +49367,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:62406
     - https://access.redhat.com/errata/RHSA-2026:63136
     - https://access.redhat.com/security/cve/CVE-2026-33818
-    - https://bugzilla.redhat.com/2467809
-    - https://bugzilla.redhat.com/2467820
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
-    - https://bugzilla.redhat.com/2515827
     - https://bugzilla.redhat.com/2515838
     - https://bugzilla.redhat.com/2515839
-    - https://bugzilla.redhat.com/2515840
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515815
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515820
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515838
@@ -49216,7 +49382,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56858
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/9/ALSA-2026-62406.html
+    - https://errata.almalinux.org/9/ALSA-2026-63136.html
     - https://errata.rockylinux.org/RLSA-2026:63136
     - https://go.dev/cl/814980
     - https://go.dev/issue/80405
@@ -49587,17 +49753,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
         V3Score: 8.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:62406
     - https://access.redhat.com/errata/RHSA-2026:63136
     - https://access.redhat.com/security/cve/CVE-2026-56858
-    - https://bugzilla.redhat.com/2467809
-    - https://bugzilla.redhat.com/2467820
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
-    - https://bugzilla.redhat.com/2515827
     - https://bugzilla.redhat.com/2515838
     - https://bugzilla.redhat.com/2515839
-    - https://bugzilla.redhat.com/2515840
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515815
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515820
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515838
@@ -49607,7 +49768,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56858
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/9/ALSA-2026-62406.html
+    - https://errata.almalinux.org/9/ALSA-2026-63136.html
     - https://errata.rockylinux.org/RLSA-2026:63136
     - https://go.dev/cl/807100
     - https://go.dev/issue/80435
@@ -49738,17 +49899,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:62406
     - https://access.redhat.com/errata/RHSA-2026:63136
     - https://access.redhat.com/security/cve/CVE-2026-56860
-    - https://bugzilla.redhat.com/2467809
-    - https://bugzilla.redhat.com/2467820
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
-    - https://bugzilla.redhat.com/2515827
     - https://bugzilla.redhat.com/2515838
     - https://bugzilla.redhat.com/2515839
-    - https://bugzilla.redhat.com/2515840
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515815
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515820
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515838
@@ -49758,7 +49914,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56858
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/9/ALSA-2026-62406.html
+    - https://errata.almalinux.org/9/ALSA-2026-63136.html
     - https://errata.rockylinux.org/RLSA-2026:63136
     - https://go.dev/cl/803681
     - https://go.dev/issue/80494
@@ -49810,17 +49966,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:62406
     - https://access.redhat.com/errata/RHSA-2026:63136
     - https://access.redhat.com/security/cve/CVE-2026-56862
-    - https://bugzilla.redhat.com/2467809
-    - https://bugzilla.redhat.com/2467820
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
-    - https://bugzilla.redhat.com/2515827
     - https://bugzilla.redhat.com/2515838
     - https://bugzilla.redhat.com/2515839
-    - https://bugzilla.redhat.com/2515840
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515815
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515820
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515838
@@ -49830,7 +49981,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56858
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/9/ALSA-2026-62406.html
+    - https://errata.almalinux.org/9/ALSA-2026-63136.html
     - https://errata.rockylinux.org/RLSA-2026:63136
     - https://go.dev/cl/804261
     - https://go.dev/issue/80528
@@ -52692,6 +52843,57 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-84304
     PublishedDate: '2026-09-01T19:17:30.743Z'
     LastModifiedDate: '2026-09-01T20:17:24.507Z'
+  - VulnerabilityID: CVE-2026-84445
+    VendorIDs:
+    - GHSA-2v4p-qf9q-27wj
+    PkgID: google.golang.org/grpc@v1.71.0
+    PkgName: google.golang.org/grpc
+    PkgIdentifier:
+      PURL: pkg:golang/google.golang.org/grpc@v1.71.0
+      UID: 769ee0210348e70d
+    InstalledVersion: v1.71.0
+    FixedVersion: 1.82.2, 1.83.2, 1.85.0-dev.0.20260825072537-93e31b48545e
+    Status: fixed
+    Layer:
+      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
+      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-84445
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:562e022a34147af7c611f77636d4de47bddd7fc869f5fe43446ba1ab03ef05e9
+    Title: 'gRPC-Go xDS servers: Denial of Service (DoS) via crash due to missing `:authority` and `Host` headers'
+    Description: |-
+      A vulnerability exists in gRPC-Go servers configured with `xds.NewGRPCServer()` where a crafted request missing both `:authority` and `Host` headers can cause a server panic, resulting in a Denial of Service (DoS).
+
+      Servers built with `xds.NewGRPCServer` install an xDS routing interceptor on every RPC. This interceptor looks up the request’s `:authority` header to pick a virtual host. The HTTP/2 server transport previously accepted requests that had neither `:authority` nor `Host`. When this happened, the xDS routing interceptor attempted to access the first element of an empty slice of authorities, leading to an index out of bounds panic. Since the per-RPC goroutine does not recover from panics, the entire server process would terminate.
+
+      This panic occurs in the interceptor pipeline, meaning the transport credentials handshake (TLS, mTLS, or ALTS) and HTTP/2 connection establishment must complete successfully before the crafted request can reach this logic.
+      - Insecure/Standard TLS: If the server permits insecure (plaintext) connections or standard credentials (where client certs are not checked), any unauthenticated remote attacker can trigger the crash.
+      - mTLS / ALTS: If strict transport-level authentication is enforced at the network edge or transport layer (e.g., requiring a valid client certificate), the attacker must possess valid transport credentials to initiate the stream and trigger the panic.
+
+      ### Impact
+      An attacker can cause a complete outage of the gRPC server by sending a request missing both `:authority` and `Host` headers, provided they can successfully establish a transport connection.
+
+      ### Patches
+      The issue has been addressed in `master` (and backported to `1.83.2` and `1.82.2`). The fix updates the HTTP/2 transport layer to reject requests missing both `:authority` and `Host` headers early, maintaining consistency with and other gRPC language implementations.
+    Severity: HIGH
+    VendorSeverity:
+      ghsa: 3
+    References:
+    - https://github.com/grpc/grpc-go
+    - https://github.com/grpc/grpc-go/commit/3822494d8ea03b992c089fd2a195f041762fffb7
+    - https://github.com/grpc/grpc-go/commit/8668b69c167df908b6b3666dcbf40992b9e932a4
+    - https://github.com/grpc/grpc-go/commit/93e31b48545e2a8aaeb6e06b47fb249f94e6297f
+    - https://github.com/grpc/grpc-go/issues/9354
+    - https://github.com/grpc/grpc-go/pull/9365
+    - https://github.com/grpc/grpc-go/pull/9366
+    - https://github.com/grpc/grpc-go/pull/9367
+    - https://github.com/grpc/grpc-go/releases/tag/v1.82.2
+    - https://github.com/grpc/grpc-go/releases/tag/v1.83.2
+    - https://github.com/grpc/grpc-go/security/advisories/GHSA-2v4p-qf9q-27wj
   - VulnerabilityID: GHSA-hrxh-6v49-42gf
     PkgID: google.golang.org/grpc@v1.71.0
     PkgName: google.golang.org/grpc
@@ -52781,6 +52983,50 @@
     - https://github.com/grpc/grpc-go/security/advisories/GHSA-hrxh-6v49-42gf
     PublishedDate: '2026-07-21T22:03:55Z'
     LastModifiedDate: '2026-07-21T22:03:56Z'
+  - VulnerabilityID: CVE-2026-84303
+    VendorIDs:
+    - GHSA-qc2q-p7wx-3px3
+    PkgID: google.golang.org/grpc@v1.71.0
+    PkgName: google.golang.org/grpc
+    PkgIdentifier:
+      PURL: pkg:golang/google.golang.org/grpc@v1.71.0
+      UID: 769ee0210348e70d
+    InstalledVersion: v1.71.0
+    FixedVersion: 1.83.1
+    Status: fixed
+    Layer:
+      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
+      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-84303
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:c0974f1fb1831ec1391a71a230cb2c275b4f78ec9f4d0148019f0e7f458d36bf
+    Title: gRPC-Go is the Go language implementation of gRPC. Prior to 1.83.1, th ...
+    Description: gRPC-Go is the Go language implementation of gRPC. Prior to 1.83.1, the xDS RBAC HTTP filter in internal/xds/httpfilter/rbac/rbac.go does not lowercase header matcher names in normalizeHeaderMatcher even though incoming metadata keys are lowercase. A DENY policy using a mixed-case name such as X-Role or User-Agent therefore does not match and fails open, allowing requests that should be rejected. The same case mismatch permits :Scheme or Grpc-Status to evade gRFC A41 validation and prevents Host from being rewritten to :authority. This issue is fixed in version 1.83.1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-178
+    - CWE-863
+    VendorSeverity:
+      ghsa: 2
+    CVSS:
+      ghsa:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:L/VI:L/VA:N/SC:N/SI:N/SA:N
+        V40Score: 6.3
+    References:
+    - https://github.com/grpc/grpc-go
+    - https://github.com/grpc/grpc-go/commit/db9482836c298f234c896cf82ab68cafc78237f8
+    - https://github.com/grpc/grpc-go/commit/ebba6f3f1b206e2b4dc4d1d5a96d18430302c2fe
+    - https://github.com/grpc/grpc-go/pull/9332
+    - https://github.com/grpc/grpc-go/pull/9335
+    - https://github.com/grpc/grpc-go/releases/tag/v1.83.1
+    - https://github.com/grpc/grpc-go/security/advisories/GHSA-qc2q-p7wx-3px3
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-84303
+    PublishedDate: '2026-09-01T19:17:30.6Z'
+    LastModifiedDate: '2026-09-02T20:17:39.667Z'
   - VulnerabilityID: CVE-2025-68121
     VendorIDs:
     - GO-2026-4337
@@ -54607,17 +54853,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:62406
     - https://access.redhat.com/errata/RHSA-2026:63136
     - https://access.redhat.com/security/cve/CVE-2026-33818
-    - https://bugzilla.redhat.com/2467809
-    - https://bugzilla.redhat.com/2467820
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
-    - https://bugzilla.redhat.com/2515827
     - https://bugzilla.redhat.com/2515838
     - https://bugzilla.redhat.com/2515839
-    - https://bugzilla.redhat.com/2515840
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515815
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515820
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515838
@@ -54627,7 +54868,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56858
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/9/ALSA-2026-62406.html
+    - https://errata.almalinux.org/9/ALSA-2026-63136.html
     - https://errata.rockylinux.org/RLSA-2026:63136
     - https://go.dev/cl/814980
     - https://go.dev/issue/80405
@@ -55473,17 +55714,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
         V3Score: 8.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:62406
     - https://access.redhat.com/errata/RHSA-2026:63136
     - https://access.redhat.com/security/cve/CVE-2026-56858
-    - https://bugzilla.redhat.com/2467809
-    - https://bugzilla.redhat.com/2467820
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
-    - https://bugzilla.redhat.com/2515827
     - https://bugzilla.redhat.com/2515838
     - https://bugzilla.redhat.com/2515839
-    - https://bugzilla.redhat.com/2515840
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515815
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515820
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515838
@@ -55493,7 +55729,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56858
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/9/ALSA-2026-62406.html
+    - https://errata.almalinux.org/9/ALSA-2026-63136.html
     - https://errata.rockylinux.org/RLSA-2026:63136
     - https://go.dev/cl/807100
     - https://go.dev/issue/80435
@@ -55624,17 +55860,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:62406
     - https://access.redhat.com/errata/RHSA-2026:63136
     - https://access.redhat.com/security/cve/CVE-2026-56860
-    - https://bugzilla.redhat.com/2467809
-    - https://bugzilla.redhat.com/2467820
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
-    - https://bugzilla.redhat.com/2515827
     - https://bugzilla.redhat.com/2515838
     - https://bugzilla.redhat.com/2515839
-    - https://bugzilla.redhat.com/2515840
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515815
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515820
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515838
@@ -55644,7 +55875,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56858
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/9/ALSA-2026-62406.html
+    - https://errata.almalinux.org/9/ALSA-2026-63136.html
     - https://errata.rockylinux.org/RLSA-2026:63136
     - https://go.dev/cl/803681
     - https://go.dev/issue/80494
@@ -55696,17 +55927,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:62406
     - https://access.redhat.com/errata/RHSA-2026:63136
     - https://access.redhat.com/security/cve/CVE-2026-56862
-    - https://bugzilla.redhat.com/2467809
-    - https://bugzilla.redhat.com/2467820
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
-    - https://bugzilla.redhat.com/2515827
     - https://bugzilla.redhat.com/2515838
     - https://bugzilla.redhat.com/2515839
-    - https://bugzilla.redhat.com/2515840
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515815
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515820
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515838
@@ -55716,7 +55942,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56858
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/9/ALSA-2026-62406.html
+    - https://errata.almalinux.org/9/ALSA-2026-63136.html
     - https://errata.rockylinux.org/RLSA-2026:63136
     - https://go.dev/cl/804261
     - https://go.dev/issue/80528
@@ -57836,6 +58062,57 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-84304
     PublishedDate: '2026-09-01T19:17:30.743Z'
     LastModifiedDate: '2026-09-01T20:17:24.507Z'
+  - VulnerabilityID: CVE-2026-84445
+    VendorIDs:
+    - GHSA-2v4p-qf9q-27wj
+    PkgID: google.golang.org/grpc@v1.79.3
+    PkgName: google.golang.org/grpc
+    PkgIdentifier:
+      PURL: pkg:golang/google.golang.org/grpc@v1.79.3
+      UID: 2977bc5805b7c756
+    InstalledVersion: v1.79.3
+    FixedVersion: 1.82.2, 1.83.2, 1.85.0-dev.0.20260825072537-93e31b48545e
+    Status: fixed
+    Layer:
+      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
+      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-84445
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:7711fe43fd4eaa9ded82885c86d6996a3b333614418274f205940effefbc6b50
+    Title: 'gRPC-Go xDS servers: Denial of Service (DoS) via crash due to missing `:authority` and `Host` headers'
+    Description: |-
+      A vulnerability exists in gRPC-Go servers configured with `xds.NewGRPCServer()` where a crafted request missing both `:authority` and `Host` headers can cause a server panic, resulting in a Denial of Service (DoS).
+
+      Servers built with `xds.NewGRPCServer` install an xDS routing interceptor on every RPC. This interceptor looks up the request’s `:authority` header to pick a virtual host. The HTTP/2 server transport previously accepted requests that had neither `:authority` nor `Host`. When this happened, the xDS routing interceptor attempted to access the first element of an empty slice of authorities, leading to an index out of bounds panic. Since the per-RPC goroutine does not recover from panics, the entire server process would terminate.
+
+      This panic occurs in the interceptor pipeline, meaning the transport credentials handshake (TLS, mTLS, or ALTS) and HTTP/2 connection establishment must complete successfully before the crafted request can reach this logic.
+      - Insecure/Standard TLS: If the server permits insecure (plaintext) connections or standard credentials (where client certs are not checked), any unauthenticated remote attacker can trigger the crash.
+      - mTLS / ALTS: If strict transport-level authentication is enforced at the network edge or transport layer (e.g., requiring a valid client certificate), the attacker must possess valid transport credentials to initiate the stream and trigger the panic.
+
+      ### Impact
+      An attacker can cause a complete outage of the gRPC server by sending a request missing both `:authority` and `Host` headers, provided they can successfully establish a transport connection.
+
+      ### Patches
+      The issue has been addressed in `master` (and backported to `1.83.2` and `1.82.2`). The fix updates the HTTP/2 transport layer to reject requests missing both `:authority` and `Host` headers early, maintaining consistency with and other gRPC language implementations.
+    Severity: HIGH
+    VendorSeverity:
+      ghsa: 3
+    References:
+    - https://github.com/grpc/grpc-go
+    - https://github.com/grpc/grpc-go/commit/3822494d8ea03b992c089fd2a195f041762fffb7
+    - https://github.com/grpc/grpc-go/commit/8668b69c167df908b6b3666dcbf40992b9e932a4
+    - https://github.com/grpc/grpc-go/commit/93e31b48545e2a8aaeb6e06b47fb249f94e6297f
+    - https://github.com/grpc/grpc-go/issues/9354
+    - https://github.com/grpc/grpc-go/pull/9365
+    - https://github.com/grpc/grpc-go/pull/9366
+    - https://github.com/grpc/grpc-go/pull/9367
+    - https://github.com/grpc/grpc-go/releases/tag/v1.82.2
+    - https://github.com/grpc/grpc-go/releases/tag/v1.83.2
+    - https://github.com/grpc/grpc-go/security/advisories/GHSA-2v4p-qf9q-27wj
   - VulnerabilityID: GHSA-hrxh-6v49-42gf
     PkgID: google.golang.org/grpc@v1.79.3
     PkgName: google.golang.org/grpc
@@ -57925,6 +58202,50 @@
     - https://github.com/grpc/grpc-go/security/advisories/GHSA-hrxh-6v49-42gf
     PublishedDate: '2026-07-21T22:03:55Z'
     LastModifiedDate: '2026-07-21T22:03:56Z'
+  - VulnerabilityID: CVE-2026-84303
+    VendorIDs:
+    - GHSA-qc2q-p7wx-3px3
+    PkgID: google.golang.org/grpc@v1.79.3
+    PkgName: google.golang.org/grpc
+    PkgIdentifier:
+      PURL: pkg:golang/google.golang.org/grpc@v1.79.3
+      UID: 2977bc5805b7c756
+    InstalledVersion: v1.79.3
+    FixedVersion: 1.83.1
+    Status: fixed
+    Layer:
+      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
+      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-84303
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:115fe335ec8cfd6e655745ba559d1a690be75dd36f784a1d3f8e25eb746e5a7a
+    Title: gRPC-Go is the Go language implementation of gRPC. Prior to 1.83.1, th ...
+    Description: gRPC-Go is the Go language implementation of gRPC. Prior to 1.83.1, the xDS RBAC HTTP filter in internal/xds/httpfilter/rbac/rbac.go does not lowercase header matcher names in normalizeHeaderMatcher even though incoming metadata keys are lowercase. A DENY policy using a mixed-case name such as X-Role or User-Agent therefore does not match and fails open, allowing requests that should be rejected. The same case mismatch permits :Scheme or Grpc-Status to evade gRFC A41 validation and prevents Host from being rewritten to :authority. This issue is fixed in version 1.83.1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-178
+    - CWE-863
+    VendorSeverity:
+      ghsa: 2
+    CVSS:
+      ghsa:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:L/VI:L/VA:N/SC:N/SI:N/SA:N
+        V40Score: 6.3
+    References:
+    - https://github.com/grpc/grpc-go
+    - https://github.com/grpc/grpc-go/commit/db9482836c298f234c896cf82ab68cafc78237f8
+    - https://github.com/grpc/grpc-go/commit/ebba6f3f1b206e2b4dc4d1d5a96d18430302c2fe
+    - https://github.com/grpc/grpc-go/pull/9332
+    - https://github.com/grpc/grpc-go/pull/9335
+    - https://github.com/grpc/grpc-go/releases/tag/v1.83.1
+    - https://github.com/grpc/grpc-go/security/advisories/GHSA-qc2q-p7wx-3px3
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-84303
+    PublishedDate: '2026-09-01T19:17:30.6Z'
+    LastModifiedDate: '2026-09-02T20:17:39.667Z'
   - VulnerabilityID: CVE-2026-33818
     VendorIDs:
     - GO-2026-5972
@@ -57965,17 +58286,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:62406
     - https://access.redhat.com/errata/RHSA-2026:63136
     - https://access.redhat.com/security/cve/CVE-2026-33818
-    - https://bugzilla.redhat.com/2467809
-    - https://bugzilla.redhat.com/2467820
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
-    - https://bugzilla.redhat.com/2515827
     - https://bugzilla.redhat.com/2515838
     - https://bugzilla.redhat.com/2515839
-    - https://bugzilla.redhat.com/2515840
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515815
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515820
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515838
@@ -57985,7 +58301,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56858
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/9/ALSA-2026-62406.html
+    - https://errata.almalinux.org/9/ALSA-2026-63136.html
     - https://errata.rockylinux.org/RLSA-2026:63136
     - https://go.dev/cl/814980
     - https://go.dev/issue/80405
@@ -58310,17 +58626,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
         V3Score: 8.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:62406
     - https://access.redhat.com/errata/RHSA-2026:63136
     - https://access.redhat.com/security/cve/CVE-2026-56858
-    - https://bugzilla.redhat.com/2467809
-    - https://bugzilla.redhat.com/2467820
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
-    - https://bugzilla.redhat.com/2515827
     - https://bugzilla.redhat.com/2515838
     - https://bugzilla.redhat.com/2515839
-    - https://bugzilla.redhat.com/2515840
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515815
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515820
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515838
@@ -58330,7 +58641,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56858
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/9/ALSA-2026-62406.html
+    - https://errata.almalinux.org/9/ALSA-2026-63136.html
     - https://errata.rockylinux.org/RLSA-2026:63136
     - https://go.dev/cl/807100
     - https://go.dev/issue/80435
@@ -58461,17 +58772,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:62406
     - https://access.redhat.com/errata/RHSA-2026:63136
     - https://access.redhat.com/security/cve/CVE-2026-56860
-    - https://bugzilla.redhat.com/2467809
-    - https://bugzilla.redhat.com/2467820
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
-    - https://bugzilla.redhat.com/2515827
     - https://bugzilla.redhat.com/2515838
     - https://bugzilla.redhat.com/2515839
-    - https://bugzilla.redhat.com/2515840
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515815
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515820
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515838
@@ -58481,7 +58787,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56858
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/9/ALSA-2026-62406.html
+    - https://errata.almalinux.org/9/ALSA-2026-63136.html
     - https://errata.rockylinux.org/RLSA-2026:63136
     - https://go.dev/cl/803681
     - https://go.dev/issue/80494
@@ -58533,17 +58839,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:62406
     - https://access.redhat.com/errata/RHSA-2026:63136
     - https://access.redhat.com/security/cve/CVE-2026-56862
-    - https://bugzilla.redhat.com/2467809
-    - https://bugzilla.redhat.com/2467820
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
-    - https://bugzilla.redhat.com/2515827
     - https://bugzilla.redhat.com/2515838
     - https://bugzilla.redhat.com/2515839
-    - https://bugzilla.redhat.com/2515840
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515815
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515820
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515838
@@ -58553,7 +58854,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56858
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/9/ALSA-2026-62406.html
+    - https://errata.almalinux.org/9/ALSA-2026-63136.html
     - https://errata.rockylinux.org/RLSA-2026:63136
     - https://go.dev/cl/804261
     - https://go.dev/issue/80528
@@ -58596,7 +58897,7 @@
     Severity: CRITICAL
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       bitnami: 4
       bottlerocket: 2
       cbl-mariner: 4
@@ -60813,17 +61114,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:62406
     - https://access.redhat.com/errata/RHSA-2026:63136
     - https://access.redhat.com/security/cve/CVE-2026-33818
-    - https://bugzilla.redhat.com/2467809
-    - https://bugzilla.redhat.com/2467820
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
-    - https://bugzilla.redhat.com/2515827
     - https://bugzilla.redhat.com/2515838
     - https://bugzilla.redhat.com/2515839
-    - https://bugzilla.redhat.com/2515840
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515815
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515820
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515838
@@ -60833,7 +61129,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56858
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/9/ALSA-2026-62406.html
+    - https://errata.almalinux.org/9/ALSA-2026-63136.html
     - https://errata.rockylinux.org/RLSA-2026:63136
     - https://go.dev/cl/814980
     - https://go.dev/issue/80405
@@ -61679,17 +61975,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
         V3Score: 8.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:62406
     - https://access.redhat.com/errata/RHSA-2026:63136
     - https://access.redhat.com/security/cve/CVE-2026-56858
-    - https://bugzilla.redhat.com/2467809
-    - https://bugzilla.redhat.com/2467820
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
-    - https://bugzilla.redhat.com/2515827
     - https://bugzilla.redhat.com/2515838
     - https://bugzilla.redhat.com/2515839
-    - https://bugzilla.redhat.com/2515840
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515815
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515820
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515838
@@ -61699,7 +61990,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56858
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/9/ALSA-2026-62406.html
+    - https://errata.almalinux.org/9/ALSA-2026-63136.html
     - https://errata.rockylinux.org/RLSA-2026:63136
     - https://go.dev/cl/807100
     - https://go.dev/issue/80435
@@ -61830,17 +62121,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:62406
     - https://access.redhat.com/errata/RHSA-2026:63136
     - https://access.redhat.com/security/cve/CVE-2026-56860
-    - https://bugzilla.redhat.com/2467809
-    - https://bugzilla.redhat.com/2467820
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
-    - https://bugzilla.redhat.com/2515827
     - https://bugzilla.redhat.com/2515838
     - https://bugzilla.redhat.com/2515839
-    - https://bugzilla.redhat.com/2515840
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515815
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515820
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515838
@@ -61850,7 +62136,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56858
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/9/ALSA-2026-62406.html
+    - https://errata.almalinux.org/9/ALSA-2026-63136.html
     - https://errata.rockylinux.org/RLSA-2026:63136
     - https://go.dev/cl/803681
     - https://go.dev/issue/80494
@@ -61902,17 +62188,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:62406
     - https://access.redhat.com/errata/RHSA-2026:63136
     - https://access.redhat.com/security/cve/CVE-2026-56862
-    - https://bugzilla.redhat.com/2467809
-    - https://bugzilla.redhat.com/2467820
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
-    - https://bugzilla.redhat.com/2515827
     - https://bugzilla.redhat.com/2515838
     - https://bugzilla.redhat.com/2515839
-    - https://bugzilla.redhat.com/2515840
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515815
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515820
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515838
@@ -61922,7 +62203,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56858
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/9/ALSA-2026-62406.html
+    - https://errata.almalinux.org/9/ALSA-2026-63136.html
     - https://errata.rockylinux.org/RLSA-2026:63136
     - https://go.dev/cl/804261
     - https://go.dev/issue/80528
@@ -62071,7 +62352,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -62178,7 +62459,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -65442,6 +65723,57 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-84304
     PublishedDate: '2026-09-01T19:17:30.743Z'
     LastModifiedDate: '2026-09-01T20:17:24.507Z'
+  - VulnerabilityID: CVE-2026-84445
+    VendorIDs:
+    - GHSA-2v4p-qf9q-27wj
+    PkgID: google.golang.org/grpc@v1.81.1
+    PkgName: google.golang.org/grpc
+    PkgIdentifier:
+      PURL: pkg:golang/google.golang.org/grpc@v1.81.1
+      UID: 53f12763215d3977
+    InstalledVersion: v1.81.1
+    FixedVersion: 1.82.2, 1.83.2, 1.85.0-dev.0.20260825072537-93e31b48545e
+    Status: fixed
+    Layer:
+      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
+      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-84445
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:7a6d08d1a63ac88924cde16eef435d0e3d8b852ab66e65757369f6b90c0ab21c
+    Title: 'gRPC-Go xDS servers: Denial of Service (DoS) via crash due to missing `:authority` and `Host` headers'
+    Description: |-
+      A vulnerability exists in gRPC-Go servers configured with `xds.NewGRPCServer()` where a crafted request missing both `:authority` and `Host` headers can cause a server panic, resulting in a Denial of Service (DoS).
+
+      Servers built with `xds.NewGRPCServer` install an xDS routing interceptor on every RPC. This interceptor looks up the request’s `:authority` header to pick a virtual host. The HTTP/2 server transport previously accepted requests that had neither `:authority` nor `Host`. When this happened, the xDS routing interceptor attempted to access the first element of an empty slice of authorities, leading to an index out of bounds panic. Since the per-RPC goroutine does not recover from panics, the entire server process would terminate.
+
+      This panic occurs in the interceptor pipeline, meaning the transport credentials handshake (TLS, mTLS, or ALTS) and HTTP/2 connection establishment must complete successfully before the crafted request can reach this logic.
+      - Insecure/Standard TLS: If the server permits insecure (plaintext) connections or standard credentials (where client certs are not checked), any unauthenticated remote attacker can trigger the crash.
+      - mTLS / ALTS: If strict transport-level authentication is enforced at the network edge or transport layer (e.g., requiring a valid client certificate), the attacker must possess valid transport credentials to initiate the stream and trigger the panic.
+
+      ### Impact
+      An attacker can cause a complete outage of the gRPC server by sending a request missing both `:authority` and `Host` headers, provided they can successfully establish a transport connection.
+
+      ### Patches
+      The issue has been addressed in `master` (and backported to `1.83.2` and `1.82.2`). The fix updates the HTTP/2 transport layer to reject requests missing both `:authority` and `Host` headers early, maintaining consistency with and other gRPC language implementations.
+    Severity: HIGH
+    VendorSeverity:
+      ghsa: 3
+    References:
+    - https://github.com/grpc/grpc-go
+    - https://github.com/grpc/grpc-go/commit/3822494d8ea03b992c089fd2a195f041762fffb7
+    - https://github.com/grpc/grpc-go/commit/8668b69c167df908b6b3666dcbf40992b9e932a4
+    - https://github.com/grpc/grpc-go/commit/93e31b48545e2a8aaeb6e06b47fb249f94e6297f
+    - https://github.com/grpc/grpc-go/issues/9354
+    - https://github.com/grpc/grpc-go/pull/9365
+    - https://github.com/grpc/grpc-go/pull/9366
+    - https://github.com/grpc/grpc-go/pull/9367
+    - https://github.com/grpc/grpc-go/releases/tag/v1.82.2
+    - https://github.com/grpc/grpc-go/releases/tag/v1.83.2
+    - https://github.com/grpc/grpc-go/security/advisories/GHSA-2v4p-qf9q-27wj
   - VulnerabilityID: GHSA-hrxh-6v49-42gf
     PkgID: google.golang.org/grpc@v1.81.1
     PkgName: google.golang.org/grpc
@@ -65531,6 +65863,50 @@
     - https://github.com/grpc/grpc-go/security/advisories/GHSA-hrxh-6v49-42gf
     PublishedDate: '2026-07-21T22:03:55Z'
     LastModifiedDate: '2026-07-21T22:03:56Z'
+  - VulnerabilityID: CVE-2026-84303
+    VendorIDs:
+    - GHSA-qc2q-p7wx-3px3
+    PkgID: google.golang.org/grpc@v1.81.1
+    PkgName: google.golang.org/grpc
+    PkgIdentifier:
+      PURL: pkg:golang/google.golang.org/grpc@v1.81.1
+      UID: 53f12763215d3977
+    InstalledVersion: v1.81.1
+    FixedVersion: 1.83.1
+    Status: fixed
+    Layer:
+      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
+      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-84303
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:36d79fe0caf20e5c08e475ce58d4dd2417cdbbfb0575cd324eb8c3caeb515d6d
+    Title: gRPC-Go is the Go language implementation of gRPC. Prior to 1.83.1, th ...
+    Description: gRPC-Go is the Go language implementation of gRPC. Prior to 1.83.1, the xDS RBAC HTTP filter in internal/xds/httpfilter/rbac/rbac.go does not lowercase header matcher names in normalizeHeaderMatcher even though incoming metadata keys are lowercase. A DENY policy using a mixed-case name such as X-Role or User-Agent therefore does not match and fails open, allowing requests that should be rejected. The same case mismatch permits :Scheme or Grpc-Status to evade gRFC A41 validation and prevents Host from being rewritten to :authority. This issue is fixed in version 1.83.1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-178
+    - CWE-863
+    VendorSeverity:
+      ghsa: 2
+    CVSS:
+      ghsa:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:L/VI:L/VA:N/SC:N/SI:N/SA:N
+        V40Score: 6.3
+    References:
+    - https://github.com/grpc/grpc-go
+    - https://github.com/grpc/grpc-go/commit/db9482836c298f234c896cf82ab68cafc78237f8
+    - https://github.com/grpc/grpc-go/commit/ebba6f3f1b206e2b4dc4d1d5a96d18430302c2fe
+    - https://github.com/grpc/grpc-go/pull/9332
+    - https://github.com/grpc/grpc-go/pull/9335
+    - https://github.com/grpc/grpc-go/releases/tag/v1.83.1
+    - https://github.com/grpc/grpc-go/security/advisories/GHSA-qc2q-p7wx-3px3
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-84303
+    PublishedDate: '2026-09-01T19:17:30.6Z'
+    LastModifiedDate: '2026-09-02T20:17:39.667Z'
   - VulnerabilityID: CVE-2026-27145
     VendorIDs:
     - GO-2026-5037
@@ -65724,17 +66100,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:62406
     - https://access.redhat.com/errata/RHSA-2026:63136
     - https://access.redhat.com/security/cve/CVE-2026-33818
-    - https://bugzilla.redhat.com/2467809
-    - https://bugzilla.redhat.com/2467820
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
-    - https://bugzilla.redhat.com/2515827
     - https://bugzilla.redhat.com/2515838
     - https://bugzilla.redhat.com/2515839
-    - https://bugzilla.redhat.com/2515840
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515815
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515820
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515838
@@ -65744,7 +66115,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56858
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/9/ALSA-2026-62406.html
+    - https://errata.almalinux.org/9/ALSA-2026-63136.html
     - https://errata.rockylinux.org/RLSA-2026:63136
     - https://go.dev/cl/814980
     - https://go.dev/issue/80405
@@ -66250,17 +66621,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
         V3Score: 8.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:62406
     - https://access.redhat.com/errata/RHSA-2026:63136
     - https://access.redhat.com/security/cve/CVE-2026-56858
-    - https://bugzilla.redhat.com/2467809
-    - https://bugzilla.redhat.com/2467820
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
-    - https://bugzilla.redhat.com/2515827
     - https://bugzilla.redhat.com/2515838
     - https://bugzilla.redhat.com/2515839
-    - https://bugzilla.redhat.com/2515840
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515815
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515820
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515838
@@ -66270,7 +66636,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56858
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/9/ALSA-2026-62406.html
+    - https://errata.almalinux.org/9/ALSA-2026-63136.html
     - https://errata.rockylinux.org/RLSA-2026:63136
     - https://go.dev/cl/807100
     - https://go.dev/issue/80435
@@ -66401,17 +66767,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:62406
     - https://access.redhat.com/errata/RHSA-2026:63136
     - https://access.redhat.com/security/cve/CVE-2026-56860
-    - https://bugzilla.redhat.com/2467809
-    - https://bugzilla.redhat.com/2467820
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
-    - https://bugzilla.redhat.com/2515827
     - https://bugzilla.redhat.com/2515838
     - https://bugzilla.redhat.com/2515839
-    - https://bugzilla.redhat.com/2515840
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515815
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515820
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515838
@@ -66421,7 +66782,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56858
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/9/ALSA-2026-62406.html
+    - https://errata.almalinux.org/9/ALSA-2026-63136.html
     - https://errata.rockylinux.org/RLSA-2026:63136
     - https://go.dev/cl/803681
     - https://go.dev/issue/80494
@@ -66473,17 +66834,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:62406
     - https://access.redhat.com/errata/RHSA-2026:63136
     - https://access.redhat.com/security/cve/CVE-2026-56862
-    - https://bugzilla.redhat.com/2467809
-    - https://bugzilla.redhat.com/2467820
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
-    - https://bugzilla.redhat.com/2515827
     - https://bugzilla.redhat.com/2515838
     - https://bugzilla.redhat.com/2515839
-    - https://bugzilla.redhat.com/2515840
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515815
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515820
     - https://bugzilla.redhat.com/show_bug.cgi?id=2515838
@@ -66493,7 +66849,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56858
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/9/ALSA-2026-62406.html
+    - https://errata.almalinux.org/9/ALSA-2026-63136.html
     - https://errata.rockylinux.org/RLSA-2026:63136
     - https://go.dev/cl/804261
     - https://go.dev/issue/80528
