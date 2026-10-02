@@ -1785,7 +1785,8 @@
 │                        │       │                  │       64&distro=ubuntu-26.04 
 │                        │       │                  ╰ UID : 74f80fcbcce3ad82 
 │                        │       ├ InstalledVersion: 3.5.5-1ubuntu3.5 
-│                        │       ├ Status          : affected 
+│                        │       ├ FixedVersion    : 3.5.5-1ubuntu3.7 
+│                        │       ├ Status          : fixed 
 │                        │       ├ Layer            ╭ Digest: sha256:84b9411ec6d3c2ef567fcc62afa03583b5de4ebb27
 │                        │       │                  │         7bf359070dfc036676f7f0 
 │                        │       │                  ╰ DiffID: sha256:8f1db308ad6c55fd82e90d79f3704865e1c325588e
@@ -1855,6 +1856,8 @@
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-42772            
 │                        │       │                                                                             
 │                        │       │                  https://openssl-library.org/news/secadv/20260929.txt       
+│                        │       │                                                                             
+│                        │       │                  https://ubuntu.com/security/notices/USN-8861-1             
 │                        │       │                                                                             
 │                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-42772            
 │                        │       │                                                                             
@@ -1965,7 +1968,8 @@
 │                        │       │                  │       64&distro=ubuntu-26.04 
 │                        │       │                  ╰ UID : 74f80fcbcce3ad82 
 │                        │       ├ InstalledVersion: 3.5.5-1ubuntu3.5 
-│                        │       ├ Status          : affected 
+│                        │       ├ FixedVersion    : 3.5.5-1ubuntu3.7 
+│                        │       ├ Status          : fixed 
 │                        │       ├ Layer            ╭ Digest: sha256:84b9411ec6d3c2ef567fcc62afa03583b5de4ebb27
 │                        │       │                  │         7bf359070dfc036676f7f0 
 │                        │       │                  ╰ DiffID: sha256:8f1db308ad6c55fd82e90d79f3704865e1c325588e
@@ -2056,6 +2060,8 @@
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-54873            
 │                        │       │                                                                             
 │                        │       │                  https://openssl-library.org/news/secadv/20260929.txt       
+│                        │       │                                                                             
+│                        │       │                  https://ubuntu.com/security/notices/USN-8861-1             
 │                        │       │                                                                             
 │                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-54873            
 │                        │       │                                                                             
@@ -2677,7 +2683,7 @@
 │                        │       │                                                                             
 │                        │       │                  https://openssl-library.org/news/secadv/20260929.txt       
 │                        │       │                                                                             
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:44624           
+│                        │       │                  https://ubuntu.com/security/notices/USN-8847-1             
 │                        │       │                                                                             
 │                        │       │                  https://ubuntu.com/security/notices/USN-8847-2             
 │                        │       │                                                                             
@@ -3429,7 +3435,8 @@
 │                        │       │                  │       distro=ubuntu-26.04 
 │                        │       │                  ╰ UID : 6c24167998129d 
 │                        │       ├ InstalledVersion: 3.5.5-1ubuntu3.5 
-│                        │       ├ Status          : affected 
+│                        │       ├ FixedVersion    : 3.5.5-1ubuntu3.7 
+│                        │       ├ Status          : fixed 
 │                        │       ├ Layer            ╭ Digest: sha256:84b9411ec6d3c2ef567fcc62afa03583b5de4ebb27
 │                        │       │                  │         7bf359070dfc036676f7f0 
 │                        │       │                  ╰ DiffID: sha256:8f1db308ad6c55fd82e90d79f3704865e1c325588e
@@ -3499,6 +3506,8 @@
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-42772            
 │                        │       │                                                                             
 │                        │       │                  https://openssl-library.org/news/secadv/20260929.txt       
+│                        │       │                                                                             
+│                        │       │                  https://ubuntu.com/security/notices/USN-8861-1             
 │                        │       │                                                                             
 │                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-42772            
 │                        │       │                                                                             
@@ -3609,7 +3618,8 @@
 │                        │       │                  │       distro=ubuntu-26.04 
 │                        │       │                  ╰ UID : 6c24167998129d 
 │                        │       ├ InstalledVersion: 3.5.5-1ubuntu3.5 
-│                        │       ├ Status          : affected 
+│                        │       ├ FixedVersion    : 3.5.5-1ubuntu3.7 
+│                        │       ├ Status          : fixed 
 │                        │       ├ Layer            ╭ Digest: sha256:84b9411ec6d3c2ef567fcc62afa03583b5de4ebb27
 │                        │       │                  │         7bf359070dfc036676f7f0 
 │                        │       │                  ╰ DiffID: sha256:8f1db308ad6c55fd82e90d79f3704865e1c325588e
@@ -3700,6 +3710,8 @@
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-54873            
 │                        │       │                                                                             
 │                        │       │                  https://openssl-library.org/news/secadv/20260929.txt       
+│                        │       │                                                                             
+│                        │       │                  https://ubuntu.com/security/notices/USN-8861-1             
 │                        │       │                                                                             
 │                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-54873            
 │                        │       │                                                                             
@@ -4774,7 +4786,8 @@
 │                        │       │                  │       u3.5?arch=amd64&distro=ubuntu-26.04 
 │                        │       │                  ╰ UID : c3a89c1b147c7d7b 
 │                        │       ├ InstalledVersion: 3.5.5-1ubuntu3.5 
-│                        │       ├ Status          : affected 
+│                        │       ├ FixedVersion    : 3.5.5-1ubuntu3.7 
+│                        │       ├ Status          : fixed 
 │                        │       ├ Layer            ╭ Digest: sha256:84b9411ec6d3c2ef567fcc62afa03583b5de4ebb27
 │                        │       │                  │         7bf359070dfc036676f7f0 
 │                        │       │                  ╰ DiffID: sha256:8f1db308ad6c55fd82e90d79f3704865e1c325588e
@@ -4844,6 +4857,8 @@
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-42772            
 │                        │       │                                                                             
 │                        │       │                  https://openssl-library.org/news/secadv/20260929.txt       
+│                        │       │                                                                             
+│                        │       │                  https://ubuntu.com/security/notices/USN-8861-1             
 │                        │       │                                                                             
 │                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-42772            
 │                        │       │                                                                             
@@ -4954,7 +4969,8 @@
 │                        │       │                  │       u3.5?arch=amd64&distro=ubuntu-26.04 
 │                        │       │                  ╰ UID : c3a89c1b147c7d7b 
 │                        │       ├ InstalledVersion: 3.5.5-1ubuntu3.5 
-│                        │       ├ Status          : affected 
+│                        │       ├ FixedVersion    : 3.5.5-1ubuntu3.7 
+│                        │       ├ Status          : fixed 
 │                        │       ├ Layer            ╭ Digest: sha256:84b9411ec6d3c2ef567fcc62afa03583b5de4ebb27
 │                        │       │                  │         7bf359070dfc036676f7f0 
 │                        │       │                  ╰ DiffID: sha256:8f1db308ad6c55fd82e90d79f3704865e1c325588e
@@ -5045,6 +5061,8 @@
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-54873            
 │                        │       │                                                                             
 │                        │       │                  https://openssl-library.org/news/secadv/20260929.txt       
+│                        │       │                                                                             
+│                        │       │                  https://ubuntu.com/security/notices/USN-8861-1             
 │                        │       │                                                                             
 │                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-54873            
 │                        │       │                                                                             
@@ -6248,6 +6266,7 @@
 │                        │       ├ References                                                                  
 │                        │       │                  ───────────────────────────────────────────────────────────
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-48522      
+│                        │       │                  https://advisory.echohq.com/cve/CVE-2026-48522             
 │                        │       │                  https://github.com/github/advisory-database/pull/8521      
 │                        │       │                  https://github.com/jpadilla/pyjwt                          
 │                        │       │                  https://github.com/jpadilla/pyjwt/commit/95791b1759b8aa4f22
@@ -6317,6 +6336,7 @@
 │                        │       ├ References                                                                  
 │                        │       │                  ───────────────────────────────────────────────────────────
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-48523      
+│                        │       │                  https://advisory.echohq.com/cve/CVE-2026-48523             
 │                        │       │                  https://github.com/jpadilla/pyjwt                          
 │                        │       │                  https://github.com/jpadilla/pyjwt/commit/95791b1759b8aa4f22
 │                        │       │                  03575d344d5c78564cdc81                                     
@@ -6386,6 +6406,7 @@
 │                        │       ├ References                                                                  
 │                        │       │                  ───────────────────────────────────────────────────────────
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-48524      
+│                        │       │                  https://advisory.echohq.com/cve/CVE-2026-48524             
 │                        │       │                  https://github.com/github/advisory-database/pull/8522      
 │                        │       │                  https://github.com/jpadilla/pyjwt                          
 │                        │       │                  https://github.com/jpadilla/pyjwt/security/advisories/GHSA-
@@ -6458,6 +6479,7 @@
 │                        │       ├ References                                                                  
 │                        │       │                  ───────────────────────────────────────────────────────────
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-48525      
+│                        │       │                  https://advisory.echohq.com/cve/CVE-2026-48525             
 │                        │       │                  https://github.com/jpadilla/pyjwt                          
 │                        │       │                  https://github.com/jpadilla/pyjwt/security/advisories/GHSA-
 │                        │       │                  w7vc-732c-9m39                                             
@@ -6559,6 +6581,7 @@
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:50904           
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:60520           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-48526      
+│                        │       │                  https://advisory.echohq.com/cve/CVE-2026-48526             
 │                        │       │                  https://bugzilla.redhat.com/2482734                        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2482734        
 │                        │       │                  https://creativecommons.org/licenses/by/4.0/               
@@ -8601,7 +8624,190 @@
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : jar 
 │      ├ Packages        
-│      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2026-68497 
+│      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2026-89407 
+│                        │     ├ VendorIDs                           
+│                        │     │                  ───────────────────
+│                        │     │                  GHSA-p6pp-m3f8-5c89
+│                        │     │                  
+│                        │     ├ PkgName         : com.fasterxml.jackson.core:jackson-core 
+│                        │     ├ PkgPath         : opt/oaf/openaf.jar 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-core@2.2
+│                        │     │                  │       2.1 
+│                        │     │                  ╰ UID : 448dc99b1538fb6a 
+│                        │     ├ InstalledVersion: 2.22.1 
+│                        │     ├ FixedVersion    : 2.18.11, 2.21.7, 2.22.3 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:84b9411ec6d3c2ef567fcc62afa03583b5de4ebb277b
+│                        │     │                  │         f359070dfc036676f7f0 
+│                        │     │                  ╰ DiffID: sha256:8f1db308ad6c55fd82e90d79f3704865e1c325588ec1
+│                        │     │                            a8b54b197f8036bdc81e 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-89407 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Maven 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+│                        │     │                          cosystem%3Amaven 
+│                        │     ├ Fingerprint     : sha256:9b61210947638abea0de34f8fe75fc97ba110b90c61b86bcf4686
+│                        │     │                   f7270791607 
+│                        │     ├ Title           : com.fasterxml.jackson/jackson-core:
+│                        │     │                   tools.jackson.core/jackson-core: Jackson-core: Denial of
+│                        │     │                   Service via regular expression backtracking 
+│                        │     ├ Description     : NumberInput.looksLikeValidNumber() in FasterXML jackson-core
+│                        │     │                    pre-validates "stringified numbers" with two regular
+│                        │     │                   expressions: PATTERN_FLOAT
+│                        │     │                   ([+-]?[0-9]*[\.]?[0-9]+([eE][+-]?[0-9]+)?), present since
+│                        │     │                   2.17.0, and PATTERN_FLOAT_TRAILING_DOT, added in 2.17.2.
+│                        │     │                   PATTERN_FLOAT places adjacent quantifiers over the same
+│                        │     │                   character class -- an optional [0-9]* run, an optional dot,
+│                        │     │                   then a required [0-9]+ run -- so input that ultimately fails
+│                        │     │                    to match forces Java's backtracking engine to retry every
+│                        │     │                   possible split point of the digit run. 
+│                        │     │                   
+│                        │     │                   Matching cost therefore grows with the square of the input
+│                        │     │                   length. 
+│                        │     │                   An attacker who can supply JSON that an application
+│                        │     │                   deserializes into a numeric target type reaches this method
+│                        │     │                   through jackson-databind's default String-to-number coercion
+│                        │     │                    (StdDeserializer and NumberDeserializers for BigDecimal,
+│                        │     │                   BigInteger, Double and Float). 
+│                        │     │                   Because StreamReadConstraints.maxStringLength defaults to
+│                        │     │                   20,000,000 characters, no constraint bounds the input before
+│                        │     │                    it reaches the regex. 
+│                        │     │                   Testing by the reporter confirmed O(n^2) growth across five
+│                        │     │                   consecutive input-size doublings, with a single
+│                        │     │                   160,000-character string consuming roughly 74 seconds in one
+│                        │     │                    call; a small number of concurrent requests of ordinary
+│                        │     │                   body size can therefore exhaust a server's request-handling
+│                        │     │                   thread pool. 
+│                        │     │                   The affected method does not exist before 2.17.0, so 2.16.x
+│                        │     │                   and earlier releases are not affected. 
+│                        │     │                   The fix replaces both regular expressions with a hand-rolled
+│                        │     │                    single-pass scan. 
+│                        │     ├ Severity        : HIGH 
+│                        │     ├ CweIDs                   
+│                        │     │                  ────────
+│                        │     │                  CWE-400 
+│                        │     │                  CWE-1333
+│                        │     │                  
+│                        │     ├ VendorSeverity   ╭ ghsa  : 3 
+│                        │     │                  ╰ redhat: 2 
+│                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                        │     │                  │        │           /A:H 
+│                        │     │                  │        ╰ V3Score : 7.5 
+│                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
+│                        │     │                           │           /A:H 
+│                        │     │                           ╰ V3Score : 5.9 
+│                        │     ├ References                                                                    
+│                        │     │                  ─────────────────────────────────────────────────────────────
+│                        │     │                  https://access.redhat.com/security/cve/CVE-2026-89407        
+│                        │     │                  https://github.com/FasterXML/jackson-core                    
+│                        │     │                  https://github.com/FasterXML/jackson-core/commit/731e794f6262
+│                        │     │                  3aa0d86ced52490166be903fbb1d                                 
+│                        │     │                  https://github.com/FasterXML/jackson-core/commit/e7acd64cc99b
+│                        │     │                  d346704423dc2bfea1ab0a08ddff                                 
+│                        │     │                  https://github.com/FasterXML/jackson-core/issues/1649        
+│                        │     │                                                                               
+│                        │     │                  https://github.com/FasterXML/jackson-core/pull/1650          
+│                        │     │                                                                               
+│                        │     │                  https://github.com/FasterXML/jackson-core/pull/1701          
+│                        │     │                                                                               
+│                        │     │                  https://github.com/FasterXML/jackson-core/security/advisories
+│                        │     │                  /GHSA-p6pp-m3f8-5c89                                         
+│                        │     │                  https://nvd.nist.gov/vuln/detail/CVE-2026-89407              
+│                        │     │                                                                               
+│                        │     │                  https://www.cve.org/CVERecord?id=CVE-2026-89407              
+│                        │     │                                                                               
+│                        │     │                  
+│                        │     ├ PublishedDate   : 2026-09-22T15:17:21.053Z 
+│                        │     ╰ LastModifiedDate: 2026-09-22T20:00:03.713Z 
+│                        ├ [1] ╭ VulnerabilityID : CVE-2026-89425 
+│                        │     ├ VendorIDs                           
+│                        │     │                  ───────────────────
+│                        │     │                  GHSA-7hhh-6rmp-j9qf
+│                        │     │                  
+│                        │     ├ PkgName         : com.fasterxml.jackson.core:jackson-core 
+│                        │     ├ PkgPath         : opt/oaf/openaf.jar 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-core@2.2
+│                        │     │                  │       2.1 
+│                        │     │                  ╰ UID : 448dc99b1538fb6a 
+│                        │     ├ InstalledVersion: 2.22.1 
+│                        │     ├ FixedVersion    : 2.21.7, 2.22.3, 2.18.11 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:84b9411ec6d3c2ef567fcc62afa03583b5de4ebb277b
+│                        │     │                  │         f359070dfc036676f7f0 
+│                        │     │                  ╰ DiffID: sha256:8f1db308ad6c55fd82e90d79f3704865e1c325588ec1
+│                        │     │                            a8b54b197f8036bdc81e 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-89425 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Maven 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+│                        │     │                          cosystem%3Amaven 
+│                        │     ├ Fingerprint     : sha256:5eeb8066d6169e2e330e224d8bef397d62488b43d4818c7fb9b85
+│                        │     │                   45a3cb68193 
+│                        │     ├ Title           : com.fasterxml.jackson.core/jackson-core: Jackson-core:
+│                        │     │                   Denial of Service via unbounded StringBuilder growth during
+│                        │     │                   malformed token processing 
+│                        │     ├ Description     : UTF8DataInputJsonParser._reportInvalidToken() in FasterXML
+│                        │     │                   jackson-core builds the offending-token text for its error
+│                        │     │                   message by appending Java identifier characters to a
+│                        │     │                   StringBuilder in a loop that has no upper bound. Unlike the
+│                        │     │                   three sibling parser implementations, including
+│                        │     │                   UTF8StreamJsonParser, it never consults
+│                        │     │                   ErrorReportConfiguration.getMaxErrorTokenLength() (default
+│                        │     │                   256). A malformed token supplied to a parser created through
+│                        │     │                    JsonFactory.createParser(DataInput) is therefore
+│                        │     │                   accumulated in full. No StreamReadConstraints setting
+│                        │     │                   mitigates this: maxDocumentLength cannot be applied to
+│                        │     │                   DataInput sources at all, and maxStringLength does not cover
+│                        │     │                    this path because the accumulation bypasses
+│                        │     │                   ReadConstrainedTextBuffer. The reporter measured a
+│                        │     │                   20,000,109-character exception message from a
+│                        │     │                   20-million-character malformed token on the DataInput path,
+│                        │     │                   against 367 characters for identical input on the
+│                        │     │                   InputStream path. Scaling the payload drives the
+│                        │     │                   StringBuilder, which also incurs byte-to-char expansion and
+│                        │     │                   internal array doubling, to many times the raw payload size
+│                        │     │                   and can trigger OutOfMemoryError for the whole JVM.
+│                        │     │                   UTF8DataInputJsonParser was introduced in 2.8.0 together
+│                        │     │                   with createParser(DataInput); releases before 2.8.0 do not
+│                        │     │                   contain the affected class. 
+│                        │     ├ Severity        : HIGH 
+│                        │     ├ CweIDs                  
+│                        │     │                  ───────
+│                        │     │                  CWE-400
+│                        │     │                  CWE-770
+│                        │     │                  
+│                        │     ├ VendorSeverity   ╭ ghsa  : 3 
+│                        │     │                  ╰ redhat: 3 
+│                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                        │     │                  │        │           /A:H 
+│                        │     │                  │        ╰ V3Score : 7.5 
+│                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                        │     │                           │           /A:H 
+│                        │     │                           ╰ V3Score : 7.5 
+│                        │     ├ References                                                                    
+│                        │     │                  ─────────────────────────────────────────────────────────────
+│                        │     │                  https://access.redhat.com/security/cve/CVE-2026-89425        
+│                        │     │                  https://github.com/FasterXML/jackson-core                    
+│                        │     │                  https://github.com/FasterXML/jackson-core/commit/211cf2c5d91a
+│                        │     │                  bbec38067f37efc1363cd4e88ee3                                 
+│                        │     │                  https://github.com/FasterXML/jackson-core/pull/1698          
+│                        │     │                                                                               
+│                        │     │                  https://github.com/FasterXML/jackson-core/releases/tag/jackso
+│                        │     │                  n-core-2.18.11                                               
+│                        │     │                  https://github.com/FasterXML/jackson-core/releases/tag/jackso
+│                        │     │                  n-core-3.2.3                                                 
+│                        │     │                  https://github.com/FasterXML/jackson-core/security/advisories
+│                        │     │                  /GHSA-7hhh-6rmp-j9qf                                         
+│                        │     │                  https://nvd.nist.gov/vuln/detail/CVE-2026-89425              
+│                        │     │                                                                               
+│                        │     │                  https://www.cve.org/CVERecord?id=CVE-2026-89425              
+│                        │     │                                                                               
+│                        │     │                  
+│                        │     ├ PublishedDate   : 2026-09-23T03:17:04.357Z 
+│                        │     ╰ LastModifiedDate: 2026-09-24T20:43:32.537Z 
+│                        ├ [2] ╭ VulnerabilityID : CVE-2026-68497 
 │                        │     ├ VendorIDs                           
 │                        │     │                  ───────────────────
 │                        │     │                  GHSA-q4xh-88c3-wmh7
@@ -8700,7 +8906,7 @@
 │                        │     │                  
 │                        │     ├ PublishedDate   : 2026-09-11T16:17:39.61Z 
 │                        │     ╰ LastModifiedDate: 2026-09-18T19:34:36.657Z 
-│                        ├ [1] ╭ VulnerabilityID : CVE-2026-91776 
+│                        ├ [3] ╭ VulnerabilityID : CVE-2026-91776 
 │                        │     ├ VendorIDs                           
 │                        │     │                  ───────────────────
 │                        │     │                  GHSA-wv8q-qhhj-9h54
@@ -8725,8 +8931,9 @@
 │                        │     │                          cosystem%3Amaven 
 │                        │     ├ Fingerprint     : sha256:0bec58986d8c08045a6e45b9613b6e2dc9c968afe16f4a4b50082
 │                        │     │                   541752f22e4 
-│                        │     ├ Title           : TypeDeserializerBase._findDeserializer() in FasterXML
-│                        │     │                   jackson-databind ... 
+│                        │     ├ Title           : jackson-databind: com.fasterxml.jackson/jackson-core:
+│                        │     │                   jackson-databind: Denial of Service via unbounded cache
+│                        │     │                   growth in TypeDeserializerBase 
 │                        │     ├ Description     : TypeDeserializerBase._findDeserializer() in FasterXML
 │                        │     │                   jackson-databind caches the resolved deserializer under the
 │                        │     │                   raw, attacker-supplied type ID. When name-based polymorphism
@@ -8754,11 +8961,17 @@
 │                        │     │                  ───────
 │                        │     │                  CWE-400
 │                        │     │                  
-│                        │     ├ VendorSeverity   ─ ghsa: 3 
-│                        │     ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H 
-│                        │     │                         ╰ V3Score : 7.5 
+│                        │     ├ VendorSeverity   ╭ ghsa  : 3 
+│                        │     │                  ╰ redhat: 3 
+│                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                        │     │                  │        │           /A:H 
+│                        │     │                  │        ╰ V3Score : 7.5 
+│                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                        │     │                           │           /A:H 
+│                        │     │                           ╰ V3Score : 7.5 
 │                        │     ├ References                                                                    
 │                        │     │                  ─────────────────────────────────────────────────────────────
+│                        │     │                  https://access.redhat.com/security/cve/CVE-2026-91776        
 │                        │     │                  https://github.com/FasterXML/jackson-databind                
 │                        │     │                  https://github.com/FasterXML/jackson-databind/commit/2870d1d6
 │                        │     │                  dc1b7e1c07ee11dd5b04ab71cddbb577                             
@@ -8778,10 +8991,12 @@
 │                        │     │                  ries/GHSA-wv8q-qhhj-9h54                                     
 │                        │     │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91776              
 │                        │     │                                                                               
+│                        │     │                  https://www.cve.org/CVERecord?id=CVE-2026-91776              
+│                        │     │                                                                               
 │                        │     │                  
 │                        │     ├ PublishedDate   : 2026-09-23T03:17:04.62Z 
 │                        │     ╰ LastModifiedDate: 2026-09-24T20:43:32.537Z 
-│                        ├ [2] ╭ VulnerabilityID : CVE-2026-91777 
+│                        ├ [4] ╭ VulnerabilityID : CVE-2026-91777 
 │                        │     ├ VendorIDs                           
 │                        │     │                  ───────────────────
 │                        │     │                  GHSA-cxp5-3px4-pw24
@@ -8864,7 +9079,7 @@
 │                        │     │                  
 │                        │     ├ PublishedDate   : 2026-09-23T03:17:04.783Z 
 │                        │     ╰ LastModifiedDate: 2026-09-24T20:43:32.537Z 
-│                        ├ [3] ╭ VulnerabilityID : CVE-2026-19032 
+│                        ├ [5] ╭ VulnerabilityID : CVE-2026-19032 
 │                        │     ├ VendorIDs                           
 │                        │     │                  ───────────────────
 │                        │     │                  GHSA-wjgm-6hv5-3cvf
@@ -8963,7 +9178,7 @@
 │                        │     │                  
 │                        │     ├ PublishedDate   : 2026-09-01T04:18:00.433Z 
 │                        │     ╰ LastModifiedDate: 2026-09-08T19:29:32.2Z 
-│                        ╰ [4] ╭ VulnerabilityID : CVE-2026-83557 
+│                        ╰ [6] ╭ VulnerabilityID : CVE-2026-83557 
 │                              ├ VendorIDs                           
 │                              │                  ───────────────────
 │                              │                  GHSA-gx83-3vf8-gh7j
@@ -9465,7 +9680,7 @@
 │                        │      │                  ├ oracle-oval: 3 
 │                        │      │                  ├ redhat     : 3 
 │                        │      │                  ├ rocky      : 3 
-│                        │      │                  ╰ ubuntu     : 2 
+│                        │      │                  ╰ ubuntu     : 3 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:
 │                        │      │                           │           H/A:N 
 │                        │      │                           ╰ V3Score : 8.2 
@@ -12122,7 +12337,7 @@
 │                        │      │                  ├ oracle-oval: 3 
 │                        │      │                  ├ redhat     : 3 
 │                        │      │                  ├ rocky      : 3 
-│                        │      │                  ╰ ubuntu     : 2 
+│                        │      │                  ╰ ubuntu     : 3 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:
 │                        │      │                           │           H/A:N 
 │                        │      │                           ╰ V3Score : 8.2 
@@ -14400,7 +14615,7 @@
 │                        │      │                  ├ oracle-oval: 3 
 │                        │      │                  ├ redhat     : 3 
 │                        │      │                  ├ rocky      : 3 
-│                        │      │                  ╰ ubuntu     : 2 
+│                        │      │                  ╰ ubuntu     : 3 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:
 │                        │      │                           │           H/A:N 
 │                        │      │                           ╰ V3Score : 8.2 
@@ -17057,7 +17272,7 @@
 │                        │      │                  ├ oracle-oval: 3 
 │                        │      │                  ├ redhat     : 3 
 │                        │      │                  ├ rocky      : 3 
-│                        │      │                  ╰ ubuntu     : 2 
+│                        │      │                  ╰ ubuntu     : 3 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:
 │                        │      │                           │           H/A:N 
 │                        │      │                           ╰ V3Score : 8.2 
@@ -19953,8 +20168,8 @@
 │                        │     │                                                                               
 │                        │     │                  https://github.com/containerd/containerd/releases/tag/v2.3.5 
 │                        │     │                                                                               
-│                        │     │                  https://github.com/containerd/containerd/security/advisories/
-│                        │     │                  GHSA-7jxh-36q5-gcqv                                          
+│                        │     │                  https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/G
+│                        │     │                  LIBC-SA-2026-0016                                            
 │                        │     │                  https://nvd.nist.gov/vuln/detail/CVE-2026-53495              
 │                        │     │                                                                               
 │                        │     │                  https://www.cve.org/CVERecord?id=CVE-2026-53495              
@@ -20247,7 +20462,7 @@
 │                        │     │                  p7-qqf5                                                      
 │                        │     │                  https://nvd.nist.gov/vuln/detail/CVE-2026-41568              
 │                        │     │                                                                               
-│                        │     │                  https://www.cve.org/CVERecord?id=CVE-2026-41568              
+│                        │     │                  https://www.gnu.org/                                         
 │                        │     │                                                                               
 │                        │     │                  
 │                        │     ├ PublishedDate   : 2026-06-12T19:16:26.907Z 
@@ -20335,7 +20550,7 @@
 │                        │     │                  https://creativecommons.org/licenses/by/4.0/                 
 │                        │     │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-17106
 │                        │     │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19730
-│                        │     │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-33818
+│                        │     │                  https://bugzilla.redhat.com/show_bug.cgi?id=2520654          
 │                        │     │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-39830
 │                        │     │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56853
 │                        │     │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56858
@@ -22003,7 +22218,7 @@
 │                        │      │                  ├ oracle-oval: 3 
 │                        │      │                  ├ redhat     : 3 
 │                        │      │                  ├ rocky      : 3 
-│                        │      │                  ╰ ubuntu     : 2 
+│                        │      │                  ╰ ubuntu     : 3 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:
 │                        │      │                           │           H/A:N 
 │                        │      │                           ╰ V3Score : 8.2 
@@ -24193,7 +24408,7 @@
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:61253            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:61314            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:63016            
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:66022            
+│                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-75806             
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:68334            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:68335            
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-27145       
@@ -24358,7 +24573,7 @@
 │                        │      │                  ├ oracle-oval: 3 
 │                        │      │                  ├ redhat     : 3 
 │                        │      │                  ├ rocky      : 3 
-│                        │      │                  ╰ ubuntu     : 2 
+│                        │      │                  ╰ ubuntu     : 3 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:
 │                        │      │                           │           H/A:N 
 │                        │      │                           ╰ V3Score : 8.2 
