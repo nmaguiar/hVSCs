@@ -980,7 +980,7 @@
     - CWE-297
     - CWE-295
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 3
       julia: 3
       oracle-oval: 3
@@ -1035,7 +1035,7 @@
     - CWE-295
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 3
       julia: 3
       oracle-oval: 3
@@ -1468,7 +1468,7 @@
     - CWE-201
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 3
       julia: 4
       oracle-oval: 3
@@ -6520,6 +6520,7 @@
     CweIDs:
     - CWE-908
     VendorSeverity:
+      alma: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -6527,7 +6528,9 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:76777
     - https://access.redhat.com/security/cve/CVE-2026-6368
+    - https://errata.almalinux.org/8/ALSA-2026-76777.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-6368
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34090
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2026-0014
@@ -6560,6 +6563,7 @@
     CweIDs:
     - CWE-121
     VendorSeverity:
+      alma: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -6567,7 +6571,9 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2026:76777
     - https://access.redhat.com/security/cve/CVE-2026-6791
+    - https://errata.almalinux.org/8/ALSA-2026-76777.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-6791
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34091
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2026-0013
@@ -7454,6 +7460,7 @@
     CweIDs:
     - CWE-908
     VendorSeverity:
+      alma: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -7461,7 +7468,9 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:76777
     - https://access.redhat.com/security/cve/CVE-2026-6368
+    - https://errata.almalinux.org/8/ALSA-2026-76777.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-6368
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34090
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2026-0014
@@ -7494,6 +7503,7 @@
     CweIDs:
     - CWE-121
     VendorSeverity:
+      alma: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -7501,7 +7511,9 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2026:76777
     - https://access.redhat.com/security/cve/CVE-2026-6791
+    - https://errata.almalinux.org/8/ALSA-2026-76777.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-6791
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34091
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2026-0013
@@ -8388,6 +8400,7 @@
     CweIDs:
     - CWE-908
     VendorSeverity:
+      alma: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -8395,7 +8408,9 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:76777
     - https://access.redhat.com/security/cve/CVE-2026-6368
+    - https://errata.almalinux.org/8/ALSA-2026-76777.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-6368
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34090
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2026-0014
@@ -8428,6 +8443,7 @@
     CweIDs:
     - CWE-121
     VendorSeverity:
+      alma: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -8435,7 +8451,9 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2026:76777
     - https://access.redhat.com/security/cve/CVE-2026-6791
+    - https://errata.almalinux.org/8/ALSA-2026-76777.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-6791
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34091
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2026-0013
@@ -9082,7 +9100,7 @@
     - CWE-297
     - CWE-295
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 3
       julia: 3
       oracle-oval: 3
@@ -9137,7 +9155,7 @@
     - CWE-295
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 3
       julia: 3
       oracle-oval: 3
@@ -9570,7 +9588,7 @@
     - CWE-201
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 3
       julia: 4
       oracle-oval: 3
@@ -10582,7 +10600,7 @@
     - CWE-297
     - CWE-295
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 3
       julia: 3
       oracle-oval: 3
@@ -10637,7 +10655,7 @@
     - CWE-295
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 3
       julia: 3
       oracle-oval: 3
@@ -11070,7 +11088,7 @@
     - CWE-201
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 3
       julia: 4
       oracle-oval: 3
@@ -12604,6 +12622,7 @@
     - CWE-176
     VendorSeverity:
       alma: 3
+      azure: 3
       oracle-oval: 3
       redhat: 3
       rocky: 3
@@ -12739,9 +12758,17 @@
       Name: Debian Security Tracker
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
     Fingerprint: sha256:2d3177bcb3210f663d3c46127db3d7cb50d4cb1b6769df5852b40c3235d9b718
-    Title: '[Unknown description]'
-    Description: '[Unknown description]'
+    Title: libexpat before commit 13c5f63 contains a heap buffer over-read vulner ...
+    Description: libexpat before commit 13c5f63 contains a heap buffer over-read vulnerability in xmlparse.c. XML_ParseBuffer advances the parse buffer end with parser->m_bufferEnd += len using a caller-supplied length that is not validated against the allocated buffer size, so repeated XML_ParseBuffer calls move m_bufferEnd past the end of the heap allocation and subsequent parsing reads out of bounds. Reaching this path requires a parse buffer to already be present; otherwise XML_ParseBuffer returns XML_ERROR_NO_BUFFER. A buffer is present after a prior call to XML_GetBuffer, either directly (the common case) or indirectly through a prior XML_Parse call that allocates the buffer internally. The over-read discloses adjacent heap memory to the calling application, recovering heap pointers, libc function pointers, and code pointers sufficient to defeat ASLR and build further exploitation primitives.
     Severity: UNKNOWN
+    CweIDs:
+    - CWE-125
+    References:
+    - https://github.com/libexpat/libexpat/commit/13c5f63a7f1c52c2feee3b16a1134d4fb68e9ea0
+    - https://github.com/libexpat/libexpat/pull/1393
+    - https://www.vulncheck.com/advisories/libexpat-heap-buffer-over-read-in-xmlparse-c-via-xml-parsebuffer
+    PublishedDate: '2026-10-07T15:17:53.327Z'
+    LastModifiedDate: '2026-10-07T15:57:20.793Z'
   - VulnerabilityID: CVE-2026-102010
     PkgID: libgcc-s1@14.2.0-19
     PkgName: libgcc-s1
@@ -14985,6 +15012,27 @@
     - https://www.vulncheck.com/advisories/openldap-lmdb-mdb-load-heap-buffer-underflow-in-readline
     PublishedDate: '2026-01-07T21:16:01.733Z'
     LastModifiedDate: '2026-06-17T10:19:30.257Z'
+  - VulnerabilityID: DSA-6549-1
+    VendorIDs:
+    - DSA-6549-1
+    PkgID: liblzma5@5.8.1-1+deb13u1
+    PkgName: liblzma5
+    PkgIdentifier:
+      PURL: pkg:deb/debian/liblzma5@5.8.1-1%2Bdeb13u1?arch=amd64&distro=debian-13.7
+      UID: 5f8a953212ab89f
+    InstalledVersion: 5.8.1-1+deb13u1
+    FixedVersion: 5.8.1-1+deb13u2
+    Status: fixed
+    Layer:
+      Digest: sha256:f53c6f1aaffa3d756a61655a14a524c4b88a08b53649182ee87f158c6cad5acf
+      DiffID: sha256:1d61c8895d789ec7f3c379f64ba5c70b545151a004fed5826f503950372a6ff7
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:344c3028fba153d89c2f6171bbe3f9d16db496c88f656553484ab23cf5e654b6
+    Title: xz-utils - security update
+    Severity: UNKNOWN
   - VulnerabilityID: TEMP-1147318-639065
     PkgID: liblzma5@5.8.1-1+deb13u1
     PkgName: liblzma5
@@ -14992,7 +15040,8 @@
       PURL: pkg:deb/debian/liblzma5@5.8.1-1%2Bdeb13u1?arch=amd64&distro=debian-13.7
       UID: 5f8a953212ab89f
     InstalledVersion: 5.8.1-1+deb13u1
-    Status: affected
+    FixedVersion: 5.8.1-1+deb13u2
+    Status: fixed
     Layer:
       Digest: sha256:f53c6f1aaffa3d756a61655a14a524c4b88a08b53649182ee87f158c6cad5acf
       DiffID: sha256:1d61c8895d789ec7f3c379f64ba5c70b545151a004fed5826f503950372a6ff7
@@ -16410,7 +16459,7 @@
     - CWE-787
     VendorSeverity:
       azure: 2
-      photon: 3
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -16510,6 +16559,87 @@
     - https://metacpan.org/release/RRA/podlators-v6.1.1/changes
     PublishedDate: '2026-09-19T16:16:32.14Z'
     LastModifiedDate: '2026-09-22T19:07:00.983Z'
+  - VulnerabilityID: CVE-2026-107161
+    PkgID: libsasl2-2@2.1.28+dfsg1-9
+    PkgName: libsasl2-2
+    PkgIdentifier:
+      PURL: pkg:deb/debian/libsasl2-2@2.1.28%2Bdfsg1-9?arch=amd64&distro=debian-13.7
+      UID: da05672008b28bbe
+    InstalledVersion: 2.1.28+dfsg1-9
+    Status: affected
+    Layer:
+      Digest: sha256:f53c6f1aaffa3d756a61655a14a524c4b88a08b53649182ee87f158c6cad5acf
+      DiffID: sha256:1d61c8895d789ec7f3c379f64ba5c70b545151a004fed5826f503950372a6ff7
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-107161
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:fe2f0b058d38704ed531ff0795b7c93b84a84ae9641baa26615d7927631a6f15
+    Title: A heap-based buffer overflow flaw was found in Cyrus SASL. The add_to_ ...
+    Description: A heap-based buffer overflow flaw was found in Cyrus SASL. The add_to_challenge() function in the DIGEST-MD5 plugin computes the size of the buffer needed for a challenge/response field before DIGEST-MD5 quoting is applied, but does not recompute that size when quoting (escaping special characters) makes the value longer. The under-sized buffer is then passed to strcat(), causing a heap-based out-of-bounds write whose size depends on attacker-controlled input. A malicious or on-path DIGEST-MD5 (or HTTP Digest) server can trigger this flaw in a connecting client by supplying a crafted challenge field, such as realm or nonce, most likely resulting in a crash of the client application.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-122
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-107161
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2460420
+    PublishedDate: '2026-10-07T20:17:10.977Z'
+    LastModifiedDate: '2026-10-07T20:17:10.977Z'
+  - VulnerabilityID: CVE-2026-107161
+    PkgID: libsasl2-modules@2.1.28+dfsg1-9
+    PkgName: libsasl2-modules
+    PkgIdentifier:
+      PURL: pkg:deb/debian/libsasl2-modules@2.1.28%2Bdfsg1-9?arch=amd64&distro=debian-13.7
+      UID: c73f3f16f80d99bb
+    InstalledVersion: 2.1.28+dfsg1-9
+    Status: affected
+    Layer:
+      Digest: sha256:f53c6f1aaffa3d756a61655a14a524c4b88a08b53649182ee87f158c6cad5acf
+      DiffID: sha256:1d61c8895d789ec7f3c379f64ba5c70b545151a004fed5826f503950372a6ff7
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-107161
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:9a208adb727379ffc806da943bd82f941990fcd54fc2128c7465a5f9a88dd073
+    Title: A heap-based buffer overflow flaw was found in Cyrus SASL. The add_to_ ...
+    Description: A heap-based buffer overflow flaw was found in Cyrus SASL. The add_to_challenge() function in the DIGEST-MD5 plugin computes the size of the buffer needed for a challenge/response field before DIGEST-MD5 quoting is applied, but does not recompute that size when quoting (escaping special characters) makes the value longer. The under-sized buffer is then passed to strcat(), causing a heap-based out-of-bounds write whose size depends on attacker-controlled input. A malicious or on-path DIGEST-MD5 (or HTTP Digest) server can trigger this flaw in a connecting client by supplying a crafted challenge field, such as realm or nonce, most likely resulting in a crash of the client application.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-122
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-107161
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2460420
+    PublishedDate: '2026-10-07T20:17:10.977Z'
+    LastModifiedDate: '2026-10-07T20:17:10.977Z'
+  - VulnerabilityID: CVE-2026-107161
+    PkgID: libsasl2-modules-db@2.1.28+dfsg1-9
+    PkgName: libsasl2-modules-db
+    PkgIdentifier:
+      PURL: pkg:deb/debian/libsasl2-modules-db@2.1.28%2Bdfsg1-9?arch=amd64&distro=debian-13.7
+      UID: d75e309da2e231fb
+    InstalledVersion: 2.1.28+dfsg1-9
+    Status: affected
+    Layer:
+      Digest: sha256:f53c6f1aaffa3d756a61655a14a524c4b88a08b53649182ee87f158c6cad5acf
+      DiffID: sha256:1d61c8895d789ec7f3c379f64ba5c70b545151a004fed5826f503950372a6ff7
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-107161
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:d27a384dcd03d2f8e250d2a9106844800fe4f7675fd90dfd95200ad5174e8035
+    Title: A heap-based buffer overflow flaw was found in Cyrus SASL. The add_to_ ...
+    Description: A heap-based buffer overflow flaw was found in Cyrus SASL. The add_to_challenge() function in the DIGEST-MD5 plugin computes the size of the buffer needed for a challenge/response field before DIGEST-MD5 quoting is applied, but does not recompute that size when quoting (escaping special characters) makes the value longer. The under-sized buffer is then passed to strcat(), causing a heap-based out-of-bounds write whose size depends on attacker-controlled input. A malicious or on-path DIGEST-MD5 (or HTTP Digest) server can trigger this flaw in a connecting client by supplying a crafted challenge field, such as realm or nonce, most likely resulting in a crash of the client application.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-122
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-107161
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2460420
+    PublishedDate: '2026-10-07T20:17:10.977Z'
+    LastModifiedDate: '2026-10-07T20:17:10.977Z'
   - VulnerabilityID: CVE-2026-76642
     PkgID: libsmartcols1@2.41.5-0+deb13u1
     PkgName: libsmartcols1
@@ -19299,8 +19429,8 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.8
       redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:L
-        V3Score: 4.8
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
     References:
     - https://access.redhat.com/errata/RHSA-2026:61247
     - https://access.redhat.com/security/cve/CVE-2026-11979
@@ -19678,6 +19808,7 @@
     CweIDs:
     - CWE-908
     VendorSeverity:
+      alma: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -19685,7 +19816,9 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:76777
     - https://access.redhat.com/security/cve/CVE-2026-6368
+    - https://errata.almalinux.org/8/ALSA-2026-76777.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-6368
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34090
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2026-0014
@@ -19718,6 +19851,7 @@
     CweIDs:
     - CWE-121
     VendorSeverity:
+      alma: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -19725,7 +19859,9 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2026:76777
     - https://access.redhat.com/security/cve/CVE-2026-6791
+    - https://errata.almalinux.org/8/ALSA-2026-76777.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-6791
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34091
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2026-0013
@@ -22479,6 +22615,35 @@
     - https://www.openssh.com/security.html
     PublishedDate: '2020-07-24T14:15:12.45Z'
     LastModifiedDate: '2026-06-17T02:57:10.117Z'
+  - VulnerabilityID: CVE-2026-106584
+    PkgID: openssh-client@1:10.0p1-7+deb13u4
+    PkgName: openssh-client
+    PkgIdentifier:
+      PURL: pkg:deb/debian/openssh-client@10.0p1-7%2Bdeb13u4?arch=amd64&distro=debian-13.7&epoch=1
+      UID: c5bad42295953805
+    InstalledVersion: 1:10.0p1-7+deb13u4
+    Status: affected
+    Layer:
+      Digest: sha256:f53c6f1aaffa3d756a61655a14a524c4b88a08b53649182ee87f158c6cad5acf
+      DiffID: sha256:1d61c8895d789ec7f3c379f64ba5c70b545151a004fed5826f503950372a6ff7
+    SeveritySource: debian
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-106584
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:056f1d7ad440e1c6d9522072fbd33503970d94b17278b83df9a632a0446adcec
+    Title: In ssh-keygen in OpenSSH before 10.6, certificates could have incorrec ...
+    Description: In ssh-keygen in OpenSSH before 10.6, certificates could have incorrect expiration times because of Daylight Saving mishandling. There can be a slightly more severe effect on users in certain Antarctic locations.
+    Severity: LOW
+    CweIDs:
+    - CWE-193
+    VendorSeverity:
+      debian: 1
+    References:
+    - https://www.openssh.org/releasenotes.html#10.6
+    PublishedDate: '2026-10-06T21:17:19.52Z'
+    LastModifiedDate: '2026-10-07T17:16:52.84Z'
   - VulnerabilityID: CVE-2026-55654
     PkgID: openssh-client@1:10.0p1-7+deb13u4
     PkgName: openssh-client
@@ -22610,6 +22775,215 @@
     - https://www.openwall.com/lists/oss-security/2026/08/12/1
     PublishedDate: '2026-08-11T20:18:49.69Z'
     LastModifiedDate: '2026-09-04T16:04:40.22Z'
+  - VulnerabilityID: CVE-2026-106552
+    PkgID: openssh-client@1:10.0p1-7+deb13u4
+    PkgName: openssh-client
+    PkgIdentifier:
+      PURL: pkg:deb/debian/openssh-client@10.0p1-7%2Bdeb13u4?arch=amd64&distro=debian-13.7&epoch=1
+      UID: c5bad42295953805
+    InstalledVersion: 1:10.0p1-7+deb13u4
+    Status: affected
+    Layer:
+      Digest: sha256:f53c6f1aaffa3d756a61655a14a524c4b88a08b53649182ee87f158c6cad5acf
+      DiffID: sha256:1d61c8895d789ec7f3c379f64ba5c70b545151a004fed5826f503950372a6ff7
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-106552
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:39162ddd5eb44f625aacb5f097fcf305c2f031a1be7a3c266b5e138e549a6109
+    Title: In sftp in OpenSSH before 10.6, a server can trigger directory travers ...
+    Description: In sftp in OpenSSH before 10.6, a server can trigger directory traversal (causing files to be written to unintended locations) during a recursive copy operation.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-23
+    References:
+    - https://www.openssh.org/releasenotes.html#10.6
+    PublishedDate: '2026-10-06T21:17:18.917Z'
+    LastModifiedDate: '2026-10-07T23:16:59.41Z'
+  - VulnerabilityID: CVE-2026-106553
+    PkgID: openssh-client@1:10.0p1-7+deb13u4
+    PkgName: openssh-client
+    PkgIdentifier:
+      PURL: pkg:deb/debian/openssh-client@10.0p1-7%2Bdeb13u4?arch=amd64&distro=debian-13.7&epoch=1
+      UID: c5bad42295953805
+    InstalledVersion: 1:10.0p1-7+deb13u4
+    Status: affected
+    Layer:
+      Digest: sha256:f53c6f1aaffa3d756a61655a14a524c4b88a08b53649182ee87f158c6cad5acf
+      DiffID: sha256:1d61c8895d789ec7f3c379f64ba5c70b545151a004fed5826f503950372a6ff7
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-106553
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:7a9dd25c616fa0490b509cd501a4a21719af823e8d7e4f93495be385609715d4
+    Title: In sshd in OpenSSH before 10.6, credentials can incorrectly persist af ...
+    Description: In sshd in OpenSSH before 10.6, credentials can incorrectly persist after failure of a GSSAPIAuthentication authentication attempt.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-669
+    References:
+    - https://www.openssh.org/releasenotes.html#10.6
+    PublishedDate: '2026-10-06T21:17:19.067Z'
+    LastModifiedDate: '2026-10-07T17:16:50.64Z'
+  - VulnerabilityID: CVE-2026-106555
+    PkgID: openssh-client@1:10.0p1-7+deb13u4
+    PkgName: openssh-client
+    PkgIdentifier:
+      PURL: pkg:deb/debian/openssh-client@10.0p1-7%2Bdeb13u4?arch=amd64&distro=debian-13.7&epoch=1
+      UID: c5bad42295953805
+    InstalledVersion: 1:10.0p1-7+deb13u4
+    Status: affected
+    Layer:
+      Digest: sha256:f53c6f1aaffa3d756a61655a14a524c4b88a08b53649182ee87f158c6cad5acf
+      DiffID: sha256:1d61c8895d789ec7f3c379f64ba5c70b545151a004fed5826f503950372a6ff7
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-106555
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:dad9034e0f2a25c475fb907669047410823bffb9ce1a3198af98373b2fce9f30
+    Title: In sshd in OpenSSH before 10.6, GSSAPIAuthentication authentication st ...
+    Description: In sshd in OpenSSH before 10.6, GSSAPIAuthentication authentication state can incorrectly be persisted across authentication attempts.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-669
+    References:
+    - https://www.openssh.org/releasenotes.html#10.6
+    PublishedDate: '2026-10-06T21:17:19.213Z'
+    LastModifiedDate: '2026-10-07T14:47:21.14Z'
+  - VulnerabilityID: CVE-2026-106582
+    PkgID: openssh-client@1:10.0p1-7+deb13u4
+    PkgName: openssh-client
+    PkgIdentifier:
+      PURL: pkg:deb/debian/openssh-client@10.0p1-7%2Bdeb13u4?arch=amd64&distro=debian-13.7&epoch=1
+      UID: c5bad42295953805
+    InstalledVersion: 1:10.0p1-7+deb13u4
+    Status: affected
+    Layer:
+      Digest: sha256:f53c6f1aaffa3d756a61655a14a524c4b88a08b53649182ee87f158c6cad5acf
+      DiffID: sha256:1d61c8895d789ec7f3c379f64ba5c70b545151a004fed5826f503950372a6ff7
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-106582
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:f7d36e0da127960423376aa3c28ccf0ec4b6dba422e728cf55cba0c3840c98e3
+    Title: In sshd and ssh in OpenSSH before 10.6, an LZ77 dictionary coder can b ...
+    Description: In sshd and ssh in OpenSSH before 10.6, an LZ77 dictionary coder can be used even though this is contraindicated by the arXiv 2609.07709 "Crossing the Streams" findings.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-514
+    References:
+    - https://arxiv.org/abs/2609.07709
+    - https://www.openssh.org/releasenotes.html#10.6
+    PublishedDate: '2026-10-06T21:17:19.37Z'
+    LastModifiedDate: '2026-10-07T15:17:18.05Z'
+  - VulnerabilityID: CVE-2026-106583
+    PkgID: openssh-client@1:10.0p1-7+deb13u4
+    PkgName: openssh-client
+    PkgIdentifier:
+      PURL: pkg:deb/debian/openssh-client@10.0p1-7%2Bdeb13u4?arch=amd64&distro=debian-13.7&epoch=1
+      UID: c5bad42295953805
+    InstalledVersion: 1:10.0p1-7+deb13u4
+    Status: affected
+    Layer:
+      Digest: sha256:f53c6f1aaffa3d756a61655a14a524c4b88a08b53649182ee87f158c6cad5acf
+      DiffID: sha256:1d61c8895d789ec7f3c379f64ba5c70b545151a004fed5826f503950372a6ff7
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-106583
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:939fb4205331d333c3c3d754a29a6bd767eaa1dda5b9a3ff68726fb47c5e9308
+    Title: In ssh in OpenSSH before 10.6, a $ or \ character can occur in a comma ...
+    Description: In ssh in OpenSSH before 10.6, a $ or \ character can occur in a command-line username, leading to injection.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-99
+    References:
+    - https://www.openssh.org/releasenotes.html#10.6
+    PublishedDate: '2026-10-07T00:17:20.743Z'
+    LastModifiedDate: '2026-10-07T14:47:21.14Z'
+  - VulnerabilityID: CVE-2026-106585
+    PkgID: openssh-client@1:10.0p1-7+deb13u4
+    PkgName: openssh-client
+    PkgIdentifier:
+      PURL: pkg:deb/debian/openssh-client@10.0p1-7%2Bdeb13u4?arch=amd64&distro=debian-13.7&epoch=1
+      UID: c5bad42295953805
+    InstalledVersion: 1:10.0p1-7+deb13u4
+    Status: affected
+    Layer:
+      Digest: sha256:f53c6f1aaffa3d756a61655a14a524c4b88a08b53649182ee87f158c6cad5acf
+      DiffID: sha256:1d61c8895d789ec7f3c379f64ba5c70b545151a004fed5826f503950372a6ff7
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-106585
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:8b06951f7e2dee151c4f92d74464b8428b6f31a92e4abc62633cf977c7408753
+    Title: In sshd and ssh in OpenSSH before 10.6, there is no check for whether  ...
+    Description: In sshd and ssh in OpenSSH before 10.6, there is no check for whether the maximum packet length is exceeded during decompression of highly compressed data.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-409
+    References:
+    - https://www.openssh.org/releasenotes.html#10.6
+    PublishedDate: '2026-10-06T21:17:19.663Z'
+    LastModifiedDate: '2026-10-07T14:47:21.14Z'
+  - VulnerabilityID: CVE-2026-106586
+    PkgID: openssh-client@1:10.0p1-7+deb13u4
+    PkgName: openssh-client
+    PkgIdentifier:
+      PURL: pkg:deb/debian/openssh-client@10.0p1-7%2Bdeb13u4?arch=amd64&distro=debian-13.7&epoch=1
+      UID: c5bad42295953805
+    InstalledVersion: 1:10.0p1-7+deb13u4
+    Status: affected
+    Layer:
+      Digest: sha256:f53c6f1aaffa3d756a61655a14a524c4b88a08b53649182ee87f158c6cad5acf
+      DiffID: sha256:1d61c8895d789ec7f3c379f64ba5c70b545151a004fed5826f503950372a6ff7
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-106586
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:76e975da16215a744e5280f98d244b862e2066f66394687af700234f83eeb4cc
+    Title: In sshd in OpenSSH before 10.6, the restrict keyword (in authorized_ke ...
+    Description: In sshd in OpenSSH before 10.6, the restrict keyword (in authorized_keys) was supposed to be applicable to tunnel forwarding but was not, a different vulnerability than CVE-2026-73283.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-670
+    References:
+    - https://www.openssh.org/releasenotes.html#10.6
+    PublishedDate: '2026-10-06T21:17:19.803Z'
+    LastModifiedDate: '2026-10-07T17:16:52.98Z'
+  - VulnerabilityID: CVE-2026-106587
+    PkgID: openssh-client@1:10.0p1-7+deb13u4
+    PkgName: openssh-client
+    PkgIdentifier:
+      PURL: pkg:deb/debian/openssh-client@10.0p1-7%2Bdeb13u4?arch=amd64&distro=debian-13.7&epoch=1
+      UID: c5bad42295953805
+    InstalledVersion: 1:10.0p1-7+deb13u4
+    Status: affected
+    Layer:
+      Digest: sha256:f53c6f1aaffa3d756a61655a14a524c4b88a08b53649182ee87f158c6cad5acf
+      DiffID: sha256:1d61c8895d789ec7f3c379f64ba5c70b545151a004fed5826f503950372a6ff7
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-106587
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:0f70e53659e8430afe6113d66209d7c989acd4517f262eb8ac330f2640c2607f
+    Title: In sshd in OpenSSH before 10.6, the value "none" for a configuration o ...
+    Description: In sshd in OpenSSH before 10.6, the value "none" for a configuration option is sometimes interpreted as a filename but was intended to mean that a feature is disabled.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-843
+    References:
+    - https://www.openssh.org/releasenotes.html#10.6
+    PublishedDate: '2026-10-06T22:17:06.62Z'
+    LastModifiedDate: '2026-10-07T14:47:21.14Z'
   - VulnerabilityID: CVE-2026-60002
     PkgID: openssh-server@1:10.0p1-7+deb13u4
     PkgName: openssh-server
@@ -23665,6 +24039,35 @@
     - https://www.openssh.com/security.html
     PublishedDate: '2020-07-24T14:15:12.45Z'
     LastModifiedDate: '2026-06-17T02:57:10.117Z'
+  - VulnerabilityID: CVE-2026-106584
+    PkgID: openssh-server@1:10.0p1-7+deb13u4
+    PkgName: openssh-server
+    PkgIdentifier:
+      PURL: pkg:deb/debian/openssh-server@10.0p1-7%2Bdeb13u4?arch=amd64&distro=debian-13.7&epoch=1
+      UID: 6bf734240321819d
+    InstalledVersion: 1:10.0p1-7+deb13u4
+    Status: affected
+    Layer:
+      Digest: sha256:f53c6f1aaffa3d756a61655a14a524c4b88a08b53649182ee87f158c6cad5acf
+      DiffID: sha256:1d61c8895d789ec7f3c379f64ba5c70b545151a004fed5826f503950372a6ff7
+    SeveritySource: debian
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-106584
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:0d8331c43afa293356d2797df3563477a3cb2f37a99d8b664f2e6ec063da55f6
+    Title: In ssh-keygen in OpenSSH before 10.6, certificates could have incorrec ...
+    Description: In ssh-keygen in OpenSSH before 10.6, certificates could have incorrect expiration times because of Daylight Saving mishandling. There can be a slightly more severe effect on users in certain Antarctic locations.
+    Severity: LOW
+    CweIDs:
+    - CWE-193
+    VendorSeverity:
+      debian: 1
+    References:
+    - https://www.openssh.org/releasenotes.html#10.6
+    PublishedDate: '2026-10-06T21:17:19.52Z'
+    LastModifiedDate: '2026-10-07T17:16:52.84Z'
   - VulnerabilityID: CVE-2026-55654
     PkgID: openssh-server@1:10.0p1-7+deb13u4
     PkgName: openssh-server
@@ -23796,6 +24199,215 @@
     - https://www.openwall.com/lists/oss-security/2026/08/12/1
     PublishedDate: '2026-08-11T20:18:49.69Z'
     LastModifiedDate: '2026-09-04T16:04:40.22Z'
+  - VulnerabilityID: CVE-2026-106552
+    PkgID: openssh-server@1:10.0p1-7+deb13u4
+    PkgName: openssh-server
+    PkgIdentifier:
+      PURL: pkg:deb/debian/openssh-server@10.0p1-7%2Bdeb13u4?arch=amd64&distro=debian-13.7&epoch=1
+      UID: 6bf734240321819d
+    InstalledVersion: 1:10.0p1-7+deb13u4
+    Status: affected
+    Layer:
+      Digest: sha256:f53c6f1aaffa3d756a61655a14a524c4b88a08b53649182ee87f158c6cad5acf
+      DiffID: sha256:1d61c8895d789ec7f3c379f64ba5c70b545151a004fed5826f503950372a6ff7
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-106552
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:4a17d08c7a058c25e951b3807e758aa46e7273c3d47c70d210199b82c2fc579d
+    Title: In sftp in OpenSSH before 10.6, a server can trigger directory travers ...
+    Description: In sftp in OpenSSH before 10.6, a server can trigger directory traversal (causing files to be written to unintended locations) during a recursive copy operation.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-23
+    References:
+    - https://www.openssh.org/releasenotes.html#10.6
+    PublishedDate: '2026-10-06T21:17:18.917Z'
+    LastModifiedDate: '2026-10-07T23:16:59.41Z'
+  - VulnerabilityID: CVE-2026-106553
+    PkgID: openssh-server@1:10.0p1-7+deb13u4
+    PkgName: openssh-server
+    PkgIdentifier:
+      PURL: pkg:deb/debian/openssh-server@10.0p1-7%2Bdeb13u4?arch=amd64&distro=debian-13.7&epoch=1
+      UID: 6bf734240321819d
+    InstalledVersion: 1:10.0p1-7+deb13u4
+    Status: affected
+    Layer:
+      Digest: sha256:f53c6f1aaffa3d756a61655a14a524c4b88a08b53649182ee87f158c6cad5acf
+      DiffID: sha256:1d61c8895d789ec7f3c379f64ba5c70b545151a004fed5826f503950372a6ff7
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-106553
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:9a9c1a07fce3ce06664b3378e76cd574816150480e60a364a0e51969885efb32
+    Title: In sshd in OpenSSH before 10.6, credentials can incorrectly persist af ...
+    Description: In sshd in OpenSSH before 10.6, credentials can incorrectly persist after failure of a GSSAPIAuthentication authentication attempt.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-669
+    References:
+    - https://www.openssh.org/releasenotes.html#10.6
+    PublishedDate: '2026-10-06T21:17:19.067Z'
+    LastModifiedDate: '2026-10-07T17:16:50.64Z'
+  - VulnerabilityID: CVE-2026-106555
+    PkgID: openssh-server@1:10.0p1-7+deb13u4
+    PkgName: openssh-server
+    PkgIdentifier:
+      PURL: pkg:deb/debian/openssh-server@10.0p1-7%2Bdeb13u4?arch=amd64&distro=debian-13.7&epoch=1
+      UID: 6bf734240321819d
+    InstalledVersion: 1:10.0p1-7+deb13u4
+    Status: affected
+    Layer:
+      Digest: sha256:f53c6f1aaffa3d756a61655a14a524c4b88a08b53649182ee87f158c6cad5acf
+      DiffID: sha256:1d61c8895d789ec7f3c379f64ba5c70b545151a004fed5826f503950372a6ff7
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-106555
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:9dbfa66bee82796fdd3a94d9ed6d51cccff8d7749037cd222438423e432bf22e
+    Title: In sshd in OpenSSH before 10.6, GSSAPIAuthentication authentication st ...
+    Description: In sshd in OpenSSH before 10.6, GSSAPIAuthentication authentication state can incorrectly be persisted across authentication attempts.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-669
+    References:
+    - https://www.openssh.org/releasenotes.html#10.6
+    PublishedDate: '2026-10-06T21:17:19.213Z'
+    LastModifiedDate: '2026-10-07T14:47:21.14Z'
+  - VulnerabilityID: CVE-2026-106582
+    PkgID: openssh-server@1:10.0p1-7+deb13u4
+    PkgName: openssh-server
+    PkgIdentifier:
+      PURL: pkg:deb/debian/openssh-server@10.0p1-7%2Bdeb13u4?arch=amd64&distro=debian-13.7&epoch=1
+      UID: 6bf734240321819d
+    InstalledVersion: 1:10.0p1-7+deb13u4
+    Status: affected
+    Layer:
+      Digest: sha256:f53c6f1aaffa3d756a61655a14a524c4b88a08b53649182ee87f158c6cad5acf
+      DiffID: sha256:1d61c8895d789ec7f3c379f64ba5c70b545151a004fed5826f503950372a6ff7
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-106582
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:e1d5bddc51e50f5b3f3e3713d0f769e28ccafa0fc12badc46b85d47d76e3dada
+    Title: In sshd and ssh in OpenSSH before 10.6, an LZ77 dictionary coder can b ...
+    Description: In sshd and ssh in OpenSSH before 10.6, an LZ77 dictionary coder can be used even though this is contraindicated by the arXiv 2609.07709 "Crossing the Streams" findings.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-514
+    References:
+    - https://arxiv.org/abs/2609.07709
+    - https://www.openssh.org/releasenotes.html#10.6
+    PublishedDate: '2026-10-06T21:17:19.37Z'
+    LastModifiedDate: '2026-10-07T15:17:18.05Z'
+  - VulnerabilityID: CVE-2026-106583
+    PkgID: openssh-server@1:10.0p1-7+deb13u4
+    PkgName: openssh-server
+    PkgIdentifier:
+      PURL: pkg:deb/debian/openssh-server@10.0p1-7%2Bdeb13u4?arch=amd64&distro=debian-13.7&epoch=1
+      UID: 6bf734240321819d
+    InstalledVersion: 1:10.0p1-7+deb13u4
+    Status: affected
+    Layer:
+      Digest: sha256:f53c6f1aaffa3d756a61655a14a524c4b88a08b53649182ee87f158c6cad5acf
+      DiffID: sha256:1d61c8895d789ec7f3c379f64ba5c70b545151a004fed5826f503950372a6ff7
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-106583
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:52163bc9375549e1f680db6381d7b6931b7266da21605bc21569cc2b0ef6995d
+    Title: In ssh in OpenSSH before 10.6, a $ or \ character can occur in a comma ...
+    Description: In ssh in OpenSSH before 10.6, a $ or \ character can occur in a command-line username, leading to injection.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-99
+    References:
+    - https://www.openssh.org/releasenotes.html#10.6
+    PublishedDate: '2026-10-07T00:17:20.743Z'
+    LastModifiedDate: '2026-10-07T14:47:21.14Z'
+  - VulnerabilityID: CVE-2026-106585
+    PkgID: openssh-server@1:10.0p1-7+deb13u4
+    PkgName: openssh-server
+    PkgIdentifier:
+      PURL: pkg:deb/debian/openssh-server@10.0p1-7%2Bdeb13u4?arch=amd64&distro=debian-13.7&epoch=1
+      UID: 6bf734240321819d
+    InstalledVersion: 1:10.0p1-7+deb13u4
+    Status: affected
+    Layer:
+      Digest: sha256:f53c6f1aaffa3d756a61655a14a524c4b88a08b53649182ee87f158c6cad5acf
+      DiffID: sha256:1d61c8895d789ec7f3c379f64ba5c70b545151a004fed5826f503950372a6ff7
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-106585
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:5caead04787db6567e4042f570d1f03ffc3f64e96bda3dfd3b4a73ad04f99917
+    Title: In sshd and ssh in OpenSSH before 10.6, there is no check for whether  ...
+    Description: In sshd and ssh in OpenSSH before 10.6, there is no check for whether the maximum packet length is exceeded during decompression of highly compressed data.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-409
+    References:
+    - https://www.openssh.org/releasenotes.html#10.6
+    PublishedDate: '2026-10-06T21:17:19.663Z'
+    LastModifiedDate: '2026-10-07T14:47:21.14Z'
+  - VulnerabilityID: CVE-2026-106586
+    PkgID: openssh-server@1:10.0p1-7+deb13u4
+    PkgName: openssh-server
+    PkgIdentifier:
+      PURL: pkg:deb/debian/openssh-server@10.0p1-7%2Bdeb13u4?arch=amd64&distro=debian-13.7&epoch=1
+      UID: 6bf734240321819d
+    InstalledVersion: 1:10.0p1-7+deb13u4
+    Status: affected
+    Layer:
+      Digest: sha256:f53c6f1aaffa3d756a61655a14a524c4b88a08b53649182ee87f158c6cad5acf
+      DiffID: sha256:1d61c8895d789ec7f3c379f64ba5c70b545151a004fed5826f503950372a6ff7
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-106586
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:0ccf2972cc3835481c44e0455b9e38a2b9b424e73581ef6b589e395714bfef4e
+    Title: In sshd in OpenSSH before 10.6, the restrict keyword (in authorized_ke ...
+    Description: In sshd in OpenSSH before 10.6, the restrict keyword (in authorized_keys) was supposed to be applicable to tunnel forwarding but was not, a different vulnerability than CVE-2026-73283.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-670
+    References:
+    - https://www.openssh.org/releasenotes.html#10.6
+    PublishedDate: '2026-10-06T21:17:19.803Z'
+    LastModifiedDate: '2026-10-07T17:16:52.98Z'
+  - VulnerabilityID: CVE-2026-106587
+    PkgID: openssh-server@1:10.0p1-7+deb13u4
+    PkgName: openssh-server
+    PkgIdentifier:
+      PURL: pkg:deb/debian/openssh-server@10.0p1-7%2Bdeb13u4?arch=amd64&distro=debian-13.7&epoch=1
+      UID: 6bf734240321819d
+    InstalledVersion: 1:10.0p1-7+deb13u4
+    Status: affected
+    Layer:
+      Digest: sha256:f53c6f1aaffa3d756a61655a14a524c4b88a08b53649182ee87f158c6cad5acf
+      DiffID: sha256:1d61c8895d789ec7f3c379f64ba5c70b545151a004fed5826f503950372a6ff7
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-106587
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:5cffa3bfb325ed296b55ea83d833ec0f10e85eb60545eb2ff61655f36b504e37
+    Title: In sshd in OpenSSH before 10.6, the value "none" for a configuration o ...
+    Description: In sshd in OpenSSH before 10.6, the value "none" for a configuration option is sometimes interpreted as a filename but was intended to mean that a feature is disabled.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-843
+    References:
+    - https://www.openssh.org/releasenotes.html#10.6
+    PublishedDate: '2026-10-06T22:17:06.62Z'
+    LastModifiedDate: '2026-10-07T14:47:21.14Z'
   - VulnerabilityID: CVE-2026-60002
     PkgID: openssh-sftp-server@1:10.0p1-7+deb13u4
     PkgName: openssh-sftp-server
@@ -24851,6 +25463,35 @@
     - https://www.openssh.com/security.html
     PublishedDate: '2020-07-24T14:15:12.45Z'
     LastModifiedDate: '2026-06-17T02:57:10.117Z'
+  - VulnerabilityID: CVE-2026-106584
+    PkgID: openssh-sftp-server@1:10.0p1-7+deb13u4
+    PkgName: openssh-sftp-server
+    PkgIdentifier:
+      PURL: pkg:deb/debian/openssh-sftp-server@10.0p1-7%2Bdeb13u4?arch=amd64&distro=debian-13.7&epoch=1
+      UID: 75408ea44439a1d
+    InstalledVersion: 1:10.0p1-7+deb13u4
+    Status: affected
+    Layer:
+      Digest: sha256:f53c6f1aaffa3d756a61655a14a524c4b88a08b53649182ee87f158c6cad5acf
+      DiffID: sha256:1d61c8895d789ec7f3c379f64ba5c70b545151a004fed5826f503950372a6ff7
+    SeveritySource: debian
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-106584
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:9cb12e96b493a5ccbae423d38ecc5dac2c918879e5273d23b2354c64a04216bc
+    Title: In ssh-keygen in OpenSSH before 10.6, certificates could have incorrec ...
+    Description: In ssh-keygen in OpenSSH before 10.6, certificates could have incorrect expiration times because of Daylight Saving mishandling. There can be a slightly more severe effect on users in certain Antarctic locations.
+    Severity: LOW
+    CweIDs:
+    - CWE-193
+    VendorSeverity:
+      debian: 1
+    References:
+    - https://www.openssh.org/releasenotes.html#10.6
+    PublishedDate: '2026-10-06T21:17:19.52Z'
+    LastModifiedDate: '2026-10-07T17:16:52.84Z'
   - VulnerabilityID: CVE-2026-55654
     PkgID: openssh-sftp-server@1:10.0p1-7+deb13u4
     PkgName: openssh-sftp-server
@@ -24982,6 +25623,215 @@
     - https://www.openwall.com/lists/oss-security/2026/08/12/1
     PublishedDate: '2026-08-11T20:18:49.69Z'
     LastModifiedDate: '2026-09-04T16:04:40.22Z'
+  - VulnerabilityID: CVE-2026-106552
+    PkgID: openssh-sftp-server@1:10.0p1-7+deb13u4
+    PkgName: openssh-sftp-server
+    PkgIdentifier:
+      PURL: pkg:deb/debian/openssh-sftp-server@10.0p1-7%2Bdeb13u4?arch=amd64&distro=debian-13.7&epoch=1
+      UID: 75408ea44439a1d
+    InstalledVersion: 1:10.0p1-7+deb13u4
+    Status: affected
+    Layer:
+      Digest: sha256:f53c6f1aaffa3d756a61655a14a524c4b88a08b53649182ee87f158c6cad5acf
+      DiffID: sha256:1d61c8895d789ec7f3c379f64ba5c70b545151a004fed5826f503950372a6ff7
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-106552
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:1530dfe4cc6e507658534ab9bef44c18dd6e05e79d5f019ee3591b18eda74b3a
+    Title: In sftp in OpenSSH before 10.6, a server can trigger directory travers ...
+    Description: In sftp in OpenSSH before 10.6, a server can trigger directory traversal (causing files to be written to unintended locations) during a recursive copy operation.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-23
+    References:
+    - https://www.openssh.org/releasenotes.html#10.6
+    PublishedDate: '2026-10-06T21:17:18.917Z'
+    LastModifiedDate: '2026-10-07T23:16:59.41Z'
+  - VulnerabilityID: CVE-2026-106553
+    PkgID: openssh-sftp-server@1:10.0p1-7+deb13u4
+    PkgName: openssh-sftp-server
+    PkgIdentifier:
+      PURL: pkg:deb/debian/openssh-sftp-server@10.0p1-7%2Bdeb13u4?arch=amd64&distro=debian-13.7&epoch=1
+      UID: 75408ea44439a1d
+    InstalledVersion: 1:10.0p1-7+deb13u4
+    Status: affected
+    Layer:
+      Digest: sha256:f53c6f1aaffa3d756a61655a14a524c4b88a08b53649182ee87f158c6cad5acf
+      DiffID: sha256:1d61c8895d789ec7f3c379f64ba5c70b545151a004fed5826f503950372a6ff7
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-106553
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:84db31e53c9e41433868a09f171ed19184c27df3731c7808310e51a5c913e52f
+    Title: In sshd in OpenSSH before 10.6, credentials can incorrectly persist af ...
+    Description: In sshd in OpenSSH before 10.6, credentials can incorrectly persist after failure of a GSSAPIAuthentication authentication attempt.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-669
+    References:
+    - https://www.openssh.org/releasenotes.html#10.6
+    PublishedDate: '2026-10-06T21:17:19.067Z'
+    LastModifiedDate: '2026-10-07T17:16:50.64Z'
+  - VulnerabilityID: CVE-2026-106555
+    PkgID: openssh-sftp-server@1:10.0p1-7+deb13u4
+    PkgName: openssh-sftp-server
+    PkgIdentifier:
+      PURL: pkg:deb/debian/openssh-sftp-server@10.0p1-7%2Bdeb13u4?arch=amd64&distro=debian-13.7&epoch=1
+      UID: 75408ea44439a1d
+    InstalledVersion: 1:10.0p1-7+deb13u4
+    Status: affected
+    Layer:
+      Digest: sha256:f53c6f1aaffa3d756a61655a14a524c4b88a08b53649182ee87f158c6cad5acf
+      DiffID: sha256:1d61c8895d789ec7f3c379f64ba5c70b545151a004fed5826f503950372a6ff7
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-106555
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:702a2dd9a8f1a5f2f4cc774539e3218e9374325485f12374dd489fc8a89a2902
+    Title: In sshd in OpenSSH before 10.6, GSSAPIAuthentication authentication st ...
+    Description: In sshd in OpenSSH before 10.6, GSSAPIAuthentication authentication state can incorrectly be persisted across authentication attempts.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-669
+    References:
+    - https://www.openssh.org/releasenotes.html#10.6
+    PublishedDate: '2026-10-06T21:17:19.213Z'
+    LastModifiedDate: '2026-10-07T14:47:21.14Z'
+  - VulnerabilityID: CVE-2026-106582
+    PkgID: openssh-sftp-server@1:10.0p1-7+deb13u4
+    PkgName: openssh-sftp-server
+    PkgIdentifier:
+      PURL: pkg:deb/debian/openssh-sftp-server@10.0p1-7%2Bdeb13u4?arch=amd64&distro=debian-13.7&epoch=1
+      UID: 75408ea44439a1d
+    InstalledVersion: 1:10.0p1-7+deb13u4
+    Status: affected
+    Layer:
+      Digest: sha256:f53c6f1aaffa3d756a61655a14a524c4b88a08b53649182ee87f158c6cad5acf
+      DiffID: sha256:1d61c8895d789ec7f3c379f64ba5c70b545151a004fed5826f503950372a6ff7
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-106582
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:7e92e45143618add20513281d793f6c35db62ad005541349872d051985cab59d
+    Title: In sshd and ssh in OpenSSH before 10.6, an LZ77 dictionary coder can b ...
+    Description: In sshd and ssh in OpenSSH before 10.6, an LZ77 dictionary coder can be used even though this is contraindicated by the arXiv 2609.07709 "Crossing the Streams" findings.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-514
+    References:
+    - https://arxiv.org/abs/2609.07709
+    - https://www.openssh.org/releasenotes.html#10.6
+    PublishedDate: '2026-10-06T21:17:19.37Z'
+    LastModifiedDate: '2026-10-07T15:17:18.05Z'
+  - VulnerabilityID: CVE-2026-106583
+    PkgID: openssh-sftp-server@1:10.0p1-7+deb13u4
+    PkgName: openssh-sftp-server
+    PkgIdentifier:
+      PURL: pkg:deb/debian/openssh-sftp-server@10.0p1-7%2Bdeb13u4?arch=amd64&distro=debian-13.7&epoch=1
+      UID: 75408ea44439a1d
+    InstalledVersion: 1:10.0p1-7+deb13u4
+    Status: affected
+    Layer:
+      Digest: sha256:f53c6f1aaffa3d756a61655a14a524c4b88a08b53649182ee87f158c6cad5acf
+      DiffID: sha256:1d61c8895d789ec7f3c379f64ba5c70b545151a004fed5826f503950372a6ff7
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-106583
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:cbbedac7f142f4e89abd734576821e86afc8425e03399b11d7615ddeb3d6c4a9
+    Title: In ssh in OpenSSH before 10.6, a $ or \ character can occur in a comma ...
+    Description: In ssh in OpenSSH before 10.6, a $ or \ character can occur in a command-line username, leading to injection.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-99
+    References:
+    - https://www.openssh.org/releasenotes.html#10.6
+    PublishedDate: '2026-10-07T00:17:20.743Z'
+    LastModifiedDate: '2026-10-07T14:47:21.14Z'
+  - VulnerabilityID: CVE-2026-106585
+    PkgID: openssh-sftp-server@1:10.0p1-7+deb13u4
+    PkgName: openssh-sftp-server
+    PkgIdentifier:
+      PURL: pkg:deb/debian/openssh-sftp-server@10.0p1-7%2Bdeb13u4?arch=amd64&distro=debian-13.7&epoch=1
+      UID: 75408ea44439a1d
+    InstalledVersion: 1:10.0p1-7+deb13u4
+    Status: affected
+    Layer:
+      Digest: sha256:f53c6f1aaffa3d756a61655a14a524c4b88a08b53649182ee87f158c6cad5acf
+      DiffID: sha256:1d61c8895d789ec7f3c379f64ba5c70b545151a004fed5826f503950372a6ff7
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-106585
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:d3016e812d2e95194830e86fa1339ff428871f2df8a11065ec65e052fbe66126
+    Title: In sshd and ssh in OpenSSH before 10.6, there is no check for whether  ...
+    Description: In sshd and ssh in OpenSSH before 10.6, there is no check for whether the maximum packet length is exceeded during decompression of highly compressed data.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-409
+    References:
+    - https://www.openssh.org/releasenotes.html#10.6
+    PublishedDate: '2026-10-06T21:17:19.663Z'
+    LastModifiedDate: '2026-10-07T14:47:21.14Z'
+  - VulnerabilityID: CVE-2026-106586
+    PkgID: openssh-sftp-server@1:10.0p1-7+deb13u4
+    PkgName: openssh-sftp-server
+    PkgIdentifier:
+      PURL: pkg:deb/debian/openssh-sftp-server@10.0p1-7%2Bdeb13u4?arch=amd64&distro=debian-13.7&epoch=1
+      UID: 75408ea44439a1d
+    InstalledVersion: 1:10.0p1-7+deb13u4
+    Status: affected
+    Layer:
+      Digest: sha256:f53c6f1aaffa3d756a61655a14a524c4b88a08b53649182ee87f158c6cad5acf
+      DiffID: sha256:1d61c8895d789ec7f3c379f64ba5c70b545151a004fed5826f503950372a6ff7
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-106586
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:352a080e99e72122f8f3436ebef6eddd45714bfca25ad22a1133103e8f1b4407
+    Title: In sshd in OpenSSH before 10.6, the restrict keyword (in authorized_ke ...
+    Description: In sshd in OpenSSH before 10.6, the restrict keyword (in authorized_keys) was supposed to be applicable to tunnel forwarding but was not, a different vulnerability than CVE-2026-73283.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-670
+    References:
+    - https://www.openssh.org/releasenotes.html#10.6
+    PublishedDate: '2026-10-06T21:17:19.803Z'
+    LastModifiedDate: '2026-10-07T17:16:52.98Z'
+  - VulnerabilityID: CVE-2026-106587
+    PkgID: openssh-sftp-server@1:10.0p1-7+deb13u4
+    PkgName: openssh-sftp-server
+    PkgIdentifier:
+      PURL: pkg:deb/debian/openssh-sftp-server@10.0p1-7%2Bdeb13u4?arch=amd64&distro=debian-13.7&epoch=1
+      UID: 75408ea44439a1d
+    InstalledVersion: 1:10.0p1-7+deb13u4
+    Status: affected
+    Layer:
+      Digest: sha256:f53c6f1aaffa3d756a61655a14a524c4b88a08b53649182ee87f158c6cad5acf
+      DiffID: sha256:1d61c8895d789ec7f3c379f64ba5c70b545151a004fed5826f503950372a6ff7
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-106587
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:25c6d82a3e7591e9a35be800b0dc24651401fad52441cff2bb84997ff79d2289
+    Title: In sshd in OpenSSH before 10.6, the value "none" for a configuration o ...
+    Description: In sshd in OpenSSH before 10.6, the value "none" for a configuration option is sometimes interpreted as a filename but was intended to mean that a feature is disabled.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-843
+    References:
+    - https://www.openssh.org/releasenotes.html#10.6
+    PublishedDate: '2026-10-06T22:17:06.62Z'
+    LastModifiedDate: '2026-10-07T14:47:21.14Z'
   - VulnerabilityID: CVE-2007-5686
     PkgID: passwd@1:4.17.4-2
     PkgName: passwd
@@ -25522,7 +26372,7 @@
     - CWE-787
     VendorSeverity:
       azure: 2
-      photon: 3
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -25716,7 +26566,7 @@
     - CWE-787
     VendorSeverity:
       azure: 2
-      photon: 3
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -25910,7 +26760,7 @@
     - CWE-787
     VendorSeverity:
       azure: 2
-      photon: 3
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -26034,8 +26884,11 @@
     - CWE-863
     VendorSeverity:
       alma: 3
+      azure: 3
       oracle-oval: 3
       redhat: 3
+      rocky: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
@@ -26049,11 +26902,15 @@
     - https://access.redhat.com/security/cve/CVE-2026-96512
     - https://bugzilla.redhat.com/2539327
     - https://bugzilla.redhat.com/show_bug.cgi?id=2539327
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-96512
     - https://errata.almalinux.org/9/ALSA-2026-75571.html
+    - https://errata.rockylinux.org/RLSA-2026:75571
     - https://github.com/sudo-project/sudo/commit/1820a349687522f51023d1ae5925125f59679a8c
     - https://linux.oracle.com/cve/CVE-2026-96512.html
     - https://linux.oracle.com/errata/ELSA-2026-75580.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-96512
+    - https://ubuntu.com/security/notices/USN-8895-1
     - https://www.cve.org/CVERecord?id=CVE-2026-96512
     PublishedDate: '2026-09-23T14:17:10.747Z'
     LastModifiedDate: '2026-10-05T11:17:01.93Z'
@@ -29239,20 +30096,25 @@
       azure: 3
       oracle-oval: 3
       redhat: 3
+      rocky: 3
       ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.3
     References:
-    - https://access.redhat.com/errata/RHSA-2026:75769
+    - https://access.redhat.com/errata/RHSA-2026:75768
     - https://access.redhat.com/security/cve/CVE-2026-73073
-    - https://errata.almalinux.org/10/ALSA-2026-75769.html
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2517950
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-73073
+    - https://errata.almalinux.org/9/ALSA-2026-75768.html
+    - https://errata.rockylinux.org/RLSA-2026:75768
     - https://github.com/vim/vim/commit/2f628d8104958fa7421664f792ca6d4f7a39a10f
     - https://github.com/vim/vim/releases/tag/v9.2.0845
     - https://github.com/vim/vim/security/advisories/GHSA-cx73-phcg-3j5g
     - https://linux.oracle.com/cve/CVE-2026-73073.html
-    - https://linux.oracle.com/errata/ELSA-2026-75768.html
+    - https://linux.oracle.com/errata/ELSA-2026-77359.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-73073
     - https://ubuntu.com/security/notices/USN-8679-1
     - https://ubuntu.com/security/notices/USN-8679-2
@@ -31967,20 +32829,25 @@
       azure: 3
       oracle-oval: 3
       redhat: 3
+      rocky: 3
       ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.3
     References:
-    - https://access.redhat.com/errata/RHSA-2026:75769
+    - https://access.redhat.com/errata/RHSA-2026:75768
     - https://access.redhat.com/security/cve/CVE-2026-73073
-    - https://errata.almalinux.org/10/ALSA-2026-75769.html
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2517950
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-73073
+    - https://errata.almalinux.org/9/ALSA-2026-75768.html
+    - https://errata.rockylinux.org/RLSA-2026:75768
     - https://github.com/vim/vim/commit/2f628d8104958fa7421664f792ca6d4f7a39a10f
     - https://github.com/vim/vim/releases/tag/v9.2.0845
     - https://github.com/vim/vim/security/advisories/GHSA-cx73-phcg-3j5g
     - https://linux.oracle.com/cve/CVE-2026-73073.html
-    - https://linux.oracle.com/errata/ELSA-2026-75768.html
+    - https://linux.oracle.com/errata/ELSA-2026-77359.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-73073
     - https://ubuntu.com/security/notices/USN-8679-1
     - https://ubuntu.com/security/notices/USN-8679-2
@@ -34695,20 +35562,25 @@
       azure: 3
       oracle-oval: 3
       redhat: 3
+      rocky: 3
       ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.3
     References:
-    - https://access.redhat.com/errata/RHSA-2026:75769
+    - https://access.redhat.com/errata/RHSA-2026:75768
     - https://access.redhat.com/security/cve/CVE-2026-73073
-    - https://errata.almalinux.org/10/ALSA-2026-75769.html
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2517950
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-73073
+    - https://errata.almalinux.org/9/ALSA-2026-75768.html
+    - https://errata.rockylinux.org/RLSA-2026:75768
     - https://github.com/vim/vim/commit/2f628d8104958fa7421664f792ca6d4f7a39a10f
     - https://github.com/vim/vim/releases/tag/v9.2.0845
     - https://github.com/vim/vim/security/advisories/GHSA-cx73-phcg-3j5g
     - https://linux.oracle.com/cve/CVE-2026-73073.html
-    - https://linux.oracle.com/errata/ELSA-2026-75768.html
+    - https://linux.oracle.com/errata/ELSA-2026-77359.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-73073
     - https://ubuntu.com/security/notices/USN-8679-1
     - https://ubuntu.com/security/notices/USN-8679-2
@@ -37423,20 +38295,25 @@
       azure: 3
       oracle-oval: 3
       redhat: 3
+      rocky: 3
       ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.3
     References:
-    - https://access.redhat.com/errata/RHSA-2026:75769
+    - https://access.redhat.com/errata/RHSA-2026:75768
     - https://access.redhat.com/security/cve/CVE-2026-73073
-    - https://errata.almalinux.org/10/ALSA-2026-75769.html
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2517950
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-73073
+    - https://errata.almalinux.org/9/ALSA-2026-75768.html
+    - https://errata.rockylinux.org/RLSA-2026:75768
     - https://github.com/vim/vim/commit/2f628d8104958fa7421664f792ca6d4f7a39a10f
     - https://github.com/vim/vim/releases/tag/v9.2.0845
     - https://github.com/vim/vim/security/advisories/GHSA-cx73-phcg-3j5g
     - https://linux.oracle.com/cve/CVE-2026-73073.html
-    - https://linux.oracle.com/errata/ELSA-2026-75768.html
+    - https://linux.oracle.com/errata/ELSA-2026-77359.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-73073
     - https://ubuntu.com/security/notices/USN-8679-1
     - https://ubuntu.com/security/notices/USN-8679-2
@@ -39019,7 +39896,7 @@
       cbl-mariner: 2
       julia: 2
       nvd: 2
-      photon: 3
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -40522,20 +41399,25 @@
       azure: 3
       oracle-oval: 3
       redhat: 3
+      rocky: 3
       ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.3
     References:
-    - https://access.redhat.com/errata/RHSA-2026:75769
+    - https://access.redhat.com/errata/RHSA-2026:75768
     - https://access.redhat.com/security/cve/CVE-2026-73073
-    - https://errata.almalinux.org/10/ALSA-2026-75769.html
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2517950
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-73073
+    - https://errata.almalinux.org/9/ALSA-2026-75768.html
+    - https://errata.rockylinux.org/RLSA-2026:75768
     - https://github.com/vim/vim/commit/2f628d8104958fa7421664f792ca6d4f7a39a10f
     - https://github.com/vim/vim/releases/tag/v9.2.0845
     - https://github.com/vim/vim/security/advisories/GHSA-cx73-phcg-3j5g
     - https://linux.oracle.com/cve/CVE-2026-73073.html
-    - https://linux.oracle.com/errata/ELSA-2026-75768.html
+    - https://linux.oracle.com/errata/ELSA-2026-77359.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-73073
     - https://ubuntu.com/security/notices/USN-8679-1
     - https://ubuntu.com/security/notices/USN-8679-2
@@ -41960,6 +42842,27 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-52859
     PublishedDate: '2026-06-11T19:16:47.627Z'
     LastModifiedDate: '2026-06-17T10:57:53.623Z'
+  - VulnerabilityID: DSA-6549-1
+    VendorIDs:
+    - DSA-6549-1
+    PkgID: xz-utils@5.8.1-1+deb13u1
+    PkgName: xz-utils
+    PkgIdentifier:
+      PURL: pkg:deb/debian/xz-utils@5.8.1-1%2Bdeb13u1?arch=amd64&distro=debian-13.7
+      UID: 13ca47169fc299b1
+    InstalledVersion: 5.8.1-1+deb13u1
+    FixedVersion: 5.8.1-1+deb13u2
+    Status: fixed
+    Layer:
+      Digest: sha256:f53c6f1aaffa3d756a61655a14a524c4b88a08b53649182ee87f158c6cad5acf
+      DiffID: sha256:1d61c8895d789ec7f3c379f64ba5c70b545151a004fed5826f503950372a6ff7
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:a3c4cc28ec02fa37d626928ca17288280f09cd058677693959f0bbfed1996f38
+    Title: xz-utils - security update
+    Severity: UNKNOWN
   - VulnerabilityID: TEMP-1147318-639065
     PkgID: xz-utils@5.8.1-1+deb13u1
     PkgName: xz-utils
@@ -41967,7 +42870,8 @@
       PURL: pkg:deb/debian/xz-utils@5.8.1-1%2Bdeb13u1?arch=amd64&distro=debian-13.7
       UID: 13ca47169fc299b1
     InstalledVersion: 5.8.1-1+deb13u1
-    Status: affected
+    FixedVersion: 5.8.1-1+deb13u2
+    Status: fixed
     Layer:
       Digest: sha256:f53c6f1aaffa3d756a61655a14a524c4b88a08b53649182ee87f158c6cad5acf
       DiffID: sha256:1d61c8895d789ec7f3c379f64ba5c70b545151a004fed5826f503950372a6ff7
@@ -42202,6 +43106,7 @@
     VendorSeverity:
       ghsa: 3
       redhat: 3
+      ubuntu: 2
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -42897,7 +43802,7 @@
         V3Score: 7.5
     References:
     - https://access.redhat.com/errata/RHSA-2026:73838
-    - https://access.redhat.com/errata/RHSA-2026:75864
+    - https://access.redhat.com/errata/RHSA-2026:75870
     - https://access.redhat.com/security/cve/CVE-2026-19534
     - https://bugzilla.redhat.com/2481394
     - https://bugzilla.redhat.com/2528759
@@ -42909,7 +43814,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19534
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-84961
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-85152
-    - https://errata.almalinux.org/10/ALSA-2026-75864.html
+    - https://errata.almalinux.org/8/ALSA-2026-75870.html
     - https://errata.rockylinux.org/RLSA-2026:73838
     - https://github.com/nodejs/undici
     - https://github.com/nodejs/undici/commit/2af0faf88b906d3127a360c3ac75164c0f95e5a5
@@ -43968,6 +44873,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-39821.json
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://ubuntu.com/security/notices/USN-8883-1
+    - https://ubuntu.com/security/notices/USN-8900-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
     LastModifiedDate: '2026-09-17T12:18:05.767Z'
@@ -44066,6 +44972,7 @@
     - https://ubuntu.com/security/notices/USN-8089-1
     - https://ubuntu.com/security/notices/USN-8089-2
     - https://ubuntu.com/security/notices/USN-8089-3
+    - https://ubuntu.com/security/notices/USN-8900-1
     - https://www.cve.org/CVERecord?id=CVE-2025-47911
     PublishedDate: '2026-02-05T18:16:09.893Z'
     LastModifiedDate: '2026-06-17T09:28:50.07Z'
@@ -44120,6 +45027,7 @@
     - https://ubuntu.com/security/notices/USN-8089-1
     - https://ubuntu.com/security/notices/USN-8089-2
     - https://ubuntu.com/security/notices/USN-8089-3
+    - https://ubuntu.com/security/notices/USN-8900-1
     - https://www.cve.org/CVERecord?id=CVE-2025-58190
     PublishedDate: '2026-02-05T18:16:10.027Z'
     LastModifiedDate: '2026-06-17T09:44:02.557Z'
@@ -44391,6 +45299,35 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-56852
     PublishedDate: '2026-07-21T20:17:02.867Z'
     LastModifiedDate: '2026-07-23T18:27:48.877Z'
+  - VulnerabilityID: CVE-2026-56851
+    VendorIDs:
+    - GO-2026-6629
+    PkgID: golang.org/x/text@v0.23.0
+    PkgName: golang.org/x/text
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/text@v0.23.0
+      UID: dcc19b8a424035ae
+    InstalledVersion: v0.23.0
+    FixedVersion: 0.41.0
+    Status: fixed
+    Layer:
+      Digest: sha256:f53c6f1aaffa3d756a61655a14a524c4b88a08b53649182ee87f158c6cad5acf
+      DiffID: sha256:1d61c8895d789ec7f3c379f64ba5c70b545151a004fed5826f503950372a6ff7
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-56851
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:02739c5b55394327e50c3feeaa5a1852424355d120c99d565e82c5725da1d484
+    Title: The Nickname profile can panic with an out-of-bounds slice error when  ...
+    Description: The Nickname profile can panic with an out-of-bounds slice error when transforming crafted input into a short destination buffer.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/793360
+    - https://go.dev/issue/80112
+    - https://pkg.go.dev/vuln/GO-2026-6629
+    PublishedDate: '2026-10-07T18:17:20.903Z'
+    LastModifiedDate: '2026-10-07T18:17:20.903Z'
   - VulnerabilityID: CVE-2026-25679
     VendorIDs:
     - GO-2026-4601
@@ -44419,7 +45356,7 @@
     - CWE-1286
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 3
       bitnami: 3
       oracle-oval: 3
@@ -46311,6 +47248,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-39821.json
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://ubuntu.com/security/notices/USN-8883-1
+    - https://ubuntu.com/security/notices/USN-8900-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
     LastModifiedDate: '2026-09-17T12:18:05.767Z'
@@ -46341,7 +47279,7 @@
     - CWE-61
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 3
       bitnami: 3
       oracle-oval: 3
@@ -46841,7 +47779,7 @@
       amazon: 3
       bitnami: 2
       oracle-oval: 3
-      photon: 4
+      photon: 2
       redhat: 3
       rocky: 3
     CVSS:
@@ -46996,7 +47934,7 @@
       amazon: 3
       bitnami: 2
       oracle-oval: 3
-      photon: 3
+      photon: 2
       redhat: 3
       rocky: 3
     CVSS:
@@ -48290,6 +49228,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-39821.json
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://ubuntu.com/security/notices/USN-8883-1
+    - https://ubuntu.com/security/notices/USN-8900-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
     LastModifiedDate: '2026-09-17T12:18:05.767Z'
@@ -48388,6 +49327,7 @@
     - https://ubuntu.com/security/notices/USN-8089-1
     - https://ubuntu.com/security/notices/USN-8089-2
     - https://ubuntu.com/security/notices/USN-8089-3
+    - https://ubuntu.com/security/notices/USN-8900-1
     - https://www.cve.org/CVERecord?id=CVE-2025-47911
     PublishedDate: '2026-02-05T18:16:09.893Z'
     LastModifiedDate: '2026-06-17T09:28:50.07Z'
@@ -48442,6 +49382,7 @@
     - https://ubuntu.com/security/notices/USN-8089-1
     - https://ubuntu.com/security/notices/USN-8089-2
     - https://ubuntu.com/security/notices/USN-8089-3
+    - https://ubuntu.com/security/notices/USN-8900-1
     - https://www.cve.org/CVERecord?id=CVE-2025-58190
     PublishedDate: '2026-02-05T18:16:10.027Z'
     LastModifiedDate: '2026-06-17T09:44:02.557Z'
@@ -48713,6 +49654,35 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-56852
     PublishedDate: '2026-07-21T20:17:02.867Z'
     LastModifiedDate: '2026-07-23T18:27:48.877Z'
+  - VulnerabilityID: CVE-2026-56851
+    VendorIDs:
+    - GO-2026-6629
+    PkgID: golang.org/x/text@v0.23.0
+    PkgName: golang.org/x/text
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/text@v0.23.0
+      UID: 8ceca86d95af856f
+    InstalledVersion: v0.23.0
+    FixedVersion: 0.41.0
+    Status: fixed
+    Layer:
+      Digest: sha256:f53c6f1aaffa3d756a61655a14a524c4b88a08b53649182ee87f158c6cad5acf
+      DiffID: sha256:1d61c8895d789ec7f3c379f64ba5c70b545151a004fed5826f503950372a6ff7
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-56851
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:23a4cfbce7741e2b9f9e99dfcd9710823e3367be89e5bb1fc14327f764b6a8c4
+    Title: The Nickname profile can panic with an out-of-bounds slice error when  ...
+    Description: The Nickname profile can panic with an out-of-bounds slice error when transforming crafted input into a short destination buffer.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/793360
+    - https://go.dev/issue/80112
+    - https://pkg.go.dev/vuln/GO-2026-6629
+    PublishedDate: '2026-10-07T18:17:20.903Z'
+    LastModifiedDate: '2026-10-07T18:17:20.903Z'
   - VulnerabilityID: CVE-2026-25679
     VendorIDs:
     - GO-2026-4601
@@ -48741,7 +49711,7 @@
     - CWE-1286
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 3
       bitnami: 3
       oracle-oval: 3
@@ -50633,6 +51603,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-39821.json
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://ubuntu.com/security/notices/USN-8883-1
+    - https://ubuntu.com/security/notices/USN-8900-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
     LastModifiedDate: '2026-09-17T12:18:05.767Z'
@@ -50663,7 +51634,7 @@
     - CWE-61
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 3
       bitnami: 3
       oracle-oval: 3
@@ -51163,7 +52134,7 @@
       amazon: 3
       bitnami: 2
       oracle-oval: 3
-      photon: 4
+      photon: 2
       redhat: 3
       rocky: 3
     CVSS:
@@ -51318,7 +52289,7 @@
       amazon: 3
       bitnami: 2
       oracle-oval: 3
-      photon: 3
+      photon: 2
       redhat: 3
       rocky: 3
     CVSS:
@@ -52147,7 +53118,7 @@
     - CWE-189
     - CWE-190
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       ghsa: 1
       nvd: 2
       redhat: 2
@@ -52354,6 +53325,36 @@
   Class: lang-pkgs
   Type: gobinary
   Packages: []
+  Vulnerabilities:
+  - VulnerabilityID: CVE-2026-56851
+    VendorIDs:
+    - GO-2026-6629
+    PkgID: golang.org/x/text@v0.40.0
+    PkgName: golang.org/x/text
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/text@v0.40.0
+      UID: 966c369de131ff49
+    InstalledVersion: v0.40.0
+    FixedVersion: 0.41.0
+    Status: fixed
+    Layer:
+      Digest: sha256:f53c6f1aaffa3d756a61655a14a524c4b88a08b53649182ee87f158c6cad5acf
+      DiffID: sha256:1d61c8895d789ec7f3c379f64ba5c70b545151a004fed5826f503950372a6ff7
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-56851
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:d1a3ab90ae72cbd5da066ea1d7ad44cb718744c002982b8eea20acded176c76c
+    Title: The Nickname profile can panic with an out-of-bounds slice error when  ...
+    Description: The Nickname profile can panic with an out-of-bounds slice error when transforming crafted input into a short destination buffer.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/793360
+    - https://go.dev/issue/80112
+    - https://pkg.go.dev/vuln/GO-2026-6629
+    PublishedDate: '2026-10-07T18:17:20.903Z'
+    LastModifiedDate: '2026-10-07T18:17:20.903Z'
 - Target: usr/bin/rootlesskit
   Class: lang-pkgs
   Type: gobinary
@@ -53733,6 +54734,35 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-56852
     PublishedDate: '2026-07-21T20:17:02.867Z'
     LastModifiedDate: '2026-07-23T18:27:48.877Z'
+  - VulnerabilityID: CVE-2026-56851
+    VendorIDs:
+    - GO-2026-6629
+    PkgID: golang.org/x/text@v0.38.0
+    PkgName: golang.org/x/text
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/text@v0.38.0
+      UID: 23d84dcd6ab5ac00
+    InstalledVersion: v0.38.0
+    FixedVersion: 0.41.0
+    Status: fixed
+    Layer:
+      Digest: sha256:f53c6f1aaffa3d756a61655a14a524c4b88a08b53649182ee87f158c6cad5acf
+      DiffID: sha256:1d61c8895d789ec7f3c379f64ba5c70b545151a004fed5826f503950372a6ff7
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-56851
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:8bbb2196bdd9910c5f722fda5f778f11b4b51e81e8ad9cb24564e9f4f2a97568
+    Title: The Nickname profile can panic with an out-of-bounds slice error when  ...
+    Description: The Nickname profile can panic with an out-of-bounds slice error when transforming crafted input into a short destination buffer.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/793360
+    - https://go.dev/issue/80112
+    - https://pkg.go.dev/vuln/GO-2026-6629
+    PublishedDate: '2026-10-07T18:17:20.903Z'
+    LastModifiedDate: '2026-10-07T18:17:20.903Z'
   - VulnerabilityID: CVE-2026-84304
     VendorIDs:
     - GHSA-vp52-pcj8-j9qc
@@ -53814,6 +54844,7 @@
       azure: 3
       ghsa: 3
       redhat: 3
+      rocky: 3
     CVSS:
       ghsa:
         V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N
@@ -53822,7 +54853,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:76743
     - https://access.redhat.com/security/cve/CVE-2026-84445
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2533175
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-84445
+    - https://errata.rockylinux.org/RLSA-2026:76743
     - https://github.com/grpc/grpc-go
     - https://github.com/grpc/grpc-go/commit/3822494d8ea03b992c089fd2a195f041762fffb7
     - https://github.com/grpc/grpc-go/commit/8668b69c167df908b6b3666dcbf40992b9e932a4
@@ -54284,6 +55320,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-39821.json
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://ubuntu.com/security/notices/USN-8883-1
+    - https://ubuntu.com/security/notices/USN-8900-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
     LastModifiedDate: '2026-09-17T12:18:05.767Z'
@@ -54390,7 +55427,7 @@
       amazon: 3
       bitnami: 2
       oracle-oval: 3
-      photon: 4
+      photon: 2
       redhat: 3
       rocky: 3
     CVSS:
@@ -54545,7 +55582,7 @@
       amazon: 3
       bitnami: 2
       oracle-oval: 3
-      photon: 3
+      photon: 2
       redhat: 3
       rocky: 3
     CVSS:
@@ -55182,7 +56219,7 @@
     - CWE-770
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 3
       cbl-mariner: 2
@@ -55595,7 +56632,7 @@
     - CWE-1286
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 3
       bitnami: 3
       oracle-oval: 3
@@ -57487,6 +58524,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-39821.json
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://ubuntu.com/security/notices/USN-8883-1
+    - https://ubuntu.com/security/notices/USN-8900-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
     LastModifiedDate: '2026-09-17T12:18:05.767Z'
@@ -57517,7 +58555,7 @@
     - CWE-61
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 3
       bitnami: 3
       oracle-oval: 3
@@ -58017,7 +59055,7 @@
       amazon: 3
       bitnami: 2
       oracle-oval: 3
-      photon: 4
+      photon: 2
       redhat: 3
       rocky: 3
     CVSS:
@@ -58172,7 +59210,7 @@
       amazon: 3
       bitnami: 2
       oracle-oval: 3
-      photon: 3
+      photon: 2
       redhat: 3
       rocky: 3
     CVSS:
@@ -58316,7 +59354,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -58425,7 +59463,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -59961,7 +60999,7 @@
     - https://pkg.go.dev/vuln/GO-2025-4010
     - https://www.cve.org/CVERecord?id=CVE-2025-47912
     PublishedDate: '2025-10-29T23:16:18.187Z'
-    LastModifiedDate: '2026-09-30T23:10:00.237Z'
+    LastModifiedDate: '2026-10-08T10:10:00.227Z'
   - VulnerabilityID: CVE-2025-58183
     VendorIDs:
     - GO-2025-4014
@@ -60022,7 +61060,7 @@
     - https://pkg.go.dev/vuln/GO-2025-4014
     - https://www.cve.org/CVERecord?id=CVE-2025-58183
     PublishedDate: '2025-10-29T23:16:19.357Z'
-    LastModifiedDate: '2026-06-17T09:44:01.683Z'
+    LastModifiedDate: '2026-10-08T10:10:00.227Z'
   - VulnerabilityID: CVE-2025-58185
     VendorIDs:
     - GO-2025-4011
@@ -60071,7 +61109,7 @@
     - https://pkg.go.dev/vuln/GO-2025-4011
     - https://www.cve.org/CVERecord?id=CVE-2025-58185
     PublishedDate: '2025-10-29T23:16:19.45Z'
-    LastModifiedDate: '2026-09-30T23:10:00.237Z'
+    LastModifiedDate: '2026-10-08T10:10:00.227Z'
   - VulnerabilityID: CVE-2025-58187
     VendorIDs:
     - GO-2025-4007
@@ -60120,7 +61158,7 @@
     - https://pkg.go.dev/vuln/GO-2025-4007
     - https://www.cve.org/CVERecord?id=CVE-2025-58187
     PublishedDate: '2025-10-29T23:16:19.643Z'
-    LastModifiedDate: '2026-06-17T09:44:02.12Z'
+    LastModifiedDate: '2026-10-08T10:10:00.227Z'
   - VulnerabilityID: CVE-2025-58188
     VendorIDs:
     - GO-2025-4013
@@ -60165,7 +61203,7 @@
     - https://pkg.go.dev/vuln/GO-2025-4013
     - https://www.cve.org/CVERecord?id=CVE-2025-58188
     PublishedDate: '2025-10-29T23:16:19.74Z'
-    LastModifiedDate: '2026-06-17T09:44:02.267Z'
+    LastModifiedDate: '2026-10-08T10:10:00.227Z'
   - VulnerabilityID: CVE-2025-58189
     VendorIDs:
     - GO-2025-4008
@@ -60213,7 +61251,7 @@
     - https://pkg.go.dev/vuln/GO-2025-4008
     - https://www.cve.org/CVERecord?id=CVE-2025-58189
     PublishedDate: '2025-10-29T23:16:19.833Z'
-    LastModifiedDate: '2026-06-17T09:44:02.41Z'
+    LastModifiedDate: '2026-10-08T10:10:00.227Z'
   - VulnerabilityID: CVE-2025-61723
     VendorIDs:
     - GO-2025-4009
@@ -60262,7 +61300,7 @@
     - https://pkg.go.dev/vuln/GO-2025-4009
     - https://www.cve.org/CVERecord?id=CVE-2025-61723
     PublishedDate: '2025-10-29T23:16:19.927Z'
-    LastModifiedDate: '2026-06-17T09:50:47.663Z'
+    LastModifiedDate: '2026-10-08T10:10:00.227Z'
   - VulnerabilityID: CVE-2025-61724
     VendorIDs:
     - GO-2025-4015
@@ -60310,7 +61348,7 @@
     - https://pkg.go.dev/vuln/GO-2025-4015
     - https://www.cve.org/CVERecord?id=CVE-2025-61724
     PublishedDate: '2025-10-29T23:16:20.02Z'
-    LastModifiedDate: '2026-06-17T09:50:47.807Z'
+    LastModifiedDate: '2026-10-08T10:10:00.227Z'
   - VulnerabilityID: CVE-2025-61725
     VendorIDs:
     - GO-2025-4006
@@ -60356,7 +61394,7 @@
     - https://pkg.go.dev/vuln/GO-2025-4006
     - https://www.cve.org/CVERecord?id=CVE-2025-61725
     PublishedDate: '2025-10-29T23:16:20.113Z'
-    LastModifiedDate: '2026-06-17T09:50:47.947Z'
+    LastModifiedDate: '2026-10-08T10:10:00.227Z'
   - VulnerabilityID: CVE-2025-61727
     VendorIDs:
     - GO-2025-4175
@@ -60431,7 +61469,7 @@
     - CWE-770
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       oracle-oval: 3
@@ -60498,7 +61536,7 @@
     Description: During the TLS 1.3 handshake if multiple messages are sent in records that span encryption level boundaries (for instance the Client Hello and Encrypted Extensions messages), the subsequent messages may be processed before the encryption level changes. This can cause some minor information disclosure if a network-local attacker can inject messages during the handshake.
     Severity: MEDIUM
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 1
       bitnami: 2
       cbl-mariner: 1
@@ -62022,6 +63060,35 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-56852
     PublishedDate: '2026-07-21T20:17:02.867Z'
     LastModifiedDate: '2026-07-23T18:27:48.877Z'
+  - VulnerabilityID: CVE-2026-56851
+    VendorIDs:
+    - GO-2026-6629
+    PkgID: golang.org/x/text@v0.37.0
+    PkgName: golang.org/x/text
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/text@v0.37.0
+      UID: 8481703a747ddd9e
+    InstalledVersion: v0.37.0
+    FixedVersion: 0.41.0
+    Status: fixed
+    Layer:
+      Digest: sha256:f53c6f1aaffa3d756a61655a14a524c4b88a08b53649182ee87f158c6cad5acf
+      DiffID: sha256:1d61c8895d789ec7f3c379f64ba5c70b545151a004fed5826f503950372a6ff7
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-56851
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:d3c7dad386eaab7840074a90d1c70a17e068b8fbd5ba94664f0442355a8a961e
+    Title: The Nickname profile can panic with an out-of-bounds slice error when  ...
+    Description: The Nickname profile can panic with an out-of-bounds slice error when transforming crafted input into a short destination buffer.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/793360
+    - https://go.dev/issue/80112
+    - https://pkg.go.dev/vuln/GO-2026-6629
+    PublishedDate: '2026-10-07T18:17:20.903Z'
+    LastModifiedDate: '2026-10-07T18:17:20.903Z'
   - VulnerabilityID: CVE-2026-84304
     VendorIDs:
     - GHSA-vp52-pcj8-j9qc
@@ -62103,6 +63170,7 @@
       azure: 3
       ghsa: 3
       redhat: 3
+      rocky: 3
     CVSS:
       ghsa:
         V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N
@@ -62111,7 +63179,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:76743
     - https://access.redhat.com/security/cve/CVE-2026-84445
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2533175
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-84445
+    - https://errata.rockylinux.org/RLSA-2026:76743
     - https://github.com/grpc/grpc-go
     - https://github.com/grpc/grpc-go/commit/3822494d8ea03b992c089fd2a195f041762fffb7
     - https://github.com/grpc/grpc-go/commit/8668b69c167df908b6b3666dcbf40992b9e932a4
@@ -62729,6 +63802,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-39821.json
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://ubuntu.com/security/notices/USN-8883-1
+    - https://ubuntu.com/security/notices/USN-8900-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
     LastModifiedDate: '2026-09-17T12:18:05.767Z'
@@ -62759,7 +63833,7 @@
     - CWE-61
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 3
       bitnami: 3
       oracle-oval: 3
@@ -63035,7 +64109,7 @@
       amazon: 3
       bitnami: 2
       oracle-oval: 3
-      photon: 4
+      photon: 2
       redhat: 3
       rocky: 3
     CVSS:
@@ -63190,7 +64264,7 @@
       amazon: 3
       bitnami: 2
       oracle-oval: 3
-      photon: 3
+      photon: 2
       redhat: 3
       rocky: 3
     CVSS:
