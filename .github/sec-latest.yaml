@@ -19304,6 +19304,7 @@
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
     Fingerprint: sha256:3861b7d7c1ea8ab084405ccfd095d7c2558080349002dc8445b848eb12141a7d
     Title: xz-utils - security update
+    Description: Description Not Available
     Severity: UNKNOWN
   - VulnerabilityID: TEMP-1147318-639065
     PkgID: liblzma5@5.8.1-1+deb13u1
@@ -54334,6 +54335,7 @@
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
     Fingerprint: sha256:12079cc202dd27b3b815d821023fae4f8a0133aafa157a3b4016a8c808ee0a71
     Title: xz-utils - security update
+    Description: Description Not Available
     Severity: UNKNOWN
   - VulnerabilityID: TEMP-1147318-639065
     PkgID: xz-utils@5.8.1-1+deb13u1
@@ -54646,6 +54648,7 @@
     VendorSeverity:
       ghsa: 3
       redhat: 3
+      ubuntu: 2
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -54659,6 +54662,7 @@
     - https://github.com/FasterXML/jackson-databind
     - https://github.com/FasterXML/jackson-databind/commit/2870d1d6dc1b7e1c07ee11dd5b04ab71cddbb577
     - https://github.com/FasterXML/jackson-databind/issues/6203
+    - https://github.com/FasterXML/jackson-databind/pull/6203
     - https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-2.18.11
     - https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-2.21.7
     - https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-2.22.3
@@ -60145,7 +60149,7 @@
       amazon: 3
       bitnami: 2
       oracle-oval: 3
-      photon: 4
+      photon: 2
       redhat: 3
       rocky: 3
     CVSS:
@@ -60300,7 +60304,7 @@
       amazon: 3
       bitnami: 2
       oracle-oval: 3
-      photon: 3
+      photon: 2
       redhat: 3
       rocky: 3
     CVSS:
@@ -65196,7 +65200,7 @@
       amazon: 3
       bitnami: 2
       oracle-oval: 3
-      photon: 4
+      photon: 2
       redhat: 3
       rocky: 3
     CVSS:
@@ -65351,7 +65355,7 @@
       amazon: 3
       bitnami: 2
       oracle-oval: 3
-      photon: 3
+      photon: 2
       redhat: 3
       rocky: 3
     CVSS:
@@ -70539,7 +70543,7 @@
       amazon: 3
       bitnami: 2
       oracle-oval: 3
-      photon: 4
+      photon: 2
       redhat: 3
       rocky: 3
     CVSS:
@@ -70694,7 +70698,7 @@
       amazon: 3
       bitnami: 2
       oracle-oval: 3
-      photon: 3
+      photon: 2
       redhat: 3
       rocky: 3
     CVSS:
@@ -78456,7 +78460,7 @@
       amazon: 3
       bitnami: 2
       oracle-oval: 3
-      photon: 4
+      photon: 2
       redhat: 3
       rocky: 3
     CVSS:
@@ -78611,7 +78615,7 @@
       amazon: 3
       bitnami: 2
       oracle-oval: 3
-      photon: 3
+      photon: 2
       redhat: 3
       rocky: 3
     CVSS:
@@ -80301,7 +80305,7 @@
     - https://pkg.go.dev/vuln/GO-2025-4012
     - https://www.cve.org/CVERecord?id=CVE-2025-58186
     PublishedDate: '2025-10-29T23:16:19.547Z'
-    LastModifiedDate: '2026-06-17T09:44:01.983Z'
+    LastModifiedDate: '2026-10-11T20:10:00.2Z'
   - VulnerabilityID: CVE-2026-27139
     VendorIDs:
     - GO-2026-4602
@@ -84979,7 +84983,7 @@
       amazon: 3
       bitnami: 2
       oracle-oval: 3
-      photon: 4
+      photon: 2
       redhat: 3
       rocky: 3
     CVSS:
@@ -85134,7 +85138,7 @@
       amazon: 3
       bitnami: 2
       oracle-oval: 3
-      photon: 3
+      photon: 2
       redhat: 3
       rocky: 3
     CVSS:
@@ -89107,7 +89111,7 @@
       amazon: 3
       bitnami: 2
       oracle-oval: 3
-      photon: 4
+      photon: 2
       redhat: 3
       rocky: 3
     CVSS:
@@ -89262,7 +89266,7 @@
       amazon: 3
       bitnami: 2
       oracle-oval: 3
-      photon: 3
+      photon: 2
       redhat: 3
       rocky: 3
     CVSS:
@@ -92653,7 +92657,7 @@
     - https://pkg.go.dev/vuln/GO-2025-4012
     - https://www.cve.org/CVERecord?id=CVE-2025-58186
     PublishedDate: '2025-10-29T23:16:19.547Z'
-    LastModifiedDate: '2026-06-17T09:44:01.983Z'
+    LastModifiedDate: '2026-10-11T20:10:00.2Z'
   - VulnerabilityID: CVE-2026-27139
     VendorIDs:
     - GO-2026-4602
@@ -94903,7 +94907,7 @@
       amazon: 3
       bitnami: 2
       oracle-oval: 3
-      photon: 4
+      photon: 2
       redhat: 3
       rocky: 3
     CVSS:
@@ -95058,7 +95062,7 @@
       amazon: 3
       bitnami: 2
       oracle-oval: 3
-      photon: 3
+      photon: 2
       redhat: 3
       rocky: 3
     CVSS:
