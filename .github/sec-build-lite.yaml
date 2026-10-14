@@ -3,6 +3,2106 @@
   Type: ubuntu
   Packages: []
   Vulnerabilities:
+  - VulnerabilityID: CVE-2026-19033
+    PkgID: bind9-dnsutils@1:9.20.24-1ubuntu0.3
+    PkgName: bind9-dnsutils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-dnsutils@9.20.24-1ubuntu0.3?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 9309b2ea505f6dd7
+    InstalledVersion: 1:9.20.24-1ubuntu0.3
+    Status: affected
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-19033
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:52bdc07e08a35b0f92b628027251b1f002d64af5dd56ce6d5874090ff3399526
+    Title: 'bind: BIND: Unauthorized zone content updates via unauthenticated IXFR deltas'
+    Description: |-
+      For a secondary zone with transfers restricted by TSIG, `named` may start to serve the data provided in a zone transfer before the final message with the TSIG signature arrives. This could allow an attacker that does not actually possess a valid TSIG signature to send unauthorized zone contents to a secondary server. Although no TSIG signature ever arrives, `named` does not rollback to the pre-transfer state. To exploit the vulnerability, the transfer must be a multi-message TCP IXFR, as described by RFC 8945.
+      This issue affects BIND 9 versions 9.11.0 through 9.18.50, 9.20.0 through 9.20.27, 9.21.0 through 9.21.25, 9.11.3-S1 through 9.18.50-S1, and 9.20.9-S1 through 9.20.27-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-349
+    VendorSeverity:
+      amazon: 3
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:L
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-19033
+    - https://downloads.isc.org/isc/bind9/9.20.29
+    - https://downloads.isc.org/isc/bind9/9.21.26
+    - https://kb.isc.org/docs/cve-2026-19033
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-19033
+    - https://www.cve.org/CVERecord?id=CVE-2026-19033
+    PublishedDate: '2026-09-16T15:17:33.393Z'
+    LastModifiedDate: '2026-09-17T18:16:38.86Z'
+  - VulnerabilityID: CVE-2026-19662
+    PkgID: bind9-dnsutils@1:9.20.24-1ubuntu0.3
+    PkgName: bind9-dnsutils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-dnsutils@9.20.24-1ubuntu0.3?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 9309b2ea505f6dd7
+    InstalledVersion: 1:9.20.24-1ubuntu0.3
+    Status: affected
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-19662
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:2830482d12a6cc71c3689850fa8565bbaa09b48bb209fecd9a643bb9f21567c8
+    Title: 'bind9: bind: BIND 9: Denial of Service via crafted DNSSEC responses'
+    Description: |-
+      An attacker may be able to cause a `named` resolver to abort. The attack requires inducing the victim resolver to send multiple queries for a DNSSEC-signed zone hosted by an authoritative server under the control of the attacker. If the auth responds with a particular sequence of crafted answers, and those answers arrive in a particular order with particular timing, the `named` resolver will encounter a use-after-free bug, and abort.
+      This issue affects BIND 9 versions 9.11.0 through 9.18.50, 9.20.0 through 9.20.27, 9.11.3-S1 through 9.18.50-S1, and 9.20.9-S1 through 9.20.27-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      amazon: 3
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-19662
+    - https://downloads.isc.org/isc/bind9/9.20.29
+    - https://kb.isc.org/docs/cve-2026-19662
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-19662
+    - https://www.cve.org/CVERecord?id=CVE-2026-19662
+    PublishedDate: '2026-09-16T14:17:04.9Z'
+    LastModifiedDate: '2026-09-17T19:16:41.783Z'
+  - VulnerabilityID: CVE-2026-19666
+    PkgID: bind9-dnsutils@1:9.20.24-1ubuntu0.3
+    PkgName: bind9-dnsutils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-dnsutils@9.20.24-1ubuntu0.3?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 9309b2ea505f6dd7
+    InstalledVersion: 1:9.20.24-1ubuntu0.3
+    Status: affected
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-19666
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:a13a42a3ed61ee060af42c3eabc45ac438ad6ecac2c3f6ec09b977bc20429f4b
+    Title: 'bind: BIND: Denial of Service via malformed DNS64 responses'
+    Description: |-
+      On a resolver configured to use ``dns64``, if an applicable answer from the authoritative server is malformed in a specific way, the resolver `named` process will exit unexpectedly.
+      This issue affects BIND 9 versions 9.11.0 through 9.18.50, 9.20.0 through 9.20.27, 9.21.0 through 9.21.25, 9.11.3-S1 through 9.18.50-S1, and 9.20.9-S1 through 9.20.27-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      alma: 3
+      amazon: 3
+      oracle-oval: 3
+      photon: 3
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:75767
+    - https://access.redhat.com/security/cve/CVE-2026-19666
+    - https://bugzilla.redhat.com/2535435
+    - https://bugzilla.redhat.com/2535466
+    - https://bugzilla.redhat.com/2535477
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535435
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535466
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535477
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19666
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19667
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-80274
+    - https://downloads.isc.org/isc/bind9/9.20.29
+    - https://downloads.isc.org/isc/bind9/9.21.26
+    - https://errata.almalinux.org/9/ALSA-2026-75767.html
+    - https://errata.rockylinux.org/RLSA-2026:75767
+    - https://kb.isc.org/docs/cve-2026-19666
+    - https://linux.oracle.com/cve/CVE-2026-19666.html
+    - https://linux.oracle.com/errata/ELSA-2026-79162.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-19666
+    - https://www.cve.org/CVERecord?id=CVE-2026-19666
+    PublishedDate: '2026-09-16T15:17:33.52Z'
+    LastModifiedDate: '2026-09-17T18:16:39.403Z'
+  - VulnerabilityID: CVE-2026-19667
+    PkgID: bind9-dnsutils@1:9.20.24-1ubuntu0.3
+    PkgName: bind9-dnsutils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-dnsutils@9.20.24-1ubuntu0.3?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 9309b2ea505f6dd7
+    InstalledVersion: 1:9.20.24-1ubuntu0.3
+    Status: affected
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-19667
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:09a97c64c6b26327105eabd2af7de140a6ba8ad2e22a4d6bc3be1d1a27fe62d5
+    Title: 'bind9: bind: BIND 9: Denial of Service via 16-bit length truncation in DNS negative cache handling'
+    Description: |-
+      If an attacker-controlled authoritative server can produce a negative answer that is exactly 65536 bytes, then a flaw in `named` results in a negative cache entry of 0 bytes. When this entry is subsequently read, `named` aborts.
+      This issue affects BIND 9 versions 9.11.0 through 9.18.50, 9.20.0 through 9.20.27, 9.21.0 through 9.21.25, 9.11.3-S1 through 9.18.50-S1, and 9.20.9-S1 through 9.20.27-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-197
+    VendorSeverity:
+      alma: 3
+      amazon: 3
+      oracle-oval: 3
+      photon: 3
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:75767
+    - https://access.redhat.com/security/cve/CVE-2026-19667
+    - https://bugzilla.redhat.com/2535435
+    - https://bugzilla.redhat.com/2535466
+    - https://bugzilla.redhat.com/2535477
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535435
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535466
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535477
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19666
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19667
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-80274
+    - https://downloads.isc.org/isc/bind9/9.20.29
+    - https://downloads.isc.org/isc/bind9/9.21.26
+    - https://errata.almalinux.org/9/ALSA-2026-75767.html
+    - https://errata.rockylinux.org/RLSA-2026:75767
+    - https://kb.isc.org/docs/cve-2026-19667
+    - https://linux.oracle.com/cve/CVE-2026-19667.html
+    - https://linux.oracle.com/errata/ELSA-2026-79162.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-19667
+    - https://www.cve.org/CVERecord?id=CVE-2026-19667
+    PublishedDate: '2026-09-16T14:17:05.037Z'
+    LastModifiedDate: '2026-09-17T19:16:41.913Z'
+  - VulnerabilityID: CVE-2026-19668
+    PkgID: bind9-dnsutils@1:9.20.24-1ubuntu0.3
+    PkgName: bind9-dnsutils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-dnsutils@9.20.24-1ubuntu0.3?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 9309b2ea505f6dd7
+    InstalledVersion: 1:9.20.24-1ubuntu0.3
+    Status: affected
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-19668
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:29cefa0539cfdc904241a8d7e0cb6d5ced8e6454ff16f56867dcd43b0cdb4bf7
+    Title: 'bind: BIND: Denial of Service via invalid DNSSEC records'
+    Description: |-
+      A BIND recursive resolver may experience excessive resource consumption if it encounters large numbers of a particular kind of invalid DNSSEC record.  Default limits on "max-records-per-type" and "max-types-per-name" help mitigate the exposure.
+      This issue affects BIND 9 versions 9.11.0 through 9.18.50, 9.20.0 through 9.20.27, 9.21.0 through 9.21.25, 9.11.3-S1 through 9.18.50-S1, and 9.20.9-S1 through 9.20.27-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-407
+    VendorSeverity:
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-19668
+    - https://downloads.isc.org/isc/bind9/9.20.29
+    - https://downloads.isc.org/isc/bind9/9.21.26
+    - https://kb.isc.org/docs/cve-2026-19668
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-19668
+    - https://www.cve.org/CVERecord?id=CVE-2026-19668
+    PublishedDate: '2026-09-16T15:17:33.633Z'
+    LastModifiedDate: '2026-09-17T19:16:42.057Z'
+  - VulnerabilityID: CVE-2026-19941
+    PkgID: bind9-dnsutils@1:9.20.24-1ubuntu0.3
+    PkgName: bind9-dnsutils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-dnsutils@9.20.24-1ubuntu0.3?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 9309b2ea505f6dd7
+    InstalledVersion: 1:9.20.24-1ubuntu0.3
+    Status: affected
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-19941
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:fd0ec46887b9df7e9928f8ac3a84e439a828e1df16c58d80fd2a4a82e4c0ff01
+    Title: 'bind9: bind: BIND 9: DNS wildcard record existence can be masked by an attacker via inapplicable NSEC records'
+    Description: |-
+      An inapplicable NSEC record may be accepted by a `named` resolver as proof that no wildcard exists, which could allow an attacker at the same or an upstream level of the zone name to mask the existence of a victim's wildcard record.
+      This issue affects BIND 9 versions 9.11.0 through 9.18.50, 9.20.0 through 9.20.27, 9.21.0 through 9.21.25, 9.11.3-S1 through 9.18.50-S1, and 9.20.9-S1 through 9.20.27-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-345
+    VendorSeverity:
+      amazon: 3
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-19941
+    - https://downloads.isc.org/isc/bind9/9.20.29
+    - https://downloads.isc.org/isc/bind9/9.21.26
+    - https://kb.isc.org/docs/cve-2026-19941
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-19941
+    - https://www.cve.org/CVERecord?id=CVE-2026-19941
+    PublishedDate: '2026-09-16T14:17:05.16Z'
+    LastModifiedDate: '2026-09-17T19:16:42.2Z'
+  - VulnerabilityID: CVE-2026-75029
+    PkgID: bind9-dnsutils@1:9.20.24-1ubuntu0.3
+    PkgName: bind9-dnsutils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-dnsutils@9.20.24-1ubuntu0.3?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 9309b2ea505f6dd7
+    InstalledVersion: 1:9.20.24-1ubuntu0.3
+    Status: affected
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-75029
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:7a9d25b8a37195d979024225e115620039232384f2120b4bce79daf8fe4e6aa3
+    Title: 'bind: BIND 9: Denial of Service via crafted query responses'
+    Description: |-
+      In a query response, an attacker may send `named` multiple copies of a record that should only exist once (such as an SOA record). If the RDATA is the same on all the copies, the record is appended to the in-memory RDATA set, which can cause increased memory usage of the negative cache and possibly lead to other memory attack vectors.
+      This issue affects BIND 9 versions 9.11.0 through 9.18.50, 9.20.0 through 9.20.27, 9.21.0 through 9.21.25, 9.11.3-S1 through 9.18.50-S1, and 9.20.9-S1 through 9.20.27-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-405
+    VendorSeverity:
+      amazon: 3
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-75029
+    - https://downloads.isc.org/isc/bind9/9.20.29
+    - https://downloads.isc.org/isc/bind9/9.21.26
+    - https://kb.isc.org/docs/cve-2026-75029
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-75029
+    - https://www.cve.org/CVERecord?id=CVE-2026-75029
+    PublishedDate: '2026-09-16T15:17:43.577Z'
+    LastModifiedDate: '2026-09-17T19:16:58.037Z'
+  - VulnerabilityID: CVE-2026-76163
+    PkgID: bind9-dnsutils@1:9.20.24-1ubuntu0.3
+    PkgName: bind9-dnsutils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-dnsutils@9.20.24-1ubuntu0.3?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 9309b2ea505f6dd7
+    InstalledVersion: 1:9.20.24-1ubuntu0.3
+    Status: affected
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-76163
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:66b3602d72391e70485dad5d38ed5140ec26e7cb12e4b8662fd5397af78cf42d
+    Title: 'bind: BIND: Denial of Service via TKEY query with specific configuration'
+    Description: |-
+      If BIND is loaded with a "`named.conf`" file that contains no global "`options`" block, an attacker can send a query of QTYPE TKEY which may cause an assertion failure and subsequent unexpected program exit.
+      This issue affects BIND 9 versions 9.20.0 through 9.20.27, 9.21.0 through 9.21.25, and 9.20.9-S1 through 9.20.27-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-617
+    VendorSeverity:
+      photon: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-76163
+    - https://downloads.isc.org/isc/bind9/9.20.29
+    - https://downloads.isc.org/isc/bind9/9.21.26
+    - https://kb.isc.org/docs/cve-2026-76163
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-76163
+    - https://www.cve.org/CVERecord?id=CVE-2026-76163
+    PublishedDate: '2026-09-16T15:17:43.847Z'
+    LastModifiedDate: '2026-09-17T18:17:08.72Z'
+  - VulnerabilityID: CVE-2026-77119
+    PkgID: bind9-dnsutils@1:9.20.24-1ubuntu0.3
+    PkgName: bind9-dnsutils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-dnsutils@9.20.24-1ubuntu0.3?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 9309b2ea505f6dd7
+    InstalledVersion: 1:9.20.24-1ubuntu0.3
+    Status: affected
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-77119
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:042614aeb06208d66bf284a82544824536aa0bbabe7e0ea768a71df4402163e7
+    Title: 'bind9: bind: BIND 9: DNSSEC bypass via NSEC3 insecure-referral proof'
+    Description: |-
+      A validly signed NSEC3 from an unrelated sibling zone may be accepted as an insecurity proof, downgrading a secure delegation and letting a forged unsigned answer through.
+      This issue affects BIND 9 versions 9.11.0 through 9.18.50, 9.20.0 through 9.20.27, 9.21.0 through 9.21.25, 9.11.3-S1 through 9.18.50-S1, and 9.20.9-S1 through 9.20.27-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-346
+    VendorSeverity:
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-77119
+    - https://downloads.isc.org/isc/bind9/9.20.29
+    - https://downloads.isc.org/isc/bind9/9.21.26
+    - https://kb.isc.org/docs/cve-2026-77119
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-77119
+    - https://www.cve.org/CVERecord?id=CVE-2026-77119
+    PublishedDate: '2026-09-16T15:17:46.427Z'
+    LastModifiedDate: '2026-09-17T19:16:59.49Z'
+  - VulnerabilityID: CVE-2026-77692
+    PkgID: bind9-dnsutils@1:9.20.24-1ubuntu0.3
+    PkgName: bind9-dnsutils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-dnsutils@9.20.24-1ubuntu0.3?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 9309b2ea505f6dd7
+    InstalledVersion: 1:9.20.24-1ubuntu0.3
+    Status: affected
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-77692
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:f6e0ac6f946e527a94184eae892e2b2a6f08fbad21adb888345f2759eae00341
+    Title: 'bind: BIND: Remote Denial of Service via crafted DNS-over-HTTPS request'
+    Description: |-
+      An attacker can cause `named` to abort by sending a crafted DNS-over-HTTPS request with a cryptographically invalid SIG(0) record, and then closing the transport connection prematurely.
+      This issue affects BIND 9 versions 9.20.0 through 9.20.27, 9.21.0 through 9.21.25, and 9.20.9-S1 through 9.20.27-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      photon: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-77692
+    - https://downloads.isc.org/isc/bind9/9.20.29
+    - https://downloads.isc.org/isc/bind9/9.21.26
+    - https://kb.isc.org/docs/cve-2026-77692
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-77692
+    - https://www.cve.org/CVERecord?id=CVE-2026-77692
+    PublishedDate: '2026-09-16T14:17:09.647Z'
+    LastModifiedDate: '2026-09-17T19:16:59.633Z'
+  - VulnerabilityID: CVE-2026-78301
+    PkgID: bind9-dnsutils@1:9.20.24-1ubuntu0.3
+    PkgName: bind9-dnsutils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-dnsutils@9.20.24-1ubuntu0.3?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 9309b2ea505f6dd7
+    InstalledVersion: 1:9.20.24-1ubuntu0.3
+    Status: affected
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-78301
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:983435b276e15d2e60bc9d9fe556919444f5afa1bce04762b5992752f47b54df
+    Title: 'bind: BIND: DNS cache poisoning via malformed zone insertion'
+    Description: |-
+      A malformed zone may contain an NS or DNAME node above its origin, which `named` treats as a zone cut. If an attacker inserts a malformed zone into a BIND authoritative server (e.g., via zone transfer), queries for names inside the configured zone then lose authoritative status and return an out-of-zone delegation. On a server that also provides recursion BIND can follow this locally sourced cut and cache attacker-supplied data, affecting names outside the configured zone. This situation persists as long as the malformed zone remains in the zone database.
+      This issue affects BIND 9 versions 9.11.0 through 9.18.50, 9.20.0 through 9.20.27, 9.21.0 through 9.21.25, 9.11.3-S1 through 9.18.50-S1, and 9.20.9-S1 through 9.20.27-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-349
+    VendorSeverity:
+      amazon: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:C/C:N/I:H/A:N
+        V3Score: 5.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-78301
+    - https://downloads.isc.org/isc/bind9/9.20.29
+    - https://downloads.isc.org/isc/bind9/9.21.26
+    - https://kb.isc.org/docs/cve-2026-78301
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-78301
+    - https://www.cve.org/CVERecord?id=CVE-2026-78301
+    PublishedDate: '2026-09-16T14:17:10.4Z'
+    LastModifiedDate: '2026-09-17T19:16:59.937Z'
+  - VulnerabilityID: CVE-2026-80274
+    PkgID: bind9-dnsutils@1:9.20.24-1ubuntu0.3
+    PkgName: bind9-dnsutils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-dnsutils@9.20.24-1ubuntu0.3?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 9309b2ea505f6dd7
+    InstalledVersion: 1:9.20.24-1ubuntu0.3
+    Status: affected
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-80274
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:b2c9d12d45cbb3013ff120038054e5f2ec59dbce4e841ad1ee4f602d5aa383ae
+    Title: 'bind: BIND: Denial of Service via crafted DNSSEC reply'
+    Description: |-
+      If a BIND resolver sends a query for a DNSSEC-signed authoritative zone, and the authoritative server replies with a valid wildcard answer and signed NSEC3 proof, followed by an unsigned NSEC at the same owner name, it will trigger an unexpected program exit.
+      This issue affects BIND 9 versions 9.11.0 through 9.18.50, 9.20.0 through 9.20.27, 9.21.0 through 9.21.25, 9.11.3-S1 through 9.18.50-S1, and 9.20.9-S1 through 9.20.27-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-617
+    VendorSeverity:
+      alma: 3
+      amazon: 3
+      oracle-oval: 3
+      photon: 3
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:75767
+    - https://access.redhat.com/security/cve/CVE-2026-80274
+    - https://bugzilla.redhat.com/2535435
+    - https://bugzilla.redhat.com/2535466
+    - https://bugzilla.redhat.com/2535477
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535435
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535466
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535477
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19666
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19667
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-80274
+    - https://downloads.isc.org/isc/bind9/9.20.29
+    - https://downloads.isc.org/isc/bind9/9.21.26
+    - https://errata.almalinux.org/9/ALSA-2026-75767.html
+    - https://errata.rockylinux.org/RLSA-2026:75767
+    - https://kb.isc.org/docs/cve-2026-80274
+    - https://linux.oracle.com/cve/CVE-2026-80274.html
+    - https://linux.oracle.com/errata/ELSA-2026-79162.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-80274
+    - https://www.cve.org/CVERecord?id=CVE-2026-80274
+    PublishedDate: '2026-09-16T15:17:52.69Z'
+    LastModifiedDate: '2026-09-17T18:17:09.007Z'
+  - VulnerabilityID: CVE-2026-81563
+    PkgID: bind9-dnsutils@1:9.20.24-1ubuntu0.3
+    PkgName: bind9-dnsutils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-dnsutils@9.20.24-1ubuntu0.3?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 9309b2ea505f6dd7
+    InstalledVersion: 1:9.20.24-1ubuntu0.3
+    Status: affected
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-81563
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:23f408ccf0e060c1b2580e67d65a3c28363b668b152ed249bc52b811366fc954
+    Title: 'bind: BIND resolver: Denial of Service due to resource exhaustion in SVCB/HTTPS AliasMode processing'
+    Description: |-
+      A BIND resolver encountering an SVCB/HTTPS AliasMode record referencing 14 or more SVCB/HTTPS ServiceMode records may fail to properly deallocate internal resources. If this happens repeatedly, resource exhaustion will eventually prevent the resolver from performing new recursive lookups.
+      This issue affects BIND 9 versions 9.18.0 through 9.18.50, 9.20.0 through 9.20.27, 9.21.0 through 9.21.25, 9.18.11-S1 through 9.18.50-S1, and 9.20.9-S1 through 9.20.27-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-401
+    VendorSeverity:
+      alma: 3
+      amazon: 3
+      oracle-oval: 3
+      photon: 3
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:75577
+    - https://access.redhat.com/errata/RHSA-2026:75578
+    - https://access.redhat.com/security/cve/CVE-2026-81563
+    - https://bugzilla.redhat.com/2535432
+    - https://bugzilla.redhat.com/2535435
+    - https://bugzilla.redhat.com/2535461
+    - https://bugzilla.redhat.com/2535466
+    - https://bugzilla.redhat.com/2535477
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535432
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535435
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535461
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535466
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535477
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19666
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19667
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-80274
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-81563
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-81736
+    - https://downloads.isc.org/isc/bind9/9.20.29
+    - https://downloads.isc.org/isc/bind9/9.21.26
+    - https://errata.almalinux.org/10/ALSA-2026-75577.html
+    - https://errata.rockylinux.org/RLSA-2026:75578
+    - https://kb.isc.org/docs/cve-2026-81563
+    - https://linux.oracle.com/cve/CVE-2026-81563.html
+    - https://linux.oracle.com/errata/ELSA-2026-75578.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-81563
+    - https://www.cve.org/CVERecord?id=CVE-2026-81563
+    PublishedDate: '2026-09-16T14:17:10.543Z'
+    LastModifiedDate: '2026-09-17T18:17:09.147Z'
+  - VulnerabilityID: CVE-2026-81736
+    PkgID: bind9-dnsutils@1:9.20.24-1ubuntu0.3
+    PkgName: bind9-dnsutils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-dnsutils@9.20.24-1ubuntu0.3?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 9309b2ea505f6dd7
+    InstalledVersion: 1:9.20.24-1ubuntu0.3
+    Status: affected
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-81736
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:455edf3a98d788e7930553d7251b08858d671a7875c55fd53b1809345a161e1a
+    Title: 'bind: BIND 9: Remote Denial of Service via cached SVCB/HTTPS AliasMode records'
+    Description: |-
+      If a BIND resolver has cached a tree of SVCB/HTTPS AliasMode records, and is then queried for the root of that tree, the resolver will spend disproportionate CPU time constructing the response.
+      This issue affects BIND 9 versions 9.18.0 through 9.18.50, 9.20.0 through 9.20.27, 9.21.0 through 9.21.25, 9.18.11-S1 through 9.18.50-S1, and 9.20.9-S1 through 9.20.27-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-1050
+    VendorSeverity:
+      alma: 3
+      amazon: 3
+      oracle-oval: 3
+      photon: 3
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:75577
+    - https://access.redhat.com/errata/RHSA-2026:75578
+    - https://access.redhat.com/security/cve/CVE-2026-81736
+    - https://bugzilla.redhat.com/2535432
+    - https://bugzilla.redhat.com/2535435
+    - https://bugzilla.redhat.com/2535461
+    - https://bugzilla.redhat.com/2535466
+    - https://bugzilla.redhat.com/2535477
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535432
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535435
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535461
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535466
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535477
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19666
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19667
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-80274
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-81563
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-81736
+    - https://downloads.isc.org/isc/bind9/9.20.29
+    - https://downloads.isc.org/isc/bind9/9.21.26
+    - https://errata.almalinux.org/10/ALSA-2026-75577.html
+    - https://errata.rockylinux.org/RLSA-2026:75578
+    - https://kb.isc.org/docs/cve-2026-81736
+    - https://linux.oracle.com/cve/CVE-2026-81736.html
+    - https://linux.oracle.com/errata/ELSA-2026-75578.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-81736
+    - https://www.cve.org/CVERecord?id=CVE-2026-81736
+    PublishedDate: '2026-09-16T14:17:10.817Z'
+    LastModifiedDate: '2026-09-17T19:17:03.88Z'
+  - VulnerabilityID: CVE-2026-19033
+    PkgID: bind9-host@1:9.20.24-1ubuntu0.3
+    PkgName: bind9-host
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-host@9.20.24-1ubuntu0.3?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 3b1ceacfc77906d3
+    InstalledVersion: 1:9.20.24-1ubuntu0.3
+    Status: affected
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-19033
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:657e620cf5a78772afaa5b53f132f522cdca4dc5426dafe40ab085fd26b29910
+    Title: 'bind: BIND: Unauthorized zone content updates via unauthenticated IXFR deltas'
+    Description: |-
+      For a secondary zone with transfers restricted by TSIG, `named` may start to serve the data provided in a zone transfer before the final message with the TSIG signature arrives. This could allow an attacker that does not actually possess a valid TSIG signature to send unauthorized zone contents to a secondary server. Although no TSIG signature ever arrives, `named` does not rollback to the pre-transfer state. To exploit the vulnerability, the transfer must be a multi-message TCP IXFR, as described by RFC 8945.
+      This issue affects BIND 9 versions 9.11.0 through 9.18.50, 9.20.0 through 9.20.27, 9.21.0 through 9.21.25, 9.11.3-S1 through 9.18.50-S1, and 9.20.9-S1 through 9.20.27-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-349
+    VendorSeverity:
+      amazon: 3
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:L
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-19033
+    - https://downloads.isc.org/isc/bind9/9.20.29
+    - https://downloads.isc.org/isc/bind9/9.21.26
+    - https://kb.isc.org/docs/cve-2026-19033
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-19033
+    - https://www.cve.org/CVERecord?id=CVE-2026-19033
+    PublishedDate: '2026-09-16T15:17:33.393Z'
+    LastModifiedDate: '2026-09-17T18:16:38.86Z'
+  - VulnerabilityID: CVE-2026-19662
+    PkgID: bind9-host@1:9.20.24-1ubuntu0.3
+    PkgName: bind9-host
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-host@9.20.24-1ubuntu0.3?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 3b1ceacfc77906d3
+    InstalledVersion: 1:9.20.24-1ubuntu0.3
+    Status: affected
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-19662
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:d2d2330d25d1d7aec18059bffa7b462215ff016d75d2226592af8f422b96ec0b
+    Title: 'bind9: bind: BIND 9: Denial of Service via crafted DNSSEC responses'
+    Description: |-
+      An attacker may be able to cause a `named` resolver to abort. The attack requires inducing the victim resolver to send multiple queries for a DNSSEC-signed zone hosted by an authoritative server under the control of the attacker. If the auth responds with a particular sequence of crafted answers, and those answers arrive in a particular order with particular timing, the `named` resolver will encounter a use-after-free bug, and abort.
+      This issue affects BIND 9 versions 9.11.0 through 9.18.50, 9.20.0 through 9.20.27, 9.11.3-S1 through 9.18.50-S1, and 9.20.9-S1 through 9.20.27-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      amazon: 3
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-19662
+    - https://downloads.isc.org/isc/bind9/9.20.29
+    - https://kb.isc.org/docs/cve-2026-19662
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-19662
+    - https://www.cve.org/CVERecord?id=CVE-2026-19662
+    PublishedDate: '2026-09-16T14:17:04.9Z'
+    LastModifiedDate: '2026-09-17T19:16:41.783Z'
+  - VulnerabilityID: CVE-2026-19666
+    PkgID: bind9-host@1:9.20.24-1ubuntu0.3
+    PkgName: bind9-host
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-host@9.20.24-1ubuntu0.3?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 3b1ceacfc77906d3
+    InstalledVersion: 1:9.20.24-1ubuntu0.3
+    Status: affected
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-19666
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:d8ca9e18a477e78b4471a44ce003c47400699cb15cc98ef1abb399dd7c42340a
+    Title: 'bind: BIND: Denial of Service via malformed DNS64 responses'
+    Description: |-
+      On a resolver configured to use ``dns64``, if an applicable answer from the authoritative server is malformed in a specific way, the resolver `named` process will exit unexpectedly.
+      This issue affects BIND 9 versions 9.11.0 through 9.18.50, 9.20.0 through 9.20.27, 9.21.0 through 9.21.25, 9.11.3-S1 through 9.18.50-S1, and 9.20.9-S1 through 9.20.27-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      alma: 3
+      amazon: 3
+      oracle-oval: 3
+      photon: 3
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:75767
+    - https://access.redhat.com/security/cve/CVE-2026-19666
+    - https://bugzilla.redhat.com/2535435
+    - https://bugzilla.redhat.com/2535466
+    - https://bugzilla.redhat.com/2535477
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535435
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535466
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535477
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19666
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19667
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-80274
+    - https://downloads.isc.org/isc/bind9/9.20.29
+    - https://downloads.isc.org/isc/bind9/9.21.26
+    - https://errata.almalinux.org/9/ALSA-2026-75767.html
+    - https://errata.rockylinux.org/RLSA-2026:75767
+    - https://kb.isc.org/docs/cve-2026-19666
+    - https://linux.oracle.com/cve/CVE-2026-19666.html
+    - https://linux.oracle.com/errata/ELSA-2026-79162.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-19666
+    - https://www.cve.org/CVERecord?id=CVE-2026-19666
+    PublishedDate: '2026-09-16T15:17:33.52Z'
+    LastModifiedDate: '2026-09-17T18:16:39.403Z'
+  - VulnerabilityID: CVE-2026-19667
+    PkgID: bind9-host@1:9.20.24-1ubuntu0.3
+    PkgName: bind9-host
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-host@9.20.24-1ubuntu0.3?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 3b1ceacfc77906d3
+    InstalledVersion: 1:9.20.24-1ubuntu0.3
+    Status: affected
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-19667
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:6f08467a78afa23f19533b32bed564d4f288275014a3d78c9945a2aacca4d091
+    Title: 'bind9: bind: BIND 9: Denial of Service via 16-bit length truncation in DNS negative cache handling'
+    Description: |-
+      If an attacker-controlled authoritative server can produce a negative answer that is exactly 65536 bytes, then a flaw in `named` results in a negative cache entry of 0 bytes. When this entry is subsequently read, `named` aborts.
+      This issue affects BIND 9 versions 9.11.0 through 9.18.50, 9.20.0 through 9.20.27, 9.21.0 through 9.21.25, 9.11.3-S1 through 9.18.50-S1, and 9.20.9-S1 through 9.20.27-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-197
+    VendorSeverity:
+      alma: 3
+      amazon: 3
+      oracle-oval: 3
+      photon: 3
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:75767
+    - https://access.redhat.com/security/cve/CVE-2026-19667
+    - https://bugzilla.redhat.com/2535435
+    - https://bugzilla.redhat.com/2535466
+    - https://bugzilla.redhat.com/2535477
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535435
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535466
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535477
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19666
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19667
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-80274
+    - https://downloads.isc.org/isc/bind9/9.20.29
+    - https://downloads.isc.org/isc/bind9/9.21.26
+    - https://errata.almalinux.org/9/ALSA-2026-75767.html
+    - https://errata.rockylinux.org/RLSA-2026:75767
+    - https://kb.isc.org/docs/cve-2026-19667
+    - https://linux.oracle.com/cve/CVE-2026-19667.html
+    - https://linux.oracle.com/errata/ELSA-2026-79162.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-19667
+    - https://www.cve.org/CVERecord?id=CVE-2026-19667
+    PublishedDate: '2026-09-16T14:17:05.037Z'
+    LastModifiedDate: '2026-09-17T19:16:41.913Z'
+  - VulnerabilityID: CVE-2026-19668
+    PkgID: bind9-host@1:9.20.24-1ubuntu0.3
+    PkgName: bind9-host
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-host@9.20.24-1ubuntu0.3?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 3b1ceacfc77906d3
+    InstalledVersion: 1:9.20.24-1ubuntu0.3
+    Status: affected
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-19668
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:7dc047a17b948f60ffe9c26b7bb47b6c670691a17d0090ce9fca8621f7235ea9
+    Title: 'bind: BIND: Denial of Service via invalid DNSSEC records'
+    Description: |-
+      A BIND recursive resolver may experience excessive resource consumption if it encounters large numbers of a particular kind of invalid DNSSEC record.  Default limits on "max-records-per-type" and "max-types-per-name" help mitigate the exposure.
+      This issue affects BIND 9 versions 9.11.0 through 9.18.50, 9.20.0 through 9.20.27, 9.21.0 through 9.21.25, 9.11.3-S1 through 9.18.50-S1, and 9.20.9-S1 through 9.20.27-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-407
+    VendorSeverity:
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-19668
+    - https://downloads.isc.org/isc/bind9/9.20.29
+    - https://downloads.isc.org/isc/bind9/9.21.26
+    - https://kb.isc.org/docs/cve-2026-19668
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-19668
+    - https://www.cve.org/CVERecord?id=CVE-2026-19668
+    PublishedDate: '2026-09-16T15:17:33.633Z'
+    LastModifiedDate: '2026-09-17T19:16:42.057Z'
+  - VulnerabilityID: CVE-2026-19941
+    PkgID: bind9-host@1:9.20.24-1ubuntu0.3
+    PkgName: bind9-host
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-host@9.20.24-1ubuntu0.3?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 3b1ceacfc77906d3
+    InstalledVersion: 1:9.20.24-1ubuntu0.3
+    Status: affected
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-19941
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:fd4ddf5d61791fa7a7c82073e5d3495c59c32184ce5022c7ec4dcb72f9b3d474
+    Title: 'bind9: bind: BIND 9: DNS wildcard record existence can be masked by an attacker via inapplicable NSEC records'
+    Description: |-
+      An inapplicable NSEC record may be accepted by a `named` resolver as proof that no wildcard exists, which could allow an attacker at the same or an upstream level of the zone name to mask the existence of a victim's wildcard record.
+      This issue affects BIND 9 versions 9.11.0 through 9.18.50, 9.20.0 through 9.20.27, 9.21.0 through 9.21.25, 9.11.3-S1 through 9.18.50-S1, and 9.20.9-S1 through 9.20.27-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-345
+    VendorSeverity:
+      amazon: 3
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-19941
+    - https://downloads.isc.org/isc/bind9/9.20.29
+    - https://downloads.isc.org/isc/bind9/9.21.26
+    - https://kb.isc.org/docs/cve-2026-19941
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-19941
+    - https://www.cve.org/CVERecord?id=CVE-2026-19941
+    PublishedDate: '2026-09-16T14:17:05.16Z'
+    LastModifiedDate: '2026-09-17T19:16:42.2Z'
+  - VulnerabilityID: CVE-2026-75029
+    PkgID: bind9-host@1:9.20.24-1ubuntu0.3
+    PkgName: bind9-host
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-host@9.20.24-1ubuntu0.3?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 3b1ceacfc77906d3
+    InstalledVersion: 1:9.20.24-1ubuntu0.3
+    Status: affected
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-75029
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:0a7bfc075430fa342e6008c88339ee9310719a13628c3bcd1a11afcbda2f8d7d
+    Title: 'bind: BIND 9: Denial of Service via crafted query responses'
+    Description: |-
+      In a query response, an attacker may send `named` multiple copies of a record that should only exist once (such as an SOA record). If the RDATA is the same on all the copies, the record is appended to the in-memory RDATA set, which can cause increased memory usage of the negative cache and possibly lead to other memory attack vectors.
+      This issue affects BIND 9 versions 9.11.0 through 9.18.50, 9.20.0 through 9.20.27, 9.21.0 through 9.21.25, 9.11.3-S1 through 9.18.50-S1, and 9.20.9-S1 through 9.20.27-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-405
+    VendorSeverity:
+      amazon: 3
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-75029
+    - https://downloads.isc.org/isc/bind9/9.20.29
+    - https://downloads.isc.org/isc/bind9/9.21.26
+    - https://kb.isc.org/docs/cve-2026-75029
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-75029
+    - https://www.cve.org/CVERecord?id=CVE-2026-75029
+    PublishedDate: '2026-09-16T15:17:43.577Z'
+    LastModifiedDate: '2026-09-17T19:16:58.037Z'
+  - VulnerabilityID: CVE-2026-76163
+    PkgID: bind9-host@1:9.20.24-1ubuntu0.3
+    PkgName: bind9-host
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-host@9.20.24-1ubuntu0.3?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 3b1ceacfc77906d3
+    InstalledVersion: 1:9.20.24-1ubuntu0.3
+    Status: affected
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-76163
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:a4b457fb80d7068fd844fce12dbf0a5048dfa094ab04ef158bf3971259df4cd7
+    Title: 'bind: BIND: Denial of Service via TKEY query with specific configuration'
+    Description: |-
+      If BIND is loaded with a "`named.conf`" file that contains no global "`options`" block, an attacker can send a query of QTYPE TKEY which may cause an assertion failure and subsequent unexpected program exit.
+      This issue affects BIND 9 versions 9.20.0 through 9.20.27, 9.21.0 through 9.21.25, and 9.20.9-S1 through 9.20.27-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-617
+    VendorSeverity:
+      photon: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-76163
+    - https://downloads.isc.org/isc/bind9/9.20.29
+    - https://downloads.isc.org/isc/bind9/9.21.26
+    - https://kb.isc.org/docs/cve-2026-76163
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-76163
+    - https://www.cve.org/CVERecord?id=CVE-2026-76163
+    PublishedDate: '2026-09-16T15:17:43.847Z'
+    LastModifiedDate: '2026-09-17T18:17:08.72Z'
+  - VulnerabilityID: CVE-2026-77119
+    PkgID: bind9-host@1:9.20.24-1ubuntu0.3
+    PkgName: bind9-host
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-host@9.20.24-1ubuntu0.3?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 3b1ceacfc77906d3
+    InstalledVersion: 1:9.20.24-1ubuntu0.3
+    Status: affected
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-77119
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:7efdf2e05067e5574b2aa6d78c8a999d7f731959ed23775ca38872c79d48f775
+    Title: 'bind9: bind: BIND 9: DNSSEC bypass via NSEC3 insecure-referral proof'
+    Description: |-
+      A validly signed NSEC3 from an unrelated sibling zone may be accepted as an insecurity proof, downgrading a secure delegation and letting a forged unsigned answer through.
+      This issue affects BIND 9 versions 9.11.0 through 9.18.50, 9.20.0 through 9.20.27, 9.21.0 through 9.21.25, 9.11.3-S1 through 9.18.50-S1, and 9.20.9-S1 through 9.20.27-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-346
+    VendorSeverity:
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-77119
+    - https://downloads.isc.org/isc/bind9/9.20.29
+    - https://downloads.isc.org/isc/bind9/9.21.26
+    - https://kb.isc.org/docs/cve-2026-77119
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-77119
+    - https://www.cve.org/CVERecord?id=CVE-2026-77119
+    PublishedDate: '2026-09-16T15:17:46.427Z'
+    LastModifiedDate: '2026-09-17T19:16:59.49Z'
+  - VulnerabilityID: CVE-2026-77692
+    PkgID: bind9-host@1:9.20.24-1ubuntu0.3
+    PkgName: bind9-host
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-host@9.20.24-1ubuntu0.3?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 3b1ceacfc77906d3
+    InstalledVersion: 1:9.20.24-1ubuntu0.3
+    Status: affected
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-77692
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:b55006ecad903112754ebe979f14b2d31f10fb75e94437a2e1b2ef537fdb4491
+    Title: 'bind: BIND: Remote Denial of Service via crafted DNS-over-HTTPS request'
+    Description: |-
+      An attacker can cause `named` to abort by sending a crafted DNS-over-HTTPS request with a cryptographically invalid SIG(0) record, and then closing the transport connection prematurely.
+      This issue affects BIND 9 versions 9.20.0 through 9.20.27, 9.21.0 through 9.21.25, and 9.20.9-S1 through 9.20.27-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      photon: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-77692
+    - https://downloads.isc.org/isc/bind9/9.20.29
+    - https://downloads.isc.org/isc/bind9/9.21.26
+    - https://kb.isc.org/docs/cve-2026-77692
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-77692
+    - https://www.cve.org/CVERecord?id=CVE-2026-77692
+    PublishedDate: '2026-09-16T14:17:09.647Z'
+    LastModifiedDate: '2026-09-17T19:16:59.633Z'
+  - VulnerabilityID: CVE-2026-78301
+    PkgID: bind9-host@1:9.20.24-1ubuntu0.3
+    PkgName: bind9-host
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-host@9.20.24-1ubuntu0.3?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 3b1ceacfc77906d3
+    InstalledVersion: 1:9.20.24-1ubuntu0.3
+    Status: affected
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-78301
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:8270c2b99a9243275d2429c0fd7ba1e3c16ce09d5b419e6b07a72dbe17e65c10
+    Title: 'bind: BIND: DNS cache poisoning via malformed zone insertion'
+    Description: |-
+      A malformed zone may contain an NS or DNAME node above its origin, which `named` treats as a zone cut. If an attacker inserts a malformed zone into a BIND authoritative server (e.g., via zone transfer), queries for names inside the configured zone then lose authoritative status and return an out-of-zone delegation. On a server that also provides recursion BIND can follow this locally sourced cut and cache attacker-supplied data, affecting names outside the configured zone. This situation persists as long as the malformed zone remains in the zone database.
+      This issue affects BIND 9 versions 9.11.0 through 9.18.50, 9.20.0 through 9.20.27, 9.21.0 through 9.21.25, 9.11.3-S1 through 9.18.50-S1, and 9.20.9-S1 through 9.20.27-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-349
+    VendorSeverity:
+      amazon: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:C/C:N/I:H/A:N
+        V3Score: 5.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-78301
+    - https://downloads.isc.org/isc/bind9/9.20.29
+    - https://downloads.isc.org/isc/bind9/9.21.26
+    - https://kb.isc.org/docs/cve-2026-78301
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-78301
+    - https://www.cve.org/CVERecord?id=CVE-2026-78301
+    PublishedDate: '2026-09-16T14:17:10.4Z'
+    LastModifiedDate: '2026-09-17T19:16:59.937Z'
+  - VulnerabilityID: CVE-2026-80274
+    PkgID: bind9-host@1:9.20.24-1ubuntu0.3
+    PkgName: bind9-host
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-host@9.20.24-1ubuntu0.3?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 3b1ceacfc77906d3
+    InstalledVersion: 1:9.20.24-1ubuntu0.3
+    Status: affected
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-80274
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:4dda51d4c97c90e9bae1e09b67647e360da582b6d1cb70f95f890d464f95b218
+    Title: 'bind: BIND: Denial of Service via crafted DNSSEC reply'
+    Description: |-
+      If a BIND resolver sends a query for a DNSSEC-signed authoritative zone, and the authoritative server replies with a valid wildcard answer and signed NSEC3 proof, followed by an unsigned NSEC at the same owner name, it will trigger an unexpected program exit.
+      This issue affects BIND 9 versions 9.11.0 through 9.18.50, 9.20.0 through 9.20.27, 9.21.0 through 9.21.25, 9.11.3-S1 through 9.18.50-S1, and 9.20.9-S1 through 9.20.27-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-617
+    VendorSeverity:
+      alma: 3
+      amazon: 3
+      oracle-oval: 3
+      photon: 3
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:75767
+    - https://access.redhat.com/security/cve/CVE-2026-80274
+    - https://bugzilla.redhat.com/2535435
+    - https://bugzilla.redhat.com/2535466
+    - https://bugzilla.redhat.com/2535477
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535435
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535466
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535477
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19666
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19667
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-80274
+    - https://downloads.isc.org/isc/bind9/9.20.29
+    - https://downloads.isc.org/isc/bind9/9.21.26
+    - https://errata.almalinux.org/9/ALSA-2026-75767.html
+    - https://errata.rockylinux.org/RLSA-2026:75767
+    - https://kb.isc.org/docs/cve-2026-80274
+    - https://linux.oracle.com/cve/CVE-2026-80274.html
+    - https://linux.oracle.com/errata/ELSA-2026-79162.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-80274
+    - https://www.cve.org/CVERecord?id=CVE-2026-80274
+    PublishedDate: '2026-09-16T15:17:52.69Z'
+    LastModifiedDate: '2026-09-17T18:17:09.007Z'
+  - VulnerabilityID: CVE-2026-81563
+    PkgID: bind9-host@1:9.20.24-1ubuntu0.3
+    PkgName: bind9-host
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-host@9.20.24-1ubuntu0.3?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 3b1ceacfc77906d3
+    InstalledVersion: 1:9.20.24-1ubuntu0.3
+    Status: affected
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-81563
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:274d2ad4cd7117c6d46ae71c4b65ec2d2f06d4f0f1db2582881d52b35e78d6a0
+    Title: 'bind: BIND resolver: Denial of Service due to resource exhaustion in SVCB/HTTPS AliasMode processing'
+    Description: |-
+      A BIND resolver encountering an SVCB/HTTPS AliasMode record referencing 14 or more SVCB/HTTPS ServiceMode records may fail to properly deallocate internal resources. If this happens repeatedly, resource exhaustion will eventually prevent the resolver from performing new recursive lookups.
+      This issue affects BIND 9 versions 9.18.0 through 9.18.50, 9.20.0 through 9.20.27, 9.21.0 through 9.21.25, 9.18.11-S1 through 9.18.50-S1, and 9.20.9-S1 through 9.20.27-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-401
+    VendorSeverity:
+      alma: 3
+      amazon: 3
+      oracle-oval: 3
+      photon: 3
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:75577
+    - https://access.redhat.com/errata/RHSA-2026:75578
+    - https://access.redhat.com/security/cve/CVE-2026-81563
+    - https://bugzilla.redhat.com/2535432
+    - https://bugzilla.redhat.com/2535435
+    - https://bugzilla.redhat.com/2535461
+    - https://bugzilla.redhat.com/2535466
+    - https://bugzilla.redhat.com/2535477
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535432
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535435
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535461
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535466
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535477
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19666
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19667
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-80274
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-81563
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-81736
+    - https://downloads.isc.org/isc/bind9/9.20.29
+    - https://downloads.isc.org/isc/bind9/9.21.26
+    - https://errata.almalinux.org/10/ALSA-2026-75577.html
+    - https://errata.rockylinux.org/RLSA-2026:75578
+    - https://kb.isc.org/docs/cve-2026-81563
+    - https://linux.oracle.com/cve/CVE-2026-81563.html
+    - https://linux.oracle.com/errata/ELSA-2026-75578.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-81563
+    - https://www.cve.org/CVERecord?id=CVE-2026-81563
+    PublishedDate: '2026-09-16T14:17:10.543Z'
+    LastModifiedDate: '2026-09-17T18:17:09.147Z'
+  - VulnerabilityID: CVE-2026-81736
+    PkgID: bind9-host@1:9.20.24-1ubuntu0.3
+    PkgName: bind9-host
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-host@9.20.24-1ubuntu0.3?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 3b1ceacfc77906d3
+    InstalledVersion: 1:9.20.24-1ubuntu0.3
+    Status: affected
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-81736
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:b7d07b22e4b11c10cf2a13af8f6d7bfae397987ddbac3b24fef2dd1f677cf75d
+    Title: 'bind: BIND 9: Remote Denial of Service via cached SVCB/HTTPS AliasMode records'
+    Description: |-
+      If a BIND resolver has cached a tree of SVCB/HTTPS AliasMode records, and is then queried for the root of that tree, the resolver will spend disproportionate CPU time constructing the response.
+      This issue affects BIND 9 versions 9.18.0 through 9.18.50, 9.20.0 through 9.20.27, 9.21.0 through 9.21.25, 9.18.11-S1 through 9.18.50-S1, and 9.20.9-S1 through 9.20.27-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-1050
+    VendorSeverity:
+      alma: 3
+      amazon: 3
+      oracle-oval: 3
+      photon: 3
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:75577
+    - https://access.redhat.com/errata/RHSA-2026:75578
+    - https://access.redhat.com/security/cve/CVE-2026-81736
+    - https://bugzilla.redhat.com/2535432
+    - https://bugzilla.redhat.com/2535435
+    - https://bugzilla.redhat.com/2535461
+    - https://bugzilla.redhat.com/2535466
+    - https://bugzilla.redhat.com/2535477
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535432
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535435
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535461
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535466
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535477
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19666
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19667
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-80274
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-81563
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-81736
+    - https://downloads.isc.org/isc/bind9/9.20.29
+    - https://downloads.isc.org/isc/bind9/9.21.26
+    - https://errata.almalinux.org/10/ALSA-2026-75577.html
+    - https://errata.rockylinux.org/RLSA-2026:75578
+    - https://kb.isc.org/docs/cve-2026-81736
+    - https://linux.oracle.com/cve/CVE-2026-81736.html
+    - https://linux.oracle.com/errata/ELSA-2026-75578.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-81736
+    - https://www.cve.org/CVERecord?id=CVE-2026-81736
+    PublishedDate: '2026-09-16T14:17:10.817Z'
+    LastModifiedDate: '2026-09-17T19:17:03.88Z'
+  - VulnerabilityID: CVE-2026-19033
+    PkgID: bind9-libs@1:9.20.24-1ubuntu0.3
+    PkgName: bind9-libs
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-libs@9.20.24-1ubuntu0.3?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 3cd5822d32484358
+    InstalledVersion: 1:9.20.24-1ubuntu0.3
+    Status: affected
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-19033
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:8c3ba17a877385d415710bc7df13c9f1e6c655a904630f700fa4780f994f1c58
+    Title: 'bind: BIND: Unauthorized zone content updates via unauthenticated IXFR deltas'
+    Description: |-
+      For a secondary zone with transfers restricted by TSIG, `named` may start to serve the data provided in a zone transfer before the final message with the TSIG signature arrives. This could allow an attacker that does not actually possess a valid TSIG signature to send unauthorized zone contents to a secondary server. Although no TSIG signature ever arrives, `named` does not rollback to the pre-transfer state. To exploit the vulnerability, the transfer must be a multi-message TCP IXFR, as described by RFC 8945.
+      This issue affects BIND 9 versions 9.11.0 through 9.18.50, 9.20.0 through 9.20.27, 9.21.0 through 9.21.25, 9.11.3-S1 through 9.18.50-S1, and 9.20.9-S1 through 9.20.27-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-349
+    VendorSeverity:
+      amazon: 3
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:L
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-19033
+    - https://downloads.isc.org/isc/bind9/9.20.29
+    - https://downloads.isc.org/isc/bind9/9.21.26
+    - https://kb.isc.org/docs/cve-2026-19033
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-19033
+    - https://www.cve.org/CVERecord?id=CVE-2026-19033
+    PublishedDate: '2026-09-16T15:17:33.393Z'
+    LastModifiedDate: '2026-09-17T18:16:38.86Z'
+  - VulnerabilityID: CVE-2026-19662
+    PkgID: bind9-libs@1:9.20.24-1ubuntu0.3
+    PkgName: bind9-libs
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-libs@9.20.24-1ubuntu0.3?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 3cd5822d32484358
+    InstalledVersion: 1:9.20.24-1ubuntu0.3
+    Status: affected
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-19662
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:daf98a5de0a89ea08fad1aa8d6ca5454dada2de273101df38ed1010e5e371298
+    Title: 'bind9: bind: BIND 9: Denial of Service via crafted DNSSEC responses'
+    Description: |-
+      An attacker may be able to cause a `named` resolver to abort. The attack requires inducing the victim resolver to send multiple queries for a DNSSEC-signed zone hosted by an authoritative server under the control of the attacker. If the auth responds with a particular sequence of crafted answers, and those answers arrive in a particular order with particular timing, the `named` resolver will encounter a use-after-free bug, and abort.
+      This issue affects BIND 9 versions 9.11.0 through 9.18.50, 9.20.0 through 9.20.27, 9.11.3-S1 through 9.18.50-S1, and 9.20.9-S1 through 9.20.27-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      amazon: 3
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-19662
+    - https://downloads.isc.org/isc/bind9/9.20.29
+    - https://kb.isc.org/docs/cve-2026-19662
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-19662
+    - https://www.cve.org/CVERecord?id=CVE-2026-19662
+    PublishedDate: '2026-09-16T14:17:04.9Z'
+    LastModifiedDate: '2026-09-17T19:16:41.783Z'
+  - VulnerabilityID: CVE-2026-19666
+    PkgID: bind9-libs@1:9.20.24-1ubuntu0.3
+    PkgName: bind9-libs
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-libs@9.20.24-1ubuntu0.3?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 3cd5822d32484358
+    InstalledVersion: 1:9.20.24-1ubuntu0.3
+    Status: affected
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-19666
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:621b52ddc431c719ad44d542d280bc1fc128aadf8c06168c15cad3fff02c4484
+    Title: 'bind: BIND: Denial of Service via malformed DNS64 responses'
+    Description: |-
+      On a resolver configured to use ``dns64``, if an applicable answer from the authoritative server is malformed in a specific way, the resolver `named` process will exit unexpectedly.
+      This issue affects BIND 9 versions 9.11.0 through 9.18.50, 9.20.0 through 9.20.27, 9.21.0 through 9.21.25, 9.11.3-S1 through 9.18.50-S1, and 9.20.9-S1 through 9.20.27-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      alma: 3
+      amazon: 3
+      oracle-oval: 3
+      photon: 3
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:75767
+    - https://access.redhat.com/security/cve/CVE-2026-19666
+    - https://bugzilla.redhat.com/2535435
+    - https://bugzilla.redhat.com/2535466
+    - https://bugzilla.redhat.com/2535477
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535435
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535466
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535477
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19666
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19667
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-80274
+    - https://downloads.isc.org/isc/bind9/9.20.29
+    - https://downloads.isc.org/isc/bind9/9.21.26
+    - https://errata.almalinux.org/9/ALSA-2026-75767.html
+    - https://errata.rockylinux.org/RLSA-2026:75767
+    - https://kb.isc.org/docs/cve-2026-19666
+    - https://linux.oracle.com/cve/CVE-2026-19666.html
+    - https://linux.oracle.com/errata/ELSA-2026-79162.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-19666
+    - https://www.cve.org/CVERecord?id=CVE-2026-19666
+    PublishedDate: '2026-09-16T15:17:33.52Z'
+    LastModifiedDate: '2026-09-17T18:16:39.403Z'
+  - VulnerabilityID: CVE-2026-19667
+    PkgID: bind9-libs@1:9.20.24-1ubuntu0.3
+    PkgName: bind9-libs
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-libs@9.20.24-1ubuntu0.3?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 3cd5822d32484358
+    InstalledVersion: 1:9.20.24-1ubuntu0.3
+    Status: affected
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-19667
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:efba5071ec278f8db2b03240dc91a847d131116d70bdafadbea76ec7fa1565f1
+    Title: 'bind9: bind: BIND 9: Denial of Service via 16-bit length truncation in DNS negative cache handling'
+    Description: |-
+      If an attacker-controlled authoritative server can produce a negative answer that is exactly 65536 bytes, then a flaw in `named` results in a negative cache entry of 0 bytes. When this entry is subsequently read, `named` aborts.
+      This issue affects BIND 9 versions 9.11.0 through 9.18.50, 9.20.0 through 9.20.27, 9.21.0 through 9.21.25, 9.11.3-S1 through 9.18.50-S1, and 9.20.9-S1 through 9.20.27-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-197
+    VendorSeverity:
+      alma: 3
+      amazon: 3
+      oracle-oval: 3
+      photon: 3
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:75767
+    - https://access.redhat.com/security/cve/CVE-2026-19667
+    - https://bugzilla.redhat.com/2535435
+    - https://bugzilla.redhat.com/2535466
+    - https://bugzilla.redhat.com/2535477
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535435
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535466
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535477
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19666
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19667
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-80274
+    - https://downloads.isc.org/isc/bind9/9.20.29
+    - https://downloads.isc.org/isc/bind9/9.21.26
+    - https://errata.almalinux.org/9/ALSA-2026-75767.html
+    - https://errata.rockylinux.org/RLSA-2026:75767
+    - https://kb.isc.org/docs/cve-2026-19667
+    - https://linux.oracle.com/cve/CVE-2026-19667.html
+    - https://linux.oracle.com/errata/ELSA-2026-79162.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-19667
+    - https://www.cve.org/CVERecord?id=CVE-2026-19667
+    PublishedDate: '2026-09-16T14:17:05.037Z'
+    LastModifiedDate: '2026-09-17T19:16:41.913Z'
+  - VulnerabilityID: CVE-2026-19668
+    PkgID: bind9-libs@1:9.20.24-1ubuntu0.3
+    PkgName: bind9-libs
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-libs@9.20.24-1ubuntu0.3?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 3cd5822d32484358
+    InstalledVersion: 1:9.20.24-1ubuntu0.3
+    Status: affected
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-19668
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:d83a0daf1f4e154edf2a0e34b859530769273dda7eb0ac1e7d24410f13d1d0d5
+    Title: 'bind: BIND: Denial of Service via invalid DNSSEC records'
+    Description: |-
+      A BIND recursive resolver may experience excessive resource consumption if it encounters large numbers of a particular kind of invalid DNSSEC record.  Default limits on "max-records-per-type" and "max-types-per-name" help mitigate the exposure.
+      This issue affects BIND 9 versions 9.11.0 through 9.18.50, 9.20.0 through 9.20.27, 9.21.0 through 9.21.25, 9.11.3-S1 through 9.18.50-S1, and 9.20.9-S1 through 9.20.27-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-407
+    VendorSeverity:
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-19668
+    - https://downloads.isc.org/isc/bind9/9.20.29
+    - https://downloads.isc.org/isc/bind9/9.21.26
+    - https://kb.isc.org/docs/cve-2026-19668
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-19668
+    - https://www.cve.org/CVERecord?id=CVE-2026-19668
+    PublishedDate: '2026-09-16T15:17:33.633Z'
+    LastModifiedDate: '2026-09-17T19:16:42.057Z'
+  - VulnerabilityID: CVE-2026-19941
+    PkgID: bind9-libs@1:9.20.24-1ubuntu0.3
+    PkgName: bind9-libs
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-libs@9.20.24-1ubuntu0.3?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 3cd5822d32484358
+    InstalledVersion: 1:9.20.24-1ubuntu0.3
+    Status: affected
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-19941
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:1eaff83fd3419efd86442eead95c709751ef69211cab12ebd51d06e105333b35
+    Title: 'bind9: bind: BIND 9: DNS wildcard record existence can be masked by an attacker via inapplicable NSEC records'
+    Description: |-
+      An inapplicable NSEC record may be accepted by a `named` resolver as proof that no wildcard exists, which could allow an attacker at the same or an upstream level of the zone name to mask the existence of a victim's wildcard record.
+      This issue affects BIND 9 versions 9.11.0 through 9.18.50, 9.20.0 through 9.20.27, 9.21.0 through 9.21.25, 9.11.3-S1 through 9.18.50-S1, and 9.20.9-S1 through 9.20.27-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-345
+    VendorSeverity:
+      amazon: 3
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-19941
+    - https://downloads.isc.org/isc/bind9/9.20.29
+    - https://downloads.isc.org/isc/bind9/9.21.26
+    - https://kb.isc.org/docs/cve-2026-19941
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-19941
+    - https://www.cve.org/CVERecord?id=CVE-2026-19941
+    PublishedDate: '2026-09-16T14:17:05.16Z'
+    LastModifiedDate: '2026-09-17T19:16:42.2Z'
+  - VulnerabilityID: CVE-2026-75029
+    PkgID: bind9-libs@1:9.20.24-1ubuntu0.3
+    PkgName: bind9-libs
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-libs@9.20.24-1ubuntu0.3?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 3cd5822d32484358
+    InstalledVersion: 1:9.20.24-1ubuntu0.3
+    Status: affected
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-75029
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:d3912ecfbd5f0d72371a2d94358c36153e78654f5139fa4fb55c42f6a1d98f26
+    Title: 'bind: BIND 9: Denial of Service via crafted query responses'
+    Description: |-
+      In a query response, an attacker may send `named` multiple copies of a record that should only exist once (such as an SOA record). If the RDATA is the same on all the copies, the record is appended to the in-memory RDATA set, which can cause increased memory usage of the negative cache and possibly lead to other memory attack vectors.
+      This issue affects BIND 9 versions 9.11.0 through 9.18.50, 9.20.0 through 9.20.27, 9.21.0 through 9.21.25, 9.11.3-S1 through 9.18.50-S1, and 9.20.9-S1 through 9.20.27-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-405
+    VendorSeverity:
+      amazon: 3
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-75029
+    - https://downloads.isc.org/isc/bind9/9.20.29
+    - https://downloads.isc.org/isc/bind9/9.21.26
+    - https://kb.isc.org/docs/cve-2026-75029
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-75029
+    - https://www.cve.org/CVERecord?id=CVE-2026-75029
+    PublishedDate: '2026-09-16T15:17:43.577Z'
+    LastModifiedDate: '2026-09-17T19:16:58.037Z'
+  - VulnerabilityID: CVE-2026-76163
+    PkgID: bind9-libs@1:9.20.24-1ubuntu0.3
+    PkgName: bind9-libs
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-libs@9.20.24-1ubuntu0.3?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 3cd5822d32484358
+    InstalledVersion: 1:9.20.24-1ubuntu0.3
+    Status: affected
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-76163
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:1860a2818638454488887673980df4444164ea526744a81520cfd16a272d228f
+    Title: 'bind: BIND: Denial of Service via TKEY query with specific configuration'
+    Description: |-
+      If BIND is loaded with a "`named.conf`" file that contains no global "`options`" block, an attacker can send a query of QTYPE TKEY which may cause an assertion failure and subsequent unexpected program exit.
+      This issue affects BIND 9 versions 9.20.0 through 9.20.27, 9.21.0 through 9.21.25, and 9.20.9-S1 through 9.20.27-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-617
+    VendorSeverity:
+      photon: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-76163
+    - https://downloads.isc.org/isc/bind9/9.20.29
+    - https://downloads.isc.org/isc/bind9/9.21.26
+    - https://kb.isc.org/docs/cve-2026-76163
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-76163
+    - https://www.cve.org/CVERecord?id=CVE-2026-76163
+    PublishedDate: '2026-09-16T15:17:43.847Z'
+    LastModifiedDate: '2026-09-17T18:17:08.72Z'
+  - VulnerabilityID: CVE-2026-77119
+    PkgID: bind9-libs@1:9.20.24-1ubuntu0.3
+    PkgName: bind9-libs
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-libs@9.20.24-1ubuntu0.3?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 3cd5822d32484358
+    InstalledVersion: 1:9.20.24-1ubuntu0.3
+    Status: affected
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-77119
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:da3ea476b0d913957f89718252173de2b0c65650c0d8c7c0bad1b3fc48f1582c
+    Title: 'bind9: bind: BIND 9: DNSSEC bypass via NSEC3 insecure-referral proof'
+    Description: |-
+      A validly signed NSEC3 from an unrelated sibling zone may be accepted as an insecurity proof, downgrading a secure delegation and letting a forged unsigned answer through.
+      This issue affects BIND 9 versions 9.11.0 through 9.18.50, 9.20.0 through 9.20.27, 9.21.0 through 9.21.25, 9.11.3-S1 through 9.18.50-S1, and 9.20.9-S1 through 9.20.27-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-346
+    VendorSeverity:
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-77119
+    - https://downloads.isc.org/isc/bind9/9.20.29
+    - https://downloads.isc.org/isc/bind9/9.21.26
+    - https://kb.isc.org/docs/cve-2026-77119
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-77119
+    - https://www.cve.org/CVERecord?id=CVE-2026-77119
+    PublishedDate: '2026-09-16T15:17:46.427Z'
+    LastModifiedDate: '2026-09-17T19:16:59.49Z'
+  - VulnerabilityID: CVE-2026-77692
+    PkgID: bind9-libs@1:9.20.24-1ubuntu0.3
+    PkgName: bind9-libs
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-libs@9.20.24-1ubuntu0.3?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 3cd5822d32484358
+    InstalledVersion: 1:9.20.24-1ubuntu0.3
+    Status: affected
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-77692
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:71daae97097a7a2ea5a0db28d7a2a4e17582b3f6bf8cd593fe977ca5076fbac9
+    Title: 'bind: BIND: Remote Denial of Service via crafted DNS-over-HTTPS request'
+    Description: |-
+      An attacker can cause `named` to abort by sending a crafted DNS-over-HTTPS request with a cryptographically invalid SIG(0) record, and then closing the transport connection prematurely.
+      This issue affects BIND 9 versions 9.20.0 through 9.20.27, 9.21.0 through 9.21.25, and 9.20.9-S1 through 9.20.27-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      photon: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-77692
+    - https://downloads.isc.org/isc/bind9/9.20.29
+    - https://downloads.isc.org/isc/bind9/9.21.26
+    - https://kb.isc.org/docs/cve-2026-77692
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-77692
+    - https://www.cve.org/CVERecord?id=CVE-2026-77692
+    PublishedDate: '2026-09-16T14:17:09.647Z'
+    LastModifiedDate: '2026-09-17T19:16:59.633Z'
+  - VulnerabilityID: CVE-2026-78301
+    PkgID: bind9-libs@1:9.20.24-1ubuntu0.3
+    PkgName: bind9-libs
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-libs@9.20.24-1ubuntu0.3?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 3cd5822d32484358
+    InstalledVersion: 1:9.20.24-1ubuntu0.3
+    Status: affected
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-78301
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:45a8c7e1eac11d2b9937da882d6ff2128dff7f41661dc2b5bf2fb82d5a475c1f
+    Title: 'bind: BIND: DNS cache poisoning via malformed zone insertion'
+    Description: |-
+      A malformed zone may contain an NS or DNAME node above its origin, which `named` treats as a zone cut. If an attacker inserts a malformed zone into a BIND authoritative server (e.g., via zone transfer), queries for names inside the configured zone then lose authoritative status and return an out-of-zone delegation. On a server that also provides recursion BIND can follow this locally sourced cut and cache attacker-supplied data, affecting names outside the configured zone. This situation persists as long as the malformed zone remains in the zone database.
+      This issue affects BIND 9 versions 9.11.0 through 9.18.50, 9.20.0 through 9.20.27, 9.21.0 through 9.21.25, 9.11.3-S1 through 9.18.50-S1, and 9.20.9-S1 through 9.20.27-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-349
+    VendorSeverity:
+      amazon: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:C/C:N/I:H/A:N
+        V3Score: 5.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-78301
+    - https://downloads.isc.org/isc/bind9/9.20.29
+    - https://downloads.isc.org/isc/bind9/9.21.26
+    - https://kb.isc.org/docs/cve-2026-78301
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-78301
+    - https://www.cve.org/CVERecord?id=CVE-2026-78301
+    PublishedDate: '2026-09-16T14:17:10.4Z'
+    LastModifiedDate: '2026-09-17T19:16:59.937Z'
+  - VulnerabilityID: CVE-2026-80274
+    PkgID: bind9-libs@1:9.20.24-1ubuntu0.3
+    PkgName: bind9-libs
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-libs@9.20.24-1ubuntu0.3?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 3cd5822d32484358
+    InstalledVersion: 1:9.20.24-1ubuntu0.3
+    Status: affected
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-80274
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:a17181a79970e4f4078a0de2a44c3c1b7407c7bb3328ecb14c75f11f2831e2ec
+    Title: 'bind: BIND: Denial of Service via crafted DNSSEC reply'
+    Description: |-
+      If a BIND resolver sends a query for a DNSSEC-signed authoritative zone, and the authoritative server replies with a valid wildcard answer and signed NSEC3 proof, followed by an unsigned NSEC at the same owner name, it will trigger an unexpected program exit.
+      This issue affects BIND 9 versions 9.11.0 through 9.18.50, 9.20.0 through 9.20.27, 9.21.0 through 9.21.25, 9.11.3-S1 through 9.18.50-S1, and 9.20.9-S1 through 9.20.27-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-617
+    VendorSeverity:
+      alma: 3
+      amazon: 3
+      oracle-oval: 3
+      photon: 3
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:75767
+    - https://access.redhat.com/security/cve/CVE-2026-80274
+    - https://bugzilla.redhat.com/2535435
+    - https://bugzilla.redhat.com/2535466
+    - https://bugzilla.redhat.com/2535477
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535435
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535466
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535477
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19666
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19667
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-80274
+    - https://downloads.isc.org/isc/bind9/9.20.29
+    - https://downloads.isc.org/isc/bind9/9.21.26
+    - https://errata.almalinux.org/9/ALSA-2026-75767.html
+    - https://errata.rockylinux.org/RLSA-2026:75767
+    - https://kb.isc.org/docs/cve-2026-80274
+    - https://linux.oracle.com/cve/CVE-2026-80274.html
+    - https://linux.oracle.com/errata/ELSA-2026-79162.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-80274
+    - https://www.cve.org/CVERecord?id=CVE-2026-80274
+    PublishedDate: '2026-09-16T15:17:52.69Z'
+    LastModifiedDate: '2026-09-17T18:17:09.007Z'
+  - VulnerabilityID: CVE-2026-81563
+    PkgID: bind9-libs@1:9.20.24-1ubuntu0.3
+    PkgName: bind9-libs
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-libs@9.20.24-1ubuntu0.3?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 3cd5822d32484358
+    InstalledVersion: 1:9.20.24-1ubuntu0.3
+    Status: affected
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-81563
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:fc7d1ee91d539c6fc5cd3210bf99d711f4f8ead62014d77dc0e7a675f5fdfeab
+    Title: 'bind: BIND resolver: Denial of Service due to resource exhaustion in SVCB/HTTPS AliasMode processing'
+    Description: |-
+      A BIND resolver encountering an SVCB/HTTPS AliasMode record referencing 14 or more SVCB/HTTPS ServiceMode records may fail to properly deallocate internal resources. If this happens repeatedly, resource exhaustion will eventually prevent the resolver from performing new recursive lookups.
+      This issue affects BIND 9 versions 9.18.0 through 9.18.50, 9.20.0 through 9.20.27, 9.21.0 through 9.21.25, 9.18.11-S1 through 9.18.50-S1, and 9.20.9-S1 through 9.20.27-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-401
+    VendorSeverity:
+      alma: 3
+      amazon: 3
+      oracle-oval: 3
+      photon: 3
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:75577
+    - https://access.redhat.com/errata/RHSA-2026:75578
+    - https://access.redhat.com/security/cve/CVE-2026-81563
+    - https://bugzilla.redhat.com/2535432
+    - https://bugzilla.redhat.com/2535435
+    - https://bugzilla.redhat.com/2535461
+    - https://bugzilla.redhat.com/2535466
+    - https://bugzilla.redhat.com/2535477
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535432
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535435
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535461
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535466
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535477
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19666
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19667
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-80274
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-81563
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-81736
+    - https://downloads.isc.org/isc/bind9/9.20.29
+    - https://downloads.isc.org/isc/bind9/9.21.26
+    - https://errata.almalinux.org/10/ALSA-2026-75577.html
+    - https://errata.rockylinux.org/RLSA-2026:75578
+    - https://kb.isc.org/docs/cve-2026-81563
+    - https://linux.oracle.com/cve/CVE-2026-81563.html
+    - https://linux.oracle.com/errata/ELSA-2026-75578.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-81563
+    - https://www.cve.org/CVERecord?id=CVE-2026-81563
+    PublishedDate: '2026-09-16T14:17:10.543Z'
+    LastModifiedDate: '2026-09-17T18:17:09.147Z'
+  - VulnerabilityID: CVE-2026-81736
+    PkgID: bind9-libs@1:9.20.24-1ubuntu0.3
+    PkgName: bind9-libs
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-libs@9.20.24-1ubuntu0.3?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 3cd5822d32484358
+    InstalledVersion: 1:9.20.24-1ubuntu0.3
+    Status: affected
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-81736
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:daccc93a248997cde4876a41f67131b9bb54111ce1829220f5bfdfcb6fcf5332
+    Title: 'bind: BIND 9: Remote Denial of Service via cached SVCB/HTTPS AliasMode records'
+    Description: |-
+      If a BIND resolver has cached a tree of SVCB/HTTPS AliasMode records, and is then queried for the root of that tree, the resolver will spend disproportionate CPU time constructing the response.
+      This issue affects BIND 9 versions 9.18.0 through 9.18.50, 9.20.0 through 9.20.27, 9.21.0 through 9.21.25, 9.18.11-S1 through 9.18.50-S1, and 9.20.9-S1 through 9.20.27-S1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-1050
+    VendorSeverity:
+      alma: 3
+      amazon: 3
+      oracle-oval: 3
+      photon: 3
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:75577
+    - https://access.redhat.com/errata/RHSA-2026:75578
+    - https://access.redhat.com/security/cve/CVE-2026-81736
+    - https://bugzilla.redhat.com/2535432
+    - https://bugzilla.redhat.com/2535435
+    - https://bugzilla.redhat.com/2535461
+    - https://bugzilla.redhat.com/2535466
+    - https://bugzilla.redhat.com/2535477
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535432
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535435
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535461
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535466
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2535477
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19666
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19667
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-80274
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-81563
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-81736
+    - https://downloads.isc.org/isc/bind9/9.20.29
+    - https://downloads.isc.org/isc/bind9/9.21.26
+    - https://errata.almalinux.org/10/ALSA-2026-75577.html
+    - https://errata.rockylinux.org/RLSA-2026:75578
+    - https://kb.isc.org/docs/cve-2026-81736
+    - https://linux.oracle.com/cve/CVE-2026-81736.html
+    - https://linux.oracle.com/errata/ELSA-2026-75578.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-81736
+    - https://www.cve.org/CVERecord?id=CVE-2026-81736
+    PublishedDate: '2026-09-16T14:17:10.817Z'
+    LastModifiedDate: '2026-09-17T19:17:03.88Z'
   - VulnerabilityID: CVE-2026-19617
     PkgID: dmsetup@2:1.02.205-2ubuntu3
     PkgName: dmsetup
@@ -809,6 +2909,7 @@
     - https://access.redhat.com/errata/RHSA-2026:72475
     - https://access.redhat.com/errata/RHSA-2026:72476
     - https://access.redhat.com/errata/RHSA-2026:72502
+    - https://access.redhat.com/errata/RHSA-2026:81201
     - https://access.redhat.com/security/cve/CVE-2026-13757
     - https://bugzilla.redhat.com/2494556
     - https://bugzilla.redhat.com/show_bug.cgi?id=2494556
@@ -823,7 +2924,7 @@
     - https://ubuntu.com/security/notices/USN-8687-1
     - https://www.cve.org/CVERecord?id=CVE-2026-13757
     PublishedDate: '2026-06-29T19:16:40.907Z'
-    LastModifiedDate: '2026-09-29T01:16:45.04Z'
+    LastModifiedDate: '2026-10-12T21:17:14.327Z'
   - VulnerabilityID: CVE-2026-40228
     PkgID: libpam-systemd@259.5-0ubuntu3.4
     PkgName: libpam-systemd
@@ -1128,6 +3229,326 @@
     - https://www.openwall.com/lists/oss-security/2026/04/08/1
     PublishedDate: '2026-04-10T16:16:33.753Z'
     LastModifiedDate: '2026-06-17T10:44:53.31Z'
+  - VulnerabilityID: CVE-2026-88806
+    PkgID: libx11-6@2:1.8.13-1
+    PkgName: libx11-6
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libx11-6@1.8.13-1?arch=amd64&distro=ubuntu-26.04&epoch=2
+      UID: 146102fe9dff90c
+    InstalledVersion: 2:1.8.13-1
+    FixedVersion: 2:1.8.13-1ubuntu0.1
+    Status: fixed
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-88806
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:66d6b83330f98ba476e6a842630e97c17bbb3594d884fc206235f95720fb3001
+    Title: 'libX11: libX11: Heap-based buffer overflow via malicious X server'
+    Description: A malicious X server could exploit a buffer overflow in libX11 before 1.8.14 during handling of XkbGetMap overflowing the key_sym_map.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    VendorSeverity:
+      amazon: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-88806
+    - https://gitlab.freedesktop.org/xorg/lib/libx11/-/merge_requests/309
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-88806
+    - https://ubuntu.com/security/notices/USN-8913-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-88806
+    PublishedDate: '2026-09-21T14:17:22.273Z'
+    LastModifiedDate: '2026-09-22T19:40:05.87Z'
+  - VulnerabilityID: CVE-2026-94283
+    PkgID: libx11-6@2:1.8.13-1
+    PkgName: libx11-6
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libx11-6@1.8.13-1?arch=amd64&distro=ubuntu-26.04&epoch=2
+      UID: 146102fe9dff90c
+    InstalledVersion: 2:1.8.13-1
+    FixedVersion: 2:1.8.13-1ubuntu0.1
+    Status: fixed
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-94283
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:76cc2adbdd6034cdd979f1b71a94c3cc69658e1b3be1d1e784a2971f8dd572df
+    Title: 'libX11: libX11: Denial of Service via out-of-bounds read in XIM attribute parser'
+    Description: An out-of-bounds read vulnerability in libX11's XIM (X Input Method) attribute parser in libX11 before 1.8.14 could be used by malicious X servers to crash attached X clients.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-94283
+    - https://gitlab.freedesktop.org/xorg/lib/libx11/-/merge_requests/310
+    - https://gitlab.freedesktop.org/xorg/lib/libx11/-/merge_requests/310/diffs?commit_id=42d0303f243002a9856c76060569a61893c670dd
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-94283
+    - https://ubuntu.com/security/notices/USN-8913-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-94283
+    PublishedDate: '2026-09-28T09:17:08.133Z'
+    LastModifiedDate: '2026-09-30T13:17:26.27Z'
+  - VulnerabilityID: CVE-2026-94284
+    PkgID: libx11-6@2:1.8.13-1
+    PkgName: libx11-6
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libx11-6@1.8.13-1?arch=amd64&distro=ubuntu-26.04&epoch=2
+      UID: 146102fe9dff90c
+    InstalledVersion: 2:1.8.13-1
+    FixedVersion: 2:1.8.13-1ubuntu0.1
+    Status: fixed
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-94284
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:fd9305bb499d11567adc561cac5e7af0e411c4ecb9fc6dc90ce8e7ed2fb5bfcf
+    Title: 'libX11: libX11: Denial of Service via out-of-bounds read in XIM trigger-key registration parser'
+    Description: An out-of-bounds read vulnerability in libX11's XIM trigger-key registration parser in libX11 before 1.8.14 could be used by malicious X servers to crash attached X clients.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-94284
+    - https://gitlab.freedesktop.org/xorg/lib/libx11/-/merge_requests/310
+    - https://gitlab.freedesktop.org/xorg/lib/libx11/-/merge_requests/310/diffs?commit_id=1b7904002d212eed40949ccf4e8e7156f9fec0e2
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-94284
+    - https://ubuntu.com/security/notices/USN-8913-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-94284
+    PublishedDate: '2026-09-28T09:17:08.247Z'
+    LastModifiedDate: '2026-09-30T13:17:26.41Z'
+  - VulnerabilityID: CVE-2026-94285
+    PkgID: libx11-6@2:1.8.13-1
+    PkgName: libx11-6
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libx11-6@1.8.13-1?arch=amd64&distro=ubuntu-26.04&epoch=2
+      UID: 146102fe9dff90c
+    InstalledVersion: 2:1.8.13-1
+    FixedVersion: 2:1.8.13-1ubuntu0.1
+    Status: fixed
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-94285
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:858e9317a5688b81b0d1d5d29cb726427329db76780d21416d1a3e480f00e194
+    Title: 'libX11: libX11: Denial of Service via out-of-bounds read in byte-oriented codeset parser'
+    Description: An out-of-bounds read in libX11's byte-oriented codeset parser in libX11 before 1.8.14 could be used by malicious X servers to crash attached X clients.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L
+        V3Score: 5.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-94285
+    - https://gitlab.freedesktop.org/xorg/lib/libx11/-/merge_requests/310
+    - https://gitlab.freedesktop.org/xorg/lib/libx11/-/merge_requests/310/diffs?commit_id=980868483446f24f9658d26aa5bfa42f3da6dd3a
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-94285
+    - https://ubuntu.com/security/notices/USN-8913-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-94285
+    PublishedDate: '2026-09-28T09:17:08.353Z'
+    LastModifiedDate: '2026-09-30T13:17:26.57Z'
+  - VulnerabilityID: CVE-2026-88806
+    PkgID: libx11-data@2:1.8.13-1
+    PkgName: libx11-data
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libx11-data@1.8.13-1?arch=all&distro=ubuntu-26.04&epoch=2
+      UID: 7f46e7852179fee
+    InstalledVersion: 2:1.8.13-1
+    FixedVersion: 2:1.8.13-1ubuntu0.1
+    Status: fixed
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-88806
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:b59e5750f5e2d902beaa8f17eba2bb3d2caf476c63d88409155849413d6fd535
+    Title: 'libX11: libX11: Heap-based buffer overflow via malicious X server'
+    Description: A malicious X server could exploit a buffer overflow in libX11 before 1.8.14 during handling of XkbGetMap overflowing the key_sym_map.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    VendorSeverity:
+      amazon: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-88806
+    - https://gitlab.freedesktop.org/xorg/lib/libx11/-/merge_requests/309
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-88806
+    - https://ubuntu.com/security/notices/USN-8913-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-88806
+    PublishedDate: '2026-09-21T14:17:22.273Z'
+    LastModifiedDate: '2026-09-22T19:40:05.87Z'
+  - VulnerabilityID: CVE-2026-94283
+    PkgID: libx11-data@2:1.8.13-1
+    PkgName: libx11-data
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libx11-data@1.8.13-1?arch=all&distro=ubuntu-26.04&epoch=2
+      UID: 7f46e7852179fee
+    InstalledVersion: 2:1.8.13-1
+    FixedVersion: 2:1.8.13-1ubuntu0.1
+    Status: fixed
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-94283
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:e2f5987e041297e8221113660bc6dbba2d59ea6685890fa4cca924754f0b832c
+    Title: 'libX11: libX11: Denial of Service via out-of-bounds read in XIM attribute parser'
+    Description: An out-of-bounds read vulnerability in libX11's XIM (X Input Method) attribute parser in libX11 before 1.8.14 could be used by malicious X servers to crash attached X clients.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-94283
+    - https://gitlab.freedesktop.org/xorg/lib/libx11/-/merge_requests/310
+    - https://gitlab.freedesktop.org/xorg/lib/libx11/-/merge_requests/310/diffs?commit_id=42d0303f243002a9856c76060569a61893c670dd
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-94283
+    - https://ubuntu.com/security/notices/USN-8913-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-94283
+    PublishedDate: '2026-09-28T09:17:08.133Z'
+    LastModifiedDate: '2026-09-30T13:17:26.27Z'
+  - VulnerabilityID: CVE-2026-94284
+    PkgID: libx11-data@2:1.8.13-1
+    PkgName: libx11-data
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libx11-data@1.8.13-1?arch=all&distro=ubuntu-26.04&epoch=2
+      UID: 7f46e7852179fee
+    InstalledVersion: 2:1.8.13-1
+    FixedVersion: 2:1.8.13-1ubuntu0.1
+    Status: fixed
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-94284
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:16a1325a34ad08152bcf86abb6413e18cb2a46c9bbbc1f214025ac4a00ba929e
+    Title: 'libX11: libX11: Denial of Service via out-of-bounds read in XIM trigger-key registration parser'
+    Description: An out-of-bounds read vulnerability in libX11's XIM trigger-key registration parser in libX11 before 1.8.14 could be used by malicious X servers to crash attached X clients.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-94284
+    - https://gitlab.freedesktop.org/xorg/lib/libx11/-/merge_requests/310
+    - https://gitlab.freedesktop.org/xorg/lib/libx11/-/merge_requests/310/diffs?commit_id=1b7904002d212eed40949ccf4e8e7156f9fec0e2
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-94284
+    - https://ubuntu.com/security/notices/USN-8913-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-94284
+    PublishedDate: '2026-09-28T09:17:08.247Z'
+    LastModifiedDate: '2026-09-30T13:17:26.41Z'
+  - VulnerabilityID: CVE-2026-94285
+    PkgID: libx11-data@2:1.8.13-1
+    PkgName: libx11-data
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libx11-data@1.8.13-1?arch=all&distro=ubuntu-26.04&epoch=2
+      UID: 7f46e7852179fee
+    InstalledVersion: 2:1.8.13-1
+    FixedVersion: 2:1.8.13-1ubuntu0.1
+    Status: fixed
+    Layer:
+      Digest: sha256:f93423a43ce01720f72ceaf2898d8e11b35e482b85464f4614ba285d93779e88
+      DiffID: sha256:4c6728b39fca3e1eda0fc90839738d981a7ed55159a9d9ed2704ae23d653979f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-94285
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:36983cd48cc88ccbddb8612dcd2dc525933b633679a5e160e2506cac327e6a9d
+    Title: 'libX11: libX11: Denial of Service via out-of-bounds read in byte-oriented codeset parser'
+    Description: An out-of-bounds read in libX11's byte-oriented codeset parser in libX11 before 1.8.14 could be used by malicious X servers to crash attached X clients.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L
+        V3Score: 5.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-94285
+    - https://gitlab.freedesktop.org/xorg/lib/libx11/-/merge_requests/310
+    - https://gitlab.freedesktop.org/xorg/lib/libx11/-/merge_requests/310/diffs?commit_id=980868483446f24f9658d26aa5bfa42f3da6dd3a
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-94285
+    - https://ubuntu.com/security/notices/USN-8913-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-94285
+    PublishedDate: '2026-09-28T09:17:08.353Z'
+    LastModifiedDate: '2026-09-30T13:17:26.57Z'
   - VulnerabilityID: CVE-2024-56433
     PkgID: login.defs@1:4.17.4-2ubuntu3
     PkgName: login.defs
@@ -1618,7 +4039,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:88ed6d12dd241e09abe8a278468a9153bfcb4720565c42debd89f3625f500287
-    Title: PyJWT is a Python implementation of JSON Web Token standards. Prior to ...
+    Title: 'pyjwt: PyJWT: Authentication bypass via improper public key validation'
     Description: PyJWT is a Python implementation of JSON Web Token standards. Prior to 2.14.0, is_pem_format in jwt/utils.py is affected because is_pem_format does not recognize every PEM representation accepted by the cryptography loader. This occurs when an application mixes HMAC and asymmetric algorithms and supplies a mutated public-key PEM as raw key bytes. As a result, HMACAlgorithm.prepare_key treats the unrecognized asymmetric public key as an HMAC secret. Consequently, an attacker who knows the public key can forge authenticated HMAC tokens. This issue is fixed in version 2.14.0.
     Severity: MEDIUM
     CweIDs:
@@ -1626,12 +4047,17 @@
     VendorSeverity:
       azure: 4
       ghsa: 4
+      redhat: 4
       ubuntu: 2
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 9.1
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 9.1
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-102268
     - https://advisory.echohq.com/cve/CVE-2026-102268
     - https://github.com/jpadilla/pyjwt
     - https://github.com/jpadilla/pyjwt/commit/8b4e233a22206b34ec1186e912e75c0b2396ac07
@@ -3349,6 +5775,7 @@
     - CWE-400
     - CWE-1333
     VendorSeverity:
+      amazon: 3
       ghsa: 3
       redhat: 2
     CVSS:
@@ -3401,6 +5828,7 @@
     - CWE-400
     - CWE-770
     VendorSeverity:
+      amazon: 3
       ghsa: 3
       redhat: 3
     CVSS:
@@ -3484,7 +5912,7 @@
     - https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-3.2.2
     - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-q4xh-88c3-wmh7
     - https://linux.oracle.com/cve/CVE-2026-68497.html
-    - https://linux.oracle.com/errata/ELSA-2026-77648.html
+    - https://linux.oracle.com/errata/ELSA-2026-80504.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-68497
     - https://www.cve.org/CVERecord?id=CVE-2026-68497
     PublishedDate: '2026-09-11T16:17:39.61Z'
@@ -3625,6 +6053,7 @@
     - CWE-470
     - CWE-610
     VendorSeverity:
+      amazon: 2
       ghsa: 2
       redhat: 2
     CVSS:
@@ -3680,6 +6109,7 @@
     - CWE-502
     - CWE-915
     VendorSeverity:
+      amazon: 2
       ghsa: 2
       redhat: 2
     CVSS:
@@ -4244,6 +6674,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://ubuntu.com/security/notices/USN-8883-1
     - https://ubuntu.com/security/notices/USN-8900-1
+    - https://ubuntu.com/security/notices/USN-8914-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
     LastModifiedDate: '2026-09-17T12:18:05.767Z'
@@ -6815,6 +9246,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://ubuntu.com/security/notices/USN-8883-1
     - https://ubuntu.com/security/notices/USN-8900-1
+    - https://ubuntu.com/security/notices/USN-8914-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
     LastModifiedDate: '2026-09-17T12:18:05.767Z'
@@ -6845,7 +9277,7 @@
     - CWE-61
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 3
       bitnami: 3
       oracle-oval: 3
@@ -8245,7 +10677,7 @@
     - CWE-201
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       photon: 2
@@ -9295,6 +11727,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://ubuntu.com/security/notices/USN-8883-1
     - https://ubuntu.com/security/notices/USN-8900-1
+    - https://ubuntu.com/security/notices/USN-8914-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
     LastModifiedDate: '2026-09-17T12:18:05.767Z'
@@ -11866,6 +14299,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://ubuntu.com/security/notices/USN-8883-1
     - https://ubuntu.com/security/notices/USN-8900-1
+    - https://ubuntu.com/security/notices/USN-8914-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
     LastModifiedDate: '2026-09-17T12:18:05.767Z'
@@ -11896,7 +14330,7 @@
     - CWE-61
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 3
       bitnami: 3
       oracle-oval: 3
@@ -13296,7 +15730,7 @@
     - CWE-201
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       photon: 2
@@ -14603,7 +17037,7 @@
     - CWE-770
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       oracle-oval: 3
       redhat: 2
@@ -14675,7 +17109,7 @@
     CweIDs:
     - CWE-770
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       redhat: 2
     CVSS:
@@ -18700,6 +21134,7 @@
     CweIDs:
     - CWE-400
     VendorSeverity:
+      amazon: 2
       bottlerocket: 2
       ghsa: 2
       redhat: 2
@@ -18944,7 +21379,7 @@
     - CWE-770
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       oracle-oval: 3
       redhat: 2
@@ -19016,7 +21451,7 @@
     CweIDs:
     - CWE-770
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       redhat: 2
     CVSS:
@@ -19970,6 +22405,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://ubuntu.com/security/notices/USN-8883-1
     - https://ubuntu.com/security/notices/USN-8900-1
+    - https://ubuntu.com/security/notices/USN-8914-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
     LastModifiedDate: '2026-09-17T12:18:05.767Z'
@@ -22572,6 +25008,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://ubuntu.com/security/notices/USN-8883-1
     - https://ubuntu.com/security/notices/USN-8900-1
+    - https://ubuntu.com/security/notices/USN-8914-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
     LastModifiedDate: '2026-09-17T12:18:05.767Z'
@@ -22602,7 +25039,7 @@
     - CWE-61
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 3
       bitnami: 3
       oracle-oval: 3
@@ -23301,7 +25738,7 @@
     - CWE-201
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       photon: 2
