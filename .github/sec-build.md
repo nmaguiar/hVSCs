@@ -548,6 +548,8 @@
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2022-0563       
 │                        │       │                  https://blog.trailofbits.com/2023/02/16/suid-logic-bug-linu
 │                        │       │                  x-readline/                                                
+│                        │       │                  https://cert-portal.siemens.com/productcert/html/ssa-398330
+│                        │       │                  .html                                                      
 │                        │       │                  https://github.com/bottlerocket-os/bottlerocket/security/ad
 │                        │       │                  visories/GHSA-mv4q-wq4c-5xmg                               
 │                        │       │                  https://lore.kernel.org/util-linux/20220214110609.msiwlm457
@@ -562,7 +564,7 @@
 │                        │       │                                                                             
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2022-02-21T19:15:08.393Z 
-│                        │       ╰ LastModifiedDate: 2026-06-17T04:20:51.053Z 
+│                        │       ╰ LastModifiedDate: 2026-10-14T13:17:14.167Z 
 │                        ├ [10]  ╭ VulnerabilityID : CVE-2026-76642 
 │                        │       ├ PkgID           : bsdutils@1:2.41.5-0+deb13u1 
 │                        │       ├ PkgName         : bsdutils 
@@ -909,6 +911,8 @@
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2022-0563       
 │                        │       │                  https://blog.trailofbits.com/2023/02/16/suid-logic-bug-linu
 │                        │       │                  x-readline/                                                
+│                        │       │                  https://cert-portal.siemens.com/productcert/html/ssa-398330
+│                        │       │                  .html                                                      
 │                        │       │                  https://github.com/bottlerocket-os/bottlerocket/security/ad
 │                        │       │                  visories/GHSA-mv4q-wq4c-5xmg                               
 │                        │       │                  https://lore.kernel.org/util-linux/20220214110609.msiwlm457
@@ -923,7 +927,7 @@
 │                        │       │                                                                             
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2022-02-21T19:15:08.393Z 
-│                        │       ╰ LastModifiedDate: 2026-06-17T04:20:51.053Z 
+│                        │       ╰ LastModifiedDate: 2026-10-14T13:17:14.167Z 
 │                        ├ [16]  ╭ VulnerabilityID : CVE-2017-18018 
 │                        │       ├ PkgID           : coreutils@9.7-3 
 │                        │       ├ PkgName         : coreutils 
@@ -1046,6 +1050,8 @@
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:82347           
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:82354           
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:82372           
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:82857           
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:82888           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2025-5278       
 │                        │       │                  https://bugzilla.redhat.com/2368764                        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2368764        
@@ -1083,7 +1089,7 @@
 │                        │       │                                                                             
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2025-05-27T21:15:23.197Z 
-│                        │       ╰ LastModifiedDate: 2026-10-14T04:17:56.953Z 
+│                        │       ╰ LastModifiedDate: 2026-10-14T20:17:25.55Z 
 │                        ├ [18]  ╭ VulnerabilityID : CVE-2026-56391 
 │                        │       ├ PkgID           : coreutils@9.7-3 
 │                        │       ├ PkgName         : coreutils 
@@ -1172,7 +1178,7 @@
 │                        │       │                                                                             
 │                        │       │                  https://linux.oracle.com/cve/CVE-2026-56391.html           
 │                        │       │                                                                             
-│                        │       │                  https://linux.oracle.com/errata/ELSA-2026-67886.html       
+│                        │       │                  https://linux.oracle.com/errata/ELSA-2026-5146.html        
 │                        │       │                                                                             
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-56391            
 │                        │       │                                                                             
@@ -1409,7 +1415,7 @@
 │                        │       │                           ╰ V3Score : 8.1 
 │                        │       ├ References                                                                   
 │                        │       │                  ────────────────────────────────────────────────────────────
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:55439            
+│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2453277         
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:57462            
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-8286        
 │                        │       │                  https://bugzilla.redhat.com/2446448                         
@@ -1592,7 +1598,7 @@
 │                        │       │                  https://bugzilla.redhat.com/2496769                         
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2496769         
 │                        │       │                  https://creativecommons.org/licenses/by/4.0/                
-│                        │       │                  https://curl.se/L7HzKXisfJ/CVE-2026-8927.md                 
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:10141            
 │                        │       │                  https://curl.se/docs/CVE-2026-8927.html                     
 │                        │       │                  https://curl.se/docs/CVE-2026-8927.json                     
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-8927
@@ -1609,7 +1615,54 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-03T07:16:25.123Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:33.157Z 
-│                        ├ [24]  ╭ VulnerabilityID : CVE-2026-10536 
+│                        ├ [24]  ╭ VulnerabilityID : CVE-2026-92392 
+│                        │       ├ VendorIDs                  
+│                        │       │                  ──────────
+│                        │       │                  DSA-6558-1
+│                        │       │                  
+│                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : curl 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
+│                        │       │                  │       istro=debian-13.7 
+│                        │       │                  ╰ UID : 4bf8aafc5e26d4ce 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ FixedVersion    : 8.14.1-2+deb13u7 
+│                        │       ├ Status          : fixed 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-92392 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:1b41fa1591495cd33e550de11fa6a10355d2858b8a8f1b0d52b
+│                        │       │                   a71a3db2a964a 
+│                        │       ├ Title           : During an upload, curl mishandles HTTP/2 `RST_STREAM`
+│                        │       │                   received from th ... 
+│                        │       ├ Description     : During an upload, curl mishandles HTTP/2 `RST_STREAM`
+│                        │       │                   received from the server
+│                        │       │                   (with reason `HTTP_1_1_REQUIRED` or `REFUSED_STREAM`)
+│                        │       │                   leading to a use after
+│                        │       │                   free of a `struct Curl_easy` object. 
+│                        │       ├ Severity        : HIGH 
+│                        │       ├ CweIDs                  
+│                        │       │                  ───────
+│                        │       │                  CWE-416
+│                        │       │                  
+│                        │       ├ VendorSeverity   ─ ubuntu: 3 
+│                        │       ├ References                                                      
+│                        │       │                  ───────────────────────────────────────────────
+│                        │       │                  https://curl.se/docs/CVE-2026-92392.html       
+│                        │       │                  https://curl.se/docs/CVE-2026-92392.json       
+│                        │       │                  https://hackerone.com/reports/4030333          
+│                        │       │                  https://ubuntu.com/security/notices/USN-8927-1 
+│                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-92392
+│                        │       │                  
+│                        │       ├ PublishedDate   : 2026-10-14T08:17:05.997Z 
+│                        │       ╰ LastModifiedDate: 2026-10-15T11:18:03.6Z 
+│                        ├ [25]  ╭ VulnerabilityID : CVE-2026-10536 
 │                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : curl 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
@@ -1682,7 +1735,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-03T07:16:23.563Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:25.137Z 
-│                        ├ [25]  ╭ VulnerabilityID : CVE-2026-11856 
+│                        ├ [26]  ╭ VulnerabilityID : CVE-2026-11856 
 │                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : curl 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
@@ -1761,13 +1814,13 @@
 │                        │       │                  https://hackerone.com/reports/3793260                        
 │                        │       │                  https://linux.oracle.com/cve/CVE-2026-11856.html             
 │                        │       │                  https://linux.oracle.com/errata/ELSA-2026-80511.html         
-│                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-11856              
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:7385              
 │                        │       │                  https://ubuntu.com/security/notices/USN-8651-1               
 │                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-11856              
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-03T07:16:23.973Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:25.87Z 
-│                        ├ [26]  ╭ VulnerabilityID : CVE-2026-19931 
+│                        ├ [27]  ╭ VulnerabilityID : CVE-2026-19931 
 │                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : curl 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
@@ -1816,7 +1869,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-09-06T18:17:20.733Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:27.29Z 
-│                        ├ [27]  ╭ VulnerabilityID : CVE-2026-80229 
+│                        ├ [28]  ╭ VulnerabilityID : CVE-2026-80229 
 │                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : curl 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
@@ -1868,7 +1921,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-09-06T18:17:22.217Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:30.157Z 
-│                        ├ [28]  ╭ VulnerabilityID : CVE-2026-8924 
+│                        ├ [29]  ╭ VulnerabilityID : CVE-2026-8924 
 │                        │       ├ VendorIDs                  
 │                        │       │                  ──────────
 │                        │       │                  DSA-6558-1
@@ -1956,7 +2009,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-03T07:16:24.793Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:32.573Z 
-│                        ├ [29]  ╭ VulnerabilityID : CVE-2026-8926 
+│                        ├ [30]  ╭ VulnerabilityID : CVE-2026-8926 
 │                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : curl 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
@@ -2044,7 +2097,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-03T07:16:25.037Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:32.98Z 
-│                        ├ [30]  ╭ VulnerabilityID : CVE-2026-8932 
+│                        ├ [31]  ╭ VulnerabilityID : CVE-2026-8932 
 │                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : curl 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
@@ -2139,7 +2192,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-03T07:16:25.363Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:33.407Z 
-│                        ├ [31]  ╭ VulnerabilityID : CVE-2026-9079 
+│                        ├ [32]  ╭ VulnerabilityID : CVE-2026-9079 
 │                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : curl 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
@@ -2224,7 +2277,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-03T07:16:25.62Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:34.597Z 
-│                        ├ [32]  ╭ VulnerabilityID : CVE-2026-9080 
+│                        ├ [33]  ╭ VulnerabilityID : CVE-2026-9080 
 │                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : curl 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
@@ -2282,7 +2335,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-03T07:16:25.713Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:34.767Z 
-│                        ├ [33]  ╭ VulnerabilityID : CVE-2026-9545 
+│                        ├ [34]  ╭ VulnerabilityID : CVE-2026-9545 
 │                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : curl 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
@@ -2351,7 +2404,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-03T07:16:25.807Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:34.947Z 
-│                        ├ [34]  ╭ VulnerabilityID : CVE-2025-10966 
+│                        ├ [35]  ╭ VulnerabilityID : CVE-2025-10966 
 │                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : curl 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
@@ -2421,7 +2474,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2025-11-07T08:15:39.617Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:23.317Z 
-│                        ├ [35]  ╭ VulnerabilityID : CVE-2025-14017 
+│                        ├ [36]  ╭ VulnerabilityID : CVE-2025-14017 
 │                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : curl 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
@@ -2487,7 +2540,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-01-08T10:15:45.667Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:23.753Z 
-│                        ├ [36]  ╭ VulnerabilityID : CVE-2025-15079 
+│                        ├ [37]  ╭ VulnerabilityID : CVE-2025-15079 
 │                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : curl 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
@@ -2546,8 +2599,8 @@
 │                        │       │                  https://www.cve.org/CVERecord?id=CVE-2025-15079        
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-01-08T10:15:47.1Z 
-│                        │       ╰ LastModifiedDate: 2026-09-15T07:16:24.467Z 
-│                        ├ [37]  ╭ VulnerabilityID : CVE-2025-15224 
+│                        │       ╰ LastModifiedDate: 2026-10-14T16:10:00.25Z 
+│                        ├ [38]  ╭ VulnerabilityID : CVE-2025-15224 
 │                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : curl 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
@@ -2601,11 +2654,81 @@
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2025-15224        
 │                        │       │                  https://ubuntu.com/security/notices/USN-8062-1         
 │                        │       │                  https://ubuntu.com/security/notices/USN-8062-2         
-│                        │       │                  https://www.cve.org/CVERecord?id=CVE-2025-15224        
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:19839       
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-01-08T10:15:47.207Z 
-│                        │       ╰ LastModifiedDate: 2026-09-15T07:16:24.69Z 
-│                        ├ [38]  ╭ VulnerabilityID : CVE-2026-13608 
+│                        │       ╰ LastModifiedDate: 2026-10-14T19:10:00.297Z 
+│                        ├ [39]  ╭ VulnerabilityID : CVE-2026-107928 
+│                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : curl 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
+│                        │       │                  │       istro=debian-13.7 
+│                        │       │                  ╰ UID : 4bf8aafc5e26d4ce 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-107928 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:32fdd2285cdcd82edb73b6b0a4b85fd818e62532fb0756eac3b
+│                        │       │                   efc961823bdcc 
+│                        │       ├ Title           : info leak uploading over WebSockets with GnuTLS 
+│                        │       ├ Description     : When curl is built with GnuTLS, a malicious WebSocket
+│                        │       │                   server can make curl send memory past its send buffer.
+│                        │       │                   This is due to an out of bounds read following when
+│                        │       │                   `gnutls_record_send()` returns a number of bytes sent
+│                        │       │                   greater than the number of bytes it was given to send.
+│                        │       │                   GnuTLS does that after a blocked send. 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                       
+│                        │                          ────────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-107928.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1  
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-107928
+│                        │                          
+│                        ├ [40]  ╭ VulnerabilityID : CVE-2026-107929 
+│                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : curl 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
+│                        │       │                  │       istro=debian-13.7 
+│                        │       │                  ╰ UID : 4bf8aafc5e26d4ce 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-107929 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:35c7db7d1c461bf77164dc9901a67de0008bbe5112ae4920201
+│                        │       │                   42d0c487ecaf4 
+│                        │       ├ Title           : When `CURLOPT_INTERFACE` (or the command line tool's
+│                        │       │                   `--interface 
+│                        │       ├ Description     : When `CURLOPT_INTERFACE` (or the command line tool's
+│                        │       │                   `--interface` option) is set with one of the documented
+│                        │       │                   prefixes (`if!`, `host!`, `ifhost!`), that binding is not
+│                        │       │                   part of the connection reuse key, so a later transfer
+│                        │       │                   asking for a different source can silently reuse an
+│                        │       │                   existing connection and go out from the earlier transfer's
+│                        │       │                    source address. 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                       
+│                        │                          ────────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-107929.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1  
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-107929
+│                        │                          
+│                        ├ [41]  ╭ VulnerabilityID : CVE-2026-13608 
 │                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : curl 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
@@ -2665,7 +2788,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-09-06T18:17:19.81Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:26.353Z 
-│                        ├ [39]  ╭ VulnerabilityID : CVE-2026-18924 
+│                        ├ [42]  ╭ VulnerabilityID : CVE-2026-18924 
 │                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : curl 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
@@ -2720,7 +2843,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-09-06T18:17:20.553Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:27.063Z 
-│                        ├ [40]  ╭ VulnerabilityID : CVE-2026-80230 
+│                        ├ [43]  ╭ VulnerabilityID : CVE-2026-80230 
 │                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : curl 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
@@ -2778,7 +2901,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-09-06T18:17:22.327Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:30.337Z 
-│                        ├ [41]  ╭ VulnerabilityID : CVE-2026-80255 
+│                        ├ [44]  ╭ VulnerabilityID : CVE-2026-80255 
 │                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : curl 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
@@ -2831,7 +2954,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-09-06T18:17:22.623Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:30.77Z 
-│                        ├ [42]  ╭ VulnerabilityID : CVE-2026-82208 
+│                        ├ [45]  ╭ VulnerabilityID : CVE-2026-82208 
 │                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : curl 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
@@ -2884,7 +3007,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-09-06T18:17:22.733Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:31.05Z 
-│                        ├ [43]  ╭ VulnerabilityID : CVE-2026-82209 
+│                        ├ [46]  ╭ VulnerabilityID : CVE-2026-82209 
 │                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : curl 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
@@ -2951,7 +3074,251 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-09-06T18:17:22.847Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:31.233Z 
-│                        ├ [44]  ╭ VulnerabilityID : CVE-2026-87866 
+│                        ├ [47]  ╭ VulnerabilityID : CVE-2026-86409 
+│                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : curl 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
+│                        │       │                  │       istro=debian-13.7 
+│                        │       │                  ╰ UID : 4bf8aafc5e26d4ce 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-86409 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:83fc66b8006104be7554c4e8e6764c57990b6436a993ef6da0a
+│                        │       │                   d71a653c4202f 
+│                        │       ├ Title           : Setting `CURLOPT_AWS_SIGV4` to NULL does not disable SigV4
+│                        │       │                    authen 
+│                        │       ├ Description     : Setting `CURLOPT_AWS_SIGV4` to NULL does not disable SigV4
+│                        │       │                    authentication, contrary to expectations and
+│                        │       │                   documentation. A subsequent transfer on the same handle
+│                        │       │                   still sends an `Authorization: AWS4-HMAC-SHA256` header to
+│                        │       │                    whatever URL is set next, leaking state information. 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                      
+│                        │                          ───────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-86409.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1 
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-86409
+│                        │                          
+│                        ├ [48]  ╭ VulnerabilityID : CVE-2026-86410 
+│                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : curl 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
+│                        │       │                  │       istro=debian-13.7 
+│                        │       │                  ╰ UID : 4bf8aafc5e26d4ce 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-86410 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:e7daf37eecaf3cf52af4885abeeb5ddbc45450a2bc64410897a
+│                        │       │                   7113ab6e16253 
+│                        │       ├ Title           : Title Not Available 
+│                        │       ├ Description     : A flaw in the curl command line tool's logic makes it only
+│                        │       │                    set SSH host verification options when interacting
+│                        │       │                   directly using SFTP or SCP, and not as a result of
+│                        │       │                   following a redirect. This means `--knownhosts`,
+│                        │       │                   `--hostpubsha256`, and `--hostpubmd5` are never installed
+│                        │       │                   when the initial URL is HTTPS. If `--location` and
+│                        │       │                   `--proto-redir +sftp` is used and the server returns a
+│                        │       │                   `Location: sftp://example.com` redirect, the SFTP
+│                        │       │                   connection proceeds without any of the user's requested
+│                        │       │                   SSH host verification methods. 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                      
+│                        │                          ───────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-86410.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1 
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-86410
+│                        │                          
+│                        ├ [49]  ╭ VulnerabilityID : CVE-2026-86414 
+│                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : curl 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
+│                        │       │                  │       istro=debian-13.7 
+│                        │       │                  ╰ UID : 4bf8aafc5e26d4ce 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-86414 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:af1ef0892fb75c690b3eb91e3f3735cb635eb7e882300185314
+│                        │       │                   ee282911fec06 
+│                        │       ├ Title           : curl: curl: leaking host credentials to HTTP proxy 
+│                        │       ├ Description     : A HTTP proxy can trick libcurl into sending the origin's
+│                        │       │                   credentials (Basic password, or a Negotiate/Kerberos
+│                        │       │                   ticket) to the proxy itself, by answering the `CONNECT`
+│                        │       │                   tunnel request with 401 `WWW-Authenticate:` instead of the
+│                        │       │                    expected 407 `Proxy-Authenticate:`. 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                      
+│                        │                          ───────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-86414.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1 
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-86414
+│                        │                          
+│                        ├ [50]  ╭ VulnerabilityID : CVE-2026-87862 
+│                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : curl 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
+│                        │       │                  │       istro=debian-13.7 
+│                        │       │                  ╰ UID : 4bf8aafc5e26d4ce 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-87862 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:b6b158a68518880b44af7ef62d7bc3280c159aa011970013184
+│                        │       │                   5a3360344fa47 
+│                        │       ├ Description     : Importing a `includeSubDomains` parent HSTS entry before a
+│                        │       │                    longer-lived child entry, silently drops the child.
+│                        │       │                   Consequently, when the parent expires, the child's valid
+│                        │       │                   HSTS policy is lost, causing curl to issue unencrypted
+│                        │       │                   HTTP requests rather than upgrading to HTTPS. 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                      
+│                        │                          ───────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-87862.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1 
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-87862
+│                        │                          
+│                        ├ [51]  ╭ VulnerabilityID : CVE-2026-87863 
+│                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : curl 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
+│                        │       │                  │       istro=debian-13.7 
+│                        │       │                  ╰ UID : 4bf8aafc5e26d4ce 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-87863 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:21682082c66e25881670414978579ab64fd2f293ed5972e75e5
+│                        │       │                   9a6bd59e151f0 
+│                        │       ├ Title           : An authenticated HTTPS origin can supply an HSTS `max-age`
+│                        │       │                    value  
+│                        │       ├ Description     : An authenticated HTTPS origin can supply an HSTS `max-age`
+│                        │       │                    value that the parser accepts, but time serialization
+│                        │       │                   later fails to process. On 64-bit systems, extreme max-age
+│                        │       │                    values compute an absolute expiry within standard time
+│                        │       │                   integer limits that exceeds calendar time structure
+│                        │       │                   bounds. During cache saves, the original HSTS file is
+│                        │       │                   truncated before writing a temporary replacement; when
+│                        │       │                   serialization fails, the temporary file is deleted,
+│                        │       │                   leaving an empty or partial cache. Because the save error
+│                        │       │                   is silently ignored during cleanup, curl exits
+│                        │       │                   successfully despite the data loss. 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                      
+│                        │                          ───────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-87863.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1 
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-87863
+│                        │                          
+│                        ├ [52]  ╭ VulnerabilityID : CVE-2026-87864 
+│                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : curl 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
+│                        │       │                  │       istro=debian-13.7 
+│                        │       │                  ╰ UID : 4bf8aafc5e26d4ce 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-87864 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:dd3bbbc05df675bd99de08e8ccfb6208be222b0b48ebb0b0aef
+│                        │       │                   82d4c53e20b24 
+│                        │       ├ Title           : Enabling `CURLOPT_CRLF` causes curl to advertise the raw
+│                        │       │                   input by 
+│                        │       ├ Description     : Enabling `CURLOPT_CRLF` causes curl to advertise the raw
+│                        │       │                   input byte count in the `IMAP APPEND {N}` literal while
+│                        │       │                   transmitting line-ending expanded data. The server reads
+│                        │       │                   only N bytes for the payload, causing the remaining
+│                        │       │                   overflow bytes to be interpreted and executed as pipelined
+│                        │       │                    IMAP commands within the authenticated session. 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                      
+│                        │                          ───────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-87864.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1 
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-87864
+│                        │                          
+│                        ├ [53]  ╭ VulnerabilityID : CVE-2026-87865 
+│                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : curl 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
+│                        │       │                  │       istro=debian-13.7 
+│                        │       │                  ╰ UID : 4bf8aafc5e26d4ce 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-87865 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:9da68d242031f37a294399c6d98e6ee1e79c91bf0229092b837
+│                        │       │                   f35d7b6363d93 
+│                        │       ├ Title           : Title Not Available 
+│                        │       ├ Description     : When libcurl uses libssh2 with a hashed `known_hosts`
+│                        │       │                   file, an unrelated initial entry can cause host key
+│                        │       │                   validation to report a key *mismatch* as a *missing* key
+│                        │       │                   to the `CURLOPT_SSH_KEYFUNCTION` callback. 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                      
+│                        │                          ───────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-87865.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1 
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-87865
+│                        │                          
+│                        ├ [54]  ╭ VulnerabilityID : CVE-2026-87866 
 │                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : curl 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
@@ -2971,9 +3338,276 @@
 │                        │       │                          rity-tracker 
 │                        │       ├ Fingerprint     : sha256:1f3abda1a15fda12e7f960eb3db93724e47d6797490d4c44620
 │                        │       │                   1533913f471cb 
+│                        │       ├ Title           : wolfSSL public-key pinning bypass 
+│                        │       ├ Description     : When built with wolfSSL, curl can successfully validate a
+│                        │       │                   pinned public key hash against a key the TLS peer does not
+│                        │       │                    possess. During the TLS handshake, wolfSSL validates the
+│                        │       │                   connection, but curl's subsequent re-parsing of the same
+│                        │       │                   certificate - tricked by a manipulated validity length
+│                        │       │                   field - extracts and matches a different embedded key,
+│                        │       │                   incorrectly authorizing the pinned public key. 
 │                        │       ├ Severity        : LOW 
 │                        │       ╰ VendorSeverity   ─ debian: 1 
-│                        ├ [45]  ╭ VulnerabilityID : CVE-2026-9547 
+│                        ├ [55]  ╭ VulnerabilityID : CVE-2026-92386 
+│                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : curl 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
+│                        │       │                  │       istro=debian-13.7 
+│                        │       │                  ╰ UID : 4bf8aafc5e26d4ce 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-92386 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:16596f3b02486f87c569127fe492a6746907037e035809fdb2f
+│                        │       │                   88f1d68a7c5b9 
+│                        │       ├ Title           : Title Not Available 
+│                        │       ├ Description     : When writing a long cookie name and value to a Netscape
+│                        │       │                   cookie jar, a remote HTTP server can make `curl` write a
+│                        │       │                   record that exceeds its line-length parsing limit.
+│                        │       │                   Consequently, any subsequent `curl` invocation reading
+│                        │       │                   from that same cookie jar using `--cookie` will silently
+│                        │       │                   abort parsing prematurely upon encountering the oversized
+│                        │       │                   line, ignoring all subsequent valid cookies in the file.[
+│                        │       │                   m 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                      
+│                        │                          ───────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-92386.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1 
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-92386
+│                        │                          
+│                        ├ [56]  ╭ VulnerabilityID : CVE-2026-92387 
+│                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : curl 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
+│                        │       │                  │       istro=debian-13.7 
+│                        │       │                  ╰ UID : 4bf8aafc5e26d4ce 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-92387 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:107393bfed3ea8546d4a9b29e2f3a87a1239f8ff81902759df5
+│                        │       │                   07bc50c1f91cf 
+│                        │       ├ Description     : By permanently omitting the final control-response line, a
+│                        │       │                    malicious FTP, IMAP, POP3, or SMTP server can exploit
+│                        │       │                   libcurl and completely bypass its configured transfer
+│                        │       │                   timeout mechanism, indefinitely blocking all concurrent
+│                        │       │                   transfers bound to the same multi-handle. 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                      
+│                        │                          ───────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-92387.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1 
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-92387
+│                        │                          
+│                        ├ [57]  ╭ VulnerabilityID : CVE-2026-92388 
+│                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : curl 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
+│                        │       │                  │       istro=debian-13.7 
+│                        │       │                  ╰ UID : 4bf8aafc5e26d4ce 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-92388 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:6a4b5d745e478b8da0ffa738649d48f207553fef4f322321de5
+│                        │       │                   0cef5777e1813 
+│                        │       ├ Title           : Title Not Available 
+│                        │       ├ Description     : When an FTP wildcard `LIST` operation fails, libcurl omits
+│                        │       │                    the restoration path meant for successful listings,
+│                        │       │                   leaving the write callback set to the internal listing
+│                        │       │                   parser and the write callback data pointing directly to
+│                        │       │                   the easy handle. Subsequent reuse of this handle triggers
+│                        │       │                   an immediate crash, and cloning it via
+│                        │       │                   `curl_easy_duphandle()` copies this corrupted state into
+│                        │       │                   the duplicate. If the original handle is subsequently
+│                        │       │                   freed, executing a transfer on the cloned handle causes a
+│                        │       │                   heap use-after-free read against the dangling handle
+│                        │       │                   reference; alternatively, reusing the original or cloned
+│                        │       │                   handle while reconfiguring only `CURLOPT_WRITEDATA` (and
+│                        │       │                   omitting `CURLOPT_WRITEFUNCTION`) results in type
+│                        │       │                   confusion, forcing the internal parser to interpret
+│                        │       │                   incoming server response bytes into memory at the
+│                        │       │                   application-supplied write data pointer. 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                      
+│                        │                          ───────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-92388.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1 
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-92388
+│                        │                          
+│                        ├ [58]  ╭ VulnerabilityID : CVE-2026-92389 
+│                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : curl 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
+│                        │       │                  │       istro=debian-13.7 
+│                        │       │                  ╰ UID : 4bf8aafc5e26d4ce 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-92389 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:622fe9da267aa8c7cadfa8ed8b26b08cfba6bf70db67961a334
+│                        │       │                   06947f6564acd 
+│                        │       ├ Title           : libcurl's TFTP state machine fails to validate state
+│                        │       │                   transitions  
+│                        │       ├ Description     : libcurl's TFTP state machine fails to validate state
+│                        │       │                   transitions against the requested transfer direction,
+│                        │       │                   accepting opening server responses for both reads and
+│                        │       │                   writes interchangeably. A malicious TFTP server can
+│                        │       │                   respond to a download request in a way that forces the
+│                        │       │                   client into transmit mode, prompting libcurl to consume
+│                        │       │                   and transmit data from the handle's persistent
+│                        │       │                   `CURLOPT_READDATA` pointer - including data remaining from
+│                        │       │                    unrelated prior operations, such as an HTTP POST request
+│                        │       │                   executed on a reused handle. 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                      
+│                        │                          ───────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-92389.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1 
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-92389
+│                        │                          
+│                        ├ [59]  ╭ VulnerabilityID : CVE-2026-92390 
+│                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : curl 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
+│                        │       │                  │       istro=debian-13.7 
+│                        │       │                  ╰ UID : 4bf8aafc5e26d4ce 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-92390 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:1d582bcb2e04d331ea39e08eae873a20984d164444c1611a403
+│                        │       │                   c5b399059cfe0 
+│                        │       ├ Title           : Title Not Available 
+│                        │       ├ Description     : When invoked with `--remote-header-name` (`-J`), curl
+│                        │       │                   fails to preserve its documented anti-clobbering
+│                        │       │                   protection if an intermediate 103 Early Hints response
+│                        │       │                   precedes the final HTTP response, or if an `ETag` header
+│                        │       │                   is processed before `Content-Disposition` under
+│                        │       │                   `--etag-save`. This flaw allows an HTTP(S) server to
+│                        │       │                   overwrite an existing local file specified in the
+│                        │       │                   `Content-Disposition` header despite the presence of the
+│                        │       │                   `-J` non-overwrite constraint. 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                      
+│                        │                          ───────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-92390.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1 
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-92390
+│                        │                          
+│                        ├ [60]  ╭ VulnerabilityID : CVE-2026-92391 
+│                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : curl 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
+│                        │       │                  │       istro=debian-13.7 
+│                        │       │                  ╰ UID : 4bf8aafc5e26d4ce 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-92391 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:99d2a4744953b8b53e63517327e4cdbf55d37d05c96240e4774
+│                        │       │                   10e95b4971aea 
+│                        │       ├ Title           : curl_mime_free stack overflow by recursion 
+│                        │       ├ Description     : A deeply nested multipart MIME structure constructed via
+│                        │       │                   the public API causes a stack overflow in libcurl during
+│                        │       │                   normal cleanup operations. An excessive recursion depth
+│                        │       │                   within `curl_mime_free` leads to unbounded stack frame
+│                        │       │                   allocation during structure traversal, ultimately crashing
+│                        │       │                    the host process. 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                      
+│                        │                          ───────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-92391.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1 
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-92391
+│                        │                          
+│                        ├ [61]  ╭ VulnerabilityID : CVE-2026-94266 
+│                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : curl 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
+│                        │       │                  │       istro=debian-13.7 
+│                        │       │                  ╰ UID : 4bf8aafc5e26d4ce 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-94266 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:d07062ddff04cbeb3daf70d58d6b2e03f0f4186c5914fa54b5a
+│                        │       │                   100dc6f0f0455 
+│                        │       ├ Title           : libcurl could accidentally return a URL for
+│                        │       │                   curl_easy_getinfo's ` 
+│                        │       ├ Description     : libcurl could accidentally return a URL for
+│                        │       │                   curl_easy_getinfo's `CURLINFO_EFFECTIVE_URL` option
+│                        │       │                   containing credentials, even though neither the URL
+│                        │       │                   provided to libcurl nor the redirected URL did. The curl
+│                        │       │                   tool exposes the same information using the command line
+│                        │       │                   option `--write-out '%{url_effective}'`. This credential
+│                        │       │                   leak can happen when curl retrieves credentials from a
+│                        │       │                   `.netrc` file. 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                      
+│                        │                          ───────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-94266.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1 
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-94266
+│                        │                          
+│                        ├ [62]  ╭ VulnerabilityID : CVE-2026-9547 
 │                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : curl 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
@@ -3060,364 +3694,6 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-03T07:16:25.99Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:35.31Z 
-│                        ├ [46]  ╭ VulnerabilityID : CVE-2026-107928 
-│                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : curl 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
-│                        │       │                  │       istro=debian-13.7 
-│                        │       │                  ╰ UID : 4bf8aafc5e26d4ce 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-107928 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:32fdd2285cdcd82edb73b6b0a4b85fd818e62532fb0756eac3b
-│                        │       │                   efc961823bdcc 
-│                        │       ╰ Severity        : UNKNOWN 
-│                        ├ [47]  ╭ VulnerabilityID : CVE-2026-107929 
-│                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : curl 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
-│                        │       │                  │       istro=debian-13.7 
-│                        │       │                  ╰ UID : 4bf8aafc5e26d4ce 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-107929 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:35c7db7d1c461bf77164dc9901a67de0008bbe5112ae4920201
-│                        │       │                   42d0c487ecaf4 
-│                        │       ╰ Severity        : UNKNOWN 
-│                        ├ [48]  ╭ VulnerabilityID : CVE-2026-86409 
-│                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : curl 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
-│                        │       │                  │       istro=debian-13.7 
-│                        │       │                  ╰ UID : 4bf8aafc5e26d4ce 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-86409 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:83fc66b8006104be7554c4e8e6764c57990b6436a993ef6da0a
-│                        │       │                   d71a653c4202f 
-│                        │       ╰ Severity        : UNKNOWN 
-│                        ├ [49]  ╭ VulnerabilityID : CVE-2026-86410 
-│                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : curl 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
-│                        │       │                  │       istro=debian-13.7 
-│                        │       │                  ╰ UID : 4bf8aafc5e26d4ce 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-86410 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:e7daf37eecaf3cf52af4885abeeb5ddbc45450a2bc64410897a
-│                        │       │                   7113ab6e16253 
-│                        │       ╰ Severity        : UNKNOWN 
-│                        ├ [50]  ╭ VulnerabilityID : CVE-2026-86414 
-│                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : curl 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
-│                        │       │                  │       istro=debian-13.7 
-│                        │       │                  ╰ UID : 4bf8aafc5e26d4ce 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-86414 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:af1ef0892fb75c690b3eb91e3f3735cb635eb7e882300185314
-│                        │       │                   ee282911fec06 
-│                        │       ╰ Severity        : UNKNOWN 
-│                        ├ [51]  ╭ VulnerabilityID : CVE-2026-87862 
-│                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : curl 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
-│                        │       │                  │       istro=debian-13.7 
-│                        │       │                  ╰ UID : 4bf8aafc5e26d4ce 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-87862 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:b6b158a68518880b44af7ef62d7bc3280c159aa011970013184
-│                        │       │                   5a3360344fa47 
-│                        │       ╰ Severity        : UNKNOWN 
-│                        ├ [52]  ╭ VulnerabilityID : CVE-2026-87863 
-│                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : curl 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
-│                        │       │                  │       istro=debian-13.7 
-│                        │       │                  ╰ UID : 4bf8aafc5e26d4ce 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-87863 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:21682082c66e25881670414978579ab64fd2f293ed5972e75e5
-│                        │       │                   9a6bd59e151f0 
-│                        │       ╰ Severity        : UNKNOWN 
-│                        ├ [53]  ╭ VulnerabilityID : CVE-2026-87864 
-│                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : curl 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
-│                        │       │                  │       istro=debian-13.7 
-│                        │       │                  ╰ UID : 4bf8aafc5e26d4ce 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-87864 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:dd3bbbc05df675bd99de08e8ccfb6208be222b0b48ebb0b0aef
-│                        │       │                   82d4c53e20b24 
-│                        │       ╰ Severity        : UNKNOWN 
-│                        ├ [54]  ╭ VulnerabilityID : CVE-2026-87865 
-│                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : curl 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
-│                        │       │                  │       istro=debian-13.7 
-│                        │       │                  ╰ UID : 4bf8aafc5e26d4ce 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-87865 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:9da68d242031f37a294399c6d98e6ee1e79c91bf0229092b837
-│                        │       │                   f35d7b6363d93 
-│                        │       ╰ Severity        : UNKNOWN 
-│                        ├ [55]  ╭ VulnerabilityID : CVE-2026-92386 
-│                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : curl 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
-│                        │       │                  │       istro=debian-13.7 
-│                        │       │                  ╰ UID : 4bf8aafc5e26d4ce 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-92386 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:16596f3b02486f87c569127fe492a6746907037e035809fdb2f
-│                        │       │                   88f1d68a7c5b9 
-│                        │       ╰ Severity        : UNKNOWN 
-│                        ├ [56]  ╭ VulnerabilityID : CVE-2026-92387 
-│                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : curl 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
-│                        │       │                  │       istro=debian-13.7 
-│                        │       │                  ╰ UID : 4bf8aafc5e26d4ce 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-92387 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:107393bfed3ea8546d4a9b29e2f3a87a1239f8ff81902759df5
-│                        │       │                   07bc50c1f91cf 
-│                        │       ╰ Severity        : UNKNOWN 
-│                        ├ [57]  ╭ VulnerabilityID : CVE-2026-92388 
-│                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : curl 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
-│                        │       │                  │       istro=debian-13.7 
-│                        │       │                  ╰ UID : 4bf8aafc5e26d4ce 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-92388 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:6a4b5d745e478b8da0ffa738649d48f207553fef4f322321de5
-│                        │       │                   0cef5777e1813 
-│                        │       ╰ Severity        : UNKNOWN 
-│                        ├ [58]  ╭ VulnerabilityID : CVE-2026-92389 
-│                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : curl 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
-│                        │       │                  │       istro=debian-13.7 
-│                        │       │                  ╰ UID : 4bf8aafc5e26d4ce 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-92389 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:622fe9da267aa8c7cadfa8ed8b26b08cfba6bf70db67961a334
-│                        │       │                   06947f6564acd 
-│                        │       ╰ Severity        : UNKNOWN 
-│                        ├ [59]  ╭ VulnerabilityID : CVE-2026-92390 
-│                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : curl 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
-│                        │       │                  │       istro=debian-13.7 
-│                        │       │                  ╰ UID : 4bf8aafc5e26d4ce 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-92390 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:1d582bcb2e04d331ea39e08eae873a20984d164444c1611a403
-│                        │       │                   c5b399059cfe0 
-│                        │       ╰ Severity        : UNKNOWN 
-│                        ├ [60]  ╭ VulnerabilityID : CVE-2026-92391 
-│                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : curl 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
-│                        │       │                  │       istro=debian-13.7 
-│                        │       │                  ╰ UID : 4bf8aafc5e26d4ce 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-92391 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:99d2a4744953b8b53e63517327e4cdbf55d37d05c96240e4774
-│                        │       │                   10e95b4971aea 
-│                        │       ╰ Severity        : UNKNOWN 
-│                        ├ [61]  ╭ VulnerabilityID : CVE-2026-92392 
-│                        │       ├ VendorIDs                  
-│                        │       │                  ──────────
-│                        │       │                  DSA-6558-1
-│                        │       │                  
-│                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : curl 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
-│                        │       │                  │       istro=debian-13.7 
-│                        │       │                  ╰ UID : 4bf8aafc5e26d4ce 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ FixedVersion    : 8.14.1-2+deb13u7 
-│                        │       ├ Status          : fixed 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-92392 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:1b41fa1591495cd33e550de11fa6a10355d2858b8a8f1b0d52b
-│                        │       │                   a71a3db2a964a 
-│                        │       ├ Description     : During an upload, curl mishandles HTTP/2 `RST_STREAM`
-│                        │       │                   received from the server
-│                        │       │                   (with reason `HTTP_1_1_REQUIRED` or `REFUSED_STREAM`)
-│                        │       │                   leading to a use after
-│                        │       │                   free of a `struct Curl_easy` object. 
-│                        │       ├ Severity        : UNKNOWN 
-│                        │       ├ References                                               
-│                        │       │                  ────────────────────────────────────────
-│                        │       │                  https://curl.se/docs/CVE-2026-92392.html
-│                        │       │                  https://curl.se/docs/CVE-2026-92392.json
-│                        │       │                  https://hackerone.com/reports/4030333   
-│                        │       │                  
-│                        │       ├ PublishedDate   : 2026-10-14T08:17:05.997Z 
-│                        │       ╰ LastModifiedDate: 2026-10-14T08:17:05.997Z 
-│                        ├ [62]  ╭ VulnerabilityID : CVE-2026-94266 
-│                        │       ├ PkgID           : curl@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : curl 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/curl@8.14.1-2%2Bdeb13u5?arch=amd64&d
-│                        │       │                  │       istro=debian-13.7 
-│                        │       │                  ╰ UID : 4bf8aafc5e26d4ce 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-94266 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:d07062ddff04cbeb3daf70d58d6b2e03f0f4186c5914fa54b5a
-│                        │       │                   100dc6f0f0455 
-│                        │       ╰ Severity        : UNKNOWN 
 │                        ├ [63]  ╭ VulnerabilityID : CVE-2026-102473 
 │                        │       ├ PkgID           : dash@0.5.12-12 
 │                        │       ├ PkgName         : dash 
@@ -3720,8 +3996,8 @@
 │                        │       │                  l-vulnerabilities-i                                        
 │                        │       │                  https://news.ycombinator.com/item?id=46404339              
 │                        │       │                                                                             
-│                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2025-68972            
-│                        │       │                                                                             
+│                        │       │                  https://github.com/open-telemetry/opentelemetry-go/releases
+│                        │       │                  /tag/exporters/zipkin/v1.45.0                              
 │                        │       │                  https://www.cve.org/CVERecord?id=CVE-2025-68972            
 │                        │       │                                                                             
 │                        │       │                  
@@ -3823,8 +4099,8 @@
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-105712     
 │                        │       │                  https://github.com/gpg/gnupg/commit/7a2692fe5e580ae3bbb2a47
 │                        │       │                  abc4baaf1af65aa88                                          
-│                        │       │                  https://lists.gnupg.org/pipermail/gnupg-announce/2026q2/000
-│                        │       │                  504.html                                                   
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:60387           
+│                        │       │                                                                             
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-105712           
 │                        │       │                                                                             
 │                        │       │                  https://static.dev.gnupg.org/T8159.html                    
@@ -4584,7 +4860,7 @@
 │                        │       │                  82                                                         
 │                        │       │                  https://dev.gnupg.org/T8045                                
 │                        │       │                                                                             
-│                        │       │                  https://errata.rockylinux.org/RLSA-2026:2719               
+│                        │       │                  https://bugzilla.redhat.com/2515827                        
 │                        │       │                                                                             
 │                        │       │                  https://github.com/advisories/GHSA-mpc3-hqr8-w5f3          
 │                        │       │                                                                             
@@ -4879,28 +5155,28 @@
 │                        │       │                  ───────────────────────────────────────────────────────────
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:2719            
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:2753            
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:26546           
+│                        │       │                  https://access.redhat.com/security/cve/CVE-2026-24882      
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2433464        
 │                        │       │                  https://creativecommons.org/licenses/by/4.0/               
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-248
 │                        │       │                  82                                                         
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:30853           
+│                        │       │                  https://dev.gnupg.org/T8045                                
 │                        │       │                                                                             
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:30854           
+│                        │       │                  https://errata.rockylinux.org/RLSA-2026:2719               
 │                        │       │                                                                             
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:30855           
+│                        │       │                  https://github.com/advisories/GHSA-mpc3-hqr8-w5f3          
 │                        │       │                                                                             
 │                        │       │                  https://linux.oracle.com/cve/CVE-2026-24882.html           
 │                        │       │                                                                             
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:33160           
+│                        │       │                  https://linux.oracle.com/errata/ELSA-2026-2719.html        
 │                        │       │                                                                             
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-24882            
 │                        │       │                                                                             
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:33173           
-│                        │       │                                                                             
+│                        │       │                  https://security.access.redhat.com/data/csaf/v2/vex/2026/cv
+│                        │       │                  e-2026-24882.json                                          
 │                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-24882            
 │                        │       │                                                                             
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:33524           
+│                        │       │                  https://www.openwall.com/lists/oss-security/2026/01/27/8   
 │                        │       │                                                                             
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-01-27T19:16:16.67Z 
@@ -8327,7 +8603,7 @@
 │                        │       │                  s/GHSA-rh77-686x-2f2m                                      
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-78410            
 │                        │       │                                                                             
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:29981           
+│                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-78410            
 │                        │       │                                                                             
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-09-02T16:17:23.983Z 
@@ -8451,6 +8727,8 @@
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2022-0563       
 │                        │       │                  https://blog.trailofbits.com/2023/02/16/suid-logic-bug-linu
 │                        │       │                  x-readline/                                                
+│                        │       │                  https://cert-portal.siemens.com/productcert/html/ssa-398330
+│                        │       │                  .html                                                      
 │                        │       │                  https://github.com/bottlerocket-os/bottlerocket/security/ad
 │                        │       │                  visories/GHSA-mv4q-wq4c-5xmg                               
 │                        │       │                  https://lore.kernel.org/util-linux/20220214110609.msiwlm457
@@ -8465,7 +8743,7 @@
 │                        │       │                                                                             
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2022-02-21T19:15:08.393Z 
-│                        │       ╰ LastModifiedDate: 2026-06-17T04:20:51.053Z 
+│                        │       ╰ LastModifiedDate: 2026-10-14T13:17:14.167Z 
 │                        ├ [145] ╭ VulnerabilityID : CVE-2026-42250 
 │                        │       ├ PkgID           : libbz2-1.0@1.0.8-6 
 │                        │       ├ PkgName         : libbz2-1.0 
@@ -8572,14 +8850,13 @@
 │                        │       │                  ───────────────────────────────────────────────────────────
 │                        │       │                  http://www.openwall.com/lists/oss-security/2026/08/27/6    
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:79281           
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:80798           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-18374      
 │                        │       │                  https://bugzilla.redhat.com/2513603                        
 │                        │       │                  https://bugzilla.redhat.com/2513608                        
 │                        │       │                  https://bugzilla.redhat.com/2523249                        
 │                        │       │                  https://bugzilla.redhat.com/2523274                        
 │                        │       │                  https://bugzilla.redhat.com/2524870                        
-│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2513603        
-│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2513608        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2523249        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2523274        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2524870        
@@ -8589,17 +8866,13 @@
 │                        │       │                  74                                                         
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-195
 │                        │       │                  42                                                         
-│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-636
-│                        │       │                  8                                                          
-│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-679
-│                        │       │                  1                                                          
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-771
 │                        │       │                  17                                                         
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-804
 │                        │       │                  89                                                         
 │                        │       │                  https://errata.almalinux.org/9/ALSA-2026-79281.html        
 │                        │       │                                                                             
-│                        │       │                  https://errata.rockylinux.org/RLSA-2026:79281              
+│                        │       │                  https://errata.rockylinux.org/RLSA-2026:80798              
 │                        │       │                                                                             
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-18374            
 │                        │       │                                                                             
@@ -8666,11 +8939,13 @@
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-19499      
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2513603        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2513608        
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:16874           
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:16875           
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:17084           
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:17287           
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:18027           
+│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2523249        
+│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2523258        
+│                        │       │                  https://creativecommons.org/licenses/by/4.0/               
+│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-194
+│                        │       │                  99                                                         
+│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-195
+│                        │       │                  42                                                         
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-636
 │                        │       │                  8                                                          
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-679
@@ -8746,30 +9021,30 @@
 │                        │       │                           ╰ V3Score : 4.2 
 │                        │       ├ References                                                                  
 │                        │       │                  ───────────────────────────────────────────────────────────
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:76781           
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:79281           
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:80798           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-19542      
 │                        │       │                  https://bugzilla.redhat.com/2513603                        
 │                        │       │                  https://bugzilla.redhat.com/2513608                        
 │                        │       │                  https://bugzilla.redhat.com/2523249                        
 │                        │       │                  https://bugzilla.redhat.com/2523274                        
 │                        │       │                  https://bugzilla.redhat.com/2524870                        
-│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2513603        
-│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2513608        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2523249        
-│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2523258        
+│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2523274        
+│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2524870        
+│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2525256        
 │                        │       │                  https://creativecommons.org/licenses/by/4.0/               
-│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-194
-│                        │       │                  99                                                         
+│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-183
+│                        │       │                  74                                                         
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-195
 │                        │       │                  42                                                         
-│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-636
-│                        │       │                  8                                                          
-│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-679
-│                        │       │                  1                                                          
+│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-771
+│                        │       │                  17                                                         
+│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-804
+│                        │       │                  89                                                         
 │                        │       │                  https://errata.almalinux.org/9/ALSA-2026-79281.html        
 │                        │       │                                                                             
-│                        │       │                  https://errata.rockylinux.org/RLSA-2026:76781              
+│                        │       │                  https://errata.rockylinux.org/RLSA-2026:80798              
 │                        │       │                                                                             
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-19542            
 │                        │       │                                                                             
@@ -8930,10 +9205,8 @@
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2459854        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2463465        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2463539        
-│                        │       │                  https://cert-portal.siemens.com/productcert/html/ssa-082556
-│                        │       │                  .html                                                      
+│                        │       │                  https://go.dev/cl/749480                                   
 │                        │       │                  https://creativecommons.org/licenses/by/4.0/               
-│                        │       │                                                                             
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-543
 │                        │       │                  5                                                          
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-592
@@ -9169,14 +9442,13 @@
 │                        │       ├ References                                                                  
 │                        │       │                  ───────────────────────────────────────────────────────────
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:79281           
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:80798           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-77117      
 │                        │       │                  https://bugzilla.redhat.com/2513603                        
 │                        │       │                  https://bugzilla.redhat.com/2513608                        
 │                        │       │                  https://bugzilla.redhat.com/2523249                        
 │                        │       │                  https://bugzilla.redhat.com/2523274                        
 │                        │       │                  https://bugzilla.redhat.com/2524870                        
-│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2513603        
-│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2513608        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2523249        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2523274        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2524870        
@@ -9186,17 +9458,13 @@
 │                        │       │                  74                                                         
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-195
 │                        │       │                  42                                                         
-│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-636
-│                        │       │                  8                                                          
-│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-679
-│                        │       │                  1                                                          
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-771
 │                        │       │                  17                                                         
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-804
 │                        │       │                  89                                                         
 │                        │       │                  https://errata.almalinux.org/9/ALSA-2026-79281.html        
 │                        │       │                                                                             
-│                        │       │                  https://errata.rockylinux.org/RLSA-2026:79281              
+│                        │       │                  https://errata.rockylinux.org/RLSA-2026:80798              
 │                        │       │                                                                             
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-77117            
 │                        │       │                                                                             
@@ -9268,14 +9536,13 @@
 │                        │       ├ References                                                                  
 │                        │       │                  ───────────────────────────────────────────────────────────
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:79281           
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:80798           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-80489      
 │                        │       │                  https://bugzilla.redhat.com/2513603                        
 │                        │       │                  https://bugzilla.redhat.com/2513608                        
 │                        │       │                  https://bugzilla.redhat.com/2523249                        
 │                        │       │                  https://bugzilla.redhat.com/2523274                        
 │                        │       │                  https://bugzilla.redhat.com/2524870                        
-│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2513603        
-│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2513608        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2523249        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2523274        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2524870        
@@ -9285,17 +9552,13 @@
 │                        │       │                  74                                                         
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-195
 │                        │       │                  42                                                         
-│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-636
-│                        │       │                  8                                                          
-│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-679
-│                        │       │                  1                                                          
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-771
 │                        │       │                  17                                                         
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-804
 │                        │       │                  89                                                         
 │                        │       │                  https://errata.almalinux.org/9/ALSA-2026-79281.html        
 │                        │       │                                                                             
-│                        │       │                  https://errata.rockylinux.org/RLSA-2026:79281              
+│                        │       │                  https://errata.rockylinux.org/RLSA-2026:80798              
 │                        │       │                                                                             
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-80489            
 │                        │       │                                                                             
@@ -9374,7 +9637,7 @@
 │                        │       │                  sories/GLIBC-SA-2026-0021                                  
 │                        │       │                  https://sourceware.org/git/?p=glibc.git;a=commit;h=506ea570
 │                        │       │                  86bfb9ce3daff1c14246a1cb532aba0a                           
-│                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-8674             
+│                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-33997            
 │                        │       │                                                                             
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-09-17T17:16:53.22Z 
@@ -10103,14 +10366,13 @@
 │                        │       │                  ───────────────────────────────────────────────────────────
 │                        │       │                  http://www.openwall.com/lists/oss-security/2026/08/27/6    
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:79281           
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:80798           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-18374      
 │                        │       │                  https://bugzilla.redhat.com/2513603                        
 │                        │       │                  https://bugzilla.redhat.com/2513608                        
 │                        │       │                  https://bugzilla.redhat.com/2523249                        
 │                        │       │                  https://bugzilla.redhat.com/2523274                        
 │                        │       │                  https://bugzilla.redhat.com/2524870                        
-│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2513603        
-│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2513608        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2523249        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2523274        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2524870        
@@ -10120,17 +10382,13 @@
 │                        │       │                  74                                                         
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-195
 │                        │       │                  42                                                         
-│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-636
-│                        │       │                  8                                                          
-│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-679
-│                        │       │                  1                                                          
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-771
 │                        │       │                  17                                                         
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-804
 │                        │       │                  89                                                         
 │                        │       │                  https://errata.almalinux.org/9/ALSA-2026-79281.html        
 │                        │       │                                                                             
-│                        │       │                  https://errata.rockylinux.org/RLSA-2026:79281              
+│                        │       │                  https://errata.rockylinux.org/RLSA-2026:80798              
 │                        │       │                                                                             
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-18374            
 │                        │       │                                                                             
@@ -10279,30 +10537,30 @@
 │                        │       │                           ╰ V3Score : 4.2 
 │                        │       ├ References                                                                  
 │                        │       │                  ───────────────────────────────────────────────────────────
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:76781           
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:79281           
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:80798           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-19542      
 │                        │       │                  https://bugzilla.redhat.com/2513603                        
 │                        │       │                  https://bugzilla.redhat.com/2513608                        
 │                        │       │                  https://bugzilla.redhat.com/2523249                        
 │                        │       │                  https://bugzilla.redhat.com/2523274                        
 │                        │       │                  https://bugzilla.redhat.com/2524870                        
-│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2513603        
-│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2513608        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2523249        
-│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2523258        
+│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2523274        
+│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2524870        
+│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2525256        
 │                        │       │                  https://creativecommons.org/licenses/by/4.0/               
-│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-194
-│                        │       │                  99                                                         
+│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-183
+│                        │       │                  74                                                         
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-195
 │                        │       │                  42                                                         
-│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-636
-│                        │       │                  8                                                          
-│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-679
-│                        │       │                  1                                                          
+│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-771
+│                        │       │                  17                                                         
+│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-804
+│                        │       │                  89                                                         
 │                        │       │                  https://errata.almalinux.org/9/ALSA-2026-79281.html        
 │                        │       │                                                                             
-│                        │       │                  https://errata.rockylinux.org/RLSA-2026:76781              
+│                        │       │                  https://errata.rockylinux.org/RLSA-2026:80798              
 │                        │       │                                                                             
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-19542            
 │                        │       │                                                                             
@@ -10702,14 +10960,13 @@
 │                        │       ├ References                                                                  
 │                        │       │                  ───────────────────────────────────────────────────────────
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:79281           
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:80798           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-77117      
 │                        │       │                  https://bugzilla.redhat.com/2513603                        
 │                        │       │                  https://bugzilla.redhat.com/2513608                        
 │                        │       │                  https://bugzilla.redhat.com/2523249                        
 │                        │       │                  https://bugzilla.redhat.com/2523274                        
 │                        │       │                  https://bugzilla.redhat.com/2524870                        
-│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2513603        
-│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2513608        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2523249        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2523274        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2524870        
@@ -10719,17 +10976,13 @@
 │                        │       │                  74                                                         
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-195
 │                        │       │                  42                                                         
-│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-636
-│                        │       │                  8                                                          
-│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-679
-│                        │       │                  1                                                          
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-771
 │                        │       │                  17                                                         
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-804
 │                        │       │                  89                                                         
 │                        │       │                  https://errata.almalinux.org/9/ALSA-2026-79281.html        
 │                        │       │                                                                             
-│                        │       │                  https://errata.rockylinux.org/RLSA-2026:79281              
+│                        │       │                  https://errata.rockylinux.org/RLSA-2026:80798              
 │                        │       │                                                                             
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-77117            
 │                        │       │                                                                             
@@ -10801,14 +11054,13 @@
 │                        │       ├ References                                                                  
 │                        │       │                  ───────────────────────────────────────────────────────────
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:79281           
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:80798           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-80489      
 │                        │       │                  https://bugzilla.redhat.com/2513603                        
 │                        │       │                  https://bugzilla.redhat.com/2513608                        
 │                        │       │                  https://bugzilla.redhat.com/2523249                        
 │                        │       │                  https://bugzilla.redhat.com/2523274                        
 │                        │       │                  https://bugzilla.redhat.com/2524870                        
-│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2513603        
-│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2513608        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2523249        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2523274        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2524870        
@@ -10818,17 +11070,13 @@
 │                        │       │                  74                                                         
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-195
 │                        │       │                  42                                                         
-│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-636
-│                        │       │                  8                                                          
-│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-679
-│                        │       │                  1                                                          
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-771
 │                        │       │                  17                                                         
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-804
 │                        │       │                  89                                                         
 │                        │       │                  https://errata.almalinux.org/9/ALSA-2026-79281.html        
 │                        │       │                                                                             
-│                        │       │                  https://errata.rockylinux.org/RLSA-2026:79281              
+│                        │       │                  https://errata.rockylinux.org/RLSA-2026:80798              
 │                        │       │                                                                             
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-80489            
 │                        │       │                                                                             
@@ -11636,14 +11884,13 @@
 │                        │       │                  ───────────────────────────────────────────────────────────
 │                        │       │                  http://www.openwall.com/lists/oss-security/2026/08/27/6    
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:79281           
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:80798           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-18374      
 │                        │       │                  https://bugzilla.redhat.com/2513603                        
 │                        │       │                  https://bugzilla.redhat.com/2513608                        
 │                        │       │                  https://bugzilla.redhat.com/2523249                        
 │                        │       │                  https://bugzilla.redhat.com/2523274                        
 │                        │       │                  https://bugzilla.redhat.com/2524870                        
-│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2513603        
-│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2513608        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2523249        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2523274        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2524870        
@@ -11653,17 +11900,13 @@
 │                        │       │                  74                                                         
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-195
 │                        │       │                  42                                                         
-│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-636
-│                        │       │                  8                                                          
-│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-679
-│                        │       │                  1                                                          
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-771
 │                        │       │                  17                                                         
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-804
 │                        │       │                  89                                                         
 │                        │       │                  https://errata.almalinux.org/9/ALSA-2026-79281.html        
 │                        │       │                                                                             
-│                        │       │                  https://errata.rockylinux.org/RLSA-2026:79281              
+│                        │       │                  https://errata.rockylinux.org/RLSA-2026:80798              
 │                        │       │                                                                             
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-18374            
 │                        │       │                                                                             
@@ -11812,30 +12055,30 @@
 │                        │       │                           ╰ V3Score : 4.2 
 │                        │       ├ References                                                                  
 │                        │       │                  ───────────────────────────────────────────────────────────
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:76781           
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:79281           
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:80798           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-19542      
 │                        │       │                  https://bugzilla.redhat.com/2513603                        
 │                        │       │                  https://bugzilla.redhat.com/2513608                        
 │                        │       │                  https://bugzilla.redhat.com/2523249                        
 │                        │       │                  https://bugzilla.redhat.com/2523274                        
 │                        │       │                  https://bugzilla.redhat.com/2524870                        
-│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2513603        
-│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2513608        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2523249        
-│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2523258        
+│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2523274        
+│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2524870        
+│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2525256        
 │                        │       │                  https://creativecommons.org/licenses/by/4.0/               
-│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-194
-│                        │       │                  99                                                         
+│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-183
+│                        │       │                  74                                                         
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-195
 │                        │       │                  42                                                         
-│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-636
-│                        │       │                  8                                                          
-│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-679
-│                        │       │                  1                                                          
+│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-771
+│                        │       │                  17                                                         
+│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-804
+│                        │       │                  89                                                         
 │                        │       │                  https://errata.almalinux.org/9/ALSA-2026-79281.html        
 │                        │       │                                                                             
-│                        │       │                  https://errata.rockylinux.org/RLSA-2026:76781              
+│                        │       │                  https://errata.rockylinux.org/RLSA-2026:80798              
 │                        │       │                                                                             
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-19542            
 │                        │       │                                                                             
@@ -12235,14 +12478,13 @@
 │                        │       ├ References                                                                  
 │                        │       │                  ───────────────────────────────────────────────────────────
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:79281           
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:80798           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-77117      
 │                        │       │                  https://bugzilla.redhat.com/2513603                        
 │                        │       │                  https://bugzilla.redhat.com/2513608                        
 │                        │       │                  https://bugzilla.redhat.com/2523249                        
 │                        │       │                  https://bugzilla.redhat.com/2523274                        
 │                        │       │                  https://bugzilla.redhat.com/2524870                        
-│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2513603        
-│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2513608        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2523249        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2523274        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2524870        
@@ -12252,17 +12494,13 @@
 │                        │       │                  74                                                         
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-195
 │                        │       │                  42                                                         
-│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-636
-│                        │       │                  8                                                          
-│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-679
-│                        │       │                  1                                                          
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-771
 │                        │       │                  17                                                         
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-804
 │                        │       │                  89                                                         
 │                        │       │                  https://errata.almalinux.org/9/ALSA-2026-79281.html        
 │                        │       │                                                                             
-│                        │       │                  https://errata.rockylinux.org/RLSA-2026:79281              
+│                        │       │                  https://errata.rockylinux.org/RLSA-2026:80798              
 │                        │       │                                                                             
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-77117            
 │                        │       │                                                                             
@@ -12334,14 +12572,13 @@
 │                        │       ├ References                                                                  
 │                        │       │                  ───────────────────────────────────────────────────────────
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:79281           
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:80798           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-80489      
 │                        │       │                  https://bugzilla.redhat.com/2513603                        
 │                        │       │                  https://bugzilla.redhat.com/2513608                        
 │                        │       │                  https://bugzilla.redhat.com/2523249                        
 │                        │       │                  https://bugzilla.redhat.com/2523274                        
 │                        │       │                  https://bugzilla.redhat.com/2524870                        
-│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2513603        
-│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2513608        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2523249        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2523274        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2524870        
@@ -12351,17 +12588,13 @@
 │                        │       │                  74                                                         
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-195
 │                        │       │                  42                                                         
-│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-636
-│                        │       │                  8                                                          
-│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-679
-│                        │       │                  1                                                          
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-771
 │                        │       │                  17                                                         
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-804
 │                        │       │                  89                                                         
 │                        │       │                  https://errata.almalinux.org/9/ALSA-2026-79281.html        
 │                        │       │                                                                             
-│                        │       │                  https://errata.rockylinux.org/RLSA-2026:79281              
+│                        │       │                  https://errata.rockylinux.org/RLSA-2026:80798              
 │                        │       │                                                                             
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-80489            
 │                        │       │                                                                             
@@ -13450,7 +13683,54 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-03T07:16:25.123Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:33.157Z 
-│                        ├ [213] ╭ VulnerabilityID : CVE-2026-10536 
+│                        ├ [213] ╭ VulnerabilityID : CVE-2026-92392 
+│                        │       ├ VendorIDs                  
+│                        │       │                  ──────────
+│                        │       │                  DSA-6558-1
+│                        │       │                  
+│                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : libcurl3t64-gnutls 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
+│                        │       │                  │       5?arch=amd64&distro=debian-13.7 
+│                        │       │                  ╰ UID : 9fa6eeeed0b94329 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ FixedVersion    : 8.14.1-2+deb13u7 
+│                        │       ├ Status          : fixed 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-92392 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:10230b97235263f91fcc38f826e9e2532cbdca0e2e854c72eaa
+│                        │       │                   af6582e21bca3 
+│                        │       ├ Title           : During an upload, curl mishandles HTTP/2 `RST_STREAM`
+│                        │       │                   received from th ... 
+│                        │       ├ Description     : During an upload, curl mishandles HTTP/2 `RST_STREAM`
+│                        │       │                   received from the server
+│                        │       │                   (with reason `HTTP_1_1_REQUIRED` or `REFUSED_STREAM`)
+│                        │       │                   leading to a use after
+│                        │       │                   free of a `struct Curl_easy` object. 
+│                        │       ├ Severity        : HIGH 
+│                        │       ├ CweIDs                  
+│                        │       │                  ───────
+│                        │       │                  CWE-416
+│                        │       │                  
+│                        │       ├ VendorSeverity   ─ ubuntu: 3 
+│                        │       ├ References                                                      
+│                        │       │                  ───────────────────────────────────────────────
+│                        │       │                  https://curl.se/docs/CVE-2026-92392.html       
+│                        │       │                  https://curl.se/docs/CVE-2026-92392.json       
+│                        │       │                  https://hackerone.com/reports/4030333          
+│                        │       │                  https://ubuntu.com/security/notices/USN-8927-1 
+│                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-92392
+│                        │       │                  
+│                        │       ├ PublishedDate   : 2026-10-14T08:17:05.997Z 
+│                        │       ╰ LastModifiedDate: 2026-10-15T11:18:03.6Z 
+│                        ├ [214] ╭ VulnerabilityID : CVE-2026-10536 
 │                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : libcurl3t64-gnutls 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
@@ -13523,7 +13803,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-03T07:16:23.563Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:25.137Z 
-│                        ├ [214] ╭ VulnerabilityID : CVE-2026-11856 
+│                        ├ [215] ╭ VulnerabilityID : CVE-2026-11856 
 │                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : libcurl3t64-gnutls 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
@@ -13608,7 +13888,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-03T07:16:23.973Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:25.87Z 
-│                        ├ [215] ╭ VulnerabilityID : CVE-2026-19931 
+│                        ├ [216] ╭ VulnerabilityID : CVE-2026-19931 
 │                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : libcurl3t64-gnutls 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
@@ -13657,7 +13937,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-09-06T18:17:20.733Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:27.29Z 
-│                        ├ [216] ╭ VulnerabilityID : CVE-2026-80229 
+│                        ├ [217] ╭ VulnerabilityID : CVE-2026-80229 
 │                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : libcurl3t64-gnutls 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
@@ -13709,7 +13989,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-09-06T18:17:22.217Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:30.157Z 
-│                        ├ [217] ╭ VulnerabilityID : CVE-2026-8924 
+│                        ├ [218] ╭ VulnerabilityID : CVE-2026-8924 
 │                        │       ├ VendorIDs                  
 │                        │       │                  ──────────
 │                        │       │                  DSA-6558-1
@@ -13797,7 +14077,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-03T07:16:24.793Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:32.573Z 
-│                        ├ [218] ╭ VulnerabilityID : CVE-2026-8926 
+│                        ├ [219] ╭ VulnerabilityID : CVE-2026-8926 
 │                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : libcurl3t64-gnutls 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
@@ -13885,7 +14165,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-03T07:16:25.037Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:32.98Z 
-│                        ├ [219] ╭ VulnerabilityID : CVE-2026-8932 
+│                        ├ [220] ╭ VulnerabilityID : CVE-2026-8932 
 │                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : libcurl3t64-gnutls 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
@@ -13980,7 +14260,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-03T07:16:25.363Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:33.407Z 
-│                        ├ [220] ╭ VulnerabilityID : CVE-2026-9079 
+│                        ├ [221] ╭ VulnerabilityID : CVE-2026-9079 
 │                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : libcurl3t64-gnutls 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
@@ -14065,7 +14345,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-03T07:16:25.62Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:34.597Z 
-│                        ├ [221] ╭ VulnerabilityID : CVE-2026-9080 
+│                        ├ [222] ╭ VulnerabilityID : CVE-2026-9080 
 │                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : libcurl3t64-gnutls 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
@@ -14123,7 +14403,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-03T07:16:25.713Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:34.767Z 
-│                        ├ [222] ╭ VulnerabilityID : CVE-2026-9545 
+│                        ├ [223] ╭ VulnerabilityID : CVE-2026-9545 
 │                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : libcurl3t64-gnutls 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
@@ -14192,7 +14472,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-03T07:16:25.807Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:34.947Z 
-│                        ├ [223] ╭ VulnerabilityID : CVE-2025-10966 
+│                        ├ [224] ╭ VulnerabilityID : CVE-2025-10966 
 │                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : libcurl3t64-gnutls 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
@@ -14262,7 +14542,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2025-11-07T08:15:39.617Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:23.317Z 
-│                        ├ [224] ╭ VulnerabilityID : CVE-2025-14017 
+│                        ├ [225] ╭ VulnerabilityID : CVE-2025-14017 
 │                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : libcurl3t64-gnutls 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
@@ -14328,7 +14608,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-01-08T10:15:45.667Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:23.753Z 
-│                        ├ [225] ╭ VulnerabilityID : CVE-2025-15079 
+│                        ├ [226] ╭ VulnerabilityID : CVE-2025-15079 
 │                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : libcurl3t64-gnutls 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
@@ -14387,8 +14667,8 @@
 │                        │       │                  https://www.cve.org/CVERecord?id=CVE-2025-15079        
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-01-08T10:15:47.1Z 
-│                        │       ╰ LastModifiedDate: 2026-09-15T07:16:24.467Z 
-│                        ├ [226] ╭ VulnerabilityID : CVE-2025-15224 
+│                        │       ╰ LastModifiedDate: 2026-10-14T16:10:00.25Z 
+│                        ├ [227] ╭ VulnerabilityID : CVE-2025-15224 
 │                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : libcurl3t64-gnutls 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
@@ -14445,8 +14725,78 @@
 │                        │       │                  https://www.cve.org/CVERecord?id=CVE-2025-15224        
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-01-08T10:15:47.207Z 
-│                        │       ╰ LastModifiedDate: 2026-09-15T07:16:24.69Z 
-│                        ├ [227] ╭ VulnerabilityID : CVE-2026-13608 
+│                        │       ╰ LastModifiedDate: 2026-10-14T19:10:00.297Z 
+│                        ├ [228] ╭ VulnerabilityID : CVE-2026-107928 
+│                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : libcurl3t64-gnutls 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
+│                        │       │                  │       5?arch=amd64&distro=debian-13.7 
+│                        │       │                  ╰ UID : 9fa6eeeed0b94329 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-107928 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:fe7004b4bb1cc5b17c00aa175d9599482d2e405c84107689ec0
+│                        │       │                   867a8e363bd66 
+│                        │       ├ Title           : info leak uploading over WebSockets with GnuTLS 
+│                        │       ├ Description     : When curl is built with GnuTLS, a malicious WebSocket
+│                        │       │                   server can make curl send memory past its send buffer.
+│                        │       │                   This is due to an out of bounds read following when
+│                        │       │                   `gnutls_record_send()` returns a number of bytes sent
+│                        │       │                   greater than the number of bytes it was given to send.
+│                        │       │                   GnuTLS does that after a blocked send. 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                       
+│                        │                          ────────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-107928.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1  
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-107928
+│                        │                          
+│                        ├ [229] ╭ VulnerabilityID : CVE-2026-107929 
+│                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : libcurl3t64-gnutls 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
+│                        │       │                  │       5?arch=amd64&distro=debian-13.7 
+│                        │       │                  ╰ UID : 9fa6eeeed0b94329 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-107929 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:d68ea1f0a2c0380285a8e34d5fa1acd152cce83fcdf793f50d2
+│                        │       │                   e1e1023d61aba 
+│                        │       ├ Title           : When `CURLOPT_INTERFACE` (or the command line tool's
+│                        │       │                   `--interface 
+│                        │       ├ Description     : When `CURLOPT_INTERFACE` (or the command line tool's
+│                        │       │                   `--interface` option) is set with one of the documented
+│                        │       │                   prefixes (`if!`, `host!`, `ifhost!`), that binding is not
+│                        │       │                   part of the connection reuse key, so a later transfer
+│                        │       │                   asking for a different source can silently reuse an
+│                        │       │                   existing connection and go out from the earlier transfer's
+│                        │       │                    source address. 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                       
+│                        │                          ────────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-107929.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1  
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-107929
+│                        │                          
+│                        ├ [230] ╭ VulnerabilityID : CVE-2026-13608 
 │                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : libcurl3t64-gnutls 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
@@ -14506,7 +14856,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-09-06T18:17:19.81Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:26.353Z 
-│                        ├ [228] ╭ VulnerabilityID : CVE-2026-18924 
+│                        ├ [231] ╭ VulnerabilityID : CVE-2026-18924 
 │                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : libcurl3t64-gnutls 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
@@ -14561,7 +14911,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-09-06T18:17:20.553Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:27.063Z 
-│                        ├ [229] ╭ VulnerabilityID : CVE-2026-80230 
+│                        ├ [232] ╭ VulnerabilityID : CVE-2026-80230 
 │                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : libcurl3t64-gnutls 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
@@ -14619,7 +14969,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-09-06T18:17:22.327Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:30.337Z 
-│                        ├ [230] ╭ VulnerabilityID : CVE-2026-80255 
+│                        ├ [233] ╭ VulnerabilityID : CVE-2026-80255 
 │                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : libcurl3t64-gnutls 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
@@ -14672,7 +15022,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-09-06T18:17:22.623Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:30.77Z 
-│                        ├ [231] ╭ VulnerabilityID : CVE-2026-82208 
+│                        ├ [234] ╭ VulnerabilityID : CVE-2026-82208 
 │                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : libcurl3t64-gnutls 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
@@ -14725,7 +15075,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-09-06T18:17:22.733Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:31.05Z 
-│                        ├ [232] ╭ VulnerabilityID : CVE-2026-82209 
+│                        ├ [235] ╭ VulnerabilityID : CVE-2026-82209 
 │                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : libcurl3t64-gnutls 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
@@ -14792,7 +15142,251 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-09-06T18:17:22.847Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:31.233Z 
-│                        ├ [233] ╭ VulnerabilityID : CVE-2026-87866 
+│                        ├ [236] ╭ VulnerabilityID : CVE-2026-86409 
+│                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : libcurl3t64-gnutls 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
+│                        │       │                  │       5?arch=amd64&distro=debian-13.7 
+│                        │       │                  ╰ UID : 9fa6eeeed0b94329 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-86409 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:d16a752de9e790e1be6963c9162c51d8db8d95b3c367e375a4c
+│                        │       │                   a503f80792fc1 
+│                        │       ├ Title           : Setting `CURLOPT_AWS_SIGV4` to NULL does not disable SigV4
+│                        │       │                    authen 
+│                        │       ├ Description     : Setting `CURLOPT_AWS_SIGV4` to NULL does not disable SigV4
+│                        │       │                    authentication, contrary to expectations and
+│                        │       │                   documentation. A subsequent transfer on the same handle
+│                        │       │                   still sends an `Authorization: AWS4-HMAC-SHA256` header to
+│                        │       │                    whatever URL is set next, leaking state information. 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                      
+│                        │                          ───────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-86409.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1 
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-86409
+│                        │                          
+│                        ├ [237] ╭ VulnerabilityID : CVE-2026-86410 
+│                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : libcurl3t64-gnutls 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
+│                        │       │                  │       5?arch=amd64&distro=debian-13.7 
+│                        │       │                  ╰ UID : 9fa6eeeed0b94329 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-86410 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:ec8b6cc5be7dffb5531a478e5ec8d3301bc84aaa1776166a6fe
+│                        │       │                   03c78c5125e3d 
+│                        │       ├ Title           : Title Not Available 
+│                        │       ├ Description     : A flaw in the curl command line tool's logic makes it only
+│                        │       │                    set SSH host verification options when interacting
+│                        │       │                   directly using SFTP or SCP, and not as a result of
+│                        │       │                   following a redirect. This means `--knownhosts`,
+│                        │       │                   `--hostpubsha256`, and `--hostpubmd5` are never installed
+│                        │       │                   when the initial URL is HTTPS. If `--location` and
+│                        │       │                   `--proto-redir +sftp` is used and the server returns a
+│                        │       │                   `Location: sftp://example.com` redirect, the SFTP
+│                        │       │                   connection proceeds without any of the user's requested
+│                        │       │                   SSH host verification methods. 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                      
+│                        │                          ───────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-86410.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1 
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-86410
+│                        │                          
+│                        ├ [238] ╭ VulnerabilityID : CVE-2026-86414 
+│                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : libcurl3t64-gnutls 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
+│                        │       │                  │       5?arch=amd64&distro=debian-13.7 
+│                        │       │                  ╰ UID : 9fa6eeeed0b94329 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-86414 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:245014e065c04118cdf073eb5faa7d239ad1c8fa1036a98fd81
+│                        │       │                   9c36b6161eaba 
+│                        │       ├ Title           : curl: curl: leaking host credentials to HTTP proxy 
+│                        │       ├ Description     : A HTTP proxy can trick libcurl into sending the origin's
+│                        │       │                   credentials (Basic password, or a Negotiate/Kerberos
+│                        │       │                   ticket) to the proxy itself, by answering the `CONNECT`
+│                        │       │                   tunnel request with 401 `WWW-Authenticate:` instead of the
+│                        │       │                    expected 407 `Proxy-Authenticate:`. 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                      
+│                        │                          ───────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-86414.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1 
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-86414
+│                        │                          
+│                        ├ [239] ╭ VulnerabilityID : CVE-2026-87862 
+│                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : libcurl3t64-gnutls 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
+│                        │       │                  │       5?arch=amd64&distro=debian-13.7 
+│                        │       │                  ╰ UID : 9fa6eeeed0b94329 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-87862 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:d9158cb1d08d3ea3c7c61b0d9fbe2c99086962880bb2e04aa76
+│                        │       │                   e5feb0245bbbb 
+│                        │       ├ Description     : Importing a `includeSubDomains` parent HSTS entry before a
+│                        │       │                    longer-lived child entry, silently drops the child.
+│                        │       │                   Consequently, when the parent expires, the child's valid
+│                        │       │                   HSTS policy is lost, causing curl to issue unencrypted
+│                        │       │                   HTTP requests rather than upgrading to HTTPS. 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                      
+│                        │                          ───────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-87862.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1 
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-87862
+│                        │                          
+│                        ├ [240] ╭ VulnerabilityID : CVE-2026-87863 
+│                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : libcurl3t64-gnutls 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
+│                        │       │                  │       5?arch=amd64&distro=debian-13.7 
+│                        │       │                  ╰ UID : 9fa6eeeed0b94329 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-87863 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:e49bb6b1ea16e2a29604b4415e3e316195c585fd4ecc71f4be5
+│                        │       │                   b4ffaf0f2d30b 
+│                        │       ├ Title           : An authenticated HTTPS origin can supply an HSTS `max-age`
+│                        │       │                    value  
+│                        │       ├ Description     : An authenticated HTTPS origin can supply an HSTS `max-age`
+│                        │       │                    value that the parser accepts, but time serialization
+│                        │       │                   later fails to process. On 64-bit systems, extreme max-age
+│                        │       │                    values compute an absolute expiry within standard time
+│                        │       │                   integer limits that exceeds calendar time structure
+│                        │       │                   bounds. During cache saves, the original HSTS file is
+│                        │       │                   truncated before writing a temporary replacement; when
+│                        │       │                   serialization fails, the temporary file is deleted,
+│                        │       │                   leaving an empty or partial cache. Because the save error
+│                        │       │                   is silently ignored during cleanup, curl exits
+│                        │       │                   successfully despite the data loss. 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                      
+│                        │                          ───────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-87863.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1 
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-87863
+│                        │                          
+│                        ├ [241] ╭ VulnerabilityID : CVE-2026-87864 
+│                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : libcurl3t64-gnutls 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
+│                        │       │                  │       5?arch=amd64&distro=debian-13.7 
+│                        │       │                  ╰ UID : 9fa6eeeed0b94329 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-87864 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:00610461be0a6aee413d35eb4024766a25271b014f24305f4e5
+│                        │       │                   0a70dc34df86f 
+│                        │       ├ Title           : Enabling `CURLOPT_CRLF` causes curl to advertise the raw
+│                        │       │                   input by 
+│                        │       ├ Description     : Enabling `CURLOPT_CRLF` causes curl to advertise the raw
+│                        │       │                   input byte count in the `IMAP APPEND {N}` literal while
+│                        │       │                   transmitting line-ending expanded data. The server reads
+│                        │       │                   only N bytes for the payload, causing the remaining
+│                        │       │                   overflow bytes to be interpreted and executed as pipelined
+│                        │       │                    IMAP commands within the authenticated session. 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                      
+│                        │                          ───────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-87864.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1 
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-87864
+│                        │                          
+│                        ├ [242] ╭ VulnerabilityID : CVE-2026-87865 
+│                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : libcurl3t64-gnutls 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
+│                        │       │                  │       5?arch=amd64&distro=debian-13.7 
+│                        │       │                  ╰ UID : 9fa6eeeed0b94329 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-87865 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:43ebac883dd47a214a2165be093e5eda3e375e64a50d966cd60
+│                        │       │                   38a9e39495477 
+│                        │       ├ Title           : Title Not Available 
+│                        │       ├ Description     : When libcurl uses libssh2 with a hashed `known_hosts`
+│                        │       │                   file, an unrelated initial entry can cause host key
+│                        │       │                   validation to report a key *mismatch* as a *missing* key
+│                        │       │                   to the `CURLOPT_SSH_KEYFUNCTION` callback. 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                      
+│                        │                          ───────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-87865.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1 
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-87865
+│                        │                          
+│                        ├ [243] ╭ VulnerabilityID : CVE-2026-87866 
 │                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : libcurl3t64-gnutls 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
@@ -14812,9 +15406,276 @@
 │                        │       │                          rity-tracker 
 │                        │       ├ Fingerprint     : sha256:e1006d234d2257f79a2e305bd7d3cb4d9ff880a4720b8008911
 │                        │       │                   4855a5876c634 
+│                        │       ├ Title           : wolfSSL public-key pinning bypass 
+│                        │       ├ Description     : When built with wolfSSL, curl can successfully validate a
+│                        │       │                   pinned public key hash against a key the TLS peer does not
+│                        │       │                    possess. During the TLS handshake, wolfSSL validates the
+│                        │       │                   connection, but curl's subsequent re-parsing of the same
+│                        │       │                   certificate - tricked by a manipulated validity length
+│                        │       │                   field - extracts and matches a different embedded key,
+│                        │       │                   incorrectly authorizing the pinned public key. 
 │                        │       ├ Severity        : LOW 
 │                        │       ╰ VendorSeverity   ─ debian: 1 
-│                        ├ [234] ╭ VulnerabilityID : CVE-2026-9547 
+│                        ├ [244] ╭ VulnerabilityID : CVE-2026-92386 
+│                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : libcurl3t64-gnutls 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
+│                        │       │                  │       5?arch=amd64&distro=debian-13.7 
+│                        │       │                  ╰ UID : 9fa6eeeed0b94329 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-92386 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:8bfb3089b4dbbbe6ac32ec1a9df0fb5377698e6186e6718b2b6
+│                        │       │                   d3086fe5121b4 
+│                        │       ├ Title           : Title Not Available 
+│                        │       ├ Description     : When writing a long cookie name and value to a Netscape
+│                        │       │                   cookie jar, a remote HTTP server can make `curl` write a
+│                        │       │                   record that exceeds its line-length parsing limit.
+│                        │       │                   Consequently, any subsequent `curl` invocation reading
+│                        │       │                   from that same cookie jar using `--cookie` will silently
+│                        │       │                   abort parsing prematurely upon encountering the oversized
+│                        │       │                   line, ignoring all subsequent valid cookies in the file.[
+│                        │       │                   m 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                      
+│                        │                          ───────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-92386.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1 
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-92386
+│                        │                          
+│                        ├ [245] ╭ VulnerabilityID : CVE-2026-92387 
+│                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : libcurl3t64-gnutls 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
+│                        │       │                  │       5?arch=amd64&distro=debian-13.7 
+│                        │       │                  ╰ UID : 9fa6eeeed0b94329 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-92387 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:453287ffac1d444d9f58ef219e03da4f8b17d6b0ecbedd01301
+│                        │       │                   ab9a9b93449cb 
+│                        │       ├ Description     : By permanently omitting the final control-response line, a
+│                        │       │                    malicious FTP, IMAP, POP3, or SMTP server can exploit
+│                        │       │                   libcurl and completely bypass its configured transfer
+│                        │       │                   timeout mechanism, indefinitely blocking all concurrent
+│                        │       │                   transfers bound to the same multi-handle. 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                      
+│                        │                          ───────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-92387.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1 
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-92387
+│                        │                          
+│                        ├ [246] ╭ VulnerabilityID : CVE-2026-92388 
+│                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : libcurl3t64-gnutls 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
+│                        │       │                  │       5?arch=amd64&distro=debian-13.7 
+│                        │       │                  ╰ UID : 9fa6eeeed0b94329 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-92388 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:394276a41105fdc13f885dee5561f669673e723e1989e6314fc
+│                        │       │                   7ebf7dea96cb7 
+│                        │       ├ Title           : Title Not Available 
+│                        │       ├ Description     : When an FTP wildcard `LIST` operation fails, libcurl omits
+│                        │       │                    the restoration path meant for successful listings,
+│                        │       │                   leaving the write callback set to the internal listing
+│                        │       │                   parser and the write callback data pointing directly to
+│                        │       │                   the easy handle. Subsequent reuse of this handle triggers
+│                        │       │                   an immediate crash, and cloning it via
+│                        │       │                   `curl_easy_duphandle()` copies this corrupted state into
+│                        │       │                   the duplicate. If the original handle is subsequently
+│                        │       │                   freed, executing a transfer on the cloned handle causes a
+│                        │       │                   heap use-after-free read against the dangling handle
+│                        │       │                   reference; alternatively, reusing the original or cloned
+│                        │       │                   handle while reconfiguring only `CURLOPT_WRITEDATA` (and
+│                        │       │                   omitting `CURLOPT_WRITEFUNCTION`) results in type
+│                        │       │                   confusion, forcing the internal parser to interpret
+│                        │       │                   incoming server response bytes into memory at the
+│                        │       │                   application-supplied write data pointer. 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                      
+│                        │                          ───────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-92388.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1 
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-92388
+│                        │                          
+│                        ├ [247] ╭ VulnerabilityID : CVE-2026-92389 
+│                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : libcurl3t64-gnutls 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
+│                        │       │                  │       5?arch=amd64&distro=debian-13.7 
+│                        │       │                  ╰ UID : 9fa6eeeed0b94329 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-92389 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:0c7f0a308bb0e24587816381eeff66add025a8663dbc7022311
+│                        │       │                   45f5d976f8a2f 
+│                        │       ├ Title           : libcurl's TFTP state machine fails to validate state
+│                        │       │                   transitions  
+│                        │       ├ Description     : libcurl's TFTP state machine fails to validate state
+│                        │       │                   transitions against the requested transfer direction,
+│                        │       │                   accepting opening server responses for both reads and
+│                        │       │                   writes interchangeably. A malicious TFTP server can
+│                        │       │                   respond to a download request in a way that forces the
+│                        │       │                   client into transmit mode, prompting libcurl to consume
+│                        │       │                   and transmit data from the handle's persistent
+│                        │       │                   `CURLOPT_READDATA` pointer - including data remaining from
+│                        │       │                    unrelated prior operations, such as an HTTP POST request
+│                        │       │                   executed on a reused handle. 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                      
+│                        │                          ───────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-92389.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1 
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-92389
+│                        │                          
+│                        ├ [248] ╭ VulnerabilityID : CVE-2026-92390 
+│                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : libcurl3t64-gnutls 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
+│                        │       │                  │       5?arch=amd64&distro=debian-13.7 
+│                        │       │                  ╰ UID : 9fa6eeeed0b94329 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-92390 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:48c6bd6817405ee53101238d6b05dea095befa03f3a717a3b4e
+│                        │       │                   6e52e41607515 
+│                        │       ├ Title           : Title Not Available 
+│                        │       ├ Description     : When invoked with `--remote-header-name` (`-J`), curl
+│                        │       │                   fails to preserve its documented anti-clobbering
+│                        │       │                   protection if an intermediate 103 Early Hints response
+│                        │       │                   precedes the final HTTP response, or if an `ETag` header
+│                        │       │                   is processed before `Content-Disposition` under
+│                        │       │                   `--etag-save`. This flaw allows an HTTP(S) server to
+│                        │       │                   overwrite an existing local file specified in the
+│                        │       │                   `Content-Disposition` header despite the presence of the
+│                        │       │                   `-J` non-overwrite constraint. 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                      
+│                        │                          ───────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-92390.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1 
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-92390
+│                        │                          
+│                        ├ [249] ╭ VulnerabilityID : CVE-2026-92391 
+│                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : libcurl3t64-gnutls 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
+│                        │       │                  │       5?arch=amd64&distro=debian-13.7 
+│                        │       │                  ╰ UID : 9fa6eeeed0b94329 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-92391 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:f3905ee30b1f2c7d6ef8d6767d950f2360af19a36100067d3c2
+│                        │       │                   a63f19a3ea66b 
+│                        │       ├ Title           : curl_mime_free stack overflow by recursion 
+│                        │       ├ Description     : A deeply nested multipart MIME structure constructed via
+│                        │       │                   the public API causes a stack overflow in libcurl during
+│                        │       │                   normal cleanup operations. An excessive recursion depth
+│                        │       │                   within `curl_mime_free` leads to unbounded stack frame
+│                        │       │                   allocation during structure traversal, ultimately crashing
+│                        │       │                    the host process. 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                      
+│                        │                          ───────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-92391.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1 
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-92391
+│                        │                          
+│                        ├ [250] ╭ VulnerabilityID : CVE-2026-94266 
+│                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : libcurl3t64-gnutls 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
+│                        │       │                  │       5?arch=amd64&distro=debian-13.7 
+│                        │       │                  ╰ UID : 9fa6eeeed0b94329 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-94266 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:85c9549d517778844cdc8a36860c6b2c62322efdcf49e85008f
+│                        │       │                   d238295decf16 
+│                        │       ├ Title           : libcurl could accidentally return a URL for
+│                        │       │                   curl_easy_getinfo's ` 
+│                        │       ├ Description     : libcurl could accidentally return a URL for
+│                        │       │                   curl_easy_getinfo's `CURLINFO_EFFECTIVE_URL` option
+│                        │       │                   containing credentials, even though neither the URL
+│                        │       │                   provided to libcurl nor the redirected URL did. The curl
+│                        │       │                   tool exposes the same information using the command line
+│                        │       │                   option `--write-out '%{url_effective}'`. This credential
+│                        │       │                   leak can happen when curl retrieves credentials from a
+│                        │       │                   `.netrc` file. 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                      
+│                        │                          ───────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-94266.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1 
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-94266
+│                        │                          
+│                        ├ [251] ╭ VulnerabilityID : CVE-2026-9547 
 │                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : libcurl3t64-gnutls 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
@@ -14901,364 +15762,6 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-03T07:16:25.99Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:35.31Z 
-│                        ├ [235] ╭ VulnerabilityID : CVE-2026-107928 
-│                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : libcurl3t64-gnutls 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
-│                        │       │                  │       5?arch=amd64&distro=debian-13.7 
-│                        │       │                  ╰ UID : 9fa6eeeed0b94329 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-107928 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:fe7004b4bb1cc5b17c00aa175d9599482d2e405c84107689ec0
-│                        │       │                   867a8e363bd66 
-│                        │       ╰ Severity        : UNKNOWN 
-│                        ├ [236] ╭ VulnerabilityID : CVE-2026-107929 
-│                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : libcurl3t64-gnutls 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
-│                        │       │                  │       5?arch=amd64&distro=debian-13.7 
-│                        │       │                  ╰ UID : 9fa6eeeed0b94329 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-107929 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:d68ea1f0a2c0380285a8e34d5fa1acd152cce83fcdf793f50d2
-│                        │       │                   e1e1023d61aba 
-│                        │       ╰ Severity        : UNKNOWN 
-│                        ├ [237] ╭ VulnerabilityID : CVE-2026-86409 
-│                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : libcurl3t64-gnutls 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
-│                        │       │                  │       5?arch=amd64&distro=debian-13.7 
-│                        │       │                  ╰ UID : 9fa6eeeed0b94329 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-86409 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:d16a752de9e790e1be6963c9162c51d8db8d95b3c367e375a4c
-│                        │       │                   a503f80792fc1 
-│                        │       ╰ Severity        : UNKNOWN 
-│                        ├ [238] ╭ VulnerabilityID : CVE-2026-86410 
-│                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : libcurl3t64-gnutls 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
-│                        │       │                  │       5?arch=amd64&distro=debian-13.7 
-│                        │       │                  ╰ UID : 9fa6eeeed0b94329 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-86410 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:ec8b6cc5be7dffb5531a478e5ec8d3301bc84aaa1776166a6fe
-│                        │       │                   03c78c5125e3d 
-│                        │       ╰ Severity        : UNKNOWN 
-│                        ├ [239] ╭ VulnerabilityID : CVE-2026-86414 
-│                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : libcurl3t64-gnutls 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
-│                        │       │                  │       5?arch=amd64&distro=debian-13.7 
-│                        │       │                  ╰ UID : 9fa6eeeed0b94329 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-86414 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:245014e065c04118cdf073eb5faa7d239ad1c8fa1036a98fd81
-│                        │       │                   9c36b6161eaba 
-│                        │       ╰ Severity        : UNKNOWN 
-│                        ├ [240] ╭ VulnerabilityID : CVE-2026-87862 
-│                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : libcurl3t64-gnutls 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
-│                        │       │                  │       5?arch=amd64&distro=debian-13.7 
-│                        │       │                  ╰ UID : 9fa6eeeed0b94329 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-87862 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:d9158cb1d08d3ea3c7c61b0d9fbe2c99086962880bb2e04aa76
-│                        │       │                   e5feb0245bbbb 
-│                        │       ╰ Severity        : UNKNOWN 
-│                        ├ [241] ╭ VulnerabilityID : CVE-2026-87863 
-│                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : libcurl3t64-gnutls 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
-│                        │       │                  │       5?arch=amd64&distro=debian-13.7 
-│                        │       │                  ╰ UID : 9fa6eeeed0b94329 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-87863 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:e49bb6b1ea16e2a29604b4415e3e316195c585fd4ecc71f4be5
-│                        │       │                   b4ffaf0f2d30b 
-│                        │       ╰ Severity        : UNKNOWN 
-│                        ├ [242] ╭ VulnerabilityID : CVE-2026-87864 
-│                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : libcurl3t64-gnutls 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
-│                        │       │                  │       5?arch=amd64&distro=debian-13.7 
-│                        │       │                  ╰ UID : 9fa6eeeed0b94329 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-87864 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:00610461be0a6aee413d35eb4024766a25271b014f24305f4e5
-│                        │       │                   0a70dc34df86f 
-│                        │       ╰ Severity        : UNKNOWN 
-│                        ├ [243] ╭ VulnerabilityID : CVE-2026-87865 
-│                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : libcurl3t64-gnutls 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
-│                        │       │                  │       5?arch=amd64&distro=debian-13.7 
-│                        │       │                  ╰ UID : 9fa6eeeed0b94329 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-87865 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:43ebac883dd47a214a2165be093e5eda3e375e64a50d966cd60
-│                        │       │                   38a9e39495477 
-│                        │       ╰ Severity        : UNKNOWN 
-│                        ├ [244] ╭ VulnerabilityID : CVE-2026-92386 
-│                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : libcurl3t64-gnutls 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
-│                        │       │                  │       5?arch=amd64&distro=debian-13.7 
-│                        │       │                  ╰ UID : 9fa6eeeed0b94329 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-92386 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:8bfb3089b4dbbbe6ac32ec1a9df0fb5377698e6186e6718b2b6
-│                        │       │                   d3086fe5121b4 
-│                        │       ╰ Severity        : UNKNOWN 
-│                        ├ [245] ╭ VulnerabilityID : CVE-2026-92387 
-│                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : libcurl3t64-gnutls 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
-│                        │       │                  │       5?arch=amd64&distro=debian-13.7 
-│                        │       │                  ╰ UID : 9fa6eeeed0b94329 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-92387 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:453287ffac1d444d9f58ef219e03da4f8b17d6b0ecbedd01301
-│                        │       │                   ab9a9b93449cb 
-│                        │       ╰ Severity        : UNKNOWN 
-│                        ├ [246] ╭ VulnerabilityID : CVE-2026-92388 
-│                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : libcurl3t64-gnutls 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
-│                        │       │                  │       5?arch=amd64&distro=debian-13.7 
-│                        │       │                  ╰ UID : 9fa6eeeed0b94329 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-92388 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:394276a41105fdc13f885dee5561f669673e723e1989e6314fc
-│                        │       │                   7ebf7dea96cb7 
-│                        │       ╰ Severity        : UNKNOWN 
-│                        ├ [247] ╭ VulnerabilityID : CVE-2026-92389 
-│                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : libcurl3t64-gnutls 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
-│                        │       │                  │       5?arch=amd64&distro=debian-13.7 
-│                        │       │                  ╰ UID : 9fa6eeeed0b94329 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-92389 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:0c7f0a308bb0e24587816381eeff66add025a8663dbc7022311
-│                        │       │                   45f5d976f8a2f 
-│                        │       ╰ Severity        : UNKNOWN 
-│                        ├ [248] ╭ VulnerabilityID : CVE-2026-92390 
-│                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : libcurl3t64-gnutls 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
-│                        │       │                  │       5?arch=amd64&distro=debian-13.7 
-│                        │       │                  ╰ UID : 9fa6eeeed0b94329 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-92390 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:48c6bd6817405ee53101238d6b05dea095befa03f3a717a3b4e
-│                        │       │                   6e52e41607515 
-│                        │       ╰ Severity        : UNKNOWN 
-│                        ├ [249] ╭ VulnerabilityID : CVE-2026-92391 
-│                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : libcurl3t64-gnutls 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
-│                        │       │                  │       5?arch=amd64&distro=debian-13.7 
-│                        │       │                  ╰ UID : 9fa6eeeed0b94329 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-92391 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:f3905ee30b1f2c7d6ef8d6767d950f2360af19a36100067d3c2
-│                        │       │                   a63f19a3ea66b 
-│                        │       ╰ Severity        : UNKNOWN 
-│                        ├ [250] ╭ VulnerabilityID : CVE-2026-92392 
-│                        │       ├ VendorIDs                  
-│                        │       │                  ──────────
-│                        │       │                  DSA-6558-1
-│                        │       │                  
-│                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : libcurl3t64-gnutls 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
-│                        │       │                  │       5?arch=amd64&distro=debian-13.7 
-│                        │       │                  ╰ UID : 9fa6eeeed0b94329 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ FixedVersion    : 8.14.1-2+deb13u7 
-│                        │       ├ Status          : fixed 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-92392 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:10230b97235263f91fcc38f826e9e2532cbdca0e2e854c72eaa
-│                        │       │                   af6582e21bca3 
-│                        │       ├ Description     : During an upload, curl mishandles HTTP/2 `RST_STREAM`
-│                        │       │                   received from the server
-│                        │       │                   (with reason `HTTP_1_1_REQUIRED` or `REFUSED_STREAM`)
-│                        │       │                   leading to a use after
-│                        │       │                   free of a `struct Curl_easy` object. 
-│                        │       ├ Severity        : UNKNOWN 
-│                        │       ├ References                                               
-│                        │       │                  ────────────────────────────────────────
-│                        │       │                  https://curl.se/docs/CVE-2026-92392.html
-│                        │       │                  https://curl.se/docs/CVE-2026-92392.json
-│                        │       │                  https://hackerone.com/reports/4030333   
-│                        │       │                  
-│                        │       ├ PublishedDate   : 2026-10-14T08:17:05.997Z 
-│                        │       ╰ LastModifiedDate: 2026-10-14T08:17:05.997Z 
-│                        ├ [251] ╭ VulnerabilityID : CVE-2026-94266 
-│                        │       ├ PkgID           : libcurl3t64-gnutls@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : libcurl3t64-gnutls 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u
-│                        │       │                  │       5?arch=amd64&distro=debian-13.7 
-│                        │       │                  ╰ UID : 9fa6eeeed0b94329 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-94266 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:85c9549d517778844cdc8a36860c6b2c62322efdcf49e85008f
-│                        │       │                   d238295decf16 
-│                        │       ╰ Severity        : UNKNOWN 
 │                        ├ [252] ╭ VulnerabilityID : CVE-2026-12064 
 │                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : libcurl4t64 
@@ -15500,7 +16003,7 @@
 │                        │       │                  https://linux.oracle.com/errata/ELSA-2026-69126.html         
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-8458               
 │                        │       │                  https://ubuntu.com/security/notices/USN-8487-1               
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:3753              
+│                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-8458               
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-03T07:16:24.63Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:32.327Z 
@@ -15587,7 +16090,54 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-03T07:16:25.123Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:33.157Z 
-│                        ├ [256] ╭ VulnerabilityID : CVE-2026-10536 
+│                        ├ [256] ╭ VulnerabilityID : CVE-2026-92392 
+│                        │       ├ VendorIDs                  
+│                        │       │                  ──────────
+│                        │       │                  DSA-6558-1
+│                        │       │                  
+│                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : libcurl4t64 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
+│                        │       │                  │       amd64&distro=debian-13.7 
+│                        │       │                  ╰ UID : ab153f3653d8b71e 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ FixedVersion    : 8.14.1-2+deb13u7 
+│                        │       ├ Status          : fixed 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-92392 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:8308e3225faba820845fcb80a831010593a04c5d33389f1ecee
+│                        │       │                   4ca2e5255c316 
+│                        │       ├ Title           : During an upload, curl mishandles HTTP/2 `RST_STREAM`
+│                        │       │                   received from th ... 
+│                        │       ├ Description     : During an upload, curl mishandles HTTP/2 `RST_STREAM`
+│                        │       │                   received from the server
+│                        │       │                   (with reason `HTTP_1_1_REQUIRED` or `REFUSED_STREAM`)
+│                        │       │                   leading to a use after
+│                        │       │                   free of a `struct Curl_easy` object. 
+│                        │       ├ Severity        : HIGH 
+│                        │       ├ CweIDs                  
+│                        │       │                  ───────
+│                        │       │                  CWE-416
+│                        │       │                  
+│                        │       ├ VendorSeverity   ─ ubuntu: 3 
+│                        │       ├ References                                                      
+│                        │       │                  ───────────────────────────────────────────────
+│                        │       │                  https://curl.se/docs/CVE-2026-92392.html       
+│                        │       │                  https://curl.se/docs/CVE-2026-92392.json       
+│                        │       │                  https://hackerone.com/reports/4030333          
+│                        │       │                  https://ubuntu.com/security/notices/USN-8927-1 
+│                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-92392
+│                        │       │                  
+│                        │       ├ PublishedDate   : 2026-10-14T08:17:05.997Z 
+│                        │       ╰ LastModifiedDate: 2026-10-15T11:18:03.6Z 
+│                        ├ [257] ╭ VulnerabilityID : CVE-2026-10536 
 │                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : libcurl4t64 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
@@ -15660,7 +16210,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-03T07:16:23.563Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:25.137Z 
-│                        ├ [257] ╭ VulnerabilityID : CVE-2026-11856 
+│                        ├ [258] ╭ VulnerabilityID : CVE-2026-11856 
 │                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : libcurl4t64 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
@@ -15745,7 +16295,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-03T07:16:23.973Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:25.87Z 
-│                        ├ [258] ╭ VulnerabilityID : CVE-2026-19931 
+│                        ├ [259] ╭ VulnerabilityID : CVE-2026-19931 
 │                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : libcurl4t64 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
@@ -15794,7 +16344,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-09-06T18:17:20.733Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:27.29Z 
-│                        ├ [259] ╭ VulnerabilityID : CVE-2026-80229 
+│                        ├ [260] ╭ VulnerabilityID : CVE-2026-80229 
 │                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : libcurl4t64 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
@@ -15846,7 +16396,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-09-06T18:17:22.217Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:30.157Z 
-│                        ├ [260] ╭ VulnerabilityID : CVE-2026-8924 
+│                        ├ [261] ╭ VulnerabilityID : CVE-2026-8924 
 │                        │       ├ VendorIDs                  
 │                        │       │                  ──────────
 │                        │       │                  DSA-6558-1
@@ -15934,7 +16484,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-03T07:16:24.793Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:32.573Z 
-│                        ├ [261] ╭ VulnerabilityID : CVE-2026-8926 
+│                        ├ [262] ╭ VulnerabilityID : CVE-2026-8926 
 │                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : libcurl4t64 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
@@ -16022,7 +16572,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-03T07:16:25.037Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:32.98Z 
-│                        ├ [262] ╭ VulnerabilityID : CVE-2026-8932 
+│                        ├ [263] ╭ VulnerabilityID : CVE-2026-8932 
 │                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : libcurl4t64 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
@@ -16117,7 +16667,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-03T07:16:25.363Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:33.407Z 
-│                        ├ [263] ╭ VulnerabilityID : CVE-2026-9079 
+│                        ├ [264] ╭ VulnerabilityID : CVE-2026-9079 
 │                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : libcurl4t64 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
@@ -16202,7 +16752,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-03T07:16:25.62Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:34.597Z 
-│                        ├ [264] ╭ VulnerabilityID : CVE-2026-9080 
+│                        ├ [265] ╭ VulnerabilityID : CVE-2026-9080 
 │                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : libcurl4t64 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
@@ -16260,7 +16810,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-03T07:16:25.713Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:34.767Z 
-│                        ├ [265] ╭ VulnerabilityID : CVE-2026-9545 
+│                        ├ [266] ╭ VulnerabilityID : CVE-2026-9545 
 │                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : libcurl4t64 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
@@ -16329,7 +16879,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-03T07:16:25.807Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:34.947Z 
-│                        ├ [266] ╭ VulnerabilityID : CVE-2025-10966 
+│                        ├ [267] ╭ VulnerabilityID : CVE-2025-10966 
 │                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : libcurl4t64 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
@@ -16399,7 +16949,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2025-11-07T08:15:39.617Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:23.317Z 
-│                        ├ [267] ╭ VulnerabilityID : CVE-2025-14017 
+│                        ├ [268] ╭ VulnerabilityID : CVE-2025-14017 
 │                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : libcurl4t64 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
@@ -16465,7 +17015,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-01-08T10:15:45.667Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:23.753Z 
-│                        ├ [268] ╭ VulnerabilityID : CVE-2025-15079 
+│                        ├ [269] ╭ VulnerabilityID : CVE-2025-15079 
 │                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : libcurl4t64 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
@@ -16524,8 +17074,8 @@
 │                        │       │                  https://www.cve.org/CVERecord?id=CVE-2025-15079        
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-01-08T10:15:47.1Z 
-│                        │       ╰ LastModifiedDate: 2026-09-15T07:16:24.467Z 
-│                        ├ [269] ╭ VulnerabilityID : CVE-2025-15224 
+│                        │       ╰ LastModifiedDate: 2026-10-14T16:10:00.25Z 
+│                        ├ [270] ╭ VulnerabilityID : CVE-2025-15224 
 │                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : libcurl4t64 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
@@ -16582,8 +17132,78 @@
 │                        │       │                  https://www.cve.org/CVERecord?id=CVE-2025-15224        
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-01-08T10:15:47.207Z 
-│                        │       ╰ LastModifiedDate: 2026-09-15T07:16:24.69Z 
-│                        ├ [270] ╭ VulnerabilityID : CVE-2026-13608 
+│                        │       ╰ LastModifiedDate: 2026-10-14T19:10:00.297Z 
+│                        ├ [271] ╭ VulnerabilityID : CVE-2026-107928 
+│                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : libcurl4t64 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
+│                        │       │                  │       amd64&distro=debian-13.7 
+│                        │       │                  ╰ UID : ab153f3653d8b71e 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-107928 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:60c84ed8b2d74174dd5fee36c14739d8c8716bf647e40257c83
+│                        │       │                   3647bc8a5e79a 
+│                        │       ├ Title           : info leak uploading over WebSockets with GnuTLS 
+│                        │       ├ Description     : When curl is built with GnuTLS, a malicious WebSocket
+│                        │       │                   server can make curl send memory past its send buffer.
+│                        │       │                   This is due to an out of bounds read following when
+│                        │       │                   `gnutls_record_send()` returns a number of bytes sent
+│                        │       │                   greater than the number of bytes it was given to send.
+│                        │       │                   GnuTLS does that after a blocked send. 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                       
+│                        │                          ────────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-107928.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1  
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-107928
+│                        │                          
+│                        ├ [272] ╭ VulnerabilityID : CVE-2026-107929 
+│                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : libcurl4t64 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
+│                        │       │                  │       amd64&distro=debian-13.7 
+│                        │       │                  ╰ UID : ab153f3653d8b71e 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-107929 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:7ed1682efcb97a7508e656db50e72ec853b3342e6b33196993b
+│                        │       │                   705f0caf730d2 
+│                        │       ├ Title           : When `CURLOPT_INTERFACE` (or the command line tool's
+│                        │       │                   `--interface 
+│                        │       ├ Description     : When `CURLOPT_INTERFACE` (or the command line tool's
+│                        │       │                   `--interface` option) is set with one of the documented
+│                        │       │                   prefixes (`if!`, `host!`, `ifhost!`), that binding is not
+│                        │       │                   part of the connection reuse key, so a later transfer
+│                        │       │                   asking for a different source can silently reuse an
+│                        │       │                   existing connection and go out from the earlier transfer's
+│                        │       │                    source address. 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                       
+│                        │                          ────────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-107929.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1  
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-107929
+│                        │                          
+│                        ├ [273] ╭ VulnerabilityID : CVE-2026-13608 
 │                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : libcurl4t64 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
@@ -16643,7 +17263,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-09-06T18:17:19.81Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:26.353Z 
-│                        ├ [271] ╭ VulnerabilityID : CVE-2026-18924 
+│                        ├ [274] ╭ VulnerabilityID : CVE-2026-18924 
 │                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : libcurl4t64 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
@@ -16698,7 +17318,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-09-06T18:17:20.553Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:27.063Z 
-│                        ├ [272] ╭ VulnerabilityID : CVE-2026-80230 
+│                        ├ [275] ╭ VulnerabilityID : CVE-2026-80230 
 │                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : libcurl4t64 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
@@ -16734,7 +17354,7 @@
 │                        │       ├ Severity        : LOW 
 │                        │       ├ CweIDs                  
 │                        │       │                  ───────
-│                        │       │                  CWE-405
+│                        │       │                  CWE-295
 │                        │       │                  
 │                        │       ├ VendorSeverity   ╭ amazon: 3 
 │                        │       │                  ├ photon: 3 
@@ -16756,7 +17376,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-09-06T18:17:22.327Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:30.337Z 
-│                        ├ [273] ╭ VulnerabilityID : CVE-2026-80255 
+│                        ├ [276] ╭ VulnerabilityID : CVE-2026-80255 
 │                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : libcurl4t64 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
@@ -16809,7 +17429,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-09-06T18:17:22.623Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:30.77Z 
-│                        ├ [274] ╭ VulnerabilityID : CVE-2026-82208 
+│                        ├ [277] ╭ VulnerabilityID : CVE-2026-82208 
 │                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : libcurl4t64 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
@@ -16841,9 +17461,9 @@
 │                        │       │                   callback-selected store is
 │                        │       │                   then incorrectly accepted. 
 │                        │       ├ Severity        : LOW 
-│                        │       ├ CweIDs                       
-│                        │       │                  ────────────
-│                        │       │                  GO-2026-6608
+│                        │       ├ CweIDs                  
+│                        │       │                  ───────
+│                        │       │                  CWE-295
 │                        │       │                  
 │                        │       ├ VendorSeverity   ╭ debian: 1 
 │                        │       │                  ├ photon: 3 
@@ -16862,7 +17482,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-09-06T18:17:22.733Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:31.05Z 
-│                        ├ [275] ╭ VulnerabilityID : CVE-2026-82209 
+│                        ├ [278] ╭ VulnerabilityID : CVE-2026-82209 
 │                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : libcurl4t64 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
@@ -16929,7 +17549,251 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-09-06T18:17:22.847Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:31.233Z 
-│                        ├ [276] ╭ VulnerabilityID : CVE-2026-87866 
+│                        ├ [279] ╭ VulnerabilityID : CVE-2026-86409 
+│                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : libcurl4t64 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
+│                        │       │                  │       amd64&distro=debian-13.7 
+│                        │       │                  ╰ UID : ab153f3653d8b71e 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-86409 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:1f32be79a0190ffd93a850b25662d96643fcb5835e0b9bb01d8
+│                        │       │                   bea7d1958b5ed 
+│                        │       ├ Title           : Setting `CURLOPT_AWS_SIGV4` to NULL does not disable SigV4
+│                        │       │                    authen 
+│                        │       ├ Description     : Setting `CURLOPT_AWS_SIGV4` to NULL does not disable SigV4
+│                        │       │                    authentication, contrary to expectations and
+│                        │       │                   documentation. A subsequent transfer on the same handle
+│                        │       │                   still sends an `Authorization: AWS4-HMAC-SHA256` header to
+│                        │       │                    whatever URL is set next, leaking state information. 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                      
+│                        │                          ───────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-86409.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1 
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-86409
+│                        │                          
+│                        ├ [280] ╭ VulnerabilityID : CVE-2026-86410 
+│                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : libcurl4t64 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
+│                        │       │                  │       amd64&distro=debian-13.7 
+│                        │       │                  ╰ UID : ab153f3653d8b71e 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-86410 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:190efb85257c287e0d4e88e8fa1662d54a623c39a4ceee6a358
+│                        │       │                   4a6039165e0bb 
+│                        │       ├ Title           : Title Not Available 
+│                        │       ├ Description     : A flaw in the curl command line tool's logic makes it only
+│                        │       │                    set SSH host verification options when interacting
+│                        │       │                   directly using SFTP or SCP, and not as a result of
+│                        │       │                   following a redirect. This means `--knownhosts`,
+│                        │       │                   `--hostpubsha256`, and `--hostpubmd5` are never installed
+│                        │       │                   when the initial URL is HTTPS. If `--location` and
+│                        │       │                   `--proto-redir +sftp` is used and the server returns a
+│                        │       │                   `Location: sftp://example.com` redirect, the SFTP
+│                        │       │                   connection proceeds without any of the user's requested
+│                        │       │                   SSH host verification methods. 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                      
+│                        │                          ───────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-86410.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1 
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-86410
+│                        │                          
+│                        ├ [281] ╭ VulnerabilityID : CVE-2026-86414 
+│                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : libcurl4t64 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
+│                        │       │                  │       amd64&distro=debian-13.7 
+│                        │       │                  ╰ UID : ab153f3653d8b71e 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-86414 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:ee78ceae00417225188b7b4f0b7f5f1be9dc1458c106c8abb3d
+│                        │       │                   a4dfffc3b589a 
+│                        │       ├ Title           : curl: curl: leaking host credentials to HTTP proxy 
+│                        │       ├ Description     : A HTTP proxy can trick libcurl into sending the origin's
+│                        │       │                   credentials (Basic password, or a Negotiate/Kerberos
+│                        │       │                   ticket) to the proxy itself, by answering the `CONNECT`
+│                        │       │                   tunnel request with 401 `WWW-Authenticate:` instead of the
+│                        │       │                    expected 407 `Proxy-Authenticate:`. 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                      
+│                        │                          ───────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-86414.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1 
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-86414
+│                        │                          
+│                        ├ [282] ╭ VulnerabilityID : CVE-2026-87862 
+│                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : libcurl4t64 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
+│                        │       │                  │       amd64&distro=debian-13.7 
+│                        │       │                  ╰ UID : ab153f3653d8b71e 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-87862 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:6600d75899c06fc21f576f94fbede59ea4326475404e459e777
+│                        │       │                   9cc8e6e88bf6d 
+│                        │       ├ Description     : Importing a `includeSubDomains` parent HSTS entry before a
+│                        │       │                    longer-lived child entry, silently drops the child.
+│                        │       │                   Consequently, when the parent expires, the child's valid
+│                        │       │                   HSTS policy is lost, causing curl to issue unencrypted
+│                        │       │                   HTTP requests rather than upgrading to HTTPS. 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                      
+│                        │                          ───────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-87862.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1 
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-87862
+│                        │                          
+│                        ├ [283] ╭ VulnerabilityID : CVE-2026-87863 
+│                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : libcurl4t64 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
+│                        │       │                  │       amd64&distro=debian-13.7 
+│                        │       │                  ╰ UID : ab153f3653d8b71e 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-87863 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:22b377473bf8119c46d7303130f5b403dbd6b25b8171b736532
+│                        │       │                   9a2709e47628c 
+│                        │       ├ Title           : An authenticated HTTPS origin can supply an HSTS `max-age`
+│                        │       │                    value  
+│                        │       ├ Description     : An authenticated HTTPS origin can supply an HSTS `max-age`
+│                        │       │                    value that the parser accepts, but time serialization
+│                        │       │                   later fails to process. On 64-bit systems, extreme max-age
+│                        │       │                    values compute an absolute expiry within standard time
+│                        │       │                   integer limits that exceeds calendar time structure
+│                        │       │                   bounds. During cache saves, the original HSTS file is
+│                        │       │                   truncated before writing a temporary replacement; when
+│                        │       │                   serialization fails, the temporary file is deleted,
+│                        │       │                   leaving an empty or partial cache. Because the save error
+│                        │       │                   is silently ignored during cleanup, curl exits
+│                        │       │                   successfully despite the data loss. 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                      
+│                        │                          ───────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-87863.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1 
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-87863
+│                        │                          
+│                        ├ [284] ╭ VulnerabilityID : CVE-2026-87864 
+│                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : libcurl4t64 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
+│                        │       │                  │       amd64&distro=debian-13.7 
+│                        │       │                  ╰ UID : ab153f3653d8b71e 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-87864 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:bc4e3f0fe6e482465a7fa5256481b5c56fcf334454b0657f6b4
+│                        │       │                   80d75edb37448 
+│                        │       ├ Title           : Enabling `CURLOPT_CRLF` causes curl to advertise the raw
+│                        │       │                   input by 
+│                        │       ├ Description     : Enabling `CURLOPT_CRLF` causes curl to advertise the raw
+│                        │       │                   input byte count in the `IMAP APPEND {N}` literal while
+│                        │       │                   transmitting line-ending expanded data. The server reads
+│                        │       │                   only N bytes for the payload, causing the remaining
+│                        │       │                   overflow bytes to be interpreted and executed as pipelined
+│                        │       │                    IMAP commands within the authenticated session. 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                      
+│                        │                          ───────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-87864.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1 
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-87864
+│                        │                          
+│                        ├ [285] ╭ VulnerabilityID : CVE-2026-87865 
+│                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : libcurl4t64 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
+│                        │       │                  │       amd64&distro=debian-13.7 
+│                        │       │                  ╰ UID : ab153f3653d8b71e 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-87865 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:9cb5988d5479b99243055209e6122a0515ab76604a006b55505
+│                        │       │                   de5e0d2fd2cbb 
+│                        │       ├ Title           : Title Not Available 
+│                        │       ├ Description     : When libcurl uses libssh2 with a hashed `known_hosts`
+│                        │       │                   file, an unrelated initial entry can cause host key
+│                        │       │                   validation to report a key *mismatch* as a *missing* key
+│                        │       │                   to the `CURLOPT_SSH_KEYFUNCTION` callback. 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                      
+│                        │                          ───────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-87865.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1 
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-87865
+│                        │                          
+│                        ├ [286] ╭ VulnerabilityID : CVE-2026-87866 
 │                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : libcurl4t64 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
@@ -16949,9 +17813,276 @@
 │                        │       │                          rity-tracker 
 │                        │       ├ Fingerprint     : sha256:0fbce9040476eac0bf3179c8f5b635e0b81bf1c30b7f15db683
 │                        │       │                   ae25be60c65bc 
+│                        │       ├ Title           : wolfSSL public-key pinning bypass 
+│                        │       ├ Description     : When built with wolfSSL, curl can successfully validate a
+│                        │       │                   pinned public key hash against a key the TLS peer does not
+│                        │       │                    possess. During the TLS handshake, wolfSSL validates the
+│                        │       │                   connection, but curl's subsequent re-parsing of the same
+│                        │       │                   certificate - tricked by a manipulated validity length
+│                        │       │                   field - extracts and matches a different embedded key,
+│                        │       │                   incorrectly authorizing the pinned public key. 
 │                        │       ├ Severity        : LOW 
 │                        │       ╰ VendorSeverity   ─ debian: 1 
-│                        ├ [277] ╭ VulnerabilityID : CVE-2026-9547 
+│                        ├ [287] ╭ VulnerabilityID : CVE-2026-92386 
+│                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : libcurl4t64 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
+│                        │       │                  │       amd64&distro=debian-13.7 
+│                        │       │                  ╰ UID : ab153f3653d8b71e 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-92386 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:430cc3cda5ce106250805226d178012aa83d81a8e24ce5272c8
+│                        │       │                   621cd980a4939 
+│                        │       ├ Title           : Title Not Available 
+│                        │       ├ Description     : When writing a long cookie name and value to a Netscape
+│                        │       │                   cookie jar, a remote HTTP server can make `curl` write a
+│                        │       │                   record that exceeds its line-length parsing limit.
+│                        │       │                   Consequently, any subsequent `curl` invocation reading
+│                        │       │                   from that same cookie jar using `--cookie` will silently
+│                        │       │                   abort parsing prematurely upon encountering the oversized
+│                        │       │                   line, ignoring all subsequent valid cookies in the file.[
+│                        │       │                   m 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                      
+│                        │                          ───────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-92386.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1 
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-92386
+│                        │                          
+│                        ├ [288] ╭ VulnerabilityID : CVE-2026-92387 
+│                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : libcurl4t64 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
+│                        │       │                  │       amd64&distro=debian-13.7 
+│                        │       │                  ╰ UID : ab153f3653d8b71e 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-92387 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:57e3cd53c18a1d709fd8ad8b0cc55345b7de32907daf3a8fce3
+│                        │       │                   40d8a5df1175e 
+│                        │       ├ Description     : By permanently omitting the final control-response line, a
+│                        │       │                    malicious FTP, IMAP, POP3, or SMTP server can exploit
+│                        │       │                   libcurl and completely bypass its configured transfer
+│                        │       │                   timeout mechanism, indefinitely blocking all concurrent
+│                        │       │                   transfers bound to the same multi-handle. 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                      
+│                        │                          ───────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-92387.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1 
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-92387
+│                        │                          
+│                        ├ [289] ╭ VulnerabilityID : CVE-2026-92388 
+│                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : libcurl4t64 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
+│                        │       │                  │       amd64&distro=debian-13.7 
+│                        │       │                  ╰ UID : ab153f3653d8b71e 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-92388 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:30fa909fe6118892c5025f0be94337c83e84ccd5519578710b0
+│                        │       │                   3f9b20373ffff 
+│                        │       ├ Title           : Title Not Available 
+│                        │       ├ Description     : When an FTP wildcard `LIST` operation fails, libcurl omits
+│                        │       │                    the restoration path meant for successful listings,
+│                        │       │                   leaving the write callback set to the internal listing
+│                        │       │                   parser and the write callback data pointing directly to
+│                        │       │                   the easy handle. Subsequent reuse of this handle triggers
+│                        │       │                   an immediate crash, and cloning it via
+│                        │       │                   `curl_easy_duphandle()` copies this corrupted state into
+│                        │       │                   the duplicate. If the original handle is subsequently
+│                        │       │                   freed, executing a transfer on the cloned handle causes a
+│                        │       │                   heap use-after-free read against the dangling handle
+│                        │       │                   reference; alternatively, reusing the original or cloned
+│                        │       │                   handle while reconfiguring only `CURLOPT_WRITEDATA` (and
+│                        │       │                   omitting `CURLOPT_WRITEFUNCTION`) results in type
+│                        │       │                   confusion, forcing the internal parser to interpret
+│                        │       │                   incoming server response bytes into memory at the
+│                        │       │                   application-supplied write data pointer. 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                      
+│                        │                          ───────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-92388.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1 
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-92388
+│                        │                          
+│                        ├ [290] ╭ VulnerabilityID : CVE-2026-92389 
+│                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : libcurl4t64 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
+│                        │       │                  │       amd64&distro=debian-13.7 
+│                        │       │                  ╰ UID : ab153f3653d8b71e 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-92389 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:8a74f7b789225191216dace60a55f9e85b11df70746e8ac0e05
+│                        │       │                   86280bd445a84 
+│                        │       ├ Title           : libcurl's TFTP state machine fails to validate state
+│                        │       │                   transitions  
+│                        │       ├ Description     : libcurl's TFTP state machine fails to validate state
+│                        │       │                   transitions against the requested transfer direction,
+│                        │       │                   accepting opening server responses for both reads and
+│                        │       │                   writes interchangeably. A malicious TFTP server can
+│                        │       │                   respond to a download request in a way that forces the
+│                        │       │                   client into transmit mode, prompting libcurl to consume
+│                        │       │                   and transmit data from the handle's persistent
+│                        │       │                   `CURLOPT_READDATA` pointer - including data remaining from
+│                        │       │                    unrelated prior operations, such as an HTTP POST request
+│                        │       │                   executed on a reused handle. 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                      
+│                        │                          ───────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-92389.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1 
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-92389
+│                        │                          
+│                        ├ [291] ╭ VulnerabilityID : CVE-2026-92390 
+│                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : libcurl4t64 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
+│                        │       │                  │       amd64&distro=debian-13.7 
+│                        │       │                  ╰ UID : ab153f3653d8b71e 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-92390 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:36a915b60c7d9e8a69c489976421048bc003a786777a0051a8c
+│                        │       │                   dca29db91d599 
+│                        │       ├ Title           : Title Not Available 
+│                        │       ├ Description     : When invoked with `--remote-header-name` (`-J`), curl
+│                        │       │                   fails to preserve its documented anti-clobbering
+│                        │       │                   protection if an intermediate 103 Early Hints response
+│                        │       │                   precedes the final HTTP response, or if an `ETag` header
+│                        │       │                   is processed before `Content-Disposition` under
+│                        │       │                   `--etag-save`. This flaw allows an HTTP(S) server to
+│                        │       │                   overwrite an existing local file specified in the
+│                        │       │                   `Content-Disposition` header despite the presence of the
+│                        │       │                   `-J` non-overwrite constraint. 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                      
+│                        │                          ───────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-92390.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1 
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-92390
+│                        │                          
+│                        ├ [292] ╭ VulnerabilityID : CVE-2026-92391 
+│                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : libcurl4t64 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
+│                        │       │                  │       amd64&distro=debian-13.7 
+│                        │       │                  ╰ UID : ab153f3653d8b71e 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-92391 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:86e0301403387857408af3f792b52e4b591f484eb2950ecf705
+│                        │       │                   a3203b1ae466c 
+│                        │       ├ Title           : curl_mime_free stack overflow by recursion 
+│                        │       ├ Description     : A deeply nested multipart MIME structure constructed via
+│                        │       │                   the public API causes a stack overflow in libcurl during
+│                        │       │                   normal cleanup operations. An excessive recursion depth
+│                        │       │                   within `curl_mime_free` leads to unbounded stack frame
+│                        │       │                   allocation during structure traversal, ultimately crashing
+│                        │       │                    the host process. 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                      
+│                        │                          ───────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-92391.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1 
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-92391
+│                        │                          
+│                        ├ [293] ╭ VulnerabilityID : CVE-2026-94266 
+│                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
+│                        │       ├ PkgName         : libcurl4t64 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
+│                        │       │                  │       amd64&distro=debian-13.7 
+│                        │       │                  ╰ UID : ab153f3653d8b71e 
+│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-94266 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:a5d6e9223426551e96e4d2ab256e57b1ad8c0f6ccb97b0a5e4f
+│                        │       │                   34824e92b2278 
+│                        │       ├ Title           : libcurl could accidentally return a URL for
+│                        │       │                   curl_easy_getinfo's ` 
+│                        │       ├ Description     : libcurl could accidentally return a URL for
+│                        │       │                   curl_easy_getinfo's `CURLINFO_EFFECTIVE_URL` option
+│                        │       │                   containing credentials, even though neither the URL
+│                        │       │                   provided to libcurl nor the redirected URL did. The curl
+│                        │       │                   tool exposes the same information using the command line
+│                        │       │                   option `--write-out '%{url_effective}'`. This credential
+│                        │       │                   leak can happen when curl retrieves credentials from a
+│                        │       │                   `.netrc` file. 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ VendorSeverity   ─ ubuntu: 1 
+│                        │       ╰ References                                                      
+│                        │                          ───────────────────────────────────────────────
+│                        │                          https://curl.se/docs/CVE-2026-94266.html       
+│                        │                          https://ubuntu.com/security/notices/USN-8927-1 
+│                        │                          https://www.cve.org/CVERecord?id=CVE-2026-94266
+│                        │                          
+│                        ├ [294] ╭ VulnerabilityID : CVE-2026-9547 
 │                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
 │                        │       ├ PkgName         : libcurl4t64 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
@@ -17038,364 +18169,6 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-03T07:16:25.99Z 
 │                        │       ╰ LastModifiedDate: 2026-09-15T07:16:35.31Z 
-│                        ├ [278] ╭ VulnerabilityID : CVE-2026-107928 
-│                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : libcurl4t64 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
-│                        │       │                  │       amd64&distro=debian-13.7 
-│                        │       │                  ╰ UID : ab153f3653d8b71e 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-107928 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:60c84ed8b2d74174dd5fee36c14739d8c8716bf647e40257c83
-│                        │       │                   3647bc8a5e79a 
-│                        │       ╰ Severity        : UNKNOWN 
-│                        ├ [279] ╭ VulnerabilityID : CVE-2026-107929 
-│                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : libcurl4t64 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
-│                        │       │                  │       amd64&distro=debian-13.7 
-│                        │       │                  ╰ UID : ab153f3653d8b71e 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-107929 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:7ed1682efcb97a7508e656db50e72ec853b3342e6b33196993b
-│                        │       │                   705f0caf730d2 
-│                        │       ╰ Severity        : UNKNOWN 
-│                        ├ [280] ╭ VulnerabilityID : CVE-2026-86409 
-│                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : libcurl4t64 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
-│                        │       │                  │       amd64&distro=debian-13.7 
-│                        │       │                  ╰ UID : ab153f3653d8b71e 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-86409 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:1f32be79a0190ffd93a850b25662d96643fcb5835e0b9bb01d8
-│                        │       │                   bea7d1958b5ed 
-│                        │       ╰ Severity        : UNKNOWN 
-│                        ├ [281] ╭ VulnerabilityID : CVE-2026-86410 
-│                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : libcurl4t64 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
-│                        │       │                  │       amd64&distro=debian-13.7 
-│                        │       │                  ╰ UID : ab153f3653d8b71e 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-86410 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:190efb85257c287e0d4e88e8fa1662d54a623c39a4ceee6a358
-│                        │       │                   4a6039165e0bb 
-│                        │       ╰ Severity        : UNKNOWN 
-│                        ├ [282] ╭ VulnerabilityID : CVE-2026-86414 
-│                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : libcurl4t64 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
-│                        │       │                  │       amd64&distro=debian-13.7 
-│                        │       │                  ╰ UID : ab153f3653d8b71e 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-86414 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:ee78ceae00417225188b7b4f0b7f5f1be9dc1458c106c8abb3d
-│                        │       │                   a4dfffc3b589a 
-│                        │       ╰ Severity        : UNKNOWN 
-│                        ├ [283] ╭ VulnerabilityID : CVE-2026-87862 
-│                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : libcurl4t64 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
-│                        │       │                  │       amd64&distro=debian-13.7 
-│                        │       │                  ╰ UID : ab153f3653d8b71e 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-87862 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:6600d75899c06fc21f576f94fbede59ea4326475404e459e777
-│                        │       │                   9cc8e6e88bf6d 
-│                        │       ╰ Severity        : UNKNOWN 
-│                        ├ [284] ╭ VulnerabilityID : CVE-2026-87863 
-│                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : libcurl4t64 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
-│                        │       │                  │       amd64&distro=debian-13.7 
-│                        │       │                  ╰ UID : ab153f3653d8b71e 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-87863 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:22b377473bf8119c46d7303130f5b403dbd6b25b8171b736532
-│                        │       │                   9a2709e47628c 
-│                        │       ╰ Severity        : UNKNOWN 
-│                        ├ [285] ╭ VulnerabilityID : CVE-2026-87864 
-│                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : libcurl4t64 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
-│                        │       │                  │       amd64&distro=debian-13.7 
-│                        │       │                  ╰ UID : ab153f3653d8b71e 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-87864 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:bc4e3f0fe6e482465a7fa5256481b5c56fcf334454b0657f6b4
-│                        │       │                   80d75edb37448 
-│                        │       ╰ Severity        : UNKNOWN 
-│                        ├ [286] ╭ VulnerabilityID : CVE-2026-87865 
-│                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : libcurl4t64 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
-│                        │       │                  │       amd64&distro=debian-13.7 
-│                        │       │                  ╰ UID : ab153f3653d8b71e 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-87865 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:9cb5988d5479b99243055209e6122a0515ab76604a006b55505
-│                        │       │                   de5e0d2fd2cbb 
-│                        │       ╰ Severity        : UNKNOWN 
-│                        ├ [287] ╭ VulnerabilityID : CVE-2026-92386 
-│                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : libcurl4t64 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
-│                        │       │                  │       amd64&distro=debian-13.7 
-│                        │       │                  ╰ UID : ab153f3653d8b71e 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-92386 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:430cc3cda5ce106250805226d178012aa83d81a8e24ce5272c8
-│                        │       │                   621cd980a4939 
-│                        │       ╰ Severity        : UNKNOWN 
-│                        ├ [288] ╭ VulnerabilityID : CVE-2026-92387 
-│                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : libcurl4t64 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
-│                        │       │                  │       amd64&distro=debian-13.7 
-│                        │       │                  ╰ UID : ab153f3653d8b71e 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-92387 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:57e3cd53c18a1d709fd8ad8b0cc55345b7de32907daf3a8fce3
-│                        │       │                   40d8a5df1175e 
-│                        │       ╰ Severity        : UNKNOWN 
-│                        ├ [289] ╭ VulnerabilityID : CVE-2026-92388 
-│                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : libcurl4t64 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
-│                        │       │                  │       amd64&distro=debian-13.7 
-│                        │       │                  ╰ UID : ab153f3653d8b71e 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-92388 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:30fa909fe6118892c5025f0be94337c83e84ccd5519578710b0
-│                        │       │                   3f9b20373ffff 
-│                        │       ╰ Severity        : UNKNOWN 
-│                        ├ [290] ╭ VulnerabilityID : CVE-2026-92389 
-│                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : libcurl4t64 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
-│                        │       │                  │       amd64&distro=debian-13.7 
-│                        │       │                  ╰ UID : ab153f3653d8b71e 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-92389 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:8a74f7b789225191216dace60a55f9e85b11df70746e8ac0e05
-│                        │       │                   86280bd445a84 
-│                        │       ╰ Severity        : UNKNOWN 
-│                        ├ [291] ╭ VulnerabilityID : CVE-2026-92390 
-│                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : libcurl4t64 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
-│                        │       │                  │       amd64&distro=debian-13.7 
-│                        │       │                  ╰ UID : ab153f3653d8b71e 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-92390 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:36a915b60c7d9e8a69c489976421048bc003a786777a0051a8c
-│                        │       │                   dca29db91d599 
-│                        │       ╰ Severity        : UNKNOWN 
-│                        ├ [292] ╭ VulnerabilityID : CVE-2026-92391 
-│                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : libcurl4t64 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
-│                        │       │                  │       amd64&distro=debian-13.7 
-│                        │       │                  ╰ UID : ab153f3653d8b71e 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-92391 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:86e0301403387857408af3f792b52e4b591f484eb2950ecf705
-│                        │       │                   a3203b1ae466c 
-│                        │       ╰ Severity        : UNKNOWN 
-│                        ├ [293] ╭ VulnerabilityID : CVE-2026-92392 
-│                        │       ├ VendorIDs                  
-│                        │       │                  ──────────
-│                        │       │                  DSA-6558-1
-│                        │       │                  
-│                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : libcurl4t64 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
-│                        │       │                  │       amd64&distro=debian-13.7 
-│                        │       │                  ╰ UID : ab153f3653d8b71e 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ FixedVersion    : 8.14.1-2+deb13u7 
-│                        │       ├ Status          : fixed 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-92392 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:8308e3225faba820845fcb80a831010593a04c5d33389f1ecee
-│                        │       │                   4ca2e5255c316 
-│                        │       ├ Description     : During an upload, curl mishandles HTTP/2 `RST_STREAM`
-│                        │       │                   received from the server
-│                        │       │                   (with reason `HTTP_1_1_REQUIRED` or `REFUSED_STREAM`)
-│                        │       │                   leading to a use after
-│                        │       │                   free of a `struct Curl_easy` object. 
-│                        │       ├ Severity        : UNKNOWN 
-│                        │       ├ References                                               
-│                        │       │                  ────────────────────────────────────────
-│                        │       │                  https://curl.se/docs/CVE-2026-92392.html
-│                        │       │                  https://curl.se/docs/CVE-2026-92392.json
-│                        │       │                  https://hackerone.com/reports/4030333   
-│                        │       │                  
-│                        │       ├ PublishedDate   : 2026-10-14T08:17:05.997Z 
-│                        │       ╰ LastModifiedDate: 2026-10-14T08:17:05.997Z 
-│                        ├ [294] ╭ VulnerabilityID : CVE-2026-94266 
-│                        │       ├ PkgID           : libcurl4t64@8.14.1-2+deb13u5 
-│                        │       ├ PkgName         : libcurl4t64 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/libcurl4t64@8.14.1-2%2Bdeb13u5?arch=
-│                        │       │                  │       amd64&distro=debian-13.7 
-│                        │       │                  ╰ UID : ab153f3653d8b71e 
-│                        │       ├ InstalledVersion: 8.14.1-2+deb13u5 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-94266 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:a5d6e9223426551e96e4d2ab256e57b1ad8c0f6ccb97b0a5e4f
-│                        │       │                   34824e92b2278 
-│                        │       ╰ Severity        : UNKNOWN 
 │                        ├ [295] ╭ VulnerabilityID : CVE-2026-19617 
 │                        │       ├ PkgID           : libdevmapper1.02.1@2:1.02.205-2 
 │                        │       ├ PkgName         : libdevmapper1.02.1 
@@ -18567,7 +19340,10 @@
 │                        │       │                  https://bugzilla.redhat.com/2245218                        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2245218        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2268268        
+│                        │       │                  https://cert-portal.siemens.com/productcert/html/ssa-398330
+│                        │       │                  .html                                                      
 │                        │       │                  https://creativecommons.org/licenses/by/4.0/               
+│                        │       │                                                                             
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-223
 │                        │       │                  6                                                          
 │                        │       │                  https://dev.gnupg.org/T7136                                
@@ -18594,7 +19370,7 @@
 │                        │       │                                                                             
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2024-03-06T22:15:57.977Z 
-│                        │       ╰ LastModifiedDate: 2026-10-13T21:17:13.55Z 
+│                        │       ╰ LastModifiedDate: 2026-10-15T01:17:43.13Z 
 │                        ├ [314] ╭ VulnerabilityID : CVE-2011-3389 
 │                        │       ├ PkgID           : libgnutls30t64@3.8.9-3+deb13u4 
 │                        │       ├ PkgName         : libgnutls30t64 
@@ -21091,9 +21867,9 @@
 │                        │       │                    escalation. This flaw affects util-linux versions prior
 │                        │       │                   to 2.37.4. 
 │                        │       ├ Severity        : LOW 
-│                        │       ├ CweIDs                                                                
-│                        │       │                  ─────────────────────────────────────────────────────
-│                        │       │                  https://access.redhat.com/security/cve/CVE-2026-42505
+│                        │       ├ CweIDs                  
+│                        │       │                  ───────
+│                        │       │                  CWE-209
 │                        │       │                  
 │                        │       ├ VendorSeverity   ╭ amazon      : 2 
 │                        │       │                  ├ bottlerocket: 2 
@@ -21120,6 +21896,8 @@
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2022-0563       
 │                        │       │                  https://blog.trailofbits.com/2023/02/16/suid-logic-bug-linu
 │                        │       │                  x-readline/                                                
+│                        │       │                  https://cert-portal.siemens.com/productcert/html/ssa-398330
+│                        │       │                  .html                                                      
 │                        │       │                  https://github.com/bottlerocket-os/bottlerocket/security/ad
 │                        │       │                  visories/GHSA-mv4q-wq4c-5xmg                               
 │                        │       │                  https://lore.kernel.org/util-linux/20220214110609.msiwlm457
@@ -21134,7 +21912,7 @@
 │                        │       │                                                                             
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2022-02-21T19:15:08.393Z 
-│                        │       ╰ LastModifiedDate: 2026-06-17T04:20:51.053Z 
+│                        │       ╰ LastModifiedDate: 2026-10-14T13:17:14.167Z 
 │                        ├ [353] ╭ VulnerabilityID : CVE-2015-3276 
 │                        │       ├ PkgID           : libldap-common@2.6.10+dfsg-1 
 │                        │       ├ PkgName         : libldap-common 
@@ -21816,8 +22594,8 @@
 │                        │       │                  mdb/PYSEC-2019-236.yaml                                    
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2019-16224            
 │                        │       │                                                                             
-│                        │       │                  ***********************************************************
-│                        │       │                  ***********                                                
+│                        │       │                  https://pypi.org/project/lmdb                              
+│                        │       │                                                                             
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2019-09-11T15:15:11.263Z 
 │                        │       ╰ LastModifiedDate: 2026-06-17T02:21:56.01Z 
@@ -22464,6 +23242,8 @@
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2022-0563       
 │                        │       │                  https://blog.trailofbits.com/2023/02/16/suid-logic-bug-linu
 │                        │       │                  x-readline/                                                
+│                        │       │                  https://cert-portal.siemens.com/productcert/html/ssa-398330
+│                        │       │                  .html                                                      
 │                        │       │                  https://github.com/bottlerocket-os/bottlerocket/security/ad
 │                        │       │                  visories/GHSA-mv4q-wq4c-5xmg                               
 │                        │       │                  https://lore.kernel.org/util-linux/20220214110609.msiwlm457
@@ -22478,7 +23258,7 @@
 │                        │       │                                                                             
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2022-02-21T19:15:08.393Z 
-│                        │       ╰ LastModifiedDate: 2026-06-17T04:20:51.053Z 
+│                        │       ╰ LastModifiedDate: 2026-10-14T13:17:14.167Z 
 │                        ├ [375] ╭ VulnerabilityID : CVE-2025-69720 
 │                        │       ├ PkgID           : libncursesw6@6.5+20250216-2 
 │                        │       ├ PkgName         : libncursesw6 
@@ -23170,6 +23950,8 @@
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:82347             
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:82354             
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:82372             
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:82857             
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:82888             
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-13757        
 │                        │       │                  https://bugzilla.redhat.com/2494556                          
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2494556          
@@ -23185,7 +23967,7 @@
 │                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-13757              
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-06-29T19:16:40.907Z 
-│                        │       ╰ LastModifiedDate: 2026-10-14T03:17:21.047Z 
+│                        │       ╰ LastModifiedDate: 2026-10-14T20:17:32.733Z 
 │                        ├ [386] ╭ VulnerabilityID : CVE-2026-18938 
 │                        │       ├ PkgID           : libp11-kit0@0.25.5-3 
 │                        │       ├ PkgName         : libp11-kit0 
@@ -24200,7 +24982,8 @@
 │                        │       │                  ───────
 │                        │       │                  CWE-122
 │                        │       │                  
-│                        │       ├ VendorSeverity   ─ redhat: 2 
+│                        │       ├ VendorSeverity   ╭ redhat: 2 
+│                        │       │                  ╰ ubuntu: 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I
 │                        │       │                           │           :H/A:H 
 │                        │       │                           ╰ V3Score : 7.5 
@@ -24209,6 +24992,7 @@
 │                        │       │                  http://www.openwall.com/lists/oss-security/2026/10/09/20
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-107161  
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2460420     
+│                        │       │                  https://github.com/cyrusimap/cyrus-sasl/pull/892        
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-107161        
 │                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-107161        
 │                        │       │                  
@@ -24254,7 +25038,8 @@
 │                        │       │                  ───────
 │                        │       │                  CWE-122
 │                        │       │                  
-│                        │       ├ VendorSeverity   ─ redhat: 2 
+│                        │       ├ VendorSeverity   ╭ redhat: 2 
+│                        │       │                  ╰ ubuntu: 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I
 │                        │       │                           │           :H/A:H 
 │                        │       │                           ╰ V3Score : 7.5 
@@ -24263,6 +25048,7 @@
 │                        │       │                  http://www.openwall.com/lists/oss-security/2026/10/09/20
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-107161  
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2460420     
+│                        │       │                  https://github.com/cyrusimap/cyrus-sasl/pull/892        
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-107161        
 │                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-107161        
 │                        │       │                  
@@ -24308,7 +25094,8 @@
 │                        │       │                  ───────
 │                        │       │                  CWE-122
 │                        │       │                  
-│                        │       ├ VendorSeverity   ─ redhat: 2 
+│                        │       ├ VendorSeverity   ╭ redhat: 2 
+│                        │       │                  ╰ ubuntu: 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I
 │                        │       │                           │           :H/A:H 
 │                        │       │                           ╰ V3Score : 7.5 
@@ -24317,6 +25104,7 @@
 │                        │       │                  http://www.openwall.com/lists/oss-security/2026/10/09/20
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-107161  
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2460420     
+│                        │       │                  https://github.com/cyrusimap/cyrus-sasl/pull/892        
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-107161        
 │                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-107161        
 │                        │       │                  
@@ -24668,6 +25456,8 @@
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2022-0563       
 │                        │       │                  https://blog.trailofbits.com/2023/02/16/suid-logic-bug-linu
 │                        │       │                  x-readline/                                                
+│                        │       │                  https://cert-portal.siemens.com/productcert/html/ssa-398330
+│                        │       │                  .html                                                      
 │                        │       │                  https://github.com/bottlerocket-os/bottlerocket/security/ad
 │                        │       │                  visories/GHSA-mv4q-wq4c-5xmg                               
 │                        │       │                  https://lore.kernel.org/util-linux/20220214110609.msiwlm457
@@ -24682,7 +25472,7 @@
 │                        │       │                                                                             
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2022-02-21T19:15:08.393Z 
-│                        │       ╰ LastModifiedDate: 2026-06-17T04:20:51.053Z 
+│                        │       ╰ LastModifiedDate: 2026-10-14T13:17:14.167Z 
 │                        ├ [411] ╭ VulnerabilityID : CVE-2026-50812 
 │                        │       ├ PkgID           : libsqlite3-0@3.46.1-7+deb13u2 
 │                        │       ├ PkgName         : libsqlite3-0 
@@ -24902,6 +25692,8 @@
 │                        │       ├ References                                                                  
 │                        │       │                  ───────────────────────────────────────────────────────────
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2025-70873      
+│                        │       │                  https://cert-portal.siemens.com/productcert/html/ssa-765416
+│                        │       │                  .html                                                      
 │                        │       │                  https://gist.github.com/cnwangjihe/f496393f30f5ecec5b18c8f5
 │                        │       │                  ab072054                                                   
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2025-70873            
@@ -24914,7 +25706,7 @@
 │                        │       │                                                                             
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-03-12T19:16:15.933Z 
-│                        │       ╰ LastModifiedDate: 2026-06-17T10:03:26.283Z 
+│                        │       ╰ LastModifiedDate: 2026-10-15T02:18:16.173Z 
 │                        ├ [415] ╭ VulnerabilityID : CVE-2026-102010 
 │                        │       ├ PkgID           : libstdc++6@14.2.0-19 
 │                        │       ├ PkgName         : libstdc++6 
@@ -25120,7 +25912,10 @@
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2024-56433      
 │                        │       │                  https://bugzilla.redhat.com/2334165                        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2334165        
+│                        │       │                  https://cert-portal.siemens.com/productcert/html/ssa-398330
+│                        │       │                  .html                                                      
 │                        │       │                  https://creativecommons.org/licenses/by/4.0/               
+│                        │       │                                                                             
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-564
 │                        │       │                  33                                                         
 │                        │       │                  https://errata.almalinux.org/9/ALSA-2025-20559.html        
@@ -25143,7 +25938,7 @@
 │                        │       │                                                                             
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
-│                        │       ╰ LastModifiedDate: 2026-06-17T08:12:10.903Z 
+│                        │       ╰ LastModifiedDate: 2026-10-15T01:19:16.297Z 
 │                        ├ [419] ╭ VulnerabilityID : TEMP-0628843-DBAD28 
 │                        │       ├ PkgID           : libsubid5@1:4.17.4-2 
 │                        │       ├ PkgName         : libsubid5 
@@ -26757,6 +27552,8 @@
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2022-0563       
 │                        │       │                  https://blog.trailofbits.com/2023/02/16/suid-logic-bug-linu
 │                        │       │                  x-readline/                                                
+│                        │       │                  https://cert-portal.siemens.com/productcert/html/ssa-398330
+│                        │       │                  .html                                                      
 │                        │       │                  https://github.com/bottlerocket-os/bottlerocket/security/ad
 │                        │       │                  visories/GHSA-mv4q-wq4c-5xmg                               
 │                        │       │                  https://lore.kernel.org/util-linux/20220214110609.msiwlm457
@@ -26771,7 +27568,7 @@
 │                        │       │                                                                             
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2022-02-21T19:15:08.393Z 
-│                        │       ╰ LastModifiedDate: 2026-06-17T04:20:51.053Z 
+│                        │       ╰ LastModifiedDate: 2026-10-14T13:17:14.167Z 
 │                        ├ [449] ╭ VulnerabilityID : CVE-2026-88806 
 │                        │       ├ PkgID           : libx11-6@2:1.8.12-1 
 │                        │       ├ PkgName         : libx11-6 
@@ -27317,6 +28114,7 @@
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:72475             
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:72476             
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:79357             
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:82939             
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-74860        
 │                        │       │                  https://bugzilla.redhat.com/2528986                          
 │                        │       │                  https://bugzilla.redhat.com/2528987                          
@@ -27344,7 +28142,7 @@
 │                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-74860              
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-09-08T12:16:58.083Z 
-│                        │       ╰ LastModifiedDate: 2026-10-09T02:17:04.28Z 
+│                        │       ╰ LastModifiedDate: 2026-10-14T19:17:20.15Z 
 │                        ├ [459] ╭ VulnerabilityID : CVE-2026-86138 
 │                        │       ├ PkgID           : libxml2@2.12.7+dfsg+really2.9.14-2.1+deb13u3 
 │                        │       ├ PkgName         : libxml2 
@@ -28205,14 +29003,13 @@
 │                        │       │                  ───────────────────────────────────────────────────────────
 │                        │       │                  http://www.openwall.com/lists/oss-security/2026/08/27/6    
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:79281           
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:80798           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-18374      
 │                        │       │                  https://bugzilla.redhat.com/2513603                        
 │                        │       │                  https://bugzilla.redhat.com/2513608                        
 │                        │       │                  https://bugzilla.redhat.com/2523249                        
 │                        │       │                  https://bugzilla.redhat.com/2523274                        
 │                        │       │                  https://bugzilla.redhat.com/2524870                        
-│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2513603        
-│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2513608        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2523249        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2523274        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2524870        
@@ -28222,17 +29019,13 @@
 │                        │       │                  74                                                         
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-195
 │                        │       │                  42                                                         
-│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-636
-│                        │       │                  8                                                          
-│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-679
-│                        │       │                  1                                                          
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-771
 │                        │       │                  17                                                         
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-804
 │                        │       │                  89                                                         
 │                        │       │                  https://errata.almalinux.org/9/ALSA-2026-79281.html        
 │                        │       │                                                                             
-│                        │       │                  https://errata.rockylinux.org/RLSA-2026:79281              
+│                        │       │                  https://errata.rockylinux.org/RLSA-2026:80798              
 │                        │       │                                                                             
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-18374            
 │                        │       │                                                                             
@@ -28381,30 +29174,30 @@
 │                        │       │                           ╰ V3Score : 4.2 
 │                        │       ├ References                                                                  
 │                        │       │                  ───────────────────────────────────────────────────────────
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:76781           
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:79281           
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:80798           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-19542      
 │                        │       │                  https://bugzilla.redhat.com/2513603                        
 │                        │       │                  https://bugzilla.redhat.com/2513608                        
 │                        │       │                  https://bugzilla.redhat.com/2523249                        
 │                        │       │                  https://bugzilla.redhat.com/2523274                        
 │                        │       │                  https://bugzilla.redhat.com/2524870                        
-│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2513603        
-│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2513608        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2523249        
-│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2523258        
+│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2523274        
+│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2524870        
+│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2525256        
 │                        │       │                  https://creativecommons.org/licenses/by/4.0/               
-│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-194
-│                        │       │                  99                                                         
+│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-183
+│                        │       │                  74                                                         
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-195
 │                        │       │                  42                                                         
-│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-636
-│                        │       │                  8                                                          
-│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-679
-│                        │       │                  1                                                          
+│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-771
+│                        │       │                  17                                                         
+│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-804
+│                        │       │                  89                                                         
 │                        │       │                  https://errata.almalinux.org/9/ALSA-2026-79281.html        
 │                        │       │                                                                             
-│                        │       │                  https://errata.rockylinux.org/RLSA-2026:76781              
+│                        │       │                  https://errata.rockylinux.org/RLSA-2026:80798              
 │                        │       │                                                                             
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-19542            
 │                        │       │                                                                             
@@ -28804,14 +29597,13 @@
 │                        │       ├ References                                                                  
 │                        │       │                  ───────────────────────────────────────────────────────────
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:79281           
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:80798           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-77117      
 │                        │       │                  https://bugzilla.redhat.com/2513603                        
 │                        │       │                  https://bugzilla.redhat.com/2513608                        
 │                        │       │                  https://bugzilla.redhat.com/2523249                        
 │                        │       │                  https://bugzilla.redhat.com/2523274                        
 │                        │       │                  https://bugzilla.redhat.com/2524870                        
-│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2513603        
-│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2513608        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2523249        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2523274        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2524870        
@@ -28821,17 +29613,13 @@
 │                        │       │                  74                                                         
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-195
 │                        │       │                  42                                                         
-│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-636
-│                        │       │                  8                                                          
-│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-679
-│                        │       │                  1                                                          
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-771
 │                        │       │                  17                                                         
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-804
 │                        │       │                  89                                                         
 │                        │       │                  https://errata.almalinux.org/9/ALSA-2026-79281.html        
 │                        │       │                                                                             
-│                        │       │                  https://errata.rockylinux.org/RLSA-2026:79281              
+│                        │       │                  https://errata.rockylinux.org/RLSA-2026:80798              
 │                        │       │                                                                             
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-77117            
 │                        │       │                                                                             
@@ -28903,14 +29691,13 @@
 │                        │       ├ References                                                                  
 │                        │       │                  ───────────────────────────────────────────────────────────
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:79281           
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:80798           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-80489      
 │                        │       │                  https://bugzilla.redhat.com/2513603                        
 │                        │       │                  https://bugzilla.redhat.com/2513608                        
 │                        │       │                  https://bugzilla.redhat.com/2523249                        
 │                        │       │                  https://bugzilla.redhat.com/2523274                        
 │                        │       │                  https://bugzilla.redhat.com/2524870                        
-│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2513603        
-│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2513608        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2523249        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2523274        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2524870        
@@ -28920,17 +29707,13 @@
 │                        │       │                  74                                                         
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-195
 │                        │       │                  42                                                         
-│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-636
-│                        │       │                  8                                                          
-│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-679
-│                        │       │                  1                                                          
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-771
 │                        │       │                  17                                                         
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-804
 │                        │       │                  89                                                         
 │                        │       │                  https://errata.almalinux.org/9/ALSA-2026-79281.html        
 │                        │       │                                                                             
-│                        │       │                  https://errata.rockylinux.org/RLSA-2026:79281              
+│                        │       │                  https://errata.rockylinux.org/RLSA-2026:80798              
 │                        │       │                                                                             
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-80489            
 │                        │       │                                                                             
@@ -30037,6 +30820,8 @@
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2022-0563       
 │                        │       │                  https://blog.trailofbits.com/2023/02/16/suid-logic-bug-linu
 │                        │       │                  x-readline/                                                
+│                        │       │                  https://cert-portal.siemens.com/productcert/html/ssa-398330
+│                        │       │                  .html                                                      
 │                        │       │                  https://github.com/bottlerocket-os/bottlerocket/security/ad
 │                        │       │                  visories/GHSA-mv4q-wq4c-5xmg                               
 │                        │       │                  https://lore.kernel.org/util-linux/20220214110609.msiwlm457
@@ -30051,7 +30836,7 @@
 │                        │       │                                                                             
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2022-02-21T19:15:08.393Z 
-│                        │       ╰ LastModifiedDate: 2026-06-17T04:20:51.053Z 
+│                        │       ╰ LastModifiedDate: 2026-10-14T13:17:14.167Z 
 │                        ├ [497] ╭ VulnerabilityID : CVE-2007-5686 
 │                        │       ├ PkgID           : login.defs@1:4.17.4-2 
 │                        │       ├ PkgName         : login.defs 
@@ -30159,7 +30944,10 @@
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2024-56433      
 │                        │       │                  https://bugzilla.redhat.com/2334165                        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2334165        
+│                        │       │                  https://cert-portal.siemens.com/productcert/html/ssa-398330
+│                        │       │                  .html                                                      
 │                        │       │                  https://creativecommons.org/licenses/by/4.0/               
+│                        │       │                                                                             
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-564
 │                        │       │                  33                                                         
 │                        │       │                  https://errata.almalinux.org/9/ALSA-2025-20559.html        
@@ -30182,7 +30970,7 @@
 │                        │       │                                                                             
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
-│                        │       ╰ LastModifiedDate: 2026-06-17T08:12:10.903Z 
+│                        │       ╰ LastModifiedDate: 2026-10-15T01:19:16.297Z 
 │                        ├ [499] ╭ VulnerabilityID : TEMP-0628843-DBAD28 
 │                        │       ├ PkgID           : login.defs@1:4.17.4-2 
 │                        │       ├ PkgName         : login.defs 
@@ -30553,6 +31341,8 @@
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2022-0563       
 │                        │       │                  https://blog.trailofbits.com/2023/02/16/suid-logic-bug-linu
 │                        │       │                  x-readline/                                                
+│                        │       │                  https://cert-portal.siemens.com/productcert/html/ssa-398330
+│                        │       │                  .html                                                      
 │                        │       │                  https://github.com/bottlerocket-os/bottlerocket/security/ad
 │                        │       │                  visories/GHSA-mv4q-wq4c-5xmg                               
 │                        │       │                  https://lore.kernel.org/util-linux/20220214110609.msiwlm457
@@ -30567,7 +31357,7 @@
 │                        │       │                                                                             
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2022-02-21T19:15:08.393Z 
-│                        │       ╰ LastModifiedDate: 2026-06-17T04:20:51.053Z 
+│                        │       ╰ LastModifiedDate: 2026-10-14T13:17:14.167Z 
 │                        ├ [506] ╭ VulnerabilityID : CVE-2026-6390 
 │                        │       ├ PkgID           : nano@8.4-1+deb13u1 
 │                        │       ├ PkgName         : nano 
@@ -31322,13 +32112,16 @@
 │                        │       │                  ───────
 │                        │       │                  CWE-669
 │                        │       │                  
-│                        │       ├ VendorSeverity   ─ nvd: 3 
+│                        │       ├ VendorSeverity   ╭ nvd   : 3 
+│                        │       │                  ╰ ubuntu: 2 
 │                        │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/
 │                        │       │                        │           A:N 
 │                        │       │                        ╰ V3Score : 7.5 
-│                        │       ├ References                                                     
-│                        │       │                  ──────────────────────────────────────────────
-│                        │       │                  https://www.openssh.org/releasenotes.html#10.6
+│                        │       ├ References                                                       
+│                        │       │                  ────────────────────────────────────────────────
+│                        │       │                  https://ubuntu.com/security/notices/USN-8928-1  
+│                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-106553
+│                        │       │                  https://www.openssh.org/releasenotes.html#10.6  
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-10-06T21:17:19.067Z 
 │                        │       ╰ LastModifiedDate: 2026-10-13T15:26:43.823Z 
@@ -31363,7 +32156,8 @@
 │                        │       │                  CWE-669
 │                        │       │                  
 │                        │       ├ VendorSeverity   ╭ nvd   : 3 
-│                        │       │                  ╰ redhat: 1 
+│                        │       │                  ├ redhat: 1 
+│                        │       │                  ╰ ubuntu: 2 
 │                        │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                        │       │                  │        │           :H/A:N 
 │                        │       │                  │        ╰ V3Score : 7.5 
@@ -31374,6 +32168,7 @@
 │                        │       │                  ──────────────────────────────────────────────────────
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-106555
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-106555      
+│                        │       │                  https://ubuntu.com/security/notices/USN-8928-1        
 │                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-106555      
 │                        │       │                  https://www.openssh.org/releasenotes.html#10.6        
 │                        │       │                  
@@ -31408,13 +32203,16 @@
 │                        │       │                  ──────
 │                        │       │                  CWE-99
 │                        │       │                  
-│                        │       ├ VendorSeverity   ─ nvd: 3 
+│                        │       ├ VendorSeverity   ╭ nvd   : 3 
+│                        │       │                  ╰ ubuntu: 2 
 │                        │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/
 │                        │       │                        │           A:H 
 │                        │       │                        ╰ V3Score : 7.8 
-│                        │       ├ References                                                     
-│                        │       │                  ──────────────────────────────────────────────
-│                        │       │                  https://www.openssh.org/releasenotes.html#10.6
+│                        │       ├ References                                                       
+│                        │       │                  ────────────────────────────────────────────────
+│                        │       │                  https://ubuntu.com/security/notices/USN-8928-1  
+│                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-106583
+│                        │       │                  https://www.openssh.org/releasenotes.html#10.6  
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-10-07T00:17:20.743Z 
 │                        │       ╰ LastModifiedDate: 2026-10-13T17:52:02.82Z 
@@ -31589,17 +32387,97 @@
 │                        │       │                  ──────
 │                        │       │                  CWE-23
 │                        │       │                  
-│                        │       ├ VendorSeverity   ─ nvd: 2 
+│                        │       ├ VendorSeverity   ╭ nvd   : 2 
+│                        │       │                  ╰ ubuntu: 2 
 │                        │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/
 │                        │       │                        │           A:N 
 │                        │       │                        ╰ V3Score : 6.5 
-│                        │       ├ References                                                     
-│                        │       │                  ──────────────────────────────────────────────
-│                        │       │                  https://www.openssh.org/releasenotes.html#10.6
+│                        │       ├ References                                                       
+│                        │       │                  ────────────────────────────────────────────────
+│                        │       │                  https://ubuntu.com/security/notices/USN-8928-1  
+│                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-106552
+│                        │       │                  https://www.openssh.org/releasenotes.html#10.6  
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-10-06T21:17:18.917Z 
 │                        │       ╰ LastModifiedDate: 2026-10-13T15:26:59.587Z 
-│                        ├ [521] ╭ VulnerabilityID : CVE-2026-106586 
+│                        ├ [521] ╭ VulnerabilityID : CVE-2026-106582 
+│                        │       ├ PkgID           : openssh-client@1:10.0p1-7+deb13u4 
+│                        │       ├ PkgName         : openssh-client 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-client@10.0p1-7%2Bdeb13u4?ar
+│                        │       │                  │       ch=amd64&distro=debian-13.7&epoch=1 
+│                        │       │                  ╰ UID : c5bad42295953805 
+│                        │       ├ InstalledVersion: 1:10.0p1-7+deb13u4 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-106582 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:c899d3937ff4383f822ed4df20f30b0beb9d4d8eeb2521c9bf5
+│                        │       │                   7f43328c64abb 
+│                        │       ├ Title           : In sshd and ssh in OpenSSH before 10.6, an LZ77 dictionary
+│                        │       │                    coder can b ... 
+│                        │       ├ Description     : In sshd and ssh in OpenSSH before 10.6, an LZ77 dictionary
+│                        │       │                    coder can be used even though this is contraindicated by
+│                        │       │                   the arXiv 2609.07709 "Crossing the Streams" findings. 
+│                        │       ├ Severity        : MEDIUM 
+│                        │       ├ CweIDs                  
+│                        │       │                  ───────
+│                        │       │                  CWE-514
+│                        │       │                  
+│                        │       ├ VendorSeverity   ─ ubuntu: 2 
+│                        │       ├ References                                                       
+│                        │       │                  ────────────────────────────────────────────────
+│                        │       │                  https://arxiv.org/abs/2609.07709                
+│                        │       │                  https://ubuntu.com/security/notices/USN-8928-1  
+│                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-106582
+│                        │       │                  https://www.openssh.org/releasenotes.html#10.6  
+│                        │       │                  
+│                        │       ├ PublishedDate   : 2026-10-06T21:17:19.37Z 
+│                        │       ╰ LastModifiedDate: 2026-10-13T14:57:12.573Z 
+│                        ├ [522] ╭ VulnerabilityID : CVE-2026-106585 
+│                        │       ├ PkgID           : openssh-client@1:10.0p1-7+deb13u4 
+│                        │       ├ PkgName         : openssh-client 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-client@10.0p1-7%2Bdeb13u4?ar
+│                        │       │                  │       ch=amd64&distro=debian-13.7&epoch=1 
+│                        │       │                  ╰ UID : c5bad42295953805 
+│                        │       ├ InstalledVersion: 1:10.0p1-7+deb13u4 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-106585 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:6aa8e0f33e3d1615da1726f79f7ebcbc7ee566e1d0a9ed14819
+│                        │       │                   64c9f1084c2d9 
+│                        │       ├ Title           : In sshd and ssh in OpenSSH before 10.6, there is no check
+│                        │       │                   for whether  ... 
+│                        │       ├ Description     : In sshd and ssh in OpenSSH before 10.6, there is no check
+│                        │       │                   for whether the maximum packet length is exceeded during
+│                        │       │                   decompression of highly compressed data. 
+│                        │       ├ Severity        : MEDIUM 
+│                        │       ├ CweIDs                  
+│                        │       │                  ───────
+│                        │       │                  CWE-409
+│                        │       │                  
+│                        │       ├ VendorSeverity   ─ ubuntu: 2 
+│                        │       ├ References                                                       
+│                        │       │                  ────────────────────────────────────────────────
+│                        │       │                  https://ubuntu.com/security/notices/USN-8928-1  
+│                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-106585
+│                        │       │                  https://www.openssh.org/releasenotes.html#10.6  
+│                        │       │                  
+│                        │       ├ PublishedDate   : 2026-10-06T21:17:19.663Z 
+│                        │       ╰ LastModifiedDate: 2026-10-13T14:39:36.6Z 
+│                        ├ [523] ╭ VulnerabilityID : CVE-2026-106586 
 │                        │       ├ PkgID           : openssh-client@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-client 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-client@10.0p1-7%2Bdeb13u4?ar
@@ -31631,7 +32509,8 @@
 │                        │       │                  CWE-670
 │                        │       │                  
 │                        │       ├ VendorSeverity   ╭ nvd   : 2 
-│                        │       │                  ╰ redhat: 1 
+│                        │       │                  ├ redhat: 1 
+│                        │       │                  ╰ ubuntu: 2 
 │                        │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I
 │                        │       │                  │        │           :L/A:N 
 │                        │       │                  │        ╰ V3Score : 4.3 
@@ -31642,12 +32521,13 @@
 │                        │       │                  ──────────────────────────────────────────────────────
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-106586
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-106586      
+│                        │       │                  https://ubuntu.com/security/notices/USN-8928-1        
 │                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-106586      
 │                        │       │                  https://www.openssh.org/releasenotes.html#10.6        
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-10-06T21:17:19.803Z 
 │                        │       ╰ LastModifiedDate: 2026-10-13T14:39:21.643Z 
-│                        ├ [522] ╭ VulnerabilityID : CVE-2026-59995 
+│                        ├ [524] ╭ VulnerabilityID : CVE-2026-59995 
 │                        │       ├ PkgID           : openssh-client@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-client 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-client@10.0p1-7%2Bdeb13u4?ar
@@ -31727,7 +32607,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-08T01:16:28.39Z 
 │                        │       ╰ LastModifiedDate: 2026-07-09T17:14:47.55Z 
-│                        ├ [523] ╭ VulnerabilityID : CVE-2026-59996 
+│                        ├ [525] ╭ VulnerabilityID : CVE-2026-59996 
 │                        │       ├ PkgID           : openssh-client@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-client 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-client@10.0p1-7%2Bdeb13u4?ar
@@ -31811,7 +32691,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-08T01:16:28.557Z 
 │                        │       ╰ LastModifiedDate: 2026-07-09T17:14:27.62Z 
-│                        ├ [524] ╭ VulnerabilityID : CVE-2026-59997 
+│                        ├ [526] ╭ VulnerabilityID : CVE-2026-59997 
 │                        │       ├ PkgID           : openssh-client@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-client 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-client@10.0p1-7%2Bdeb13u4?ar
@@ -31872,7 +32752,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-08T01:16:28.727Z 
 │                        │       ╰ LastModifiedDate: 2026-07-09T17:11:49.987Z 
-│                        ├ [525] ╭ VulnerabilityID : CVE-2026-59998 
+│                        ├ [527] ╭ VulnerabilityID : CVE-2026-59998 
 │                        │       ├ PkgID           : openssh-client@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-client 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-client@10.0p1-7%2Bdeb13u4?ar
@@ -31930,7 +32810,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-08T01:16:28.87Z 
 │                        │       ╰ LastModifiedDate: 2026-07-09T16:55:00.72Z 
-│                        ├ [526] ╭ VulnerabilityID : CVE-2026-60001 
+│                        ├ [528] ╭ VulnerabilityID : CVE-2026-60001 
 │                        │       ├ PkgID           : openssh-client@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-client 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-client@10.0p1-7%2Bdeb13u4?ar
@@ -31996,7 +32876,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-08T01:16:29.29Z 
 │                        │       ╰ LastModifiedDate: 2026-07-09T16:37:12.743Z 
-│                        ├ [527] ╭ VulnerabilityID : CVE-2026-73282 
+│                        ├ [529] ╭ VulnerabilityID : CVE-2026-73282 
 │                        │       ├ PkgID           : openssh-client@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-client 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-client@10.0p1-7%2Bdeb13u4?ar
@@ -32070,7 +32950,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-08-11T20:18:49.83Z 
 │                        │       ╰ LastModifiedDate: 2026-09-04T16:03:08.73Z 
-│                        ├ [528] ╭ VulnerabilityID : CVE-2026-73283 
+│                        ├ [530] ╭ VulnerabilityID : CVE-2026-73283 
 │                        │       ├ PkgID           : openssh-client@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-client 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-client@10.0p1-7%2Bdeb13u4?ar
@@ -32146,7 +33026,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-08-11T20:18:49.96Z 
 │                        │       ╰ LastModifiedDate: 2026-09-04T16:01:14.203Z 
-│                        ├ [529] ╭ VulnerabilityID : CVE-2007-2243 
+│                        ├ [531] ╭ VulnerabilityID : CVE-2007-2243 
 │                        │       ├ PkgID           : openssh-client@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-client 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-client@10.0p1-7%2Bdeb13u4?ar
@@ -32202,7 +33082,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2007-04-25T16:19:00Z 
 │                        │       ╰ LastModifiedDate: 2026-04-23T00:35:47.467Z 
-│                        ├ [530] ╭ VulnerabilityID : CVE-2007-2768 
+│                        ├ [532] ╭ VulnerabilityID : CVE-2007-2768 
 │                        │       ├ PkgID           : openssh-client@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-client 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-client@10.0p1-7%2Bdeb13u4?ar
@@ -32254,7 +33134,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2007-05-21T20:30:00Z 
 │                        │       ╰ LastModifiedDate: 2026-04-23T00:35:47.467Z 
-│                        ├ [531] ╭ VulnerabilityID : CVE-2008-3234 
+│                        ├ [533] ╭ VulnerabilityID : CVE-2008-3234 
 │                        │       ├ PkgID           : openssh-client@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-client 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-client@10.0p1-7%2Bdeb13u4?ar
@@ -32298,7 +33178,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2008-07-18T16:41:00Z 
 │                        │       ╰ LastModifiedDate: 2026-04-23T00:35:47.467Z 
-│                        ├ [532] ╭ VulnerabilityID : CVE-2016-20012 
+│                        ├ [534] ╭ VulnerabilityID : CVE-2016-20012 
 │                        │       ├ PkgID           : openssh-client@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-client 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-client@10.0p1-7%2Bdeb13u4?ar
@@ -32370,7 +33250,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2021-09-15T20:15:07.31Z 
 │                        │       ╰ LastModifiedDate: 2026-06-17T00:43:05.063Z 
-│                        ├ [533] ╭ VulnerabilityID : CVE-2018-15919 
+│                        ├ [535] ╭ VulnerabilityID : CVE-2018-15919 
 │                        │       ├ PkgID           : openssh-client@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-client 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-client@10.0p1-7%2Bdeb13u4?ar
@@ -32425,7 +33305,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2018-08-28T08:29:00.207Z 
 │                        │       ╰ LastModifiedDate: 2026-06-17T01:43:19.583Z 
-│                        ├ [534] ╭ VulnerabilityID : CVE-2019-6110 
+│                        ├ [536] ╭ VulnerabilityID : CVE-2019-6110 
 │                        │       ├ PkgID           : openssh-client@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-client 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-client@10.0p1-7%2Bdeb13u4?ar
@@ -32497,7 +33377,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2019-01-31T18:29:00.807Z 
 │                        │       ╰ LastModifiedDate: 2026-10-14T07:16:55.917Z 
-│                        ├ [535] ╭ VulnerabilityID : CVE-2020-14145 
+│                        ├ [537] ╭ VulnerabilityID : CVE-2020-14145 
 │                        │       ├ PkgID           : openssh-client@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-client 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-client@10.0p1-7%2Bdeb13u4?ar
@@ -32607,7 +33487,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2020-06-29T18:15:11.94Z 
 │                        │       ╰ LastModifiedDate: 2026-10-14T10:17:29.537Z 
-│                        ├ [536] ╭ VulnerabilityID : CVE-2020-15778 
+│                        ├ [538] ╭ VulnerabilityID : CVE-2020-15778 
 │                        │       ├ PkgID           : openssh-client@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-client 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-client@10.0p1-7%2Bdeb13u4?ar
@@ -32696,7 +33576,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2020-07-24T14:15:12.45Z 
 │                        │       ╰ LastModifiedDate: 2026-10-14T10:17:30.51Z 
-│                        ├ [537] ╭ VulnerabilityID : CVE-2026-106584 
+│                        ├ [539] ╭ VulnerabilityID : CVE-2026-106584 
 │                        │       ├ PkgID           : openssh-client@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-client 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-client@10.0p1-7%2Bdeb13u4?ar
@@ -32728,17 +33608,20 @@
 │                        │       │                  CWE-193
 │                        │       │                  
 │                        │       ├ VendorSeverity   ╭ debian: 1 
-│                        │       │                  ╰ nvd   : 1 
+│                        │       │                  ├ nvd   : 1 
+│                        │       │                  ╰ ubuntu: 2 
 │                        │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/
 │                        │       │                        │           A:N 
 │                        │       │                        ╰ V3Score : 3.3 
-│                        │       ├ References                                                     
-│                        │       │                  ──────────────────────────────────────────────
-│                        │       │                  https://www.openssh.org/releasenotes.html#10.6
+│                        │       ├ References                                                       
+│                        │       │                  ────────────────────────────────────────────────
+│                        │       │                  https://ubuntu.com/security/notices/USN-8928-1  
+│                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-106584
+│                        │       │                  https://www.openssh.org/releasenotes.html#10.6  
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-10-06T21:17:19.52Z 
 │                        │       ╰ LastModifiedDate: 2026-10-13T14:40:04.283Z 
-│                        ├ [538] ╭ VulnerabilityID : CVE-2026-106587 
+│                        ├ [540] ╭ VulnerabilityID : CVE-2026-106587 
 │                        │       ├ PkgID           : openssh-client@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-client 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-client@10.0p1-7%2Bdeb13u4?ar
@@ -32769,17 +33652,20 @@
 │                        │       │                  ───────
 │                        │       │                  CWE-843
 │                        │       │                  
-│                        │       ├ VendorSeverity   ─ nvd: 1 
+│                        │       ├ VendorSeverity   ╭ nvd   : 1 
+│                        │       │                  ╰ ubuntu: 2 
 │                        │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/
 │                        │       │                        │           A:N 
 │                        │       │                        ╰ V3Score : 3.3 
-│                        │       ├ References                                                     
-│                        │       │                  ──────────────────────────────────────────────
-│                        │       │                  https://www.openssh.org/releasenotes.html#10.6
+│                        │       ├ References                                                       
+│                        │       │                  ────────────────────────────────────────────────
+│                        │       │                  https://ubuntu.com/security/notices/USN-8928-1  
+│                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-106587
+│                        │       │                  https://www.openssh.org/releasenotes.html#10.6  
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-10-06T22:17:06.62Z 
 │                        │       ╰ LastModifiedDate: 2026-10-09T16:39:23.107Z 
-│                        ├ [539] ╭ VulnerabilityID : CVE-2026-55654 
+│                        ├ [541] ╭ VulnerabilityID : CVE-2026-55654 
 │                        │       ├ PkgID           : openssh-client@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-client 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-client@10.0p1-7%2Bdeb13u4?ar
@@ -32856,7 +33742,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-06-23T04:17:40.587Z 
 │                        │       ╰ LastModifiedDate: 2026-09-24T23:17:11.727Z 
-│                        ├ [540] ╭ VulnerabilityID : CVE-2026-73281 
+│                        ├ [542] ╭ VulnerabilityID : CVE-2026-73281 
 │                        │       ├ PkgID           : openssh-client@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-client 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-client@10.0p1-7%2Bdeb13u4?ar
@@ -32935,77 +33821,6 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-08-11T20:18:49.69Z 
 │                        │       ╰ LastModifiedDate: 2026-09-04T16:04:40.22Z 
-│                        ├ [541] ╭ VulnerabilityID : CVE-2026-106582 
-│                        │       ├ PkgID           : openssh-client@1:10.0p1-7+deb13u4 
-│                        │       ├ PkgName         : openssh-client 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-client@10.0p1-7%2Bdeb13u4?ar
-│                        │       │                  │       ch=amd64&distro=debian-13.7&epoch=1 
-│                        │       │                  ╰ UID : c5bad42295953805 
-│                        │       ├ InstalledVersion: 1:10.0p1-7+deb13u4 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-106582 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:c899d3937ff4383f822ed4df20f30b0beb9d4d8eeb2521c9bf5
-│                        │       │                   7f43328c64abb 
-│                        │       ├ Title           : In sshd and ssh in OpenSSH before 10.6, an LZ77 dictionary
-│                        │       │                    coder can b ... 
-│                        │       ├ Description     : In sshd and ssh in OpenSSH before 10.6, an LZ77 dictionary
-│                        │       │                    coder can be used even though this is contraindicated by
-│                        │       │                   the arXiv 2609.07709 "Crossing the Streams" findings. 
-│                        │       ├ Severity        : UNKNOWN 
-│                        │       ├ CweIDs                  
-│                        │       │                  ───────
-│                        │       │                  CWE-514
-│                        │       │                  
-│                        │       ├ References                                                     
-│                        │       │                  ──────────────────────────────────────────────
-│                        │       │                  https://arxiv.org/abs/2609.07709              
-│                        │       │                  https://www.openssh.org/releasenotes.html#10.6
-│                        │       │                  
-│                        │       ├ PublishedDate   : 2026-10-06T21:17:19.37Z 
-│                        │       ╰ LastModifiedDate: 2026-10-13T14:57:12.573Z 
-│                        ├ [542] ╭ VulnerabilityID : CVE-2026-106585 
-│                        │       ├ PkgID           : openssh-client@1:10.0p1-7+deb13u4 
-│                        │       ├ PkgName         : openssh-client 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-client@10.0p1-7%2Bdeb13u4?ar
-│                        │       │                  │       ch=amd64&distro=debian-13.7&epoch=1 
-│                        │       │                  ╰ UID : c5bad42295953805 
-│                        │       ├ InstalledVersion: 1:10.0p1-7+deb13u4 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-106585 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:6aa8e0f33e3d1615da1726f79f7ebcbc7ee566e1d0a9ed14819
-│                        │       │                   64c9f1084c2d9 
-│                        │       ├ Title           : In sshd and ssh in OpenSSH before 10.6, there is no check
-│                        │       │                   for whether  ... 
-│                        │       ├ Description     : In sshd and ssh in OpenSSH before 10.6, there is no check
-│                        │       │                   for whether the maximum packet length is exceeded during
-│                        │       │                   decompression of highly compressed data. 
-│                        │       ├ Severity        : UNKNOWN 
-│                        │       ├ CweIDs                  
-│                        │       │                  ───────
-│                        │       │                  CWE-409
-│                        │       │                  
-│                        │       ├ References                                                     
-│                        │       │                  ──────────────────────────────────────────────
-│                        │       │                  https://www.openssh.org/releasenotes.html#10.6
-│                        │       │                  
-│                        │       ├ PublishedDate   : 2026-10-06T21:17:19.663Z 
-│                        │       ╰ LastModifiedDate: 2026-10-13T14:39:36.6Z 
 │                        ├ [543] ╭ VulnerabilityID : CVE-2026-60002 
 │                        │       ├ PkgID           : openssh-server@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-server 
@@ -33120,13 +33935,16 @@
 │                        │       │                  ───────
 │                        │       │                  CWE-669
 │                        │       │                  
-│                        │       ├ VendorSeverity   ─ nvd: 3 
+│                        │       ├ VendorSeverity   ╭ nvd   : 3 
+│                        │       │                  ╰ ubuntu: 2 
 │                        │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/
 │                        │       │                        │           A:N 
 │                        │       │                        ╰ V3Score : 7.5 
-│                        │       ├ References                                                     
-│                        │       │                  ──────────────────────────────────────────────
-│                        │       │                  https://www.openssh.org/releasenotes.html#10.6
+│                        │       ├ References                                                       
+│                        │       │                  ────────────────────────────────────────────────
+│                        │       │                  https://ubuntu.com/security/notices/USN-8928-1  
+│                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-106553
+│                        │       │                  https://www.openssh.org/releasenotes.html#10.6  
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-10-06T21:17:19.067Z 
 │                        │       ╰ LastModifiedDate: 2026-10-13T15:26:43.823Z 
@@ -33161,7 +33979,8 @@
 │                        │       │                  CWE-669
 │                        │       │                  
 │                        │       ├ VendorSeverity   ╭ nvd   : 3 
-│                        │       │                  ╰ redhat: 1 
+│                        │       │                  ├ redhat: 1 
+│                        │       │                  ╰ ubuntu: 2 
 │                        │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                        │       │                  │        │           :H/A:N 
 │                        │       │                  │        ╰ V3Score : 7.5 
@@ -33172,6 +33991,7 @@
 │                        │       │                  ──────────────────────────────────────────────────────
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-106555
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-106555      
+│                        │       │                  https://ubuntu.com/security/notices/USN-8928-1        
 │                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-106555      
 │                        │       │                  https://www.openssh.org/releasenotes.html#10.6        
 │                        │       │                  
@@ -33206,13 +34026,16 @@
 │                        │       │                  ──────
 │                        │       │                  CWE-99
 │                        │       │                  
-│                        │       ├ VendorSeverity   ─ nvd: 3 
+│                        │       ├ VendorSeverity   ╭ nvd   : 3 
+│                        │       │                  ╰ ubuntu: 2 
 │                        │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/
 │                        │       │                        │           A:H 
 │                        │       │                        ╰ V3Score : 7.8 
-│                        │       ├ References                                                     
-│                        │       │                  ──────────────────────────────────────────────
-│                        │       │                  https://www.openssh.org/releasenotes.html#10.6
+│                        │       ├ References                                                       
+│                        │       │                  ────────────────────────────────────────────────
+│                        │       │                  https://ubuntu.com/security/notices/USN-8928-1  
+│                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-106583
+│                        │       │                  https://www.openssh.org/releasenotes.html#10.6  
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-10-07T00:17:20.743Z 
 │                        │       ╰ LastModifiedDate: 2026-10-13T17:52:02.82Z 
@@ -33387,17 +34210,97 @@
 │                        │       │                  ──────
 │                        │       │                  CWE-23
 │                        │       │                  
-│                        │       ├ VendorSeverity   ─ nvd: 2 
+│                        │       ├ VendorSeverity   ╭ nvd   : 2 
+│                        │       │                  ╰ ubuntu: 2 
 │                        │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/
 │                        │       │                        │           A:N 
 │                        │       │                        ╰ V3Score : 6.5 
-│                        │       ├ References                                                     
-│                        │       │                  ──────────────────────────────────────────────
-│                        │       │                  https://www.openssh.org/releasenotes.html#10.6
+│                        │       ├ References                                                       
+│                        │       │                  ────────────────────────────────────────────────
+│                        │       │                  https://ubuntu.com/security/notices/USN-8928-1  
+│                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-106552
+│                        │       │                  https://www.openssh.org/releasenotes.html#10.6  
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-10-06T21:17:18.917Z 
 │                        │       ╰ LastModifiedDate: 2026-10-13T15:26:59.587Z 
-│                        ├ [550] ╭ VulnerabilityID : CVE-2026-106586 
+│                        ├ [550] ╭ VulnerabilityID : CVE-2026-106582 
+│                        │       ├ PkgID           : openssh-server@1:10.0p1-7+deb13u4 
+│                        │       ├ PkgName         : openssh-server 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-server@10.0p1-7%2Bdeb13u4?ar
+│                        │       │                  │       ch=amd64&distro=debian-13.7&epoch=1 
+│                        │       │                  ╰ UID : 6bf734240321819d 
+│                        │       ├ InstalledVersion: 1:10.0p1-7+deb13u4 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-106582 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:a7134ac3f741ea08e0ef8392cc8b9c0b36b538d80dde07a92a3
+│                        │       │                   e4b8caecbf348 
+│                        │       ├ Title           : In sshd and ssh in OpenSSH before 10.6, an LZ77 dictionary
+│                        │       │                    coder can b ... 
+│                        │       ├ Description     : In sshd and ssh in OpenSSH before 10.6, an LZ77 dictionary
+│                        │       │                    coder can be used even though this is contraindicated by
+│                        │       │                   the arXiv 2609.07709 "Crossing the Streams" findings. 
+│                        │       ├ Severity        : MEDIUM 
+│                        │       ├ CweIDs                  
+│                        │       │                  ───────
+│                        │       │                  CWE-514
+│                        │       │                  
+│                        │       ├ VendorSeverity   ─ ubuntu: 2 
+│                        │       ├ References                                                       
+│                        │       │                  ────────────────────────────────────────────────
+│                        │       │                  https://arxiv.org/abs/2609.07709                
+│                        │       │                  https://ubuntu.com/security/notices/USN-8928-1  
+│                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-106582
+│                        │       │                  https://www.openssh.org/releasenotes.html#10.6  
+│                        │       │                  
+│                        │       ├ PublishedDate   : 2026-10-06T21:17:19.37Z 
+│                        │       ╰ LastModifiedDate: 2026-10-13T14:57:12.573Z 
+│                        ├ [551] ╭ VulnerabilityID : CVE-2026-106585 
+│                        │       ├ PkgID           : openssh-server@1:10.0p1-7+deb13u4 
+│                        │       ├ PkgName         : openssh-server 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-server@10.0p1-7%2Bdeb13u4?ar
+│                        │       │                  │       ch=amd64&distro=debian-13.7&epoch=1 
+│                        │       │                  ╰ UID : 6bf734240321819d 
+│                        │       ├ InstalledVersion: 1:10.0p1-7+deb13u4 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-106585 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:4105eee3e62e2dc4dc4cd3652b29c4ad1864e7a38546e3a0172
+│                        │       │                   520be2da85e41 
+│                        │       ├ Title           : In sshd and ssh in OpenSSH before 10.6, there is no check
+│                        │       │                   for whether  ... 
+│                        │       ├ Description     : In sshd and ssh in OpenSSH before 10.6, there is no check
+│                        │       │                   for whether the maximum packet length is exceeded during
+│                        │       │                   decompression of highly compressed data. 
+│                        │       ├ Severity        : MEDIUM 
+│                        │       ├ CweIDs                  
+│                        │       │                  ───────
+│                        │       │                  CWE-409
+│                        │       │                  
+│                        │       ├ VendorSeverity   ─ ubuntu: 2 
+│                        │       ├ References                                                       
+│                        │       │                  ────────────────────────────────────────────────
+│                        │       │                  https://ubuntu.com/security/notices/USN-8928-1  
+│                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-106585
+│                        │       │                  https://www.openssh.org/releasenotes.html#10.6  
+│                        │       │                  
+│                        │       ├ PublishedDate   : 2026-10-06T21:17:19.663Z 
+│                        │       ╰ LastModifiedDate: 2026-10-13T14:39:36.6Z 
+│                        ├ [552] ╭ VulnerabilityID : CVE-2026-106586 
 │                        │       ├ PkgID           : openssh-server@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-server 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-server@10.0p1-7%2Bdeb13u4?ar
@@ -33429,7 +34332,8 @@
 │                        │       │                  CWE-670
 │                        │       │                  
 │                        │       ├ VendorSeverity   ╭ nvd   : 2 
-│                        │       │                  ╰ redhat: 1 
+│                        │       │                  ├ redhat: 1 
+│                        │       │                  ╰ ubuntu: 2 
 │                        │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I
 │                        │       │                  │        │           :L/A:N 
 │                        │       │                  │        ╰ V3Score : 4.3 
@@ -33440,12 +34344,13 @@
 │                        │       │                  ──────────────────────────────────────────────────────
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-106586
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-106586      
+│                        │       │                  https://ubuntu.com/security/notices/USN-8928-1        
 │                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-106586      
 │                        │       │                  https://www.openssh.org/releasenotes.html#10.6        
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-10-06T21:17:19.803Z 
 │                        │       ╰ LastModifiedDate: 2026-10-13T14:39:21.643Z 
-│                        ├ [551] ╭ VulnerabilityID : CVE-2026-59995 
+│                        ├ [553] ╭ VulnerabilityID : CVE-2026-59995 
 │                        │       ├ PkgID           : openssh-server@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-server 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-server@10.0p1-7%2Bdeb13u4?ar
@@ -33525,7 +34430,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-08T01:16:28.39Z 
 │                        │       ╰ LastModifiedDate: 2026-07-09T17:14:47.55Z 
-│                        ├ [552] ╭ VulnerabilityID : CVE-2026-59996 
+│                        ├ [554] ╭ VulnerabilityID : CVE-2026-59996 
 │                        │       ├ PkgID           : openssh-server@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-server 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-server@10.0p1-7%2Bdeb13u4?ar
@@ -33609,7 +34514,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-08T01:16:28.557Z 
 │                        │       ╰ LastModifiedDate: 2026-07-09T17:14:27.62Z 
-│                        ├ [553] ╭ VulnerabilityID : CVE-2026-59997 
+│                        ├ [555] ╭ VulnerabilityID : CVE-2026-59997 
 │                        │       ├ PkgID           : openssh-server@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-server 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-server@10.0p1-7%2Bdeb13u4?ar
@@ -33670,7 +34575,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-08T01:16:28.727Z 
 │                        │       ╰ LastModifiedDate: 2026-07-09T17:11:49.987Z 
-│                        ├ [554] ╭ VulnerabilityID : CVE-2026-59998 
+│                        ├ [556] ╭ VulnerabilityID : CVE-2026-59998 
 │                        │       ├ PkgID           : openssh-server@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-server 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-server@10.0p1-7%2Bdeb13u4?ar
@@ -33728,7 +34633,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-08T01:16:28.87Z 
 │                        │       ╰ LastModifiedDate: 2026-07-09T16:55:00.72Z 
-│                        ├ [555] ╭ VulnerabilityID : CVE-2026-60001 
+│                        ├ [557] ╭ VulnerabilityID : CVE-2026-60001 
 │                        │       ├ PkgID           : openssh-server@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-server 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-server@10.0p1-7%2Bdeb13u4?ar
@@ -33794,7 +34699,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-08T01:16:29.29Z 
 │                        │       ╰ LastModifiedDate: 2026-07-09T16:37:12.743Z 
-│                        ├ [556] ╭ VulnerabilityID : CVE-2026-73282 
+│                        ├ [558] ╭ VulnerabilityID : CVE-2026-73282 
 │                        │       ├ PkgID           : openssh-server@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-server 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-server@10.0p1-7%2Bdeb13u4?ar
@@ -33868,7 +34773,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-08-11T20:18:49.83Z 
 │                        │       ╰ LastModifiedDate: 2026-09-04T16:03:08.73Z 
-│                        ├ [557] ╭ VulnerabilityID : CVE-2026-73283 
+│                        ├ [559] ╭ VulnerabilityID : CVE-2026-73283 
 │                        │       ├ PkgID           : openssh-server@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-server 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-server@10.0p1-7%2Bdeb13u4?ar
@@ -33944,7 +34849,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-08-11T20:18:49.96Z 
 │                        │       ╰ LastModifiedDate: 2026-09-04T16:01:14.203Z 
-│                        ├ [558] ╭ VulnerabilityID : CVE-2007-2243 
+│                        ├ [560] ╭ VulnerabilityID : CVE-2007-2243 
 │                        │       ├ PkgID           : openssh-server@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-server 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-server@10.0p1-7%2Bdeb13u4?ar
@@ -34000,7 +34905,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2007-04-25T16:19:00Z 
 │                        │       ╰ LastModifiedDate: 2026-04-23T00:35:47.467Z 
-│                        ├ [559] ╭ VulnerabilityID : CVE-2007-2768 
+│                        ├ [561] ╭ VulnerabilityID : CVE-2007-2768 
 │                        │       ├ PkgID           : openssh-server@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-server 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-server@10.0p1-7%2Bdeb13u4?ar
@@ -34052,7 +34957,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2007-05-21T20:30:00Z 
 │                        │       ╰ LastModifiedDate: 2026-04-23T00:35:47.467Z 
-│                        ├ [560] ╭ VulnerabilityID : CVE-2008-3234 
+│                        ├ [562] ╭ VulnerabilityID : CVE-2008-3234 
 │                        │       ├ PkgID           : openssh-server@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-server 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-server@10.0p1-7%2Bdeb13u4?ar
@@ -34096,7 +35001,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2008-07-18T16:41:00Z 
 │                        │       ╰ LastModifiedDate: 2026-04-23T00:35:47.467Z 
-│                        ├ [561] ╭ VulnerabilityID : CVE-2016-20012 
+│                        ├ [563] ╭ VulnerabilityID : CVE-2016-20012 
 │                        │       ├ PkgID           : openssh-server@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-server 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-server@10.0p1-7%2Bdeb13u4?ar
@@ -34168,7 +35073,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2021-09-15T20:15:07.31Z 
 │                        │       ╰ LastModifiedDate: 2026-06-17T00:43:05.063Z 
-│                        ├ [562] ╭ VulnerabilityID : CVE-2018-15919 
+│                        ├ [564] ╭ VulnerabilityID : CVE-2018-15919 
 │                        │       ├ PkgID           : openssh-server@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-server 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-server@10.0p1-7%2Bdeb13u4?ar
@@ -34223,7 +35128,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2018-08-28T08:29:00.207Z 
 │                        │       ╰ LastModifiedDate: 2026-06-17T01:43:19.583Z 
-│                        ├ [563] ╭ VulnerabilityID : CVE-2019-6110 
+│                        ├ [565] ╭ VulnerabilityID : CVE-2019-6110 
 │                        │       ├ PkgID           : openssh-server@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-server 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-server@10.0p1-7%2Bdeb13u4?ar
@@ -34295,7 +35200,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2019-01-31T18:29:00.807Z 
 │                        │       ╰ LastModifiedDate: 2026-10-14T07:16:55.917Z 
-│                        ├ [564] ╭ VulnerabilityID : CVE-2020-14145 
+│                        ├ [566] ╭ VulnerabilityID : CVE-2020-14145 
 │                        │       ├ PkgID           : openssh-server@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-server 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-server@10.0p1-7%2Bdeb13u4?ar
@@ -34405,7 +35310,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2020-06-29T18:15:11.94Z 
 │                        │       ╰ LastModifiedDate: 2026-10-14T10:17:29.537Z 
-│                        ├ [565] ╭ VulnerabilityID : CVE-2020-15778 
+│                        ├ [567] ╭ VulnerabilityID : CVE-2020-15778 
 │                        │       ├ PkgID           : openssh-server@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-server 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-server@10.0p1-7%2Bdeb13u4?ar
@@ -34494,7 +35399,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2020-07-24T14:15:12.45Z 
 │                        │       ╰ LastModifiedDate: 2026-10-14T10:17:30.51Z 
-│                        ├ [566] ╭ VulnerabilityID : CVE-2026-106584 
+│                        ├ [568] ╭ VulnerabilityID : CVE-2026-106584 
 │                        │       ├ PkgID           : openssh-server@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-server 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-server@10.0p1-7%2Bdeb13u4?ar
@@ -34526,17 +35431,20 @@
 │                        │       │                  CWE-193
 │                        │       │                  
 │                        │       ├ VendorSeverity   ╭ debian: 1 
-│                        │       │                  ╰ nvd   : 1 
+│                        │       │                  ├ nvd   : 1 
+│                        │       │                  ╰ ubuntu: 2 
 │                        │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/
 │                        │       │                        │           A:N 
 │                        │       │                        ╰ V3Score : 3.3 
-│                        │       ├ References                                                     
-│                        │       │                  ──────────────────────────────────────────────
-│                        │       │                  https://www.openssh.org/releasenotes.html#10.6
+│                        │       ├ References                                                       
+│                        │       │                  ────────────────────────────────────────────────
+│                        │       │                  https://ubuntu.com/security/notices/USN-8928-1  
+│                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-106584
+│                        │       │                  https://www.openssh.org/releasenotes.html#10.6  
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-10-06T21:17:19.52Z 
 │                        │       ╰ LastModifiedDate: 2026-10-13T14:40:04.283Z 
-│                        ├ [567] ╭ VulnerabilityID : CVE-2026-106587 
+│                        ├ [569] ╭ VulnerabilityID : CVE-2026-106587 
 │                        │       ├ PkgID           : openssh-server@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-server 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-server@10.0p1-7%2Bdeb13u4?ar
@@ -34567,17 +35475,20 @@
 │                        │       │                  ───────
 │                        │       │                  CWE-843
 │                        │       │                  
-│                        │       ├ VendorSeverity   ─ nvd: 1 
+│                        │       ├ VendorSeverity   ╭ nvd   : 1 
+│                        │       │                  ╰ ubuntu: 2 
 │                        │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/
 │                        │       │                        │           A:N 
 │                        │       │                        ╰ V3Score : 3.3 
-│                        │       ├ References                                                     
-│                        │       │                  ──────────────────────────────────────────────
-│                        │       │                  https://www.openssh.org/releasenotes.html#10.6
+│                        │       ├ References                                                       
+│                        │       │                  ────────────────────────────────────────────────
+│                        │       │                  https://ubuntu.com/security/notices/USN-8928-1  
+│                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-106587
+│                        │       │                  https://www.openssh.org/releasenotes.html#10.6  
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-10-06T22:17:06.62Z 
 │                        │       ╰ LastModifiedDate: 2026-10-09T16:39:23.107Z 
-│                        ├ [568] ╭ VulnerabilityID : CVE-2026-55654 
+│                        ├ [570] ╭ VulnerabilityID : CVE-2026-55654 
 │                        │       ├ PkgID           : openssh-server@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-server 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-server@10.0p1-7%2Bdeb13u4?ar
@@ -34654,7 +35565,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-06-23T04:17:40.587Z 
 │                        │       ╰ LastModifiedDate: 2026-09-24T23:17:11.727Z 
-│                        ├ [569] ╭ VulnerabilityID : CVE-2026-73281 
+│                        ├ [571] ╭ VulnerabilityID : CVE-2026-73281 
 │                        │       ├ PkgID           : openssh-server@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-server 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-server@10.0p1-7%2Bdeb13u4?ar
@@ -34733,77 +35644,6 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-08-11T20:18:49.69Z 
 │                        │       ╰ LastModifiedDate: 2026-09-04T16:04:40.22Z 
-│                        ├ [570] ╭ VulnerabilityID : CVE-2026-106582 
-│                        │       ├ PkgID           : openssh-server@1:10.0p1-7+deb13u4 
-│                        │       ├ PkgName         : openssh-server 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-server@10.0p1-7%2Bdeb13u4?ar
-│                        │       │                  │       ch=amd64&distro=debian-13.7&epoch=1 
-│                        │       │                  ╰ UID : 6bf734240321819d 
-│                        │       ├ InstalledVersion: 1:10.0p1-7+deb13u4 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-106582 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:a7134ac3f741ea08e0ef8392cc8b9c0b36b538d80dde07a92a3
-│                        │       │                   e4b8caecbf348 
-│                        │       ├ Title           : In sshd and ssh in OpenSSH before 10.6, an LZ77 dictionary
-│                        │       │                    coder can b ... 
-│                        │       ├ Description     : In sshd and ssh in OpenSSH before 10.6, an LZ77 dictionary
-│                        │       │                    coder can be used even though this is contraindicated by
-│                        │       │                   the arXiv 2609.07709 "Crossing the Streams" findings. 
-│                        │       ├ Severity        : UNKNOWN 
-│                        │       ├ CweIDs                  
-│                        │       │                  ───────
-│                        │       │                  CWE-514
-│                        │       │                  
-│                        │       ├ References                                                     
-│                        │       │                  ──────────────────────────────────────────────
-│                        │       │                  https://arxiv.org/abs/2609.07709              
-│                        │       │                  https://www.openssh.org/releasenotes.html#10.6
-│                        │       │                  
-│                        │       ├ PublishedDate   : 2026-10-06T21:17:19.37Z 
-│                        │       ╰ LastModifiedDate: 2026-10-13T14:57:12.573Z 
-│                        ├ [571] ╭ VulnerabilityID : CVE-2026-106585 
-│                        │       ├ PkgID           : openssh-server@1:10.0p1-7+deb13u4 
-│                        │       ├ PkgName         : openssh-server 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-server@10.0p1-7%2Bdeb13u4?ar
-│                        │       │                  │       ch=amd64&distro=debian-13.7&epoch=1 
-│                        │       │                  ╰ UID : 6bf734240321819d 
-│                        │       ├ InstalledVersion: 1:10.0p1-7+deb13u4 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-106585 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:4105eee3e62e2dc4dc4cd3652b29c4ad1864e7a38546e3a0172
-│                        │       │                   520be2da85e41 
-│                        │       ├ Title           : In sshd and ssh in OpenSSH before 10.6, there is no check
-│                        │       │                   for whether  ... 
-│                        │       ├ Description     : In sshd and ssh in OpenSSH before 10.6, there is no check
-│                        │       │                   for whether the maximum packet length is exceeded during
-│                        │       │                   decompression of highly compressed data. 
-│                        │       ├ Severity        : UNKNOWN 
-│                        │       ├ CweIDs                  
-│                        │       │                  ───────
-│                        │       │                  CWE-409
-│                        │       │                  
-│                        │       ├ References                                                     
-│                        │       │                  ──────────────────────────────────────────────
-│                        │       │                  https://www.openssh.org/releasenotes.html#10.6
-│                        │       │                  
-│                        │       ├ PublishedDate   : 2026-10-06T21:17:19.663Z 
-│                        │       ╰ LastModifiedDate: 2026-10-13T14:39:36.6Z 
 │                        ├ [572] ╭ VulnerabilityID : CVE-2026-60002 
 │                        │       ├ PkgID           : openssh-sftp-server@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-sftp-server 
@@ -34918,13 +35758,16 @@
 │                        │       │                  ───────
 │                        │       │                  CWE-669
 │                        │       │                  
-│                        │       ├ VendorSeverity   ─ nvd: 3 
+│                        │       ├ VendorSeverity   ╭ nvd   : 3 
+│                        │       │                  ╰ ubuntu: 2 
 │                        │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/
 │                        │       │                        │           A:N 
 │                        │       │                        ╰ V3Score : 7.5 
-│                        │       ├ References                                                     
-│                        │       │                  ──────────────────────────────────────────────
-│                        │       │                  https://www.openssh.org/releasenotes.html#10.6
+│                        │       ├ References                                                       
+│                        │       │                  ────────────────────────────────────────────────
+│                        │       │                  https://ubuntu.com/security/notices/USN-8928-1  
+│                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-106553
+│                        │       │                  https://www.openssh.org/releasenotes.html#10.6  
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-10-06T21:17:19.067Z 
 │                        │       ╰ LastModifiedDate: 2026-10-13T15:26:43.823Z 
@@ -34959,7 +35802,8 @@
 │                        │       │                  CWE-669
 │                        │       │                  
 │                        │       ├ VendorSeverity   ╭ nvd   : 3 
-│                        │       │                  ╰ redhat: 1 
+│                        │       │                  ├ redhat: 1 
+│                        │       │                  ╰ ubuntu: 2 
 │                        │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                        │       │                  │        │           :H/A:N 
 │                        │       │                  │        ╰ V3Score : 7.5 
@@ -34970,6 +35814,7 @@
 │                        │       │                  ──────────────────────────────────────────────────────
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-106555
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-106555      
+│                        │       │                  https://ubuntu.com/security/notices/USN-8928-1        
 │                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-106555      
 │                        │       │                  https://www.openssh.org/releasenotes.html#10.6        
 │                        │       │                  
@@ -35004,13 +35849,16 @@
 │                        │       │                  ──────
 │                        │       │                  CWE-99
 │                        │       │                  
-│                        │       ├ VendorSeverity   ─ nvd: 3 
+│                        │       ├ VendorSeverity   ╭ nvd   : 3 
+│                        │       │                  ╰ ubuntu: 2 
 │                        │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/
 │                        │       │                        │           A:H 
 │                        │       │                        ╰ V3Score : 7.8 
-│                        │       ├ References                                                     
-│                        │       │                  ──────────────────────────────────────────────
-│                        │       │                  https://www.openssh.org/releasenotes.html#10.6
+│                        │       ├ References                                                       
+│                        │       │                  ────────────────────────────────────────────────
+│                        │       │                  https://ubuntu.com/security/notices/USN-8928-1  
+│                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-106583
+│                        │       │                  https://www.openssh.org/releasenotes.html#10.6  
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-10-07T00:17:20.743Z 
 │                        │       ╰ LastModifiedDate: 2026-10-13T17:52:02.82Z 
@@ -35185,17 +36033,97 @@
 │                        │       │                  ──────
 │                        │       │                  CWE-23
 │                        │       │                  
-│                        │       ├ VendorSeverity   ─ nvd: 2 
+│                        │       ├ VendorSeverity   ╭ nvd   : 2 
+│                        │       │                  ╰ ubuntu: 2 
 │                        │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/
 │                        │       │                        │           A:N 
 │                        │       │                        ╰ V3Score : 6.5 
-│                        │       ├ References                                                     
-│                        │       │                  ──────────────────────────────────────────────
-│                        │       │                  https://www.openssh.org/releasenotes.html#10.6
+│                        │       ├ References                                                       
+│                        │       │                  ────────────────────────────────────────────────
+│                        │       │                  https://ubuntu.com/security/notices/USN-8928-1  
+│                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-106552
+│                        │       │                  https://www.openssh.org/releasenotes.html#10.6  
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-10-06T21:17:18.917Z 
 │                        │       ╰ LastModifiedDate: 2026-10-13T15:26:59.587Z 
-│                        ├ [579] ╭ VulnerabilityID : CVE-2026-106586 
+│                        ├ [579] ╭ VulnerabilityID : CVE-2026-106582 
+│                        │       ├ PkgID           : openssh-sftp-server@1:10.0p1-7+deb13u4 
+│                        │       ├ PkgName         : openssh-sftp-server 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-sftp-server@10.0p1-7%2Bdeb13
+│                        │       │                  │       u4?arch=amd64&distro=debian-13.7&epoch=1 
+│                        │       │                  ╰ UID : 75408ea44439a1d 
+│                        │       ├ InstalledVersion: 1:10.0p1-7+deb13u4 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-106582 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:4300d4f8defc2f525f1b9c2432998b862cac8dd6b287d266d49
+│                        │       │                   dfe736453b252 
+│                        │       ├ Title           : In sshd and ssh in OpenSSH before 10.6, an LZ77 dictionary
+│                        │       │                    coder can b ... 
+│                        │       ├ Description     : In sshd and ssh in OpenSSH before 10.6, an LZ77 dictionary
+│                        │       │                    coder can be used even though this is contraindicated by
+│                        │       │                   the arXiv 2609.07709 "Crossing the Streams" findings. 
+│                        │       ├ Severity        : MEDIUM 
+│                        │       ├ CweIDs                  
+│                        │       │                  ───────
+│                        │       │                  CWE-514
+│                        │       │                  
+│                        │       ├ VendorSeverity   ─ ubuntu: 2 
+│                        │       ├ References                                                       
+│                        │       │                  ────────────────────────────────────────────────
+│                        │       │                  https://arxiv.org/abs/2609.07709                
+│                        │       │                  https://ubuntu.com/security/notices/USN-8928-1  
+│                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-106582
+│                        │       │                  https://www.openssh.org/releasenotes.html#10.6  
+│                        │       │                  
+│                        │       ├ PublishedDate   : 2026-10-06T21:17:19.37Z 
+│                        │       ╰ LastModifiedDate: 2026-10-13T14:57:12.573Z 
+│                        ├ [580] ╭ VulnerabilityID : CVE-2026-106585 
+│                        │       ├ PkgID           : openssh-sftp-server@1:10.0p1-7+deb13u4 
+│                        │       ├ PkgName         : openssh-sftp-server 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-sftp-server@10.0p1-7%2Bdeb13
+│                        │       │                  │       u4?arch=amd64&distro=debian-13.7&epoch=1 
+│                        │       │                  ╰ UID : 75408ea44439a1d 
+│                        │       ├ InstalledVersion: 1:10.0p1-7+deb13u4 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
+│                        │       │                  │         57e418132e6e2377ac214c 
+│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
+│                        │       │                            603a53f25e7b62abe59704 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-106585 
+│                        │       ├ DataSource       ╭ ID  : debian 
+│                        │       │                  ├ Name: Debian Security Tracker 
+│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
+│                        │       │                          rity-tracker 
+│                        │       ├ Fingerprint     : sha256:f8b385a937bf7ff6b489a154b838fa834e0ecbb64ec31b52ecb
+│                        │       │                   38bae80a59008 
+│                        │       ├ Title           : In sshd and ssh in OpenSSH before 10.6, there is no check
+│                        │       │                   for whether  ... 
+│                        │       ├ Description     : In sshd and ssh in OpenSSH before 10.6, there is no check
+│                        │       │                   for whether the maximum packet length is exceeded during
+│                        │       │                   decompression of highly compressed data. 
+│                        │       ├ Severity        : MEDIUM 
+│                        │       ├ CweIDs                  
+│                        │       │                  ───────
+│                        │       │                  CWE-409
+│                        │       │                  
+│                        │       ├ VendorSeverity   ─ ubuntu: 2 
+│                        │       ├ References                                                       
+│                        │       │                  ────────────────────────────────────────────────
+│                        │       │                  https://ubuntu.com/security/notices/USN-8928-1  
+│                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-106585
+│                        │       │                  https://www.openssh.org/releasenotes.html#10.6  
+│                        │       │                  
+│                        │       ├ PublishedDate   : 2026-10-06T21:17:19.663Z 
+│                        │       ╰ LastModifiedDate: 2026-10-13T14:39:36.6Z 
+│                        ├ [581] ╭ VulnerabilityID : CVE-2026-106586 
 │                        │       ├ PkgID           : openssh-sftp-server@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-sftp-server 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-sftp-server@10.0p1-7%2Bdeb13
@@ -35227,7 +36155,8 @@
 │                        │       │                  CWE-670
 │                        │       │                  
 │                        │       ├ VendorSeverity   ╭ nvd   : 2 
-│                        │       │                  ╰ redhat: 1 
+│                        │       │                  ├ redhat: 1 
+│                        │       │                  ╰ ubuntu: 2 
 │                        │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I
 │                        │       │                  │        │           :L/A:N 
 │                        │       │                  │        ╰ V3Score : 4.3 
@@ -35238,12 +36167,13 @@
 │                        │       │                  ──────────────────────────────────────────────────────
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-106586
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-106586      
+│                        │       │                  https://ubuntu.com/security/notices/USN-8928-1        
 │                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-106586      
 │                        │       │                  https://www.openssh.org/releasenotes.html#10.6        
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-10-06T21:17:19.803Z 
 │                        │       ╰ LastModifiedDate: 2026-10-13T14:39:21.643Z 
-│                        ├ [580] ╭ VulnerabilityID : CVE-2026-59995 
+│                        ├ [582] ╭ VulnerabilityID : CVE-2026-59995 
 │                        │       ├ PkgID           : openssh-sftp-server@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-sftp-server 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-sftp-server@10.0p1-7%2Bdeb13
@@ -35323,7 +36253,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-08T01:16:28.39Z 
 │                        │       ╰ LastModifiedDate: 2026-07-09T17:14:47.55Z 
-│                        ├ [581] ╭ VulnerabilityID : CVE-2026-59996 
+│                        ├ [583] ╭ VulnerabilityID : CVE-2026-59996 
 │                        │       ├ PkgID           : openssh-sftp-server@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-sftp-server 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-sftp-server@10.0p1-7%2Bdeb13
@@ -35407,7 +36337,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-08T01:16:28.557Z 
 │                        │       ╰ LastModifiedDate: 2026-07-09T17:14:27.62Z 
-│                        ├ [582] ╭ VulnerabilityID : CVE-2026-59997 
+│                        ├ [584] ╭ VulnerabilityID : CVE-2026-59997 
 │                        │       ├ PkgID           : openssh-sftp-server@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-sftp-server 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-sftp-server@10.0p1-7%2Bdeb13
@@ -35468,7 +36398,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-08T01:16:28.727Z 
 │                        │       ╰ LastModifiedDate: 2026-07-09T17:11:49.987Z 
-│                        ├ [583] ╭ VulnerabilityID : CVE-2026-59998 
+│                        ├ [585] ╭ VulnerabilityID : CVE-2026-59998 
 │                        │       ├ PkgID           : openssh-sftp-server@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-sftp-server 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-sftp-server@10.0p1-7%2Bdeb13
@@ -35526,7 +36456,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-08T01:16:28.87Z 
 │                        │       ╰ LastModifiedDate: 2026-07-09T16:55:00.72Z 
-│                        ├ [584] ╭ VulnerabilityID : CVE-2026-60001 
+│                        ├ [586] ╭ VulnerabilityID : CVE-2026-60001 
 │                        │       ├ PkgID           : openssh-sftp-server@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-sftp-server 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-sftp-server@10.0p1-7%2Bdeb13
@@ -35592,7 +36522,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-08T01:16:29.29Z 
 │                        │       ╰ LastModifiedDate: 2026-07-09T16:37:12.743Z 
-│                        ├ [585] ╭ VulnerabilityID : CVE-2026-73282 
+│                        ├ [587] ╭ VulnerabilityID : CVE-2026-73282 
 │                        │       ├ PkgID           : openssh-sftp-server@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-sftp-server 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-sftp-server@10.0p1-7%2Bdeb13
@@ -35666,7 +36596,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-08-11T20:18:49.83Z 
 │                        │       ╰ LastModifiedDate: 2026-09-04T16:03:08.73Z 
-│                        ├ [586] ╭ VulnerabilityID : CVE-2026-73283 
+│                        ├ [588] ╭ VulnerabilityID : CVE-2026-73283 
 │                        │       ├ PkgID           : openssh-sftp-server@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-sftp-server 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-sftp-server@10.0p1-7%2Bdeb13
@@ -35742,7 +36672,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-08-11T20:18:49.96Z 
 │                        │       ╰ LastModifiedDate: 2026-09-04T16:01:14.203Z 
-│                        ├ [587] ╭ VulnerabilityID : CVE-2007-2243 
+│                        ├ [589] ╭ VulnerabilityID : CVE-2007-2243 
 │                        │       ├ PkgID           : openssh-sftp-server@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-sftp-server 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-sftp-server@10.0p1-7%2Bdeb13
@@ -35798,7 +36728,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2007-04-25T16:19:00Z 
 │                        │       ╰ LastModifiedDate: 2026-04-23T00:35:47.467Z 
-│                        ├ [588] ╭ VulnerabilityID : CVE-2007-2768 
+│                        ├ [590] ╭ VulnerabilityID : CVE-2007-2768 
 │                        │       ├ PkgID           : openssh-sftp-server@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-sftp-server 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-sftp-server@10.0p1-7%2Bdeb13
@@ -35850,7 +36780,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2007-05-21T20:30:00Z 
 │                        │       ╰ LastModifiedDate: 2026-04-23T00:35:47.467Z 
-│                        ├ [589] ╭ VulnerabilityID : CVE-2008-3234 
+│                        ├ [591] ╭ VulnerabilityID : CVE-2008-3234 
 │                        │       ├ PkgID           : openssh-sftp-server@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-sftp-server 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-sftp-server@10.0p1-7%2Bdeb13
@@ -35894,7 +36824,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2008-07-18T16:41:00Z 
 │                        │       ╰ LastModifiedDate: 2026-04-23T00:35:47.467Z 
-│                        ├ [590] ╭ VulnerabilityID : CVE-2016-20012 
+│                        ├ [592] ╭ VulnerabilityID : CVE-2016-20012 
 │                        │       ├ PkgID           : openssh-sftp-server@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-sftp-server 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-sftp-server@10.0p1-7%2Bdeb13
@@ -35966,7 +36896,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2021-09-15T20:15:07.31Z 
 │                        │       ╰ LastModifiedDate: 2026-06-17T00:43:05.063Z 
-│                        ├ [591] ╭ VulnerabilityID : CVE-2018-15919 
+│                        ├ [593] ╭ VulnerabilityID : CVE-2018-15919 
 │                        │       ├ PkgID           : openssh-sftp-server@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-sftp-server 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-sftp-server@10.0p1-7%2Bdeb13
@@ -36021,7 +36951,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2018-08-28T08:29:00.207Z 
 │                        │       ╰ LastModifiedDate: 2026-06-17T01:43:19.583Z 
-│                        ├ [592] ╭ VulnerabilityID : CVE-2019-6110 
+│                        ├ [594] ╭ VulnerabilityID : CVE-2019-6110 
 │                        │       ├ PkgID           : openssh-sftp-server@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-sftp-server 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-sftp-server@10.0p1-7%2Bdeb13
@@ -36093,7 +37023,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2019-01-31T18:29:00.807Z 
 │                        │       ╰ LastModifiedDate: 2026-10-14T07:16:55.917Z 
-│                        ├ [593] ╭ VulnerabilityID : CVE-2020-14145 
+│                        ├ [595] ╭ VulnerabilityID : CVE-2020-14145 
 │                        │       ├ PkgID           : openssh-sftp-server@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-sftp-server 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-sftp-server@10.0p1-7%2Bdeb13
@@ -36203,7 +37133,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2020-06-29T18:15:11.94Z 
 │                        │       ╰ LastModifiedDate: 2026-10-14T10:17:29.537Z 
-│                        ├ [594] ╭ VulnerabilityID : CVE-2020-15778 
+│                        ├ [596] ╭ VulnerabilityID : CVE-2020-15778 
 │                        │       ├ PkgID           : openssh-sftp-server@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-sftp-server 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-sftp-server@10.0p1-7%2Bdeb13
@@ -36292,7 +37222,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2020-07-24T14:15:12.45Z 
 │                        │       ╰ LastModifiedDate: 2026-10-14T10:17:30.51Z 
-│                        ├ [595] ╭ VulnerabilityID : CVE-2026-106584 
+│                        ├ [597] ╭ VulnerabilityID : CVE-2026-106584 
 │                        │       ├ PkgID           : openssh-sftp-server@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-sftp-server 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-sftp-server@10.0p1-7%2Bdeb13
@@ -36324,17 +37254,20 @@
 │                        │       │                  CWE-193
 │                        │       │                  
 │                        │       ├ VendorSeverity   ╭ debian: 1 
-│                        │       │                  ╰ nvd   : 1 
+│                        │       │                  ├ nvd   : 1 
+│                        │       │                  ╰ ubuntu: 2 
 │                        │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/
 │                        │       │                        │           A:N 
 │                        │       │                        ╰ V3Score : 3.3 
-│                        │       ├ References                                                     
-│                        │       │                  ──────────────────────────────────────────────
-│                        │       │                  https://www.openssh.org/releasenotes.html#10.6
+│                        │       ├ References                                                       
+│                        │       │                  ────────────────────────────────────────────────
+│                        │       │                  https://ubuntu.com/security/notices/USN-8928-1  
+│                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-106584
+│                        │       │                  https://www.openssh.org/releasenotes.html#10.6  
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-10-06T21:17:19.52Z 
 │                        │       ╰ LastModifiedDate: 2026-10-13T14:40:04.283Z 
-│                        ├ [596] ╭ VulnerabilityID : CVE-2026-106587 
+│                        ├ [598] ╭ VulnerabilityID : CVE-2026-106587 
 │                        │       ├ PkgID           : openssh-sftp-server@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-sftp-server 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-sftp-server@10.0p1-7%2Bdeb13
@@ -36365,17 +37298,20 @@
 │                        │       │                  ───────
 │                        │       │                  CWE-843
 │                        │       │                  
-│                        │       ├ VendorSeverity   ─ nvd: 1 
+│                        │       ├ VendorSeverity   ╭ nvd   : 1 
+│                        │       │                  ╰ ubuntu: 2 
 │                        │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/
 │                        │       │                        │           A:N 
 │                        │       │                        ╰ V3Score : 3.3 
-│                        │       ├ References                                                     
-│                        │       │                  ──────────────────────────────────────────────
-│                        │       │                  https://www.openssh.org/releasenotes.html#10.6
+│                        │       ├ References                                                       
+│                        │       │                  ────────────────────────────────────────────────
+│                        │       │                  https://ubuntu.com/security/notices/USN-8928-1  
+│                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-106587
+│                        │       │                  https://www.openssh.org/releasenotes.html#10.6  
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-10-06T22:17:06.62Z 
 │                        │       ╰ LastModifiedDate: 2026-10-09T16:39:23.107Z 
-│                        ├ [597] ╭ VulnerabilityID : CVE-2026-55654 
+│                        ├ [599] ╭ VulnerabilityID : CVE-2026-55654 
 │                        │       ├ PkgID           : openssh-sftp-server@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-sftp-server 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-sftp-server@10.0p1-7%2Bdeb13
@@ -36452,7 +37388,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-06-23T04:17:40.587Z 
 │                        │       ╰ LastModifiedDate: 2026-09-24T23:17:11.727Z 
-│                        ├ [598] ╭ VulnerabilityID : CVE-2026-73281 
+│                        ├ [600] ╭ VulnerabilityID : CVE-2026-73281 
 │                        │       ├ PkgID           : openssh-sftp-server@1:10.0p1-7+deb13u4 
 │                        │       ├ PkgName         : openssh-sftp-server 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-sftp-server@10.0p1-7%2Bdeb13
@@ -36531,77 +37467,6 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-08-11T20:18:49.69Z 
 │                        │       ╰ LastModifiedDate: 2026-09-04T16:04:40.22Z 
-│                        ├ [599] ╭ VulnerabilityID : CVE-2026-106582 
-│                        │       ├ PkgID           : openssh-sftp-server@1:10.0p1-7+deb13u4 
-│                        │       ├ PkgName         : openssh-sftp-server 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-sftp-server@10.0p1-7%2Bdeb13
-│                        │       │                  │       u4?arch=amd64&distro=debian-13.7&epoch=1 
-│                        │       │                  ╰ UID : 75408ea44439a1d 
-│                        │       ├ InstalledVersion: 1:10.0p1-7+deb13u4 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-106582 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:4300d4f8defc2f525f1b9c2432998b862cac8dd6b287d266d49
-│                        │       │                   dfe736453b252 
-│                        │       ├ Title           : In sshd and ssh in OpenSSH before 10.6, an LZ77 dictionary
-│                        │       │                    coder can b ... 
-│                        │       ├ Description     : In sshd and ssh in OpenSSH before 10.6, an LZ77 dictionary
-│                        │       │                    coder can be used even though this is contraindicated by
-│                        │       │                   the arXiv 2609.07709 "Crossing the Streams" findings. 
-│                        │       ├ Severity        : UNKNOWN 
-│                        │       ├ CweIDs                  
-│                        │       │                  ───────
-│                        │       │                  CWE-514
-│                        │       │                  
-│                        │       ├ References                                                     
-│                        │       │                  ──────────────────────────────────────────────
-│                        │       │                  https://arxiv.org/abs/2609.07709              
-│                        │       │                  https://www.openssh.org/releasenotes.html#10.6
-│                        │       │                  
-│                        │       ├ PublishedDate   : 2026-10-06T21:17:19.37Z 
-│                        │       ╰ LastModifiedDate: 2026-10-13T14:57:12.573Z 
-│                        ├ [600] ╭ VulnerabilityID : CVE-2026-106585 
-│                        │       ├ PkgID           : openssh-sftp-server@1:10.0p1-7+deb13u4 
-│                        │       ├ PkgName         : openssh-sftp-server 
-│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/debian/openssh-sftp-server@10.0p1-7%2Bdeb13
-│                        │       │                  │       u4?arch=amd64&distro=debian-13.7&epoch=1 
-│                        │       │                  ╰ UID : 75408ea44439a1d 
-│                        │       ├ InstalledVersion: 1:10.0p1-7+deb13u4 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:222718227808b2511c2d479d0d0764fdd387ada6a5
-│                        │       │                  │         57e418132e6e2377ac214c 
-│                        │       │                  ╰ DiffID: sha256:b5836dcea5f0df4d063648a238c4e5e189c9009b57
-│                        │       │                            603a53f25e7b62abe59704 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-106585 
-│                        │       ├ DataSource       ╭ ID  : debian 
-│                        │       │                  ├ Name: Debian Security Tracker 
-│                        │       │                  ╰ URL : https://salsa.debian.org/security-tracker-team/secu
-│                        │       │                          rity-tracker 
-│                        │       ├ Fingerprint     : sha256:f8b385a937bf7ff6b489a154b838fa834e0ecbb64ec31b52ecb
-│                        │       │                   38bae80a59008 
-│                        │       ├ Title           : In sshd and ssh in OpenSSH before 10.6, there is no check
-│                        │       │                   for whether  ... 
-│                        │       ├ Description     : In sshd and ssh in OpenSSH before 10.6, there is no check
-│                        │       │                   for whether the maximum packet length is exceeded during
-│                        │       │                   decompression of highly compressed data. 
-│                        │       ├ Severity        : UNKNOWN 
-│                        │       ├ CweIDs                  
-│                        │       │                  ───────
-│                        │       │                  CWE-409
-│                        │       │                  
-│                        │       ├ References                                                     
-│                        │       │                  ──────────────────────────────────────────────
-│                        │       │                  https://www.openssh.org/releasenotes.html#10.6
-│                        │       │                  
-│                        │       ├ PublishedDate   : 2026-10-06T21:17:19.663Z 
-│                        │       ╰ LastModifiedDate: 2026-10-13T14:39:36.6Z 
 │                        ├ [601] ╭ VulnerabilityID : CVE-2007-5686 
 │                        │       ├ PkgID           : passwd@1:4.17.4-2 
 │                        │       ├ PkgName         : passwd 
@@ -36709,7 +37574,10 @@
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2024-56433      
 │                        │       │                  https://bugzilla.redhat.com/2334165                        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2334165        
+│                        │       │                  https://cert-portal.siemens.com/productcert/html/ssa-398330
+│                        │       │                  .html                                                      
 │                        │       │                  https://creativecommons.org/licenses/by/4.0/               
+│                        │       │                                                                             
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-564
 │                        │       │                  33                                                         
 │                        │       │                  https://errata.almalinux.org/9/ALSA-2025-20559.html        
@@ -36732,7 +37600,7 @@
 │                        │       │                                                                             
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
-│                        │       ╰ LastModifiedDate: 2026-06-17T08:12:10.903Z 
+│                        │       ╰ LastModifiedDate: 2026-10-15T01:19:16.297Z 
 │                        ├ [603] ╭ VulnerabilityID : TEMP-0628843-DBAD28 
 │                        │       ├ PkgID           : passwd@1:4.17.4-2 
 │                        │       ├ PkgName         : passwd 
@@ -38006,6 +38874,7 @@
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:75571           
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:75579           
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:75580           
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:82939           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-96512      
 │                        │       │                  https://bugzilla.redhat.com/2539327                        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2539327        
@@ -38030,7 +38899,7 @@
 │                        │       │                                                                             
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-09-23T14:17:10.747Z 
-│                        │       ╰ LastModifiedDate: 2026-10-05T11:17:01.93Z 
+│                        │       ╰ LastModifiedDate: 2026-10-14T19:17:23.22Z 
 │                        ├ [623] ╭ VulnerabilityID : CVE-2005-1119 
 │                        │       ├ PkgID           : sudo@1.9.16p2-3+deb13u2 
 │                        │       ├ PkgName         : sudo 
@@ -40000,7 +40869,10 @@
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2024-56433      
 │                        │       │                  https://bugzilla.redhat.com/2334165                        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2334165        
+│                        │       │                  https://cert-portal.siemens.com/productcert/html/ssa-398330
+│                        │       │                  .html                                                      
 │                        │       │                  https://creativecommons.org/licenses/by/4.0/               
+│                        │       │                                                                             
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-564
 │                        │       │                  33                                                         
 │                        │       │                  https://errata.almalinux.org/9/ALSA-2025-20559.html        
@@ -40023,7 +40895,7 @@
 │                        │       │                                                                             
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
-│                        │       ╰ LastModifiedDate: 2026-06-17T08:12:10.903Z 
+│                        │       ╰ LastModifiedDate: 2026-10-15T01:19:16.297Z 
 │                        ├ [661] ╭ VulnerabilityID : TEMP-0628843-DBAD28 
 │                        │       ├ PkgID           : uidmap@1:4.17.4-2 
 │                        │       ├ PkgName         : uidmap 
@@ -40451,6 +41323,8 @@
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2022-0563       
 │                        │       │                  https://blog.trailofbits.com/2023/02/16/suid-logic-bug-linu
 │                        │       │                  x-readline/                                                
+│                        │       │                  https://cert-portal.siemens.com/productcert/html/ssa-398330
+│                        │       │                  .html                                                      
 │                        │       │                  https://github.com/bottlerocket-os/bottlerocket/security/ad
 │                        │       │                  visories/GHSA-mv4q-wq4c-5xmg                               
 │                        │       │                  https://lore.kernel.org/util-linux/20220214110609.msiwlm457
@@ -40465,7 +41339,7 @@
 │                        │       │                                                                             
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2022-02-21T19:15:08.393Z 
-│                        │       ╰ LastModifiedDate: 2026-06-17T04:20:51.053Z 
+│                        │       ╰ LastModifiedDate: 2026-10-14T13:17:14.167Z 
 │                        ├ [669] ╭ VulnerabilityID : CVE-2026-26269 
 │                        │       ├ PkgID           : vim@2:9.1.1230-2 
 │                        │       ├ PkgName         : vim 
@@ -55815,6 +56689,7 @@
 │                        │       │                  ├ julia      : 2 
 │                        │       │                  ├ nvd        : 3 
 │                        │       │                  ├ oracle-oval: 2 
+│                        │       │                  ├ photon     : 3 
 │                        │       │                  ├ redhat     : 2 
 │                        │       │                  ├ rocky      : 2 
 │                        │       │                  ╰ ubuntu     : 2 
@@ -55911,6 +56786,7 @@
 │                        │       │                  ├ julia      : 2 
 │                        │       │                  ├ nvd        : 3 
 │                        │       │                  ├ oracle-oval: 2 
+│                        │       │                  ├ photon     : 3 
 │                        │       │                  ├ redhat     : 2 
 │                        │       │                  ├ rocky      : 2 
 │                        │       │                  ╰ ubuntu     : 2 
@@ -56059,7 +56935,8 @@
 │                        │       │                   from the machine running Wget, potentially accessing
 │                        │       │                   localhost services or internal network resources. 
 │                        │       ├ Severity        : MEDIUM 
-│                        │       ├ VendorSeverity   ╭ redhat: 2 
+│                        │       ├ VendorSeverity   ╭ photon: 2 
+│                        │       │                  ├ redhat: 2 
 │                        │       │                  ╰ ubuntu: 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I
 │                        │       │                           │           :L/A:L 
@@ -56120,6 +56997,7 @@
 │                        │       │                  ├ amazon     : 3 
 │                        │       │                  ├ julia      : 3 
 │                        │       │                  ├ oracle-oval: 2 
+│                        │       │                  ├ photon     : 3 
 │                        │       │                  ├ redhat     : 2 
 │                        │       │                  ├ rocky      : 2 
 │                        │       │                  ╰ ubuntu     : 2 
@@ -56206,6 +57084,7 @@
 │                        │       │                  CWE-190
 │                        │       │                  
 │                        │       ├ VendorSeverity   ╭ julia : 2 
+│                        │       │                  ├ photon: 2 
 │                        │       │                  ├ redhat: 2 
 │                        │       │                  ╰ ubuntu: 2 
 │                        │       ├ CVSS             ╭ julia  ╭ V3Vector : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/
@@ -56277,6 +57156,7 @@
 │                        │       │                  CWE-606
 │                        │       │                  
 │                        │       ├ VendorSeverity   ╭ debian: 1 
+│                        │       │                  ├ photon: 2 
 │                        │       │                  ╰ redhat: 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I
 │                        │       │                           │           :N/A:H 
@@ -76020,7 +76900,7 @@
 │                        │     │                  ─────────────────────────────────────────────────────────
 │                        │     │                  https://access.redhat.com/security/cve/CVE-2026-97032    
 │                        │     │                  https://go.dev/cl/847188                                 
-│                        │     │                  https://go.dev/cl/847313                                 
+│                        │     │                  https://access.redhat.com/errata/RHSA-2026:58981         
 │                        │     │                  https://go.dev/issue/81867                               
 │                        │     │                  https://groups.google.com/g/golang-announce/c/U2fTuyDJznI
 │                        │     │                  https://groups.google.com/g/golang-announce/c/ZPwCyRUuGBs
@@ -76342,7 +77222,7 @@
 │                        │      │                           ╰ V3Score : 8.4 
 │                        │      ├ References                                                                   
 │                        │      │                  ────────────────────────────────────────────────────────────
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:21769            
+│                        │      │                  https://groups.google.com/g/golang-announce/c/U2fTuyDJznI   
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:22347            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:23345            
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-33997       
@@ -77383,7 +78263,7 @@
 │                        │      ├ Severity        : UNKNOWN 
 │                        │      ├ CweIDs                  
 │                        │      │                  ───────
-│                        │      │                  CWE-522
+│                        │      │                  CWE-405
 │                        │      │                  
 │                        │      ├ References                                                                
 │                        │      │                  ─────────────────────────────────────────────────────────
@@ -77965,7 +78845,7 @@
 │                        │      │                  ─────────────────────────────────────────────────────────
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-97031    
 │                        │      │                  https://go.dev/cl/847312                                 
-│                        │      │                  https://go.dev/issue/81855                               
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:16101         
 │                        │      │                  https://groups.google.com/g/golang-announce/c/U2fTuyDJznI
 │                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-97031          
 │                        │      │                  https://pkg.go.dev/vuln/GO-2026-6607                     
@@ -78625,8 +79505,8 @@
 │                        │      │                  f44b656c8295c9e6607a19b76650                                
 │                        │      │                  https://github.com/containerd/containerd/commit/ff39a972369e
 │                        │      │                  2f12fae561a58d658bbf8f2bc318                                
-│                        │      │                  https://github.com/containerd/containerd/releases/tag/v1.7.3
-│                        │      │                  5                                                           
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:63022            
+│                        │      │                                                                              
 │                        │      │                  https://github.com/containerd/containerd/releases/tag/v2.0.1
 │                        │      │                  2                                                           
 │                        │      │                  https://github.com/containerd/containerd/releases/tag/v2.2.8
@@ -78865,7 +79745,7 @@
 │                        │      │                  https://github.com/open-telemetry/opentelemetry-go          
 │                        │      │                  https://github.com/open-telemetry/opentelemetry-go/commit/3a
 │                        │      │                  1412d2b3bc4e4231fbeac2ed42117ae541bb38                      
-│                        │      │                  https://github.com/open-telemetry/opentelemetry-go/pull/8438
+│                        │      │                  https://news.ycombinator.com/item?id=46404339               
 │                        │      │                                                                              
 │                        │      │                  https://github.com/open-telemetry/opentelemetry-go/releases/
 │                        │      │                  tag/exporters/zipkin/v1.45.0                                
@@ -79164,7 +80044,7 @@
 │                        ├ [10] ╭ VulnerabilityID : CVE-2026-78669 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
-│                        │      │                  GO-2026-6611
+│                        │      │                  CWE-668     
 │                        │      │                  
 │                        │      ├ PkgID           : golang.org/x/net@v0.55.0 
 │                        │      ├ PkgName         : golang.org/x/net 
@@ -79595,7 +80475,7 @@
 │                        │      ├ Severity        : HIGH 
 │                        │      ├ CweIDs                  
 │                        │      │                  ───────
-│                        │      │                  CWE-400
+│                        │      │                  CWE-347
 │                        │      │                  
 │                        │      ├ VendorSeverity   ╭ azure : 3 
 │                        │      │                  ├ ghsa  : 3 
@@ -79692,13 +80572,14 @@
 │                        │      ├ References                                                                   
 │                        │      │                  ────────────────────────────────────────────────────────────
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:76743            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:76744            
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-84445       
 │                        │      │                  https://bugzilla.redhat.com/2533175                         
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2533175         
 │                        │      │                  https://creativecommons.org/licenses/by/4.0/                
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-8444
 │                        │      │                  5                                                           
-│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-76743.html        
+│                        │      │                  https://errata.almalinux.org/9/ALSA-2026-76744.html         
 │                        │      │                                                                              
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:76743               
 │                        │      │                                                                              
@@ -80059,346 +80940,178 @@
 │                        │      ├ References                                                                   
 │                        │      │                  ────────────────────────────────────────────────────────────
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:23262            
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:2753             
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:23264            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:26546            
-│                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2433464         
-│                        │      │                  https://creativecommons.org/licenses/by/4.0/                
-│                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-2488
-│                        │      │                  2                                                           
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:26547            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:30650            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:30651            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:30853            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:30854            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:30855            
-│                        │      │                                                                              
-│                        │      │                  https://linux.oracle.com/cve/CVE-2026-24882.html            
-│                        │      │                                                                              
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:33155            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:33160            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:33163            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:33173            
-│                        │      │                                                                              
-│                        │      │                  https://www.cve.org/CVERecord?id=CVE-2026-24882             
-│                        │      │                                                                              
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:33183            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:33524            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:33531            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:34342            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:34357            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:34359            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:34364            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:34789            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:35826            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:35827            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:35828            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:35829            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:35830            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:35831            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:35993            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:35994            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:36105            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:36167            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:36207            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:36648            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:36651            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:36796            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:36797            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:36808            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:36820            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:36883            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:37387            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:37435            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:37436            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:38995            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:39005            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:39573            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:39879            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:40118            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:40262            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:40945            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:41019            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:41030            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:41031            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:41036            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:41055            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:41066            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:41928            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:41930            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:42043            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:42047            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:42048            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:42049            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:42050            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:42051            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:42078            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:42079            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:42080            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:42082            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:42132            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:42142            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:42146            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:42150            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:42151            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:42240            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:42644            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:42796            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:42852            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:43038            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:43052            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:43692            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:44622            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:44624            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:46395            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:47149            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:47735            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:47737            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:47952            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:49702            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:49712            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:50300            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:50843            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:51033            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:51112            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:51187            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:51194            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:51341            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:52826            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:53374            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:53412            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:53413            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:53415            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:53530            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:54191            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:54274            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:54283            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:54284            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:54285            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:54286            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:54287            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:54395            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:54401            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:54435            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:54441            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:54531            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:54580            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:54757            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:56143            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:56223            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:56340            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:56431            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:57194            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:57541            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:57649            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:57845            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:59546            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:59549            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:59562            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:60315            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:60354            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:60387            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:60520            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:61245            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:61253            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:62549            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:63134            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:65126            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:65153            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:65359            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:65534            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:65851            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:65886            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:66016            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:66022            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:66350            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:66432            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:67149            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:67159            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:67160            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:67287            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:67319            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:67517            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:68504            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-39821       
-│                        │      │                                                                              
 │                        │      │                  https://bugzilla.redhat.com/2467809                         
-│                        │      │                                                                              
 │                        │      │                  https://bugzilla.redhat.com/2467820                         
-│                        │      │                                                                              
 │                        │      │                  https://bugzilla.redhat.com/2480756                         
-│                        │      │                                                                              
 │                        │      │                  https://bugzilla.redhat.com/2484204                         
-│                        │      │                                                                              
 │                        │      │                  https://bugzilla.redhat.com/2515815                         
-│                        │      │                                                                              
 │                        │      │                  https://bugzilla.redhat.com/2515820                         
-│                        │      │                                                                              
 │                        │      │                  https://bugzilla.redhat.com/2515827                         
-│                        │      │                                                                              
 │                        │      │                  https://bugzilla.redhat.com/2515838                         
-│                        │      │                                                                              
 │                        │      │                  https://bugzilla.redhat.com/2515839                         
-│                        │      │                                                                              
 │                        │      │                  https://bugzilla.redhat.com/2515840                         
-│                        │      │                                                                              
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2315719         
-│                        │      │                                                                              
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2341751         
-│                        │      │                                                                              
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2467820         
-│                        │      │                                                                              
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2480756         
-│                        │      │                                                                              
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515815         
-│                        │      │                                                                              
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515820         
-│                        │      │                                                                              
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515827         
-│                        │      │                                                                              
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515838         
-│                        │      │                                                                              
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515839         
-│                        │      │                                                                              
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515840         
-│                        │      │                                                                              
 │                        │      │                  https://creativecommons.org/licenses/by/4.0/                
-│                        │      │                                                                              
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-4533
 │                        │      │                  6                                                           
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-9355
@@ -82548,7 +83261,7 @@
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:7291             
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:7385             
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:7676             
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:7854             
+│                        │      │                  https://go.dev/issue/81855                                  
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:7942             
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:8151             
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:8167             
@@ -82587,7 +83300,7 @@
 │                        │      │                                                                              
 │                        │      │                  https://groups.google.com/g/golang-announce/c/Vd2tYVM8eUc   
 │                        │      │                                                                              
-│                        │      │                  https://linux.oracle.com/cve/CVE-2025-61726.html            
+│                        │      │                  https://linux.oracle.com/cve/CVE-2026-56391.html            
 │                        │      │                                                                              
 │                        │      │                  https://linux.oracle.com/errata/ELSA-2026-5146.html         
 │                        │      │                                                                              
@@ -82741,7 +83454,7 @@
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:10250            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:10701            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:10712            
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:10929            
+│                        │      │                  CWE-444                                                     
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:11217            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:11375            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:11412            
@@ -82823,7 +83536,7 @@
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:21696            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:21769            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:22347            
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:22423            
+│                        │      │                  https://go.dev/issue/81823                                  
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:22450            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:22627            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:22714            
@@ -82988,7 +83701,7 @@
 │                        │      │                  https://creativecommons.org/licenses/by/4.0/                
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-2567
 │                        │      │                  9                                                           
-│                        │      │                  https://errata.almalinux.org/9/ALSA-2026-9044.html          
+│                        │      │                  https://curl.se/docs/CVE-2026-8924.json                     
 │                        │      │                                                                              
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:8456                
 │                        │      │                                                                              
@@ -83068,204 +83781,105 @@
 │                        │      ├ References                                                                   
 │                        │      │                  ────────────────────────────────────────────────────────────
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:23262            
-│                        │      │                  https://github.com/util-linux/util-linux/security/advisories
-│                        │      │                  /GHSA-rh77-686x-2f2m                                        
-│                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-78410             
-│                        │      │                                                                              
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:23264            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:29980            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:29981            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:33574            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:34357            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:34359            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:35832            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:36317            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:36648            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:36797            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:38995            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:39005            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:39573            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:39879            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:41030            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:41036            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:41930            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:42043            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:42047            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:42049            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:42050            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:42051            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:42079            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:42080            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:42082            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:42142            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:42150            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:42151            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:42240            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:42644            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:42946            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:44622            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:46394            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:46395            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:47149            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:47735            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:47737            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:49702            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:49703            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:49705            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:49712            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:49729            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:49744            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:49765            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:49770            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:50205            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:50319            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:51057            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:51187            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:52946            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:53374            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:53412            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:53413            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:53415            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:53416            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:53530            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:54168            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:54401            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:54427            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:54432            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:54435            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:54441            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:54500            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:54525            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:54531            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:54603            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:54757            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:55899            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:57194            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:57482            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:57488            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:57649            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:59556            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:59557            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:59558            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:59559            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:59579            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:59593            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:60025            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:60315            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:60354            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:60386            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:60387            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:60388            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:60390            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:60391            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:61253            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:61314            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:63016            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:66022            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:68334            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:68335            
-│                        │      │                                                                              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-27145       
-│                        │      │                                                                              
 │                        │      │                  https://bugzilla.redhat.com/2445356                         
-│                        │      │                                                                              
 │                        │      │                  https://bugzilla.redhat.com/2484207                         
-│                        │      │                                                                              
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2480756         
-│                        │      │                                                                              
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2484207         
-│                        │      │                                                                              
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2498152         
-│                        │      │                                                                              
 │                        │      │                  https://creativecommons.org/licenses/by/4.0/                
-│                        │      │                                                                              
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-2714
 │                        │      │                  5                                                           
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3982
@@ -83373,13 +83987,13 @@
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:16534            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:16535            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:16537            
-│                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2513608         
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:16542            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:16874            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:16875            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:17084            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:17287            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:18027            
-│                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6368
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:18032            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:19133            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:19135            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:19144            
@@ -83739,13 +84353,13 @@
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:14391            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:15980            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:16021            
-│                        │      │                  https://sourceware.org/bugzilla/show_bug.cgi?id=34556       
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:16024            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:16101            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:16102            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:16875            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:17075            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:17084            
-│                        │      │                  https://www.cve.org/CVERecord?id=CVE-2026-77117             
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:17287            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:18027            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:18032            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:19126            
@@ -84183,7 +84797,7 @@
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:33150            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:34342            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:37387            
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:42644            
+│                        │      │                  https://curl.se/docs/CVE-2026-92391.html                    
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:43692            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:49702            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:49712            
@@ -84266,8 +84880,8 @@
 │                        │      │                  6                                                           
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3983
 │                        │      │                  6                                                           
-│                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4249
-│                        │      │                  9                                                           
+│                        │      │                  https://go.dev/issue/81823                                  
+│                        │      │                                                                              
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4250
 │                        │      │                  1                                                           
 │                        │      │                  https://errata.almalinux.org/8/ALSA-2026-22112.html         
@@ -84415,10 +85029,10 @@
 │                        │      │                   ParseAddressList, and ParseDate were able to trigger
 │                        │      │                   excessive CPU exhaustion and memory allocations. 
 │                        │      ├ Severity        : HIGH 
-│                        │      ├ CweIDs                  
-│                        │      │                  ───────
-│                        │      │                  CWE-770
-│                        │      │                  CWE-606
+│                        │      ├ CweIDs                              
+│                        │      │                  ───────────────────
+│                        │      │                  GHSA-7jxh-36q5-gcqv
+│                        │      │                  CWE-606            
 │                        │      │                  
 │                        │      ├ VendorSeverity   ╭ alma       : 3 
 │                        │      │                  ├ amazon     : 3 
@@ -85198,7 +85812,7 @@
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2484204         
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2484830         
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2493622         
-│                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-97399             
+│                        │      │                  https://creativecommons.org/licenses/by/4.0/                
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-2286
 │                        │      │                  6                                                           
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3228
@@ -85370,7 +85984,7 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                    
 │                        │      │                  ─────────────────────────────────────────────────────────────
-│                        │      │                  https://sourceware.org/bugzilla/show_bug.cgi?id=34069        
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:66016             
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:70641             
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-56853        
 │                        │      │                  https://bugzilla.redhat.com/2515815                          
@@ -87334,7 +87948,7 @@
 │                        │      │                  1542d3e98eab84ea%20%28go1.23.1%29                           
 │                        │      │                  https://github.com/golang/go/commit/d4c53812e6ce2ac368173d7f
 │                        │      │                  cd31d0ecfcffb002%20%28go1.22.7%29                           
-│                        │      │                  https://bugzilla.redhat.com/2496771                         
+│                        │      │                  https://go.dev/cl/611240                                    
 │                        │      │                                                                              
 │                        │      │                  https://go.dev/issue/69141                                  
 │                        │      │                                                                              
@@ -88006,7 +88620,7 @@
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2396546          
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2407258          
 │                        │      │                  https://creativecommons.org/licenses/by/4.0/                 
-│                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-47906
+│                        │      │                  https://bugzilla.redhat.com/2266742                          
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-58183
 │                        │      │                  https://errata.almalinux.org/9/ALSA-2025-22005.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2025:22668                
@@ -91575,7 +92189,7 @@
 │                        │      │                  https://go.dev/cl/794100                                     
 │                        │      │                  https://go.dev/issue/80142                                   
 │                        │      │                  https://linux.oracle.com/cve/CVE-2026-56852.html             
-│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-70201.html         
+│                        │      │                  https://bugzilla.redhat.com/2524870                          
 │                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-56852              
 │                        │      │                  https://pkg.go.dev/vuln/GO-2026-5970                         
 │                        │      │                  https://www.cve.org/CVERecord?id=CVE-2026-56852              
@@ -91761,13 +92375,14 @@
 │                        │      ├ References                                                                   
 │                        │      │                  ────────────────────────────────────────────────────────────
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:76743            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:76744            
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-84445       
 │                        │      │                  https://bugzilla.redhat.com/2533175                         
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2533175         
 │                        │      │                  https://creativecommons.org/licenses/by/4.0/                
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-8444
 │                        │      │                  5                                                           
-│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-76743.html        
+│                        │      │                  https://errata.almalinux.org/9/ALSA-2026-76744.html         
 │                        │      │                                                                              
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:76743               
 │                        │      │                                                                              
@@ -92785,7 +93400,7 @@
 │                        │      ├ Severity        : HIGH 
 │                        │      ├ CweIDs                  
 │                        │      │                  ───────
-│                        │      │                  CWE-191
+│                        │      │                  CWE-770
 │                        │      │                  
 │                        │      ├ VendorSeverity   ╭ alma       : 3 
 │                        │      │                  ├ amazon     : 3 
@@ -93874,7 +94489,7 @@
 │                        │      ├ Severity        : UNKNOWN 
 │                        │      ├ CweIDs                  
 │                        │      │                  ───────
-│                        │      │                  CWE-444
+│                        │      │                  CWE-835
 │                        │      │                  
 │                        │      ├ References                                                                
 │                        │      │                  ─────────────────────────────────────────────────────────
