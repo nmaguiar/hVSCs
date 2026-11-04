@@ -199,6 +199,7 @@
         V3Score: 7.5
     References:
     - https://access.redhat.com/errata/RHSA-2026:93072
+    - https://access.redhat.com/errata/RHSA-2026:93610
     - https://access.redhat.com/security/cve/CVE-2026-19630
     - https://bugzilla.redhat.com/2556406
     - https://bugzilla.redhat.com/2556407
@@ -215,7 +216,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97313
     - https://downloads.isc.org/isc/bind9/9.20.30
     - https://downloads.isc.org/isc/bind9/9.21.27
-    - https://errata.almalinux.org/9/ALSA-2026-93072.html
+    - https://errata.almalinux.org/9/ALSA-2026-93610.html
     - https://errata.rockylinux.org/RLSA-2026:93072
     - https://kb.isc.org/docs/cve-2026-19630
     - https://linux.oracle.com/cve/CVE-2026-19630.html
@@ -694,6 +695,7 @@
         V3Score: 8.1
     References:
     - https://access.redhat.com/errata/RHSA-2026:93072
+    - https://access.redhat.com/errata/RHSA-2026:93610
     - https://access.redhat.com/security/cve/CVE-2026-94300
     - https://bugzilla.redhat.com/2556406
     - https://bugzilla.redhat.com/2556407
@@ -710,7 +712,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97313
     - https://downloads.isc.org/isc/bind9/9.20.30
     - https://downloads.isc.org/isc/bind9/9.21.27
-    - https://errata.almalinux.org/9/ALSA-2026-93072.html
+    - https://errata.almalinux.org/9/ALSA-2026-93610.html
     - https://errata.rockylinux.org/RLSA-2026:93072
     - https://kb.isc.org/docs/cve-2026-94300
     - https://linux.oracle.com/cve/CVE-2026-94300.html
@@ -759,6 +761,7 @@
         V3Score: 7.5
     References:
     - https://access.redhat.com/errata/RHSA-2026:93072
+    - https://access.redhat.com/errata/RHSA-2026:93610
     - https://access.redhat.com/security/cve/CVE-2026-96888
     - https://bugzilla.redhat.com/2556406
     - https://bugzilla.redhat.com/2556407
@@ -775,7 +778,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97313
     - https://downloads.isc.org/isc/bind9/9.20.30
     - https://downloads.isc.org/isc/bind9/9.21.27
-    - https://errata.almalinux.org/9/ALSA-2026-93072.html
+    - https://errata.almalinux.org/9/ALSA-2026-93610.html
     - https://errata.rockylinux.org/RLSA-2026:93072
     - https://kb.isc.org/docs/cve-2026-96888
     - https://linux.oracle.com/cve/CVE-2026-96888.html
@@ -823,6 +826,7 @@
         V3Score: 7.5
     References:
     - https://access.redhat.com/errata/RHSA-2026:93072
+    - https://access.redhat.com/errata/RHSA-2026:93610
     - https://access.redhat.com/security/cve/CVE-2026-97313
     - https://bugzilla.redhat.com/2556406
     - https://bugzilla.redhat.com/2556407
@@ -839,7 +843,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97313
     - https://downloads.isc.org/isc/bind9/9.20.30
     - https://downloads.isc.org/isc/bind9/9.21.27
-    - https://errata.almalinux.org/9/ALSA-2026-93072.html
+    - https://errata.almalinux.org/9/ALSA-2026-93610.html
     - https://errata.rockylinux.org/RLSA-2026:93072
     - https://kb.isc.org/docs/cve-2026-97313
     - https://linux.oracle.com/cve/CVE-2026-97313.html
@@ -1226,6 +1230,7 @@
         V3Score: 7.5
     References:
     - https://access.redhat.com/errata/RHSA-2026:93072
+    - https://access.redhat.com/errata/RHSA-2026:93610
     - https://access.redhat.com/security/cve/CVE-2026-19630
     - https://bugzilla.redhat.com/2556406
     - https://bugzilla.redhat.com/2556407
@@ -1242,7 +1247,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97313
     - https://downloads.isc.org/isc/bind9/9.20.30
     - https://downloads.isc.org/isc/bind9/9.21.27
-    - https://errata.almalinux.org/9/ALSA-2026-93072.html
+    - https://errata.almalinux.org/9/ALSA-2026-93610.html
     - https://errata.rockylinux.org/RLSA-2026:93072
     - https://kb.isc.org/docs/cve-2026-19630
     - https://linux.oracle.com/cve/CVE-2026-19630.html
@@ -1721,6 +1726,7 @@
         V3Score: 8.1
     References:
     - https://access.redhat.com/errata/RHSA-2026:93072
+    - https://access.redhat.com/errata/RHSA-2026:93610
     - https://access.redhat.com/security/cve/CVE-2026-94300
     - https://bugzilla.redhat.com/2556406
     - https://bugzilla.redhat.com/2556407
@@ -1737,7 +1743,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97313
     - https://downloads.isc.org/isc/bind9/9.20.30
     - https://downloads.isc.org/isc/bind9/9.21.27
-    - https://errata.almalinux.org/9/ALSA-2026-93072.html
+    - https://errata.almalinux.org/9/ALSA-2026-93610.html
     - https://errata.rockylinux.org/RLSA-2026:93072
     - https://kb.isc.org/docs/cve-2026-94300
     - https://linux.oracle.com/cve/CVE-2026-94300.html
@@ -1786,6 +1792,7 @@
         V3Score: 7.5
     References:
     - https://access.redhat.com/errata/RHSA-2026:93072
+    - https://access.redhat.com/errata/RHSA-2026:93610
     - https://access.redhat.com/security/cve/CVE-2026-96888
     - https://bugzilla.redhat.com/2556406
     - https://bugzilla.redhat.com/2556407
@@ -1802,7 +1809,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97313
     - https://downloads.isc.org/isc/bind9/9.20.30
     - https://downloads.isc.org/isc/bind9/9.21.27
-    - https://errata.almalinux.org/9/ALSA-2026-93072.html
+    - https://errata.almalinux.org/9/ALSA-2026-93610.html
     - https://errata.rockylinux.org/RLSA-2026:93072
     - https://kb.isc.org/docs/cve-2026-96888
     - https://linux.oracle.com/cve/CVE-2026-96888.html
@@ -1850,6 +1857,7 @@
         V3Score: 7.5
     References:
     - https://access.redhat.com/errata/RHSA-2026:93072
+    - https://access.redhat.com/errata/RHSA-2026:93610
     - https://access.redhat.com/security/cve/CVE-2026-97313
     - https://bugzilla.redhat.com/2556406
     - https://bugzilla.redhat.com/2556407
@@ -1866,7 +1874,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97313
     - https://downloads.isc.org/isc/bind9/9.20.30
     - https://downloads.isc.org/isc/bind9/9.21.27
-    - https://errata.almalinux.org/9/ALSA-2026-93072.html
+    - https://errata.almalinux.org/9/ALSA-2026-93610.html
     - https://errata.rockylinux.org/RLSA-2026:93072
     - https://kb.isc.org/docs/cve-2026-97313
     - https://linux.oracle.com/cve/CVE-2026-97313.html
@@ -2253,6 +2261,7 @@
         V3Score: 7.5
     References:
     - https://access.redhat.com/errata/RHSA-2026:93072
+    - https://access.redhat.com/errata/RHSA-2026:93610
     - https://access.redhat.com/security/cve/CVE-2026-19630
     - https://bugzilla.redhat.com/2556406
     - https://bugzilla.redhat.com/2556407
@@ -2269,7 +2278,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97313
     - https://downloads.isc.org/isc/bind9/9.20.30
     - https://downloads.isc.org/isc/bind9/9.21.27
-    - https://errata.almalinux.org/9/ALSA-2026-93072.html
+    - https://errata.almalinux.org/9/ALSA-2026-93610.html
     - https://errata.rockylinux.org/RLSA-2026:93072
     - https://kb.isc.org/docs/cve-2026-19630
     - https://linux.oracle.com/cve/CVE-2026-19630.html
@@ -2748,6 +2757,7 @@
         V3Score: 8.1
     References:
     - https://access.redhat.com/errata/RHSA-2026:93072
+    - https://access.redhat.com/errata/RHSA-2026:93610
     - https://access.redhat.com/security/cve/CVE-2026-94300
     - https://bugzilla.redhat.com/2556406
     - https://bugzilla.redhat.com/2556407
@@ -2764,7 +2774,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97313
     - https://downloads.isc.org/isc/bind9/9.20.30
     - https://downloads.isc.org/isc/bind9/9.21.27
-    - https://errata.almalinux.org/9/ALSA-2026-93072.html
+    - https://errata.almalinux.org/9/ALSA-2026-93610.html
     - https://errata.rockylinux.org/RLSA-2026:93072
     - https://kb.isc.org/docs/cve-2026-94300
     - https://linux.oracle.com/cve/CVE-2026-94300.html
@@ -2813,6 +2823,7 @@
         V3Score: 7.5
     References:
     - https://access.redhat.com/errata/RHSA-2026:93072
+    - https://access.redhat.com/errata/RHSA-2026:93610
     - https://access.redhat.com/security/cve/CVE-2026-96888
     - https://bugzilla.redhat.com/2556406
     - https://bugzilla.redhat.com/2556407
@@ -2829,7 +2840,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97313
     - https://downloads.isc.org/isc/bind9/9.20.30
     - https://downloads.isc.org/isc/bind9/9.21.27
-    - https://errata.almalinux.org/9/ALSA-2026-93072.html
+    - https://errata.almalinux.org/9/ALSA-2026-93610.html
     - https://errata.rockylinux.org/RLSA-2026:93072
     - https://kb.isc.org/docs/cve-2026-96888
     - https://linux.oracle.com/cve/CVE-2026-96888.html
@@ -2877,6 +2888,7 @@
         V3Score: 7.5
     References:
     - https://access.redhat.com/errata/RHSA-2026:93072
+    - https://access.redhat.com/errata/RHSA-2026:93610
     - https://access.redhat.com/security/cve/CVE-2026-97313
     - https://bugzilla.redhat.com/2556406
     - https://bugzilla.redhat.com/2556407
@@ -2893,7 +2905,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97313
     - https://downloads.isc.org/isc/bind9/9.20.30
     - https://downloads.isc.org/isc/bind9/9.21.27
-    - https://errata.almalinux.org/9/ALSA-2026-93072.html
+    - https://errata.almalinux.org/9/ALSA-2026-93610.html
     - https://errata.rockylinux.org/RLSA-2026:93072
     - https://kb.isc.org/docs/cve-2026-97313
     - https://linux.oracle.com/cve/CVE-2026-97313.html
@@ -3266,6 +3278,7 @@
     VendorSeverity:
       alma: 3
       azure: 2
+      oracle-oval: 3
       photon: 3
       redhat: 3
     CVSS:
@@ -3292,6 +3305,8 @@
     - https://github.com/util-linux/util-linux/commit/a15c00a9e545aa8b9cf6ec0f888ff6c7b3eaeedc
     - https://github.com/util-linux/util-linux/commit/f57cea130839c0af8dc0525274267ae4cfd66bbf
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-m25x-3hj9-m26f
+    - https://linux.oracle.com/cve/CVE-2026-76642.html
+    - https://linux.oracle.com/errata/ELSA-2026-93461.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-76642
     - https://www.cve.org/CVERecord?id=CVE-2026-76642
     - https://www.vulncheck.com/advisories/util-linux-libmount-privilege-escalation-via-failed-mount-helper
@@ -3322,6 +3337,7 @@
     VendorSeverity:
       alma: 3
       azure: 3
+      oracle-oval: 3
       redhat: 3
     CVSS:
       redhat:
@@ -3344,6 +3360,8 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2522497
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-55fx-f4gg-cfhj
+    - https://linux.oracle.com/cve/CVE-2026-78408.html
+    - https://linux.oracle.com/errata/ELSA-2026-93461.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78408
     - https://www.cve.org/CVERecord?id=CVE-2026-78408
     PublishedDate: '2026-09-02T16:17:23.687Z'
@@ -3410,6 +3428,7 @@
     VendorSeverity:
       alma: 3
       azure: 3
+      oracle-oval: 3
       redhat: 3
     CVSS:
       redhat:
@@ -3431,6 +3450,8 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2522684
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-rh77-686x-2f2m
+    - https://linux.oracle.com/cve/CVE-2026-78410.html
+    - https://linux.oracle.com/errata/ELSA-2026-93461.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78410
     - https://www.cve.org/CVERecord?id=CVE-2026-78410
     PublishedDate: '2026-09-02T16:17:23.983Z'
@@ -3562,6 +3583,7 @@
     VendorSeverity:
       alma: 3
       azure: 2
+      oracle-oval: 3
       photon: 3
       redhat: 3
     CVSS:
@@ -3588,6 +3610,8 @@
     - https://github.com/util-linux/util-linux/commit/a15c00a9e545aa8b9cf6ec0f888ff6c7b3eaeedc
     - https://github.com/util-linux/util-linux/commit/f57cea130839c0af8dc0525274267ae4cfd66bbf
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-m25x-3hj9-m26f
+    - https://linux.oracle.com/cve/CVE-2026-76642.html
+    - https://linux.oracle.com/errata/ELSA-2026-93461.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-76642
     - https://www.cve.org/CVERecord?id=CVE-2026-76642
     - https://www.vulncheck.com/advisories/util-linux-libmount-privilege-escalation-via-failed-mount-helper
@@ -3618,6 +3642,7 @@
     VendorSeverity:
       alma: 3
       azure: 3
+      oracle-oval: 3
       redhat: 3
     CVSS:
       redhat:
@@ -3640,6 +3665,8 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2522497
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-55fx-f4gg-cfhj
+    - https://linux.oracle.com/cve/CVE-2026-78408.html
+    - https://linux.oracle.com/errata/ELSA-2026-93461.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78408
     - https://www.cve.org/CVERecord?id=CVE-2026-78408
     PublishedDate: '2026-09-02T16:17:23.687Z'
@@ -3706,6 +3733,7 @@
     VendorSeverity:
       alma: 3
       azure: 3
+      oracle-oval: 3
       redhat: 3
     CVSS:
       redhat:
@@ -3727,6 +3755,8 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2522684
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-rh77-686x-2f2m
+    - https://linux.oracle.com/cve/CVE-2026-78410.html
+    - https://linux.oracle.com/errata/ELSA-2026-93461.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78410
     - https://www.cve.org/CVERecord?id=CVE-2026-78410
     PublishedDate: '2026-09-02T16:17:23.983Z'
@@ -4164,7 +4194,7 @@
     - CWE-297
     - CWE-295
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 3
       julia: 3
       oracle-oval: 3
@@ -4222,7 +4252,7 @@
     - CWE-295
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 3
       julia: 3
       oracle-oval: 3
@@ -4682,7 +4712,7 @@
     - CWE-201
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 3
       julia: 4
       oracle-oval: 3
@@ -7075,6 +7105,7 @@
     - CWE-190
     VendorSeverity:
       alma: 2
+      oracle-oval: 2
       redhat: 2
       rocky: 2
       ubuntu: 2
@@ -7097,6 +7128,8 @@
     - https://errata.almalinux.org/8/ALSA-2026-89830.html
     - https://errata.rockylinux.org/RLSA-2026:89830
     - https://gcc.gnu.org/pipermail/gcc-patches/2026-September/732381.html
+    - https://linux.oracle.com/cve/CVE-2026-95619.html
+    - https://linux.oracle.com/errata/ELSA-2026-89830.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-95619
     - https://www.cve.org/CVERecord?id=CVE-2026-95619
     PublishedDate: '2026-09-22T13:17:13.3Z'
@@ -10352,6 +10385,7 @@
     VendorSeverity:
       alma: 3
       azure: 2
+      oracle-oval: 3
       photon: 3
       redhat: 3
     CVSS:
@@ -10378,6 +10412,8 @@
     - https://github.com/util-linux/util-linux/commit/a15c00a9e545aa8b9cf6ec0f888ff6c7b3eaeedc
     - https://github.com/util-linux/util-linux/commit/f57cea130839c0af8dc0525274267ae4cfd66bbf
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-m25x-3hj9-m26f
+    - https://linux.oracle.com/cve/CVE-2026-76642.html
+    - https://linux.oracle.com/errata/ELSA-2026-93461.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-76642
     - https://www.cve.org/CVERecord?id=CVE-2026-76642
     - https://www.vulncheck.com/advisories/util-linux-libmount-privilege-escalation-via-failed-mount-helper
@@ -10408,6 +10444,7 @@
     VendorSeverity:
       alma: 3
       azure: 3
+      oracle-oval: 3
       redhat: 3
     CVSS:
       redhat:
@@ -10430,6 +10467,8 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2522497
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-55fx-f4gg-cfhj
+    - https://linux.oracle.com/cve/CVE-2026-78408.html
+    - https://linux.oracle.com/errata/ELSA-2026-93461.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78408
     - https://www.cve.org/CVERecord?id=CVE-2026-78408
     PublishedDate: '2026-09-02T16:17:23.687Z'
@@ -10496,6 +10535,7 @@
     VendorSeverity:
       alma: 3
       azure: 3
+      oracle-oval: 3
       redhat: 3
     CVSS:
       redhat:
@@ -10517,6 +10557,8 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2522684
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-rh77-686x-2f2m
+    - https://linux.oracle.com/cve/CVE-2026-78410.html
+    - https://linux.oracle.com/errata/ELSA-2026-93461.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78410
     - https://www.cve.org/CVERecord?id=CVE-2026-78410
     PublishedDate: '2026-09-02T16:17:23.983Z'
@@ -10674,7 +10716,9 @@
         V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N
         V40Score: 9.2
       ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
         V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N
+        V3Score: 9.8
         V40Score: 9.2
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
@@ -10809,6 +10853,7 @@
     - CWE-787
     VendorSeverity:
       alma: 2
+      oracle-oval: 2
       redhat: 2
       rocky: 2
       ubuntu: 2
@@ -10840,6 +10885,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-80489
     - https://errata.almalinux.org/9/ALSA-2026-79281.html
     - https://errata.rockylinux.org/RLSA-2026:79281
+    - https://linux.oracle.com/cve/CVE-2026-18374.html
+    - https://linux.oracle.com/errata/ELSA-2026-79281.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-18374
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34574
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2026-0015
@@ -10932,6 +10979,7 @@
     - CWE-121
     VendorSeverity:
       alma: 2
+      oracle-oval: 2
       redhat: 2
       rocky: 2
       ubuntu: 2
@@ -10962,6 +11010,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-80489
     - https://errata.almalinux.org/9/ALSA-2026-79281.html
     - https://errata.rockylinux.org/RLSA-2026:79281
+    - https://linux.oracle.com/cve/CVE-2026-19542.html
+    - https://linux.oracle.com/errata/ELSA-2026-79281.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-19542
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34506
     - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0018
@@ -11233,6 +11283,7 @@
     - CWE-908
     VendorSeverity:
       alma: 2
+      oracle-oval: 2
       redhat: 2
       rocky: 2
       ubuntu: 2
@@ -11263,6 +11314,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-80489
     - https://errata.almalinux.org/9/ALSA-2026-79281.html
     - https://errata.rockylinux.org/RLSA-2026:79281
+    - https://linux.oracle.com/cve/CVE-2026-6368.html
+    - https://linux.oracle.com/errata/ELSA-2026-79281.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-6368
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34090
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2026-0014
@@ -11296,6 +11349,7 @@
     - CWE-121
     VendorSeverity:
       alma: 2
+      oracle-oval: 2
       redhat: 2
       rocky: 2
       ubuntu: 2
@@ -11326,6 +11380,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-80489
     - https://errata.almalinux.org/9/ALSA-2026-79281.html
     - https://errata.rockylinux.org/RLSA-2026:79281
+    - https://linux.oracle.com/cve/CVE-2026-6791.html
+    - https://linux.oracle.com/errata/ELSA-2026-79281.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-6791
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34091
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2026-0013
@@ -11361,6 +11417,7 @@
     - CWE-835
     VendorSeverity:
       alma: 2
+      oracle-oval: 2
       redhat: 2
       rocky: 2
       ubuntu: 2
@@ -11391,6 +11448,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-80489
     - https://errata.almalinux.org/9/ALSA-2026-79281.html
     - https://errata.rockylinux.org/RLSA-2026:79281
+    - https://linux.oracle.com/cve/CVE-2026-77117.html
+    - https://linux.oracle.com/errata/ELSA-2026-79281.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-77117
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34556
     - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0019
@@ -11426,6 +11485,7 @@
     - CWE-835
     VendorSeverity:
       alma: 2
+      oracle-oval: 2
       redhat: 2
       rocky: 2
       ubuntu: 2
@@ -11456,6 +11516,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-80489
     - https://errata.almalinux.org/9/ALSA-2026-79281.html
     - https://errata.rockylinux.org/RLSA-2026:79281
+    - https://linux.oracle.com/cve/CVE-2026-80489.html
+    - https://linux.oracle.com/errata/ELSA-2026-79281.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-80489
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34568
     - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0020
@@ -12077,6 +12139,7 @@
     - CWE-787
     VendorSeverity:
       alma: 2
+      oracle-oval: 2
       redhat: 2
       rocky: 2
       ubuntu: 2
@@ -12108,6 +12171,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-80489
     - https://errata.almalinux.org/9/ALSA-2026-79281.html
     - https://errata.rockylinux.org/RLSA-2026:79281
+    - https://linux.oracle.com/cve/CVE-2026-18374.html
+    - https://linux.oracle.com/errata/ELSA-2026-79281.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-18374
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34574
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2026-0015
@@ -12200,6 +12265,7 @@
     - CWE-121
     VendorSeverity:
       alma: 2
+      oracle-oval: 2
       redhat: 2
       rocky: 2
       ubuntu: 2
@@ -12230,6 +12296,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-80489
     - https://errata.almalinux.org/9/ALSA-2026-79281.html
     - https://errata.rockylinux.org/RLSA-2026:79281
+    - https://linux.oracle.com/cve/CVE-2026-19542.html
+    - https://linux.oracle.com/errata/ELSA-2026-79281.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-19542
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34506
     - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0018
@@ -12501,6 +12569,7 @@
     - CWE-908
     VendorSeverity:
       alma: 2
+      oracle-oval: 2
       redhat: 2
       rocky: 2
       ubuntu: 2
@@ -12531,6 +12600,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-80489
     - https://errata.almalinux.org/9/ALSA-2026-79281.html
     - https://errata.rockylinux.org/RLSA-2026:79281
+    - https://linux.oracle.com/cve/CVE-2026-6368.html
+    - https://linux.oracle.com/errata/ELSA-2026-79281.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-6368
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34090
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2026-0014
@@ -12564,6 +12635,7 @@
     - CWE-121
     VendorSeverity:
       alma: 2
+      oracle-oval: 2
       redhat: 2
       rocky: 2
       ubuntu: 2
@@ -12594,6 +12666,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-80489
     - https://errata.almalinux.org/9/ALSA-2026-79281.html
     - https://errata.rockylinux.org/RLSA-2026:79281
+    - https://linux.oracle.com/cve/CVE-2026-6791.html
+    - https://linux.oracle.com/errata/ELSA-2026-79281.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-6791
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34091
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2026-0013
@@ -12629,6 +12703,7 @@
     - CWE-835
     VendorSeverity:
       alma: 2
+      oracle-oval: 2
       redhat: 2
       rocky: 2
       ubuntu: 2
@@ -12659,6 +12734,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-80489
     - https://errata.almalinux.org/9/ALSA-2026-79281.html
     - https://errata.rockylinux.org/RLSA-2026:79281
+    - https://linux.oracle.com/cve/CVE-2026-77117.html
+    - https://linux.oracle.com/errata/ELSA-2026-79281.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-77117
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34556
     - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0019
@@ -12694,6 +12771,7 @@
     - CWE-835
     VendorSeverity:
       alma: 2
+      oracle-oval: 2
       redhat: 2
       rocky: 2
       ubuntu: 2
@@ -12724,6 +12802,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-80489
     - https://errata.almalinux.org/9/ALSA-2026-79281.html
     - https://errata.rockylinux.org/RLSA-2026:79281
+    - https://linux.oracle.com/cve/CVE-2026-80489.html
+    - https://linux.oracle.com/errata/ELSA-2026-79281.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-80489
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34568
     - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0020
@@ -13345,6 +13425,7 @@
     - CWE-787
     VendorSeverity:
       alma: 2
+      oracle-oval: 2
       redhat: 2
       rocky: 2
       ubuntu: 2
@@ -13376,6 +13457,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-80489
     - https://errata.almalinux.org/9/ALSA-2026-79281.html
     - https://errata.rockylinux.org/RLSA-2026:79281
+    - https://linux.oracle.com/cve/CVE-2026-18374.html
+    - https://linux.oracle.com/errata/ELSA-2026-79281.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-18374
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34574
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2026-0015
@@ -13468,6 +13551,7 @@
     - CWE-121
     VendorSeverity:
       alma: 2
+      oracle-oval: 2
       redhat: 2
       rocky: 2
       ubuntu: 2
@@ -13498,6 +13582,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-80489
     - https://errata.almalinux.org/9/ALSA-2026-79281.html
     - https://errata.rockylinux.org/RLSA-2026:79281
+    - https://linux.oracle.com/cve/CVE-2026-19542.html
+    - https://linux.oracle.com/errata/ELSA-2026-79281.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-19542
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34506
     - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0018
@@ -13769,6 +13855,7 @@
     - CWE-908
     VendorSeverity:
       alma: 2
+      oracle-oval: 2
       redhat: 2
       rocky: 2
       ubuntu: 2
@@ -13799,6 +13886,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-80489
     - https://errata.almalinux.org/9/ALSA-2026-79281.html
     - https://errata.rockylinux.org/RLSA-2026:79281
+    - https://linux.oracle.com/cve/CVE-2026-6368.html
+    - https://linux.oracle.com/errata/ELSA-2026-79281.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-6368
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34090
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2026-0014
@@ -13832,6 +13921,7 @@
     - CWE-121
     VendorSeverity:
       alma: 2
+      oracle-oval: 2
       redhat: 2
       rocky: 2
       ubuntu: 2
@@ -13862,6 +13952,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-80489
     - https://errata.almalinux.org/9/ALSA-2026-79281.html
     - https://errata.rockylinux.org/RLSA-2026:79281
+    - https://linux.oracle.com/cve/CVE-2026-6791.html
+    - https://linux.oracle.com/errata/ELSA-2026-79281.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-6791
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34091
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2026-0013
@@ -13897,6 +13989,7 @@
     - CWE-835
     VendorSeverity:
       alma: 2
+      oracle-oval: 2
       redhat: 2
       rocky: 2
       ubuntu: 2
@@ -13927,6 +14020,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-80489
     - https://errata.almalinux.org/9/ALSA-2026-79281.html
     - https://errata.rockylinux.org/RLSA-2026:79281
+    - https://linux.oracle.com/cve/CVE-2026-77117.html
+    - https://linux.oracle.com/errata/ELSA-2026-79281.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-77117
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34556
     - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0019
@@ -13962,6 +14057,7 @@
     - CWE-835
     VendorSeverity:
       alma: 2
+      oracle-oval: 2
       redhat: 2
       rocky: 2
       ubuntu: 2
@@ -13992,6 +14088,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-80489
     - https://errata.almalinux.org/9/ALSA-2026-79281.html
     - https://errata.rockylinux.org/RLSA-2026:79281
+    - https://linux.oracle.com/cve/CVE-2026-80489.html
+    - https://linux.oracle.com/errata/ELSA-2026-79281.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-80489
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34568
     - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0020
@@ -14618,7 +14716,7 @@
     - CWE-297
     - CWE-295
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 3
       julia: 3
       oracle-oval: 3
@@ -14676,7 +14774,7 @@
     - CWE-295
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 3
       julia: 3
       oracle-oval: 3
@@ -15136,7 +15234,7 @@
     - CWE-201
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 3
       julia: 4
       oracle-oval: 3
@@ -16950,7 +17048,7 @@
     - CWE-297
     - CWE-295
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 3
       julia: 3
       oracle-oval: 3
@@ -17008,7 +17106,7 @@
     - CWE-295
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 3
       julia: 3
       oracle-oval: 3
@@ -17468,7 +17566,7 @@
     - CWE-201
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 3
       julia: 4
       oracle-oval: 3
@@ -20332,7 +20430,7 @@
     - https://github.com/libexpat/libexpat/pull/1450
     - https://www.vulncheck.com/advisories/libexpat-through-2.9.0-integer-overflow-in-storeatts-via-attindex-and-nprefixes
     PublishedDate: '2026-10-28T03:17:13.293Z'
-    LastModifiedDate: '2026-11-02T15:35:10.98Z'
+    LastModifiedDate: '2026-11-02T20:17:37.377Z'
   - VulnerabilityID: CVE-2026-66046
     VendorIDs:
     - DSA-6566-1
@@ -20773,7 +20871,7 @@
     - https://github.com/libexpat/libexpat/pull/1433
     - https://www.vulncheck.com/advisories/libexpat-through-2.9.0-denial-of-service-via-billion-laughs-detection-delay
     PublishedDate: '2026-10-22T20:17:06.62Z'
-    LastModifiedDate: '2026-10-23T21:17:22.28Z'
+    LastModifiedDate: '2026-11-02T18:27:06.127Z'
   - VulnerabilityID: CVE-2026-102010
     PkgID: libgcc-s1@14.2.0-19
     PkgName: libgcc-s1
@@ -20956,6 +21054,7 @@
     - CWE-190
     VendorSeverity:
       alma: 2
+      oracle-oval: 2
       redhat: 2
       rocky: 2
       ubuntu: 2
@@ -20978,6 +21077,8 @@
     - https://errata.almalinux.org/8/ALSA-2026-89830.html
     - https://errata.rockylinux.org/RLSA-2026:89830
     - https://gcc.gnu.org/pipermail/gcc-patches/2026-September/732381.html
+    - https://linux.oracle.com/cve/CVE-2026-95619.html
+    - https://linux.oracle.com/errata/ELSA-2026-89830.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-95619
     - https://www.cve.org/CVERecord?id=CVE-2026-95619
     PublishedDate: '2026-09-22T13:17:13.3Z'
@@ -22731,6 +22832,7 @@
     VendorSeverity:
       alma: 3
       azure: 2
+      oracle-oval: 3
       photon: 3
       redhat: 3
     CVSS:
@@ -22757,6 +22859,8 @@
     - https://github.com/util-linux/util-linux/commit/a15c00a9e545aa8b9cf6ec0f888ff6c7b3eaeedc
     - https://github.com/util-linux/util-linux/commit/f57cea130839c0af8dc0525274267ae4cfd66bbf
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-m25x-3hj9-m26f
+    - https://linux.oracle.com/cve/CVE-2026-76642.html
+    - https://linux.oracle.com/errata/ELSA-2026-93461.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-76642
     - https://www.cve.org/CVERecord?id=CVE-2026-76642
     - https://www.vulncheck.com/advisories/util-linux-libmount-privilege-escalation-via-failed-mount-helper
@@ -22787,6 +22891,7 @@
     VendorSeverity:
       alma: 3
       azure: 3
+      oracle-oval: 3
       redhat: 3
     CVSS:
       redhat:
@@ -22809,6 +22914,8 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2522497
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-55fx-f4gg-cfhj
+    - https://linux.oracle.com/cve/CVE-2026-78408.html
+    - https://linux.oracle.com/errata/ELSA-2026-93461.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78408
     - https://www.cve.org/CVERecord?id=CVE-2026-78408
     PublishedDate: '2026-09-02T16:17:23.687Z'
@@ -22875,6 +22982,7 @@
     VendorSeverity:
       alma: 3
       azure: 3
+      oracle-oval: 3
       redhat: 3
     CVSS:
       redhat:
@@ -22896,6 +23004,8 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2522684
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-rh77-686x-2f2m
+    - https://linux.oracle.com/cve/CVE-2026-78410.html
+    - https://linux.oracle.com/errata/ELSA-2026-93461.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78410
     - https://www.cve.org/CVERecord?id=CVE-2026-78410
     PublishedDate: '2026-09-02T16:17:23.983Z'
@@ -23809,6 +23919,7 @@
     VendorSeverity:
       alma: 3
       azure: 2
+      oracle-oval: 3
       photon: 3
       redhat: 3
     CVSS:
@@ -23835,6 +23946,8 @@
     - https://github.com/util-linux/util-linux/commit/a15c00a9e545aa8b9cf6ec0f888ff6c7b3eaeedc
     - https://github.com/util-linux/util-linux/commit/f57cea130839c0af8dc0525274267ae4cfd66bbf
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-m25x-3hj9-m26f
+    - https://linux.oracle.com/cve/CVE-2026-76642.html
+    - https://linux.oracle.com/errata/ELSA-2026-93461.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-76642
     - https://www.cve.org/CVERecord?id=CVE-2026-76642
     - https://www.vulncheck.com/advisories/util-linux-libmount-privilege-escalation-via-failed-mount-helper
@@ -23865,6 +23978,7 @@
     VendorSeverity:
       alma: 3
       azure: 3
+      oracle-oval: 3
       redhat: 3
     CVSS:
       redhat:
@@ -23887,6 +24001,8 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2522497
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-55fx-f4gg-cfhj
+    - https://linux.oracle.com/cve/CVE-2026-78408.html
+    - https://linux.oracle.com/errata/ELSA-2026-93461.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78408
     - https://www.cve.org/CVERecord?id=CVE-2026-78408
     PublishedDate: '2026-09-02T16:17:23.687Z'
@@ -23953,6 +24069,7 @@
     VendorSeverity:
       alma: 3
       azure: 3
+      oracle-oval: 3
       redhat: 3
     CVSS:
       redhat:
@@ -23974,6 +24091,8 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2522684
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-rh77-686x-2f2m
+    - https://linux.oracle.com/cve/CVE-2026-78410.html
+    - https://linux.oracle.com/errata/ELSA-2026-93461.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78410
     - https://www.cve.org/CVERecord?id=CVE-2026-78410
     PublishedDate: '2026-09-02T16:17:23.983Z'
@@ -26572,6 +26691,43 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-7017
     PublishedDate: '2026-07-07T19:16:55.53Z'
     LastModifiedDate: '2026-10-25T20:10:00.147Z'
+  - VulnerabilityID: CVE-2026-82560
+    PkgID: libperl5.40@5.40.1-6
+    PkgName: libperl5.40
+    PkgIdentifier:
+      PURL: pkg:deb/debian/libperl5.40@5.40.1-6?arch=amd64&distro=debian-13.6
+      UID: 921c03a92445e6ec
+    InstalledVersion: 5.40.1-6
+    Status: affected
+    Layer:
+      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
+      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-82560
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:a25ed089e6e475cefcad92d1188ff8e38964f9b6169a1b97acadb6dd6ec13fa5
+    Title: Pod::Text versions before 6.1.1 for Perl allow CPU and memory exhausti ...
+    Description: |-
+      Pod::Text versions before 6.1.1 for Perl allow CPU and memory exhaustion formatting a POD document whose =over nesting drives the margin to the output width.
+
+      Each =over adds its indent to the margin, which wrap() subtracts from the output width to get the space available for text. When that space reaches zero, the line-splitting substitution matches the empty string, and the loop consumes no input while appending the margin padding on every pass.
+
+      Formatting an attacker-supplied POD document never returns, and the output grows until memory is exhausted.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-835
+    VendorSeverity:
+      azure: 2
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/09/19/6
+    - https://github.com/rra/podlators/commit/70510174f69eb54aa6d617bde4e1402cd9b7c61f.patch
+    - https://metacpan.org/release/RRA/podlators-v6.1.0/source/lib/Pod/Text.pm#L245-261
+    - https://metacpan.org/release/RRA/podlators-v6.1.1/changes
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-82560
+    PublishedDate: '2026-09-19T16:16:32.14Z'
+    LastModifiedDate: '2026-09-22T19:07:00.983Z'
   - VulnerabilityID: CVE-2011-4116
     PkgID: libperl5.40@5.40.1-6
     PkgName: libperl5.40
@@ -26619,40 +26775,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2011-4116
     PublishedDate: '2020-01-31T18:15:11.343Z'
     LastModifiedDate: '2025-08-04T19:04:38.29Z'
-  - VulnerabilityID: CVE-2026-82560
-    PkgID: libperl5.40@5.40.1-6
-    PkgName: libperl5.40
-    PkgIdentifier:
-      PURL: pkg:deb/debian/libperl5.40@5.40.1-6?arch=amd64&distro=debian-13.6
-      UID: 921c03a92445e6ec
-    InstalledVersion: 5.40.1-6
-    Status: affected
-    Layer:
-      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
-      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-82560
-    DataSource:
-      ID: debian
-      Name: Debian Security Tracker
-      URL: https://salsa.debian.org/security-tracker-team/security-tracker
-    Fingerprint: sha256:a25ed089e6e475cefcad92d1188ff8e38964f9b6169a1b97acadb6dd6ec13fa5
-    Title: Pod::Text versions before 6.1.1 for Perl allow CPU and memory exhausti ...
-    Description: |-
-      Pod::Text versions before 6.1.1 for Perl allow CPU and memory exhaustion formatting a POD document whose =over nesting drives the margin to the output width.
-
-      Each =over adds its indent to the margin, which wrap() subtracts from the output width to get the space available for text. When that space reaches zero, the line-splitting substitution matches the empty string, and the loop consumes no input while appending the margin padding on every pass.
-
-      Formatting an attacker-supplied POD document never returns, and the output grows until memory is exhausted.
-    Severity: UNKNOWN
-    CweIDs:
-    - CWE-835
-    References:
-    - http://www.openwall.com/lists/oss-security/2026/09/19/6
-    - https://github.com/rra/podlators/commit/70510174f69eb54aa6d617bde4e1402cd9b7c61f.patch
-    - https://metacpan.org/release/RRA/podlators-v6.1.0/source/lib/Pod/Text.pm#L245-261
-    - https://metacpan.org/release/RRA/podlators-v6.1.1/changes
-    PublishedDate: '2026-09-19T16:16:32.14Z'
-    LastModifiedDate: '2026-09-22T19:07:00.983Z'
   - VulnerabilityID: CVE-2026-107161
     PkgID: libsasl2-2@2.1.28+dfsg1-9
     PkgName: libsasl2-2
@@ -26798,6 +26920,7 @@
     VendorSeverity:
       alma: 3
       azure: 2
+      oracle-oval: 3
       photon: 3
       redhat: 3
     CVSS:
@@ -26824,6 +26947,8 @@
     - https://github.com/util-linux/util-linux/commit/a15c00a9e545aa8b9cf6ec0f888ff6c7b3eaeedc
     - https://github.com/util-linux/util-linux/commit/f57cea130839c0af8dc0525274267ae4cfd66bbf
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-m25x-3hj9-m26f
+    - https://linux.oracle.com/cve/CVE-2026-76642.html
+    - https://linux.oracle.com/errata/ELSA-2026-93461.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-76642
     - https://www.cve.org/CVERecord?id=CVE-2026-76642
     - https://www.vulncheck.com/advisories/util-linux-libmount-privilege-escalation-via-failed-mount-helper
@@ -26854,6 +26979,7 @@
     VendorSeverity:
       alma: 3
       azure: 3
+      oracle-oval: 3
       redhat: 3
     CVSS:
       redhat:
@@ -26876,6 +27002,8 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2522497
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-55fx-f4gg-cfhj
+    - https://linux.oracle.com/cve/CVE-2026-78408.html
+    - https://linux.oracle.com/errata/ELSA-2026-93461.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78408
     - https://www.cve.org/CVERecord?id=CVE-2026-78408
     PublishedDate: '2026-09-02T16:17:23.687Z'
@@ -26942,6 +27070,7 @@
     VendorSeverity:
       alma: 3
       azure: 3
+      oracle-oval: 3
       redhat: 3
     CVSS:
       redhat:
@@ -26963,6 +27092,8 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2522684
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-rh77-686x-2f2m
+    - https://linux.oracle.com/cve/CVE-2026-78410.html
+    - https://linux.oracle.com/errata/ELSA-2026-93461.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78410
     - https://www.cve.org/CVERecord?id=CVE-2026-78410
     PublishedDate: '2026-09-02T16:17:23.983Z'
@@ -27098,7 +27229,7 @@
       azure: 3
       bitnami: 3
       oracle-oval: 3
-      photon: 3
+      photon: 2
       redhat: 3
       rocky: 3
       ubuntu: 2
@@ -27236,7 +27367,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-119373
     - https://www.vulncheck.com/advisories/sqlite-before-3.54.0-fts5-heap-buffer-overflow-via-fts5mergerowidlists
     PublishedDate: '2026-10-30T12:16:36.027Z'
-    LastModifiedDate: '2026-10-30T18:41:13.287Z'
+    LastModifiedDate: '2026-11-03T16:09:21.16Z'
   - VulnerabilityID: CVE-2026-119378
     PkgID: libsqlite3-0@3.46.1-7+deb13u1
     PkgName: libsqlite3-0
@@ -27277,7 +27408,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-119378
     - https://www.vulncheck.com/advisories/sqlite-before-3.54.0-use-after-free-in-r-tree-nodewrite
     PublishedDate: '2026-10-30T12:16:36.807Z'
-    LastModifiedDate: '2026-10-30T18:41:13.287Z'
+    LastModifiedDate: '2026-11-03T15:39:25.017Z'
   - VulnerabilityID: CVE-2026-119591
     PkgID: libsqlite3-0@3.46.1-7+deb13u1
     PkgName: libsqlite3-0
@@ -27319,7 +27450,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-119591
     - https://www.vulncheck.com/advisories/sqlite-before-3.54.0-stack-exhaustion-via-countofviewoptimization-in-values-clause
     PublishedDate: '2026-10-30T12:16:44.873Z'
-    LastModifiedDate: '2026-10-30T18:41:13.287Z'
+    LastModifiedDate: '2026-11-03T15:22:21.767Z'
   - VulnerabilityID: CVE-2026-50812
     PkgID: libsqlite3-0@3.46.1-7+deb13u1
     PkgName: libsqlite3-0
@@ -27496,6 +27627,48 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-70873
     PublishedDate: '2026-03-12T19:16:15.933Z'
     LastModifiedDate: '2026-10-15T02:18:16.173Z'
+  - VulnerabilityID: CVE-2026-119377
+    PkgID: libsqlite3-0@3.46.1-7+deb13u1
+    PkgName: libsqlite3-0
+    PkgIdentifier:
+      PURL: pkg:deb/debian/libsqlite3-0@3.46.1-7%2Bdeb13u1?arch=amd64&distro=debian-13.6
+      UID: 78aa9d1b669c49f4
+    InstalledVersion: 3.46.1-7+deb13u1
+    Status: affected
+    Layer:
+      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
+      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-119377
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:9fe101dbcf2946c16f3d691e4cf4e70cf4a7234f04720664e6d9f935a5516c6b
+    Title: SQLite before 3.54.0 contains an authorization bypass vulnerability in ...
+    Description: SQLite before 3.54.0 contains an authorization bypass vulnerability in lookupName() that invokes the authorizer only for the first joined table's USING column. Attackers able to submit SQL can query a shared USING column in a RIGHT or FULL JOIN to read columns denied via sqlite3_set_authorizer() SQLITE_READ restrictions.
+    Severity: LOW
+    CweIDs:
+    - CWE-863
+    VendorSeverity:
+      nvd: 1
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 3.3
+    References:
+    - https://abraxaslabs.tech/research/sqlite-fj-using-auth
+    - https://github.com/sqlite/sqlite
+    - https://github.com/sqlite/sqlite/blob/version-3.53.4/src/resolve.c#L775
+    - https://github.com/sqlite/sqlite/commit/5694c3bb2a6a40770ecd2f65910eea756734dfd8
+    - https://github.com/sqlite/sqlite/commit/7ff247c5b9ead3ad8a69c26d3fd264878e127237
+    - https://sqlite.org/bugs/info/2026-07-05T08:15:45Z
+    - https://sqlite.org/releaselog/3_54_0.html
+    - https://sqlite.org/src/info/2cb22877683680c1
+    - https://sqlite.org/src/info/bbd69ce274620008
+    - https://www.vulncheck.com/advisories/sqlite-before-3.54.0-authorizer-bypass-via-right-or-full-join-using
+    PublishedDate: '2026-10-30T12:16:36.65Z'
+    LastModifiedDate: '2026-11-03T15:52:13.787Z'
   - VulnerabilityID: CVE-2026-119371
     PkgID: libsqlite3-0@3.46.1-7+deb13u1
     PkgName: libsqlite3-0
@@ -27528,7 +27701,7 @@
     - https://sqlite.org/src/info/f54730871303e655
     - https://www.vulncheck.com/advisories/sqlite-before-3.54.0-stack-exhaustion-via-cte-chain-in-selectexpander
     PublishedDate: '2026-10-30T12:16:35.69Z'
-    LastModifiedDate: '2026-10-30T18:41:13.287Z'
+    LastModifiedDate: '2026-11-03T16:10:07.23Z'
   - VulnerabilityID: CVE-2026-119372
     PkgID: libsqlite3-0@3.46.1-7+deb13u1
     PkgName: libsqlite3-0
@@ -27561,7 +27734,7 @@
     - https://sqlite.org/src/info/e4635c4153
     - https://www.vulncheck.com/advisories/sqlite-before-3.54.0-use-after-free-in-fts3-fts3bestsnippet-via-snippet
     PublishedDate: '2026-10-30T12:16:35.873Z'
-    LastModifiedDate: '2026-10-30T18:41:13.287Z'
+    LastModifiedDate: '2026-11-03T16:09:39.663Z'
   - VulnerabilityID: CVE-2026-119374
     PkgID: libsqlite3-0@3.46.1-7+deb13u1
     PkgName: libsqlite3-0
@@ -27593,7 +27766,7 @@
     - https://sqlite.org/src/info/9cd4f9e920
     - https://www.vulncheck.com/advisories/sqlite-before-3.54.0-heap-buffer-overflow-via-fts5-fts5dosecuredelete
     PublishedDate: '2026-10-30T12:16:36.187Z'
-    LastModifiedDate: '2026-10-30T18:41:13.287Z'
+    LastModifiedDate: '2026-11-03T16:09:06.143Z'
   - VulnerabilityID: CVE-2026-119375
     PkgID: libsqlite3-0@3.46.1-7+deb13u1
     PkgName: libsqlite3-0
@@ -27626,7 +27799,7 @@
     - https://sqlite.org/src/info/f9b4ee369557c36c
     - https://www.vulncheck.com/advisories/sqlite-before-3.54.0-information-disclosure-via-wal-page-size-mismatch
     PublishedDate: '2026-10-30T12:16:36.34Z'
-    LastModifiedDate: '2026-10-30T18:41:13.287Z'
+    LastModifiedDate: '2026-11-03T16:08:59.173Z'
   - VulnerabilityID: CVE-2026-119376
     PkgID: libsqlite3-0@3.46.1-7+deb13u1
     PkgName: libsqlite3-0
@@ -27660,41 +27833,6 @@
     - https://www.vulncheck.com/advisories/sqlite-before-3.54.0-stack-exhaustion-via-collate-operator-chain
     PublishedDate: '2026-10-30T12:16:36.49Z'
     LastModifiedDate: '2026-11-02T14:37:51.457Z'
-  - VulnerabilityID: CVE-2026-119377
-    PkgID: libsqlite3-0@3.46.1-7+deb13u1
-    PkgName: libsqlite3-0
-    PkgIdentifier:
-      PURL: pkg:deb/debian/libsqlite3-0@3.46.1-7%2Bdeb13u1?arch=amd64&distro=debian-13.6
-      UID: 78aa9d1b669c49f4
-    InstalledVersion: 3.46.1-7+deb13u1
-    Status: affected
-    Layer:
-      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
-      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-119377
-    DataSource:
-      ID: debian
-      Name: Debian Security Tracker
-      URL: https://salsa.debian.org/security-tracker-team/security-tracker
-    Fingerprint: sha256:9fe101dbcf2946c16f3d691e4cf4e70cf4a7234f04720664e6d9f935a5516c6b
-    Title: SQLite before 3.54.0 contains an authorization bypass vulnerability in ...
-    Description: SQLite before 3.54.0 contains an authorization bypass vulnerability in lookupName() that invokes the authorizer only for the first joined table's USING column. Attackers able to submit SQL can query a shared USING column in a RIGHT or FULL JOIN to read columns denied via sqlite3_set_authorizer() SQLITE_READ restrictions.
-    Severity: UNKNOWN
-    CweIDs:
-    - CWE-863
-    References:
-    - https://abraxaslabs.tech/research/sqlite-fj-using-auth
-    - https://github.com/sqlite/sqlite
-    - https://github.com/sqlite/sqlite/blob/version-3.53.4/src/resolve.c#L775
-    - https://github.com/sqlite/sqlite/commit/5694c3bb2a6a40770ecd2f65910eea756734dfd8
-    - https://github.com/sqlite/sqlite/commit/7ff247c5b9ead3ad8a69c26d3fd264878e127237
-    - https://sqlite.org/bugs/info/2026-07-05T08:15:45Z
-    - https://sqlite.org/releaselog/3_54_0.html
-    - https://sqlite.org/src/info/2cb22877683680c1
-    - https://sqlite.org/src/info/bbd69ce274620008
-    - https://www.vulncheck.com/advisories/sqlite-before-3.54.0-authorizer-bypass-via-right-or-full-join-using
-    PublishedDate: '2026-10-30T12:16:36.65Z'
-    LastModifiedDate: '2026-10-30T18:41:13.287Z'
   - VulnerabilityID: CVE-2026-119379
     PkgID: libsqlite3-0@3.46.1-7+deb13u1
     PkgName: libsqlite3-0
@@ -27727,7 +27865,7 @@
     - https://sqlite.org/src/info/3f57024aecea0f3b
     - https://www.vulncheck.com/advisories/sqlite-before-3.54.0-heap-buffer-overflow-via-session-extension-sessionupdatefind
     PublishedDate: '2026-10-30T12:16:36.967Z'
-    LastModifiedDate: '2026-10-30T18:41:13.287Z'
+    LastModifiedDate: '2026-11-03T15:38:24.827Z'
   - VulnerabilityID: CVE-2026-58050
     PkgID: libssh2-1t64@1.11.1-1+deb13u1
     PkgName: libssh2-1t64
@@ -28998,7 +29136,7 @@
     CweIDs:
     - CWE-770
     VendorSeverity:
-      amazon: 3
+      amazon: 1
       azure: 2
       redhat: 1
       ubuntu: 1
@@ -29276,6 +29414,7 @@
     - CWE-190
     VendorSeverity:
       alma: 2
+      oracle-oval: 2
       redhat: 2
       rocky: 2
       ubuntu: 2
@@ -29298,6 +29437,8 @@
     - https://errata.almalinux.org/8/ALSA-2026-89830.html
     - https://errata.rockylinux.org/RLSA-2026:89830
     - https://gcc.gnu.org/pipermail/gcc-patches/2026-September/732381.html
+    - https://linux.oracle.com/cve/CVE-2026-95619.html
+    - https://linux.oracle.com/errata/ELSA-2026-89830.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-95619
     - https://www.cve.org/CVERecord?id=CVE-2026-95619
     PublishedDate: '2026-09-22T13:17:13.3Z'
@@ -30544,6 +30685,7 @@
     VendorSeverity:
       alma: 3
       azure: 2
+      oracle-oval: 3
       photon: 3
       redhat: 3
     CVSS:
@@ -30570,6 +30712,8 @@
     - https://github.com/util-linux/util-linux/commit/a15c00a9e545aa8b9cf6ec0f888ff6c7b3eaeedc
     - https://github.com/util-linux/util-linux/commit/f57cea130839c0af8dc0525274267ae4cfd66bbf
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-m25x-3hj9-m26f
+    - https://linux.oracle.com/cve/CVE-2026-76642.html
+    - https://linux.oracle.com/errata/ELSA-2026-93461.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-76642
     - https://www.cve.org/CVERecord?id=CVE-2026-76642
     - https://www.vulncheck.com/advisories/util-linux-libmount-privilege-escalation-via-failed-mount-helper
@@ -30600,6 +30744,7 @@
     VendorSeverity:
       alma: 3
       azure: 3
+      oracle-oval: 3
       redhat: 3
     CVSS:
       redhat:
@@ -30622,6 +30767,8 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2522497
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-55fx-f4gg-cfhj
+    - https://linux.oracle.com/cve/CVE-2026-78408.html
+    - https://linux.oracle.com/errata/ELSA-2026-93461.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78408
     - https://www.cve.org/CVERecord?id=CVE-2026-78408
     PublishedDate: '2026-09-02T16:17:23.687Z'
@@ -30688,6 +30835,7 @@
     VendorSeverity:
       alma: 3
       azure: 3
+      oracle-oval: 3
       redhat: 3
     CVSS:
       redhat:
@@ -30709,6 +30857,8 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2522684
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-rh77-686x-2f2m
+    - https://linux.oracle.com/cve/CVE-2026-78410.html
+    - https://linux.oracle.com/errata/ELSA-2026-93461.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78410
     - https://www.cve.org/CVERecord?id=CVE-2026-78410
     PublishedDate: '2026-09-02T16:17:23.983Z'
@@ -31292,6 +31442,8 @@
     - https://access.redhat.com/errata/RHSA-2026:93463
     - https://access.redhat.com/errata/RHSA-2026:93473
     - https://access.redhat.com/errata/RHSA-2026:93791
+    - https://access.redhat.com/errata/RHSA-2026:94459
+    - https://access.redhat.com/errata/RHSA-2026:94468
     - https://access.redhat.com/security/cve/CVE-2026-74860
     - https://bugzilla.redhat.com/2528986
     - https://bugzilla.redhat.com/2528987
@@ -31320,7 +31472,7 @@
     - https://ubuntu.com/security/notices/USN-8787-1
     - https://www.cve.org/CVERecord?id=CVE-2026-74860
     PublishedDate: '2026-09-08T12:16:58.083Z'
-    LastModifiedDate: '2026-11-02T14:17:37.453Z'
+    LastModifiedDate: '2026-11-03T10:17:18.447Z'
   - VulnerabilityID: CVE-2026-86138
     PkgID: libxml2@2.12.7+dfsg+really2.9.14-2.1+deb13u3
     PkgName: libxml2
@@ -31997,6 +32149,7 @@
     - CWE-787
     VendorSeverity:
       alma: 2
+      oracle-oval: 2
       redhat: 2
       rocky: 2
       ubuntu: 2
@@ -32028,6 +32181,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-80489
     - https://errata.almalinux.org/9/ALSA-2026-79281.html
     - https://errata.rockylinux.org/RLSA-2026:79281
+    - https://linux.oracle.com/cve/CVE-2026-18374.html
+    - https://linux.oracle.com/errata/ELSA-2026-79281.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-18374
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34574
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2026-0015
@@ -32120,6 +32275,7 @@
     - CWE-121
     VendorSeverity:
       alma: 2
+      oracle-oval: 2
       redhat: 2
       rocky: 2
       ubuntu: 2
@@ -32150,6 +32306,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-80489
     - https://errata.almalinux.org/9/ALSA-2026-79281.html
     - https://errata.rockylinux.org/RLSA-2026:79281
+    - https://linux.oracle.com/cve/CVE-2026-19542.html
+    - https://linux.oracle.com/errata/ELSA-2026-79281.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-19542
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34506
     - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0018
@@ -32421,6 +32579,7 @@
     - CWE-908
     VendorSeverity:
       alma: 2
+      oracle-oval: 2
       redhat: 2
       rocky: 2
       ubuntu: 2
@@ -32451,6 +32610,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-80489
     - https://errata.almalinux.org/9/ALSA-2026-79281.html
     - https://errata.rockylinux.org/RLSA-2026:79281
+    - https://linux.oracle.com/cve/CVE-2026-6368.html
+    - https://linux.oracle.com/errata/ELSA-2026-79281.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-6368
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34090
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2026-0014
@@ -32484,6 +32645,7 @@
     - CWE-121
     VendorSeverity:
       alma: 2
+      oracle-oval: 2
       redhat: 2
       rocky: 2
       ubuntu: 2
@@ -32514,6 +32676,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-80489
     - https://errata.almalinux.org/9/ALSA-2026-79281.html
     - https://errata.rockylinux.org/RLSA-2026:79281
+    - https://linux.oracle.com/cve/CVE-2026-6791.html
+    - https://linux.oracle.com/errata/ELSA-2026-79281.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-6791
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34091
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2026-0013
@@ -32549,6 +32713,7 @@
     - CWE-835
     VendorSeverity:
       alma: 2
+      oracle-oval: 2
       redhat: 2
       rocky: 2
       ubuntu: 2
@@ -32579,6 +32744,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-80489
     - https://errata.almalinux.org/9/ALSA-2026-79281.html
     - https://errata.rockylinux.org/RLSA-2026:79281
+    - https://linux.oracle.com/cve/CVE-2026-77117.html
+    - https://linux.oracle.com/errata/ELSA-2026-79281.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-77117
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34556
     - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0019
@@ -32614,6 +32781,7 @@
     - CWE-835
     VendorSeverity:
       alma: 2
+      oracle-oval: 2
       redhat: 2
       rocky: 2
       ubuntu: 2
@@ -32644,6 +32812,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-80489
     - https://errata.almalinux.org/9/ALSA-2026-79281.html
     - https://errata.rockylinux.org/RLSA-2026:79281
+    - https://linux.oracle.com/cve/CVE-2026-80489.html
+    - https://linux.oracle.com/errata/ELSA-2026-79281.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-80489
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34568
     - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0020
@@ -33261,6 +33431,7 @@
     VendorSeverity:
       alma: 3
       azure: 2
+      oracle-oval: 3
       photon: 3
       redhat: 3
     CVSS:
@@ -33287,6 +33458,8 @@
     - https://github.com/util-linux/util-linux/commit/a15c00a9e545aa8b9cf6ec0f888ff6c7b3eaeedc
     - https://github.com/util-linux/util-linux/commit/f57cea130839c0af8dc0525274267ae4cfd66bbf
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-m25x-3hj9-m26f
+    - https://linux.oracle.com/cve/CVE-2026-76642.html
+    - https://linux.oracle.com/errata/ELSA-2026-93461.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-76642
     - https://www.cve.org/CVERecord?id=CVE-2026-76642
     - https://www.vulncheck.com/advisories/util-linux-libmount-privilege-escalation-via-failed-mount-helper
@@ -33317,6 +33490,7 @@
     VendorSeverity:
       alma: 3
       azure: 3
+      oracle-oval: 3
       redhat: 3
     CVSS:
       redhat:
@@ -33339,6 +33513,8 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2522497
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-55fx-f4gg-cfhj
+    - https://linux.oracle.com/cve/CVE-2026-78408.html
+    - https://linux.oracle.com/errata/ELSA-2026-93461.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78408
     - https://www.cve.org/CVERecord?id=CVE-2026-78408
     PublishedDate: '2026-09-02T16:17:23.687Z'
@@ -33405,6 +33581,7 @@
     VendorSeverity:
       alma: 3
       azure: 3
+      oracle-oval: 3
       redhat: 3
     CVSS:
       redhat:
@@ -33426,6 +33603,8 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2522684
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-rh77-686x-2f2m
+    - https://linux.oracle.com/cve/CVE-2026-78410.html
+    - https://linux.oracle.com/errata/ELSA-2026-93461.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78410
     - https://www.cve.org/CVERecord?id=CVE-2026-78410
     PublishedDate: '2026-09-02T16:17:23.983Z'
@@ -33670,6 +33849,7 @@
     VendorSeverity:
       alma: 3
       azure: 2
+      oracle-oval: 3
       photon: 3
       redhat: 3
     CVSS:
@@ -33696,6 +33876,8 @@
     - https://github.com/util-linux/util-linux/commit/a15c00a9e545aa8b9cf6ec0f888ff6c7b3eaeedc
     - https://github.com/util-linux/util-linux/commit/f57cea130839c0af8dc0525274267ae4cfd66bbf
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-m25x-3hj9-m26f
+    - https://linux.oracle.com/cve/CVE-2026-76642.html
+    - https://linux.oracle.com/errata/ELSA-2026-93461.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-76642
     - https://www.cve.org/CVERecord?id=CVE-2026-76642
     - https://www.vulncheck.com/advisories/util-linux-libmount-privilege-escalation-via-failed-mount-helper
@@ -33726,6 +33908,7 @@
     VendorSeverity:
       alma: 3
       azure: 3
+      oracle-oval: 3
       redhat: 3
     CVSS:
       redhat:
@@ -33748,6 +33931,8 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2522497
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-55fx-f4gg-cfhj
+    - https://linux.oracle.com/cve/CVE-2026-78408.html
+    - https://linux.oracle.com/errata/ELSA-2026-93461.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78408
     - https://www.cve.org/CVERecord?id=CVE-2026-78408
     PublishedDate: '2026-09-02T16:17:23.687Z'
@@ -33814,6 +33999,7 @@
     VendorSeverity:
       alma: 3
       azure: 3
+      oracle-oval: 3
       redhat: 3
     CVSS:
       redhat:
@@ -33835,6 +34021,8 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2522684
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-rh77-686x-2f2m
+    - https://linux.oracle.com/cve/CVE-2026-78410.html
+    - https://linux.oracle.com/errata/ELSA-2026-93461.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78410
     - https://www.cve.org/CVERecord?id=CVE-2026-78410
     PublishedDate: '2026-09-02T16:17:23.983Z'
@@ -34499,6 +34687,7 @@
     VendorSeverity:
       amazon: 2
       nvd: 3
+      photon: 3
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -34543,6 +34732,7 @@
     VendorSeverity:
       amazon: 2
       nvd: 3
+      photon: 3
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -36141,6 +36331,7 @@
     VendorSeverity:
       amazon: 2
       nvd: 3
+      photon: 3
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -36185,6 +36376,7 @@
     VendorSeverity:
       amazon: 2
       nvd: 3
+      photon: 3
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -37783,6 +37975,7 @@
     VendorSeverity:
       amazon: 2
       nvd: 3
+      photon: 3
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -37827,6 +38020,7 @@
     VendorSeverity:
       amazon: 2
       nvd: 3
+      photon: 3
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -40282,7 +40476,7 @@
     CweIDs:
     - CWE-770
     VendorSeverity:
-      amazon: 3
+      amazon: 1
       azure: 2
       redhat: 1
       ubuntu: 1
@@ -41337,7 +41531,7 @@
     CweIDs:
     - CWE-770
     VendorSeverity:
-      amazon: 3
+      amazon: 1
       azure: 2
       redhat: 1
       ubuntu: 1
@@ -42779,6 +42973,43 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-7017
     PublishedDate: '2026-07-07T19:16:55.53Z'
     LastModifiedDate: '2026-10-25T20:10:00.147Z'
+  - VulnerabilityID: CVE-2026-82560
+    PkgID: perl@5.40.1-6
+    PkgName: perl
+    PkgIdentifier:
+      PURL: pkg:deb/debian/perl@5.40.1-6?arch=amd64&distro=debian-13.6
+      UID: 557491d5d25d44f8
+    InstalledVersion: 5.40.1-6
+    Status: affected
+    Layer:
+      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
+      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-82560
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:903b219d9cd80c998a36516cce35458828f2a539e9a6f2030ba8828ca3342dae
+    Title: Pod::Text versions before 6.1.1 for Perl allow CPU and memory exhausti ...
+    Description: |-
+      Pod::Text versions before 6.1.1 for Perl allow CPU and memory exhaustion formatting a POD document whose =over nesting drives the margin to the output width.
+
+      Each =over adds its indent to the margin, which wrap() subtracts from the output width to get the space available for text. When that space reaches zero, the line-splitting substitution matches the empty string, and the loop consumes no input while appending the margin padding on every pass.
+
+      Formatting an attacker-supplied POD document never returns, and the output grows until memory is exhausted.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-835
+    VendorSeverity:
+      azure: 2
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/09/19/6
+    - https://github.com/rra/podlators/commit/70510174f69eb54aa6d617bde4e1402cd9b7c61f.patch
+    - https://metacpan.org/release/RRA/podlators-v6.1.0/source/lib/Pod/Text.pm#L245-261
+    - https://metacpan.org/release/RRA/podlators-v6.1.1/changes
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-82560
+    PublishedDate: '2026-09-19T16:16:32.14Z'
+    LastModifiedDate: '2026-09-22T19:07:00.983Z'
   - VulnerabilityID: CVE-2011-4116
     PkgID: perl@5.40.1-6
     PkgName: perl
@@ -42826,40 +43057,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2011-4116
     PublishedDate: '2020-01-31T18:15:11.343Z'
     LastModifiedDate: '2025-08-04T19:04:38.29Z'
-  - VulnerabilityID: CVE-2026-82560
-    PkgID: perl@5.40.1-6
-    PkgName: perl
-    PkgIdentifier:
-      PURL: pkg:deb/debian/perl@5.40.1-6?arch=amd64&distro=debian-13.6
-      UID: 557491d5d25d44f8
-    InstalledVersion: 5.40.1-6
-    Status: affected
-    Layer:
-      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
-      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-82560
-    DataSource:
-      ID: debian
-      Name: Debian Security Tracker
-      URL: https://salsa.debian.org/security-tracker-team/security-tracker
-    Fingerprint: sha256:903b219d9cd80c998a36516cce35458828f2a539e9a6f2030ba8828ca3342dae
-    Title: Pod::Text versions before 6.1.1 for Perl allow CPU and memory exhausti ...
-    Description: |-
-      Pod::Text versions before 6.1.1 for Perl allow CPU and memory exhaustion formatting a POD document whose =over nesting drives the margin to the output width.
-
-      Each =over adds its indent to the margin, which wrap() subtracts from the output width to get the space available for text. When that space reaches zero, the line-splitting substitution matches the empty string, and the loop consumes no input while appending the margin padding on every pass.
-
-      Formatting an attacker-supplied POD document never returns, and the output grows until memory is exhausted.
-    Severity: UNKNOWN
-    CweIDs:
-    - CWE-835
-    References:
-    - http://www.openwall.com/lists/oss-security/2026/09/19/6
-    - https://github.com/rra/podlators/commit/70510174f69eb54aa6d617bde4e1402cd9b7c61f.patch
-    - https://metacpan.org/release/RRA/podlators-v6.1.0/source/lib/Pod/Text.pm#L245-261
-    - https://metacpan.org/release/RRA/podlators-v6.1.1/changes
-    PublishedDate: '2026-09-19T16:16:32.14Z'
-    LastModifiedDate: '2026-09-22T19:07:00.983Z'
   - VulnerabilityID: CVE-2026-13221
     PkgID: perl-base@5.40.1-6
     PkgName: perl-base
@@ -43723,6 +43920,43 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-7017
     PublishedDate: '2026-07-07T19:16:55.53Z'
     LastModifiedDate: '2026-10-25T20:10:00.147Z'
+  - VulnerabilityID: CVE-2026-82560
+    PkgID: perl-base@5.40.1-6
+    PkgName: perl-base
+    PkgIdentifier:
+      PURL: pkg:deb/debian/perl-base@5.40.1-6?arch=amd64&distro=debian-13.6
+      UID: 99e310eaf1c93ec7
+    InstalledVersion: 5.40.1-6
+    Status: affected
+    Layer:
+      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
+      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-82560
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:aa5e13ac5bfd1aecd7382acc27d56f70e3d34fcff3d8cbe7293867418ad15013
+    Title: Pod::Text versions before 6.1.1 for Perl allow CPU and memory exhausti ...
+    Description: |-
+      Pod::Text versions before 6.1.1 for Perl allow CPU and memory exhaustion formatting a POD document whose =over nesting drives the margin to the output width.
+
+      Each =over adds its indent to the margin, which wrap() subtracts from the output width to get the space available for text. When that space reaches zero, the line-splitting substitution matches the empty string, and the loop consumes no input while appending the margin padding on every pass.
+
+      Formatting an attacker-supplied POD document never returns, and the output grows until memory is exhausted.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-835
+    VendorSeverity:
+      azure: 2
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/09/19/6
+    - https://github.com/rra/podlators/commit/70510174f69eb54aa6d617bde4e1402cd9b7c61f.patch
+    - https://metacpan.org/release/RRA/podlators-v6.1.0/source/lib/Pod/Text.pm#L245-261
+    - https://metacpan.org/release/RRA/podlators-v6.1.1/changes
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-82560
+    PublishedDate: '2026-09-19T16:16:32.14Z'
+    LastModifiedDate: '2026-09-22T19:07:00.983Z'
   - VulnerabilityID: CVE-2011-4116
     PkgID: perl-base@5.40.1-6
     PkgName: perl-base
@@ -43770,40 +44004,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2011-4116
     PublishedDate: '2020-01-31T18:15:11.343Z'
     LastModifiedDate: '2025-08-04T19:04:38.29Z'
-  - VulnerabilityID: CVE-2026-82560
-    PkgID: perl-base@5.40.1-6
-    PkgName: perl-base
-    PkgIdentifier:
-      PURL: pkg:deb/debian/perl-base@5.40.1-6?arch=amd64&distro=debian-13.6
-      UID: 99e310eaf1c93ec7
-    InstalledVersion: 5.40.1-6
-    Status: affected
-    Layer:
-      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
-      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-82560
-    DataSource:
-      ID: debian
-      Name: Debian Security Tracker
-      URL: https://salsa.debian.org/security-tracker-team/security-tracker
-    Fingerprint: sha256:aa5e13ac5bfd1aecd7382acc27d56f70e3d34fcff3d8cbe7293867418ad15013
-    Title: Pod::Text versions before 6.1.1 for Perl allow CPU and memory exhausti ...
-    Description: |-
-      Pod::Text versions before 6.1.1 for Perl allow CPU and memory exhaustion formatting a POD document whose =over nesting drives the margin to the output width.
-
-      Each =over adds its indent to the margin, which wrap() subtracts from the output width to get the space available for text. When that space reaches zero, the line-splitting substitution matches the empty string, and the loop consumes no input while appending the margin padding on every pass.
-
-      Formatting an attacker-supplied POD document never returns, and the output grows until memory is exhausted.
-    Severity: UNKNOWN
-    CweIDs:
-    - CWE-835
-    References:
-    - http://www.openwall.com/lists/oss-security/2026/09/19/6
-    - https://github.com/rra/podlators/commit/70510174f69eb54aa6d617bde4e1402cd9b7c61f.patch
-    - https://metacpan.org/release/RRA/podlators-v6.1.0/source/lib/Pod/Text.pm#L245-261
-    - https://metacpan.org/release/RRA/podlators-v6.1.1/changes
-    PublishedDate: '2026-09-19T16:16:32.14Z'
-    LastModifiedDate: '2026-09-22T19:07:00.983Z'
   - VulnerabilityID: CVE-2026-13221
     PkgID: perl-modules-5.40@5.40.1-6
     PkgName: perl-modules-5.40
@@ -44667,6 +44867,43 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-7017
     PublishedDate: '2026-07-07T19:16:55.53Z'
     LastModifiedDate: '2026-10-25T20:10:00.147Z'
+  - VulnerabilityID: CVE-2026-82560
+    PkgID: perl-modules-5.40@5.40.1-6
+    PkgName: perl-modules-5.40
+    PkgIdentifier:
+      PURL: pkg:deb/debian/perl-modules-5.40@5.40.1-6?arch=all&distro=debian-13.6
+      UID: 9bd83fa4dd131a41
+    InstalledVersion: 5.40.1-6
+    Status: affected
+    Layer:
+      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
+      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-82560
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:48d834ca071e0abdf2048cb60b0172d44f7271a2965fff781876b726d0b67891
+    Title: Pod::Text versions before 6.1.1 for Perl allow CPU and memory exhausti ...
+    Description: |-
+      Pod::Text versions before 6.1.1 for Perl allow CPU and memory exhaustion formatting a POD document whose =over nesting drives the margin to the output width.
+
+      Each =over adds its indent to the margin, which wrap() subtracts from the output width to get the space available for text. When that space reaches zero, the line-splitting substitution matches the empty string, and the loop consumes no input while appending the margin padding on every pass.
+
+      Formatting an attacker-supplied POD document never returns, and the output grows until memory is exhausted.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-835
+    VendorSeverity:
+      azure: 2
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/09/19/6
+    - https://github.com/rra/podlators/commit/70510174f69eb54aa6d617bde4e1402cd9b7c61f.patch
+    - https://metacpan.org/release/RRA/podlators-v6.1.0/source/lib/Pod/Text.pm#L245-261
+    - https://metacpan.org/release/RRA/podlators-v6.1.1/changes
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-82560
+    PublishedDate: '2026-09-19T16:16:32.14Z'
+    LastModifiedDate: '2026-09-22T19:07:00.983Z'
   - VulnerabilityID: CVE-2011-4116
     PkgID: perl-modules-5.40@5.40.1-6
     PkgName: perl-modules-5.40
@@ -44714,40 +44951,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2011-4116
     PublishedDate: '2020-01-31T18:15:11.343Z'
     LastModifiedDate: '2025-08-04T19:04:38.29Z'
-  - VulnerabilityID: CVE-2026-82560
-    PkgID: perl-modules-5.40@5.40.1-6
-    PkgName: perl-modules-5.40
-    PkgIdentifier:
-      PURL: pkg:deb/debian/perl-modules-5.40@5.40.1-6?arch=all&distro=debian-13.6
-      UID: 9bd83fa4dd131a41
-    InstalledVersion: 5.40.1-6
-    Status: affected
-    Layer:
-      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
-      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-82560
-    DataSource:
-      ID: debian
-      Name: Debian Security Tracker
-      URL: https://salsa.debian.org/security-tracker-team/security-tracker
-    Fingerprint: sha256:48d834ca071e0abdf2048cb60b0172d44f7271a2965fff781876b726d0b67891
-    Title: Pod::Text versions before 6.1.1 for Perl allow CPU and memory exhausti ...
-    Description: |-
-      Pod::Text versions before 6.1.1 for Perl allow CPU and memory exhaustion formatting a POD document whose =over nesting drives the margin to the output width.
-
-      Each =over adds its indent to the margin, which wrap() subtracts from the output width to get the space available for text. When that space reaches zero, the line-splitting substitution matches the empty string, and the loop consumes no input while appending the margin padding on every pass.
-
-      Formatting an attacker-supplied POD document never returns, and the output grows until memory is exhausted.
-    Severity: UNKNOWN
-    CweIDs:
-    - CWE-835
-    References:
-    - http://www.openwall.com/lists/oss-security/2026/09/19/6
-    - https://github.com/rra/podlators/commit/70510174f69eb54aa6d617bde4e1402cd9b7c61f.patch
-    - https://metacpan.org/release/RRA/podlators-v6.1.0/source/lib/Pod/Text.pm#L245-261
-    - https://metacpan.org/release/RRA/podlators-v6.1.1/changes
-    PublishedDate: '2026-09-19T16:16:32.14Z'
-    LastModifiedDate: '2026-09-22T19:07:00.983Z'
   - VulnerabilityID: CVE-2026-96512
     PkgID: sudo@1.9.16p2-3+deb13u2
     PkgName: sudo
@@ -46448,7 +46651,7 @@
     - https://ubuntu.com/security/notices/USN-7054-1
     - https://www.cve.org/CVERecord?id=CVE-2021-4217
     PublishedDate: '2022-08-24T16:15:10.09Z'
-    LastModifiedDate: '2026-06-17T04:19:14.227Z'
+    LastModifiedDate: '2026-11-02T19:17:46.99Z'
   - VulnerabilityID: CVE-2026-76642
     PkgID: util-linux@2.41.5-0+deb13u1
     PkgName: util-linux
@@ -46474,6 +46677,7 @@
     VendorSeverity:
       alma: 3
       azure: 2
+      oracle-oval: 3
       photon: 3
       redhat: 3
     CVSS:
@@ -46500,6 +46704,8 @@
     - https://github.com/util-linux/util-linux/commit/a15c00a9e545aa8b9cf6ec0f888ff6c7b3eaeedc
     - https://github.com/util-linux/util-linux/commit/f57cea130839c0af8dc0525274267ae4cfd66bbf
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-m25x-3hj9-m26f
+    - https://linux.oracle.com/cve/CVE-2026-76642.html
+    - https://linux.oracle.com/errata/ELSA-2026-93461.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-76642
     - https://www.cve.org/CVERecord?id=CVE-2026-76642
     - https://www.vulncheck.com/advisories/util-linux-libmount-privilege-escalation-via-failed-mount-helper
@@ -46530,6 +46736,7 @@
     VendorSeverity:
       alma: 3
       azure: 3
+      oracle-oval: 3
       redhat: 3
     CVSS:
       redhat:
@@ -46552,6 +46759,8 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2522497
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-55fx-f4gg-cfhj
+    - https://linux.oracle.com/cve/CVE-2026-78408.html
+    - https://linux.oracle.com/errata/ELSA-2026-93461.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78408
     - https://www.cve.org/CVERecord?id=CVE-2026-78408
     PublishedDate: '2026-09-02T16:17:23.687Z'
@@ -46618,6 +46827,7 @@
     VendorSeverity:
       alma: 3
       azure: 3
+      oracle-oval: 3
       redhat: 3
     CVSS:
       redhat:
@@ -46639,6 +46849,8 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2522684
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-rh77-686x-2f2m
+    - https://linux.oracle.com/cve/CVE-2026-78410.html
+    - https://linux.oracle.com/errata/ELSA-2026-93461.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78410
     - https://www.cve.org/CVERecord?id=CVE-2026-78410
     PublishedDate: '2026-09-02T16:17:23.983Z'
@@ -66220,7 +66432,7 @@
     - CWE-1286
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 3
       bitnami: 3
       oracle-oval: 3
@@ -69097,7 +69309,7 @@
       alma: 4
       amazon: 3
       bitnami: 3
-      oracle-oval: 4
+      oracle-oval: 3
       redhat: 3
       rocky: 4
     CVSS:
@@ -69132,7 +69344,7 @@
     - https://go.dev/issue/81855
     - https://groups.google.com/g/golang-announce/c/U2fTuyDJznI
     - https://linux.oracle.com/cve/CVE-2026-97031.html
-    - https://linux.oracle.com/errata/ELSA-2026-89744.html
+    - https://linux.oracle.com/errata/ELSA-2026-89751.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-97031
     - https://pkg.go.dev/vuln/GO-2026-6607
     - https://www.cve.org/CVERecord?id=CVE-2026-97031
@@ -69647,7 +69859,7 @@
     - CWE-201
     VendorSeverity:
       alma: 3
-      amazon: 4
+      amazon: 2
       azure: 2
       bitnami: 2
       photon: 2
@@ -72236,7 +72448,7 @@
     - CWE-1286
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 3
       bitnami: 3
       oracle-oval: 3
@@ -75113,7 +75325,7 @@
       alma: 4
       amazon: 3
       bitnami: 3
-      oracle-oval: 4
+      oracle-oval: 3
       redhat: 3
       rocky: 4
     CVSS:
@@ -75148,7 +75360,7 @@
     - https://go.dev/issue/81855
     - https://groups.google.com/g/golang-announce/c/U2fTuyDJznI
     - https://linux.oracle.com/cve/CVE-2026-97031.html
-    - https://linux.oracle.com/errata/ELSA-2026-89744.html
+    - https://linux.oracle.com/errata/ELSA-2026-89751.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-97031
     - https://pkg.go.dev/vuln/GO-2026-6607
     - https://www.cve.org/CVERecord?id=CVE-2026-97031
@@ -75663,7 +75875,7 @@
     - CWE-201
     VendorSeverity:
       alma: 3
-      amazon: 4
+      amazon: 2
       azure: 2
       bitnami: 2
       photon: 2
@@ -76893,7 +77105,7 @@
       alma: 4
       amazon: 3
       bitnami: 3
-      oracle-oval: 4
+      oracle-oval: 3
       redhat: 3
       rocky: 4
     CVSS:
@@ -76928,7 +77140,7 @@
     - https://go.dev/issue/81855
     - https://groups.google.com/g/golang-announce/c/U2fTuyDJznI
     - https://linux.oracle.com/cve/CVE-2026-97031.html
-    - https://linux.oracle.com/errata/ELSA-2026-89744.html
+    - https://linux.oracle.com/errata/ELSA-2026-89751.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-97031
     - https://pkg.go.dev/vuln/GO-2026-6607
     - https://www.cve.org/CVERecord?id=CVE-2026-97031
@@ -77883,6 +78095,7 @@
     - CWE-400
     VendorSeverity:
       amazon: 2
+      azure: 2
       bottlerocket: 2
       ghsa: 2
       redhat: 2
@@ -77940,6 +78153,7 @@
     - CWE-400
     - CWE-407
     VendorSeverity:
+      azure: 1
       ghsa: 2
       redhat: 1
     CVSS:
@@ -77965,7 +78179,8 @@
       PURL: pkg:golang/golang.org/x/crypto@v0.56.0
       UID: 5761d3d1ba20423b
     InstalledVersion: v0.56.0
-    Status: affected
+    FixedVersion: 0.58.1-0.20261009181718-2f1f834330b2
+    Status: fixed
     Layer:
       Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
       DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
@@ -77982,6 +78197,7 @@
     Severity: UNKNOWN
     References:
     - https://go.dev/issue/44226
+    - https://go.dev/issue/81227
     - https://pkg.go.dev/vuln/GO-2026-5932
   - VulnerabilityID: CVE-2026-78669
     VendorIDs:
@@ -78717,7 +78933,7 @@
       alma: 4
       amazon: 3
       bitnami: 3
-      oracle-oval: 4
+      oracle-oval: 3
       redhat: 3
       rocky: 4
     CVSS:
@@ -78752,7 +78968,7 @@
     - https://go.dev/issue/81855
     - https://groups.google.com/g/golang-announce/c/U2fTuyDJznI
     - https://linux.oracle.com/cve/CVE-2026-97031.html
-    - https://linux.oracle.com/errata/ELSA-2026-89744.html
+    - https://linux.oracle.com/errata/ELSA-2026-89751.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-97031
     - https://pkg.go.dev/vuln/GO-2026-6607
     - https://www.cve.org/CVERecord?id=CVE-2026-97031
@@ -80354,7 +80570,7 @@
       alma: 4
       amazon: 3
       bitnami: 3
-      oracle-oval: 4
+      oracle-oval: 3
       redhat: 3
       rocky: 4
     CVSS:
@@ -80389,7 +80605,7 @@
     - https://go.dev/issue/81855
     - https://groups.google.com/g/golang-announce/c/U2fTuyDJznI
     - https://linux.oracle.com/cve/CVE-2026-97031.html
-    - https://linux.oracle.com/errata/ELSA-2026-89744.html
+    - https://linux.oracle.com/errata/ELSA-2026-89751.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-97031
     - https://pkg.go.dev/vuln/GO-2026-6607
     - https://www.cve.org/CVERecord?id=CVE-2026-97031
@@ -81285,7 +81501,7 @@
     - CWE-189
     - CWE-190
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       ghsa: 1
       nvd: 2
       redhat: 2
@@ -81404,6 +81620,7 @@
     - CWE-400
     VendorSeverity:
       amazon: 2
+      azure: 2
       bottlerocket: 2
       ghsa: 2
       redhat: 2
@@ -81461,6 +81678,7 @@
     - CWE-400
     - CWE-407
     VendorSeverity:
+      azure: 1
       ghsa: 2
       redhat: 1
     CVSS:
@@ -81530,7 +81748,8 @@
       PURL: pkg:golang/golang.org/x/crypto@v0.56.0
       UID: b3156ebc9dec5b51
     InstalledVersion: v0.56.0
-    Status: affected
+    FixedVersion: 0.58.1-0.20261009181718-2f1f834330b2
+    Status: fixed
     Layer:
       Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
       DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
@@ -81547,6 +81766,7 @@
     Severity: UNKNOWN
     References:
     - https://go.dev/issue/44226
+    - https://go.dev/issue/81227
     - https://pkg.go.dev/vuln/GO-2026-5932
   - VulnerabilityID: CVE-2026-78669
     VendorIDs:
@@ -82282,7 +82502,7 @@
       alma: 4
       amazon: 3
       bitnami: 3
-      oracle-oval: 4
+      oracle-oval: 3
       redhat: 3
       rocky: 4
     CVSS:
@@ -82317,7 +82537,7 @@
     - https://go.dev/issue/81855
     - https://groups.google.com/g/golang-announce/c/U2fTuyDJznI
     - https://linux.oracle.com/cve/CVE-2026-97031.html
-    - https://linux.oracle.com/errata/ELSA-2026-89744.html
+    - https://linux.oracle.com/errata/ELSA-2026-89751.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-97031
     - https://pkg.go.dev/vuln/GO-2026-6607
     - https://www.cve.org/CVERecord?id=CVE-2026-97031
@@ -83339,7 +83559,8 @@
       PURL: pkg:golang/golang.org/x/crypto@v0.54.0
       UID: c527a3567c036841
     InstalledVersion: v0.54.0
-    Status: affected
+    FixedVersion: 0.58.1-0.20261009181718-2f1f834330b2
+    Status: fixed
     Layer:
       Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
       DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
@@ -83356,6 +83577,7 @@
     Severity: UNKNOWN
     References:
     - https://go.dev/issue/44226
+    - https://go.dev/issue/81227
     - https://pkg.go.dev/vuln/GO-2026-5932
   - VulnerabilityID: CVE-2026-78669
     VendorIDs:
@@ -83972,7 +84194,7 @@
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Fingerprint: sha256:5af0505ed96e26304a095909d8bdb2afd81cc6e3028180339c50772a269d2f52
-    Title: oras-go is a Go library for managing OCI artifacts. Prior to 2.6.2, co ...
+    Title: 'github.com/oras-project/oras-go: oras-go: Arbitrary file write and code execution via symlink-chain bypass'
     Description: oras-go is a Go library for managing OCI artifacts. Prior to 2.6.2, content/file.Store extraction of OCI layers marked with io.deis.oras.content.unpack=true can write outside the store working directory. The pushDir path through extractTarDirectory and ensureLinkPath validates symlink targets lexically, resolveRelToBase skips its parent-symlink walk for root-level entries, and writeFile follows a terminal symlink when opening a regular file. A malicious archive can therefore create a symlink chain whose lexical target remains inside the extraction root but whose resolved target is an attacker-selected absolute path, then overwrite that target with a same-named regular-file entry even when AllowPathTraversalOnWrite is false. Pulling an attacker-controlled artifact can create or overwrite any file writable by the process and may lead to code execution. This issue is fixed in version 2.6.2.
     Severity: HIGH
     CweIDs:
@@ -83980,16 +84202,22 @@
     - CWE-59
     VendorSeverity:
       ghsa: 3
+      redhat: 3
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 8.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 8.8
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-85731
     - https://github.com/oras-project/oras-go
     - https://github.com/oras-project/oras-go/commit/adab2f25ea95ef4e6e41f50db9266a6701399422
     - https://github.com/oras-project/oras-go/releases/tag/v2.6.2
     - https://github.com/oras-project/oras-go/security/advisories/GHSA-m37j-52j7-pjw7
     - https://nvd.nist.gov/vuln/detail/CVE-2026-85731
+    - https://www.cve.org/CVERecord?id=CVE-2026-85731
     PublishedDate: '2026-09-16T17:18:15.833Z'
     LastModifiedDate: '2026-09-16T18:17:17.963Z'
   - VulnerabilityID: CVE-2026-85732
@@ -85011,7 +85239,7 @@
       alma: 4
       amazon: 3
       bitnami: 3
-      oracle-oval: 4
+      oracle-oval: 3
       redhat: 3
       rocky: 4
     CVSS:
@@ -85046,7 +85274,7 @@
     - https://go.dev/issue/81855
     - https://groups.google.com/g/golang-announce/c/U2fTuyDJznI
     - https://linux.oracle.com/cve/CVE-2026-97031.html
-    - https://linux.oracle.com/errata/ELSA-2026-89744.html
+    - https://linux.oracle.com/errata/ELSA-2026-89751.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-97031
     - https://pkg.go.dev/vuln/GO-2026-6607
     - https://www.cve.org/CVERecord?id=CVE-2026-97031
@@ -86689,7 +86917,7 @@
       alma: 4
       amazon: 3
       bitnami: 3
-      oracle-oval: 4
+      oracle-oval: 3
       redhat: 3
       rocky: 4
     CVSS:
@@ -86724,7 +86952,7 @@
     - https://go.dev/issue/81855
     - https://groups.google.com/g/golang-announce/c/U2fTuyDJznI
     - https://linux.oracle.com/cve/CVE-2026-97031.html
-    - https://linux.oracle.com/errata/ELSA-2026-89744.html
+    - https://linux.oracle.com/errata/ELSA-2026-89751.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-97031
     - https://pkg.go.dev/vuln/GO-2026-6607
     - https://www.cve.org/CVERecord?id=CVE-2026-97031
@@ -89355,7 +89583,8 @@
       PURL: pkg:golang/golang.org/x/crypto@v0.40.0
       UID: 38a54adf2aad74b3
     InstalledVersion: v0.40.0
-    Status: affected
+    FixedVersion: 0.58.1-0.20261009181718-2f1f834330b2
+    Status: fixed
     Layer:
       Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
       DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
@@ -89372,6 +89601,7 @@
     Severity: UNKNOWN
     References:
     - https://go.dev/issue/44226
+    - https://go.dev/issue/81227
     - https://pkg.go.dev/vuln/GO-2026-5932
   - VulnerabilityID: CVE-2026-25681
     VendorIDs:
@@ -91531,7 +91761,7 @@
     - CWE-770
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 3
       cbl-mariner: 2
@@ -92001,7 +92231,7 @@
     - CWE-1286
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 3
       bitnami: 3
       oracle-oval: 3
@@ -94878,7 +95108,7 @@
       alma: 4
       amazon: 3
       bitnami: 3
-      oracle-oval: 4
+      oracle-oval: 3
       redhat: 3
       rocky: 4
     CVSS:
@@ -94913,7 +95143,7 @@
     - https://go.dev/issue/81855
     - https://groups.google.com/g/golang-announce/c/U2fTuyDJznI
     - https://linux.oracle.com/cve/CVE-2026-97031.html
-    - https://linux.oracle.com/errata/ELSA-2026-89744.html
+    - https://linux.oracle.com/errata/ELSA-2026-89751.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-97031
     - https://pkg.go.dev/vuln/GO-2026-6607
     - https://www.cve.org/CVERecord?id=CVE-2026-97031
@@ -95434,7 +95664,7 @@
     - CWE-770
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       oracle-oval: 3
@@ -95501,7 +95731,7 @@
     Description: During the TLS 1.3 handshake if multiple messages are sent in records that span encryption level boundaries (for instance the Client Hello and Encrypted Extensions messages), the subsequent messages may be processed before the encryption level changes. This can cause some minor information disclosure if a network-local attacker can inject messages during the handshake.
     Severity: MEDIUM
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 1
       bitnami: 2
       cbl-mariner: 1
@@ -96033,7 +96263,7 @@
     - CWE-201
     VendorSeverity:
       alma: 3
-      amazon: 4
+      amazon: 2
       azure: 2
       bitnami: 2
       photon: 2
@@ -97233,7 +97463,8 @@
       PURL: pkg:golang/golang.org/x/crypto@v0.52.0
       UID: c6746a665642ce00
     InstalledVersion: v0.52.0
-    Status: affected
+    FixedVersion: 0.58.1-0.20261009181718-2f1f834330b2
+    Status: fixed
     Layer:
       Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
       DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
@@ -97250,6 +97481,7 @@
     Severity: UNKNOWN
     References:
     - https://go.dev/issue/44226
+    - https://go.dev/issue/81227
     - https://pkg.go.dev/vuln/GO-2026-5932
   - VulnerabilityID: CVE-2026-46600
     VendorIDs:
@@ -98031,7 +98263,7 @@
       alma: 4
       amazon: 3
       bitnami: 3
-      oracle-oval: 4
+      oracle-oval: 3
       redhat: 3
       rocky: 4
     CVSS:
@@ -98066,7 +98298,7 @@
     - https://go.dev/issue/81855
     - https://groups.google.com/g/golang-announce/c/U2fTuyDJznI
     - https://linux.oracle.com/cve/CVE-2026-97031.html
-    - https://linux.oracle.com/errata/ELSA-2026-89744.html
+    - https://linux.oracle.com/errata/ELSA-2026-89751.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-97031
     - https://pkg.go.dev/vuln/GO-2026-6607
     - https://www.cve.org/CVERecord?id=CVE-2026-97031
@@ -99021,6 +99253,7 @@
     - CWE-400
     VendorSeverity:
       amazon: 2
+      azure: 2
       bottlerocket: 2
       ghsa: 2
       redhat: 2
@@ -99078,6 +99311,7 @@
     - CWE-400
     - CWE-407
     VendorSeverity:
+      azure: 1
       ghsa: 2
       redhat: 1
     CVSS:
@@ -99510,7 +99744,8 @@
       PURL: pkg:golang/golang.org/x/crypto@v0.55.0
       UID: 25359bce0c42962b
     InstalledVersion: v0.55.0
-    Status: affected
+    FixedVersion: 0.58.1-0.20261009181718-2f1f834330b2
+    Status: fixed
     Layer:
       Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
       DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
@@ -99527,6 +99762,7 @@
     Severity: UNKNOWN
     References:
     - https://go.dev/issue/44226
+    - https://go.dev/issue/81227
     - https://pkg.go.dev/vuln/GO-2026-5932
   - VulnerabilityID: CVE-2026-78669
     VendorIDs:
@@ -100262,7 +100498,7 @@
       alma: 4
       amazon: 3
       bitnami: 3
-      oracle-oval: 4
+      oracle-oval: 3
       redhat: 3
       rocky: 4
     CVSS:
@@ -100297,7 +100533,7 @@
     - https://go.dev/issue/81855
     - https://groups.google.com/g/golang-announce/c/U2fTuyDJznI
     - https://linux.oracle.com/cve/CVE-2026-97031.html
-    - https://linux.oracle.com/errata/ELSA-2026-89744.html
+    - https://linux.oracle.com/errata/ELSA-2026-89751.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-97031
     - https://pkg.go.dev/vuln/GO-2026-6607
     - https://www.cve.org/CVERecord?id=CVE-2026-97031
@@ -101252,6 +101488,7 @@
     - CWE-400
     VendorSeverity:
       amazon: 2
+      azure: 2
       bottlerocket: 2
       ghsa: 2
       redhat: 2
@@ -101309,6 +101546,7 @@
     - CWE-400
     - CWE-407
     VendorSeverity:
+      azure: 1
       ghsa: 2
       redhat: 1
     CVSS:
@@ -101334,7 +101572,8 @@
       PURL: pkg:golang/golang.org/x/crypto@v0.56.0
       UID: 8db81c6138f552c6
     InstalledVersion: v0.56.0
-    Status: affected
+    FixedVersion: 0.58.1-0.20261009181718-2f1f834330b2
+    Status: fixed
     Layer:
       Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
       DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
@@ -101351,6 +101590,7 @@
     Severity: UNKNOWN
     References:
     - https://go.dev/issue/44226
+    - https://go.dev/issue/81227
     - https://pkg.go.dev/vuln/GO-2026-5932
   - VulnerabilityID: CVE-2026-78669
     VendorIDs:
@@ -102086,7 +102326,7 @@
       alma: 4
       amazon: 3
       bitnami: 3
-      oracle-oval: 4
+      oracle-oval: 3
       redhat: 3
       rocky: 4
     CVSS:
@@ -102121,7 +102361,7 @@
     - https://go.dev/issue/81855
     - https://groups.google.com/g/golang-announce/c/U2fTuyDJznI
     - https://linux.oracle.com/cve/CVE-2026-97031.html
-    - https://linux.oracle.com/errata/ELSA-2026-89744.html
+    - https://linux.oracle.com/errata/ELSA-2026-89751.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-97031
     - https://pkg.go.dev/vuln/GO-2026-6607
     - https://www.cve.org/CVERecord?id=CVE-2026-97031
@@ -103123,6 +103363,7 @@
     - CWE-400
     VendorSeverity:
       amazon: 2
+      azure: 2
       bottlerocket: 2
       ghsa: 2
       redhat: 2
@@ -103180,6 +103421,7 @@
     - CWE-400
     - CWE-407
     VendorSeverity:
+      azure: 1
       ghsa: 2
       redhat: 1
     CVSS:
@@ -103554,7 +103796,8 @@
       PURL: pkg:golang/golang.org/x/crypto@v0.53.0
       UID: 4a75460d65c046ad
     InstalledVersion: v0.53.0
-    Status: affected
+    FixedVersion: 0.58.1-0.20261009181718-2f1f834330b2
+    Status: fixed
     Layer:
       Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
       DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
@@ -103571,6 +103814,7 @@
     Severity: UNKNOWN
     References:
     - https://go.dev/issue/44226
+    - https://go.dev/issue/81227
     - https://pkg.go.dev/vuln/GO-2026-5932
   - VulnerabilityID: CVE-2026-46600
     VendorIDs:
@@ -105425,7 +105669,7 @@
       alma: 4
       amazon: 3
       bitnami: 3
-      oracle-oval: 4
+      oracle-oval: 3
       redhat: 3
       rocky: 4
     CVSS:
@@ -105460,7 +105704,7 @@
     - https://go.dev/issue/81855
     - https://groups.google.com/g/golang-announce/c/U2fTuyDJznI
     - https://linux.oracle.com/cve/CVE-2026-97031.html
-    - https://linux.oracle.com/errata/ELSA-2026-89744.html
+    - https://linux.oracle.com/errata/ELSA-2026-89751.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-97031
     - https://pkg.go.dev/vuln/GO-2026-6607
     - https://www.cve.org/CVERecord?id=CVE-2026-97031
@@ -106844,7 +107088,7 @@
     - CWE-770
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 3
       cbl-mariner: 2
@@ -107314,7 +107558,7 @@
     - CWE-1286
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 3
       bitnami: 3
       oracle-oval: 3
@@ -110191,7 +110435,7 @@
       alma: 4
       amazon: 3
       bitnami: 3
-      oracle-oval: 4
+      oracle-oval: 3
       redhat: 3
       rocky: 4
     CVSS:
@@ -110226,7 +110470,7 @@
     - https://go.dev/issue/81855
     - https://groups.google.com/g/golang-announce/c/U2fTuyDJznI
     - https://linux.oracle.com/cve/CVE-2026-97031.html
-    - https://linux.oracle.com/errata/ELSA-2026-89744.html
+    - https://linux.oracle.com/errata/ELSA-2026-89751.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-97031
     - https://pkg.go.dev/vuln/GO-2026-6607
     - https://www.cve.org/CVERecord?id=CVE-2026-97031
@@ -110260,7 +110504,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -110369,7 +110613,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -112383,7 +112627,7 @@
     - CWE-770
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       oracle-oval: 3
@@ -112450,7 +112694,7 @@
     Description: During the TLS 1.3 handshake if multiple messages are sent in records that span encryption level boundaries (for instance the Client Hello and Encrypted Extensions messages), the subsequent messages may be processed before the encryption level changes. This can cause some minor information disclosure if a network-local attacker can inject messages during the handshake.
     Severity: MEDIUM
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 1
       bitnami: 2
       cbl-mariner: 1
@@ -112982,7 +113226,7 @@
     - CWE-201
     VendorSeverity:
       alma: 3
-      amazon: 4
+      amazon: 2
       azure: 2
       bitnami: 2
       photon: 2
@@ -117068,7 +117312,7 @@
       alma: 4
       amazon: 3
       bitnami: 3
-      oracle-oval: 4
+      oracle-oval: 3
       redhat: 3
       rocky: 4
     CVSS:
@@ -117103,7 +117347,7 @@
     - https://go.dev/issue/81855
     - https://groups.google.com/g/golang-announce/c/U2fTuyDJznI
     - https://linux.oracle.com/cve/CVE-2026-97031.html
-    - https://linux.oracle.com/errata/ELSA-2026-89744.html
+    - https://linux.oracle.com/errata/ELSA-2026-89751.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-97031
     - https://pkg.go.dev/vuln/GO-2026-6607
     - https://www.cve.org/CVERecord?id=CVE-2026-97031
@@ -117136,7 +117380,7 @@
     - CWE-201
     VendorSeverity:
       alma: 3
-      amazon: 4
+      amazon: 2
       azure: 2
       bitnami: 2
       photon: 2
