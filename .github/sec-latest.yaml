@@ -3512,6 +3512,7 @@
       oracle-oval: 3
       redhat: 3
       rocky: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:N/I:H/A:H
@@ -3880,6 +3881,7 @@
       oracle-oval: 3
       redhat: 3
       rocky: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:N/I:H/A:H
@@ -4750,7 +4752,9 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 3
       ubuntu: 3
     CVSS:
@@ -4760,10 +4764,15 @@
     References:
     - http://www.openwall.com/lists/oss-security/2026/10/18/5
     - http://www.openwall.com/lists/oss-security/2026/10/18/6
+    - https://access.redhat.com/errata/RHSA-2026:96092
     - https://access.redhat.com/security/cve/CVE-2026-92392
+    - https://bugzilla.redhat.com/2548642
     - https://curl.se/docs/CVE-2026-92392.html
     - https://curl.se/docs/CVE-2026-92392.json
+    - https://errata.almalinux.org/10/ALSA-2026-96092.html
     - https://hackerone.com/reports/4030333
+    - https://linux.oracle.com/cve/CVE-2026-92392.html
+    - https://linux.oracle.com/errata/ELSA-2026-96092.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-92392
     - https://ubuntu.com/security/notices/USN-8927-1
     - https://ubuntu.com/security/notices/USN-8927-2
@@ -6882,7 +6891,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-120749
     - https://www.cve.org/CVERecord?id=CVE-2026-120749
     PublishedDate: '2026-11-06T07:17:06.153Z'
-    LastModifiedDate: '2026-11-06T07:17:10.743Z'
+    LastModifiedDate: '2026-11-09T15:17:08.523Z'
   - VulnerabilityID: CVE-2026-120749
     PkgID: dbus-bin@1.16.2-2
     PkgName: dbus-bin
@@ -6920,7 +6929,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-120749
     - https://www.cve.org/CVERecord?id=CVE-2026-120749
     PublishedDate: '2026-11-06T07:17:06.153Z'
-    LastModifiedDate: '2026-11-06T07:17:10.743Z'
+    LastModifiedDate: '2026-11-09T15:17:08.523Z'
   - VulnerabilityID: CVE-2026-120749
     PkgID: dbus-daemon@1.16.2-2
     PkgName: dbus-daemon
@@ -6958,7 +6967,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-120749
     - https://www.cve.org/CVERecord?id=CVE-2026-120749
     PublishedDate: '2026-11-06T07:17:06.153Z'
-    LastModifiedDate: '2026-11-06T07:17:10.743Z'
+    LastModifiedDate: '2026-11-09T15:17:08.523Z'
   - VulnerabilityID: CVE-2026-120749
     PkgID: dbus-session-bus-common@1.16.2-2
     PkgName: dbus-session-bus-common
@@ -6996,7 +7005,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-120749
     - https://www.cve.org/CVERecord?id=CVE-2026-120749
     PublishedDate: '2026-11-06T07:17:06.153Z'
-    LastModifiedDate: '2026-11-06T07:17:10.743Z'
+    LastModifiedDate: '2026-11-09T15:17:08.523Z'
   - VulnerabilityID: CVE-2026-120749
     PkgID: dbus-system-bus-common@1.16.2-2
     PkgName: dbus-system-bus-common
@@ -7034,7 +7043,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-120749
     - https://www.cve.org/CVERecord?id=CVE-2026-120749
     PublishedDate: '2026-11-06T07:17:06.153Z'
-    LastModifiedDate: '2026-11-06T07:17:10.743Z'
+    LastModifiedDate: '2026-11-09T15:17:08.523Z'
   - VulnerabilityID: CVE-2026-120749
     PkgID: dbus-user-session@1.16.2-2
     PkgName: dbus-user-session
@@ -7072,7 +7081,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-120749
     - https://www.cve.org/CVERecord?id=CVE-2026-120749
     PublishedDate: '2026-11-06T07:17:06.153Z'
-    LastModifiedDate: '2026-11-06T07:17:10.743Z'
+    LastModifiedDate: '2026-11-09T15:17:08.523Z'
   - VulnerabilityID: CVE-2026-53910
     PkgID: diffutils@1:3.10-4
     PkgName: diffutils
@@ -7675,7 +7684,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-115456
     - https://www.cve.org/CVERecord?id=CVE-2026-115456
     PublishedDate: '2026-10-30T09:17:14.413Z'
-    LastModifiedDate: '2026-11-06T18:17:56.003Z'
+    LastModifiedDate: '2026-11-09T19:16:41.983Z'
   - VulnerabilityID: CVE-2018-1000021
     PkgID: git@1:2.47.3-0+deb13u1
     PkgName: git
@@ -8693,6 +8702,44 @@
     - https://www.gnupg.org/download/
     PublishedDate: '2026-06-23T18:18:10.973Z'
     LastModifiedDate: '2026-06-25T20:16:05.473Z'
+  - VulnerabilityID: CVE-2026-123876
+    PkgID: golang-github-containers-common@0.62.2+ds1-2
+    PkgName: golang-github-containers-common
+    PkgIdentifier:
+      PURL: pkg:deb/debian/golang-github-containers-common@0.62.2%2Bds1-2?arch=all&distro=debian-13.6
+      UID: c70f36776257c930
+    InstalledVersion: 0.62.2+ds1-2
+    Status: affected
+    Layer:
+      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
+      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-123876
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:5c0edd3e250fc6e075791d797ebb6609cd70e27b8db435a7d65b1eadacd424e7
+    Title: 'podman: containers-common: containers-common: default seccomp AF_VSOCK/NETLINK_AUDIT deny rules bypassable via 32-bit truncation'
+    Description: A flaw was found in the default seccomp profile used by Podman via containers-common. Deny rules for AF_VSOCK and NETLINK_AUDIT compared socket arguments with unmasked 64-bit equality. Because the kernel truncates those int arguments to 32 bits, setting upper bits can bypass the deny rules.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-184
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 4.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-123876
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2566536
+    - https://github.com/podman-container-tools/container-libs/issues/1248
+    - https://github.com/podman-container-tools/container-libs/pull/1249
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-123876
+    - https://www.cve.org/CVERecord?id=CVE-2026-123876
+    - https://www.openwall.com/lists/oss-security/2026/10/27/3
+    PublishedDate: '2026-11-06T18:18:05.41Z'
+    LastModifiedDate: '2026-11-06T22:17:51.127Z'
   - VulnerabilityID: CVE-2026-24882
     PkgID: gpg@2.4.7-21+deb13u1+b4
     PkgName: gpg
@@ -10677,6 +10724,113 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-11850
     PublishedDate: '2026-06-11T10:16:21.217Z'
     LastModifiedDate: '2026-11-06T08:17:19.393Z'
+  - VulnerabilityID: CVE-2026-112321
+    PkgID: krb5-locales@1.21.3-5+deb13u1
+    PkgName: krb5-locales
+    PkgIdentifier:
+      PURL: pkg:deb/debian/krb5-locales@1.21.3-5%2Bdeb13u1?arch=all&distro=debian-13.6
+      UID: a139eab031c37111
+    InstalledVersion: 1.21.3-5+deb13u1
+    Status: affected
+    Layer:
+      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
+      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-112321
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:809c371b7d2e368569506ca0f260e560f7feeb52b371040b6d61cbdd410aa3d1
+    Description: The AUTH_GSSAPI handler in lib/rpc/svc_auth_gssapi.c in MIT Kerberos 5 (aka krb5) does not free decoded arguments on certain error paths, which allows remote attackers to cause a denial of service (memory exhaustion in kadmind) via crafted AUTH_GSSAPI_INIT requests that trigger authentication failures.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-772
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-112321
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2478448
+    PublishedDate: '2026-11-09T19:16:41.05Z'
+    LastModifiedDate: '2026-11-09T23:17:11.867Z'
+  - VulnerabilityID: CVE-2026-112322
+    PkgID: krb5-locales@1.21.3-5+deb13u1
+    PkgName: krb5-locales
+    PkgIdentifier:
+      PURL: pkg:deb/debian/krb5-locales@1.21.3-5%2Bdeb13u1?arch=all&distro=debian-13.6
+      UID: a139eab031c37111
+    InstalledVersion: 1.21.3-5+deb13u1
+    Status: affected
+    Layer:
+      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
+      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-112322
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:7fa86a1d9154e90f1b90673f984a9393af259f9143fbd4206668098a20d72c12
+    Title: clean_client() in lib/rpc/svc_auth_gssapi.c in MIT Kerberos 5 (aka krb ...
+    Description: clean_client() in lib/rpc/svc_auth_gssapi.c in MIT Kerberos 5 (aka krb5) restarts its scan from the head of the client list after each removal, resulting in quadratic CPU cost. Remote attackers can cause a denial of service (CPU consumption in kadmind) by accumulating a large number of AUTH_GSSAPI client entries.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-770
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-112322
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2478445
+    PublishedDate: '2026-11-09T19:16:41.207Z'
+    LastModifiedDate: '2026-11-09T23:17:12Z'
+  - VulnerabilityID: CVE-2026-112323
+    PkgID: krb5-locales@1.21.3-5+deb13u1
+    PkgName: krb5-locales
+    PkgIdentifier:
+      PURL: pkg:deb/debian/krb5-locales@1.21.3-5%2Bdeb13u1?arch=all&distro=debian-13.6
+      UID: a139eab031c37111
+    InstalledVersion: 1.21.3-5+deb13u1
+    Status: affected
+    Layer:
+      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
+      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-112323
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:53cb068f60bb0d5e3c5b6c0d58a1f2e1492e51e1c8f46f6950928fbfbe35659a
+    Title: The AUTH_GSSAPI handler in lib/rpc/svc_auth_gssapi.c in MIT Kerberos 5 ...
+    Description: The AUTH_GSSAPI handler in lib/rpc/svc_auth_gssapi.c in MIT Kerberos 5 (aka krb5) 1.5.2 and later allows remote attackers to cause a denial of service (memory exhaustion in kadmind) by sending repeated failed AUTH_GSSAPI_INIT requests. Each failed request allocates client state that is only freed after a 15-minute expiration timeout, allowing an attacker to accumulate memory faster than it is reclaimed.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-772
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-112323
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2478440
+    PublishedDate: '2026-11-09T19:16:41.36Z'
+    LastModifiedDate: '2026-11-09T19:16:41.473Z'
+  - VulnerabilityID: CVE-2026-119079
+    PkgID: krb5-locales@1.21.3-5+deb13u1
+    PkgName: krb5-locales
+    PkgIdentifier:
+      PURL: pkg:deb/debian/krb5-locales@1.21.3-5%2Bdeb13u1?arch=all&distro=debian-13.6
+      UID: a139eab031c37111
+    InstalledVersion: 1.21.3-5+deb13u1
+    Status: affected
+    Layer:
+      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
+      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-119079
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:1194efb173607d1d1f891d766278b5459134b786009be8fc052fa6ae94354f43
+    Title: decode_sequence_of() in lib/krb5/asn.1/asn1_encode.c in MIT Kerberos 5 ...
+    Description: decode_sequence_of() in lib/krb5/asn.1/asn1_encode.c in MIT Kerberos 5 (aka krb5) 1.11 and later grows the decoded element array one entry at a time, which allows remote attackers to cause a denial of service (CPU consumption in the KDC) by sending an unauthenticated AS-REQ or TGS-REQ with a large number of elements in a SEQUENCE OF field over TCP.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-408
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-119079
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2479231
+    PublishedDate: '2026-11-09T19:16:43.023Z'
+    LastModifiedDate: '2026-11-09T19:16:43.16Z'
   - VulnerabilityID: CVE-2026-54369
     PkgID: libacl1@2.3.2-2+b1
     PkgName: libacl1
@@ -11055,6 +11209,7 @@
       oracle-oval: 3
       redhat: 3
       rocky: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:N/I:H/A:H
@@ -11386,7 +11541,6 @@
     - https://access.redhat.com/errata/RHSA-2026:90495
     - https://access.redhat.com/errata/RHSA-2026:92492
     - https://access.redhat.com/security/cve/CVE-2026-111497
-    - https://advisory.echohq.com/cve/CVE-2026-111497
     - https://broccoli2shell.com
     - https://bugzilla.redhat.com/2558973
     - https://bugzilla.redhat.com/2562054
@@ -15853,7 +16007,9 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 3
       ubuntu: 3
     CVSS:
@@ -15863,10 +16019,15 @@
     References:
     - http://www.openwall.com/lists/oss-security/2026/10/18/5
     - http://www.openwall.com/lists/oss-security/2026/10/18/6
+    - https://access.redhat.com/errata/RHSA-2026:96092
     - https://access.redhat.com/security/cve/CVE-2026-92392
+    - https://bugzilla.redhat.com/2548642
     - https://curl.se/docs/CVE-2026-92392.html
     - https://curl.se/docs/CVE-2026-92392.json
+    - https://errata.almalinux.org/10/ALSA-2026-96092.html
     - https://hackerone.com/reports/4030333
+    - https://linux.oracle.com/cve/CVE-2026-92392.html
+    - https://linux.oracle.com/errata/ELSA-2026-96092.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-92392
     - https://ubuntu.com/security/notices/USN-8927-1
     - https://ubuntu.com/security/notices/USN-8927-2
@@ -18185,7 +18346,9 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      alma: 3
       amazon: 3
+      oracle-oval: 3
       redhat: 3
       ubuntu: 3
     CVSS:
@@ -18195,10 +18358,15 @@
     References:
     - http://www.openwall.com/lists/oss-security/2026/10/18/5
     - http://www.openwall.com/lists/oss-security/2026/10/18/6
+    - https://access.redhat.com/errata/RHSA-2026:96092
     - https://access.redhat.com/security/cve/CVE-2026-92392
+    - https://bugzilla.redhat.com/2548642
     - https://curl.se/docs/CVE-2026-92392.html
     - https://curl.se/docs/CVE-2026-92392.json
+    - https://errata.almalinux.org/10/ALSA-2026-96092.html
     - https://hackerone.com/reports/4030333
+    - https://linux.oracle.com/cve/CVE-2026-92392.html
+    - https://linux.oracle.com/errata/ELSA-2026-96092.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-92392
     - https://ubuntu.com/security/notices/USN-8927-1
     - https://ubuntu.com/security/notices/USN-8927-2
@@ -20241,7 +20409,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-120749
     - https://www.cve.org/CVERecord?id=CVE-2026-120749
     PublishedDate: '2026-11-06T07:17:06.153Z'
-    LastModifiedDate: '2026-11-06T07:17:10.743Z'
+    LastModifiedDate: '2026-11-09T15:17:08.523Z'
   - VulnerabilityID: CVE-2026-19617
     PkgID: libdevmapper1.02.1@2:1.02.205-2
     PkgName: libdevmapper1.02.1
@@ -21687,7 +21855,7 @@
     - https://github.com/libexpat/libexpat/pull/1282
     - https://github.com/libexpat/libexpat/releases/tag/R_2_8_5
     - https://linux.oracle.com/cve/CVE-2026-93990.html
-    - https://linux.oracle.com/errata/ELSA-2026-74001.html
+    - https://linux.oracle.com/errata/ELSA-2026-96079.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-93990
     - https://www.cve.org/CVERecord?id=CVE-2026-93990
     - https://www.vulncheck.com/advisories/expat-through-2.8.4-malformed-utf-16-acceptance-via-unchecked-surrogate
@@ -21774,6 +21942,7 @@
       photon: 2
       redhat: 2
       rocky: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -22077,7 +22246,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-115456
     - https://www.cve.org/CVERecord?id=CVE-2026-115456
     PublishedDate: '2026-10-30T09:17:14.413Z'
-    LastModifiedDate: '2026-11-06T18:17:56.003Z'
+    LastModifiedDate: '2026-11-09T19:16:41.983Z'
   - VulnerabilityID: CVE-2018-6829
     PkgID: libgcrypt20@1.11.0-7+deb13u1
     PkgName: libgcrypt20
@@ -22823,6 +22992,113 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-11850
     PublishedDate: '2026-06-11T10:16:21.217Z'
     LastModifiedDate: '2026-11-06T08:17:19.393Z'
+  - VulnerabilityID: CVE-2026-112321
+    PkgID: libgssapi-krb5-2@1.21.3-5+deb13u1
+    PkgName: libgssapi-krb5-2
+    PkgIdentifier:
+      PURL: pkg:deb/debian/libgssapi-krb5-2@1.21.3-5%2Bdeb13u1?arch=amd64&distro=debian-13.6
+      UID: 5d4dffd38d290d53
+    InstalledVersion: 1.21.3-5+deb13u1
+    Status: affected
+    Layer:
+      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
+      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-112321
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:9161421a8863c22ac86022446dd5e6ab8529ace08009b61abea5b5221d46ec55
+    Description: The AUTH_GSSAPI handler in lib/rpc/svc_auth_gssapi.c in MIT Kerberos 5 (aka krb5) does not free decoded arguments on certain error paths, which allows remote attackers to cause a denial of service (memory exhaustion in kadmind) via crafted AUTH_GSSAPI_INIT requests that trigger authentication failures.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-772
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-112321
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2478448
+    PublishedDate: '2026-11-09T19:16:41.05Z'
+    LastModifiedDate: '2026-11-09T23:17:11.867Z'
+  - VulnerabilityID: CVE-2026-112322
+    PkgID: libgssapi-krb5-2@1.21.3-5+deb13u1
+    PkgName: libgssapi-krb5-2
+    PkgIdentifier:
+      PURL: pkg:deb/debian/libgssapi-krb5-2@1.21.3-5%2Bdeb13u1?arch=amd64&distro=debian-13.6
+      UID: 5d4dffd38d290d53
+    InstalledVersion: 1.21.3-5+deb13u1
+    Status: affected
+    Layer:
+      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
+      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-112322
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:da5600628a5f6ef7688fb4de511304331fd4b7afd3428320b86ae84dbea61ccc
+    Title: clean_client() in lib/rpc/svc_auth_gssapi.c in MIT Kerberos 5 (aka krb ...
+    Description: clean_client() in lib/rpc/svc_auth_gssapi.c in MIT Kerberos 5 (aka krb5) restarts its scan from the head of the client list after each removal, resulting in quadratic CPU cost. Remote attackers can cause a denial of service (CPU consumption in kadmind) by accumulating a large number of AUTH_GSSAPI client entries.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-770
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-112322
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2478445
+    PublishedDate: '2026-11-09T19:16:41.207Z'
+    LastModifiedDate: '2026-11-09T23:17:12Z'
+  - VulnerabilityID: CVE-2026-112323
+    PkgID: libgssapi-krb5-2@1.21.3-5+deb13u1
+    PkgName: libgssapi-krb5-2
+    PkgIdentifier:
+      PURL: pkg:deb/debian/libgssapi-krb5-2@1.21.3-5%2Bdeb13u1?arch=amd64&distro=debian-13.6
+      UID: 5d4dffd38d290d53
+    InstalledVersion: 1.21.3-5+deb13u1
+    Status: affected
+    Layer:
+      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
+      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-112323
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:102eae74d4d7bab56e4e88fb6bcff4e6a26e441d1b066e0b1205c96881fb1356
+    Title: The AUTH_GSSAPI handler in lib/rpc/svc_auth_gssapi.c in MIT Kerberos 5 ...
+    Description: The AUTH_GSSAPI handler in lib/rpc/svc_auth_gssapi.c in MIT Kerberos 5 (aka krb5) 1.5.2 and later allows remote attackers to cause a denial of service (memory exhaustion in kadmind) by sending repeated failed AUTH_GSSAPI_INIT requests. Each failed request allocates client state that is only freed after a 15-minute expiration timeout, allowing an attacker to accumulate memory faster than it is reclaimed.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-772
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-112323
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2478440
+    PublishedDate: '2026-11-09T19:16:41.36Z'
+    LastModifiedDate: '2026-11-09T19:16:41.473Z'
+  - VulnerabilityID: CVE-2026-119079
+    PkgID: libgssapi-krb5-2@1.21.3-5+deb13u1
+    PkgName: libgssapi-krb5-2
+    PkgIdentifier:
+      PURL: pkg:deb/debian/libgssapi-krb5-2@1.21.3-5%2Bdeb13u1?arch=amd64&distro=debian-13.6
+      UID: 5d4dffd38d290d53
+    InstalledVersion: 1.21.3-5+deb13u1
+    Status: affected
+    Layer:
+      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
+      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-119079
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:331528d997f05a0b6f35f449b8c26882973c096ed3d456081b21062f007e8ad8
+    Title: decode_sequence_of() in lib/krb5/asn.1/asn1_encode.c in MIT Kerberos 5 ...
+    Description: decode_sequence_of() in lib/krb5/asn.1/asn1_encode.c in MIT Kerberos 5 (aka krb5) 1.11 and later grows the decoded element array one entry at a time, which allows remote attackers to cause a denial of service (CPU consumption in the KDC) by sending an unauthenticated AS-REQ or TGS-REQ with a large number of elements in a SEQUENCE OF field over TCP.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-408
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-119079
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2479231
+    PublishedDate: '2026-11-09T19:16:43.023Z'
+    LastModifiedDate: '2026-11-09T19:16:43.16Z'
   - VulnerabilityID: CVE-2012-2663
     PkgID: libip4tc2@1.8.11-2
     PkgName: libip4tc2
@@ -23196,6 +23472,113 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-11850
     PublishedDate: '2026-06-11T10:16:21.217Z'
     LastModifiedDate: '2026-11-06T08:17:19.393Z'
+  - VulnerabilityID: CVE-2026-112321
+    PkgID: libk5crypto3@1.21.3-5+deb13u1
+    PkgName: libk5crypto3
+    PkgIdentifier:
+      PURL: pkg:deb/debian/libk5crypto3@1.21.3-5%2Bdeb13u1?arch=amd64&distro=debian-13.6
+      UID: c62ac626db2eb5f6
+    InstalledVersion: 1.21.3-5+deb13u1
+    Status: affected
+    Layer:
+      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
+      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-112321
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:5fee5219afebde50eae0233f599e38f5494fa0a2fb96bdfc358690c91da80a9b
+    Description: The AUTH_GSSAPI handler in lib/rpc/svc_auth_gssapi.c in MIT Kerberos 5 (aka krb5) does not free decoded arguments on certain error paths, which allows remote attackers to cause a denial of service (memory exhaustion in kadmind) via crafted AUTH_GSSAPI_INIT requests that trigger authentication failures.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-772
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-112321
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2478448
+    PublishedDate: '2026-11-09T19:16:41.05Z'
+    LastModifiedDate: '2026-11-09T23:17:11.867Z'
+  - VulnerabilityID: CVE-2026-112322
+    PkgID: libk5crypto3@1.21.3-5+deb13u1
+    PkgName: libk5crypto3
+    PkgIdentifier:
+      PURL: pkg:deb/debian/libk5crypto3@1.21.3-5%2Bdeb13u1?arch=amd64&distro=debian-13.6
+      UID: c62ac626db2eb5f6
+    InstalledVersion: 1.21.3-5+deb13u1
+    Status: affected
+    Layer:
+      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
+      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-112322
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:6554020de4b9569f4a3905f63ce34510caadd6a6c1d132801f1929fb5df0001b
+    Title: clean_client() in lib/rpc/svc_auth_gssapi.c in MIT Kerberos 5 (aka krb ...
+    Description: clean_client() in lib/rpc/svc_auth_gssapi.c in MIT Kerberos 5 (aka krb5) restarts its scan from the head of the client list after each removal, resulting in quadratic CPU cost. Remote attackers can cause a denial of service (CPU consumption in kadmind) by accumulating a large number of AUTH_GSSAPI client entries.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-770
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-112322
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2478445
+    PublishedDate: '2026-11-09T19:16:41.207Z'
+    LastModifiedDate: '2026-11-09T23:17:12Z'
+  - VulnerabilityID: CVE-2026-112323
+    PkgID: libk5crypto3@1.21.3-5+deb13u1
+    PkgName: libk5crypto3
+    PkgIdentifier:
+      PURL: pkg:deb/debian/libk5crypto3@1.21.3-5%2Bdeb13u1?arch=amd64&distro=debian-13.6
+      UID: c62ac626db2eb5f6
+    InstalledVersion: 1.21.3-5+deb13u1
+    Status: affected
+    Layer:
+      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
+      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-112323
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:6555e18ddc426a2b58dd22c51258f30e592ad06d381a49039521564acff3e014
+    Title: The AUTH_GSSAPI handler in lib/rpc/svc_auth_gssapi.c in MIT Kerberos 5 ...
+    Description: The AUTH_GSSAPI handler in lib/rpc/svc_auth_gssapi.c in MIT Kerberos 5 (aka krb5) 1.5.2 and later allows remote attackers to cause a denial of service (memory exhaustion in kadmind) by sending repeated failed AUTH_GSSAPI_INIT requests. Each failed request allocates client state that is only freed after a 15-minute expiration timeout, allowing an attacker to accumulate memory faster than it is reclaimed.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-772
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-112323
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2478440
+    PublishedDate: '2026-11-09T19:16:41.36Z'
+    LastModifiedDate: '2026-11-09T19:16:41.473Z'
+  - VulnerabilityID: CVE-2026-119079
+    PkgID: libk5crypto3@1.21.3-5+deb13u1
+    PkgName: libk5crypto3
+    PkgIdentifier:
+      PURL: pkg:deb/debian/libk5crypto3@1.21.3-5%2Bdeb13u1?arch=amd64&distro=debian-13.6
+      UID: c62ac626db2eb5f6
+    InstalledVersion: 1.21.3-5+deb13u1
+    Status: affected
+    Layer:
+      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
+      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-119079
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:6955e09eecd42a3a6ac2353b905bac74bd768554308415bfe01c9e8bab36ba29
+    Title: decode_sequence_of() in lib/krb5/asn.1/asn1_encode.c in MIT Kerberos 5 ...
+    Description: decode_sequence_of() in lib/krb5/asn.1/asn1_encode.c in MIT Kerberos 5 (aka krb5) 1.11 and later grows the decoded element array one entry at a time, which allows remote attackers to cause a denial of service (CPU consumption in the KDC) by sending an unauthenticated AS-REQ or TGS-REQ with a large number of elements in a SEQUENCE OF field over TCP.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-408
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-119079
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2479231
+    PublishedDate: '2026-11-09T19:16:43.023Z'
+    LastModifiedDate: '2026-11-09T19:16:43.16Z'
   - VulnerabilityID: CVE-2026-107708
     PkgID: libkrb5-3@1.21.3-5+deb13u1
     PkgName: libkrb5-3
@@ -23489,6 +23872,113 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-11850
     PublishedDate: '2026-06-11T10:16:21.217Z'
     LastModifiedDate: '2026-11-06T08:17:19.393Z'
+  - VulnerabilityID: CVE-2026-112321
+    PkgID: libkrb5-3@1.21.3-5+deb13u1
+    PkgName: libkrb5-3
+    PkgIdentifier:
+      PURL: pkg:deb/debian/libkrb5-3@1.21.3-5%2Bdeb13u1?arch=amd64&distro=debian-13.6
+      UID: a7b7b8f276366f1f
+    InstalledVersion: 1.21.3-5+deb13u1
+    Status: affected
+    Layer:
+      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
+      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-112321
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:351510ae0d9914dfb34b5cc97811679eb40d1b809105712f2ea3e20584c0eb39
+    Description: The AUTH_GSSAPI handler in lib/rpc/svc_auth_gssapi.c in MIT Kerberos 5 (aka krb5) does not free decoded arguments on certain error paths, which allows remote attackers to cause a denial of service (memory exhaustion in kadmind) via crafted AUTH_GSSAPI_INIT requests that trigger authentication failures.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-772
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-112321
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2478448
+    PublishedDate: '2026-11-09T19:16:41.05Z'
+    LastModifiedDate: '2026-11-09T23:17:11.867Z'
+  - VulnerabilityID: CVE-2026-112322
+    PkgID: libkrb5-3@1.21.3-5+deb13u1
+    PkgName: libkrb5-3
+    PkgIdentifier:
+      PURL: pkg:deb/debian/libkrb5-3@1.21.3-5%2Bdeb13u1?arch=amd64&distro=debian-13.6
+      UID: a7b7b8f276366f1f
+    InstalledVersion: 1.21.3-5+deb13u1
+    Status: affected
+    Layer:
+      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
+      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-112322
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:c867d50f2505f215b570d13ccdff8517305e1c75458af6d27c7f951efbca3c6e
+    Title: clean_client() in lib/rpc/svc_auth_gssapi.c in MIT Kerberos 5 (aka krb ...
+    Description: clean_client() in lib/rpc/svc_auth_gssapi.c in MIT Kerberos 5 (aka krb5) restarts its scan from the head of the client list after each removal, resulting in quadratic CPU cost. Remote attackers can cause a denial of service (CPU consumption in kadmind) by accumulating a large number of AUTH_GSSAPI client entries.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-770
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-112322
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2478445
+    PublishedDate: '2026-11-09T19:16:41.207Z'
+    LastModifiedDate: '2026-11-09T23:17:12Z'
+  - VulnerabilityID: CVE-2026-112323
+    PkgID: libkrb5-3@1.21.3-5+deb13u1
+    PkgName: libkrb5-3
+    PkgIdentifier:
+      PURL: pkg:deb/debian/libkrb5-3@1.21.3-5%2Bdeb13u1?arch=amd64&distro=debian-13.6
+      UID: a7b7b8f276366f1f
+    InstalledVersion: 1.21.3-5+deb13u1
+    Status: affected
+    Layer:
+      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
+      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-112323
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:2330929712e820bb8b83edf1a2ece2ae271d52947cb5354645a98a22baefcc59
+    Title: The AUTH_GSSAPI handler in lib/rpc/svc_auth_gssapi.c in MIT Kerberos 5 ...
+    Description: The AUTH_GSSAPI handler in lib/rpc/svc_auth_gssapi.c in MIT Kerberos 5 (aka krb5) 1.5.2 and later allows remote attackers to cause a denial of service (memory exhaustion in kadmind) by sending repeated failed AUTH_GSSAPI_INIT requests. Each failed request allocates client state that is only freed after a 15-minute expiration timeout, allowing an attacker to accumulate memory faster than it is reclaimed.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-772
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-112323
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2478440
+    PublishedDate: '2026-11-09T19:16:41.36Z'
+    LastModifiedDate: '2026-11-09T19:16:41.473Z'
+  - VulnerabilityID: CVE-2026-119079
+    PkgID: libkrb5-3@1.21.3-5+deb13u1
+    PkgName: libkrb5-3
+    PkgIdentifier:
+      PURL: pkg:deb/debian/libkrb5-3@1.21.3-5%2Bdeb13u1?arch=amd64&distro=debian-13.6
+      UID: a7b7b8f276366f1f
+    InstalledVersion: 1.21.3-5+deb13u1
+    Status: affected
+    Layer:
+      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
+      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-119079
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:d3fdd1cde60b0bb5a9636695333a31be8a326646add56dd1a339a9535b468524
+    Title: decode_sequence_of() in lib/krb5/asn.1/asn1_encode.c in MIT Kerberos 5 ...
+    Description: decode_sequence_of() in lib/krb5/asn.1/asn1_encode.c in MIT Kerberos 5 (aka krb5) 1.11 and later grows the decoded element array one entry at a time, which allows remote attackers to cause a denial of service (CPU consumption in the KDC) by sending an unauthenticated AS-REQ or TGS-REQ with a large number of elements in a SEQUENCE OF field over TCP.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-408
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-119079
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2479231
+    PublishedDate: '2026-11-09T19:16:43.023Z'
+    LastModifiedDate: '2026-11-09T19:16:43.16Z'
   - VulnerabilityID: CVE-2026-107708
     PkgID: libkrb5support0@1.21.3-5+deb13u1
     PkgName: libkrb5support0
@@ -23782,6 +24272,113 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-11850
     PublishedDate: '2026-06-11T10:16:21.217Z'
     LastModifiedDate: '2026-11-06T08:17:19.393Z'
+  - VulnerabilityID: CVE-2026-112321
+    PkgID: libkrb5support0@1.21.3-5+deb13u1
+    PkgName: libkrb5support0
+    PkgIdentifier:
+      PURL: pkg:deb/debian/libkrb5support0@1.21.3-5%2Bdeb13u1?arch=amd64&distro=debian-13.6
+      UID: 9a69f9b1048a28cf
+    InstalledVersion: 1.21.3-5+deb13u1
+    Status: affected
+    Layer:
+      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
+      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-112321
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:820c050addb50d744e59736c41ae9abcbc10c08fe29fa6e66f70b9b692075714
+    Description: The AUTH_GSSAPI handler in lib/rpc/svc_auth_gssapi.c in MIT Kerberos 5 (aka krb5) does not free decoded arguments on certain error paths, which allows remote attackers to cause a denial of service (memory exhaustion in kadmind) via crafted AUTH_GSSAPI_INIT requests that trigger authentication failures.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-772
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-112321
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2478448
+    PublishedDate: '2026-11-09T19:16:41.05Z'
+    LastModifiedDate: '2026-11-09T23:17:11.867Z'
+  - VulnerabilityID: CVE-2026-112322
+    PkgID: libkrb5support0@1.21.3-5+deb13u1
+    PkgName: libkrb5support0
+    PkgIdentifier:
+      PURL: pkg:deb/debian/libkrb5support0@1.21.3-5%2Bdeb13u1?arch=amd64&distro=debian-13.6
+      UID: 9a69f9b1048a28cf
+    InstalledVersion: 1.21.3-5+deb13u1
+    Status: affected
+    Layer:
+      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
+      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-112322
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:70cabca7a5f2f38d5b73161dafe294612aca46450617c66892e49a52d6176480
+    Title: clean_client() in lib/rpc/svc_auth_gssapi.c in MIT Kerberos 5 (aka krb ...
+    Description: clean_client() in lib/rpc/svc_auth_gssapi.c in MIT Kerberos 5 (aka krb5) restarts its scan from the head of the client list after each removal, resulting in quadratic CPU cost. Remote attackers can cause a denial of service (CPU consumption in kadmind) by accumulating a large number of AUTH_GSSAPI client entries.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-770
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-112322
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2478445
+    PublishedDate: '2026-11-09T19:16:41.207Z'
+    LastModifiedDate: '2026-11-09T23:17:12Z'
+  - VulnerabilityID: CVE-2026-112323
+    PkgID: libkrb5support0@1.21.3-5+deb13u1
+    PkgName: libkrb5support0
+    PkgIdentifier:
+      PURL: pkg:deb/debian/libkrb5support0@1.21.3-5%2Bdeb13u1?arch=amd64&distro=debian-13.6
+      UID: 9a69f9b1048a28cf
+    InstalledVersion: 1.21.3-5+deb13u1
+    Status: affected
+    Layer:
+      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
+      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-112323
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:52c25faa33fe1d69050ccdfbccc4029e66881bb53cea4b2e14fe0a75e14876e6
+    Title: The AUTH_GSSAPI handler in lib/rpc/svc_auth_gssapi.c in MIT Kerberos 5 ...
+    Description: The AUTH_GSSAPI handler in lib/rpc/svc_auth_gssapi.c in MIT Kerberos 5 (aka krb5) 1.5.2 and later allows remote attackers to cause a denial of service (memory exhaustion in kadmind) by sending repeated failed AUTH_GSSAPI_INIT requests. Each failed request allocates client state that is only freed after a 15-minute expiration timeout, allowing an attacker to accumulate memory faster than it is reclaimed.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-772
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-112323
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2478440
+    PublishedDate: '2026-11-09T19:16:41.36Z'
+    LastModifiedDate: '2026-11-09T19:16:41.473Z'
+  - VulnerabilityID: CVE-2026-119079
+    PkgID: libkrb5support0@1.21.3-5+deb13u1
+    PkgName: libkrb5support0
+    PkgIdentifier:
+      PURL: pkg:deb/debian/libkrb5support0@1.21.3-5%2Bdeb13u1?arch=amd64&distro=debian-13.6
+      UID: 9a69f9b1048a28cf
+    InstalledVersion: 1.21.3-5+deb13u1
+    Status: affected
+    Layer:
+      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
+      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-119079
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:3f73e83bf9376a5219ca6eebc62386bd926a8b5eefb86a0eea7a1947bbf9671e
+    Title: decode_sequence_of() in lib/krb5/asn.1/asn1_encode.c in MIT Kerberos 5 ...
+    Description: decode_sequence_of() in lib/krb5/asn.1/asn1_encode.c in MIT Kerberos 5 (aka krb5) 1.11 and later grows the decoded element array one entry at a time, which allows remote attackers to cause a denial of service (CPU consumption in the KDC) by sending an unauthenticated AS-REQ or TGS-REQ with a large number of elements in a SEQUENCE OF field over TCP.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-408
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-119079
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2479231
+    PublishedDate: '2026-11-09T19:16:43.023Z'
+    LastModifiedDate: '2026-11-09T19:16:43.16Z'
   - VulnerabilityID: CVE-2026-76642
     PkgID: liblastlog2-2@2.41.5-0+deb13u1
     PkgName: liblastlog2-2
@@ -23890,6 +24487,7 @@
       oracle-oval: 3
       redhat: 3
       rocky: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:N/I:H/A:H
@@ -25040,6 +25638,7 @@
       oracle-oval: 3
       redhat: 3
       rocky: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:N/I:H/A:H
@@ -28122,6 +28721,7 @@
       oracle-oval: 3
       redhat: 3
       rocky: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:N/I:H/A:H
@@ -29419,7 +30019,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-66035
     - https://www.vulncheck.com/advisories/libssh2-heap-buffer-overflow-via-etm-cipher-negotiation
     PublishedDate: '2026-07-24T17:17:35.547Z'
-    LastModifiedDate: '2026-07-30T15:41:05.69Z'
+    LastModifiedDate: '2026-11-08T20:10:00.187Z'
   - VulnerabilityID: CVE-2026-84782
     VendorIDs:
     - DSA-6531-1
@@ -30722,7 +31322,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-115456
     - https://www.cve.org/CVERecord?id=CVE-2026-115456
     PublishedDate: '2026-10-30T09:17:14.413Z'
-    LastModifiedDate: '2026-11-06T18:17:56.003Z'
+    LastModifiedDate: '2026-11-09T19:16:41.983Z'
   - VulnerabilityID: CVE-2007-5686
     PkgID: libsubid5@1:4.17.4-2
     PkgName: libsubid5
@@ -32048,6 +32648,7 @@
       oracle-oval: 3
       redhat: 3
       rocky: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:N/I:H/A:H
@@ -34928,6 +35529,7 @@
       oracle-oval: 3
       redhat: 3
       rocky: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:N/I:H/A:H
@@ -35409,6 +36011,7 @@
       oracle-oval: 3
       redhat: 3
       rocky: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:N/I:H/A:H
@@ -37682,16 +38285,19 @@
     - https://github.com/panubo/docker-sshd/issues/93
     - https://github.com/predkambrij/sshhole-repro
     - https://hachyderm.io/@damienmiller/117563026759098135
+    - https://isc.sans.edu/diary.html?storyid=33498
     - https://marc.info/?l=openssh-unix-dev&m=179388064263131&w=2
     - https://news.ycombinator.com/item?id=50377976
     - https://news.ycombinator.com/item?id=50378228
     - https://news.ycombinator.com/item?id=50379704
     - https://nvd.nist.gov/vuln/detail/CVE-2026-123158
     - https://sshhole.com
+    - https://sshole.events.greynoise.io/
+    - https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-123158
     - https://www.cve.org/CVERecord?id=CVE-2026-123158
     - https://www.openssh.org/releasenotes.html#10.6p2
     PublishedDate: '2026-11-05T16:17:47.11Z'
-    LastModifiedDate: '2026-11-08T16:10:00.183Z'
+    LastModifiedDate: '2026-11-09T19:45:28.487Z'
   - VulnerabilityID: CVE-2026-55654
     PkgID: openssh-client@1:10.0p1-7+deb13u4
     PkgName: openssh-client
@@ -39381,16 +39987,19 @@
     - https://github.com/panubo/docker-sshd/issues/93
     - https://github.com/predkambrij/sshhole-repro
     - https://hachyderm.io/@damienmiller/117563026759098135
+    - https://isc.sans.edu/diary.html?storyid=33498
     - https://marc.info/?l=openssh-unix-dev&m=179388064263131&w=2
     - https://news.ycombinator.com/item?id=50377976
     - https://news.ycombinator.com/item?id=50378228
     - https://news.ycombinator.com/item?id=50379704
     - https://nvd.nist.gov/vuln/detail/CVE-2026-123158
     - https://sshhole.com
+    - https://sshole.events.greynoise.io/
+    - https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-123158
     - https://www.cve.org/CVERecord?id=CVE-2026-123158
     - https://www.openssh.org/releasenotes.html#10.6p2
     PublishedDate: '2026-11-05T16:17:47.11Z'
-    LastModifiedDate: '2026-11-08T16:10:00.183Z'
+    LastModifiedDate: '2026-11-09T19:45:28.487Z'
   - VulnerabilityID: CVE-2026-55654
     PkgID: openssh-server@1:10.0p1-7+deb13u4
     PkgName: openssh-server
@@ -41080,16 +41689,19 @@
     - https://github.com/panubo/docker-sshd/issues/93
     - https://github.com/predkambrij/sshhole-repro
     - https://hachyderm.io/@damienmiller/117563026759098135
+    - https://isc.sans.edu/diary.html?storyid=33498
     - https://marc.info/?l=openssh-unix-dev&m=179388064263131&w=2
     - https://news.ycombinator.com/item?id=50377976
     - https://news.ycombinator.com/item?id=50378228
     - https://news.ycombinator.com/item?id=50379704
     - https://nvd.nist.gov/vuln/detail/CVE-2026-123158
     - https://sshhole.com
+    - https://sshole.events.greynoise.io/
+    - https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-123158
     - https://www.cve.org/CVERecord?id=CVE-2026-123158
     - https://www.openssh.org/releasenotes.html#10.6p2
     PublishedDate: '2026-11-05T16:17:47.11Z'
-    LastModifiedDate: '2026-11-08T16:10:00.183Z'
+    LastModifiedDate: '2026-11-09T19:45:28.487Z'
   - VulnerabilityID: CVE-2026-55654
     PkgID: openssh-sftp-server@1:10.0p1-7+deb13u4
     PkgName: openssh-sftp-server
@@ -43475,12 +44087,13 @@
         V3Score: 5.5
     References:
     - http://www.openwall.com/lists/oss-security/2026/10/26/14
+    - https://access.redhat.com/errata/RHSA-2026:96215
     - https://access.redhat.com/security/cve/CVE-2026-115207
     - https://bugzilla.redhat.com/show_bug.cgi?id=2558775
     - https://nvd.nist.gov/vuln/detail/CVE-2026-115207
     - https://www.cve.org/CVERecord?id=CVE-2026-115207
     PublishedDate: '2026-10-22T11:17:50.537Z'
-    LastModifiedDate: '2026-11-05T17:17:40.417Z'
+    LastModifiedDate: '2026-11-09T17:17:10.74Z'
   - VulnerabilityID: CVE-2010-4651
     PkgID: patch@2.8-2
     PkgName: patch
@@ -48495,6 +49108,7 @@
       oracle-oval: 3
       redhat: 3
       rocky: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:N/I:H/A:H
@@ -51608,6 +52222,28 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-28422
     PublishedDate: '2026-02-27T22:16:25.667Z'
     LastModifiedDate: '2026-06-17T10:28:35.633Z'
+  - VulnerabilityID: DSA-6600-2
+    VendorIDs:
+    - DSA-6600-2
+    PkgID: vim@2:9.1.1230-2
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:deb/debian/vim@9.1.1230-2?arch=amd64&distro=debian-13.6&epoch=2
+      UID: af7f6a1370cdd0dc
+    InstalledVersion: 2:9.1.1230-2
+    FixedVersion: 2:9.1.1230-2+deb13u2
+    Status: fixed
+    Layer:
+      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
+      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:9e3c5405eba444c1d3aa7a9b8ab38ec53165ab251f8d371d8c215d33bab0a25a
+    Title: vim - regression update
+    Description: Description Not Available
+    Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-26269
     VendorIDs:
     - DSA-6600-1
@@ -54461,6 +55097,28 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-28422
     PublishedDate: '2026-02-27T22:16:25.667Z'
     LastModifiedDate: '2026-06-17T10:28:35.633Z'
+  - VulnerabilityID: DSA-6600-2
+    VendorIDs:
+    - DSA-6600-2
+    PkgID: vim-common@2:9.1.1230-2
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:deb/debian/vim-common@9.1.1230-2?arch=all&distro=debian-13.6&epoch=2
+      UID: e8f06e7c2f75499
+    InstalledVersion: 2:9.1.1230-2
+    FixedVersion: 2:9.1.1230-2+deb13u2
+    Status: fixed
+    Layer:
+      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
+      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:a4aafe60cc6d6e5f7078e0e678064d7e417f10e9f83e24c7ddb22af2571ee1be
+    Title: vim - regression update
+    Description: Description Not Available
+    Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-26269
     VendorIDs:
     - DSA-6600-1
@@ -57314,6 +57972,28 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-28422
     PublishedDate: '2026-02-27T22:16:25.667Z'
     LastModifiedDate: '2026-06-17T10:28:35.633Z'
+  - VulnerabilityID: DSA-6600-2
+    VendorIDs:
+    - DSA-6600-2
+    PkgID: vim-runtime@2:9.1.1230-2
+    PkgName: vim-runtime
+    PkgIdentifier:
+      PURL: pkg:deb/debian/vim-runtime@9.1.1230-2?arch=all&distro=debian-13.6&epoch=2
+      UID: d50872152efe3e7b
+    InstalledVersion: 2:9.1.1230-2
+    FixedVersion: 2:9.1.1230-2+deb13u2
+    Status: fixed
+    Layer:
+      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
+      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:ad5cdd465034c14b454e3f36c6cd71296cf206ca7d0326deeef579dc9615c1cd
+    Title: vim - regression update
+    Description: Description Not Available
+    Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-26269
     VendorIDs:
     - DSA-6600-1
@@ -60167,6 +60847,28 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-28422
     PublishedDate: '2026-02-27T22:16:25.667Z'
     LastModifiedDate: '2026-06-17T10:28:35.633Z'
+  - VulnerabilityID: DSA-6600-2
+    VendorIDs:
+    - DSA-6600-2
+    PkgID: vim-tiny@2:9.1.1230-2
+    PkgName: vim-tiny
+    PkgIdentifier:
+      PURL: pkg:deb/debian/vim-tiny@9.1.1230-2?arch=amd64&distro=debian-13.6&epoch=2
+      UID: 8771a59cda1f01cd
+    InstalledVersion: 2:9.1.1230-2
+    FixedVersion: 2:9.1.1230-2+deb13u2
+    Status: fixed
+    Layer:
+      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
+      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:8df58bb4ea7011929632c1d1ded93666463ed3fc40a8b84a4e27db2a643a4266
+    Title: vim - regression update
+    Description: Description Not Available
+    Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-58471
     PkgID: wget@1.25.0-2
     PkgName: wget
@@ -63398,6 +64100,28 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-28422
     PublishedDate: '2026-02-27T22:16:25.667Z'
     LastModifiedDate: '2026-06-17T10:28:35.633Z'
+  - VulnerabilityID: DSA-6600-2
+    VendorIDs:
+    - DSA-6600-2
+    PkgID: xxd@2:9.1.1230-2
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:deb/debian/xxd@9.1.1230-2?arch=amd64&distro=debian-13.6&epoch=2
+      UID: 742b3b180440c532
+    InstalledVersion: 2:9.1.1230-2
+    FixedVersion: 2:9.1.1230-2+deb13u2
+    Status: fixed
+    Layer:
+      Digest: sha256:c6ec9b89d6570ccb8dda509b97844db10c4aeb8f4987acd620cb3690f1647b68
+      DiffID: sha256:25efaee5aa4aade8d5b822f03fd622a8a336fe9f51cfdf545c9e8a2f73be0314
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:2dfc2afac1b651073f63ca9a4c9b64674a53e1790184a43b73a8d1f62f69c42e
+    Title: vim - regression update
+    Description: Description Not Available
+    Severity: UNKNOWN
   - VulnerabilityID: DSA-6549-1
     VendorIDs:
     - DSA-6549-1
@@ -63650,7 +64374,6 @@
     References:
     - https://access.redhat.com/errata/RHSA-2026:86706
     - https://access.redhat.com/security/cve/CVE-2026-89407
-    - https://advisory.echohq.com/cve/CVE-2026-89407
     - https://bugzilla.redhat.com/2538720
     - https://bugzilla.redhat.com/2539084
     - https://bugzilla.redhat.com/show_bug.cgi?id=2538720
@@ -63660,7 +64383,6 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-89425
     - https://errata.almalinux.org/9/ALSA-2026-86706.html
     - https://errata.rockylinux.org/RLSA-2026:86706
-    - https://getsafety.com/vulnerabilities/SFTY-20260922-89449/CVE-2026-89407
     - https://github.com/FasterXML/jackson-core
     - https://github.com/FasterXML/jackson-core/commit/731e794f62623aa0d86ced52490166be903fbb1d
     - https://github.com/FasterXML/jackson-core/commit/e7acd64cc99bd346704423dc2bfea1ab0a08ddff
@@ -63708,6 +64430,7 @@
       oracle-oval: 3
       redhat: 3
       rocky: 2
+      ubuntu: 2
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -64085,7 +64808,6 @@
         V3Score: 7.5
     References:
     - https://access.redhat.com/security/cve/CVE-2026-102990
-    - https://advisory.echohq.com/cve/CVE-2026-102990
     - https://github.com/patrickjuchli/basic-ftp
     - https://github.com/patrickjuchli/basic-ftp/commit/d0d9e07c56e519587bb50532ac6eadbb0cb0cfe9
     - https://github.com/patrickjuchli/basic-ftp/releases/tag/v6.2.1
@@ -64133,7 +64855,6 @@
         V3Score: 7.5
     References:
     - https://access.redhat.com/security/cve/CVE-2026-111181
-    - https://advisory.echohq.com/cve/CVE-2026-111181
     - https://cna.openjsf.org/security-advisories.html
     - https://github.com/expressjs/body-parser
     - https://github.com/expressjs/body-parser/commit/1260c3845f54502a05a87594f09a334786bb34d7
@@ -64185,9 +64906,7 @@
         V3Score: 7.5
     References:
     - https://access.redhat.com/security/cve/CVE-2026-87776
-    - https://advisory.echohq.com/cve/CVE-2026-87776
     - https://cna.openjsf.org/security-advisories.html
-    - https://github.com/advisories/GHSA-vc2v-76pw-4v95
     - https://github.com/expressjs/compression
     - https://github.com/expressjs/compression/commit/151f63e91e1b64f8fb0b064e19321a4f28db6bff
     - https://github.com/expressjs/compression/releases/tag/v1.8.2
@@ -64236,7 +64955,6 @@
         V3Score: 5.9
     References:
     - https://access.redhat.com/security/cve/CVE-2026-111755
-    - https://advisory.echohq.com/cve/CVE-2026-111755
     - https://github.com/follow-redirects/follow-redirects
     - https://github.com/follow-redirects/follow-redirects/commit/080a76d0e125b37bf81717368a61d5dc37aa56c8
     - https://github.com/follow-redirects/follow-redirects/releases/tag/v1.16.1
@@ -64285,7 +65003,6 @@
         V3Score: 7.5
     References:
     - https://access.redhat.com/security/cve/CVE-2026-111756
-    - https://advisory.echohq.com/cve/CVE-2026-111756
     - https://github.com/follow-redirects/follow-redirects
     - https://github.com/follow-redirects/follow-redirects/commit/9865ca45490e4d0f7b6944870318408344570aff
     - https://github.com/follow-redirects/follow-redirects/releases/tag/v1.16.1
@@ -64335,7 +65052,6 @@
         V3Score: 5.9
     References:
     - https://access.redhat.com/security/cve/CVE-2026-116689
-    - https://advisory.echohq.com/cve/CVE-2026-116689
     - https://github.com/follow-redirects/follow-redirects
     - https://github.com/follow-redirects/follow-redirects/commit/b0a7751e9cd64cd8eeb6ec67d2f206a9cc88d3f8
     - https://github.com/follow-redirects/follow-redirects/releases/tag/v1.16.2
@@ -64383,7 +65099,6 @@
         V3Score: 5.3
     References:
     - https://access.redhat.com/security/cve/CVE-2026-101910
-    - https://advisory.echohq.com/cve/CVE-2026-101910
     - https://github.com/beaugunderson/ip-address
     - https://github.com/beaugunderson/ip-address/commit/ab3dc88bcf5374344168a2ba075ca7ac4ff257f8
     - https://github.com/beaugunderson/ip-address/releases/tag/v10.5.1
@@ -64431,7 +65146,6 @@
         V3Score: 5.3
     References:
     - https://access.redhat.com/security/cve/CVE-2026-101910
-    - https://advisory.echohq.com/cve/CVE-2026-101910
     - https://github.com/beaugunderson/ip-address
     - https://github.com/beaugunderson/ip-address/commit/ab3dc88bcf5374344168a2ba075ca7ac4ff257f8
     - https://github.com/beaugunderson/ip-address/releases/tag/v10.5.1
@@ -64484,7 +65198,6 @@
     References:
     - https://access.redhat.com/errata/RHSA-2026:92378
     - https://access.redhat.com/security/cve/CVE-2026-101911
-    - https://advisory.echohq.com/cve/CVE-2026-101911
     - https://bugzilla.redhat.com/2542596
     - https://bugzilla.redhat.com/2542700
     - https://bugzilla.redhat.com/2542706
@@ -64582,7 +65295,6 @@
     References:
     - https://access.redhat.com/errata/RHSA-2026:92378
     - https://access.redhat.com/security/cve/CVE-2026-101911
-    - https://advisory.echohq.com/cve/CVE-2026-101911
     - https://bugzilla.redhat.com/2542596
     - https://bugzilla.redhat.com/2542700
     - https://bugzilla.redhat.com/2542706
@@ -64676,7 +65388,6 @@
         V3Score: 5.3
     References:
     - https://access.redhat.com/security/cve/CVE-2026-101912
-    - https://advisory.echohq.com/cve/CVE-2026-101912
     - https://github.com/beaugunderson/ip-address
     - https://github.com/beaugunderson/ip-address/commit/1343629d57fea413644a5c9d41ff1e59619f3f28
     - https://github.com/beaugunderson/ip-address/releases/tag/v10.7.1
@@ -64725,7 +65436,6 @@
         V3Score: 5.3
     References:
     - https://access.redhat.com/security/cve/CVE-2026-101912
-    - https://advisory.echohq.com/cve/CVE-2026-101912
     - https://github.com/beaugunderson/ip-address
     - https://github.com/beaugunderson/ip-address/commit/1343629d57fea413644a5c9d41ff1e59619f3f28
     - https://github.com/beaugunderson/ip-address/releases/tag/v10.7.1
@@ -64774,7 +65484,6 @@
         V3Score: 5.3
     References:
     - https://access.redhat.com/security/cve/CVE-2026-101913
-    - https://advisory.echohq.com/cve/CVE-2026-101913
     - https://github.com/beaugunderson/ip-address
     - https://github.com/beaugunderson/ip-address/commit/d03e960c7cc3179ef25c8a44b4f94dd499625546
     - https://github.com/beaugunderson/ip-address/releases/tag/v10.5.1
@@ -64823,7 +65532,6 @@
         V3Score: 5.3
     References:
     - https://access.redhat.com/security/cve/CVE-2026-101913
-    - https://advisory.echohq.com/cve/CVE-2026-101913
     - https://github.com/beaugunderson/ip-address
     - https://github.com/beaugunderson/ip-address/commit/d03e960c7cc3179ef25c8a44b4f94dd499625546
     - https://github.com/beaugunderson/ip-address/releases/tag/v10.5.1
@@ -64871,8 +65579,6 @@
         V3Score: 5.3
     References:
     - https://access.redhat.com/security/cve/CVE-2026-111997
-    - https://advisory.echohq.com/cve/CVE-2026-111997
-    - https://github.com/advisories/GHSA-rxp7-6hxx-x8q5
     - https://github.com/beaugunderson/ip-address
     - https://github.com/beaugunderson/ip-address/commit/ec80fcd5d7b97defecfd39717d782a9f9f8b89dd
     - https://github.com/beaugunderson/ip-address/releases/tag/v10.7.4
@@ -64920,8 +65626,6 @@
         V3Score: 5.3
     References:
     - https://access.redhat.com/security/cve/CVE-2026-111997
-    - https://advisory.echohq.com/cve/CVE-2026-111997
-    - https://github.com/advisories/GHSA-rxp7-6hxx-x8q5
     - https://github.com/beaugunderson/ip-address
     - https://github.com/beaugunderson/ip-address/commit/ec80fcd5d7b97defecfd39717d782a9f9f8b89dd
     - https://github.com/beaugunderson/ip-address/releases/tag/v10.7.4
@@ -65009,8 +65713,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
-    - https://advisory.echohq.com/cve/GHSA-r3ph-w7gj-g6xm
-    - https://github.com/advisories/GHSA-r3ph-w7gj-g6xm
     - https://github.com/nodeca/js-yaml
     - https://github.com/nodeca/js-yaml/commit/6a8e05f9a485188ed730ac81e81ae221352ef480
     - https://github.com/nodeca/js-yaml/releases/tag/5.4.1
@@ -65599,8 +66301,6 @@
         V3Score: 8.1
     References:
     - https://access.redhat.com/security/cve/CVE-2026-102422
-    - https://advisory.echohq.com/cve/CVE-2026-102422
-    - https://github.com/advisories/GHSA-pqg4-j6r4-53mv
     - https://github.com/ljharb/shell-quote
     - https://github.com/ljharb/shell-quote/commit/6002b2ed90c6b83095eb272b6b0adaf3a172b0bc
     - https://github.com/ljharb/shell-quote/security/advisories/GHSA-pqg4-j6r4-53mv
@@ -65650,8 +66350,6 @@
         V3Score: 7.5
     References:
     - https://access.redhat.com/security/cve/CVE-2026-73566
-    - https://advisory.echohq.com/cve/CVE-2026-73566
-    - https://github.com/advisories/GHSA-r292-9mhp-454m
     - https://github.com/isaacs/node-tar
     - https://github.com/isaacs/node-tar/commit/631ae59121bf8fc8a22bbae35f074cb9b789cd4a
     - https://github.com/isaacs/node-tar/releases/tag/v7.5.21
@@ -65704,7 +66402,6 @@
         V3Score: 7.4
     References:
     - https://access.redhat.com/security/cve/CVE-2026-109383
-    - https://advisory.echohq.com/cve/CVE-2026-109383
     - https://cna.openjsf.org/security-advisories.html
     - https://github.com/nodejs/undici
     - https://github.com/nodejs/undici/commit/04cb74b1db131ff8f5b4557dce811cbf5f4664b4
@@ -65764,7 +66461,6 @@
         V3Score: 7.4
     References:
     - https://access.redhat.com/security/cve/CVE-2026-109829
-    - https://advisory.echohq.com/cve/CVE-2026-109829
     - https://cna.openjsf.org/security-advisories.html
     - https://github.com/nodejs/undici
     - https://github.com/nodejs/undici/commit/26c2bfb3def0
@@ -65818,7 +66514,6 @@
         V3Score: 7.5
     References:
     - https://access.redhat.com/security/cve/CVE-2026-109869
-    - https://advisory.echohq.com/cve/CVE-2026-109869
     - https://cna.openjsf.org/security-advisories.html
     - https://github.com/nodejs/undici
     - https://github.com/nodejs/undici/commit/07ded4941b1e72afec862958c3b8ddf468f3b429
@@ -65878,7 +66573,6 @@
     References:
     - https://access.redhat.com/errata/RHSA-2026:76750
     - https://access.redhat.com/security/cve/CVE-2026-19534
-    - https://advisory.echohq.com/cve/CVE-2026-19534
     - https://bugzilla.redhat.com/2481394
     - https://bugzilla.redhat.com/2528759
     - https://bugzilla.redhat.com/show_bug.cgi?id=2481394
@@ -65951,7 +66645,6 @@
     References:
     - https://access.redhat.com/errata/RHSA-2026:73838
     - https://access.redhat.com/security/cve/CVE-2026-84961
-    - https://advisory.echohq.com/cve/CVE-2026-84961
     - https://bugzilla.redhat.com/2528717
     - https://bugzilla.redhat.com/2528735
     - https://bugzilla.redhat.com/2528759
@@ -66018,7 +66711,6 @@
         V3Score: 7.5
     References:
     - https://access.redhat.com/security/cve/CVE-2026-87018
-    - https://advisory.echohq.com/cve/CVE-2026-87018
     - https://cna.openjsf.org/security-advisories.html
     - https://github.com/nodejs/undici
     - https://github.com/nodejs/undici/commit/12cfd96c3f430897656e3edc1c5e02be8c1cd309
@@ -66076,7 +66768,6 @@
         V3Score: 5.9
     References:
     - https://access.redhat.com/security/cve/CVE-2026-109841
-    - https://advisory.echohq.com/cve/CVE-2026-109841
     - https://cna.openjsf.org/security-advisories.html
     - https://github.com/nodejs/undici
     - https://github.com/nodejs/undici/commit/18bc8a1e09d15bc45815154a289dcf6fd5254d00
@@ -66133,7 +66824,6 @@
         V3Score: 5.9
     References:
     - https://access.redhat.com/security/cve/CVE-2026-109924
-    - https://advisory.echohq.com/cve/CVE-2026-109924
     - https://cna.openjsf.org/security-advisories.html
     - https://github.com/nodejs/undici
     - https://github.com/nodejs/undici/commit/299162740d5f39120092277e70efacb4d151c1c6
@@ -66194,7 +66884,6 @@
         V3Score: 5.9
     References:
     - https://access.redhat.com/security/cve/CVE-2026-109932
-    - https://advisory.echohq.com/cve/CVE-2026-109932
     - https://cna.openjsf.org/security-advisories.html
     - https://github.com/nodejs/undici
     - https://github.com/nodejs/undici/commit/39f93e142df03e559fe7c3d1fc7fba9beee2c185
@@ -66249,7 +66938,6 @@
         V3Score: 5.9
     References:
     - https://access.redhat.com/security/cve/CVE-2026-18149
-    - https://advisory.echohq.com/cve/CVE-2026-18149
     - https://cna.openjsf.org/security-advisories.html
     - https://github.com/nodejs/undici
     - https://github.com/nodejs/undici/commit/3c6726599cea8646384dde846c97d630da472a74
@@ -66302,7 +66990,6 @@
         V3Score: 5.9
     References:
     - https://access.redhat.com/security/cve/CVE-2026-84890
-    - https://advisory.echohq.com/cve/CVE-2026-84890
     - https://cna.openjsf.org/security-advisories.html
     - https://github.com/nodejs/undici
     - https://github.com/nodejs/undici/commit/2c7d7e1227043c644c4c32cfd1e276f4fd4fcb11
@@ -66359,7 +67046,6 @@
         V3Score: 6.5
     References:
     - https://access.redhat.com/security/cve/CVE-2026-84933
-    - https://advisory.echohq.com/cve/CVE-2026-84933
     - https://cna.openjsf.org/security-advisories.html
     - https://github.com/nodejs/undici
     - https://github.com/nodejs/undici/commit/b6c5a00252c37da9dd2db9bead053bb843e1f988
@@ -66415,7 +67101,6 @@
         V3Score: 5.9
     References:
     - https://access.redhat.com/security/cve/CVE-2026-85014
-    - https://advisory.echohq.com/cve/CVE-2026-85014
     - https://cna.openjsf.org/security-advisories.html
     - https://github.com/nodejs/undici
     - https://github.com/nodejs/undici/commit/1858656ebb1e919311c1f31613dfd581b7214349
@@ -66467,7 +67152,6 @@
         V3Score: 5.9
     References:
     - https://access.redhat.com/security/cve/CVE-2026-85024
-    - https://advisory.echohq.com/cve/CVE-2026-85024
     - https://cna.openjsf.org/security-advisories.html
     - https://github.com/nodejs/undici
     - https://github.com/nodejs/undici/commit/07c60d9c7099a910451244afe42861bbdbdd974c
@@ -66525,7 +67209,6 @@
         V3Score: 5.9
     References:
     - https://access.redhat.com/security/cve/CVE-2026-87029
-    - https://advisory.echohq.com/cve/CVE-2026-87029
     - https://cna.openjsf.org/security-advisories.html
     - https://github.com/nodejs/undici
     - https://github.com/nodejs/undici/commit/63cba7712ca012b2603c6aeeb4c72d8692332cd0
@@ -66578,7 +67261,6 @@
         V3Score: 3.7
     References:
     - https://access.redhat.com/security/cve/CVE-2026-18540
-    - https://advisory.echohq.com/cve/CVE-2026-18540
     - https://cna.openjsf.org/security-advisories.html
     - https://github.com/nodejs/undici
     - https://github.com/nodejs/undici/commit/0160a719063fb0a77f4fdf9500b9166b91e14329
@@ -66639,7 +67321,6 @@
         V3Score: 6.5
     References:
     - https://access.redhat.com/security/cve/CVE-2026-84947
-    - https://advisory.echohq.com/cve/CVE-2026-84947
     - https://cna.openjsf.org/security-advisories.html
     - https://github.com/nodejs/undici
     - https://github.com/nodejs/undici/commit/21693f406f0142f3504192e9f9b022dcf84782ae
@@ -66695,7 +67376,6 @@
         V3Score: 3.7
     References:
     - https://access.redhat.com/security/cve/CVE-2026-85008
-    - https://advisory.echohq.com/cve/CVE-2026-85008
     - https://cna.openjsf.org/security-advisories.html
     - https://github.com/nodejs/undici
     - https://github.com/nodejs/undici/commit/2be07bf97b3022e0324142d31f99f6e019d815e3
@@ -67287,6 +67967,7 @@
         V3Score: 7.5
     References:
     - https://access.redhat.com/security/cve/CVE-2026-46600
+    - https://advisory.echohq.com/cve/CVE-2026-46600
     - https://go.dev/cl/786345
     - https://go.dev/issue/79795
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
@@ -69174,6 +69855,7 @@
       photon: 3
       redhat: 3
       rocky: 3
+      ubuntu: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -73315,6 +73997,7 @@
         V3Score: 7.5
     References:
     - https://access.redhat.com/security/cve/CVE-2026-46600
+    - https://advisory.echohq.com/cve/CVE-2026-46600
     - https://go.dev/cl/786345
     - https://go.dev/issue/79795
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
@@ -75202,6 +75885,7 @@
       photon: 3
       redhat: 3
       rocky: 3
+      ubuntu: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -85347,12 +86031,14 @@
     VendorSeverity:
       amazon: 3
       redhat: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N
         V3Score: 6.8
     References:
     - https://access.redhat.com/security/cve/CVE-2026-56854
+    - https://github.com/golang/go/issues/80213
     - https://go.dev/cl/797040
     - https://go.dev/issue/80213
     - https://nvd.nist.gov/vuln/detail/CVE-2026-56854
@@ -86626,6 +87312,7 @@
         V3Score: 7.5
     References:
     - https://access.redhat.com/security/cve/CVE-2026-46600
+    - https://advisory.echohq.com/cve/CVE-2026-46600
     - https://go.dev/cl/786345
     - https://go.dev/issue/79795
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
@@ -91122,12 +91809,14 @@
     VendorSeverity:
       amazon: 3
       redhat: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N
         V3Score: 6.8
     References:
     - https://access.redhat.com/security/cve/CVE-2026-56854
+    - https://github.com/golang/go/issues/80213
     - https://go.dev/cl/797040
     - https://go.dev/issue/80213
     - https://nvd.nist.gov/vuln/detail/CVE-2026-56854
@@ -92118,6 +92807,7 @@
         V3Score: 7.5
     References:
     - https://access.redhat.com/security/cve/CVE-2026-46600
+    - https://advisory.echohq.com/cve/CVE-2026-46600
     - https://go.dev/cl/786345
     - https://go.dev/issue/79795
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
@@ -95051,6 +95741,7 @@
       photon: 3
       redhat: 3
       rocky: 3
+      ubuntu: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -99296,12 +99987,14 @@
     VendorSeverity:
       amazon: 3
       redhat: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N
         V3Score: 6.8
     References:
     - https://access.redhat.com/security/cve/CVE-2026-56854
+    - https://github.com/golang/go/issues/80213
     - https://go.dev/cl/797040
     - https://go.dev/issue/80213
     - https://nvd.nist.gov/vuln/detail/CVE-2026-56854
@@ -99480,6 +100173,7 @@
         V3Score: 7.5
     References:
     - https://access.redhat.com/security/cve/CVE-2026-46600
+    - https://advisory.echohq.com/cve/CVE-2026-46600
     - https://go.dev/cl/786345
     - https://go.dev/issue/79795
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
@@ -105659,12 +106353,14 @@
     VendorSeverity:
       amazon: 3
       redhat: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N
         V3Score: 6.8
     References:
     - https://access.redhat.com/security/cve/CVE-2026-56854
+    - https://github.com/golang/go/issues/80213
     - https://go.dev/cl/797040
     - https://go.dev/issue/80213
     - https://nvd.nist.gov/vuln/detail/CVE-2026-56854
@@ -105843,6 +106539,7 @@
         V3Score: 7.5
     References:
     - https://access.redhat.com/security/cve/CVE-2026-46600
+    - https://advisory.echohq.com/cve/CVE-2026-46600
     - https://go.dev/cl/786345
     - https://go.dev/issue/79795
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
@@ -108604,7 +109301,7 @@
     Severity: CRITICAL
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       bitnami: 4
       bottlerocket: 2
       cbl-mariner: 4
@@ -108962,6 +109659,7 @@
     - http://www.openwall.com/lists/oss-security/2024/04/05/4
     - https://access.redhat.com/errata/RHSA-2024:2724
     - https://access.redhat.com/security/cve/CVE-2023-45288
+    - https://advisory.echohq.com/cve/CVE-2023-45288
     - https://bugzilla.redhat.com/2268017
     - https://bugzilla.redhat.com/2268018
     - https://bugzilla.redhat.com/2268019
@@ -108977,6 +109675,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-2724.html
     - https://errata.rockylinux.org/RLSA-2024:2724
+    - https://github.com/advisories/GHSA-4v7x-pqxf-cx7m
     - https://github.com/bottlerocket-os/bottlerocket/security/advisories/GHSA-c9wf-j9h6-m2r9
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
@@ -110412,6 +111111,7 @@
       photon: 3
       redhat: 3
       rocky: 3
+      ubuntu: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -112622,7 +113322,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -112729,7 +113429,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -117142,6 +117842,7 @@
         V3Score: 7.5
     References:
     - https://access.redhat.com/security/cve/CVE-2026-46600
+    - https://advisory.echohq.com/cve/CVE-2026-46600
     - https://go.dev/cl/786345
     - https://go.dev/issue/79795
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
@@ -118789,6 +119490,7 @@
         V3Score: 7.5
     References:
     - https://access.redhat.com/security/cve/CVE-2026-46600
+    - https://advisory.echohq.com/cve/CVE-2026-46600
     - https://go.dev/cl/786345
     - https://go.dev/issue/79795
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
