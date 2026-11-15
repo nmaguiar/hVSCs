@@ -39,17 +39,19 @@
 │                        │      │                  ───────
 │                        │      │                  CWE-775
 │                        │      │                  
-│                        │      ├ VendorSeverity   ╭ alma       : 3 
-│                        │      │                  ├ azure      : 3 
-│                        │      │                  ├ oracle-oval: 3 
-│                        │      │                  ├ redhat     : 3 
-│                        │      │                  ├ rocky      : 3 
-│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ VendorSeverity   ╭ alma        : 3 
+│                        │      │                  ├ azure       : 3 
+│                        │      │                  ├ bottlerocket: 3 
+│                        │      │                  ├ oracle-oval : 3 
+│                        │      │                  ├ redhat      : 3 
+│                        │      │                  ├ rocky       : 3 
+│                        │      │                  ╰ ubuntu      : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:N/I:
 │                        │      │                           │           H/A:H 
 │                        │      │                           ╰ V3Score : 7.9 
 │                        │      ├ References                                                                   
 │                        │      │                  ────────────────────────────────────────────────────────────
+│                        │      │                  http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78408
 │                        │      │                  http://www.openwall.com/lists/oss-security/2026/09/05/2     
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:63162            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:93461            
@@ -96,6 +98,8 @@
 │                        │      │                                                                              
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:93461               
 │                        │      │                                                                              
+│                        │      │                  https://github.com/bottlerocket-os/bottlerocket-core-kit/blo
+│                        │      │                  b/develop/advisories/18.0.0/BRSA-mrtb6gutu299.toml          
 │                        │      │                  https://github.com/util-linux/util-linux/security/advisories
 │                        │      │                  /GHSA-55fx-f4gg-cfhj                                        
 │                        │      │                  https://linux.oracle.com/cve/CVE-2026-78408.html            
@@ -469,17 +473,19 @@
 │                        │      │                  ───────
 │                        │      │                  CWE-775
 │                        │      │                  
-│                        │      ├ VendorSeverity   ╭ alma       : 3 
-│                        │      │                  ├ azure      : 3 
-│                        │      │                  ├ oracle-oval: 3 
-│                        │      │                  ├ redhat     : 3 
-│                        │      │                  ├ rocky      : 3 
-│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ VendorSeverity   ╭ alma        : 3 
+│                        │      │                  ├ azure       : 3 
+│                        │      │                  ├ bottlerocket: 3 
+│                        │      │                  ├ oracle-oval : 3 
+│                        │      │                  ├ redhat      : 3 
+│                        │      │                  ├ rocky       : 3 
+│                        │      │                  ╰ ubuntu      : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:N/I:
 │                        │      │                           │           H/A:H 
 │                        │      │                           ╰ V3Score : 7.9 
 │                        │      ├ References                                                                   
 │                        │      │                  ────────────────────────────────────────────────────────────
+│                        │      │                  http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78408
 │                        │      │                  http://www.openwall.com/lists/oss-security/2026/09/05/2     
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:63162            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:93461            
@@ -526,6 +532,8 @@
 │                        │      │                                                                              
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:93461               
 │                        │      │                                                                              
+│                        │      │                  https://github.com/bottlerocket-os/bottlerocket-core-kit/blo
+│                        │      │                  b/develop/advisories/18.0.0/BRSA-mrtb6gutu299.toml          
 │                        │      │                  https://github.com/util-linux/util-linux/security/advisories
 │                        │      │                  /GHSA-55fx-f4gg-cfhj                                        
 │                        │      │                  https://linux.oracle.com/cve/CVE-2026-78408.html            
@@ -929,7 +937,7 @@
 │                        │      │                                                                              
 │                        │      │                  https://gitlab.com/gnutls/gnutls/-/work_items/1965          
 │                        │      │                                                                              
-│                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-88647             
+│                        │      │                  https://access.redhat.com/security/cve/CVE-2026-78663       
 │                        │      │                                                                              
 │                        │      │                  https://www.cve.org/CVERecord?id=CVE-2026-88647             
 │                        │      │                                                                              
@@ -1202,17 +1210,19 @@
 │                        │      │                  ───────
 │                        │      │                  CWE-775
 │                        │      │                  
-│                        │      ├ VendorSeverity   ╭ alma       : 3 
-│                        │      │                  ├ azure      : 3 
-│                        │      │                  ├ oracle-oval: 3 
-│                        │      │                  ├ redhat     : 3 
-│                        │      │                  ├ rocky      : 3 
-│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ VendorSeverity   ╭ alma        : 3 
+│                        │      │                  ├ azure       : 3 
+│                        │      │                  ├ bottlerocket: 3 
+│                        │      │                  ├ oracle-oval : 3 
+│                        │      │                  ├ redhat      : 3 
+│                        │      │                  ├ rocky       : 3 
+│                        │      │                  ╰ ubuntu      : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:N/I:
 │                        │      │                           │           H/A:H 
 │                        │      │                           ╰ V3Score : 7.9 
 │                        │      ├ References                                                                   
 │                        │      │                  ────────────────────────────────────────────────────────────
+│                        │      │                  http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78408
 │                        │      │                  http://www.openwall.com/lists/oss-security/2026/09/05/2     
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:63162            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:93461            
@@ -1259,6 +1269,8 @@
 │                        │      │                                                                              
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:93461               
 │                        │      │                                                                              
+│                        │      │                  https://github.com/bottlerocket-os/bottlerocket-core-kit/blo
+│                        │      │                  b/develop/advisories/18.0.0/BRSA-mrtb6gutu299.toml          
 │                        │      │                  https://github.com/util-linux/util-linux/security/advisories
 │                        │      │                  /GHSA-55fx-f4gg-cfhj                                        
 │                        │      │                  https://linux.oracle.com/cve/CVE-2026-78408.html            
@@ -1272,7 +1284,83 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-09-02T16:17:23.687Z 
 │                        │      ╰ LastModifiedDate: 2026-11-05T03:17:32.977Z 
-│                        ├ [18] ╭ VulnerabilityID : CVE-2026-40228 
+│                        ├ [18] ╭ VulnerabilityID : CVE-2026-121876 
+│                        │      ├ PkgID           : libnss-systemd@259.9-0ubuntu0.1 
+│                        │      ├ PkgName         : libnss-systemd 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libnss-systemd@259.9-0ubuntu0.1?arch=
+│                        │      │                  │       amd64&distro=ubuntu-26.04 
+│                        │      │                  ╰ UID : edc924702fca5189 
+│                        │      ├ InstalledVersion: 259.9-0ubuntu0.1 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:547bfa781ac0cd413d84e92fed1e145e840262031ac
+│                        │      │                  │         9f6648f0991e6a62e1355 
+│                        │      │                  ╰ DiffID: sha256:8cba11289e64f072542f9acbd4e722a7b9626e1016a
+│                        │      │                            c4b61edb7249e1353543a 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-121876 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Fingerprint     : sha256:8ea4b40f98a233d40c75d9c722820c1cd861b90c4e2b297bab74
+│                        │      │                   6b9df075baef 
+│                        │      ├ Title           : sandboxed-containers: kernel: systemd-gpt-auto-generator:
+│                        │      │                   Guest Data Leakage in Confidential Computing (Sandboxed
+│                        │      │                   Containers) 
+│                        │      ├ Description     : A flaw was found in the interaction between
+│                        │      │                   systemd-gpt-auto-generator and 
+│                        │      │                   confidential computing guest VM images in OpenShift
+│                        │      │                   Sandboxed Containers 
+│                        │      │                   (confidential peer pods). systemd-gpt-auto-generator
+│                        │      │                   automatically discovers 
+│                        │      │                   and mounts GPT partitions by type GUID at boot with no user
+│                        │      │                    confirmation. In 
+│                        │      │                   the confidential computing threat model, where the
+│                        │      │                   host/hypervisor is the 
+│                        │      │                   adversary, a malicious host can inject partitions into the
+│                        │      │                   guest's virtual 
+│                        │      │                   disk. Most critically, injecting a swap partition causes
+│                        │      │                   the guest kernel to 
+│                        │      │                   page out TEE-encrypted memory to a host-controlled block
+│                        │      │                   device, breaking the 
+│                        │      │                   confidentiality guarantee of the hardware TEE (AMD SEV-SNP,
+│                        │      │                    Intel TDX).
+│                        │      │                   
+│                        │      │                   The PodVM images use a GPT-partitioned disk with dm-verity
+│                        │      │                   on the root 
+│                        │      │                   partition. However, the roothash= kernel parameter only
+│                        │      │                   disables root 
+│                        │      │                   auto-discovery — non-root partitions (swap, /home, /var,
+│                        │      │                   /srv, /var/tmp) are 
+│                        │      │                   still auto-discovered and mounted. The generator is shipped
+│                        │      │                    unmasked in the 
+│                        │      │                   RHEL systemd-udev subpackage, and no kernel command line
+│                        │      │                   parameter in the 
+│                        │      │                   measured UKI addon disables it. Additionally, the PodVM
+│                        │      │                   measurement script 
+│                        │      │                   captures PCRs 3, 9, 11, and 12, but not PCR 5 (GPT
+│                        │      │                   partition table), so 
+│                        │      │                   partition table modifications are not detected by remote
+│                        │      │                   attestation. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs                  
+│                        │      │                  ───────
+│                        │      │                  CWE-359
+│                        │      │                  
+│                        │      ├ VendorSeverity   ╭ redhat: 3 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:
+│                        │      │                           │           H/A:N 
+│                        │      │                           ╰ V3Score : 7.9 
+│                        │      ├ References                                                             
+│                        │      │                  ──────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/security/cve/CVE-2026-121876
+│                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2558210   
+│                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-121876      
+│                        │      │                  https://www.cve.org/CVERecord?id=CVE-2026-121876      
+│                        │      │                  
+│                        │      ├ PublishedDate   : 2026-11-12T17:17:29.04Z 
+│                        │      ╰ LastModifiedDate: 2026-11-12T17:17:29.17Z 
+│                        ├ [19] ╭ VulnerabilityID : CVE-2026-40228 
 │                        │      ├ PkgID           : libnss-systemd@259.9-0ubuntu0.1 
 │                        │      ├ PkgName         : libnss-systemd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libnss-systemd@259.9-0ubuntu0.1?arch=
@@ -1321,7 +1409,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-04-10T16:16:33.753Z 
 │                        │      ╰ LastModifiedDate: 2026-06-17T10:44:53.31Z 
-│                        ├ [19] ╭ VulnerabilityID : CVE-2026-13757 
+│                        ├ [20] ╭ VulnerabilityID : CVE-2026-13757 
 │                        │      ├ PkgID           : libp11-kit0@0.26.2-2 
 │                        │      ├ PkgName         : libp11-kit0 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libp11-kit0@0.26.2-2?arch=amd64&distr
@@ -1409,7 +1497,83 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-06-29T19:16:40.907Z 
 │                        │      ╰ LastModifiedDate: 2026-11-06T08:17:21.613Z 
-│                        ├ [20] ╭ VulnerabilityID : CVE-2026-40228 
+│                        ├ [21] ╭ VulnerabilityID : CVE-2026-121876 
+│                        │      ├ PkgID           : libpam-systemd@259.9-0ubuntu0.1 
+│                        │      ├ PkgName         : libpam-systemd 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-systemd@259.9-0ubuntu0.1?arch=
+│                        │      │                  │       amd64&distro=ubuntu-26.04 
+│                        │      │                  ╰ UID : a46271c7cf163986 
+│                        │      ├ InstalledVersion: 259.9-0ubuntu0.1 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:547bfa781ac0cd413d84e92fed1e145e840262031ac
+│                        │      │                  │         9f6648f0991e6a62e1355 
+│                        │      │                  ╰ DiffID: sha256:8cba11289e64f072542f9acbd4e722a7b9626e1016a
+│                        │      │                            c4b61edb7249e1353543a 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-121876 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Fingerprint     : sha256:843538053bf03637f4990ebe2c20579103b0de783d31145ed7c5
+│                        │      │                   fcafbd7a7432 
+│                        │      ├ Title           : sandboxed-containers: kernel: systemd-gpt-auto-generator:
+│                        │      │                   Guest Data Leakage in Confidential Computing (Sandboxed
+│                        │      │                   Containers) 
+│                        │      ├ Description     : A flaw was found in the interaction between
+│                        │      │                   systemd-gpt-auto-generator and 
+│                        │      │                   confidential computing guest VM images in OpenShift
+│                        │      │                   Sandboxed Containers 
+│                        │      │                   (confidential peer pods). systemd-gpt-auto-generator
+│                        │      │                   automatically discovers 
+│                        │      │                   and mounts GPT partitions by type GUID at boot with no user
+│                        │      │                    confirmation. In 
+│                        │      │                   the confidential computing threat model, where the
+│                        │      │                   host/hypervisor is the 
+│                        │      │                   adversary, a malicious host can inject partitions into the
+│                        │      │                   guest's virtual 
+│                        │      │                   disk. Most critically, injecting a swap partition causes
+│                        │      │                   the guest kernel to 
+│                        │      │                   page out TEE-encrypted memory to a host-controlled block
+│                        │      │                   device, breaking the 
+│                        │      │                   confidentiality guarantee of the hardware TEE (AMD SEV-SNP,
+│                        │      │                    Intel TDX).
+│                        │      │                   
+│                        │      │                   The PodVM images use a GPT-partitioned disk with dm-verity
+│                        │      │                   on the root 
+│                        │      │                   partition. However, the roothash= kernel parameter only
+│                        │      │                   disables root 
+│                        │      │                   auto-discovery — non-root partitions (swap, /home, /var,
+│                        │      │                   /srv, /var/tmp) are 
+│                        │      │                   still auto-discovered and mounted. The generator is shipped
+│                        │      │                    unmasked in the 
+│                        │      │                   RHEL systemd-udev subpackage, and no kernel command line
+│                        │      │                   parameter in the 
+│                        │      │                   measured UKI addon disables it. Additionally, the PodVM
+│                        │      │                   measurement script 
+│                        │      │                   captures PCRs 3, 9, 11, and 12, but not PCR 5 (GPT
+│                        │      │                   partition table), so 
+│                        │      │                   partition table modifications are not detected by remote
+│                        │      │                   attestation. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs                  
+│                        │      │                  ───────
+│                        │      │                  CWE-359
+│                        │      │                  
+│                        │      ├ VendorSeverity   ╭ redhat: 3 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:
+│                        │      │                           │           H/A:N 
+│                        │      │                           ╰ V3Score : 7.9 
+│                        │      ├ References                                                             
+│                        │      │                  ──────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/security/cve/CVE-2026-121876
+│                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2558210   
+│                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-121876      
+│                        │      │                  https://www.cve.org/CVERecord?id=CVE-2026-121876      
+│                        │      │                  
+│                        │      ├ PublishedDate   : 2026-11-12T17:17:29.04Z 
+│                        │      ╰ LastModifiedDate: 2026-11-12T17:17:29.17Z 
+│                        ├ [22] ╭ VulnerabilityID : CVE-2026-40228 
 │                        │      ├ PkgID           : libpam-systemd@259.9-0ubuntu0.1 
 │                        │      ├ PkgName         : libpam-systemd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-systemd@259.9-0ubuntu0.1?arch=
@@ -1458,7 +1622,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-04-10T16:16:33.753Z 
 │                        │      ╰ LastModifiedDate: 2026-06-17T10:44:53.31Z 
-│                        ├ [21] ╭ VulnerabilityID : CVE-2026-9538 
+│                        ├ [23] ╭ VulnerabilityID : CVE-2026-9538 
 │                        │      ├ PkgID           : libperl5.40@5.40.1-7ubuntu0.4 
 │                        │      ├ PkgName         : libperl5.40 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libperl5.40@5.40.1-7ubuntu0.4?arch=am
@@ -1538,7 +1702,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-05-26T02:16:41.15Z 
 │                        │      ╰ LastModifiedDate: 2026-07-23T11:10:00.12Z 
-│                        ├ [22] ╭ VulnerabilityID : CVE-2026-0864 
+│                        ├ [24] ╭ VulnerabilityID : CVE-2026-0864 
 │                        │      ├ PkgID           : libpython3.14@3.14.4-1ubuntu0.2 
 │                        │      ├ PkgName         : libpython3.14 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.14@3.14.4-1ubuntu0.2?arch=
@@ -1600,8 +1764,8 @@
 │                        │      │                  36a6e9b30472b8994851f                                       
 │                        │      │                  https://github.com/python/cpython/commit/71f2e02a52d47417a6f
 │                        │      │                  d69f456346cd8aa7aca98                                       
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86196            
-│                        │      │                                                                              
+│                        │      │                  https://github.com/python/cpython/commit/aaf850fd333cd89e9aa
+│                        │      │                  da03d92aaa788a6cb1bb8                                       
 │                        │      │                  https://github.com/python/cpython/commit/db4a157c790479710a1
 │                        │      │                  a840d7937c5c815a6f8b6                                       
 │                        │      │                  https://github.com/python/cpython/issues/143927             
@@ -1617,7 +1781,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-06-23T18:17:41.243Z 
 │                        │      ╰ LastModifiedDate: 2026-10-25T23:10:00.167Z 
-│                        ├ [23] ╭ VulnerabilityID : CVE-2026-7210 
+│                        ├ [25] ╭ VulnerabilityID : CVE-2026-7210 
 │                        │      ├ PkgID           : libpython3.14@3.14.4-1ubuntu0.2 
 │                        │      ├ PkgName         : libpython3.14 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.14@3.14.4-1ubuntu0.2?arch=
@@ -1696,7 +1860,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-05-11T18:16:42.413Z 
 │                        │      ╰ LastModifiedDate: 2026-10-26T18:10:00.173Z 
-│                        ├ [24] ╭ VulnerabilityID : CVE-2026-0864 
+│                        ├ [26] ╭ VulnerabilityID : CVE-2026-0864 
 │                        │      ├ PkgID           : libpython3.14-minimal@3.14.4-1ubuntu0.2 
 │                        │      ├ PkgName         : libpython3.14-minimal 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.14-minimal@3.14.4-1ubuntu0
@@ -1775,7 +1939,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-06-23T18:17:41.243Z 
 │                        │      ╰ LastModifiedDate: 2026-10-25T23:10:00.167Z 
-│                        ├ [25] ╭ VulnerabilityID : CVE-2026-7210 
+│                        ├ [27] ╭ VulnerabilityID : CVE-2026-7210 
 │                        │      ├ PkgID           : libpython3.14-minimal@3.14.4-1ubuntu0.2 
 │                        │      ├ PkgName         : libpython3.14-minimal 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.14-minimal@3.14.4-1ubuntu0
@@ -1854,7 +2018,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-05-11T18:16:42.413Z 
 │                        │      ╰ LastModifiedDate: 2026-10-26T18:10:00.173Z 
-│                        ├ [26] ╭ VulnerabilityID : CVE-2026-0864 
+│                        ├ [28] ╭ VulnerabilityID : CVE-2026-0864 
 │                        │      ├ PkgID           : libpython3.14-stdlib@3.14.4-1ubuntu0.2 
 │                        │      ├ PkgName         : libpython3.14-stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.14-stdlib@3.14.4-1ubuntu0.
@@ -1933,7 +2097,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-06-23T18:17:41.243Z 
 │                        │      ╰ LastModifiedDate: 2026-10-25T23:10:00.167Z 
-│                        ├ [27] ╭ VulnerabilityID : CVE-2026-7210 
+│                        ├ [29] ╭ VulnerabilityID : CVE-2026-7210 
 │                        │      ├ PkgID           : libpython3.14-stdlib@3.14.4-1ubuntu0.2 
 │                        │      ├ PkgName         : libpython3.14-stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.14-stdlib@3.14.4-1ubuntu0.
@@ -2012,7 +2176,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-05-11T18:16:42.413Z 
 │                        │      ╰ LastModifiedDate: 2026-10-26T18:10:00.173Z 
-│                        ├ [28] ╭ VulnerabilityID : CVE-2026-107161 
+│                        ├ [30] ╭ VulnerabilityID : CVE-2026-107161 
 │                        │      ├ PkgID           : libsasl2-2@2.1.28+dfsg1-9ubuntu3 
 │                        │      ├ PkgName         : libsasl2-2 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsasl2-2@2.1.28%2Bdfsg1-9ubuntu3?ar
@@ -2073,7 +2237,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-07T20:17:10.977Z 
 │                        │      ╰ LastModifiedDate: 2026-11-06T08:17:17.55Z 
-│                        ├ [29] ╭ VulnerabilityID : CVE-2026-107161 
+│                        ├ [31] ╭ VulnerabilityID : CVE-2026-107161 
 │                        │      ├ PkgID           : libsasl2-modules@2.1.28+dfsg1-9ubuntu3 
 │                        │      ├ PkgName         : libsasl2-modules 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsasl2-modules@2.1.28%2Bdfsg1-9ubun
@@ -2134,7 +2298,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-07T20:17:10.977Z 
 │                        │      ╰ LastModifiedDate: 2026-11-06T08:17:17.55Z 
-│                        ├ [30] ╭ VulnerabilityID : CVE-2026-107161 
+│                        ├ [32] ╭ VulnerabilityID : CVE-2026-107161 
 │                        │      ├ PkgID           : libsasl2-modules-db@2.1.28+dfsg1-9ubuntu3 
 │                        │      ├ PkgName         : libsasl2-modules-db 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsasl2-modules-db@2.1.28%2Bdfsg1-9u
@@ -2195,7 +2359,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-07T20:17:10.977Z 
 │                        │      ╰ LastModifiedDate: 2026-11-06T08:17:17.55Z 
-│                        ├ [31] ╭ VulnerabilityID : CVE-2026-78408 
+│                        ├ [33] ╭ VulnerabilityID : CVE-2026-78408 
 │                        │      ├ PkgID           : libsmartcols1@2.41.3-3ubuntu2.2 
 │                        │      ├ PkgName         : libsmartcols1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsmartcols1@2.41.3-3ubuntu2.2?arch=
@@ -2227,21 +2391,23 @@
 │                        │      │                    target, an unprivileged user can migrate and terminate
 │                        │      │                   unrelated root processes. 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ CweIDs                              
-│                        │      │                  ───────────────────
-│                        │      │                  GHSA-qc2q-p7wx-3px3
+│                        │      ├ CweIDs                  
+│                        │      │                  ───────
+│                        │      │                  CWE-775
 │                        │      │                  
-│                        │      ├ VendorSeverity   ╭ alma       : 3 
-│                        │      │                  ├ azure      : 3 
-│                        │      │                  ├ oracle-oval: 3 
-│                        │      │                  ├ redhat     : 3 
-│                        │      │                  ├ rocky      : 3 
-│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ VendorSeverity   ╭ alma        : 3 
+│                        │      │                  ├ azure       : 3 
+│                        │      │                  ├ bottlerocket: 3 
+│                        │      │                  ├ oracle-oval : 3 
+│                        │      │                  ├ redhat      : 3 
+│                        │      │                  ├ rocky       : 3 
+│                        │      │                  ╰ ubuntu      : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:N/I:
 │                        │      │                           │           H/A:H 
 │                        │      │                           ╰ V3Score : 7.9 
 │                        │      ├ References                                                                   
 │                        │      │                  ────────────────────────────────────────────────────────────
+│                        │      │                  http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78408
 │                        │      │                  http://www.openwall.com/lists/oss-security/2026/09/05/2     
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:63162            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:93461            
@@ -2288,6 +2454,8 @@
 │                        │      │                                                                              
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:93461               
 │                        │      │                                                                              
+│                        │      │                  https://github.com/bottlerocket-os/bottlerocket-core-kit/blo
+│                        │      │                  b/develop/advisories/18.0.0/BRSA-mrtb6gutu299.toml          
 │                        │      │                  https://github.com/util-linux/util-linux/security/advisories
 │                        │      │                  /GHSA-55fx-f4gg-cfhj                                        
 │                        │      │                  https://linux.oracle.com/cve/CVE-2026-78408.html            
@@ -2301,7 +2469,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-09-02T16:17:23.687Z 
 │                        │      ╰ LastModifiedDate: 2026-11-05T03:17:32.977Z 
-│                        ├ [32] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [34] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : libsubid5@1:4.17.4-2ubuntu3 
 │                        │      ├ PkgName         : libsubid5 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsubid5@4.17.4-2ubuntu3?arch=amd64&
@@ -2381,7 +2549,83 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2026-10-15T01:19:16.297Z 
-│                        ├ [33] ╭ VulnerabilityID : CVE-2026-40228 
+│                        ├ [35] ╭ VulnerabilityID : CVE-2026-121876 
+│                        │      ├ PkgID           : libsystemd-shared@259.9-0ubuntu0.1 
+│                        │      ├ PkgName         : libsystemd-shared 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsystemd-shared@259.9-0ubuntu0.1?ar
+│                        │      │                  │       ch=amd64&distro=ubuntu-26.04 
+│                        │      │                  ╰ UID : 7822574c04620323 
+│                        │      ├ InstalledVersion: 259.9-0ubuntu0.1 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:547bfa781ac0cd413d84e92fed1e145e840262031ac
+│                        │      │                  │         9f6648f0991e6a62e1355 
+│                        │      │                  ╰ DiffID: sha256:8cba11289e64f072542f9acbd4e722a7b9626e1016a
+│                        │      │                            c4b61edb7249e1353543a 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-121876 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Fingerprint     : sha256:036ef582276e0613e89635f4cb465a77d58d7e013348c963ec7a
+│                        │      │                   ddb45fda5e12 
+│                        │      ├ Title           : sandboxed-containers: kernel: systemd-gpt-auto-generator:
+│                        │      │                   Guest Data Leakage in Confidential Computing (Sandboxed
+│                        │      │                   Containers) 
+│                        │      ├ Description     : A flaw was found in the interaction between
+│                        │      │                   systemd-gpt-auto-generator and 
+│                        │      │                   confidential computing guest VM images in OpenShift
+│                        │      │                   Sandboxed Containers 
+│                        │      │                   (confidential peer pods). systemd-gpt-auto-generator
+│                        │      │                   automatically discovers 
+│                        │      │                   and mounts GPT partitions by type GUID at boot with no user
+│                        │      │                    confirmation. In 
+│                        │      │                   the confidential computing threat model, where the
+│                        │      │                   host/hypervisor is the 
+│                        │      │                   adversary, a malicious host can inject partitions into the
+│                        │      │                   guest's virtual 
+│                        │      │                   disk. Most critically, injecting a swap partition causes
+│                        │      │                   the guest kernel to 
+│                        │      │                   page out TEE-encrypted memory to a host-controlled block
+│                        │      │                   device, breaking the 
+│                        │      │                   confidentiality guarantee of the hardware TEE (AMD SEV-SNP,
+│                        │      │                    Intel TDX).
+│                        │      │                   
+│                        │      │                   The PodVM images use a GPT-partitioned disk with dm-verity
+│                        │      │                   on the root 
+│                        │      │                   partition. However, the roothash= kernel parameter only
+│                        │      │                   disables root 
+│                        │      │                   auto-discovery — non-root partitions (swap, /home, /var,
+│                        │      │                   /srv, /var/tmp) are 
+│                        │      │                   still auto-discovered and mounted. The generator is shipped
+│                        │      │                    unmasked in the 
+│                        │      │                   RHEL systemd-udev subpackage, and no kernel command line
+│                        │      │                   parameter in the 
+│                        │      │                   measured UKI addon disables it. Additionally, the PodVM
+│                        │      │                   measurement script 
+│                        │      │                   captures PCRs 3, 9, 11, and 12, but not PCR 5 (GPT
+│                        │      │                   partition table), so 
+│                        │      │                   partition table modifications are not detected by remote
+│                        │      │                   attestation. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs                  
+│                        │      │                  ───────
+│                        │      │                  CWE-359
+│                        │      │                  
+│                        │      ├ VendorSeverity   ╭ redhat: 3 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:
+│                        │      │                           │           H/A:N 
+│                        │      │                           ╰ V3Score : 7.9 
+│                        │      ├ References                                                             
+│                        │      │                  ──────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/security/cve/CVE-2026-121876
+│                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2558210   
+│                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-121876      
+│                        │      │                  https://www.cve.org/CVERecord?id=CVE-2026-121876      
+│                        │      │                  
+│                        │      ├ PublishedDate   : 2026-11-12T17:17:29.04Z 
+│                        │      ╰ LastModifiedDate: 2026-11-12T17:17:29.17Z 
+│                        ├ [36] ╭ VulnerabilityID : CVE-2026-40228 
 │                        │      ├ PkgID           : libsystemd-shared@259.9-0ubuntu0.1 
 │                        │      ├ PkgName         : libsystemd-shared 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsystemd-shared@259.9-0ubuntu0.1?ar
@@ -2430,7 +2674,83 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-04-10T16:16:33.753Z 
 │                        │      ╰ LastModifiedDate: 2026-06-17T10:44:53.31Z 
-│                        ├ [34] ╭ VulnerabilityID : CVE-2026-40228 
+│                        ├ [37] ╭ VulnerabilityID : CVE-2026-121876 
+│                        │      ├ PkgID           : libsystemd0@259.9-0ubuntu0.1 
+│                        │      ├ PkgName         : libsystemd0 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsystemd0@259.9-0ubuntu0.1?arch=amd
+│                        │      │                  │       64&distro=ubuntu-26.04 
+│                        │      │                  ╰ UID : a120f2fb397aa000 
+│                        │      ├ InstalledVersion: 259.9-0ubuntu0.1 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:547bfa781ac0cd413d84e92fed1e145e840262031ac
+│                        │      │                  │         9f6648f0991e6a62e1355 
+│                        │      │                  ╰ DiffID: sha256:8cba11289e64f072542f9acbd4e722a7b9626e1016a
+│                        │      │                            c4b61edb7249e1353543a 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-121876 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Fingerprint     : sha256:22aa66aff0f056a9e8a6e6f410702cd2bd006de8038b76ceaafa
+│                        │      │                   cc6e7d613040 
+│                        │      ├ Title           : sandboxed-containers: kernel: systemd-gpt-auto-generator:
+│                        │      │                   Guest Data Leakage in Confidential Computing (Sandboxed
+│                        │      │                   Containers) 
+│                        │      ├ Description     : A flaw was found in the interaction between
+│                        │      │                   systemd-gpt-auto-generator and 
+│                        │      │                   confidential computing guest VM images in OpenShift
+│                        │      │                   Sandboxed Containers 
+│                        │      │                   (confidential peer pods). systemd-gpt-auto-generator
+│                        │      │                   automatically discovers 
+│                        │      │                   and mounts GPT partitions by type GUID at boot with no user
+│                        │      │                    confirmation. In 
+│                        │      │                   the confidential computing threat model, where the
+│                        │      │                   host/hypervisor is the 
+│                        │      │                   adversary, a malicious host can inject partitions into the
+│                        │      │                   guest's virtual 
+│                        │      │                   disk. Most critically, injecting a swap partition causes
+│                        │      │                   the guest kernel to 
+│                        │      │                   page out TEE-encrypted memory to a host-controlled block
+│                        │      │                   device, breaking the 
+│                        │      │                   confidentiality guarantee of the hardware TEE (AMD SEV-SNP,
+│                        │      │                    Intel TDX).
+│                        │      │                   
+│                        │      │                   The PodVM images use a GPT-partitioned disk with dm-verity
+│                        │      │                   on the root 
+│                        │      │                   partition. However, the roothash= kernel parameter only
+│                        │      │                   disables root 
+│                        │      │                   auto-discovery — non-root partitions (swap, /home, /var,
+│                        │      │                   /srv, /var/tmp) are 
+│                        │      │                   still auto-discovered and mounted. The generator is shipped
+│                        │      │                    unmasked in the 
+│                        │      │                   RHEL systemd-udev subpackage, and no kernel command line
+│                        │      │                   parameter in the 
+│                        │      │                   measured UKI addon disables it. Additionally, the PodVM
+│                        │      │                   measurement script 
+│                        │      │                   captures PCRs 3, 9, 11, and 12, but not PCR 5 (GPT
+│                        │      │                   partition table), so 
+│                        │      │                   partition table modifications are not detected by remote
+│                        │      │                   attestation. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs                  
+│                        │      │                  ───────
+│                        │      │                  CWE-359
+│                        │      │                  
+│                        │      ├ VendorSeverity   ╭ redhat: 3 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:
+│                        │      │                           │           H/A:N 
+│                        │      │                           ╰ V3Score : 7.9 
+│                        │      ├ References                                                             
+│                        │      │                  ──────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/security/cve/CVE-2026-121876
+│                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2558210   
+│                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-121876      
+│                        │      │                  https://www.cve.org/CVERecord?id=CVE-2026-121876      
+│                        │      │                  
+│                        │      ├ PublishedDate   : 2026-11-12T17:17:29.04Z 
+│                        │      ╰ LastModifiedDate: 2026-11-12T17:17:29.17Z 
+│                        ├ [38] ╭ VulnerabilityID : CVE-2026-40228 
 │                        │      ├ PkgID           : libsystemd0@259.9-0ubuntu0.1 
 │                        │      ├ PkgName         : libsystemd0 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsystemd0@259.9-0ubuntu0.1?arch=amd
@@ -2479,7 +2799,83 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-04-10T16:16:33.753Z 
 │                        │      ╰ LastModifiedDate: 2026-06-17T10:44:53.31Z 
-│                        ├ [35] ╭ VulnerabilityID : CVE-2026-40228 
+│                        ├ [39] ╭ VulnerabilityID : CVE-2026-121876 
+│                        │      ├ PkgID           : libudev1@259.9-0ubuntu0.1 
+│                        │      ├ PkgName         : libudev1 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libudev1@259.9-0ubuntu0.1?arch=amd64&
+│                        │      │                  │       distro=ubuntu-26.04 
+│                        │      │                  ╰ UID : 95536ef577d4ddac 
+│                        │      ├ InstalledVersion: 259.9-0ubuntu0.1 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:547bfa781ac0cd413d84e92fed1e145e840262031ac
+│                        │      │                  │         9f6648f0991e6a62e1355 
+│                        │      │                  ╰ DiffID: sha256:8cba11289e64f072542f9acbd4e722a7b9626e1016a
+│                        │      │                            c4b61edb7249e1353543a 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-121876 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Fingerprint     : sha256:7526593cd0c45484001e9c580044598a3f10dfeb75f9a2474e7c
+│                        │      │                   64e9f6f6d9ec 
+│                        │      ├ Title           : sandboxed-containers: kernel: systemd-gpt-auto-generator:
+│                        │      │                   Guest Data Leakage in Confidential Computing (Sandboxed
+│                        │      │                   Containers) 
+│                        │      ├ Description     : A flaw was found in the interaction between
+│                        │      │                   systemd-gpt-auto-generator and 
+│                        │      │                   confidential computing guest VM images in OpenShift
+│                        │      │                   Sandboxed Containers 
+│                        │      │                   (confidential peer pods). systemd-gpt-auto-generator
+│                        │      │                   automatically discovers 
+│                        │      │                   and mounts GPT partitions by type GUID at boot with no user
+│                        │      │                    confirmation. In 
+│                        │      │                   the confidential computing threat model, where the
+│                        │      │                   host/hypervisor is the 
+│                        │      │                   adversary, a malicious host can inject partitions into the
+│                        │      │                   guest's virtual 
+│                        │      │                   disk. Most critically, injecting a swap partition causes
+│                        │      │                   the guest kernel to 
+│                        │      │                   page out TEE-encrypted memory to a host-controlled block
+│                        │      │                   device, breaking the 
+│                        │      │                   confidentiality guarantee of the hardware TEE (AMD SEV-SNP,
+│                        │      │                    Intel TDX).
+│                        │      │                   
+│                        │      │                   The PodVM images use a GPT-partitioned disk with dm-verity
+│                        │      │                   on the root 
+│                        │      │                   partition. However, the roothash= kernel parameter only
+│                        │      │                   disables root 
+│                        │      │                   auto-discovery — non-root partitions (swap, /home, /var,
+│                        │      │                   /srv, /var/tmp) are 
+│                        │      │                   still auto-discovered and mounted. The generator is shipped
+│                        │      │                    unmasked in the 
+│                        │      │                   RHEL systemd-udev subpackage, and no kernel command line
+│                        │      │                   parameter in the 
+│                        │      │                   measured UKI addon disables it. Additionally, the PodVM
+│                        │      │                   measurement script 
+│                        │      │                   captures PCRs 3, 9, 11, and 12, but not PCR 5 (GPT
+│                        │      │                   partition table), so 
+│                        │      │                   partition table modifications are not detected by remote
+│                        │      │                   attestation. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs                  
+│                        │      │                  ───────
+│                        │      │                  CWE-359
+│                        │      │                  
+│                        │      ├ VendorSeverity   ╭ redhat: 3 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:
+│                        │      │                           │           H/A:N 
+│                        │      │                           ╰ V3Score : 7.9 
+│                        │      ├ References                                                             
+│                        │      │                  ──────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/security/cve/CVE-2026-121876
+│                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2558210   
+│                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-121876      
+│                        │      │                  https://www.cve.org/CVERecord?id=CVE-2026-121876      
+│                        │      │                  
+│                        │      ├ PublishedDate   : 2026-11-12T17:17:29.04Z 
+│                        │      ╰ LastModifiedDate: 2026-11-12T17:17:29.17Z 
+│                        ├ [40] ╭ VulnerabilityID : CVE-2026-40228 
 │                        │      ├ PkgID           : libudev1@259.9-0ubuntu0.1 
 │                        │      ├ PkgName         : libudev1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libudev1@259.9-0ubuntu0.1?arch=amd64&
@@ -2528,7 +2924,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-04-10T16:16:33.753Z 
 │                        │      ╰ LastModifiedDate: 2026-06-17T10:44:53.31Z 
-│                        ├ [36] ╭ VulnerabilityID : CVE-2026-78408 
+│                        ├ [41] ╭ VulnerabilityID : CVE-2026-78408 
 │                        │      ├ PkgID           : libuuid1@2.41.3-3ubuntu2.2 
 │                        │      ├ PkgName         : libuuid1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libuuid1@2.41.3-3ubuntu2.2?arch=amd64
@@ -2564,17 +2960,19 @@
 │                        │      │                  ───────
 │                        │      │                  CWE-775
 │                        │      │                  
-│                        │      ├ VendorSeverity   ╭ alma       : 3 
-│                        │      │                  ├ azure      : 3 
-│                        │      │                  ├ oracle-oval: 3 
-│                        │      │                  ├ redhat     : 3 
-│                        │      │                  ├ rocky      : 3 
-│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ VendorSeverity   ╭ alma        : 3 
+│                        │      │                  ├ azure       : 3 
+│                        │      │                  ├ bottlerocket: 3 
+│                        │      │                  ├ oracle-oval : 3 
+│                        │      │                  ├ redhat      : 3 
+│                        │      │                  ├ rocky       : 3 
+│                        │      │                  ╰ ubuntu      : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:N/I:
 │                        │      │                           │           H/A:H 
 │                        │      │                           ╰ V3Score : 7.9 
 │                        │      ├ References                                                                   
 │                        │      │                  ────────────────────────────────────────────────────────────
+│                        │      │                  http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78408
 │                        │      │                  http://www.openwall.com/lists/oss-security/2026/09/05/2     
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:63162            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:93461            
@@ -2621,6 +3019,8 @@
 │                        │      │                                                                              
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:93461               
 │                        │      │                                                                              
+│                        │      │                  https://github.com/bottlerocket-os/bottlerocket-core-kit/blo
+│                        │      │                  b/develop/advisories/18.0.0/BRSA-mrtb6gutu299.toml          
 │                        │      │                  https://github.com/util-linux/util-linux/security/advisories
 │                        │      │                  /GHSA-55fx-f4gg-cfhj                                        
 │                        │      │                  https://linux.oracle.com/cve/CVE-2026-78408.html            
@@ -2634,7 +3034,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-09-02T16:17:23.687Z 
 │                        │      ╰ LastModifiedDate: 2026-11-05T03:17:32.977Z 
-│                        ├ [37] ╭ VulnerabilityID : CVE-2026-78408 
+│                        ├ [42] ╭ VulnerabilityID : CVE-2026-78408 
 │                        │      ├ PkgID           : login@1:4.16.0-2+really2.41.3-3ubuntu2.2 
 │                        │      ├ PkgName         : login 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.16.0-2%2Breally2.41.3-3ubuntu
@@ -2670,17 +3070,19 @@
 │                        │      │                  ───────
 │                        │      │                  CWE-775
 │                        │      │                  
-│                        │      ├ VendorSeverity   ╭ alma       : 3 
-│                        │      │                  ├ azure      : 3 
-│                        │      │                  ├ oracle-oval: 3 
-│                        │      │                  ├ redhat     : 3 
-│                        │      │                  ├ rocky      : 3 
-│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ VendorSeverity   ╭ alma        : 3 
+│                        │      │                  ├ azure       : 3 
+│                        │      │                  ├ bottlerocket: 3 
+│                        │      │                  ├ oracle-oval : 3 
+│                        │      │                  ├ redhat      : 3 
+│                        │      │                  ├ rocky       : 3 
+│                        │      │                  ╰ ubuntu      : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:N/I:
 │                        │      │                           │           H/A:H 
 │                        │      │                           ╰ V3Score : 7.9 
 │                        │      ├ References                                                                   
 │                        │      │                  ────────────────────────────────────────────────────────────
+│                        │      │                  http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78408
 │                        │      │                  http://www.openwall.com/lists/oss-security/2026/09/05/2     
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:63162            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:93461            
@@ -2727,6 +3129,8 @@
 │                        │      │                                                                              
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:93461               
 │                        │      │                                                                              
+│                        │      │                  https://github.com/bottlerocket-os/bottlerocket-core-kit/blo
+│                        │      │                  b/develop/advisories/18.0.0/BRSA-mrtb6gutu299.toml          
 │                        │      │                  https://github.com/util-linux/util-linux/security/advisories
 │                        │      │                  /GHSA-55fx-f4gg-cfhj                                        
 │                        │      │                  https://linux.oracle.com/cve/CVE-2026-78408.html            
@@ -2740,7 +3144,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-09-02T16:17:23.687Z 
 │                        │      ╰ LastModifiedDate: 2026-11-05T03:17:32.977Z 
-│                        ├ [38] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [43] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : login.defs@1:4.17.4-2ubuntu3 
 │                        │      ├ PkgName         : login.defs 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login.defs@4.17.4-2ubuntu3?arch=all&d
@@ -2820,7 +3224,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2026-10-15T01:19:16.297Z 
-│                        ├ [39] ╭ VulnerabilityID : CVE-2026-78408 
+│                        ├ [44] ╭ VulnerabilityID : CVE-2026-78408 
 │                        │      ├ PkgID           : mount@2.41.3-3ubuntu2.2 
 │                        │      ├ PkgName         : mount 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/mount@2.41.3-3ubuntu2.2?arch=amd64&di
@@ -2856,17 +3260,19 @@
 │                        │      │                  ───────
 │                        │      │                  CWE-775
 │                        │      │                  
-│                        │      ├ VendorSeverity   ╭ alma       : 3 
-│                        │      │                  ├ azure      : 3 
-│                        │      │                  ├ oracle-oval: 3 
-│                        │      │                  ├ redhat     : 3 
-│                        │      │                  ├ rocky      : 3 
-│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ VendorSeverity   ╭ alma        : 3 
+│                        │      │                  ├ azure       : 3 
+│                        │      │                  ├ bottlerocket: 3 
+│                        │      │                  ├ oracle-oval : 3 
+│                        │      │                  ├ redhat      : 3 
+│                        │      │                  ├ rocky       : 3 
+│                        │      │                  ╰ ubuntu      : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:N/I:
 │                        │      │                           │           H/A:H 
 │                        │      │                           ╰ V3Score : 7.9 
 │                        │      ├ References                                                                   
 │                        │      │                  ────────────────────────────────────────────────────────────
+│                        │      │                  http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78408
 │                        │      │                  http://www.openwall.com/lists/oss-security/2026/09/05/2     
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:63162            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:93461            
@@ -2913,6 +3319,8 @@
 │                        │      │                                                                              
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:93461               
 │                        │      │                                                                              
+│                        │      │                  https://github.com/bottlerocket-os/bottlerocket-core-kit/blo
+│                        │      │                  b/develop/advisories/18.0.0/BRSA-mrtb6gutu299.toml          
 │                        │      │                  https://github.com/util-linux/util-linux/security/advisories
 │                        │      │                  /GHSA-55fx-f4gg-cfhj                                        
 │                        │      │                  https://linux.oracle.com/cve/CVE-2026-78408.html            
@@ -2926,7 +3334,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-09-02T16:17:23.687Z 
 │                        │      ╰ LastModifiedDate: 2026-11-05T03:17:32.977Z 
-│                        ├ [40] ╭ VulnerabilityID : CVE-2026-110928 
+│                        ├ [45] ╭ VulnerabilityID : CVE-2026-110928 
 │                        │      ├ PkgID           : openssh-client@1:10.2p1-2ubuntu3.8 
 │                        │      ├ PkgName         : openssh-client 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssh-client@10.2p1-2ubuntu3.8?arch
@@ -2963,7 +3371,7 @@
 │                        │                         https://nvd.nist.gov/vuln/detail/CVE-2026-110928      
 │                        │                         https://www.cve.org/CVERecord?id=CVE-2026-110928      
 │                        │                         
-│                        ├ [41] ╭ VulnerabilityID : CVE-2026-110928 
+│                        ├ [46] ╭ VulnerabilityID : CVE-2026-110928 
 │                        │      ├ PkgID           : openssh-server@1:10.2p1-2ubuntu3.8 
 │                        │      ├ PkgName         : openssh-server 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssh-server@10.2p1-2ubuntu3.8?arch
@@ -3000,7 +3408,7 @@
 │                        │                         https://nvd.nist.gov/vuln/detail/CVE-2026-110928      
 │                        │                         https://www.cve.org/CVERecord?id=CVE-2026-110928      
 │                        │                         
-│                        ├ [42] ╭ VulnerabilityID : CVE-2026-110928 
+│                        ├ [47] ╭ VulnerabilityID : CVE-2026-110928 
 │                        │      ├ PkgID           : openssh-sftp-server@1:10.2p1-2ubuntu3.8 
 │                        │      ├ PkgName         : openssh-sftp-server 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssh-sftp-server@10.2p1-2ubuntu3.8
@@ -3037,7 +3445,7 @@
 │                        │                         https://nvd.nist.gov/vuln/detail/CVE-2026-110928      
 │                        │                         https://www.cve.org/CVERecord?id=CVE-2026-110928      
 │                        │                         
-│                        ├ [43] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [48] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : passwd@1:4.17.4-2ubuntu3 
 │                        │      ├ PkgName         : passwd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.17.4-2ubuntu3?arch=amd64&dis
@@ -3117,7 +3525,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2026-10-15T01:19:16.297Z 
-│                        ├ [44] ╭ VulnerabilityID : CVE-2021-45261 
+│                        ├ [49] ╭ VulnerabilityID : CVE-2021-45261 
 │                        │      ├ PkgID           : patch@2.8-2build1 
 │                        │      ├ PkgName         : patch 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/patch@2.8-2build1?arch=amd64&distro=u
@@ -3165,7 +3573,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2021-12-22T18:15:08.1Z 
 │                        │      ╰ LastModifiedDate: 2026-06-17T04:13:14.107Z 
-│                        ├ [45] ╭ VulnerabilityID : CVE-2026-56288 
+│                        ├ [50] ╭ VulnerabilityID : CVE-2026-56288 
 │                        │      ├ PkgID           : patch@2.8-2build1 
 │                        │      ├ PkgName         : patch 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/patch@2.8-2build1?arch=amd64&distro=u
@@ -3237,7 +3645,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-07-09T11:16:40.713Z 
 │                        │      ╰ LastModifiedDate: 2026-10-25T17:10:00.197Z 
-│                        ├ [46] ╭ VulnerabilityID : CVE-2026-56289 
+│                        ├ [51] ╭ VulnerabilityID : CVE-2026-56289 
 │                        │      ├ PkgID           : patch@2.8-2build1 
 │                        │      ├ PkgName         : patch 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/patch@2.8-2build1?arch=amd64&distro=u
@@ -3312,7 +3720,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-07-09T11:16:40.84Z 
 │                        │      ╰ LastModifiedDate: 2026-10-25T17:10:00.197Z 
-│                        ├ [47] ╭ VulnerabilityID : CVE-2026-9538 
+│                        ├ [52] ╭ VulnerabilityID : CVE-2026-9538 
 │                        │      ├ PkgID           : perl@5.40.1-7ubuntu0.4 
 │                        │      ├ PkgName         : perl 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/perl@5.40.1-7ubuntu0.4?arch=amd64&dis
@@ -3392,7 +3800,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-05-26T02:16:41.15Z 
 │                        │      ╰ LastModifiedDate: 2026-07-23T11:10:00.12Z 
-│                        ├ [48] ╭ VulnerabilityID : CVE-2026-9538 
+│                        ├ [53] ╭ VulnerabilityID : CVE-2026-9538 
 │                        │      ├ PkgID           : perl-base@5.40.1-7ubuntu0.4 
 │                        │      ├ PkgName         : perl-base 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/perl-base@5.40.1-7ubuntu0.4?arch=amd6
@@ -3472,7 +3880,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-05-26T02:16:41.15Z 
 │                        │      ╰ LastModifiedDate: 2026-07-23T11:10:00.12Z 
-│                        ├ [49] ╭ VulnerabilityID : CVE-2026-9538 
+│                        ├ [54] ╭ VulnerabilityID : CVE-2026-9538 
 │                        │      ├ PkgID           : perl-modules-5.40@5.40.1-7ubuntu0.4 
 │                        │      ├ PkgName         : perl-modules-5.40 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/perl-modules-5.40@5.40.1-7ubuntu0.4?a
@@ -3552,7 +3960,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-05-26T02:16:41.15Z 
 │                        │      ╰ LastModifiedDate: 2026-07-23T11:10:00.12Z 
-│                        ├ [50] ╭ VulnerabilityID : CVE-2026-102269 
+│                        ├ [55] ╭ VulnerabilityID : CVE-2026-102269 
 │                        │      ├ PkgID           : python3-jwt@2.10.1-4ubuntu1.3 
 │                        │      ├ PkgName         : python3-jwt 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3-jwt@2.10.1-4ubuntu1.3?arch=al
@@ -3620,7 +4028,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-09-28T21:17:14.773Z 
 │                        │      ╰ LastModifiedDate: 2026-10-06T18:54:08.46Z 
-│                        ├ [51] ╭ VulnerabilityID : CVE-2026-0864 
+│                        ├ [56] ╭ VulnerabilityID : CVE-2026-0864 
 │                        │      ├ PkgID           : python3.14@3.14.4-1ubuntu0.2 
 │                        │      ├ PkgName         : python3.14 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.14@3.14.4-1ubuntu0.2?arch=amd
@@ -3690,8 +4098,8 @@
 │                        │      │                                                                              
 │                        │      │                  https://github.com/python/cpython/pull/151559               
 │                        │      │                                                                              
-│                        │      │                  https://mail.python.org/archives/list/security-announce@pyth
-│                        │      │                  on.org/thread/CV4NE6AFCRJL7XQOHX7J5TSDHUWVWGJS/             
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:42080            
+│                        │      │                                                                              
 │                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-0864              
 │                        │      │                                                                              
 │                        │      │                  https://www.cve.org/CVERecord?id=CVE-2026-0864              
@@ -3699,7 +4107,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-06-23T18:17:41.243Z 
 │                        │      ╰ LastModifiedDate: 2026-10-25T23:10:00.167Z 
-│                        ├ [52] ╭ VulnerabilityID : CVE-2026-7210 
+│                        ├ [57] ╭ VulnerabilityID : CVE-2026-7210 
 │                        │      ├ PkgID           : python3.14@3.14.4-1ubuntu0.2 
 │                        │      ├ PkgName         : python3.14 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.14@3.14.4-1ubuntu0.2?arch=amd
@@ -3778,7 +4186,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-05-11T18:16:42.413Z 
 │                        │      ╰ LastModifiedDate: 2026-10-26T18:10:00.173Z 
-│                        ├ [53] ╭ VulnerabilityID : CVE-2026-0864 
+│                        ├ [58] ╭ VulnerabilityID : CVE-2026-0864 
 │                        │      ├ PkgID           : python3.14-minimal@3.14.4-1ubuntu0.2 
 │                        │      ├ PkgName         : python3.14-minimal 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.14-minimal@3.14.4-1ubuntu0.2?
@@ -3857,7 +4265,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-06-23T18:17:41.243Z 
 │                        │      ╰ LastModifiedDate: 2026-10-25T23:10:00.167Z 
-│                        ├ [54] ╭ VulnerabilityID : CVE-2026-7210 
+│                        ├ [59] ╭ VulnerabilityID : CVE-2026-7210 
 │                        │      ├ PkgID           : python3.14-minimal@3.14.4-1ubuntu0.2 
 │                        │      ├ PkgName         : python3.14-minimal 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.14-minimal@3.14.4-1ubuntu0.2?
@@ -3936,7 +4344,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-05-11T18:16:42.413Z 
 │                        │      ╰ LastModifiedDate: 2026-10-26T18:10:00.173Z 
-│                        ├ [55] ╭ VulnerabilityID : CVE-2026-35370 
+│                        ├ [60] ╭ VulnerabilityID : CVE-2026-35370 
 │                        │      ├ PkgID           : rust-coreutils@0.10.0-1ubuntu2~26.04.1 
 │                        │      ├ PkgName         : rust-coreutils 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.10.0-1ubuntu2~26.04.
@@ -3989,7 +4397,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-04-22T17:16:40.833Z 
 │                        │      ╰ LastModifiedDate: 2026-10-26T21:10:00.17Z 
-│                        ├ [56] ╭ VulnerabilityID : CVE-2026-35371 
+│                        ├ [61] ╭ VulnerabilityID : CVE-2026-35371 
 │                        │      ├ PkgID           : rust-coreutils@0.10.0-1ubuntu2~26.04.1 
 │                        │      ├ PkgName         : rust-coreutils 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.10.0-1ubuntu2~26.04.
@@ -4042,7 +4450,83 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-04-22T17:16:40.987Z 
 │                        │      ╰ LastModifiedDate: 2026-10-25T23:10:00.167Z 
-│                        ├ [57] ╭ VulnerabilityID : CVE-2026-40228 
+│                        ├ [62] ╭ VulnerabilityID : CVE-2026-121876 
+│                        │      ├ PkgID           : systemd@259.9-0ubuntu0.1 
+│                        │      ├ PkgName         : systemd 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd@259.9-0ubuntu0.1?arch=amd64&d
+│                        │      │                  │       istro=ubuntu-26.04 
+│                        │      │                  ╰ UID : 857360aa70d6bc97 
+│                        │      ├ InstalledVersion: 259.9-0ubuntu0.1 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:547bfa781ac0cd413d84e92fed1e145e840262031ac
+│                        │      │                  │         9f6648f0991e6a62e1355 
+│                        │      │                  ╰ DiffID: sha256:8cba11289e64f072542f9acbd4e722a7b9626e1016a
+│                        │      │                            c4b61edb7249e1353543a 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-121876 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Fingerprint     : sha256:afb6f210188db72220a86fc6c817027598b11103819b85383d26
+│                        │      │                   a40ef4563101 
+│                        │      ├ Title           : sandboxed-containers: kernel: systemd-gpt-auto-generator:
+│                        │      │                   Guest Data Leakage in Confidential Computing (Sandboxed
+│                        │      │                   Containers) 
+│                        │      ├ Description     : A flaw was found in the interaction between
+│                        │      │                   systemd-gpt-auto-generator and 
+│                        │      │                   confidential computing guest VM images in OpenShift
+│                        │      │                   Sandboxed Containers 
+│                        │      │                   (confidential peer pods). systemd-gpt-auto-generator
+│                        │      │                   automatically discovers 
+│                        │      │                   and mounts GPT partitions by type GUID at boot with no user
+│                        │      │                    confirmation. In 
+│                        │      │                   the confidential computing threat model, where the
+│                        │      │                   host/hypervisor is the 
+│                        │      │                   adversary, a malicious host can inject partitions into the
+│                        │      │                   guest's virtual 
+│                        │      │                   disk. Most critically, injecting a swap partition causes
+│                        │      │                   the guest kernel to 
+│                        │      │                   page out TEE-encrypted memory to a host-controlled block
+│                        │      │                   device, breaking the 
+│                        │      │                   confidentiality guarantee of the hardware TEE (AMD SEV-SNP,
+│                        │      │                    Intel TDX).
+│                        │      │                   
+│                        │      │                   The PodVM images use a GPT-partitioned disk with dm-verity
+│                        │      │                   on the root 
+│                        │      │                   partition. However, the roothash= kernel parameter only
+│                        │      │                   disables root 
+│                        │      │                   auto-discovery — non-root partitions (swap, /home, /var,
+│                        │      │                   /srv, /var/tmp) are 
+│                        │      │                   still auto-discovered and mounted. The generator is shipped
+│                        │      │                    unmasked in the 
+│                        │      │                   RHEL systemd-udev subpackage, and no kernel command line
+│                        │      │                   parameter in the 
+│                        │      │                   measured UKI addon disables it. Additionally, the PodVM
+│                        │      │                   measurement script 
+│                        │      │                   captures PCRs 3, 9, 11, and 12, but not PCR 5 (GPT
+│                        │      │                   partition table), so 
+│                        │      │                   partition table modifications are not detected by remote
+│                        │      │                   attestation. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs                  
+│                        │      │                  ───────
+│                        │      │                  CWE-359
+│                        │      │                  
+│                        │      ├ VendorSeverity   ╭ redhat: 3 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:
+│                        │      │                           │           H/A:N 
+│                        │      │                           ╰ V3Score : 7.9 
+│                        │      ├ References                                                             
+│                        │      │                  ──────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/security/cve/CVE-2026-121876
+│                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2558210   
+│                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-121876      
+│                        │      │                  https://www.cve.org/CVERecord?id=CVE-2026-121876      
+│                        │      │                  
+│                        │      ├ PublishedDate   : 2026-11-12T17:17:29.04Z 
+│                        │      ╰ LastModifiedDate: 2026-11-12T17:17:29.17Z 
+│                        ├ [63] ╭ VulnerabilityID : CVE-2026-40228 
 │                        │      ├ PkgID           : systemd@259.9-0ubuntu0.1 
 │                        │      ├ PkgName         : systemd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd@259.9-0ubuntu0.1?arch=amd64&d
@@ -4091,7 +4575,83 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-04-10T16:16:33.753Z 
 │                        │      ╰ LastModifiedDate: 2026-06-17T10:44:53.31Z 
-│                        ├ [58] ╭ VulnerabilityID : CVE-2026-40228 
+│                        ├ [64] ╭ VulnerabilityID : CVE-2026-121876 
+│                        │      ├ PkgID           : systemd-cryptsetup@259.9-0ubuntu0.1 
+│                        │      ├ PkgName         : systemd-cryptsetup 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-cryptsetup@259.9-0ubuntu0.1?a
+│                        │      │                  │       rch=amd64&distro=ubuntu-26.04 
+│                        │      │                  ╰ UID : 7e21e65a9d48b235 
+│                        │      ├ InstalledVersion: 259.9-0ubuntu0.1 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:547bfa781ac0cd413d84e92fed1e145e840262031ac
+│                        │      │                  │         9f6648f0991e6a62e1355 
+│                        │      │                  ╰ DiffID: sha256:8cba11289e64f072542f9acbd4e722a7b9626e1016a
+│                        │      │                            c4b61edb7249e1353543a 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-121876 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Fingerprint     : sha256:716d361e1fd229bd08fd7e9463aab64c7ee126b9e34655f3b6e7
+│                        │      │                   f48cfc7f7652 
+│                        │      ├ Title           : sandboxed-containers: kernel: systemd-gpt-auto-generator:
+│                        │      │                   Guest Data Leakage in Confidential Computing (Sandboxed
+│                        │      │                   Containers) 
+│                        │      ├ Description     : A flaw was found in the interaction between
+│                        │      │                   systemd-gpt-auto-generator and 
+│                        │      │                   confidential computing guest VM images in OpenShift
+│                        │      │                   Sandboxed Containers 
+│                        │      │                   (confidential peer pods). systemd-gpt-auto-generator
+│                        │      │                   automatically discovers 
+│                        │      │                   and mounts GPT partitions by type GUID at boot with no user
+│                        │      │                    confirmation. In 
+│                        │      │                   the confidential computing threat model, where the
+│                        │      │                   host/hypervisor is the 
+│                        │      │                   adversary, a malicious host can inject partitions into the
+│                        │      │                   guest's virtual 
+│                        │      │                   disk. Most critically, injecting a swap partition causes
+│                        │      │                   the guest kernel to 
+│                        │      │                   page out TEE-encrypted memory to a host-controlled block
+│                        │      │                   device, breaking the 
+│                        │      │                   confidentiality guarantee of the hardware TEE (AMD SEV-SNP,
+│                        │      │                    Intel TDX).
+│                        │      │                   
+│                        │      │                   The PodVM images use a GPT-partitioned disk with dm-verity
+│                        │      │                   on the root 
+│                        │      │                   partition. However, the roothash= kernel parameter only
+│                        │      │                   disables root 
+│                        │      │                   auto-discovery — non-root partitions (swap, /home, /var,
+│                        │      │                   /srv, /var/tmp) are 
+│                        │      │                   still auto-discovered and mounted. The generator is shipped
+│                        │      │                    unmasked in the 
+│                        │      │                   RHEL systemd-udev subpackage, and no kernel command line
+│                        │      │                   parameter in the 
+│                        │      │                   measured UKI addon disables it. Additionally, the PodVM
+│                        │      │                   measurement script 
+│                        │      │                   captures PCRs 3, 9, 11, and 12, but not PCR 5 (GPT
+│                        │      │                   partition table), so 
+│                        │      │                   partition table modifications are not detected by remote
+│                        │      │                   attestation. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs                  
+│                        │      │                  ───────
+│                        │      │                  CWE-359
+│                        │      │                  
+│                        │      ├ VendorSeverity   ╭ redhat: 3 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:
+│                        │      │                           │           H/A:N 
+│                        │      │                           ╰ V3Score : 7.9 
+│                        │      ├ References                                                             
+│                        │      │                  ──────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/security/cve/CVE-2026-121876
+│                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2558210   
+│                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-121876      
+│                        │      │                  https://www.cve.org/CVERecord?id=CVE-2026-121876      
+│                        │      │                  
+│                        │      ├ PublishedDate   : 2026-11-12T17:17:29.04Z 
+│                        │      ╰ LastModifiedDate: 2026-11-12T17:17:29.17Z 
+│                        ├ [65] ╭ VulnerabilityID : CVE-2026-40228 
 │                        │      ├ PkgID           : systemd-cryptsetup@259.9-0ubuntu0.1 
 │                        │      ├ PkgName         : systemd-cryptsetup 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-cryptsetup@259.9-0ubuntu0.1?a
@@ -4140,7 +4700,83 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-04-10T16:16:33.753Z 
 │                        │      ╰ LastModifiedDate: 2026-06-17T10:44:53.31Z 
-│                        ├ [59] ╭ VulnerabilityID : CVE-2026-40228 
+│                        ├ [66] ╭ VulnerabilityID : CVE-2026-121876 
+│                        │      ├ PkgID           : systemd-resolved@259.9-0ubuntu0.1 
+│                        │      ├ PkgName         : systemd-resolved 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-resolved@259.9-0ubuntu0.1?arc
+│                        │      │                  │       h=amd64&distro=ubuntu-26.04 
+│                        │      │                  ╰ UID : 96053da97d92f42a 
+│                        │      ├ InstalledVersion: 259.9-0ubuntu0.1 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:547bfa781ac0cd413d84e92fed1e145e840262031ac
+│                        │      │                  │         9f6648f0991e6a62e1355 
+│                        │      │                  ╰ DiffID: sha256:8cba11289e64f072542f9acbd4e722a7b9626e1016a
+│                        │      │                            c4b61edb7249e1353543a 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-121876 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Fingerprint     : sha256:360e918e27610c668e377d4a3702d273a2ed283823b960b964c0
+│                        │      │                   c901c5e50fa8 
+│                        │      ├ Title           : sandboxed-containers: kernel: systemd-gpt-auto-generator:
+│                        │      │                   Guest Data Leakage in Confidential Computing (Sandboxed
+│                        │      │                   Containers) 
+│                        │      ├ Description     : A flaw was found in the interaction between
+│                        │      │                   systemd-gpt-auto-generator and 
+│                        │      │                   confidential computing guest VM images in OpenShift
+│                        │      │                   Sandboxed Containers 
+│                        │      │                   (confidential peer pods). systemd-gpt-auto-generator
+│                        │      │                   automatically discovers 
+│                        │      │                   and mounts GPT partitions by type GUID at boot with no user
+│                        │      │                    confirmation. In 
+│                        │      │                   the confidential computing threat model, where the
+│                        │      │                   host/hypervisor is the 
+│                        │      │                   adversary, a malicious host can inject partitions into the
+│                        │      │                   guest's virtual 
+│                        │      │                   disk. Most critically, injecting a swap partition causes
+│                        │      │                   the guest kernel to 
+│                        │      │                   page out TEE-encrypted memory to a host-controlled block
+│                        │      │                   device, breaking the 
+│                        │      │                   confidentiality guarantee of the hardware TEE (AMD SEV-SNP,
+│                        │      │                    Intel TDX).
+│                        │      │                   
+│                        │      │                   The PodVM images use a GPT-partitioned disk with dm-verity
+│                        │      │                   on the root 
+│                        │      │                   partition. However, the roothash= kernel parameter only
+│                        │      │                   disables root 
+│                        │      │                   auto-discovery — non-root partitions (swap, /home, /var,
+│                        │      │                   /srv, /var/tmp) are 
+│                        │      │                   still auto-discovered and mounted. The generator is shipped
+│                        │      │                    unmasked in the 
+│                        │      │                   RHEL systemd-udev subpackage, and no kernel command line
+│                        │      │                   parameter in the 
+│                        │      │                   measured UKI addon disables it. Additionally, the PodVM
+│                        │      │                   measurement script 
+│                        │      │                   captures PCRs 3, 9, 11, and 12, but not PCR 5 (GPT
+│                        │      │                   partition table), so 
+│                        │      │                   partition table modifications are not detected by remote
+│                        │      │                   attestation. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs                  
+│                        │      │                  ───────
+│                        │      │                  CWE-359
+│                        │      │                  
+│                        │      ├ VendorSeverity   ╭ redhat: 3 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:
+│                        │      │                           │           H/A:N 
+│                        │      │                           ╰ V3Score : 7.9 
+│                        │      ├ References                                                             
+│                        │      │                  ──────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/security/cve/CVE-2026-121876
+│                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2558210   
+│                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-121876      
+│                        │      │                  https://www.cve.org/CVERecord?id=CVE-2026-121876      
+│                        │      │                  
+│                        │      ├ PublishedDate   : 2026-11-12T17:17:29.04Z 
+│                        │      ╰ LastModifiedDate: 2026-11-12T17:17:29.17Z 
+│                        ├ [67] ╭ VulnerabilityID : CVE-2026-40228 
 │                        │      ├ PkgID           : systemd-resolved@259.9-0ubuntu0.1 
 │                        │      ├ PkgName         : systemd-resolved 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-resolved@259.9-0ubuntu0.1?arc
@@ -4189,7 +4825,83 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-04-10T16:16:33.753Z 
 │                        │      ╰ LastModifiedDate: 2026-06-17T10:44:53.31Z 
-│                        ├ [60] ╭ VulnerabilityID : CVE-2026-40228 
+│                        ├ [68] ╭ VulnerabilityID : CVE-2026-121876 
+│                        │      ├ PkgID           : systemd-sysv@259.9-0ubuntu0.1 
+│                        │      ├ PkgName         : systemd-sysv 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-sysv@259.9-0ubuntu0.1?arch=am
+│                        │      │                  │       d64&distro=ubuntu-26.04 
+│                        │      │                  ╰ UID : 5d4f53aa7dfe61d1 
+│                        │      ├ InstalledVersion: 259.9-0ubuntu0.1 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:547bfa781ac0cd413d84e92fed1e145e840262031ac
+│                        │      │                  │         9f6648f0991e6a62e1355 
+│                        │      │                  ╰ DiffID: sha256:8cba11289e64f072542f9acbd4e722a7b9626e1016a
+│                        │      │                            c4b61edb7249e1353543a 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-121876 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Fingerprint     : sha256:4bccda3d487fed5715f9a8a48fd6f71d0dad9c97190becea884e
+│                        │      │                   93adcade18a2 
+│                        │      ├ Title           : sandboxed-containers: kernel: systemd-gpt-auto-generator:
+│                        │      │                   Guest Data Leakage in Confidential Computing (Sandboxed
+│                        │      │                   Containers) 
+│                        │      ├ Description     : A flaw was found in the interaction between
+│                        │      │                   systemd-gpt-auto-generator and 
+│                        │      │                   confidential computing guest VM images in OpenShift
+│                        │      │                   Sandboxed Containers 
+│                        │      │                   (confidential peer pods). systemd-gpt-auto-generator
+│                        │      │                   automatically discovers 
+│                        │      │                   and mounts GPT partitions by type GUID at boot with no user
+│                        │      │                    confirmation. In 
+│                        │      │                   the confidential computing threat model, where the
+│                        │      │                   host/hypervisor is the 
+│                        │      │                   adversary, a malicious host can inject partitions into the
+│                        │      │                   guest's virtual 
+│                        │      │                   disk. Most critically, injecting a swap partition causes
+│                        │      │                   the guest kernel to 
+│                        │      │                   page out TEE-encrypted memory to a host-controlled block
+│                        │      │                   device, breaking the 
+│                        │      │                   confidentiality guarantee of the hardware TEE (AMD SEV-SNP,
+│                        │      │                    Intel TDX).
+│                        │      │                   
+│                        │      │                   The PodVM images use a GPT-partitioned disk with dm-verity
+│                        │      │                   on the root 
+│                        │      │                   partition. However, the roothash= kernel parameter only
+│                        │      │                   disables root 
+│                        │      │                   auto-discovery — non-root partitions (swap, /home, /var,
+│                        │      │                   /srv, /var/tmp) are 
+│                        │      │                   still auto-discovered and mounted. The generator is shipped
+│                        │      │                    unmasked in the 
+│                        │      │                   RHEL systemd-udev subpackage, and no kernel command line
+│                        │      │                   parameter in the 
+│                        │      │                   measured UKI addon disables it. Additionally, the PodVM
+│                        │      │                   measurement script 
+│                        │      │                   captures PCRs 3, 9, 11, and 12, but not PCR 5 (GPT
+│                        │      │                   partition table), so 
+│                        │      │                   partition table modifications are not detected by remote
+│                        │      │                   attestation. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs                  
+│                        │      │                  ───────
+│                        │      │                  CWE-359
+│                        │      │                  
+│                        │      ├ VendorSeverity   ╭ redhat: 3 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:
+│                        │      │                           │           H/A:N 
+│                        │      │                           ╰ V3Score : 7.9 
+│                        │      ├ References                                                             
+│                        │      │                  ──────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/security/cve/CVE-2026-121876
+│                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2558210   
+│                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-121876      
+│                        │      │                  https://www.cve.org/CVERecord?id=CVE-2026-121876      
+│                        │      │                  
+│                        │      ├ PublishedDate   : 2026-11-12T17:17:29.04Z 
+│                        │      ╰ LastModifiedDate: 2026-11-12T17:17:29.17Z 
+│                        ├ [69] ╭ VulnerabilityID : CVE-2026-40228 
 │                        │      ├ PkgID           : systemd-sysv@259.9-0ubuntu0.1 
 │                        │      ├ PkgName         : systemd-sysv 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-sysv@259.9-0ubuntu0.1?arch=am
@@ -4238,7 +4950,83 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-04-10T16:16:33.753Z 
 │                        │      ╰ LastModifiedDate: 2026-06-17T10:44:53.31Z 
-│                        ├ [61] ╭ VulnerabilityID : CVE-2026-40228 
+│                        ├ [70] ╭ VulnerabilityID : CVE-2026-121876 
+│                        │      ├ PkgID           : systemd-timesyncd@259.9-0ubuntu0.1 
+│                        │      ├ PkgName         : systemd-timesyncd 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-timesyncd@259.9-0ubuntu0.1?ar
+│                        │      │                  │       ch=amd64&distro=ubuntu-26.04 
+│                        │      │                  ╰ UID : ea9320fe7c49a8f 
+│                        │      ├ InstalledVersion: 259.9-0ubuntu0.1 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:547bfa781ac0cd413d84e92fed1e145e840262031ac
+│                        │      │                  │         9f6648f0991e6a62e1355 
+│                        │      │                  ╰ DiffID: sha256:8cba11289e64f072542f9acbd4e722a7b9626e1016a
+│                        │      │                            c4b61edb7249e1353543a 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-121876 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Fingerprint     : sha256:64f7dd9a7885e2f1d5e651cb80ae5646f342b97e666073962bd8
+│                        │      │                   4ec8728b02c1 
+│                        │      ├ Title           : sandboxed-containers: kernel: systemd-gpt-auto-generator:
+│                        │      │                   Guest Data Leakage in Confidential Computing (Sandboxed
+│                        │      │                   Containers) 
+│                        │      ├ Description     : A flaw was found in the interaction between
+│                        │      │                   systemd-gpt-auto-generator and 
+│                        │      │                   confidential computing guest VM images in OpenShift
+│                        │      │                   Sandboxed Containers 
+│                        │      │                   (confidential peer pods). systemd-gpt-auto-generator
+│                        │      │                   automatically discovers 
+│                        │      │                   and mounts GPT partitions by type GUID at boot with no user
+│                        │      │                    confirmation. In 
+│                        │      │                   the confidential computing threat model, where the
+│                        │      │                   host/hypervisor is the 
+│                        │      │                   adversary, a malicious host can inject partitions into the
+│                        │      │                   guest's virtual 
+│                        │      │                   disk. Most critically, injecting a swap partition causes
+│                        │      │                   the guest kernel to 
+│                        │      │                   page out TEE-encrypted memory to a host-controlled block
+│                        │      │                   device, breaking the 
+│                        │      │                   confidentiality guarantee of the hardware TEE (AMD SEV-SNP,
+│                        │      │                    Intel TDX).
+│                        │      │                   
+│                        │      │                   The PodVM images use a GPT-partitioned disk with dm-verity
+│                        │      │                   on the root 
+│                        │      │                   partition. However, the roothash= kernel parameter only
+│                        │      │                   disables root 
+│                        │      │                   auto-discovery — non-root partitions (swap, /home, /var,
+│                        │      │                   /srv, /var/tmp) are 
+│                        │      │                   still auto-discovered and mounted. The generator is shipped
+│                        │      │                    unmasked in the 
+│                        │      │                   RHEL systemd-udev subpackage, and no kernel command line
+│                        │      │                   parameter in the 
+│                        │      │                   measured UKI addon disables it. Additionally, the PodVM
+│                        │      │                   measurement script 
+│                        │      │                   captures PCRs 3, 9, 11, and 12, but not PCR 5 (GPT
+│                        │      │                   partition table), so 
+│                        │      │                   partition table modifications are not detected by remote
+│                        │      │                   attestation. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs                  
+│                        │      │                  ───────
+│                        │      │                  CWE-359
+│                        │      │                  
+│                        │      ├ VendorSeverity   ╭ redhat: 3 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:
+│                        │      │                           │           H/A:N 
+│                        │      │                           ╰ V3Score : 7.9 
+│                        │      ├ References                                                             
+│                        │      │                  ──────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/security/cve/CVE-2026-121876
+│                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2558210   
+│                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-121876      
+│                        │      │                  https://www.cve.org/CVERecord?id=CVE-2026-121876      
+│                        │      │                  
+│                        │      ├ PublishedDate   : 2026-11-12T17:17:29.04Z 
+│                        │      ╰ LastModifiedDate: 2026-11-12T17:17:29.17Z 
+│                        ├ [71] ╭ VulnerabilityID : CVE-2026-40228 
 │                        │      ├ PkgID           : systemd-timesyncd@259.9-0ubuntu0.1 
 │                        │      ├ PkgName         : systemd-timesyncd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-timesyncd@259.9-0ubuntu0.1?ar
@@ -4287,7 +5075,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-04-10T16:16:33.753Z 
 │                        │      ╰ LastModifiedDate: 2026-06-17T10:44:53.31Z 
-│                        ├ [62] ╭ VulnerabilityID : CVE-2026-18477 
+│                        ├ [72] ╭ VulnerabilityID : CVE-2026-18477 
 │                        │      ├ PkgID           : tar@1.35+dfsg-4ubuntu0.4 
 │                        │      ├ PkgName         : tar 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tar@1.35%2Bdfsg-4ubuntu0.4?arch=amd64
@@ -4369,7 +5157,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-08-03T17:16:33.897Z 
 │                        │      ╰ LastModifiedDate: 2026-11-05T20:17:52.39Z 
-│                        ├ [63] ╭ VulnerabilityID : CVE-2026-18508 
+│                        ├ [73] ╭ VulnerabilityID : CVE-2026-18508 
 │                        │      ├ PkgID           : tar@1.35+dfsg-4ubuntu0.4 
 │                        │      ├ PkgName         : tar 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tar@1.35%2Bdfsg-4ubuntu0.4?arch=amd64
@@ -4442,7 +5230,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-08-03T16:16:28.387Z 
 │                        │      ╰ LastModifiedDate: 2026-11-05T20:17:52.95Z 
-│                        ├ [64] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [74] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │      ├ PkgID           : uidmap@1:4.17.4-2ubuntu3 
 │                        │      ├ PkgName         : uidmap 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/uidmap@4.17.4-2ubuntu3?arch=amd64&dis
@@ -4522,7 +5310,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │      ╰ LastModifiedDate: 2026-10-15T01:19:16.297Z 
-│                        ├ [65] ╭ VulnerabilityID : CVE-2026-78408 
+│                        ├ [75] ╭ VulnerabilityID : CVE-2026-78408 
 │                        │      ├ PkgID           : util-linux@2.41.3-3ubuntu2.2 
 │                        │      ├ PkgName         : util-linux 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/util-linux@2.41.3-3ubuntu2.2?arch=amd
@@ -4558,17 +5346,19 @@
 │                        │      │                  ───────
 │                        │      │                  CWE-775
 │                        │      │                  
-│                        │      ├ VendorSeverity   ╭ alma       : 3 
-│                        │      │                  ├ azure      : 3 
-│                        │      │                  ├ oracle-oval: 3 
-│                        │      │                  ├ redhat     : 3 
-│                        │      │                  ├ rocky      : 3 
-│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ VendorSeverity   ╭ alma        : 3 
+│                        │      │                  ├ azure       : 3 
+│                        │      │                  ├ bottlerocket: 3 
+│                        │      │                  ├ oracle-oval : 3 
+│                        │      │                  ├ redhat      : 3 
+│                        │      │                  ├ rocky       : 3 
+│                        │      │                  ╰ ubuntu      : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:N/I:
 │                        │      │                           │           H/A:H 
 │                        │      │                           ╰ V3Score : 7.9 
 │                        │      ├ References                                                                   
 │                        │      │                  ────────────────────────────────────────────────────────────
+│                        │      │                  http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78408
 │                        │      │                  http://www.openwall.com/lists/oss-security/2026/09/05/2     
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:63162            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:93461            
@@ -4615,6 +5405,8 @@
 │                        │      │                                                                              
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:93461               
 │                        │      │                                                                              
+│                        │      │                  https://github.com/bottlerocket-os/bottlerocket-core-kit/blo
+│                        │      │                  b/develop/advisories/18.0.0/BRSA-mrtb6gutu299.toml          
 │                        │      │                  https://github.com/util-linux/util-linux/security/advisories
 │                        │      │                  /GHSA-55fx-f4gg-cfhj                                        
 │                        │      │                  https://linux.oracle.com/cve/CVE-2026-78408.html            
@@ -4628,7 +5420,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-09-02T16:17:23.687Z 
 │                        │      ╰ LastModifiedDate: 2026-11-05T03:17:32.977Z 
-│                        ╰ [66] ╭ VulnerabilityID : CVE-2021-31879 
+│                        ╰ [76] ╭ VulnerabilityID : CVE-2021-31879 
 │                               ├ PkgID           : wget@1.25.0-2ubuntu4.4 
 │                               ├ PkgName         : wget 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.25.0-2ubuntu4.4?arch=amd64&dis
@@ -5150,7 +5942,7 @@
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:39879            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:40118            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:40262            
-│                        │      │                  true                                                        
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:40945            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:41019            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:41030            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:41031            
@@ -5315,8 +6107,8 @@
 │                        │      │                                                                              
 │                        │      │                  https://pkg.go.dev/vuln/GO-2026-5026                        
 │                        │      │                                                                              
-│                        │      │                  false                                                       
-│                        │      │                                                                              
+│                        │      │                  https://security.access.redhat.com/data/csaf/v2/vex/2026/cve
+│                        │      │                  -2026-39821.json                                            
 │                        │      │                  https://ubuntu.com/security/notices/USN-8416-1              
 │                        │      │                                                                              
 │                        │      │                  https://ubuntu.com/security/notices/USN-8883-1              
@@ -5437,7 +6229,7 @@
 │                        │      │                  https://groups.google.com/g/golang-announce/c/sqrs2vTx_Xs
 │                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-78661          
 │                        │      │                  https://pkg.go.dev/vuln/GO-2026-6860                     
-│                        │      │                  https://www.cve.org/CVERecord?id=CVE-2026-78661          
+│                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2548346      
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-27T22:18:05.93Z 
 │                        │      ╰ LastModifiedDate: 2026-11-04T17:17:37.673Z 
@@ -6098,7 +6890,7 @@
 │                        │      │                  ──────────────────────────────────────────────────────────────
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:86196              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:86203              
-│                        │      │                  https://access.redhat.com/security/cve/CVE-2026-78663         
+│                        │      │                  false                                                         
 │                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
 │                        │      │                  https://bugzilla.redhat.com/2548344                           
@@ -18467,7 +19259,167 @@
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
 │      ├ Packages        
-│      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : GO-2026-5932 
+│      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2026-128085 
+│                        │     ├ VendorIDs                           
+│                        │     │                  ───────────────────
+│                        │     │                  GHSA-q7gw-24fr-5p69
+│                        │     │                  
+│                        │     ├ PkgID           : go.opentelemetry.io/otel/sdk@v1.46.0 
+│                        │     ├ PkgName         : go.opentelemetry.io/otel/sdk 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/go.opentelemetry.io/otel/sdk@v1.46.0 
+│                        │     │                  ╰ UID : f82bee0d4027b10e 
+│                        │     ├ InstalledVersion: v1.46.0 
+│                        │     ├ FixedVersion    : 1.47.0 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:547bfa781ac0cd413d84e92fed1e145e840262031ac9
+│                        │     │                  │         f6648f0991e6a62e1355 
+│                        │     │                  ╰ DiffID: sha256:8cba11289e64f072542f9acbd4e722a7b9626e1016ac
+│                        │     │                            4b61edb7249e1353543a 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-128085 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Go 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+│                        │     │                          cosystem%3Ago 
+│                        │     ├ Fingerprint     : sha256:639c84fc35e6cf58f686f9139d4ef9933de7660334387a056d54f
+│                        │     │                   5b3866b94f6 
+│                        │     ├ Title           : go.opentelemetry.io/otel/sdk:
+│                        │     │                   go.opentelemetry.io/otel/sdk/log:
+│                        │     │                   go.opentelemetry.io/otel/trace: OpenTelemetry-Go: Denial of
+│                        │     │                   Service via attribute truncation bypass using Unicode
+│                        │     │                   replacement characters 
+│                        │     ├ Description     : OpenTelemetry-Go is the Go implementation of OpenTelemetry.
+│                        │     │                   From SDK version 1.33.0, SDK log version 0.9.0, and trace
+│                        │     │                   version 1.35.0 until version 1.47.0, the
+│                        │     │                   AttributeValueLengthLimit and WithAttributeValueLengthLimit
+│                        │     │                   truncation paths in sdk/internal/attrnorm,
+│                        │     │                   sdk/log/internal/attrnorm, and trace/auto.go do not count
+│                        │     │                   valid U+FFFD replacement characters. This is a distinct
+│                        │     │                   incomplete-fix defect in the replacement truncation code
+│                        │     │                   introduced by the remediation for CVE-2026-81869. Values
+│                        │     │                   composed of or dominated by those characters can therefore
+│                        │     │                   exceed the configured character and memory bound in span,
+│                        │     │                   log-record, and auto-instrumentation trace attributes.
+│                        │     │                   Attacker-controlled telemetry attributes can increase
+│                        │     │                   retained memory and pipeline pressure, while confidentiality
+│                        │     │                    and integrity are not affected. This issue is fixed in
+│                        │     │                   version 1.47.0. 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ CweIDs                  
+│                        │     │                  ───────
+│                        │     │                  CWE-135
+│                        │     │                  CWE-770
+│                        │     │                  
+│                        │     ├ VendorSeverity   ╭ ghsa  : 2 
+│                        │     │                  ╰ redhat: 2 
+│                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                        │     │                  │        │           /A:L 
+│                        │     │                  │        ╰ V3Score : 5.3 
+│                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                        │     │                           │           /A:L 
+│                        │     │                           ╰ V3Score : 5.3 
+│                        │     ├ References                                                                    
+│                        │     │                  ─────────────────────────────────────────────────────────────
+│                        │     │                  https://access.redhat.com/security/cve/CVE-2026-128085       
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go           
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go/commit/017
+│                        │     │                  b08c7f1018b619991aaf6b2299d4beb9da1d3                        
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go/releases/t
+│                        │     │                  ag/sdk/log/v1.47.0                                           
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go/releases/t
+│                        │     │                  ag/sdk/v1.47.0                                               
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go/releases/t
+│                        │     │                  ag/trace/v1.47.0                                             
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go/security/a
+│                        │     │                  dvisories/GHSA-q7gw-24fr-5p69                                
+│                        │     │                  https://nvd.nist.gov/vuln/detail/CVE-2026-128085             
+│                        │     │                                                                               
+│                        │     │                  https://www.cve.org/CVERecord?id=CVE-2026-128085             
+│                        │     │                                                                               
+│                        │     │                  
+│                        │     ├ PublishedDate   : 2026-11-13T19:19:31.193Z 
+│                        │     ╰ LastModifiedDate: 2026-11-13T19:19:31.193Z 
+│                        ├ [1] ╭ VulnerabilityID : CVE-2026-128085 
+│                        │     ├ VendorIDs                           
+│                        │     │                  ───────────────────
+│                        │     │                  GHSA-q7gw-24fr-5p69
+│                        │     │                  
+│                        │     ├ PkgID           : go.opentelemetry.io/otel/trace@v1.46.0 
+│                        │     ├ PkgName         : go.opentelemetry.io/otel/trace 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/go.opentelemetry.io/otel/trace@v1.46.0 
+│                        │     │                  ╰ UID : 14d9a402f7c48829 
+│                        │     ├ InstalledVersion: v1.46.0 
+│                        │     ├ FixedVersion    : 1.47.0 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:547bfa781ac0cd413d84e92fed1e145e840262031ac9
+│                        │     │                  │         f6648f0991e6a62e1355 
+│                        │     │                  ╰ DiffID: sha256:8cba11289e64f072542f9acbd4e722a7b9626e1016ac
+│                        │     │                            4b61edb7249e1353543a 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-128085 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Go 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+│                        │     │                          cosystem%3Ago 
+│                        │     ├ Fingerprint     : sha256:f5c672aa87a5160d9ee0db91b9d84cdde0928bac128a40babcf1d
+│                        │     │                   53e88d88a4a 
+│                        │     ├ Title           : go.opentelemetry.io/otel/sdk:
+│                        │     │                   go.opentelemetry.io/otel/sdk/log:
+│                        │     │                   go.opentelemetry.io/otel/trace: OpenTelemetry-Go: Denial of
+│                        │     │                   Service via attribute truncation bypass using Unicode
+│                        │     │                   replacement characters 
+│                        │     ├ Description     : OpenTelemetry-Go is the Go implementation of OpenTelemetry.
+│                        │     │                   From SDK version 1.33.0, SDK log version 0.9.0, and trace
+│                        │     │                   version 1.35.0 until version 1.47.0, the
+│                        │     │                   AttributeValueLengthLimit and WithAttributeValueLengthLimit
+│                        │     │                   truncation paths in sdk/internal/attrnorm,
+│                        │     │                   sdk/log/internal/attrnorm, and trace/auto.go do not count
+│                        │     │                   valid U+FFFD replacement characters. This is a distinct
+│                        │     │                   incomplete-fix defect in the replacement truncation code
+│                        │     │                   introduced by the remediation for CVE-2026-81869. Values
+│                        │     │                   composed of or dominated by those characters can therefore
+│                        │     │                   exceed the configured character and memory bound in span,
+│                        │     │                   log-record, and auto-instrumentation trace attributes.
+│                        │     │                   Attacker-controlled telemetry attributes can increase
+│                        │     │                   retained memory and pipeline pressure, while confidentiality
+│                        │     │                    and integrity are not affected. This issue is fixed in
+│                        │     │                   version 1.47.0. 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ CweIDs                  
+│                        │     │                  ───────
+│                        │     │                  CWE-135
+│                        │     │                  CWE-770
+│                        │     │                  
+│                        │     ├ VendorSeverity   ╭ ghsa  : 2 
+│                        │     │                  ╰ redhat: 2 
+│                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                        │     │                  │        │           /A:L 
+│                        │     │                  │        ╰ V3Score : 5.3 
+│                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                        │     │                           │           /A:L 
+│                        │     │                           ╰ V3Score : 5.3 
+│                        │     ├ References                                                                    
+│                        │     │                  ─────────────────────────────────────────────────────────────
+│                        │     │                  https://access.redhat.com/security/cve/CVE-2026-128085       
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go           
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go/commit/017
+│                        │     │                  b08c7f1018b619991aaf6b2299d4beb9da1d3                        
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go/releases/t
+│                        │     │                  ag/sdk/log/v1.47.0                                           
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go/releases/t
+│                        │     │                  ag/sdk/v1.47.0                                               
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go/releases/t
+│                        │     │                  ag/trace/v1.47.0                                             
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go/security/a
+│                        │     │                  dvisories/GHSA-q7gw-24fr-5p69                                
+│                        │     │                  https://nvd.nist.gov/vuln/detail/CVE-2026-128085             
+│                        │     │                                                                               
+│                        │     │                  https://www.cve.org/CVERecord?id=CVE-2026-128085             
+│                        │     │                                                                               
+│                        │     │                  
+│                        │     ├ PublishedDate   : 2026-11-13T19:19:31.193Z 
+│                        │     ╰ LastModifiedDate: 2026-11-13T19:19:31.193Z 
+│                        ├ [2] ╭ VulnerabilityID : GO-2026-5932 
 │                        │     ├ PkgID           : golang.org/x/crypto@v0.57.0 
 │                        │     ├ PkgName         : golang.org/x/crypto 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/crypto@v0.57.0 
@@ -18502,7 +19454,7 @@
 │                        │                        https://go.dev/issue/81227          
 │                        │                        https://pkg.go.dev/vuln/GO-2026-5932
 │                        │                        
-│                        ├ [1] ╭ VulnerabilityID : CVE-2026-78661 
+│                        ├ [3] ╭ VulnerabilityID : CVE-2026-78661 
 │                        │     ├ VendorIDs                    
 │                        │     │                  ────────────
 │                        │     │                  GO-2026-6860
@@ -18557,7 +19509,7 @@
 │                        │     │                  
 │                        │     ├ PublishedDate   : 2026-10-27T22:18:05.93Z 
 │                        │     ╰ LastModifiedDate: 2026-11-04T17:17:37.673Z 
-│                        ╰ [2] ╭ VulnerabilityID : CVE-2026-97045 
+│                        ╰ [4] ╭ VulnerabilityID : CVE-2026-97045 
 │                              ├ VendorIDs                    
 │                              │                  ────────────
 │                              │                  GO-2026-6866
@@ -18739,7 +19691,247 @@
 │                        │     │                  
 │                        │     ├ PublishedDate   : 2026-10-13T19:21:02.1Z 
 │                        │     ╰ LastModifiedDate: 2026-10-18T14:16:56.91Z 
-│                        ├ [1] ╭ VulnerabilityID : GO-2026-5932 
+│                        ├ [1] ╭ VulnerabilityID : CVE-2026-128085 
+│                        │     ├ VendorIDs                           
+│                        │     │                  ───────────────────
+│                        │     │                  GHSA-q7gw-24fr-5p69
+│                        │     │                  
+│                        │     ├ PkgID           : go.opentelemetry.io/otel/sdk@v1.46.0 
+│                        │     ├ PkgName         : go.opentelemetry.io/otel/sdk 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/go.opentelemetry.io/otel/sdk@v1.46.0 
+│                        │     │                  ╰ UID : a5c4c72c253fa934 
+│                        │     ├ InstalledVersion: v1.46.0 
+│                        │     ├ FixedVersion    : 1.47.0 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:547bfa781ac0cd413d84e92fed1e145e840262031ac9
+│                        │     │                  │         f6648f0991e6a62e1355 
+│                        │     │                  ╰ DiffID: sha256:8cba11289e64f072542f9acbd4e722a7b9626e1016ac
+│                        │     │                            4b61edb7249e1353543a 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-128085 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Go 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+│                        │     │                          cosystem%3Ago 
+│                        │     ├ Fingerprint     : sha256:04744418a15ef4a3d466ff49e753440f7244c1245ce6fdb9032bd
+│                        │     │                   a2d0ae1fc0a 
+│                        │     ├ Title           : go.opentelemetry.io/otel/sdk:
+│                        │     │                   go.opentelemetry.io/otel/sdk/log:
+│                        │     │                   go.opentelemetry.io/otel/trace: OpenTelemetry-Go: Denial of
+│                        │     │                   Service via attribute truncation bypass using Unicode
+│                        │     │                   replacement characters 
+│                        │     ├ Description     : OpenTelemetry-Go is the Go implementation of OpenTelemetry.
+│                        │     │                   From SDK version 1.33.0, SDK log version 0.9.0, and trace
+│                        │     │                   version 1.35.0 until version 1.47.0, the
+│                        │     │                   AttributeValueLengthLimit and WithAttributeValueLengthLimit
+│                        │     │                   truncation paths in sdk/internal/attrnorm,
+│                        │     │                   sdk/log/internal/attrnorm, and trace/auto.go do not count
+│                        │     │                   valid U+FFFD replacement characters. This is a distinct
+│                        │     │                   incomplete-fix defect in the replacement truncation code
+│                        │     │                   introduced by the remediation for CVE-2026-81869. Values
+│                        │     │                   composed of or dominated by those characters can therefore
+│                        │     │                   exceed the configured character and memory bound in span,
+│                        │     │                   log-record, and auto-instrumentation trace attributes.
+│                        │     │                   Attacker-controlled telemetry attributes can increase
+│                        │     │                   retained memory and pipeline pressure, while confidentiality
+│                        │     │                    and integrity are not affected. This issue is fixed in
+│                        │     │                   version 1.47.0. 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ CweIDs                  
+│                        │     │                  ───────
+│                        │     │                  CWE-135
+│                        │     │                  CWE-770
+│                        │     │                  
+│                        │     ├ VendorSeverity   ╭ ghsa  : 2 
+│                        │     │                  ╰ redhat: 2 
+│                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                        │     │                  │        │           /A:L 
+│                        │     │                  │        ╰ V3Score : 5.3 
+│                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                        │     │                           │           /A:L 
+│                        │     │                           ╰ V3Score : 5.3 
+│                        │     ├ References                                                                    
+│                        │     │                  ─────────────────────────────────────────────────────────────
+│                        │     │                  https://access.redhat.com/security/cve/CVE-2026-128085       
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go           
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go/commit/017
+│                        │     │                  b08c7f1018b619991aaf6b2299d4beb9da1d3                        
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go/releases/t
+│                        │     │                  ag/sdk/log/v1.47.0                                           
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go/releases/t
+│                        │     │                  ag/sdk/v1.47.0                                               
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go/releases/t
+│                        │     │                  ag/trace/v1.47.0                                             
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go/security/a
+│                        │     │                  dvisories/GHSA-q7gw-24fr-5p69                                
+│                        │     │                  https://nvd.nist.gov/vuln/detail/CVE-2026-128085             
+│                        │     │                                                                               
+│                        │     │                  https://www.cve.org/CVERecord?id=CVE-2026-128085             
+│                        │     │                                                                               
+│                        │     │                  
+│                        │     ├ PublishedDate   : 2026-11-13T19:19:31.193Z 
+│                        │     ╰ LastModifiedDate: 2026-11-13T19:19:31.193Z 
+│                        ├ [2] ╭ VulnerabilityID : CVE-2026-128085 
+│                        │     ├ VendorIDs                           
+│                        │     │                  ───────────────────
+│                        │     │                  GHSA-q7gw-24fr-5p69
+│                        │     │                  
+│                        │     ├ PkgID           : go.opentelemetry.io/otel/sdk/log@v0.22.0 
+│                        │     ├ PkgName         : go.opentelemetry.io/otel/sdk/log 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/go.opentelemetry.io/otel/sdk/log@v0.22.0 
+│                        │     │                  ╰ UID : 7a38ce5d4d03f663 
+│                        │     ├ InstalledVersion: v0.22.0 
+│                        │     ├ FixedVersion    : 1.47.0 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:547bfa781ac0cd413d84e92fed1e145e840262031ac9
+│                        │     │                  │         f6648f0991e6a62e1355 
+│                        │     │                  ╰ DiffID: sha256:8cba11289e64f072542f9acbd4e722a7b9626e1016ac
+│                        │     │                            4b61edb7249e1353543a 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-128085 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Go 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+│                        │     │                          cosystem%3Ago 
+│                        │     ├ Fingerprint     : sha256:ce21c4e63aa79cdd5ed19801d34bb5c99948ad5136ae45e64c43f
+│                        │     │                   587e1d06408 
+│                        │     ├ Title           : go.opentelemetry.io/otel/sdk:
+│                        │     │                   go.opentelemetry.io/otel/sdk/log:
+│                        │     │                   go.opentelemetry.io/otel/trace: OpenTelemetry-Go: Denial of
+│                        │     │                   Service via attribute truncation bypass using Unicode
+│                        │     │                   replacement characters 
+│                        │     ├ Description     : OpenTelemetry-Go is the Go implementation of OpenTelemetry.
+│                        │     │                   From SDK version 1.33.0, SDK log version 0.9.0, and trace
+│                        │     │                   version 1.35.0 until version 1.47.0, the
+│                        │     │                   AttributeValueLengthLimit and WithAttributeValueLengthLimit
+│                        │     │                   truncation paths in sdk/internal/attrnorm,
+│                        │     │                   sdk/log/internal/attrnorm, and trace/auto.go do not count
+│                        │     │                   valid U+FFFD replacement characters. This is a distinct
+│                        │     │                   incomplete-fix defect in the replacement truncation code
+│                        │     │                   introduced by the remediation for CVE-2026-81869. Values
+│                        │     │                   composed of or dominated by those characters can therefore
+│                        │     │                   exceed the configured character and memory bound in span,
+│                        │     │                   log-record, and auto-instrumentation trace attributes.
+│                        │     │                   Attacker-controlled telemetry attributes can increase
+│                        │     │                   retained memory and pipeline pressure, while confidentiality
+│                        │     │                    and integrity are not affected. This issue is fixed in
+│                        │     │                   version 1.47.0. 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ CweIDs                  
+│                        │     │                  ───────
+│                        │     │                  CWE-135
+│                        │     │                  CWE-770
+│                        │     │                  
+│                        │     ├ VendorSeverity   ╭ ghsa  : 2 
+│                        │     │                  ╰ redhat: 2 
+│                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                        │     │                  │        │           /A:L 
+│                        │     │                  │        ╰ V3Score : 5.3 
+│                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                        │     │                           │           /A:L 
+│                        │     │                           ╰ V3Score : 5.3 
+│                        │     ├ References                                                                    
+│                        │     │                  ─────────────────────────────────────────────────────────────
+│                        │     │                  https://access.redhat.com/security/cve/CVE-2026-128085       
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go           
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go/commit/017
+│                        │     │                  b08c7f1018b619991aaf6b2299d4beb9da1d3                        
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go/releases/t
+│                        │     │                  ag/sdk/log/v1.47.0                                           
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go/releases/t
+│                        │     │                  ag/sdk/v1.47.0                                               
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go/releases/t
+│                        │     │                  ag/trace/v1.47.0                                             
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go/security/a
+│                        │     │                  dvisories/GHSA-q7gw-24fr-5p69                                
+│                        │     │                  https://nvd.nist.gov/vuln/detail/CVE-2026-128085             
+│                        │     │                                                                               
+│                        │     │                  https://www.cve.org/CVERecord?id=CVE-2026-128085             
+│                        │     │                                                                               
+│                        │     │                  
+│                        │     ├ PublishedDate   : 2026-11-13T19:19:31.193Z 
+│                        │     ╰ LastModifiedDate: 2026-11-13T19:19:31.193Z 
+│                        ├ [3] ╭ VulnerabilityID : CVE-2026-128085 
+│                        │     ├ VendorIDs                           
+│                        │     │                  ───────────────────
+│                        │     │                  GHSA-q7gw-24fr-5p69
+│                        │     │                  
+│                        │     ├ PkgID           : go.opentelemetry.io/otel/trace@v1.46.0 
+│                        │     ├ PkgName         : go.opentelemetry.io/otel/trace 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/go.opentelemetry.io/otel/trace@v1.46.0 
+│                        │     │                  ╰ UID : 7f11e920dc55ab67 
+│                        │     ├ InstalledVersion: v1.46.0 
+│                        │     ├ FixedVersion    : 1.47.0 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:547bfa781ac0cd413d84e92fed1e145e840262031ac9
+│                        │     │                  │         f6648f0991e6a62e1355 
+│                        │     │                  ╰ DiffID: sha256:8cba11289e64f072542f9acbd4e722a7b9626e1016ac
+│                        │     │                            4b61edb7249e1353543a 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-128085 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Go 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+│                        │     │                          cosystem%3Ago 
+│                        │     ├ Fingerprint     : sha256:fba001b447991c256e0956ce199ae80a6bc502de0da6bc2d788ad
+│                        │     │                   d14bf6c6403 
+│                        │     ├ Title           : go.opentelemetry.io/otel/sdk:
+│                        │     │                   go.opentelemetry.io/otel/sdk/log:
+│                        │     │                   go.opentelemetry.io/otel/trace: OpenTelemetry-Go: Denial of
+│                        │     │                   Service via attribute truncation bypass using Unicode
+│                        │     │                   replacement characters 
+│                        │     ├ Description     : OpenTelemetry-Go is the Go implementation of OpenTelemetry.
+│                        │     │                   From SDK version 1.33.0, SDK log version 0.9.0, and trace
+│                        │     │                   version 1.35.0 until version 1.47.0, the
+│                        │     │                   AttributeValueLengthLimit and WithAttributeValueLengthLimit
+│                        │     │                   truncation paths in sdk/internal/attrnorm,
+│                        │     │                   sdk/log/internal/attrnorm, and trace/auto.go do not count
+│                        │     │                   valid U+FFFD replacement characters. This is a distinct
+│                        │     │                   incomplete-fix defect in the replacement truncation code
+│                        │     │                   introduced by the remediation for CVE-2026-81869. Values
+│                        │     │                   composed of or dominated by those characters can therefore
+│                        │     │                   exceed the configured character and memory bound in span,
+│                        │     │                   log-record, and auto-instrumentation trace attributes.
+│                        │     │                   Attacker-controlled telemetry attributes can increase
+│                        │     │                   retained memory and pipeline pressure, while confidentiality
+│                        │     │                    and integrity are not affected. This issue is fixed in
+│                        │     │                   version 1.47.0. 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ CweIDs                  
+│                        │     │                  ───────
+│                        │     │                  CWE-135
+│                        │     │                  CWE-770
+│                        │     │                  
+│                        │     ├ VendorSeverity   ╭ ghsa  : 2 
+│                        │     │                  ╰ redhat: 2 
+│                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                        │     │                  │        │           /A:L 
+│                        │     │                  │        ╰ V3Score : 5.3 
+│                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                        │     │                           │           /A:L 
+│                        │     │                           ╰ V3Score : 5.3 
+│                        │     ├ References                                                                    
+│                        │     │                  ─────────────────────────────────────────────────────────────
+│                        │     │                  https://access.redhat.com/security/cve/CVE-2026-128085       
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go           
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go/commit/017
+│                        │     │                  b08c7f1018b619991aaf6b2299d4beb9da1d3                        
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go/releases/t
+│                        │     │                  ag/sdk/log/v1.47.0                                           
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go/releases/t
+│                        │     │                  ag/sdk/v1.47.0                                               
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go/releases/t
+│                        │     │                  ag/trace/v1.47.0                                             
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go/security/a
+│                        │     │                  dvisories/GHSA-q7gw-24fr-5p69                                
+│                        │     │                  https://nvd.nist.gov/vuln/detail/CVE-2026-128085             
+│                        │     │                                                                               
+│                        │     │                  https://www.cve.org/CVERecord?id=CVE-2026-128085             
+│                        │     │                                                                               
+│                        │     │                  
+│                        │     ├ PublishedDate   : 2026-11-13T19:19:31.193Z 
+│                        │     ╰ LastModifiedDate: 2026-11-13T19:19:31.193Z 
+│                        ├ [4] ╭ VulnerabilityID : GO-2026-5932 
 │                        │     ├ PkgID           : golang.org/x/crypto@v0.58.0 
 │                        │     ├ PkgName         : golang.org/x/crypto 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/crypto@v0.58.0 
@@ -18774,7 +19966,7 @@
 │                        │                        https://go.dev/issue/81227          
 │                        │                        https://pkg.go.dev/vuln/GO-2026-5932
 │                        │                        
-│                        ╰ [2] ╭ VulnerabilityID : CVE-2026-97054 
+│                        ╰ [5] ╭ VulnerabilityID : CVE-2026-97054 
 │                              ├ VendorIDs                    
 │                              │                  ────────────
 │                              │                  GO-2026-6859
@@ -18858,7 +20050,87 @@
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
 │      ├ Packages        
-│      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2026-78661 
+│      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2026-128085 
+│                        │     ├ VendorIDs                           
+│                        │     │                  ───────────────────
+│                        │     │                  GHSA-q7gw-24fr-5p69
+│                        │     │                  
+│                        │     ├ PkgID           : go.opentelemetry.io/otel/trace@v1.44.0 
+│                        │     ├ PkgName         : go.opentelemetry.io/otel/trace 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/go.opentelemetry.io/otel/trace@v1.44.0 
+│                        │     │                  ╰ UID : 313500d81870dc6a 
+│                        │     ├ InstalledVersion: v1.44.0 
+│                        │     ├ FixedVersion    : 1.47.0 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:547bfa781ac0cd413d84e92fed1e145e840262031ac9
+│                        │     │                  │         f6648f0991e6a62e1355 
+│                        │     │                  ╰ DiffID: sha256:8cba11289e64f072542f9acbd4e722a7b9626e1016ac
+│                        │     │                            4b61edb7249e1353543a 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-128085 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Go 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+│                        │     │                          cosystem%3Ago 
+│                        │     ├ Fingerprint     : sha256:d5ee8089f33ba94cbc71c1ff9b441134ea859adb58f527d30e3d3
+│                        │     │                   e66396556c1 
+│                        │     ├ Title           : go.opentelemetry.io/otel/sdk:
+│                        │     │                   go.opentelemetry.io/otel/sdk/log:
+│                        │     │                   go.opentelemetry.io/otel/trace: OpenTelemetry-Go: Denial of
+│                        │     │                   Service via attribute truncation bypass using Unicode
+│                        │     │                   replacement characters 
+│                        │     ├ Description     : OpenTelemetry-Go is the Go implementation of OpenTelemetry.
+│                        │     │                   From SDK version 1.33.0, SDK log version 0.9.0, and trace
+│                        │     │                   version 1.35.0 until version 1.47.0, the
+│                        │     │                   AttributeValueLengthLimit and WithAttributeValueLengthLimit
+│                        │     │                   truncation paths in sdk/internal/attrnorm,
+│                        │     │                   sdk/log/internal/attrnorm, and trace/auto.go do not count
+│                        │     │                   valid U+FFFD replacement characters. This is a distinct
+│                        │     │                   incomplete-fix defect in the replacement truncation code
+│                        │     │                   introduced by the remediation for CVE-2026-81869. Values
+│                        │     │                   composed of or dominated by those characters can therefore
+│                        │     │                   exceed the configured character and memory bound in span,
+│                        │     │                   log-record, and auto-instrumentation trace attributes.
+│                        │     │                   Attacker-controlled telemetry attributes can increase
+│                        │     │                   retained memory and pipeline pressure, while confidentiality
+│                        │     │                    and integrity are not affected. This issue is fixed in
+│                        │     │                   version 1.47.0. 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ CweIDs                  
+│                        │     │                  ───────
+│                        │     │                  CWE-135
+│                        │     │                  CWE-770
+│                        │     │                  
+│                        │     ├ VendorSeverity   ╭ ghsa  : 2 
+│                        │     │                  ╰ redhat: 2 
+│                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                        │     │                  │        │           /A:L 
+│                        │     │                  │        ╰ V3Score : 5.3 
+│                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                        │     │                           │           /A:L 
+│                        │     │                           ╰ V3Score : 5.3 
+│                        │     ├ References                                                                    
+│                        │     │                  ─────────────────────────────────────────────────────────────
+│                        │     │                  https://access.redhat.com/security/cve/CVE-2026-128085       
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go           
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go/commit/017
+│                        │     │                  b08c7f1018b619991aaf6b2299d4beb9da1d3                        
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go/releases/t
+│                        │     │                  ag/sdk/log/v1.47.0                                           
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go/releases/t
+│                        │     │                  ag/sdk/v1.47.0                                               
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go/releases/t
+│                        │     │                  ag/trace/v1.47.0                                             
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go/security/a
+│                        │     │                  dvisories/GHSA-q7gw-24fr-5p69                                
+│                        │     │                  https://nvd.nist.gov/vuln/detail/CVE-2026-128085             
+│                        │     │                                                                               
+│                        │     │                  https://www.cve.org/CVERecord?id=CVE-2026-128085             
+│                        │     │                                                                               
+│                        │     │                  
+│                        │     ├ PublishedDate   : 2026-11-13T19:19:31.193Z 
+│                        │     ╰ LastModifiedDate: 2026-11-13T19:19:31.193Z 
+│                        ├ [1] ╭ VulnerabilityID : CVE-2026-78661 
 │                        │     ├ VendorIDs                    
 │                        │     │                  ────────────
 │                        │     │                  GO-2026-6860
@@ -18913,7 +20185,7 @@
 │                        │     │                  
 │                        │     ├ PublishedDate   : 2026-10-27T22:18:05.93Z 
 │                        │     ╰ LastModifiedDate: 2026-11-04T17:17:37.673Z 
-│                        ├ [1] ╭ VulnerabilityID : CVE-2026-78669 
+│                        ├ [2] ╭ VulnerabilityID : CVE-2026-78669 
 │                        │     ├ VendorIDs                    
 │                        │     │                  ────────────
 │                        │     │                  GO-2026-6611
@@ -18998,7 +20270,7 @@
 │                        │     │                  
 │                        │     ├ PublishedDate   : 2026-10-08T23:17:04.01Z 
 │                        │     ╰ LastModifiedDate: 2026-10-09T17:16:49.857Z 
-│                        ├ [2] ╭ VulnerabilityID : CVE-2026-78659 
+│                        ├ [3] ╭ VulnerabilityID : CVE-2026-78659 
 │                        │     ├ VendorIDs                    
 │                        │     │                  ────────────
 │                        │     │                  GO-2026-6603
@@ -19109,7 +20381,7 @@
 │                        │     │                  
 │                        │     ├ PublishedDate   : 2026-10-08T23:17:03.27Z 
 │                        │     ╰ LastModifiedDate: 2026-10-09T16:35:35.9Z 
-│                        ├ [3] ╭ VulnerabilityID : CVE-2026-78660 
+│                        ├ [4] ╭ VulnerabilityID : CVE-2026-78660 
 │                        │     ├ VendorIDs                    
 │                        │     │                  ────────────
 │                        │     │                  GO-2026-6610
@@ -19214,7 +20486,7 @@
 │                        │     │                  
 │                        │     ├ PublishedDate   : 2026-10-08T23:17:03.51Z 
 │                        │     ╰ LastModifiedDate: 2026-10-09T17:16:49.243Z 
-│                        ├ [4] ╭ VulnerabilityID : CVE-2026-78663 
+│                        ├ [5] ╭ VulnerabilityID : CVE-2026-78663 
 │                        │     ├ VendorIDs                    
 │                        │     │                  ────────────
 │                        │     │                  GO-2026-6612
@@ -19322,7 +20594,7 @@
 │                        │     │                  
 │                        │     ├ PublishedDate   : 2026-10-08T23:17:03.647Z 
 │                        │     ╰ LastModifiedDate: 2026-10-09T17:16:49.42Z 
-│                        ├ [5] ╭ VulnerabilityID : CVE-2026-97032 
+│                        ├ [6] ╭ VulnerabilityID : CVE-2026-97032 
 │                        │     ├ VendorIDs                    
 │                        │     │                  ────────────
 │                        │     │                  GO-2026-6617
@@ -19430,7 +20702,7 @@
 │                        │     │                  
 │                        │     ├ PublishedDate   : 2026-10-08T23:17:06.213Z 
 │                        │     ╰ LastModifiedDate: 2026-10-15T16:18:24.967Z 
-│                        ├ [6] ╭ VulnerabilityID : CVE-2026-97045 
+│                        ├ [7] ╭ VulnerabilityID : CVE-2026-97045 
 │                        │     ├ VendorIDs                    
 │                        │     │                  ────────────
 │                        │     │                  GO-2026-6866
@@ -19488,7 +20760,7 @@
 │                        │     │                  
 │                        │     ├ PublishedDate   : 2026-10-27T22:19:22.613Z 
 │                        │     ╰ LastModifiedDate: 2026-11-04T17:17:38.33Z 
-│                        ├ [7] ╭ VulnerabilityID : CVE-2026-56851 
+│                        ├ [8] ╭ VulnerabilityID : CVE-2026-56851 
 │                        │     ├ VendorIDs                    
 │                        │     │                  ────────────
 │                        │     │                  GO-2026-6629
@@ -19538,7 +20810,7 @@
 │                        │     │                  
 │                        │     ├ PublishedDate   : 2026-10-07T18:17:20.903Z 
 │                        │     ╰ LastModifiedDate: 2026-10-08T21:35:53.89Z 
-│                        ╰ [8] ╭ VulnerabilityID : CVE-2026-97054 
+│                        ╰ [9] ╭ VulnerabilityID : CVE-2026-97054 
 │                              ├ VendorIDs                    
 │                              │                  ────────────
 │                              │                  GO-2026-6859
@@ -20009,7 +21281,7 @@
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs                  
 │                        │     │                  ───────
-│                        │     │                  CWE-81 
+│                        │     │                  CWE-193
 │                        │     │                  CWE-266
 │                        │     │                  
 │                        │     ├ VendorSeverity   ╭ amazon: 2 
@@ -20282,7 +21554,167 @@
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
 │      ├ Packages        
-│      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : GO-2026-5932 
+│      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2026-128085 
+│                        │     ├ VendorIDs                           
+│                        │     │                  ───────────────────
+│                        │     │                  GHSA-q7gw-24fr-5p69
+│                        │     │                  
+│                        │     ├ PkgID           : go.opentelemetry.io/otel/sdk@v1.46.0 
+│                        │     ├ PkgName         : go.opentelemetry.io/otel/sdk 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/go.opentelemetry.io/otel/sdk@v1.46.0 
+│                        │     │                  ╰ UID : f7f68f856405bfdb 
+│                        │     ├ InstalledVersion: v1.46.0 
+│                        │     ├ FixedVersion    : 1.47.0 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:547bfa781ac0cd413d84e92fed1e145e840262031ac9
+│                        │     │                  │         f6648f0991e6a62e1355 
+│                        │     │                  ╰ DiffID: sha256:8cba11289e64f072542f9acbd4e722a7b9626e1016ac
+│                        │     │                            4b61edb7249e1353543a 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-128085 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Go 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+│                        │     │                          cosystem%3Ago 
+│                        │     ├ Fingerprint     : sha256:f498b1c9c1b91bf65b7e39f1fa7792187e619d035f722ab8d9bfb
+│                        │     │                   9adc7440de0 
+│                        │     ├ Title           : go.opentelemetry.io/otel/sdk:
+│                        │     │                   go.opentelemetry.io/otel/sdk/log:
+│                        │     │                   go.opentelemetry.io/otel/trace: OpenTelemetry-Go: Denial of
+│                        │     │                   Service via attribute truncation bypass using Unicode
+│                        │     │                   replacement characters 
+│                        │     ├ Description     : OpenTelemetry-Go is the Go implementation of OpenTelemetry.
+│                        │     │                   From SDK version 1.33.0, SDK log version 0.9.0, and trace
+│                        │     │                   version 1.35.0 until version 1.47.0, the
+│                        │     │                   AttributeValueLengthLimit and WithAttributeValueLengthLimit
+│                        │     │                   truncation paths in sdk/internal/attrnorm,
+│                        │     │                   sdk/log/internal/attrnorm, and trace/auto.go do not count
+│                        │     │                   valid U+FFFD replacement characters. This is a distinct
+│                        │     │                   incomplete-fix defect in the replacement truncation code
+│                        │     │                   introduced by the remediation for CVE-2026-81869. Values
+│                        │     │                   composed of or dominated by those characters can therefore
+│                        │     │                   exceed the configured character and memory bound in span,
+│                        │     │                   log-record, and auto-instrumentation trace attributes.
+│                        │     │                   Attacker-controlled telemetry attributes can increase
+│                        │     │                   retained memory and pipeline pressure, while confidentiality
+│                        │     │                    and integrity are not affected. This issue is fixed in
+│                        │     │                   version 1.47.0. 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ CweIDs                  
+│                        │     │                  ───────
+│                        │     │                  CWE-135
+│                        │     │                  CWE-770
+│                        │     │                  
+│                        │     ├ VendorSeverity   ╭ ghsa  : 2 
+│                        │     │                  ╰ redhat: 2 
+│                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                        │     │                  │        │           /A:L 
+│                        │     │                  │        ╰ V3Score : 5.3 
+│                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                        │     │                           │           /A:L 
+│                        │     │                           ╰ V3Score : 5.3 
+│                        │     ├ References                                                                    
+│                        │     │                  ─────────────────────────────────────────────────────────────
+│                        │     │                  https://access.redhat.com/security/cve/CVE-2026-128085       
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go           
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go/commit/017
+│                        │     │                  b08c7f1018b619991aaf6b2299d4beb9da1d3                        
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go/releases/t
+│                        │     │                  ag/sdk/log/v1.47.0                                           
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go/releases/t
+│                        │     │                  ag/sdk/v1.47.0                                               
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go/releases/t
+│                        │     │                  ag/trace/v1.47.0                                             
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go/security/a
+│                        │     │                  dvisories/GHSA-q7gw-24fr-5p69                                
+│                        │     │                  https://nvd.nist.gov/vuln/detail/CVE-2026-128085             
+│                        │     │                                                                               
+│                        │     │                  https://www.cve.org/CVERecord?id=CVE-2026-128085             
+│                        │     │                                                                               
+│                        │     │                  
+│                        │     ├ PublishedDate   : 2026-11-13T19:19:31.193Z 
+│                        │     ╰ LastModifiedDate: 2026-11-13T19:19:31.193Z 
+│                        ├ [1] ╭ VulnerabilityID : CVE-2026-128085 
+│                        │     ├ VendorIDs                           
+│                        │     │                  ───────────────────
+│                        │     │                  GHSA-q7gw-24fr-5p69
+│                        │     │                  
+│                        │     ├ PkgID           : go.opentelemetry.io/otel/trace@v1.46.0 
+│                        │     ├ PkgName         : go.opentelemetry.io/otel/trace 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/go.opentelemetry.io/otel/trace@v1.46.0 
+│                        │     │                  ╰ UID : fb9df7a724d44460 
+│                        │     ├ InstalledVersion: v1.46.0 
+│                        │     ├ FixedVersion    : 1.47.0 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:547bfa781ac0cd413d84e92fed1e145e840262031ac9
+│                        │     │                  │         f6648f0991e6a62e1355 
+│                        │     │                  ╰ DiffID: sha256:8cba11289e64f072542f9acbd4e722a7b9626e1016ac
+│                        │     │                            4b61edb7249e1353543a 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-128085 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Go 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+│                        │     │                          cosystem%3Ago 
+│                        │     ├ Fingerprint     : sha256:af77ad8a624fdda82a014068174768a0bdec800b66d1711a996e1
+│                        │     │                   ce4a937e10f 
+│                        │     ├ Title           : go.opentelemetry.io/otel/sdk:
+│                        │     │                   go.opentelemetry.io/otel/sdk/log:
+│                        │     │                   go.opentelemetry.io/otel/trace: OpenTelemetry-Go: Denial of
+│                        │     │                   Service via attribute truncation bypass using Unicode
+│                        │     │                   replacement characters 
+│                        │     ├ Description     : OpenTelemetry-Go is the Go implementation of OpenTelemetry.
+│                        │     │                   From SDK version 1.33.0, SDK log version 0.9.0, and trace
+│                        │     │                   version 1.35.0 until version 1.47.0, the
+│                        │     │                   AttributeValueLengthLimit and WithAttributeValueLengthLimit
+│                        │     │                   truncation paths in sdk/internal/attrnorm,
+│                        │     │                   sdk/log/internal/attrnorm, and trace/auto.go do not count
+│                        │     │                   valid U+FFFD replacement characters. This is a distinct
+│                        │     │                   incomplete-fix defect in the replacement truncation code
+│                        │     │                   introduced by the remediation for CVE-2026-81869. Values
+│                        │     │                   composed of or dominated by those characters can therefore
+│                        │     │                   exceed the configured character and memory bound in span,
+│                        │     │                   log-record, and auto-instrumentation trace attributes.
+│                        │     │                   Attacker-controlled telemetry attributes can increase
+│                        │     │                   retained memory and pipeline pressure, while confidentiality
+│                        │     │                    and integrity are not affected. This issue is fixed in
+│                        │     │                   version 1.47.0. 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ CweIDs                  
+│                        │     │                  ───────
+│                        │     │                  CWE-135
+│                        │     │                  CWE-770
+│                        │     │                  
+│                        │     ├ VendorSeverity   ╭ ghsa  : 2 
+│                        │     │                  ╰ redhat: 2 
+│                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                        │     │                  │        │           /A:L 
+│                        │     │                  │        ╰ V3Score : 5.3 
+│                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                        │     │                           │           /A:L 
+│                        │     │                           ╰ V3Score : 5.3 
+│                        │     ├ References                                                                    
+│                        │     │                  ─────────────────────────────────────────────────────────────
+│                        │     │                  https://access.redhat.com/security/cve/CVE-2026-128085       
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go           
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go/commit/017
+│                        │     │                  b08c7f1018b619991aaf6b2299d4beb9da1d3                        
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go/releases/t
+│                        │     │                  ag/sdk/log/v1.47.0                                           
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go/releases/t
+│                        │     │                  ag/sdk/v1.47.0                                               
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go/releases/t
+│                        │     │                  ag/trace/v1.47.0                                             
+│                        │     │                  https://github.com/open-telemetry/opentelemetry-go/security/a
+│                        │     │                  dvisories/GHSA-q7gw-24fr-5p69                                
+│                        │     │                  https://nvd.nist.gov/vuln/detail/CVE-2026-128085             
+│                        │     │                                                                               
+│                        │     │                  https://www.cve.org/CVERecord?id=CVE-2026-128085             
+│                        │     │                                                                               
+│                        │     │                  
+│                        │     ├ PublishedDate   : 2026-11-13T19:19:31.193Z 
+│                        │     ╰ LastModifiedDate: 2026-11-13T19:19:31.193Z 
+│                        ├ [2] ╭ VulnerabilityID : GO-2026-5932 
 │                        │     ├ PkgID           : golang.org/x/crypto@v0.57.0 
 │                        │     ├ PkgName         : golang.org/x/crypto 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/crypto@v0.57.0 
@@ -20317,7 +21749,7 @@
 │                        │                        https://go.dev/issue/81227          
 │                        │                        https://pkg.go.dev/vuln/GO-2026-5932
 │                        │                        
-│                        ├ [1] ╭ VulnerabilityID : CVE-2026-78661 
+│                        ├ [3] ╭ VulnerabilityID : CVE-2026-78661 
 │                        │     ├ VendorIDs                    
 │                        │     │                  ────────────
 │                        │     │                  GO-2026-6860
@@ -20372,7 +21804,7 @@
 │                        │     │                  
 │                        │     ├ PublishedDate   : 2026-10-27T22:18:05.93Z 
 │                        │     ╰ LastModifiedDate: 2026-11-04T17:17:37.673Z 
-│                        ╰ [2] ╭ VulnerabilityID : CVE-2026-97045 
+│                        ╰ [4] ╭ VulnerabilityID : CVE-2026-97045 
 │                              ├ VendorIDs                    
 │                              │                  ────────────
 │                              │                  GO-2026-6866
@@ -20911,7 +22343,87 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-09-16T20:17:32.733Z 
 │                        │      ╰ LastModifiedDate: 2026-09-30T17:51:56.193Z 
-│                        ├ [6]  ╭ VulnerabilityID : CVE-2026-81870 
+│                        ├ [6]  ╭ VulnerabilityID : CVE-2026-128085 
+│                        │      ├ VendorIDs                           
+│                        │      │                  ───────────────────
+│                        │      │                  GHSA-q7gw-24fr-5p69
+│                        │      │                  
+│                        │      ├ PkgID           : go.opentelemetry.io/otel/sdk@v1.44.0 
+│                        │      ├ PkgName         : go.opentelemetry.io/otel/sdk 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/go.opentelemetry.io/otel/sdk@v1.44.0 
+│                        │      │                  ╰ UID : bb17d8b4f7c9d6ef 
+│                        │      ├ InstalledVersion: v1.44.0 
+│                        │      ├ FixedVersion    : 1.47.0 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:547bfa781ac0cd413d84e92fed1e145e840262031ac
+│                        │      │                  │         9f6648f0991e6a62e1355 
+│                        │      │                  ╰ DiffID: sha256:8cba11289e64f072542f9acbd4e722a7b9626e1016a
+│                        │      │                            c4b61edb7249e1353543a 
+│                        │      ├ SeveritySource  : ghsa 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-128085 
+│                        │      ├ DataSource       ╭ ID  : ghsa 
+│                        │      │                  ├ Name: GitHub Security Advisory Go 
+│                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+
+│                        │      │                          ecosystem%3Ago 
+│                        │      ├ Fingerprint     : sha256:7fae9dfbd3702490152ad67845a132ddea18128b7b0b1610698d
+│                        │      │                   e45fcb0a82bc 
+│                        │      ├ Title           : go.opentelemetry.io/otel/sdk:
+│                        │      │                   go.opentelemetry.io/otel/sdk/log:
+│                        │      │                   go.opentelemetry.io/otel/trace: OpenTelemetry-Go: Denial of
+│                        │      │                    Service via attribute truncation bypass using Unicode
+│                        │      │                   replacement characters 
+│                        │      ├ Description     : OpenTelemetry-Go is the Go implementation of OpenTelemetry.
+│                        │      │                    From SDK version 1.33.0, SDK log version 0.9.0, and trace
+│                        │      │                   version 1.35.0 until version 1.47.0, the
+│                        │      │                   AttributeValueLengthLimit and WithAttributeValueLengthLimit
+│                        │      │                    truncation paths in sdk/internal/attrnorm,
+│                        │      │                   sdk/log/internal/attrnorm, and trace/auto.go do not count
+│                        │      │                   valid U+FFFD replacement characters. This is a distinct
+│                        │      │                   incomplete-fix defect in the replacement truncation code
+│                        │      │                   introduced by the remediation for CVE-2026-81869. Values
+│                        │      │                   composed of or dominated by those characters can therefore
+│                        │      │                   exceed the configured character and memory bound in span,
+│                        │      │                   log-record, and auto-instrumentation trace attributes.
+│                        │      │                   Attacker-controlled telemetry attributes can increase
+│                        │      │                   retained memory and pipeline pressure, while
+│                        │      │                   confidentiality and integrity are not affected. This issue
+│                        │      │                   is fixed in version 1.47.0. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs                  
+│                        │      │                  ───────
+│                        │      │                  CWE-135
+│                        │      │                  CWE-770
+│                        │      │                  
+│                        │      ├ VendorSeverity   ╭ ghsa  : 2 
+│                        │      │                  ╰ redhat: 2 
+│                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │      │                  │        │           N/A:L 
+│                        │      │                  │        ╰ V3Score : 5.3 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │      │                           │           N/A:L 
+│                        │      │                           ╰ V3Score : 5.3 
+│                        │      ├ References                                                                   
+│                        │      │                  ────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/security/cve/CVE-2026-128085      
+│                        │      │                  https://github.com/open-telemetry/opentelemetry-go          
+│                        │      │                  https://github.com/open-telemetry/opentelemetry-go/commit/01
+│                        │      │                  7b08c7f1018b619991aaf6b2299d4beb9da1d3                      
+│                        │      │                  https://github.com/open-telemetry/opentelemetry-go/releases/
+│                        │      │                  tag/sdk/log/v1.47.0                                         
+│                        │      │                  https://github.com/open-telemetry/opentelemetry-go/releases/
+│                        │      │                  tag/sdk/v1.47.0                                             
+│                        │      │                  https://github.com/open-telemetry/opentelemetry-go/releases/
+│                        │      │                  tag/trace/v1.47.0                                           
+│                        │      │                  https://github.com/open-telemetry/opentelemetry-go/security/
+│                        │      │                  advisories/GHSA-q7gw-24fr-5p69                              
+│                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-128085            
+│                        │      │                                                                              
+│                        │      │                  https://www.cve.org/CVERecord?id=CVE-2026-128085            
+│                        │      │                                                                              
+│                        │      │                  
+│                        │      ├ PublishedDate   : 2026-11-13T19:19:31.193Z 
+│                        │      ╰ LastModifiedDate: 2026-11-13T19:19:31.193Z 
+│                        ├ [7]  ╭ VulnerabilityID : CVE-2026-81870 
 │                        │      ├ VendorIDs                           
 │                        │      │                  ───────────────────
 │                        │      │                  GHSA-8wmf-6v46-5gfg
@@ -20991,7 +22503,87 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-09-16T20:17:32.733Z 
 │                        │      ╰ LastModifiedDate: 2026-09-30T17:51:56.193Z 
-│                        ├ [7]  ╭ VulnerabilityID : CVE-2026-56855 
+│                        ├ [8]  ╭ VulnerabilityID : CVE-2026-128085 
+│                        │      ├ VendorIDs                           
+│                        │      │                  ───────────────────
+│                        │      │                  GHSA-q7gw-24fr-5p69
+│                        │      │                  
+│                        │      ├ PkgID           : go.opentelemetry.io/otel/trace@v1.44.0 
+│                        │      ├ PkgName         : go.opentelemetry.io/otel/trace 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/go.opentelemetry.io/otel/trace@v1.44.0 
+│                        │      │                  ╰ UID : 5269b116e77ac3 
+│                        │      ├ InstalledVersion: v1.44.0 
+│                        │      ├ FixedVersion    : 1.47.0 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:547bfa781ac0cd413d84e92fed1e145e840262031ac
+│                        │      │                  │         9f6648f0991e6a62e1355 
+│                        │      │                  ╰ DiffID: sha256:8cba11289e64f072542f9acbd4e722a7b9626e1016a
+│                        │      │                            c4b61edb7249e1353543a 
+│                        │      ├ SeveritySource  : ghsa 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-128085 
+│                        │      ├ DataSource       ╭ ID  : ghsa 
+│                        │      │                  ├ Name: GitHub Security Advisory Go 
+│                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+
+│                        │      │                          ecosystem%3Ago 
+│                        │      ├ Fingerprint     : sha256:aa5324355e0f9b9e2b17fa1a6998a1122439b718fd3be1539a77
+│                        │      │                   86e65db13e82 
+│                        │      ├ Title           : go.opentelemetry.io/otel/sdk:
+│                        │      │                   go.opentelemetry.io/otel/sdk/log:
+│                        │      │                   go.opentelemetry.io/otel/trace: OpenTelemetry-Go: Denial of
+│                        │      │                    Service via attribute truncation bypass using Unicode
+│                        │      │                   replacement characters 
+│                        │      ├ Description     : OpenTelemetry-Go is the Go implementation of OpenTelemetry.
+│                        │      │                    From SDK version 1.33.0, SDK log version 0.9.0, and trace
+│                        │      │                   version 1.35.0 until version 1.47.0, the
+│                        │      │                   AttributeValueLengthLimit and WithAttributeValueLengthLimit
+│                        │      │                    truncation paths in sdk/internal/attrnorm,
+│                        │      │                   sdk/log/internal/attrnorm, and trace/auto.go do not count
+│                        │      │                   valid U+FFFD replacement characters. This is a distinct
+│                        │      │                   incomplete-fix defect in the replacement truncation code
+│                        │      │                   introduced by the remediation for CVE-2026-81869. Values
+│                        │      │                   composed of or dominated by those characters can therefore
+│                        │      │                   exceed the configured character and memory bound in span,
+│                        │      │                   log-record, and auto-instrumentation trace attributes.
+│                        │      │                   Attacker-controlled telemetry attributes can increase
+│                        │      │                   retained memory and pipeline pressure, while
+│                        │      │                   confidentiality and integrity are not affected. This issue
+│                        │      │                   is fixed in version 1.47.0. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs                  
+│                        │      │                  ───────
+│                        │      │                  CWE-135
+│                        │      │                  CWE-770
+│                        │      │                  
+│                        │      ├ VendorSeverity   ╭ ghsa  : 2 
+│                        │      │                  ╰ redhat: 2 
+│                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │      │                  │        │           N/A:L 
+│                        │      │                  │        ╰ V3Score : 5.3 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │      │                           │           N/A:L 
+│                        │      │                           ╰ V3Score : 5.3 
+│                        │      ├ References                                                                   
+│                        │      │                  ────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/security/cve/CVE-2026-128085      
+│                        │      │                  https://github.com/open-telemetry/opentelemetry-go          
+│                        │      │                  https://github.com/open-telemetry/opentelemetry-go/commit/01
+│                        │      │                  7b08c7f1018b619991aaf6b2299d4beb9da1d3                      
+│                        │      │                  https://github.com/open-telemetry/opentelemetry-go/releases/
+│                        │      │                  tag/sdk/log/v1.47.0                                         
+│                        │      │                  https://github.com/open-telemetry/opentelemetry-go/releases/
+│                        │      │                  tag/sdk/v1.47.0                                             
+│                        │      │                  https://github.com/open-telemetry/opentelemetry-go/releases/
+│                        │      │                  tag/trace/v1.47.0                                           
+│                        │      │                  https://github.com/open-telemetry/opentelemetry-go/security/
+│                        │      │                  advisories/GHSA-q7gw-24fr-5p69                              
+│                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-128085            
+│                        │      │                                                                              
+│                        │      │                  https://www.cve.org/CVERecord?id=CVE-2026-128085            
+│                        │      │                                                                              
+│                        │      │                  
+│                        │      ├ PublishedDate   : 2026-11-13T19:19:31.193Z 
+│                        │      ╰ LastModifiedDate: 2026-11-13T19:19:31.193Z 
+│                        ├ [9]  ╭ VulnerabilityID : CVE-2026-56855 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6355
@@ -21064,7 +22656,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-09-02T20:17:36.397Z 
 │                        │      ╰ LastModifiedDate: 2026-09-04T16:34:56.823Z 
-│                        ├ [8]  ╭ VulnerabilityID : CVE-2026-78662 
+│                        ├ [10] ╭ VulnerabilityID : CVE-2026-78662 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6354
@@ -21119,7 +22711,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-09-02T20:17:37.167Z 
 │                        │      ╰ LastModifiedDate: 2026-09-04T16:33:34.057Z 
-│                        ├ [9]  ╭ VulnerabilityID : GO-2026-5932 
+│                        ├ [11] ╭ VulnerabilityID : GO-2026-5932 
 │                        │      ├ PkgID           : golang.org/x/crypto@v0.55.0 
 │                        │      ├ PkgName         : golang.org/x/crypto 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/crypto@v0.55.0 
@@ -21154,7 +22746,7 @@
 │                        │                         https://go.dev/issue/81227          
 │                        │                         https://pkg.go.dev/vuln/GO-2026-5932
 │                        │                         
-│                        ├ [10] ╭ VulnerabilityID : CVE-2026-78661 
+│                        ├ [12] ╭ VulnerabilityID : CVE-2026-78661 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6860
@@ -21199,7 +22791,7 @@
 │                        │      │                           ╰ V3Score : 7.5 
 │                        │      ├ References                                                                
 │                        │      │                  ─────────────────────────────────────────────────────────
-│                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2548340      
+│                        │      │                  https://access.redhat.com/security/cve/CVE-2026-78661    
 │                        │      │                  https://go.dev/cl/849365                                 
 │                        │      │                  https://go.dev/issue/82224                               
 │                        │      │                  https://groups.google.com/g/golang-announce/c/sqrs2vTx_Xs
@@ -21209,7 +22801,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-27T22:18:05.93Z 
 │                        │      ╰ LastModifiedDate: 2026-11-04T17:17:37.673Z 
-│                        ├ [11] ╭ VulnerabilityID : CVE-2026-78669 
+│                        ├ [13] ╭ VulnerabilityID : CVE-2026-78669 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6611
@@ -21294,7 +22886,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-08T23:17:04.01Z 
 │                        │      ╰ LastModifiedDate: 2026-10-09T17:16:49.857Z 
-│                        ├ [12] ╭ VulnerabilityID : CVE-2026-78659 
+│                        ├ [14] ╭ VulnerabilityID : CVE-2026-78659 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6603
@@ -21376,7 +22968,7 @@
 │                        │      │                  https://creativecommons.org/licenses/by/4.0/                  
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-111943
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56866 
-│                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78659 
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:63016              
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78660 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78663 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78667 
@@ -21405,7 +22997,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-08T23:17:03.27Z 
 │                        │      ╰ LastModifiedDate: 2026-10-09T16:35:35.9Z 
-│                        ├ [13] ╭ VulnerabilityID : CVE-2026-78660 
+│                        ├ [15] ╭ VulnerabilityID : CVE-2026-78660 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6610
@@ -21510,7 +23102,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-08T23:17:03.51Z 
 │                        │      ╰ LastModifiedDate: 2026-10-09T17:16:49.243Z 
-│                        ├ [14] ╭ VulnerabilityID : CVE-2026-78663 
+│                        ├ [16] ╭ VulnerabilityID : CVE-2026-78663 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6612
@@ -21618,7 +23210,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-08T23:17:03.647Z 
 │                        │      ╰ LastModifiedDate: 2026-10-09T17:16:49.42Z 
-│                        ├ [15] ╭ VulnerabilityID : CVE-2026-97032 
+│                        ├ [17] ╭ VulnerabilityID : CVE-2026-97032 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6617
@@ -21726,7 +23318,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-08T23:17:06.213Z 
 │                        │      ╰ LastModifiedDate: 2026-10-15T16:18:24.967Z 
-│                        ├ [16] ╭ VulnerabilityID : CVE-2026-97045 
+│                        ├ [18] ╭ VulnerabilityID : CVE-2026-97045 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6866
@@ -21784,7 +23376,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-27T22:19:22.613Z 
 │                        │      ╰ LastModifiedDate: 2026-11-04T17:17:38.33Z 
-│                        ╰ [17] ╭ VulnerabilityID : CVE-2026-97054 
+│                        ╰ [19] ╭ VulnerabilityID : CVE-2026-97054 
 │                               ├ VendorIDs                    
 │                               │                  ────────────
 │                               │                  GO-2026-6859
@@ -21963,9 +23555,9 @@
 │                        │      │                    the substituted manifest. This issue is fixed in version
 │                        │      │                   3.1.2. 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ CweIDs                  
-│                        │      │                  ───────
-│                        │      │                  CWE-354
+│                        │      ├ CweIDs                                                                  
+│                        │      │                  ───────────────────────────────────────────────────────
+│                        │      │                  http://www.openwall.com/lists/oss-security/2026/05/05/1
 │                        │      │                  
 │                        │      ├ VendorSeverity   ╭ bitnami: 2 
 │                        │      │                  ├ ghsa   : 2 
@@ -22563,8 +24155,8 @@
 │                        │      │                  ────────────────────────────────────────────────────────────
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-61801       
 │                        │      │                  https://github.com/moby/sys                                 
-│                        │      │                  https://github.com/libexpat/libexpat/commit/209801d7fbaf07ab
-│                        │      │                  74bae8cb32dd2ab9e5846118                                    
+│                        │      │                  https://github.com/moby/sys/commit/85a71bbe1faa36c552a960e6a
+│                        │      │                  5f3d0cfb632fbbe                                             
 │                        │      │                  https://github.com/moby/sys/pull/221                        
 │                        │      │                                                                              
 │                        │      │                  https://github.com/moby/sys/security/advisories/GHSA-mjcv-p7
@@ -22740,7 +24332,87 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-09-16T20:17:32.733Z 
 │                        │      ╰ LastModifiedDate: 2026-09-30T17:51:56.193Z 
-│                        ├ [11] ╭ VulnerabilityID : CVE-2026-81870 
+│                        ├ [11] ╭ VulnerabilityID : CVE-2026-128085 
+│                        │      ├ VendorIDs                           
+│                        │      │                  ───────────────────
+│                        │      │                  GHSA-q7gw-24fr-5p69
+│                        │      │                  
+│                        │      ├ PkgID           : go.opentelemetry.io/otel/sdk@v1.44.0 
+│                        │      ├ PkgName         : go.opentelemetry.io/otel/sdk 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/go.opentelemetry.io/otel/sdk@v1.44.0 
+│                        │      │                  ╰ UID : 6c9c64d16836432a 
+│                        │      ├ InstalledVersion: v1.44.0 
+│                        │      ├ FixedVersion    : 1.47.0 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:547bfa781ac0cd413d84e92fed1e145e840262031ac
+│                        │      │                  │         9f6648f0991e6a62e1355 
+│                        │      │                  ╰ DiffID: sha256:8cba11289e64f072542f9acbd4e722a7b9626e1016a
+│                        │      │                            c4b61edb7249e1353543a 
+│                        │      ├ SeveritySource  : ghsa 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-128085 
+│                        │      ├ DataSource       ╭ ID  : ghsa 
+│                        │      │                  ├ Name: GitHub Security Advisory Go 
+│                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+
+│                        │      │                          ecosystem%3Ago 
+│                        │      ├ Fingerprint     : sha256:0c89fd7cc64c8a774d1cf45ec253f5527a52e851d02e08a1115b
+│                        │      │                   113487b7ff28 
+│                        │      ├ Title           : go.opentelemetry.io/otel/sdk:
+│                        │      │                   go.opentelemetry.io/otel/sdk/log:
+│                        │      │                   go.opentelemetry.io/otel/trace: OpenTelemetry-Go: Denial of
+│                        │      │                    Service via attribute truncation bypass using Unicode
+│                        │      │                   replacement characters 
+│                        │      ├ Description     : OpenTelemetry-Go is the Go implementation of OpenTelemetry.
+│                        │      │                    From SDK version 1.33.0, SDK log version 0.9.0, and trace
+│                        │      │                   version 1.35.0 until version 1.47.0, the
+│                        │      │                   AttributeValueLengthLimit and WithAttributeValueLengthLimit
+│                        │      │                    truncation paths in sdk/internal/attrnorm,
+│                        │      │                   sdk/log/internal/attrnorm, and trace/auto.go do not count
+│                        │      │                   valid U+FFFD replacement characters. This is a distinct
+│                        │      │                   incomplete-fix defect in the replacement truncation code
+│                        │      │                   introduced by the remediation for CVE-2026-81869. Values
+│                        │      │                   composed of or dominated by those characters can therefore
+│                        │      │                   exceed the configured character and memory bound in span,
+│                        │      │                   log-record, and auto-instrumentation trace attributes.
+│                        │      │                   Attacker-controlled telemetry attributes can increase
+│                        │      │                   retained memory and pipeline pressure, while
+│                        │      │                   confidentiality and integrity are not affected. This issue
+│                        │      │                   is fixed in version 1.47.0. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs                  
+│                        │      │                  ───────
+│                        │      │                  CWE-135
+│                        │      │                  CWE-770
+│                        │      │                  
+│                        │      ├ VendorSeverity   ╭ ghsa  : 2 
+│                        │      │                  ╰ redhat: 2 
+│                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │      │                  │        │           N/A:L 
+│                        │      │                  │        ╰ V3Score : 5.3 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │      │                           │           N/A:L 
+│                        │      │                           ╰ V3Score : 5.3 
+│                        │      ├ References                                                                   
+│                        │      │                  ────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/security/cve/CVE-2026-128085      
+│                        │      │                  https://github.com/open-telemetry/opentelemetry-go          
+│                        │      │                  https://github.com/open-telemetry/opentelemetry-go/commit/01
+│                        │      │                  7b08c7f1018b619991aaf6b2299d4beb9da1d3                      
+│                        │      │                  https://github.com/open-telemetry/opentelemetry-go/releases/
+│                        │      │                  tag/sdk/log/v1.47.0                                         
+│                        │      │                  https://github.com/open-telemetry/opentelemetry-go/releases/
+│                        │      │                  tag/sdk/v1.47.0                                             
+│                        │      │                  https://github.com/open-telemetry/opentelemetry-go/releases/
+│                        │      │                  tag/trace/v1.47.0                                           
+│                        │      │                  https://github.com/open-telemetry/opentelemetry-go/security/
+│                        │      │                  advisories/GHSA-q7gw-24fr-5p69                              
+│                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-128085            
+│                        │      │                                                                              
+│                        │      │                  https://www.cve.org/CVERecord?id=CVE-2026-128085            
+│                        │      │                                                                              
+│                        │      │                  
+│                        │      ├ PublishedDate   : 2026-11-13T19:19:31.193Z 
+│                        │      ╰ LastModifiedDate: 2026-11-13T19:19:31.193Z 
+│                        ├ [12] ╭ VulnerabilityID : CVE-2026-81870 
 │                        │      ├ VendorIDs                           
 │                        │      │                  ───────────────────
 │                        │      │                  GHSA-8wmf-6v46-5gfg
@@ -22820,7 +24492,87 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-09-16T20:17:32.733Z 
 │                        │      ╰ LastModifiedDate: 2026-09-30T17:51:56.193Z 
-│                        ├ [12] ╭ VulnerabilityID : CVE-2026-56864 
+│                        ├ [13] ╭ VulnerabilityID : CVE-2026-128085 
+│                        │      ├ VendorIDs                           
+│                        │      │                  ───────────────────
+│                        │      │                  GHSA-q7gw-24fr-5p69
+│                        │      │                  
+│                        │      ├ PkgID           : go.opentelemetry.io/otel/trace@v1.44.0 
+│                        │      ├ PkgName         : go.opentelemetry.io/otel/trace 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/go.opentelemetry.io/otel/trace@v1.44.0 
+│                        │      │                  ╰ UID : 3addf9312e38467e 
+│                        │      ├ InstalledVersion: v1.44.0 
+│                        │      ├ FixedVersion    : 1.47.0 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:547bfa781ac0cd413d84e92fed1e145e840262031ac
+│                        │      │                  │         9f6648f0991e6a62e1355 
+│                        │      │                  ╰ DiffID: sha256:8cba11289e64f072542f9acbd4e722a7b9626e1016a
+│                        │      │                            c4b61edb7249e1353543a 
+│                        │      ├ SeveritySource  : ghsa 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-128085 
+│                        │      ├ DataSource       ╭ ID  : ghsa 
+│                        │      │                  ├ Name: GitHub Security Advisory Go 
+│                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+
+│                        │      │                          ecosystem%3Ago 
+│                        │      ├ Fingerprint     : sha256:426d2428823ccf3cc496a90a50af57d8ce8209fe488afaacd84a
+│                        │      │                   cdca632a4c3b 
+│                        │      ├ Title           : go.opentelemetry.io/otel/sdk:
+│                        │      │                   go.opentelemetry.io/otel/sdk/log:
+│                        │      │                   go.opentelemetry.io/otel/trace: OpenTelemetry-Go: Denial of
+│                        │      │                    Service via attribute truncation bypass using Unicode
+│                        │      │                   replacement characters 
+│                        │      ├ Description     : OpenTelemetry-Go is the Go implementation of OpenTelemetry.
+│                        │      │                    From SDK version 1.33.0, SDK log version 0.9.0, and trace
+│                        │      │                   version 1.35.0 until version 1.47.0, the
+│                        │      │                   AttributeValueLengthLimit and WithAttributeValueLengthLimit
+│                        │      │                    truncation paths in sdk/internal/attrnorm,
+│                        │      │                   sdk/log/internal/attrnorm, and trace/auto.go do not count
+│                        │      │                   valid U+FFFD replacement characters. This is a distinct
+│                        │      │                   incomplete-fix defect in the replacement truncation code
+│                        │      │                   introduced by the remediation for CVE-2026-81869. Values
+│                        │      │                   composed of or dominated by those characters can therefore
+│                        │      │                   exceed the configured character and memory bound in span,
+│                        │      │                   log-record, and auto-instrumentation trace attributes.
+│                        │      │                   Attacker-controlled telemetry attributes can increase
+│                        │      │                   retained memory and pipeline pressure, while
+│                        │      │                   confidentiality and integrity are not affected. This issue
+│                        │      │                   is fixed in version 1.47.0. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs                  
+│                        │      │                  ───────
+│                        │      │                  CWE-135
+│                        │      │                  CWE-770
+│                        │      │                  
+│                        │      ├ VendorSeverity   ╭ ghsa  : 2 
+│                        │      │                  ╰ redhat: 2 
+│                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │      │                  │        │           N/A:L 
+│                        │      │                  │        ╰ V3Score : 5.3 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                        │      │                           │           N/A:L 
+│                        │      │                           ╰ V3Score : 5.3 
+│                        │      ├ References                                                                   
+│                        │      │                  ────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/security/cve/CVE-2026-128085      
+│                        │      │                  https://github.com/open-telemetry/opentelemetry-go          
+│                        │      │                  https://github.com/open-telemetry/opentelemetry-go/commit/01
+│                        │      │                  7b08c7f1018b619991aaf6b2299d4beb9da1d3                      
+│                        │      │                  https://github.com/open-telemetry/opentelemetry-go/releases/
+│                        │      │                  tag/sdk/log/v1.47.0                                         
+│                        │      │                  https://github.com/open-telemetry/opentelemetry-go/releases/
+│                        │      │                  tag/sdk/v1.47.0                                             
+│                        │      │                  https://github.com/open-telemetry/opentelemetry-go/releases/
+│                        │      │                  tag/trace/v1.47.0                                           
+│                        │      │                  https://github.com/open-telemetry/opentelemetry-go/security/
+│                        │      │                  advisories/GHSA-q7gw-24fr-5p69                              
+│                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-128085            
+│                        │      │                                                                              
+│                        │      │                  https://www.cve.org/CVERecord?id=CVE-2026-128085            
+│                        │      │                                                                              
+│                        │      │                  
+│                        │      ├ PublishedDate   : 2026-11-13T19:19:31.193Z 
+│                        │      ╰ LastModifiedDate: 2026-11-13T19:19:31.193Z 
+│                        ├ [14] ╭ VulnerabilityID : CVE-2026-56864 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6180
@@ -22879,7 +24631,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-08-13T22:17:22.677Z 
 │                        │      ╰ LastModifiedDate: 2026-09-03T16:37:52.17Z 
-│                        ├ [13] ╭ VulnerabilityID : CVE-2026-56865 
+│                        ├ [15] ╭ VulnerabilityID : CVE-2026-56865 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6179
@@ -22946,7 +24698,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-08-13T22:17:22.797Z 
 │                        │      ╰ LastModifiedDate: 2026-09-03T16:37:52.17Z 
-│                        ├ [14] ╭ VulnerabilityID : CVE-2026-46600 
+│                        ├ [16] ╭ VulnerabilityID : CVE-2026-46600 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-5942
@@ -22992,7 +24744,7 @@
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-46600    
 │                        │      │                  https://advisory.echohq.com/cve/CVE-2026-46600           
 │                        │      │                  https://go.dev/cl/786345                                 
-│                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2519648      
+│                        │      │                  https://go.dev/issue/79795                               
 │                        │      │                  https://groups.google.com/g/golang-announce/c/94pEornpRlI
 │                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-46600          
 │                        │      │                  https://pkg.go.dev/vuln/GO-2026-5942                     
@@ -23000,7 +24752,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-07-21T20:17:01.213Z 
 │                        │      ╰ LastModifiedDate: 2026-10-24T19:10:00.127Z 
-│                        ├ [15] ╭ VulnerabilityID : CVE-2026-78661 
+│                        ├ [17] ╭ VulnerabilityID : CVE-2026-78661 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6860
@@ -23055,7 +24807,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-27T22:18:05.93Z 
 │                        │      ╰ LastModifiedDate: 2026-11-04T17:17:37.673Z 
-│                        ├ [16] ╭ VulnerabilityID : CVE-2026-78669 
+│                        ├ [18] ╭ VulnerabilityID : CVE-2026-78669 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6611
@@ -23140,7 +24892,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-08T23:17:04.01Z 
 │                        │      ╰ LastModifiedDate: 2026-10-09T17:16:49.857Z 
-│                        ├ [17] ╭ VulnerabilityID : CVE-2026-78659 
+│                        ├ [19] ╭ VulnerabilityID : CVE-2026-78659 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6603
@@ -23215,7 +24967,7 @@
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2548342           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2548343           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2548344           
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:72475              
+│                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2548345           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2548346           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2548347           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556068           
@@ -23251,7 +25003,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-08T23:17:03.27Z 
 │                        │      ╰ LastModifiedDate: 2026-10-09T16:35:35.9Z 
-│                        ├ [18] ╭ VulnerabilityID : CVE-2026-78660 
+│                        ├ [20] ╭ VulnerabilityID : CVE-2026-78660 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6610
@@ -23356,7 +25108,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-08T23:17:03.51Z 
 │                        │      ╰ LastModifiedDate: 2026-10-09T17:16:49.243Z 
-│                        ├ [19] ╭ VulnerabilityID : CVE-2026-78663 
+│                        ├ [21] ╭ VulnerabilityID : CVE-2026-78663 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6612
@@ -23464,7 +25216,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-08T23:17:03.647Z 
 │                        │      ╰ LastModifiedDate: 2026-10-09T17:16:49.42Z 
-│                        ├ [20] ╭ VulnerabilityID : CVE-2026-97032 
+│                        ├ [22] ╭ VulnerabilityID : CVE-2026-97032 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6617
@@ -23572,7 +25324,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-08T23:17:06.213Z 
 │                        │      ╰ LastModifiedDate: 2026-10-15T16:18:24.967Z 
-│                        ├ [21] ╭ VulnerabilityID : CVE-2026-97045 
+│                        ├ [23] ╭ VulnerabilityID : CVE-2026-97045 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6866
@@ -23630,7 +25382,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-27T22:19:22.613Z 
 │                        │      ╰ LastModifiedDate: 2026-11-04T17:17:38.33Z 
-│                        ├ [22] ╭ VulnerabilityID : CVE-2026-56851 
+│                        ├ [24] ╭ VulnerabilityID : CVE-2026-56851 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6629
@@ -23680,7 +25432,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-07T18:17:20.903Z 
 │                        │      ╰ LastModifiedDate: 2026-10-08T21:35:53.89Z 
-│                        ├ [23] ╭ VulnerabilityID : CVE-2026-56852 
+│                        ├ [25] ╭ VulnerabilityID : CVE-2026-56852 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-5970
@@ -23769,7 +25521,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-07-21T20:17:02.867Z 
 │                        │      ╰ LastModifiedDate: 2026-10-24T19:10:00.127Z 
-│                        ├ [24] ╭ VulnerabilityID : CVE-2026-84304 
+│                        ├ [26] ╭ VulnerabilityID : CVE-2026-84304 
 │                        │      ├ VendorIDs                           
 │                        │      │                  ───────────────────
 │                        │      │                  GHSA-vp52-pcj8-j9qc
@@ -23848,7 +25600,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-09-01T19:17:30.743Z 
 │                        │      ╰ LastModifiedDate: 2026-09-09T21:09:13.08Z 
-│                        ├ [25] ╭ VulnerabilityID : CVE-2026-84445 
+│                        ├ [27] ╭ VulnerabilityID : CVE-2026-84445 
 │                        │      ├ VendorIDs                           
 │                        │      │                  ───────────────────
 │                        │      │                  GHSA-2v4p-qf9q-27wj
@@ -23951,7 +25703,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-09-14T17:17:51.743Z 
 │                        │      ╰ LastModifiedDate: 2026-09-25T14:10:13.927Z 
-│                        ├ [26] ╭ VulnerabilityID : GHSA-hrxh-6v49-42gf 
+│                        ├ [28] ╭ VulnerabilityID : GHSA-hrxh-6v49-42gf 
 │                        │      ├ PkgID           : google.golang.org/grpc@v1.81.1 
 │                        │      ├ PkgName         : google.golang.org/grpc 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/google.golang.org/grpc@v1.81.1 
@@ -24083,7 +25835,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-07-21T22:03:55Z 
 │                        │      ╰ LastModifiedDate: 2026-07-21T22:03:56Z 
-│                        ├ [27] ╭ VulnerabilityID : CVE-2026-84303 
+│                        ├ [29] ╭ VulnerabilityID : CVE-2026-84303 
 │                        │      ├ VendorIDs                           
 │                        │      │                  ───────────────────
 │                        │      │                  GHSA-qc2q-p7wx-3px3
@@ -24157,7 +25909,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-09-01T19:17:30.6Z 
 │                        │      ╰ LastModifiedDate: 2026-09-09T21:09:13.08Z 
-│                        ├ [28] ╭ VulnerabilityID : CVE-2026-111943 
+│                        ├ [30] ╭ VulnerabilityID : CVE-2026-111943 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6809
@@ -24228,7 +25980,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-21T01:17:20.797Z 
 │                        │      ╰ LastModifiedDate: 2026-10-30T13:18:28.74Z 
-│                        ├ [29] ╭ VulnerabilityID : CVE-2026-27145 
+│                        ├ [31] ╭ VulnerabilityID : CVE-2026-27145 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-5037
@@ -24369,7 +26121,7 @@
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:60388            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:60390            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:60391            
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:61253            
+│                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556068         
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:61314            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:63016            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:66022            
@@ -24413,7 +26165,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-06-02T23:16:35.57Z 
 │                        │      ╰ LastModifiedDate: 2026-09-18T13:17:43.283Z 
-│                        ├ [30] ╭ VulnerabilityID : CVE-2026-33818 
+│                        ├ [32] ╭ VulnerabilityID : CVE-2026-33818 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-5972
@@ -24491,7 +26243,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-08-13T22:17:19.84Z 
 │                        │      ╰ LastModifiedDate: 2026-09-03T16:37:52.17Z 
-│                        ├ [31] ╭ VulnerabilityID : CVE-2026-39821 
+│                        ├ [33] ╭ VulnerabilityID : CVE-2026-39821 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-5026
@@ -24774,7 +26526,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-05-22T16:16:20.41Z 
 │                        │      ╰ LastModifiedDate: 2026-09-17T12:18:05.767Z 
-│                        ├ [32] ╭ VulnerabilityID : CVE-2026-39822 
+│                        ├ [34] ╭ VulnerabilityID : CVE-2026-39822 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-4970
@@ -24851,7 +26603,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-07-08T17:17:21.31Z 
 │                        │      ╰ LastModifiedDate: 2026-10-25T17:10:00.197Z 
-│                        ├ [33] ╭ VulnerabilityID : CVE-2026-42504 
+│                        ├ [35] ╭ VulnerabilityID : CVE-2026-42504 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-5038
@@ -24937,7 +26689,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-06-02T23:16:37.927Z 
 │                        │      ╰ LastModifiedDate: 2026-07-22T19:10:00.12Z 
-│                        ├ [34] ╭ VulnerabilityID : CVE-2026-46600 
+│                        ├ [36] ╭ VulnerabilityID : CVE-2026-46600 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-5942
@@ -24991,7 +26743,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-07-21T20:17:01.213Z 
 │                        │      ╰ LastModifiedDate: 2026-10-24T19:10:00.127Z 
-│                        ├ [35] ╭ VulnerabilityID : CVE-2026-56853 
+│                        ├ [37] ╭ VulnerabilityID : CVE-2026-56853 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6089
@@ -25081,7 +26833,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-08-13T22:17:22.093Z 
 │                        │      ╰ LastModifiedDate: 2026-09-03T16:37:52.17Z 
-│                        ├ [36] ╭ VulnerabilityID : CVE-2026-56858 
+│                        ├ [38] ╭ VulnerabilityID : CVE-2026-56858 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6091
@@ -25170,7 +26922,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-08-13T22:17:22.207Z 
 │                        │      ╰ LastModifiedDate: 2026-09-03T16:37:52.17Z 
-│                        ├ [37] ╭ VulnerabilityID : CVE-2026-56859 
+│                        ├ [39] ╭ VulnerabilityID : CVE-2026-56859 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6088
@@ -25265,7 +27017,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-08-13T22:17:22.32Z 
 │                        │      ╰ LastModifiedDate: 2026-09-03T16:37:52.17Z 
-│                        ├ [38] ╭ VulnerabilityID : CVE-2026-56860 
+│                        ├ [40] ╭ VulnerabilityID : CVE-2026-56860 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6218
@@ -25345,7 +27097,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-08-13T22:17:22.44Z 
 │                        │      ╰ LastModifiedDate: 2026-09-03T16:37:52.17Z 
-│                        ├ [39] ╭ VulnerabilityID : CVE-2026-56862 
+│                        ├ [41] ╭ VulnerabilityID : CVE-2026-56862 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6090
@@ -25426,7 +27178,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-08-13T22:17:22.55Z 
 │                        │      ╰ LastModifiedDate: 2026-10-24T16:10:00.153Z 
-│                        ├ [40] ╭ VulnerabilityID : CVE-2026-78667 
+│                        ├ [42] ╭ VulnerabilityID : CVE-2026-78667 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6609
@@ -25502,7 +27254,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-08T23:17:03.88Z 
 │                        │      ╰ LastModifiedDate: 2026-10-09T17:16:49.69Z 
-│                        ├ [41] ╭ VulnerabilityID : CVE-2026-78669 
+│                        ├ [43] ╭ VulnerabilityID : CVE-2026-78669 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6611
@@ -25587,7 +27339,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-08T23:17:04.01Z 
 │                        │      ╰ LastModifiedDate: 2026-10-09T17:16:49.857Z 
-│                        ├ [42] ╭ VulnerabilityID : CVE-2026-97031 
+│                        ├ [44] ╭ VulnerabilityID : CVE-2026-97031 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6607
@@ -25663,7 +27415,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-08T23:17:06.037Z 
 │                        │      ╰ LastModifiedDate: 2026-10-09T16:35:35.9Z 
-│                        ├ [43] ╭ VulnerabilityID : CVE-2026-42505 
+│                        ├ [45] ╭ VulnerabilityID : CVE-2026-42505 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-5856
@@ -25725,10 +27477,10 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-07-08T17:17:21.497Z 
 │                        │      ╰ LastModifiedDate: 2026-10-25T17:10:00.197Z 
-│                        ├ [44] ╭ VulnerabilityID : CVE-2026-42507 
+│                        ├ [46] ╭ VulnerabilityID : CVE-2026-42507 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
-│                        │      │                  GO-2026-5039
+│                        │      │                  CWE-1021    
 │                        │      │                  
 │                        │      ├ PkgID           : stdlib@v1.26.3 
 │                        │      ├ PkgName         : stdlib 
@@ -25792,7 +27544,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-06-02T23:16:38.027Z 
 │                        │      ╰ LastModifiedDate: 2026-07-22T19:10:00.12Z 
-│                        ├ [45] ╭ VulnerabilityID : CVE-2026-56866 
+│                        ├ [47] ╭ VulnerabilityID : CVE-2026-56866 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6605
@@ -25901,7 +27653,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-08T23:17:01.62Z 
 │                        │      ╰ LastModifiedDate: 2026-10-09T16:35:35.9Z 
-│                        ├ [46] ╭ VulnerabilityID : CVE-2026-78659 
+│                        ├ [48] ╭ VulnerabilityID : CVE-2026-78659 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6603
@@ -26012,7 +27764,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-08T23:17:03.27Z 
 │                        │      ╰ LastModifiedDate: 2026-10-09T16:35:35.9Z 
-│                        ├ [47] ╭ VulnerabilityID : CVE-2026-78660 
+│                        ├ [49] ╭ VulnerabilityID : CVE-2026-78660 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6610
@@ -26117,7 +27869,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-08T23:17:03.51Z 
 │                        │      ╰ LastModifiedDate: 2026-10-09T17:16:49.243Z 
-│                        ├ [48] ╭ VulnerabilityID : CVE-2026-78663 
+│                        ├ [50] ╭ VulnerabilityID : CVE-2026-78663 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6612
@@ -26225,7 +27977,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-08T23:17:03.647Z 
 │                        │      ╰ LastModifiedDate: 2026-10-09T17:16:49.42Z 
-│                        ├ [49] ╭ VulnerabilityID : CVE-2026-94439 
+│                        ├ [51] ╭ VulnerabilityID : CVE-2026-94439 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6613
@@ -26280,7 +28032,7 @@
 │                        │      │                  ──────────────────────────────────────────────────────────────
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:86196              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:86203              
-│                        │      │                  https://access.redhat.com/security/cve/CVE-2026-94439         
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:42150              
 │                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
 │                        │      │                  https://bugzilla.redhat.com/2548344                           
@@ -26330,7 +28082,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-08T23:17:04.76Z 
 │                        │      ╰ LastModifiedDate: 2026-10-09T17:16:50.703Z 
-│                        ├ [50] ╭ VulnerabilityID : CVE-2026-94440 
+│                        ├ [52] ╭ VulnerabilityID : CVE-2026-94440 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6608
@@ -26411,7 +28163,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-08T23:17:04.917Z 
 │                        │      ╰ LastModifiedDate: 2026-10-09T17:16:50.907Z 
-│                        ├ [51] ╭ VulnerabilityID : CVE-2026-94448 
+│                        ├ [53] ╭ VulnerabilityID : CVE-2026-94448 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6599
@@ -26508,7 +28260,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-08T23:17:05.3Z 
 │                        │      ╰ LastModifiedDate: 2026-10-15T16:18:24.327Z 
-│                        ├ [52] ╭ VulnerabilityID : CVE-2026-97030 
+│                        ├ [54] ╭ VulnerabilityID : CVE-2026-97030 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6600
@@ -26603,7 +28355,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-08T23:17:05.91Z 
 │                        │      ╰ LastModifiedDate: 2026-10-15T16:18:24.817Z 
-│                        ├ [53] ╭ VulnerabilityID : CVE-2026-97032 
+│                        ├ [55] ╭ VulnerabilityID : CVE-2026-97032 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6617
@@ -26639,9 +28391,9 @@
 │                        │      │                    client can repeatedly send a request while changing the
 │                        │      │                   header table size to crash the server. 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ CweIDs                       
-│                        │      │                  ────────────
-│                        │      │                  GO-2026-4918
+│                        │      ├ CweIDs                  
+│                        │      │                  ───────
+│                        │      │                  CWE-362
 │                        │      │                  
 │                        │      ├ VendorSeverity   ╭ alma   : 3 
 │                        │      │                  ├ amazon : 3 
@@ -26711,7 +28463,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-08T23:17:06.213Z 
 │                        │      ╰ LastModifiedDate: 2026-10-15T16:18:24.967Z 
-│                        ├ [54] ╭ VulnerabilityID : CVE-2026-56857 
+│                        ├ [56] ╭ VulnerabilityID : CVE-2026-56857 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6604
@@ -26766,7 +28518,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-08T23:17:01.487Z 
 │                        │      ╰ LastModifiedDate: 2026-10-09T16:35:35.9Z 
-│                        ╰ [55] ╭ VulnerabilityID : CVE-2026-97054 
+│                        ╰ [57] ╭ VulnerabilityID : CVE-2026-97054 
 │                               ├ VendorIDs                    
 │                               │                  ────────────
 │                               │                  GO-2026-6859
@@ -27004,384 +28756,384 @@
                        ├ Title    : Asymmetric Private Key 
                        ├ StartLine: 2 
                        ├ EndLine  : 37 
-                       ├ Code      ─ Lines Number│Content│IsCause│Annotation│Truncated│Highlighted│FirstCause  │...
-                       │                   ──────┼───────┼───────┼──────────┼─────────┼───────────┼────────────┼...
-                       │                   1     │-----BE│false  │          │false    │-----BEGIN │false       │...
-                       │                         │GIN    │       │          │         │OPENSSH    │            │...
-                       │                         │OPENSSH│       │          │         │PRIVATE    │            │...
-                       │                         │PRIVATE│       │          │         │KEY-----   │            │...
-                       │                         │KEY----│       │          │         │           │            │...
-                       │                         │-      │       │          │         │           │            │...
-                       │                   2     │*******│true   │          │false    │***********│true        │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │****       │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                   3     │*******│true   │          │false    │***********│false       │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │****       │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                   4     │*******│true   │          │false    │***********│false       │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │****       │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                   5     │*******│true   │          │false    │***********│false       │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │****       │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                   6     │*******│true   │          │false    │***********│false       │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │****       │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                   7     │*******│true   │          │false    │***********│false       │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │****       │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                   8     │*******│true   │          │false    │***********│false       │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │****       │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                   9     │*******│true   │          │false    │***********│false       │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │****       │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                   10    │*******│true   │          │false    │***********│false       │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │****       │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                   11    │*******│true   │          │false    │***********│false       │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │****       │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                   12    │*******│true   │          │false    │***********│false       │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │****       │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                   13    │*******│true   │          │false    │***********│false       │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │****       │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                   14    │*******│true   │          │false    │***********│false       │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │****       │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                   15    │*******│true   │          │false    │***********│false       │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │****       │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                   16    │*******│true   │          │false    │***********│false       │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │****       │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                   17    │*******│true   │          │false    │***********│false       │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │****       │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                   18    │*******│true   │          │false    │***********│false       │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │****       │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                   19    │*******│true   │          │false    │***********│false       │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │****       │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                   20    │*******│true   │          │false    │***********│false       │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │****       │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                   21    │*******│true   │          │false    │***********│false       │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │****       │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                   22    │*******│true   │          │false    │***********│false       │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │****       │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                   23    │*******│true   │          │false    │***********│false       │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │****       │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                   24    │*******│true   │          │false    │***********│GO-2026-6860│...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │****       │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                   25    │*******│true   │          │false    │***********│false       │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │****       │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                   26    │*******│true   │          │false    │***********│false       │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │****       │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                   27    │*******│true   │          │false    │***********│false       │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │****       │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                   28    │*******│true   │          │false    │***********│false       │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │****       │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                   29    │*******│true   │          │false    │***********│false       │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │****       │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                   30    │*******│true   │          │false    │***********│false       │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │****       │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                   31    │*******│true   │          │false    │***********│false       │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │****       │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                   32    │*******│true   │          │false    │***********│false       │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │****       │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                   33    │*******│true   │          │false    │***********│false       │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │****       │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                   34    │*******│true   │          │false    │***********│false       │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │****       │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                   35    │*******│true   │          │false    │***********│false       │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │****       │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                   36    │*******│true   │          │false    │***********│false       │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │****       │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                   37    │*******│true   │          │false    │***********│false       │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │***********│            │...
-                       │                         │*******│       │          │         │********** │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*******│       │          │         │           │            │...
-                       │                         │*****  │       │          │         │           │            │...
-                       │                         │       │       │          │         │           │            │...
-                       │                         │       │       │          │         │           │            │...
-                       │                   38    │-----EN│false  │          │false    │-----END   │false       │...
-                       │                         │D      │       │          │         │OPENSSH    │            │...
-                       │                         │OPENSSH│       │          │         │PRIVATE    │            │...
-                       │                         │PRIVATE│       │          │         │KEY-----   │            │...
-                       │                         │KEY----│       │          │         │           │            │...
-                       │                         │-      │       │          │         │           │            │...
-                       │                         │       │       │          │         │           │            │...
-                       │                         │       │       │          │         │           │            │...
-                       │                         │       │       │          │         │           │            │...
-                       │                         │       │       │          │         │           │            │...
+                       ├ Code      ─ Lines Number                                             │Content│IsCause│...
+                       │                   ───────────────────────────────────────────────────┼───────┼───────┼...
+                       │                   1                                                  │-----BE│false  │...
+                       │                                                                      │GIN    │       │...
+                       │                                                                      │OPENSSH│       │...
+                       │                                                                      │PRIVATE│       │...
+                       │                                                                      │KEY----│       │...
+                       │                                                                      │-      │       │...
+                       │                   2                                                  │*******│true   │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                   3                                                  │*******│true   │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                   4                                                  │*******│true   │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                   5                                                  │*******│true   │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                   6                                                  │*******│true   │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                   7                                                  │*******│true   │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                   8                                                  │*******│true   │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                   9                                                  │*******│true   │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                   10                                                 │*******│true   │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                   https://bugzilla.redhat.com/show_bug.cgi?id=2548344│*******│true   │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                   12                                                 │*******│true   │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                   13                                                 │*******│true   │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                   14                                                 │*******│true   │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                   15                                                 │*******│true   │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                   16                                                 │*******│true   │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                   17                                                 │*******│true   │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                   18                                                 │*******│true   │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                   19                                                 │*******│true   │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                   20                                                 │*******│true   │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                   21                                                 │*******│true   │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                   22                                                 │*******│true   │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                   23                                                 │*******│true   │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                   24                                                 │*******│true   │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                   25                                                 │*******│true   │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                   26                                                 │*******│true   │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                   27                                                 │*******│true   │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                   28                                                 │*******│true   │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                   29                                                 │*******│true   │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                   30                                                 │*******│true   │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                   31                                                 │*******│true   │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                   32                                                 │*******│true   │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                   33                                                 │*******│true   │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                   34                                                 │*******│true   │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                   35                                                 │*******│true   │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                   36                                                 │*******│true   │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                   37                                                 │*******│true   │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*******│       │...
+                       │                                                                      │*****  │       │...
+                       │                                                                      │       │       │...
+                       │                                                                      │       │       │...
+                       │                   38                                                 │-----EN│false  │...
+                       │                                                                      │D      │       │...
+                       │                                                                      │OPENSSH│       │...
+                       │                                                                      │PRIVATE│       │...
+                       │                                                                      │KEY----│       │...
+                       │                                                                      │-      │       │...
+                       │                                                                      │       │       │...
+                       │                                                                      │       │       │...
+                       │                                                                      │       │       │...
+                       │                                                                      │       │       │...
                        │                   
                        ├ Match    : ********************************************************************** 
                        ├ Layer     ╭ Digest   : sha256:547bfa781ac0cd413d84e92fed1e145e840262031ac9f6648f0991e6
