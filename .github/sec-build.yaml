@@ -185,6 +185,7 @@
     VendorSeverity:
       alma: 3
       azure: 2
+      bottlerocket: 3
       oracle-oval: 3
       photon: 3
       redhat: 3
@@ -195,6 +196,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-76642
     - https://access.redhat.com/errata/RHSA-2026:93461
     - https://access.redhat.com/security/cve/CVE-2026-76642
     - https://bugzilla.redhat.com/2454956
@@ -227,6 +229,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78410
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://errata.rockylinux.org/RLSA-2026:93461
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/18.0.0/BRSA-fdl5c89i6p2y.toml
     - https://github.com/util-linux/util-linux
     - https://github.com/util-linux/util-linux/blob/v2.42.2/libmount/src/context_mount.c#L476
     - https://github.com/util-linux/util-linux/blob/v2.42.2/libmount/src/context_mount.c#L892
@@ -266,6 +269,7 @@
     VendorSeverity:
       alma: 3
       azure: 3
+      bottlerocket: 3
       oracle-oval: 3
       redhat: 3
       rocky: 3
@@ -275,6 +279,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:N/I:H/A:H
         V3Score: 7.9
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78408
     - http://www.openwall.com/lists/oss-security/2026/09/05/2
     - https://access.redhat.com/errata/RHSA-2026:63162
     - https://access.redhat.com/errata/RHSA-2026:93461
@@ -310,6 +315,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78410
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://errata.rockylinux.org/RLSA-2026:93461
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/18.0.0/BRSA-mrtb6gutu299.toml
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-55fx-f4gg-cfhj
     - https://linux.oracle.com/cve/CVE-2026-78408.html
     - https://linux.oracle.com/errata/ELSA-2026-93461.html
@@ -340,15 +346,18 @@
     CweIDs:
     - CWE-59
     VendorSeverity:
+      bottlerocket: 3
       redhat: 3
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78409
     - https://access.redhat.com/errata/RHSA-2026:63162
     - https://access.redhat.com/security/cve/CVE-2026-78409
     - https://bugzilla.redhat.com/show_bug.cgi?id=2522607
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/18.0.0/BRSA-ohdd8mq75jp1.toml
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-8f2p-47x3-43mv
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78409
     - https://www.cve.org/CVERecord?id=CVE-2026-78409
@@ -379,6 +388,7 @@
     VendorSeverity:
       alma: 3
       azure: 3
+      bottlerocket: 3
       oracle-oval: 3
       redhat: 3
       rocky: 3
@@ -387,6 +397,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78410
     - https://access.redhat.com/errata/RHSA-2026:63162
     - https://access.redhat.com/errata/RHSA-2026:93461
     - https://access.redhat.com/errata/RHSA-2026:95365
@@ -421,6 +432,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78410
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://errata.rockylinux.org/RLSA-2026:93461
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/18.0.0/BRSA-ldtjz3bcx3qo.toml
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-rh77-686x-2f2m
     - https://linux.oracle.com/cve/CVE-2026-78410.html
     - https://linux.oracle.com/errata/ELSA-2026-93461.html
@@ -555,6 +567,7 @@
     VendorSeverity:
       alma: 3
       azure: 2
+      bottlerocket: 3
       oracle-oval: 3
       photon: 3
       redhat: 3
@@ -565,6 +578,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-76642
     - https://access.redhat.com/errata/RHSA-2026:93461
     - https://access.redhat.com/security/cve/CVE-2026-76642
     - https://bugzilla.redhat.com/2454956
@@ -597,6 +611,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78410
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://errata.rockylinux.org/RLSA-2026:93461
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/18.0.0/BRSA-fdl5c89i6p2y.toml
     - https://github.com/util-linux/util-linux
     - https://github.com/util-linux/util-linux/blob/v2.42.2/libmount/src/context_mount.c#L476
     - https://github.com/util-linux/util-linux/blob/v2.42.2/libmount/src/context_mount.c#L892
@@ -636,6 +651,7 @@
     VendorSeverity:
       alma: 3
       azure: 3
+      bottlerocket: 3
       oracle-oval: 3
       redhat: 3
       rocky: 3
@@ -645,6 +661,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:N/I:H/A:H
         V3Score: 7.9
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78408
     - http://www.openwall.com/lists/oss-security/2026/09/05/2
     - https://access.redhat.com/errata/RHSA-2026:63162
     - https://access.redhat.com/errata/RHSA-2026:93461
@@ -680,6 +697,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78410
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://errata.rockylinux.org/RLSA-2026:93461
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/18.0.0/BRSA-mrtb6gutu299.toml
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-55fx-f4gg-cfhj
     - https://linux.oracle.com/cve/CVE-2026-78408.html
     - https://linux.oracle.com/errata/ELSA-2026-93461.html
@@ -710,15 +728,18 @@
     CweIDs:
     - CWE-59
     VendorSeverity:
+      bottlerocket: 3
       redhat: 3
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78409
     - https://access.redhat.com/errata/RHSA-2026:63162
     - https://access.redhat.com/security/cve/CVE-2026-78409
     - https://bugzilla.redhat.com/show_bug.cgi?id=2522607
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/18.0.0/BRSA-ohdd8mq75jp1.toml
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-8f2p-47x3-43mv
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78409
     - https://www.cve.org/CVERecord?id=CVE-2026-78409
@@ -749,6 +770,7 @@
     VendorSeverity:
       alma: 3
       azure: 3
+      bottlerocket: 3
       oracle-oval: 3
       redhat: 3
       rocky: 3
@@ -757,6 +779,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78410
     - https://access.redhat.com/errata/RHSA-2026:63162
     - https://access.redhat.com/errata/RHSA-2026:93461
     - https://access.redhat.com/errata/RHSA-2026:95365
@@ -791,6 +814,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78410
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://errata.rockylinux.org/RLSA-2026:93461
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/18.0.0/BRSA-ldtjz3bcx3qo.toml
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-rh77-686x-2f2m
     - https://linux.oracle.com/cve/CVE-2026-78410.html
     - https://linux.oracle.com/errata/ELSA-2026-93461.html
@@ -3398,7 +3422,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-120749
     PublishedDate: '2026-11-06T07:17:06.153Z'
     LastModifiedDate: '2026-11-13T14:17:48.797Z'
-  - VulnerabilityID: TEMP-1153842-A0EC76
+  - VulnerabilityID: CVE-2026-128886
     PkgID: dbus@1.16.2-2
     PkgName: dbus
     PkgIdentifier:
@@ -3409,15 +3433,31 @@
     Layer:
       Digest: sha256:b2869ff24aa1814265cd28a09992ebe1dad23d948b766384f136c6469053219d
       DiffID: sha256:16dbd089cbe56666fc5275107cfef69f01661418934b120712db54de7ee33797
-    PrimaryURL: https://security-tracker.debian.org/tracker/TEMP-1153842-A0EC76
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-128886
     DataSource:
       ID: debian
       Name: Debian Security Tracker
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
-    Fingerprint: sha256:c489bc26511f47dbfebe54147bea41d78fa72988cc74c8f2316c3c5be8c055b8
-    Title: '[RHEL-239613, dbus#587: local denial of service via EPIPE]'
-    Severity: UNKNOWN
-  - VulnerabilityID: TEMP-1153843-36094F
+    Fingerprint: sha256:02703c82fe2976201cb956a4f5700936caa90a9e48fb037f99a413ef1166ff0b
+    Title: 'dbus: Server accept watch can be stalled by blocking nonce-tcp accept_with_noncefile path'
+    Description: A flaw was found in dbus when configured with the nonce-tcp transport. An unauthenticated attacker able to connect to an exposed listener can cause a Denial of Service (DoS) by opening a connection and withholding the expected authentication token. Because the server processes this verification without enforcing a timeout, the stalled connection blocks the accept process and prevents legitimate clients from establishing new connections.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-1322
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-128886
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2472930
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-128886
+    - https://www.cve.org/CVERecord?id=CVE-2026-128886
+    PublishedDate: '2026-11-13T22:17:23.657Z'
+    LastModifiedDate: '2026-11-13T22:17:23.767Z'
+  - VulnerabilityID: CVE-2026-128987
     PkgID: dbus@1.16.2-2
     PkgName: dbus
     PkgIdentifier:
@@ -3428,14 +3468,67 @@
     Layer:
       Digest: sha256:b2869ff24aa1814265cd28a09992ebe1dad23d948b766384f136c6469053219d
       DiffID: sha256:16dbd089cbe56666fc5275107cfef69f01661418934b120712db54de7ee33797
-    PrimaryURL: https://security-tracker.debian.org/tracker/TEMP-1153843-36094F
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-128987
     DataSource:
       ID: debian
       Name: Debian Security Tracker
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
-    Fingerprint: sha256:fb47e3ab50206b6203c5485cd1016a7dbf06ec54496590fcfedd7ee6d69bd2bb
-    Title: '[RHEL-239294, dbus#586: denial of service when nonce-tcp: transport is used]'
-    Severity: UNKNOWN
+    Fingerprint: sha256:e3830421710e5be076809a1355b3ea8a3b634171f57bb3c08eb429bc12b44014
+    Title: 'dbus: Infinite CPU-spin loop in libdbus socket transport when EPIPE is received during write operations'
+    Description: A flaw was found in dbus. A local attacker can exploit this vulnerability by connecting to an affected service, requesting a response, and stopping socket reads while keeping the connection open. Because the socket transport handles broken pipe write errors as retryable, the application enters a continuous retry loop. This can lead to excessive CPU consumption, resulting in a denial of service (DoS) for the target process.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-835
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-128987
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2462869
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-128987
+    - https://www.cve.org/CVERecord?id=CVE-2026-128987
+    PublishedDate: '2026-11-13T21:17:45.977Z'
+    LastModifiedDate: '2026-11-13T21:17:46.09Z'
+  - VulnerabilityID: CVE-2026-128885
+    PkgID: dbus@1.16.2-2
+    PkgName: dbus
+    PkgIdentifier:
+      PURL: pkg:deb/debian/dbus@1.16.2-2?arch=amd64&distro=debian-13.7
+      UID: 3345ae6df78f071
+    InstalledVersion: 1.16.2-2
+    Status: affected
+    Layer:
+      Digest: sha256:b2869ff24aa1814265cd28a09992ebe1dad23d948b766384f136c6469053219d
+      DiffID: sha256:16dbd089cbe56666fc5275107cfef69f01661418934b120712db54de7ee33797
+    SeveritySource: debian
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-128885
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:33d0b3134504c8796ccaedbae2004a1c575f9a46e09548de1e2d747d3b33e872
+    Title: 'dbus: Stack out-of-bounds write in dbus _dbus_poll() select() fallback when file descriptor exceeds FD_SETSIZE'
+    Description: A flaw was found in D-Bus. In configurations where the daemon falls back to using the Unix select() mechanism for event monitoring, it does not verify whether file descriptor numbers exceed allocated limits. A local attacker can exploit this flaw by opening a large number of concurrent connections to trigger an out-of-bounds write on the stack. This can cause the daemon to crash, resulting in a Denial of Service (DoS).
+    Severity: LOW
+    CweIDs:
+    - CWE-121
+    VendorSeverity:
+      debian: 1
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-128885
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2462795
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-128885
+    - https://www.cve.org/CVERecord?id=CVE-2026-128885
+    PublishedDate: '2026-11-13T21:17:45.827Z'
+    LastModifiedDate: '2026-11-13T22:17:23.543Z'
   - VulnerabilityID: TEMP-1153844-83400A
     PkgID: dbus@1.16.2-2
     PkgName: dbus
@@ -3494,7 +3587,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-120749
     PublishedDate: '2026-11-06T07:17:06.153Z'
     LastModifiedDate: '2026-11-13T14:17:48.797Z'
-  - VulnerabilityID: TEMP-1153842-A0EC76
+  - VulnerabilityID: CVE-2026-128886
     PkgID: dbus-bin@1.16.2-2
     PkgName: dbus-bin
     PkgIdentifier:
@@ -3505,15 +3598,31 @@
     Layer:
       Digest: sha256:b2869ff24aa1814265cd28a09992ebe1dad23d948b766384f136c6469053219d
       DiffID: sha256:16dbd089cbe56666fc5275107cfef69f01661418934b120712db54de7ee33797
-    PrimaryURL: https://security-tracker.debian.org/tracker/TEMP-1153842-A0EC76
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-128886
     DataSource:
       ID: debian
       Name: Debian Security Tracker
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
-    Fingerprint: sha256:f2e2fdb7e931ba52b8792f907b2ea7e8d9d8cab65dca87355bbdc3ef678816c5
-    Title: '[RHEL-239613, dbus#587: local denial of service via EPIPE]'
-    Severity: UNKNOWN
-  - VulnerabilityID: TEMP-1153843-36094F
+    Fingerprint: sha256:0b6992f5c3db45ea21bda0d8764416397ae2092cc8e8556756176fe5e40bd87f
+    Title: 'dbus: Server accept watch can be stalled by blocking nonce-tcp accept_with_noncefile path'
+    Description: A flaw was found in dbus when configured with the nonce-tcp transport. An unauthenticated attacker able to connect to an exposed listener can cause a Denial of Service (DoS) by opening a connection and withholding the expected authentication token. Because the server processes this verification without enforcing a timeout, the stalled connection blocks the accept process and prevents legitimate clients from establishing new connections.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-1322
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-128886
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2472930
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-128886
+    - https://www.cve.org/CVERecord?id=CVE-2026-128886
+    PublishedDate: '2026-11-13T22:17:23.657Z'
+    LastModifiedDate: '2026-11-13T22:17:23.767Z'
+  - VulnerabilityID: CVE-2026-128987
     PkgID: dbus-bin@1.16.2-2
     PkgName: dbus-bin
     PkgIdentifier:
@@ -3524,14 +3633,67 @@
     Layer:
       Digest: sha256:b2869ff24aa1814265cd28a09992ebe1dad23d948b766384f136c6469053219d
       DiffID: sha256:16dbd089cbe56666fc5275107cfef69f01661418934b120712db54de7ee33797
-    PrimaryURL: https://security-tracker.debian.org/tracker/TEMP-1153843-36094F
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-128987
     DataSource:
       ID: debian
       Name: Debian Security Tracker
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
-    Fingerprint: sha256:2fc8a51225233f7d1ab5f2ad73ac72dfebb67c274f91b3561aa771e472575046
-    Title: '[RHEL-239294, dbus#586: denial of service when nonce-tcp: transport is used]'
-    Severity: UNKNOWN
+    Fingerprint: sha256:5b6ce8ac8fa89a822437ebf0200a7183574eb80c261d6a7d2b7e616b4436a3fc
+    Title: 'dbus: Infinite CPU-spin loop in libdbus socket transport when EPIPE is received during write operations'
+    Description: A flaw was found in dbus. A local attacker can exploit this vulnerability by connecting to an affected service, requesting a response, and stopping socket reads while keeping the connection open. Because the socket transport handles broken pipe write errors as retryable, the application enters a continuous retry loop. This can lead to excessive CPU consumption, resulting in a denial of service (DoS) for the target process.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-835
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-128987
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2462869
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-128987
+    - https://www.cve.org/CVERecord?id=CVE-2026-128987
+    PublishedDate: '2026-11-13T21:17:45.977Z'
+    LastModifiedDate: '2026-11-13T21:17:46.09Z'
+  - VulnerabilityID: CVE-2026-128885
+    PkgID: dbus-bin@1.16.2-2
+    PkgName: dbus-bin
+    PkgIdentifier:
+      PURL: pkg:deb/debian/dbus-bin@1.16.2-2?arch=amd64&distro=debian-13.7
+      UID: a79e3543b8fa2bc4
+    InstalledVersion: 1.16.2-2
+    Status: affected
+    Layer:
+      Digest: sha256:b2869ff24aa1814265cd28a09992ebe1dad23d948b766384f136c6469053219d
+      DiffID: sha256:16dbd089cbe56666fc5275107cfef69f01661418934b120712db54de7ee33797
+    SeveritySource: debian
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-128885
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:0386c9102a8d1134d1c65d9f74053fb331f1d25a773a63ecc200539560118729
+    Title: 'dbus: Stack out-of-bounds write in dbus _dbus_poll() select() fallback when file descriptor exceeds FD_SETSIZE'
+    Description: A flaw was found in D-Bus. In configurations where the daemon falls back to using the Unix select() mechanism for event monitoring, it does not verify whether file descriptor numbers exceed allocated limits. A local attacker can exploit this flaw by opening a large number of concurrent connections to trigger an out-of-bounds write on the stack. This can cause the daemon to crash, resulting in a Denial of Service (DoS).
+    Severity: LOW
+    CweIDs:
+    - CWE-121
+    VendorSeverity:
+      debian: 1
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-128885
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2462795
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-128885
+    - https://www.cve.org/CVERecord?id=CVE-2026-128885
+    PublishedDate: '2026-11-13T21:17:45.827Z'
+    LastModifiedDate: '2026-11-13T22:17:23.543Z'
   - VulnerabilityID: TEMP-1153844-83400A
     PkgID: dbus-bin@1.16.2-2
     PkgName: dbus-bin
@@ -3590,7 +3752,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-120749
     PublishedDate: '2026-11-06T07:17:06.153Z'
     LastModifiedDate: '2026-11-13T14:17:48.797Z'
-  - VulnerabilityID: TEMP-1153842-A0EC76
+  - VulnerabilityID: CVE-2026-128886
     PkgID: dbus-daemon@1.16.2-2
     PkgName: dbus-daemon
     PkgIdentifier:
@@ -3601,15 +3763,31 @@
     Layer:
       Digest: sha256:b2869ff24aa1814265cd28a09992ebe1dad23d948b766384f136c6469053219d
       DiffID: sha256:16dbd089cbe56666fc5275107cfef69f01661418934b120712db54de7ee33797
-    PrimaryURL: https://security-tracker.debian.org/tracker/TEMP-1153842-A0EC76
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-128886
     DataSource:
       ID: debian
       Name: Debian Security Tracker
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
-    Fingerprint: sha256:049f7248b574fac53782c4d96ce079a3c4afff1f6e5fe396ea74dba94cddc691
-    Title: '[RHEL-239613, dbus#587: local denial of service via EPIPE]'
-    Severity: UNKNOWN
-  - VulnerabilityID: TEMP-1153843-36094F
+    Fingerprint: sha256:662efeb7ea289bf632dc0de650f25193f1a0ac5f677682de337b6b33a3bc49ff
+    Title: 'dbus: Server accept watch can be stalled by blocking nonce-tcp accept_with_noncefile path'
+    Description: A flaw was found in dbus when configured with the nonce-tcp transport. An unauthenticated attacker able to connect to an exposed listener can cause a Denial of Service (DoS) by opening a connection and withholding the expected authentication token. Because the server processes this verification without enforcing a timeout, the stalled connection blocks the accept process and prevents legitimate clients from establishing new connections.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-1322
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-128886
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2472930
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-128886
+    - https://www.cve.org/CVERecord?id=CVE-2026-128886
+    PublishedDate: '2026-11-13T22:17:23.657Z'
+    LastModifiedDate: '2026-11-13T22:17:23.767Z'
+  - VulnerabilityID: CVE-2026-128987
     PkgID: dbus-daemon@1.16.2-2
     PkgName: dbus-daemon
     PkgIdentifier:
@@ -3620,14 +3798,67 @@
     Layer:
       Digest: sha256:b2869ff24aa1814265cd28a09992ebe1dad23d948b766384f136c6469053219d
       DiffID: sha256:16dbd089cbe56666fc5275107cfef69f01661418934b120712db54de7ee33797
-    PrimaryURL: https://security-tracker.debian.org/tracker/TEMP-1153843-36094F
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-128987
     DataSource:
       ID: debian
       Name: Debian Security Tracker
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
-    Fingerprint: sha256:7383301c9b73421720691065183fed5833ca2b9d2586c935818b28d09c54e9eb
-    Title: '[RHEL-239294, dbus#586: denial of service when nonce-tcp: transport is used]'
-    Severity: UNKNOWN
+    Fingerprint: sha256:2cb72ee609445bcbfe5e9893fab735c179c118501e076b51b6d6d568e04dff5d
+    Title: 'dbus: Infinite CPU-spin loop in libdbus socket transport when EPIPE is received during write operations'
+    Description: A flaw was found in dbus. A local attacker can exploit this vulnerability by connecting to an affected service, requesting a response, and stopping socket reads while keeping the connection open. Because the socket transport handles broken pipe write errors as retryable, the application enters a continuous retry loop. This can lead to excessive CPU consumption, resulting in a denial of service (DoS) for the target process.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-835
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-128987
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2462869
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-128987
+    - https://www.cve.org/CVERecord?id=CVE-2026-128987
+    PublishedDate: '2026-11-13T21:17:45.977Z'
+    LastModifiedDate: '2026-11-13T21:17:46.09Z'
+  - VulnerabilityID: CVE-2026-128885
+    PkgID: dbus-daemon@1.16.2-2
+    PkgName: dbus-daemon
+    PkgIdentifier:
+      PURL: pkg:deb/debian/dbus-daemon@1.16.2-2?arch=amd64&distro=debian-13.7
+      UID: 22bfd9a9dc326215
+    InstalledVersion: 1.16.2-2
+    Status: affected
+    Layer:
+      Digest: sha256:b2869ff24aa1814265cd28a09992ebe1dad23d948b766384f136c6469053219d
+      DiffID: sha256:16dbd089cbe56666fc5275107cfef69f01661418934b120712db54de7ee33797
+    SeveritySource: debian
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-128885
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:7f4fa8eb3a25af0bf5328a96bb54a391cfcca9cc404fab96da34510417a53d91
+    Title: 'dbus: Stack out-of-bounds write in dbus _dbus_poll() select() fallback when file descriptor exceeds FD_SETSIZE'
+    Description: A flaw was found in D-Bus. In configurations where the daemon falls back to using the Unix select() mechanism for event monitoring, it does not verify whether file descriptor numbers exceed allocated limits. A local attacker can exploit this flaw by opening a large number of concurrent connections to trigger an out-of-bounds write on the stack. This can cause the daemon to crash, resulting in a Denial of Service (DoS).
+    Severity: LOW
+    CweIDs:
+    - CWE-121
+    VendorSeverity:
+      debian: 1
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-128885
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2462795
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-128885
+    - https://www.cve.org/CVERecord?id=CVE-2026-128885
+    PublishedDate: '2026-11-13T21:17:45.827Z'
+    LastModifiedDate: '2026-11-13T22:17:23.543Z'
   - VulnerabilityID: TEMP-1153844-83400A
     PkgID: dbus-daemon@1.16.2-2
     PkgName: dbus-daemon
@@ -3686,7 +3917,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-120749
     PublishedDate: '2026-11-06T07:17:06.153Z'
     LastModifiedDate: '2026-11-13T14:17:48.797Z'
-  - VulnerabilityID: TEMP-1153842-A0EC76
+  - VulnerabilityID: CVE-2026-128886
     PkgID: dbus-session-bus-common@1.16.2-2
     PkgName: dbus-session-bus-common
     PkgIdentifier:
@@ -3697,15 +3928,31 @@
     Layer:
       Digest: sha256:b2869ff24aa1814265cd28a09992ebe1dad23d948b766384f136c6469053219d
       DiffID: sha256:16dbd089cbe56666fc5275107cfef69f01661418934b120712db54de7ee33797
-    PrimaryURL: https://security-tracker.debian.org/tracker/TEMP-1153842-A0EC76
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-128886
     DataSource:
       ID: debian
       Name: Debian Security Tracker
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
-    Fingerprint: sha256:09fa334442c261f3a9b527e1f2183b83b3a60e6c097fe4f4334cb6c9f0c79bf0
-    Title: '[RHEL-239613, dbus#587: local denial of service via EPIPE]'
-    Severity: UNKNOWN
-  - VulnerabilityID: TEMP-1153843-36094F
+    Fingerprint: sha256:7bde6ec556ace674bf364c6b79b17be01b1bbf6147ebe36484f09602b6e0df96
+    Title: 'dbus: Server accept watch can be stalled by blocking nonce-tcp accept_with_noncefile path'
+    Description: A flaw was found in dbus when configured with the nonce-tcp transport. An unauthenticated attacker able to connect to an exposed listener can cause a Denial of Service (DoS) by opening a connection and withholding the expected authentication token. Because the server processes this verification without enforcing a timeout, the stalled connection blocks the accept process and prevents legitimate clients from establishing new connections.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-1322
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-128886
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2472930
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-128886
+    - https://www.cve.org/CVERecord?id=CVE-2026-128886
+    PublishedDate: '2026-11-13T22:17:23.657Z'
+    LastModifiedDate: '2026-11-13T22:17:23.767Z'
+  - VulnerabilityID: CVE-2026-128987
     PkgID: dbus-session-bus-common@1.16.2-2
     PkgName: dbus-session-bus-common
     PkgIdentifier:
@@ -3716,14 +3963,67 @@
     Layer:
       Digest: sha256:b2869ff24aa1814265cd28a09992ebe1dad23d948b766384f136c6469053219d
       DiffID: sha256:16dbd089cbe56666fc5275107cfef69f01661418934b120712db54de7ee33797
-    PrimaryURL: https://security-tracker.debian.org/tracker/TEMP-1153843-36094F
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-128987
     DataSource:
       ID: debian
       Name: Debian Security Tracker
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
-    Fingerprint: sha256:f6cb71b07aef71234598e758a357e48dd3d9d2db9c925c97d8485b65ff48bbbc
-    Title: '[RHEL-239294, dbus#586: denial of service when nonce-tcp: transport is used]'
-    Severity: UNKNOWN
+    Fingerprint: sha256:c82a6a8508071e3d6fd9fb15fe41e2ce3bc419710374ad1262f2a5ae6d7f02f2
+    Title: 'dbus: Infinite CPU-spin loop in libdbus socket transport when EPIPE is received during write operations'
+    Description: A flaw was found in dbus. A local attacker can exploit this vulnerability by connecting to an affected service, requesting a response, and stopping socket reads while keeping the connection open. Because the socket transport handles broken pipe write errors as retryable, the application enters a continuous retry loop. This can lead to excessive CPU consumption, resulting in a denial of service (DoS) for the target process.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-835
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-128987
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2462869
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-128987
+    - https://www.cve.org/CVERecord?id=CVE-2026-128987
+    PublishedDate: '2026-11-13T21:17:45.977Z'
+    LastModifiedDate: '2026-11-13T21:17:46.09Z'
+  - VulnerabilityID: CVE-2026-128885
+    PkgID: dbus-session-bus-common@1.16.2-2
+    PkgName: dbus-session-bus-common
+    PkgIdentifier:
+      PURL: pkg:deb/debian/dbus-session-bus-common@1.16.2-2?arch=all&distro=debian-13.7
+      UID: 319f1a101409258e
+    InstalledVersion: 1.16.2-2
+    Status: affected
+    Layer:
+      Digest: sha256:b2869ff24aa1814265cd28a09992ebe1dad23d948b766384f136c6469053219d
+      DiffID: sha256:16dbd089cbe56666fc5275107cfef69f01661418934b120712db54de7ee33797
+    SeveritySource: debian
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-128885
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:bd2e63e8a83eb23a6c5fbe201a878f4efbc7072a2ea5bb5360c0e387e2c3a0ab
+    Title: 'dbus: Stack out-of-bounds write in dbus _dbus_poll() select() fallback when file descriptor exceeds FD_SETSIZE'
+    Description: A flaw was found in D-Bus. In configurations where the daemon falls back to using the Unix select() mechanism for event monitoring, it does not verify whether file descriptor numbers exceed allocated limits. A local attacker can exploit this flaw by opening a large number of concurrent connections to trigger an out-of-bounds write on the stack. This can cause the daemon to crash, resulting in a Denial of Service (DoS).
+    Severity: LOW
+    CweIDs:
+    - CWE-121
+    VendorSeverity:
+      debian: 1
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-128885
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2462795
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-128885
+    - https://www.cve.org/CVERecord?id=CVE-2026-128885
+    PublishedDate: '2026-11-13T21:17:45.827Z'
+    LastModifiedDate: '2026-11-13T22:17:23.543Z'
   - VulnerabilityID: TEMP-1153844-83400A
     PkgID: dbus-session-bus-common@1.16.2-2
     PkgName: dbus-session-bus-common
@@ -3782,7 +4082,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-120749
     PublishedDate: '2026-11-06T07:17:06.153Z'
     LastModifiedDate: '2026-11-13T14:17:48.797Z'
-  - VulnerabilityID: TEMP-1153842-A0EC76
+  - VulnerabilityID: CVE-2026-128886
     PkgID: dbus-system-bus-common@1.16.2-2
     PkgName: dbus-system-bus-common
     PkgIdentifier:
@@ -3793,15 +4093,31 @@
     Layer:
       Digest: sha256:b2869ff24aa1814265cd28a09992ebe1dad23d948b766384f136c6469053219d
       DiffID: sha256:16dbd089cbe56666fc5275107cfef69f01661418934b120712db54de7ee33797
-    PrimaryURL: https://security-tracker.debian.org/tracker/TEMP-1153842-A0EC76
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-128886
     DataSource:
       ID: debian
       Name: Debian Security Tracker
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
-    Fingerprint: sha256:93ca19265132492a3897b2f7bbfd55e7af45870cfbc18770c8714958c2d0efcb
-    Title: '[RHEL-239613, dbus#587: local denial of service via EPIPE]'
-    Severity: UNKNOWN
-  - VulnerabilityID: TEMP-1153843-36094F
+    Fingerprint: sha256:d6c8a7928bf1e87f768912fbfe7cc6e45dbe585aefcbc18bd850ea6e6047a0cf
+    Title: 'dbus: Server accept watch can be stalled by blocking nonce-tcp accept_with_noncefile path'
+    Description: A flaw was found in dbus when configured with the nonce-tcp transport. An unauthenticated attacker able to connect to an exposed listener can cause a Denial of Service (DoS) by opening a connection and withholding the expected authentication token. Because the server processes this verification without enforcing a timeout, the stalled connection blocks the accept process and prevents legitimate clients from establishing new connections.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-1322
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-128886
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2472930
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-128886
+    - https://www.cve.org/CVERecord?id=CVE-2026-128886
+    PublishedDate: '2026-11-13T22:17:23.657Z'
+    LastModifiedDate: '2026-11-13T22:17:23.767Z'
+  - VulnerabilityID: CVE-2026-128987
     PkgID: dbus-system-bus-common@1.16.2-2
     PkgName: dbus-system-bus-common
     PkgIdentifier:
@@ -3812,14 +4128,67 @@
     Layer:
       Digest: sha256:b2869ff24aa1814265cd28a09992ebe1dad23d948b766384f136c6469053219d
       DiffID: sha256:16dbd089cbe56666fc5275107cfef69f01661418934b120712db54de7ee33797
-    PrimaryURL: https://security-tracker.debian.org/tracker/TEMP-1153843-36094F
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-128987
     DataSource:
       ID: debian
       Name: Debian Security Tracker
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
-    Fingerprint: sha256:00e67958f4342c53d287d1e1d914ddf7b17781b0a3a70ffc6fde32f5f6c47939
-    Title: '[RHEL-239294, dbus#586: denial of service when nonce-tcp: transport is used]'
-    Severity: UNKNOWN
+    Fingerprint: sha256:7a32783e7b73d683cb64a0e6c018fb1c8f9c55c4080f13b7c13f103250505034
+    Title: 'dbus: Infinite CPU-spin loop in libdbus socket transport when EPIPE is received during write operations'
+    Description: A flaw was found in dbus. A local attacker can exploit this vulnerability by connecting to an affected service, requesting a response, and stopping socket reads while keeping the connection open. Because the socket transport handles broken pipe write errors as retryable, the application enters a continuous retry loop. This can lead to excessive CPU consumption, resulting in a denial of service (DoS) for the target process.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-835
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-128987
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2462869
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-128987
+    - https://www.cve.org/CVERecord?id=CVE-2026-128987
+    PublishedDate: '2026-11-13T21:17:45.977Z'
+    LastModifiedDate: '2026-11-13T21:17:46.09Z'
+  - VulnerabilityID: CVE-2026-128885
+    PkgID: dbus-system-bus-common@1.16.2-2
+    PkgName: dbus-system-bus-common
+    PkgIdentifier:
+      PURL: pkg:deb/debian/dbus-system-bus-common@1.16.2-2?arch=all&distro=debian-13.7
+      UID: 70d18047457f4d38
+    InstalledVersion: 1.16.2-2
+    Status: affected
+    Layer:
+      Digest: sha256:b2869ff24aa1814265cd28a09992ebe1dad23d948b766384f136c6469053219d
+      DiffID: sha256:16dbd089cbe56666fc5275107cfef69f01661418934b120712db54de7ee33797
+    SeveritySource: debian
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-128885
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:9677df83da927f54a2355626d6bd127cde540b7661d30e95a6802b896a4e87d8
+    Title: 'dbus: Stack out-of-bounds write in dbus _dbus_poll() select() fallback when file descriptor exceeds FD_SETSIZE'
+    Description: A flaw was found in D-Bus. In configurations where the daemon falls back to using the Unix select() mechanism for event monitoring, it does not verify whether file descriptor numbers exceed allocated limits. A local attacker can exploit this flaw by opening a large number of concurrent connections to trigger an out-of-bounds write on the stack. This can cause the daemon to crash, resulting in a Denial of Service (DoS).
+    Severity: LOW
+    CweIDs:
+    - CWE-121
+    VendorSeverity:
+      debian: 1
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-128885
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2462795
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-128885
+    - https://www.cve.org/CVERecord?id=CVE-2026-128885
+    PublishedDate: '2026-11-13T21:17:45.827Z'
+    LastModifiedDate: '2026-11-13T22:17:23.543Z'
   - VulnerabilityID: TEMP-1153844-83400A
     PkgID: dbus-system-bus-common@1.16.2-2
     PkgName: dbus-system-bus-common
@@ -3878,7 +4247,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-120749
     PublishedDate: '2026-11-06T07:17:06.153Z'
     LastModifiedDate: '2026-11-13T14:17:48.797Z'
-  - VulnerabilityID: TEMP-1153842-A0EC76
+  - VulnerabilityID: CVE-2026-128886
     PkgID: dbus-user-session@1.16.2-2
     PkgName: dbus-user-session
     PkgIdentifier:
@@ -3889,15 +4258,31 @@
     Layer:
       Digest: sha256:b2869ff24aa1814265cd28a09992ebe1dad23d948b766384f136c6469053219d
       DiffID: sha256:16dbd089cbe56666fc5275107cfef69f01661418934b120712db54de7ee33797
-    PrimaryURL: https://security-tracker.debian.org/tracker/TEMP-1153842-A0EC76
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-128886
     DataSource:
       ID: debian
       Name: Debian Security Tracker
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
-    Fingerprint: sha256:b1e4afef8de7762bb5b5c88cf7d13554e624e8d0d3ed73cbf83f0e29eb3af308
-    Title: '[RHEL-239613, dbus#587: local denial of service via EPIPE]'
-    Severity: UNKNOWN
-  - VulnerabilityID: TEMP-1153843-36094F
+    Fingerprint: sha256:303b2674905836f91a098e1e26298a2056632d7ed69aab3439b3c133fe710902
+    Title: 'dbus: Server accept watch can be stalled by blocking nonce-tcp accept_with_noncefile path'
+    Description: A flaw was found in dbus when configured with the nonce-tcp transport. An unauthenticated attacker able to connect to an exposed listener can cause a Denial of Service (DoS) by opening a connection and withholding the expected authentication token. Because the server processes this verification without enforcing a timeout, the stalled connection blocks the accept process and prevents legitimate clients from establishing new connections.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-1322
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-128886
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2472930
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-128886
+    - https://www.cve.org/CVERecord?id=CVE-2026-128886
+    PublishedDate: '2026-11-13T22:17:23.657Z'
+    LastModifiedDate: '2026-11-13T22:17:23.767Z'
+  - VulnerabilityID: CVE-2026-128987
     PkgID: dbus-user-session@1.16.2-2
     PkgName: dbus-user-session
     PkgIdentifier:
@@ -3908,14 +4293,67 @@
     Layer:
       Digest: sha256:b2869ff24aa1814265cd28a09992ebe1dad23d948b766384f136c6469053219d
       DiffID: sha256:16dbd089cbe56666fc5275107cfef69f01661418934b120712db54de7ee33797
-    PrimaryURL: https://security-tracker.debian.org/tracker/TEMP-1153843-36094F
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-128987
     DataSource:
       ID: debian
       Name: Debian Security Tracker
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
-    Fingerprint: sha256:55534b796f8b41254a52390f4367d4cac18393f20923d0be576c8406cf06ca8a
-    Title: '[RHEL-239294, dbus#586: denial of service when nonce-tcp: transport is used]'
-    Severity: UNKNOWN
+    Fingerprint: sha256:556588f129075409488a5c48432ef1ee72a38e6f631705c7a59281cba09a1b30
+    Title: 'dbus: Infinite CPU-spin loop in libdbus socket transport when EPIPE is received during write operations'
+    Description: A flaw was found in dbus. A local attacker can exploit this vulnerability by connecting to an affected service, requesting a response, and stopping socket reads while keeping the connection open. Because the socket transport handles broken pipe write errors as retryable, the application enters a continuous retry loop. This can lead to excessive CPU consumption, resulting in a denial of service (DoS) for the target process.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-835
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-128987
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2462869
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-128987
+    - https://www.cve.org/CVERecord?id=CVE-2026-128987
+    PublishedDate: '2026-11-13T21:17:45.977Z'
+    LastModifiedDate: '2026-11-13T21:17:46.09Z'
+  - VulnerabilityID: CVE-2026-128885
+    PkgID: dbus-user-session@1.16.2-2
+    PkgName: dbus-user-session
+    PkgIdentifier:
+      PURL: pkg:deb/debian/dbus-user-session@1.16.2-2?arch=amd64&distro=debian-13.7
+      UID: ec7beb69dd62b78b
+    InstalledVersion: 1.16.2-2
+    Status: affected
+    Layer:
+      Digest: sha256:b2869ff24aa1814265cd28a09992ebe1dad23d948b766384f136c6469053219d
+      DiffID: sha256:16dbd089cbe56666fc5275107cfef69f01661418934b120712db54de7ee33797
+    SeveritySource: debian
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-128885
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:fc0ba5d031d38d9d7b878aa26b9b47b9f550b66b72066712a3eab7c6a28bc906
+    Title: 'dbus: Stack out-of-bounds write in dbus _dbus_poll() select() fallback when file descriptor exceeds FD_SETSIZE'
+    Description: A flaw was found in D-Bus. In configurations where the daemon falls back to using the Unix select() mechanism for event monitoring, it does not verify whether file descriptor numbers exceed allocated limits. A local attacker can exploit this flaw by opening a large number of concurrent connections to trigger an out-of-bounds write on the stack. This can cause the daemon to crash, resulting in a Denial of Service (DoS).
+    Severity: LOW
+    CweIDs:
+    - CWE-121
+    VendorSeverity:
+      debian: 1
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-128885
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2462795
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-128885
+    - https://www.cve.org/CVERecord?id=CVE-2026-128885
+    PublishedDate: '2026-11-13T21:17:45.827Z'
+    LastModifiedDate: '2026-11-13T22:17:23.543Z'
   - VulnerabilityID: TEMP-1153844-83400A
     PkgID: dbus-user-session@1.16.2-2
     PkgName: dbus-user-session
@@ -4271,6 +4709,7 @@
       Name: Debian Security Tracker
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
     Fingerprint: sha256:31b968894a73e88467e724c94c0eaac6ca51c629b322736042a3e1cdff05a231
+    Title: A directory traversal bug was discovered when unpacking 3.0 (quilt) so ...
     Description: A directory traversal bug was discovered when unpacking 3.0 (quilt) source packages, where the packaging tarball could contain the quilt database directory (.pc) with attacker controlled symlinks, where that in combination with patches that would fail to apply, could be used to make the code used to restore the backup files to either modify or remove the files pointed to by the attacker controlled symlinks.
     Severity: UNKNOWN
     References:
@@ -7868,7 +8307,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-112317
     - https://www.cve.org/CVERecord?id=CVE-2026-112317
     PublishedDate: '2026-11-09T19:16:40.407Z'
-    LastModifiedDate: '2026-11-13T13:17:43.77Z'
+    LastModifiedDate: '2026-11-14T02:16:46.1Z'
   - VulnerabilityID: CVE-2026-112318
     PkgID: krb5-locales@1.21.3-5+deb13u1
     PkgName: krb5-locales
@@ -8108,7 +8547,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-112323
     - https://www.cve.org/CVERecord?id=CVE-2026-112323
     PublishedDate: '2026-11-09T19:16:41.36Z'
-    LastModifiedDate: '2026-11-13T13:17:48.237Z'
+    LastModifiedDate: '2026-11-14T02:16:46.623Z'
   - VulnerabilityID: CVE-2026-118380
     PkgID: krb5-locales@1.21.3-5+deb13u1
     PkgName: krb5-locales
@@ -8886,6 +9325,7 @@
     VendorSeverity:
       alma: 3
       azure: 2
+      bottlerocket: 3
       oracle-oval: 3
       photon: 3
       redhat: 3
@@ -8896,6 +9336,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-76642
     - https://access.redhat.com/errata/RHSA-2026:93461
     - https://access.redhat.com/security/cve/CVE-2026-76642
     - https://bugzilla.redhat.com/2454956
@@ -8928,6 +9369,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78410
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://errata.rockylinux.org/RLSA-2026:93461
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/18.0.0/BRSA-fdl5c89i6p2y.toml
     - https://github.com/util-linux/util-linux
     - https://github.com/util-linux/util-linux/blob/v2.42.2/libmount/src/context_mount.c#L476
     - https://github.com/util-linux/util-linux/blob/v2.42.2/libmount/src/context_mount.c#L892
@@ -8967,6 +9409,7 @@
     VendorSeverity:
       alma: 3
       azure: 3
+      bottlerocket: 3
       oracle-oval: 3
       redhat: 3
       rocky: 3
@@ -8976,6 +9419,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:N/I:H/A:H
         V3Score: 7.9
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78408
     - http://www.openwall.com/lists/oss-security/2026/09/05/2
     - https://access.redhat.com/errata/RHSA-2026:63162
     - https://access.redhat.com/errata/RHSA-2026:93461
@@ -9011,6 +9455,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78410
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://errata.rockylinux.org/RLSA-2026:93461
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/18.0.0/BRSA-mrtb6gutu299.toml
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-55fx-f4gg-cfhj
     - https://linux.oracle.com/cve/CVE-2026-78408.html
     - https://linux.oracle.com/errata/ELSA-2026-93461.html
@@ -9041,15 +9486,18 @@
     CweIDs:
     - CWE-59
     VendorSeverity:
+      bottlerocket: 3
       redhat: 3
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78409
     - https://access.redhat.com/errata/RHSA-2026:63162
     - https://access.redhat.com/security/cve/CVE-2026-78409
     - https://bugzilla.redhat.com/show_bug.cgi?id=2522607
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/18.0.0/BRSA-ohdd8mq75jp1.toml
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-8f2p-47x3-43mv
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78409
     - https://www.cve.org/CVERecord?id=CVE-2026-78409
@@ -9080,6 +9528,7 @@
     VendorSeverity:
       alma: 3
       azure: 3
+      bottlerocket: 3
       oracle-oval: 3
       redhat: 3
       rocky: 3
@@ -9088,6 +9537,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78410
     - https://access.redhat.com/errata/RHSA-2026:63162
     - https://access.redhat.com/errata/RHSA-2026:93461
     - https://access.redhat.com/errata/RHSA-2026:95365
@@ -9122,6 +9572,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78410
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://errata.rockylinux.org/RLSA-2026:93461
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/18.0.0/BRSA-ldtjz3bcx3qo.toml
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-rh77-686x-2f2m
     - https://linux.oracle.com/cve/CVE-2026-78410.html
     - https://linux.oracle.com/errata/ELSA-2026-93461.html
@@ -17415,7 +17866,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-120749
     PublishedDate: '2026-11-06T07:17:06.153Z'
     LastModifiedDate: '2026-11-13T14:17:48.797Z'
-  - VulnerabilityID: TEMP-1153842-A0EC76
+  - VulnerabilityID: CVE-2026-128886
     PkgID: libdbus-1-3@1.16.2-2
     PkgName: libdbus-1-3
     PkgIdentifier:
@@ -17426,15 +17877,31 @@
     Layer:
       Digest: sha256:b2869ff24aa1814265cd28a09992ebe1dad23d948b766384f136c6469053219d
       DiffID: sha256:16dbd089cbe56666fc5275107cfef69f01661418934b120712db54de7ee33797
-    PrimaryURL: https://security-tracker.debian.org/tracker/TEMP-1153842-A0EC76
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-128886
     DataSource:
       ID: debian
       Name: Debian Security Tracker
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
-    Fingerprint: sha256:8c3fc86c3f3e335bc498586f452f04f9dc4ccf1922ead5ef8701217a525e1435
-    Title: '[RHEL-239613, dbus#587: local denial of service via EPIPE]'
-    Severity: UNKNOWN
-  - VulnerabilityID: TEMP-1153843-36094F
+    Fingerprint: sha256:ae35ffbf070a6bb332adfbe55e67bdd840869f79f0467ac0eaac2fb3bbf73387
+    Title: 'dbus: Server accept watch can be stalled by blocking nonce-tcp accept_with_noncefile path'
+    Description: A flaw was found in dbus when configured with the nonce-tcp transport. An unauthenticated attacker able to connect to an exposed listener can cause a Denial of Service (DoS) by opening a connection and withholding the expected authentication token. Because the server processes this verification without enforcing a timeout, the stalled connection blocks the accept process and prevents legitimate clients from establishing new connections.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-1322
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-128886
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2472930
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-128886
+    - https://www.cve.org/CVERecord?id=CVE-2026-128886
+    PublishedDate: '2026-11-13T22:17:23.657Z'
+    LastModifiedDate: '2026-11-13T22:17:23.767Z'
+  - VulnerabilityID: CVE-2026-128987
     PkgID: libdbus-1-3@1.16.2-2
     PkgName: libdbus-1-3
     PkgIdentifier:
@@ -17445,14 +17912,67 @@
     Layer:
       Digest: sha256:b2869ff24aa1814265cd28a09992ebe1dad23d948b766384f136c6469053219d
       DiffID: sha256:16dbd089cbe56666fc5275107cfef69f01661418934b120712db54de7ee33797
-    PrimaryURL: https://security-tracker.debian.org/tracker/TEMP-1153843-36094F
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-128987
     DataSource:
       ID: debian
       Name: Debian Security Tracker
       URL: https://salsa.debian.org/security-tracker-team/security-tracker
-    Fingerprint: sha256:cf9e94022a0363affc0f356105fcde3412786ac235fd5fdc640d32b889b75352
-    Title: '[RHEL-239294, dbus#586: denial of service when nonce-tcp: transport is used]'
-    Severity: UNKNOWN
+    Fingerprint: sha256:ad22c3948d016c871d76676181568fba527b5226ddbc8446431ba5b9b2f412eb
+    Title: 'dbus: Infinite CPU-spin loop in libdbus socket transport when EPIPE is received during write operations'
+    Description: A flaw was found in dbus. A local attacker can exploit this vulnerability by connecting to an affected service, requesting a response, and stopping socket reads while keeping the connection open. Because the socket transport handles broken pipe write errors as retryable, the application enters a continuous retry loop. This can lead to excessive CPU consumption, resulting in a denial of service (DoS) for the target process.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-835
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-128987
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2462869
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-128987
+    - https://www.cve.org/CVERecord?id=CVE-2026-128987
+    PublishedDate: '2026-11-13T21:17:45.977Z'
+    LastModifiedDate: '2026-11-13T21:17:46.09Z'
+  - VulnerabilityID: CVE-2026-128885
+    PkgID: libdbus-1-3@1.16.2-2
+    PkgName: libdbus-1-3
+    PkgIdentifier:
+      PURL: pkg:deb/debian/libdbus-1-3@1.16.2-2?arch=amd64&distro=debian-13.7
+      UID: 7b51d2ed0d3c0e9f
+    InstalledVersion: 1.16.2-2
+    Status: affected
+    Layer:
+      Digest: sha256:b2869ff24aa1814265cd28a09992ebe1dad23d948b766384f136c6469053219d
+      DiffID: sha256:16dbd089cbe56666fc5275107cfef69f01661418934b120712db54de7ee33797
+    SeveritySource: debian
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-128885
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:bc7e055b9399ebdd023afee9d250e029271abf9858f0bb23c2c237c9196e3521
+    Title: 'dbus: Stack out-of-bounds write in dbus _dbus_poll() select() fallback when file descriptor exceeds FD_SETSIZE'
+    Description: A flaw was found in D-Bus. In configurations where the daemon falls back to using the Unix select() mechanism for event monitoring, it does not verify whether file descriptor numbers exceed allocated limits. A local attacker can exploit this flaw by opening a large number of concurrent connections to trigger an out-of-bounds write on the stack. This can cause the daemon to crash, resulting in a Denial of Service (DoS).
+    Severity: LOW
+    CweIDs:
+    - CWE-121
+    VendorSeverity:
+      debian: 1
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-128885
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2462795
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-128885
+    - https://www.cve.org/CVERecord?id=CVE-2026-128885
+    PublishedDate: '2026-11-13T21:17:45.827Z'
+    LastModifiedDate: '2026-11-13T22:17:23.543Z'
   - VulnerabilityID: TEMP-1153844-83400A
     PkgID: libdbus-1-3@1.16.2-2
     PkgName: libdbus-1-3
@@ -18115,6 +18635,36 @@
     - https://www.vulncheck.com/advisories/libexpat-through-2.10.0-out-of-bounds-read-via-unknown-toutf8-and-unknown-toutf16
     PublishedDate: '2026-11-07T15:17:16.08Z'
     LastModifiedDate: '2026-11-11T05:19:36.56Z'
+  - VulnerabilityID: CVE-2026-128241
+    PkgID: libexpat1@2.9.0-1~deb13u1
+    PkgName: libexpat1
+    PkgIdentifier:
+      PURL: pkg:deb/debian/libexpat1@2.9.0-1~deb13u1?arch=amd64&distro=debian-13.7
+      UID: e303fe8e0766825b
+    InstalledVersion: 2.9.0-1~deb13u1
+    Status: affected
+    Layer:
+      Digest: sha256:b2869ff24aa1814265cd28a09992ebe1dad23d948b766384f136c6469053219d
+      DiffID: sha256:16dbd089cbe56666fc5275107cfef69f01661418934b120712db54de7ee33797
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-128241
+    DataSource:
+      ID: debian
+      Name: Debian Security Tracker
+      URL: https://salsa.debian.org/security-tracker-team/security-tracker
+    Fingerprint: sha256:80b82c1d19c35675d1f61253d137c731e8c7505d5bdb916509619f6517f3059f
+    Title: The xmlwf tool in libexpat through 2.10.0 contains a symlink following ...
+    Description: The xmlwf tool in libexpat through 2.10.0 contains a symlink following vulnerability because -d output mode opens files with fopen("wb"), which follows symbolic links. Local attackers with write access to the output directory can plant a symlink at the expected output name to truncate or overwrite files writable by the xmlwf user.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-59
+    References:
+    - https://github.com/libexpat/libexpat
+    - https://github.com/libexpat/libexpat/blob/R_2_10_0/expat/xmlwf/xmlwf.c#L1272-L1275
+    - https://github.com/libexpat/libexpat/blob/R_2_10_0/expat/xmlwf/xmlwf.c#L1338-L1347
+    - https://github.com/libexpat/libexpat/pull/1502
+    - https://www.vulncheck.com/advisories/libexpat-xmlwf-through-2.10.0-symlink-following-via-d-output-directory
+    PublishedDate: '2026-11-13T10:18:12.01Z'
+    LastModifiedDate: '2026-11-13T10:18:12.137Z'
   - VulnerabilityID: CVE-2026-102010
     PkgID: libgcc-s1@14.2.0-19
     PkgName: libgcc-s1
@@ -19007,7 +19557,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-112317
     - https://www.cve.org/CVERecord?id=CVE-2026-112317
     PublishedDate: '2026-11-09T19:16:40.407Z'
-    LastModifiedDate: '2026-11-13T13:17:43.77Z'
+    LastModifiedDate: '2026-11-14T02:16:46.1Z'
   - VulnerabilityID: CVE-2026-112318
     PkgID: libgssapi-krb5-2@1.21.3-5+deb13u1
     PkgName: libgssapi-krb5-2
@@ -19247,7 +19797,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-112323
     - https://www.cve.org/CVERecord?id=CVE-2026-112323
     PublishedDate: '2026-11-09T19:16:41.36Z'
-    LastModifiedDate: '2026-11-13T13:17:48.237Z'
+    LastModifiedDate: '2026-11-14T02:16:46.623Z'
   - VulnerabilityID: CVE-2026-118380
     PkgID: libgssapi-krb5-2@1.21.3-5+deb13u1
     PkgName: libgssapi-krb5-2
@@ -20001,7 +20551,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-112317
     - https://www.cve.org/CVERecord?id=CVE-2026-112317
     PublishedDate: '2026-11-09T19:16:40.407Z'
-    LastModifiedDate: '2026-11-13T13:17:43.77Z'
+    LastModifiedDate: '2026-11-14T02:16:46.1Z'
   - VulnerabilityID: CVE-2026-112318
     PkgID: libk5crypto3@1.21.3-5+deb13u1
     PkgName: libk5crypto3
@@ -20241,7 +20791,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-112323
     - https://www.cve.org/CVERecord?id=CVE-2026-112323
     PublishedDate: '2026-11-09T19:16:41.36Z'
-    LastModifiedDate: '2026-11-13T13:17:48.237Z'
+    LastModifiedDate: '2026-11-14T02:16:46.623Z'
   - VulnerabilityID: CVE-2026-118380
     PkgID: libk5crypto3@1.21.3-5+deb13u1
     PkgName: libk5crypto3
@@ -20915,7 +21465,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-112317
     - https://www.cve.org/CVERecord?id=CVE-2026-112317
     PublishedDate: '2026-11-09T19:16:40.407Z'
-    LastModifiedDate: '2026-11-13T13:17:43.77Z'
+    LastModifiedDate: '2026-11-14T02:16:46.1Z'
   - VulnerabilityID: CVE-2026-112318
     PkgID: libkrb5-3@1.21.3-5+deb13u1
     PkgName: libkrb5-3
@@ -21155,7 +21705,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-112323
     - https://www.cve.org/CVERecord?id=CVE-2026-112323
     PublishedDate: '2026-11-09T19:16:41.36Z'
-    LastModifiedDate: '2026-11-13T13:17:48.237Z'
+    LastModifiedDate: '2026-11-14T02:16:46.623Z'
   - VulnerabilityID: CVE-2026-118380
     PkgID: libkrb5-3@1.21.3-5+deb13u1
     PkgName: libkrb5-3
@@ -21829,7 +22379,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-112317
     - https://www.cve.org/CVERecord?id=CVE-2026-112317
     PublishedDate: '2026-11-09T19:16:40.407Z'
-    LastModifiedDate: '2026-11-13T13:17:43.77Z'
+    LastModifiedDate: '2026-11-14T02:16:46.1Z'
   - VulnerabilityID: CVE-2026-112318
     PkgID: libkrb5support0@1.21.3-5+deb13u1
     PkgName: libkrb5support0
@@ -22069,7 +22619,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-112323
     - https://www.cve.org/CVERecord?id=CVE-2026-112323
     PublishedDate: '2026-11-09T19:16:41.36Z'
-    LastModifiedDate: '2026-11-13T13:17:48.237Z'
+    LastModifiedDate: '2026-11-14T02:16:46.623Z'
   - VulnerabilityID: CVE-2026-118380
     PkgID: libkrb5support0@1.21.3-5+deb13u1
     PkgName: libkrb5support0
@@ -22619,6 +23169,7 @@
     VendorSeverity:
       alma: 3
       azure: 2
+      bottlerocket: 3
       oracle-oval: 3
       photon: 3
       redhat: 3
@@ -22629,6 +23180,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-76642
     - https://access.redhat.com/errata/RHSA-2026:93461
     - https://access.redhat.com/security/cve/CVE-2026-76642
     - https://bugzilla.redhat.com/2454956
@@ -22661,6 +23213,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78410
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://errata.rockylinux.org/RLSA-2026:93461
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/18.0.0/BRSA-fdl5c89i6p2y.toml
     - https://github.com/util-linux/util-linux
     - https://github.com/util-linux/util-linux/blob/v2.42.2/libmount/src/context_mount.c#L476
     - https://github.com/util-linux/util-linux/blob/v2.42.2/libmount/src/context_mount.c#L892
@@ -22700,6 +23253,7 @@
     VendorSeverity:
       alma: 3
       azure: 3
+      bottlerocket: 3
       oracle-oval: 3
       redhat: 3
       rocky: 3
@@ -22709,6 +23263,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:N/I:H/A:H
         V3Score: 7.9
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78408
     - http://www.openwall.com/lists/oss-security/2026/09/05/2
     - https://access.redhat.com/errata/RHSA-2026:63162
     - https://access.redhat.com/errata/RHSA-2026:93461
@@ -22744,6 +23299,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78410
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://errata.rockylinux.org/RLSA-2026:93461
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/18.0.0/BRSA-mrtb6gutu299.toml
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-55fx-f4gg-cfhj
     - https://linux.oracle.com/cve/CVE-2026-78408.html
     - https://linux.oracle.com/errata/ELSA-2026-93461.html
@@ -22774,15 +23330,18 @@
     CweIDs:
     - CWE-59
     VendorSeverity:
+      bottlerocket: 3
       redhat: 3
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78409
     - https://access.redhat.com/errata/RHSA-2026:63162
     - https://access.redhat.com/security/cve/CVE-2026-78409
     - https://bugzilla.redhat.com/show_bug.cgi?id=2522607
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/18.0.0/BRSA-ohdd8mq75jp1.toml
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-8f2p-47x3-43mv
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78409
     - https://www.cve.org/CVERecord?id=CVE-2026-78409
@@ -22813,6 +23372,7 @@
     VendorSeverity:
       alma: 3
       azure: 3
+      bottlerocket: 3
       oracle-oval: 3
       redhat: 3
       rocky: 3
@@ -22821,6 +23381,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78410
     - https://access.redhat.com/errata/RHSA-2026:63162
     - https://access.redhat.com/errata/RHSA-2026:93461
     - https://access.redhat.com/errata/RHSA-2026:95365
@@ -22855,6 +23416,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78410
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://errata.rockylinux.org/RLSA-2026:93461
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/18.0.0/BRSA-ldtjz3bcx3qo.toml
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-rh77-686x-2f2m
     - https://linux.oracle.com/cve/CVE-2026-78410.html
     - https://linux.oracle.com/errata/ELSA-2026-93461.html
@@ -23729,6 +24291,7 @@
     VendorSeverity:
       alma: 3
       azure: 2
+      bottlerocket: 3
       oracle-oval: 3
       photon: 3
       redhat: 3
@@ -23739,6 +24302,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-76642
     - https://access.redhat.com/errata/RHSA-2026:93461
     - https://access.redhat.com/security/cve/CVE-2026-76642
     - https://bugzilla.redhat.com/2454956
@@ -23771,6 +24335,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78410
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://errata.rockylinux.org/RLSA-2026:93461
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/18.0.0/BRSA-fdl5c89i6p2y.toml
     - https://github.com/util-linux/util-linux
     - https://github.com/util-linux/util-linux/blob/v2.42.2/libmount/src/context_mount.c#L476
     - https://github.com/util-linux/util-linux/blob/v2.42.2/libmount/src/context_mount.c#L892
@@ -23810,6 +24375,7 @@
     VendorSeverity:
       alma: 3
       azure: 3
+      bottlerocket: 3
       oracle-oval: 3
       redhat: 3
       rocky: 3
@@ -23819,6 +24385,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:N/I:H/A:H
         V3Score: 7.9
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78408
     - http://www.openwall.com/lists/oss-security/2026/09/05/2
     - https://access.redhat.com/errata/RHSA-2026:63162
     - https://access.redhat.com/errata/RHSA-2026:93461
@@ -23854,6 +24421,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78410
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://errata.rockylinux.org/RLSA-2026:93461
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/18.0.0/BRSA-mrtb6gutu299.toml
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-55fx-f4gg-cfhj
     - https://linux.oracle.com/cve/CVE-2026-78408.html
     - https://linux.oracle.com/errata/ELSA-2026-93461.html
@@ -23884,15 +24452,18 @@
     CweIDs:
     - CWE-59
     VendorSeverity:
+      bottlerocket: 3
       redhat: 3
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78409
     - https://access.redhat.com/errata/RHSA-2026:63162
     - https://access.redhat.com/security/cve/CVE-2026-78409
     - https://bugzilla.redhat.com/show_bug.cgi?id=2522607
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/18.0.0/BRSA-ohdd8mq75jp1.toml
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-8f2p-47x3-43mv
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78409
     - https://www.cve.org/CVERecord?id=CVE-2026-78409
@@ -23923,6 +24494,7 @@
     VendorSeverity:
       alma: 3
       azure: 3
+      bottlerocket: 3
       oracle-oval: 3
       redhat: 3
       rocky: 3
@@ -23931,6 +24503,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78410
     - https://access.redhat.com/errata/RHSA-2026:63162
     - https://access.redhat.com/errata/RHSA-2026:93461
     - https://access.redhat.com/errata/RHSA-2026:95365
@@ -23965,6 +24538,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78410
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://errata.rockylinux.org/RLSA-2026:93461
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/18.0.0/BRSA-ldtjz3bcx3qo.toml
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-rh77-686x-2f2m
     - https://linux.oracle.com/cve/CVE-2026-78410.html
     - https://linux.oracle.com/errata/ELSA-2026-93461.html
@@ -25492,6 +26066,7 @@
     VendorSeverity:
       alma: 3
       azure: 2
+      bottlerocket: 3
       oracle-oval: 3
       photon: 3
       redhat: 3
@@ -25502,6 +26077,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-76642
     - https://access.redhat.com/errata/RHSA-2026:93461
     - https://access.redhat.com/security/cve/CVE-2026-76642
     - https://bugzilla.redhat.com/2454956
@@ -25534,6 +26110,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78410
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://errata.rockylinux.org/RLSA-2026:93461
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/18.0.0/BRSA-fdl5c89i6p2y.toml
     - https://github.com/util-linux/util-linux
     - https://github.com/util-linux/util-linux/blob/v2.42.2/libmount/src/context_mount.c#L476
     - https://github.com/util-linux/util-linux/blob/v2.42.2/libmount/src/context_mount.c#L892
@@ -25573,6 +26150,7 @@
     VendorSeverity:
       alma: 3
       azure: 3
+      bottlerocket: 3
       oracle-oval: 3
       redhat: 3
       rocky: 3
@@ -25582,6 +26160,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:N/I:H/A:H
         V3Score: 7.9
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78408
     - http://www.openwall.com/lists/oss-security/2026/09/05/2
     - https://access.redhat.com/errata/RHSA-2026:63162
     - https://access.redhat.com/errata/RHSA-2026:93461
@@ -25617,6 +26196,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78410
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://errata.rockylinux.org/RLSA-2026:93461
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/18.0.0/BRSA-mrtb6gutu299.toml
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-55fx-f4gg-cfhj
     - https://linux.oracle.com/cve/CVE-2026-78408.html
     - https://linux.oracle.com/errata/ELSA-2026-93461.html
@@ -25647,15 +26227,18 @@
     CweIDs:
     - CWE-59
     VendorSeverity:
+      bottlerocket: 3
       redhat: 3
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78409
     - https://access.redhat.com/errata/RHSA-2026:63162
     - https://access.redhat.com/security/cve/CVE-2026-78409
     - https://bugzilla.redhat.com/show_bug.cgi?id=2522607
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/18.0.0/BRSA-ohdd8mq75jp1.toml
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-8f2p-47x3-43mv
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78409
     - https://www.cve.org/CVERecord?id=CVE-2026-78409
@@ -25686,6 +26269,7 @@
     VendorSeverity:
       alma: 3
       azure: 3
+      bottlerocket: 3
       oracle-oval: 3
       redhat: 3
       rocky: 3
@@ -25694,6 +26278,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78410
     - https://access.redhat.com/errata/RHSA-2026:63162
     - https://access.redhat.com/errata/RHSA-2026:93461
     - https://access.redhat.com/errata/RHSA-2026:95365
@@ -25728,6 +26313,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78410
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://errata.rockylinux.org/RLSA-2026:93461
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/18.0.0/BRSA-ldtjz3bcx3qo.toml
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-rh77-686x-2f2m
     - https://linux.oracle.com/cve/CVE-2026-78410.html
     - https://linux.oracle.com/errata/ELSA-2026-93461.html
@@ -28419,6 +29005,7 @@
     VendorSeverity:
       alma: 3
       azure: 2
+      bottlerocket: 3
       oracle-oval: 3
       photon: 3
       redhat: 3
@@ -28429,6 +29016,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-76642
     - https://access.redhat.com/errata/RHSA-2026:93461
     - https://access.redhat.com/security/cve/CVE-2026-76642
     - https://bugzilla.redhat.com/2454956
@@ -28461,6 +29049,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78410
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://errata.rockylinux.org/RLSA-2026:93461
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/18.0.0/BRSA-fdl5c89i6p2y.toml
     - https://github.com/util-linux/util-linux
     - https://github.com/util-linux/util-linux/blob/v2.42.2/libmount/src/context_mount.c#L476
     - https://github.com/util-linux/util-linux/blob/v2.42.2/libmount/src/context_mount.c#L892
@@ -28500,6 +29089,7 @@
     VendorSeverity:
       alma: 3
       azure: 3
+      bottlerocket: 3
       oracle-oval: 3
       redhat: 3
       rocky: 3
@@ -28509,6 +29099,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:N/I:H/A:H
         V3Score: 7.9
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78408
     - http://www.openwall.com/lists/oss-security/2026/09/05/2
     - https://access.redhat.com/errata/RHSA-2026:63162
     - https://access.redhat.com/errata/RHSA-2026:93461
@@ -28544,6 +29135,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78410
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://errata.rockylinux.org/RLSA-2026:93461
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/18.0.0/BRSA-mrtb6gutu299.toml
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-55fx-f4gg-cfhj
     - https://linux.oracle.com/cve/CVE-2026-78408.html
     - https://linux.oracle.com/errata/ELSA-2026-93461.html
@@ -28574,15 +29166,18 @@
     CweIDs:
     - CWE-59
     VendorSeverity:
+      bottlerocket: 3
       redhat: 3
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78409
     - https://access.redhat.com/errata/RHSA-2026:63162
     - https://access.redhat.com/security/cve/CVE-2026-78409
     - https://bugzilla.redhat.com/show_bug.cgi?id=2522607
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/18.0.0/BRSA-ohdd8mq75jp1.toml
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-8f2p-47x3-43mv
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78409
     - https://www.cve.org/CVERecord?id=CVE-2026-78409
@@ -28613,6 +29208,7 @@
     VendorSeverity:
       alma: 3
       azure: 3
+      bottlerocket: 3
       oracle-oval: 3
       redhat: 3
       rocky: 3
@@ -28621,6 +29217,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78410
     - https://access.redhat.com/errata/RHSA-2026:63162
     - https://access.redhat.com/errata/RHSA-2026:93461
     - https://access.redhat.com/errata/RHSA-2026:95365
@@ -28655,6 +29252,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78410
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://errata.rockylinux.org/RLSA-2026:93461
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/18.0.0/BRSA-ldtjz3bcx3qo.toml
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-rh77-686x-2f2m
     - https://linux.oracle.com/cve/CVE-2026-78410.html
     - https://linux.oracle.com/errata/ELSA-2026-93461.html
@@ -31231,6 +31829,7 @@
     VendorSeverity:
       alma: 3
       azure: 2
+      bottlerocket: 3
       oracle-oval: 3
       photon: 3
       redhat: 3
@@ -31241,6 +31840,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-76642
     - https://access.redhat.com/errata/RHSA-2026:93461
     - https://access.redhat.com/security/cve/CVE-2026-76642
     - https://bugzilla.redhat.com/2454956
@@ -31273,6 +31873,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78410
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://errata.rockylinux.org/RLSA-2026:93461
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/18.0.0/BRSA-fdl5c89i6p2y.toml
     - https://github.com/util-linux/util-linux
     - https://github.com/util-linux/util-linux/blob/v2.42.2/libmount/src/context_mount.c#L476
     - https://github.com/util-linux/util-linux/blob/v2.42.2/libmount/src/context_mount.c#L892
@@ -31312,6 +31913,7 @@
     VendorSeverity:
       alma: 3
       azure: 3
+      bottlerocket: 3
       oracle-oval: 3
       redhat: 3
       rocky: 3
@@ -31321,6 +31923,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:N/I:H/A:H
         V3Score: 7.9
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78408
     - http://www.openwall.com/lists/oss-security/2026/09/05/2
     - https://access.redhat.com/errata/RHSA-2026:63162
     - https://access.redhat.com/errata/RHSA-2026:93461
@@ -31356,6 +31959,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78410
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://errata.rockylinux.org/RLSA-2026:93461
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/18.0.0/BRSA-mrtb6gutu299.toml
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-55fx-f4gg-cfhj
     - https://linux.oracle.com/cve/CVE-2026-78408.html
     - https://linux.oracle.com/errata/ELSA-2026-93461.html
@@ -31386,15 +31990,18 @@
     CweIDs:
     - CWE-59
     VendorSeverity:
+      bottlerocket: 3
       redhat: 3
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78409
     - https://access.redhat.com/errata/RHSA-2026:63162
     - https://access.redhat.com/security/cve/CVE-2026-78409
     - https://bugzilla.redhat.com/show_bug.cgi?id=2522607
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/18.0.0/BRSA-ohdd8mq75jp1.toml
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-8f2p-47x3-43mv
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78409
     - https://www.cve.org/CVERecord?id=CVE-2026-78409
@@ -31425,6 +32032,7 @@
     VendorSeverity:
       alma: 3
       azure: 3
+      bottlerocket: 3
       oracle-oval: 3
       redhat: 3
       rocky: 3
@@ -31433,6 +32041,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78410
     - https://access.redhat.com/errata/RHSA-2026:63162
     - https://access.redhat.com/errata/RHSA-2026:93461
     - https://access.redhat.com/errata/RHSA-2026:95365
@@ -31467,6 +32076,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78410
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://errata.rockylinux.org/RLSA-2026:93461
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/18.0.0/BRSA-ldtjz3bcx3qo.toml
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-rh77-686x-2f2m
     - https://linux.oracle.com/cve/CVE-2026-78410.html
     - https://linux.oracle.com/errata/ELSA-2026-93461.html
@@ -31715,6 +32325,7 @@
     VendorSeverity:
       alma: 3
       azure: 2
+      bottlerocket: 3
       oracle-oval: 3
       photon: 3
       redhat: 3
@@ -31725,6 +32336,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-76642
     - https://access.redhat.com/errata/RHSA-2026:93461
     - https://access.redhat.com/security/cve/CVE-2026-76642
     - https://bugzilla.redhat.com/2454956
@@ -31757,6 +32369,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78410
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://errata.rockylinux.org/RLSA-2026:93461
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/18.0.0/BRSA-fdl5c89i6p2y.toml
     - https://github.com/util-linux/util-linux
     - https://github.com/util-linux/util-linux/blob/v2.42.2/libmount/src/context_mount.c#L476
     - https://github.com/util-linux/util-linux/blob/v2.42.2/libmount/src/context_mount.c#L892
@@ -31796,6 +32409,7 @@
     VendorSeverity:
       alma: 3
       azure: 3
+      bottlerocket: 3
       oracle-oval: 3
       redhat: 3
       rocky: 3
@@ -31805,6 +32419,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:N/I:H/A:H
         V3Score: 7.9
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78408
     - http://www.openwall.com/lists/oss-security/2026/09/05/2
     - https://access.redhat.com/errata/RHSA-2026:63162
     - https://access.redhat.com/errata/RHSA-2026:93461
@@ -31840,6 +32455,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78410
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://errata.rockylinux.org/RLSA-2026:93461
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/18.0.0/BRSA-mrtb6gutu299.toml
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-55fx-f4gg-cfhj
     - https://linux.oracle.com/cve/CVE-2026-78408.html
     - https://linux.oracle.com/errata/ELSA-2026-93461.html
@@ -31870,15 +32486,18 @@
     CweIDs:
     - CWE-59
     VendorSeverity:
+      bottlerocket: 3
       redhat: 3
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78409
     - https://access.redhat.com/errata/RHSA-2026:63162
     - https://access.redhat.com/security/cve/CVE-2026-78409
     - https://bugzilla.redhat.com/show_bug.cgi?id=2522607
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/18.0.0/BRSA-ohdd8mq75jp1.toml
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-8f2p-47x3-43mv
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78409
     - https://www.cve.org/CVERecord?id=CVE-2026-78409
@@ -31909,6 +32528,7 @@
     VendorSeverity:
       alma: 3
       azure: 3
+      bottlerocket: 3
       oracle-oval: 3
       redhat: 3
       rocky: 3
@@ -31917,6 +32537,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78410
     - https://access.redhat.com/errata/RHSA-2026:63162
     - https://access.redhat.com/errata/RHSA-2026:93461
     - https://access.redhat.com/errata/RHSA-2026:95365
@@ -31951,6 +32572,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78410
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://errata.rockylinux.org/RLSA-2026:93461
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/18.0.0/BRSA-ldtjz3bcx3qo.toml
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-rh77-686x-2f2m
     - https://linux.oracle.com/cve/CVE-2026-78410.html
     - https://linux.oracle.com/errata/ELSA-2026-93461.html
@@ -41153,6 +41775,7 @@
     VendorSeverity:
       alma: 3
       azure: 2
+      bottlerocket: 3
       oracle-oval: 3
       photon: 3
       redhat: 3
@@ -41163,6 +41786,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-76642
     - https://access.redhat.com/errata/RHSA-2026:93461
     - https://access.redhat.com/security/cve/CVE-2026-76642
     - https://bugzilla.redhat.com/2454956
@@ -41195,6 +41819,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78410
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://errata.rockylinux.org/RLSA-2026:93461
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/18.0.0/BRSA-fdl5c89i6p2y.toml
     - https://github.com/util-linux/util-linux
     - https://github.com/util-linux/util-linux/blob/v2.42.2/libmount/src/context_mount.c#L476
     - https://github.com/util-linux/util-linux/blob/v2.42.2/libmount/src/context_mount.c#L892
@@ -41234,6 +41859,7 @@
     VendorSeverity:
       alma: 3
       azure: 3
+      bottlerocket: 3
       oracle-oval: 3
       redhat: 3
       rocky: 3
@@ -41243,6 +41869,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:N/I:H/A:H
         V3Score: 7.9
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78408
     - http://www.openwall.com/lists/oss-security/2026/09/05/2
     - https://access.redhat.com/errata/RHSA-2026:63162
     - https://access.redhat.com/errata/RHSA-2026:93461
@@ -41278,6 +41905,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78410
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://errata.rockylinux.org/RLSA-2026:93461
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/18.0.0/BRSA-mrtb6gutu299.toml
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-55fx-f4gg-cfhj
     - https://linux.oracle.com/cve/CVE-2026-78408.html
     - https://linux.oracle.com/errata/ELSA-2026-93461.html
@@ -41308,15 +41936,18 @@
     CweIDs:
     - CWE-59
     VendorSeverity:
+      bottlerocket: 3
       redhat: 3
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78409
     - https://access.redhat.com/errata/RHSA-2026:63162
     - https://access.redhat.com/security/cve/CVE-2026-78409
     - https://bugzilla.redhat.com/show_bug.cgi?id=2522607
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/18.0.0/BRSA-ohdd8mq75jp1.toml
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-8f2p-47x3-43mv
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78409
     - https://www.cve.org/CVERecord?id=CVE-2026-78409
@@ -41347,6 +41978,7 @@
     VendorSeverity:
       alma: 3
       azure: 3
+      bottlerocket: 3
       oracle-oval: 3
       redhat: 3
       rocky: 3
@@ -41355,6 +41987,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78410
     - https://access.redhat.com/errata/RHSA-2026:63162
     - https://access.redhat.com/errata/RHSA-2026:93461
     - https://access.redhat.com/errata/RHSA-2026:95365
@@ -41389,6 +42022,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78410
     - https://errata.almalinux.org/10/ALSA-2026-93461.html
     - https://errata.rockylinux.org/RLSA-2026:93461
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/18.0.0/BRSA-ldtjz3bcx3qo.toml
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-rh77-686x-2f2m
     - https://linux.oracle.com/cve/CVE-2026-78410.html
     - https://linux.oracle.com/errata/ELSA-2026-93461.html
@@ -55535,6 +56169,104 @@
   Type: gobinary
   Packages: []
   Vulnerabilities:
+  - VulnerabilityID: CVE-2026-128085
+    VendorIDs:
+    - GHSA-q7gw-24fr-5p69
+    PkgID: go.opentelemetry.io/otel/sdk@v1.46.0
+    PkgName: go.opentelemetry.io/otel/sdk
+    PkgIdentifier:
+      PURL: pkg:golang/go.opentelemetry.io/otel/sdk@v1.46.0
+      UID: f82bee0d4027b10e
+    InstalledVersion: v1.46.0
+    FixedVersion: 1.47.0
+    Status: fixed
+    Layer:
+      Digest: sha256:b2869ff24aa1814265cd28a09992ebe1dad23d948b766384f136c6469053219d
+      DiffID: sha256:16dbd089cbe56666fc5275107cfef69f01661418934b120712db54de7ee33797
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-128085
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:53850443160b89dc9ba5245bab73b1c996dca774b325f005de3ffde671f47d81
+    Title: 'go.opentelemetry.io/otel/sdk: go.opentelemetry.io/otel/sdk/log: go.opentelemetry.io/otel/trace: OpenTelemetry-Go: Denial of Service via attribute truncation bypass using Unicode replacement characters'
+    Description: OpenTelemetry-Go is the Go implementation of OpenTelemetry. From SDK version 1.33.0, SDK log version 0.9.0, and trace version 1.35.0 until version 1.47.0, the AttributeValueLengthLimit and WithAttributeValueLengthLimit truncation paths in sdk/internal/attrnorm, sdk/log/internal/attrnorm, and trace/auto.go do not count valid U+FFFD replacement characters. This is a distinct incomplete-fix defect in the replacement truncation code introduced by the remediation for CVE-2026-81869. Values composed of or dominated by those characters can therefore exceed the configured character and memory bound in span, log-record, and auto-instrumentation trace attributes. Attacker-controlled telemetry attributes can increase retained memory and pipeline pressure, while confidentiality and integrity are not affected. This issue is fixed in version 1.47.0.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-135
+    - CWE-770
+    VendorSeverity:
+      ghsa: 2
+      redhat: 2
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-128085
+    - https://github.com/open-telemetry/opentelemetry-go
+    - https://github.com/open-telemetry/opentelemetry-go/commit/017b08c7f1018b619991aaf6b2299d4beb9da1d3
+    - https://github.com/open-telemetry/opentelemetry-go/releases/tag/sdk/log/v1.47.0
+    - https://github.com/open-telemetry/opentelemetry-go/releases/tag/sdk/v1.47.0
+    - https://github.com/open-telemetry/opentelemetry-go/releases/tag/trace/v1.47.0
+    - https://github.com/open-telemetry/opentelemetry-go/security/advisories/GHSA-q7gw-24fr-5p69
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-128085
+    - https://www.cve.org/CVERecord?id=CVE-2026-128085
+    PublishedDate: '2026-11-13T19:19:31.193Z'
+    LastModifiedDate: '2026-11-13T19:19:31.193Z'
+  - VulnerabilityID: CVE-2026-128085
+    VendorIDs:
+    - GHSA-q7gw-24fr-5p69
+    PkgID: go.opentelemetry.io/otel/trace@v1.46.0
+    PkgName: go.opentelemetry.io/otel/trace
+    PkgIdentifier:
+      PURL: pkg:golang/go.opentelemetry.io/otel/trace@v1.46.0
+      UID: 14d9a402f7c48829
+    InstalledVersion: v1.46.0
+    FixedVersion: 1.47.0
+    Status: fixed
+    Layer:
+      Digest: sha256:b2869ff24aa1814265cd28a09992ebe1dad23d948b766384f136c6469053219d
+      DiffID: sha256:16dbd089cbe56666fc5275107cfef69f01661418934b120712db54de7ee33797
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-128085
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:6fe0ebbeb54d1a47c47c5e47cfff30a4469a558511e45c2269513d0a1984800f
+    Title: 'go.opentelemetry.io/otel/sdk: go.opentelemetry.io/otel/sdk/log: go.opentelemetry.io/otel/trace: OpenTelemetry-Go: Denial of Service via attribute truncation bypass using Unicode replacement characters'
+    Description: OpenTelemetry-Go is the Go implementation of OpenTelemetry. From SDK version 1.33.0, SDK log version 0.9.0, and trace version 1.35.0 until version 1.47.0, the AttributeValueLengthLimit and WithAttributeValueLengthLimit truncation paths in sdk/internal/attrnorm, sdk/log/internal/attrnorm, and trace/auto.go do not count valid U+FFFD replacement characters. This is a distinct incomplete-fix defect in the replacement truncation code introduced by the remediation for CVE-2026-81869. Values composed of or dominated by those characters can therefore exceed the configured character and memory bound in span, log-record, and auto-instrumentation trace attributes. Attacker-controlled telemetry attributes can increase retained memory and pipeline pressure, while confidentiality and integrity are not affected. This issue is fixed in version 1.47.0.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-135
+    - CWE-770
+    VendorSeverity:
+      ghsa: 2
+      redhat: 2
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-128085
+    - https://github.com/open-telemetry/opentelemetry-go
+    - https://github.com/open-telemetry/opentelemetry-go/commit/017b08c7f1018b619991aaf6b2299d4beb9da1d3
+    - https://github.com/open-telemetry/opentelemetry-go/releases/tag/sdk/log/v1.47.0
+    - https://github.com/open-telemetry/opentelemetry-go/releases/tag/sdk/v1.47.0
+    - https://github.com/open-telemetry/opentelemetry-go/releases/tag/trace/v1.47.0
+    - https://github.com/open-telemetry/opentelemetry-go/security/advisories/GHSA-q7gw-24fr-5p69
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-128085
+    - https://www.cve.org/CVERecord?id=CVE-2026-128085
+    PublishedDate: '2026-11-13T19:19:31.193Z'
+    LastModifiedDate: '2026-11-13T19:19:31.193Z'
   - VulnerabilityID: GO-2026-5932
     PkgID: golang.org/x/crypto@v0.57.0
     PkgName: golang.org/x/crypto
@@ -55736,6 +56468,153 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-85747
     PublishedDate: '2026-10-13T19:21:02.1Z'
     LastModifiedDate: '2026-10-18T14:16:56.91Z'
+  - VulnerabilityID: CVE-2026-128085
+    VendorIDs:
+    - GHSA-q7gw-24fr-5p69
+    PkgID: go.opentelemetry.io/otel/sdk@v1.46.0
+    PkgName: go.opentelemetry.io/otel/sdk
+    PkgIdentifier:
+      PURL: pkg:golang/go.opentelemetry.io/otel/sdk@v1.46.0
+      UID: a5c4c72c253fa934
+    InstalledVersion: v1.46.0
+    FixedVersion: 1.47.0
+    Status: fixed
+    Layer:
+      Digest: sha256:b2869ff24aa1814265cd28a09992ebe1dad23d948b766384f136c6469053219d
+      DiffID: sha256:16dbd089cbe56666fc5275107cfef69f01661418934b120712db54de7ee33797
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-128085
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:d3ce0c2b3a65026d7dc8fa55f9f81aa48dfea9ddceedb2f2b4f74c2b13821dc4
+    Title: 'go.opentelemetry.io/otel/sdk: go.opentelemetry.io/otel/sdk/log: go.opentelemetry.io/otel/trace: OpenTelemetry-Go: Denial of Service via attribute truncation bypass using Unicode replacement characters'
+    Description: OpenTelemetry-Go is the Go implementation of OpenTelemetry. From SDK version 1.33.0, SDK log version 0.9.0, and trace version 1.35.0 until version 1.47.0, the AttributeValueLengthLimit and WithAttributeValueLengthLimit truncation paths in sdk/internal/attrnorm, sdk/log/internal/attrnorm, and trace/auto.go do not count valid U+FFFD replacement characters. This is a distinct incomplete-fix defect in the replacement truncation code introduced by the remediation for CVE-2026-81869. Values composed of or dominated by those characters can therefore exceed the configured character and memory bound in span, log-record, and auto-instrumentation trace attributes. Attacker-controlled telemetry attributes can increase retained memory and pipeline pressure, while confidentiality and integrity are not affected. This issue is fixed in version 1.47.0.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-135
+    - CWE-770
+    VendorSeverity:
+      ghsa: 2
+      redhat: 2
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-128085
+    - https://github.com/open-telemetry/opentelemetry-go
+    - https://github.com/open-telemetry/opentelemetry-go/commit/017b08c7f1018b619991aaf6b2299d4beb9da1d3
+    - https://github.com/open-telemetry/opentelemetry-go/releases/tag/sdk/log/v1.47.0
+    - https://github.com/open-telemetry/opentelemetry-go/releases/tag/sdk/v1.47.0
+    - https://github.com/open-telemetry/opentelemetry-go/releases/tag/trace/v1.47.0
+    - https://github.com/open-telemetry/opentelemetry-go/security/advisories/GHSA-q7gw-24fr-5p69
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-128085
+    - https://www.cve.org/CVERecord?id=CVE-2026-128085
+    PublishedDate: '2026-11-13T19:19:31.193Z'
+    LastModifiedDate: '2026-11-13T19:19:31.193Z'
+  - VulnerabilityID: CVE-2026-128085
+    VendorIDs:
+    - GHSA-q7gw-24fr-5p69
+    PkgID: go.opentelemetry.io/otel/sdk/log@v0.22.0
+    PkgName: go.opentelemetry.io/otel/sdk/log
+    PkgIdentifier:
+      PURL: pkg:golang/go.opentelemetry.io/otel/sdk/log@v0.22.0
+      UID: 7a38ce5d4d03f663
+    InstalledVersion: v0.22.0
+    FixedVersion: 1.47.0
+    Status: fixed
+    Layer:
+      Digest: sha256:b2869ff24aa1814265cd28a09992ebe1dad23d948b766384f136c6469053219d
+      DiffID: sha256:16dbd089cbe56666fc5275107cfef69f01661418934b120712db54de7ee33797
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-128085
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:20f661a6728c8bec6e2cc5ea86afbfc9916bfa63af0749a96e83f6dc150ec435
+    Title: 'go.opentelemetry.io/otel/sdk: go.opentelemetry.io/otel/sdk/log: go.opentelemetry.io/otel/trace: OpenTelemetry-Go: Denial of Service via attribute truncation bypass using Unicode replacement characters'
+    Description: OpenTelemetry-Go is the Go implementation of OpenTelemetry. From SDK version 1.33.0, SDK log version 0.9.0, and trace version 1.35.0 until version 1.47.0, the AttributeValueLengthLimit and WithAttributeValueLengthLimit truncation paths in sdk/internal/attrnorm, sdk/log/internal/attrnorm, and trace/auto.go do not count valid U+FFFD replacement characters. This is a distinct incomplete-fix defect in the replacement truncation code introduced by the remediation for CVE-2026-81869. Values composed of or dominated by those characters can therefore exceed the configured character and memory bound in span, log-record, and auto-instrumentation trace attributes. Attacker-controlled telemetry attributes can increase retained memory and pipeline pressure, while confidentiality and integrity are not affected. This issue is fixed in version 1.47.0.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-135
+    - CWE-770
+    VendorSeverity:
+      ghsa: 2
+      redhat: 2
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-128085
+    - https://github.com/open-telemetry/opentelemetry-go
+    - https://github.com/open-telemetry/opentelemetry-go/commit/017b08c7f1018b619991aaf6b2299d4beb9da1d3
+    - https://github.com/open-telemetry/opentelemetry-go/releases/tag/sdk/log/v1.47.0
+    - https://github.com/open-telemetry/opentelemetry-go/releases/tag/sdk/v1.47.0
+    - https://github.com/open-telemetry/opentelemetry-go/releases/tag/trace/v1.47.0
+    - https://github.com/open-telemetry/opentelemetry-go/security/advisories/GHSA-q7gw-24fr-5p69
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-128085
+    - https://www.cve.org/CVERecord?id=CVE-2026-128085
+    PublishedDate: '2026-11-13T19:19:31.193Z'
+    LastModifiedDate: '2026-11-13T19:19:31.193Z'
+  - VulnerabilityID: CVE-2026-128085
+    VendorIDs:
+    - GHSA-q7gw-24fr-5p69
+    PkgID: go.opentelemetry.io/otel/trace@v1.46.0
+    PkgName: go.opentelemetry.io/otel/trace
+    PkgIdentifier:
+      PURL: pkg:golang/go.opentelemetry.io/otel/trace@v1.46.0
+      UID: 7f11e920dc55ab67
+    InstalledVersion: v1.46.0
+    FixedVersion: 1.47.0
+    Status: fixed
+    Layer:
+      Digest: sha256:b2869ff24aa1814265cd28a09992ebe1dad23d948b766384f136c6469053219d
+      DiffID: sha256:16dbd089cbe56666fc5275107cfef69f01661418934b120712db54de7ee33797
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-128085
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:ed8cefac9d692f3e3a05f2d92715b74764b7560217f0e75342a93242dd927077
+    Title: 'go.opentelemetry.io/otel/sdk: go.opentelemetry.io/otel/sdk/log: go.opentelemetry.io/otel/trace: OpenTelemetry-Go: Denial of Service via attribute truncation bypass using Unicode replacement characters'
+    Description: OpenTelemetry-Go is the Go implementation of OpenTelemetry. From SDK version 1.33.0, SDK log version 0.9.0, and trace version 1.35.0 until version 1.47.0, the AttributeValueLengthLimit and WithAttributeValueLengthLimit truncation paths in sdk/internal/attrnorm, sdk/log/internal/attrnorm, and trace/auto.go do not count valid U+FFFD replacement characters. This is a distinct incomplete-fix defect in the replacement truncation code introduced by the remediation for CVE-2026-81869. Values composed of or dominated by those characters can therefore exceed the configured character and memory bound in span, log-record, and auto-instrumentation trace attributes. Attacker-controlled telemetry attributes can increase retained memory and pipeline pressure, while confidentiality and integrity are not affected. This issue is fixed in version 1.47.0.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-135
+    - CWE-770
+    VendorSeverity:
+      ghsa: 2
+      redhat: 2
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-128085
+    - https://github.com/open-telemetry/opentelemetry-go
+    - https://github.com/open-telemetry/opentelemetry-go/commit/017b08c7f1018b619991aaf6b2299d4beb9da1d3
+    - https://github.com/open-telemetry/opentelemetry-go/releases/tag/sdk/log/v1.47.0
+    - https://github.com/open-telemetry/opentelemetry-go/releases/tag/sdk/v1.47.0
+    - https://github.com/open-telemetry/opentelemetry-go/releases/tag/trace/v1.47.0
+    - https://github.com/open-telemetry/opentelemetry-go/security/advisories/GHSA-q7gw-24fr-5p69
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-128085
+    - https://www.cve.org/CVERecord?id=CVE-2026-128085
+    PublishedDate: '2026-11-13T19:19:31.193Z'
+    LastModifiedDate: '2026-11-13T19:19:31.193Z'
   - VulnerabilityID: GO-2026-5932
     PkgID: golang.org/x/crypto@v0.58.0
     PkgName: golang.org/x/crypto
@@ -55830,6 +56709,55 @@
   Type: gobinary
   Packages: []
   Vulnerabilities:
+  - VulnerabilityID: CVE-2026-128085
+    VendorIDs:
+    - GHSA-q7gw-24fr-5p69
+    PkgID: go.opentelemetry.io/otel/trace@v1.44.0
+    PkgName: go.opentelemetry.io/otel/trace
+    PkgIdentifier:
+      PURL: pkg:golang/go.opentelemetry.io/otel/trace@v1.44.0
+      UID: 313500d81870dc6a
+    InstalledVersion: v1.44.0
+    FixedVersion: 1.47.0
+    Status: fixed
+    Layer:
+      Digest: sha256:b2869ff24aa1814265cd28a09992ebe1dad23d948b766384f136c6469053219d
+      DiffID: sha256:16dbd089cbe56666fc5275107cfef69f01661418934b120712db54de7ee33797
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-128085
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:d3099d39ce788e7a5f6cacdee99bd467f162e695364edf74ea80d784c006e9ac
+    Title: 'go.opentelemetry.io/otel/sdk: go.opentelemetry.io/otel/sdk/log: go.opentelemetry.io/otel/trace: OpenTelemetry-Go: Denial of Service via attribute truncation bypass using Unicode replacement characters'
+    Description: OpenTelemetry-Go is the Go implementation of OpenTelemetry. From SDK version 1.33.0, SDK log version 0.9.0, and trace version 1.35.0 until version 1.47.0, the AttributeValueLengthLimit and WithAttributeValueLengthLimit truncation paths in sdk/internal/attrnorm, sdk/log/internal/attrnorm, and trace/auto.go do not count valid U+FFFD replacement characters. This is a distinct incomplete-fix defect in the replacement truncation code introduced by the remediation for CVE-2026-81869. Values composed of or dominated by those characters can therefore exceed the configured character and memory bound in span, log-record, and auto-instrumentation trace attributes. Attacker-controlled telemetry attributes can increase retained memory and pipeline pressure, while confidentiality and integrity are not affected. This issue is fixed in version 1.47.0.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-135
+    - CWE-770
+    VendorSeverity:
+      ghsa: 2
+      redhat: 2
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-128085
+    - https://github.com/open-telemetry/opentelemetry-go
+    - https://github.com/open-telemetry/opentelemetry-go/commit/017b08c7f1018b619991aaf6b2299d4beb9da1d3
+    - https://github.com/open-telemetry/opentelemetry-go/releases/tag/sdk/log/v1.47.0
+    - https://github.com/open-telemetry/opentelemetry-go/releases/tag/sdk/v1.47.0
+    - https://github.com/open-telemetry/opentelemetry-go/releases/tag/trace/v1.47.0
+    - https://github.com/open-telemetry/opentelemetry-go/security/advisories/GHSA-q7gw-24fr-5p69
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-128085
+    - https://www.cve.org/CVERecord?id=CVE-2026-128085
+    PublishedDate: '2026-11-13T19:19:31.193Z'
+    LastModifiedDate: '2026-11-13T19:19:31.193Z'
   - VulnerabilityID: CVE-2026-78661
     VendorIDs:
     - GO-2026-6860
@@ -56926,6 +57854,104 @@
   Type: gobinary
   Packages: []
   Vulnerabilities:
+  - VulnerabilityID: CVE-2026-128085
+    VendorIDs:
+    - GHSA-q7gw-24fr-5p69
+    PkgID: go.opentelemetry.io/otel/sdk@v1.46.0
+    PkgName: go.opentelemetry.io/otel/sdk
+    PkgIdentifier:
+      PURL: pkg:golang/go.opentelemetry.io/otel/sdk@v1.46.0
+      UID: f7f68f856405bfdb
+    InstalledVersion: v1.46.0
+    FixedVersion: 1.47.0
+    Status: fixed
+    Layer:
+      Digest: sha256:b2869ff24aa1814265cd28a09992ebe1dad23d948b766384f136c6469053219d
+      DiffID: sha256:16dbd089cbe56666fc5275107cfef69f01661418934b120712db54de7ee33797
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-128085
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:6da0711f84d91ab6435a4fe698d9912b22cd03336d793c3fab639e5dade7e785
+    Title: 'go.opentelemetry.io/otel/sdk: go.opentelemetry.io/otel/sdk/log: go.opentelemetry.io/otel/trace: OpenTelemetry-Go: Denial of Service via attribute truncation bypass using Unicode replacement characters'
+    Description: OpenTelemetry-Go is the Go implementation of OpenTelemetry. From SDK version 1.33.0, SDK log version 0.9.0, and trace version 1.35.0 until version 1.47.0, the AttributeValueLengthLimit and WithAttributeValueLengthLimit truncation paths in sdk/internal/attrnorm, sdk/log/internal/attrnorm, and trace/auto.go do not count valid U+FFFD replacement characters. This is a distinct incomplete-fix defect in the replacement truncation code introduced by the remediation for CVE-2026-81869. Values composed of or dominated by those characters can therefore exceed the configured character and memory bound in span, log-record, and auto-instrumentation trace attributes. Attacker-controlled telemetry attributes can increase retained memory and pipeline pressure, while confidentiality and integrity are not affected. This issue is fixed in version 1.47.0.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-135
+    - CWE-770
+    VendorSeverity:
+      ghsa: 2
+      redhat: 2
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-128085
+    - https://github.com/open-telemetry/opentelemetry-go
+    - https://github.com/open-telemetry/opentelemetry-go/commit/017b08c7f1018b619991aaf6b2299d4beb9da1d3
+    - https://github.com/open-telemetry/opentelemetry-go/releases/tag/sdk/log/v1.47.0
+    - https://github.com/open-telemetry/opentelemetry-go/releases/tag/sdk/v1.47.0
+    - https://github.com/open-telemetry/opentelemetry-go/releases/tag/trace/v1.47.0
+    - https://github.com/open-telemetry/opentelemetry-go/security/advisories/GHSA-q7gw-24fr-5p69
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-128085
+    - https://www.cve.org/CVERecord?id=CVE-2026-128085
+    PublishedDate: '2026-11-13T19:19:31.193Z'
+    LastModifiedDate: '2026-11-13T19:19:31.193Z'
+  - VulnerabilityID: CVE-2026-128085
+    VendorIDs:
+    - GHSA-q7gw-24fr-5p69
+    PkgID: go.opentelemetry.io/otel/trace@v1.46.0
+    PkgName: go.opentelemetry.io/otel/trace
+    PkgIdentifier:
+      PURL: pkg:golang/go.opentelemetry.io/otel/trace@v1.46.0
+      UID: fb9df7a724d44460
+    InstalledVersion: v1.46.0
+    FixedVersion: 1.47.0
+    Status: fixed
+    Layer:
+      Digest: sha256:b2869ff24aa1814265cd28a09992ebe1dad23d948b766384f136c6469053219d
+      DiffID: sha256:16dbd089cbe56666fc5275107cfef69f01661418934b120712db54de7ee33797
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-128085
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:90f01f3a7199c956e171c10a9a2148eed5aaeef3e118953fbf77407df92e54c1
+    Title: 'go.opentelemetry.io/otel/sdk: go.opentelemetry.io/otel/sdk/log: go.opentelemetry.io/otel/trace: OpenTelemetry-Go: Denial of Service via attribute truncation bypass using Unicode replacement characters'
+    Description: OpenTelemetry-Go is the Go implementation of OpenTelemetry. From SDK version 1.33.0, SDK log version 0.9.0, and trace version 1.35.0 until version 1.47.0, the AttributeValueLengthLimit and WithAttributeValueLengthLimit truncation paths in sdk/internal/attrnorm, sdk/log/internal/attrnorm, and trace/auto.go do not count valid U+FFFD replacement characters. This is a distinct incomplete-fix defect in the replacement truncation code introduced by the remediation for CVE-2026-81869. Values composed of or dominated by those characters can therefore exceed the configured character and memory bound in span, log-record, and auto-instrumentation trace attributes. Attacker-controlled telemetry attributes can increase retained memory and pipeline pressure, while confidentiality and integrity are not affected. This issue is fixed in version 1.47.0.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-135
+    - CWE-770
+    VendorSeverity:
+      ghsa: 2
+      redhat: 2
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-128085
+    - https://github.com/open-telemetry/opentelemetry-go
+    - https://github.com/open-telemetry/opentelemetry-go/commit/017b08c7f1018b619991aaf6b2299d4beb9da1d3
+    - https://github.com/open-telemetry/opentelemetry-go/releases/tag/sdk/log/v1.47.0
+    - https://github.com/open-telemetry/opentelemetry-go/releases/tag/sdk/v1.47.0
+    - https://github.com/open-telemetry/opentelemetry-go/releases/tag/trace/v1.47.0
+    - https://github.com/open-telemetry/opentelemetry-go/security/advisories/GHSA-q7gw-24fr-5p69
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-128085
+    - https://www.cve.org/CVERecord?id=CVE-2026-128085
+    PublishedDate: '2026-11-13T19:19:31.193Z'
+    LastModifiedDate: '2026-11-13T19:19:31.193Z'
   - VulnerabilityID: GO-2026-5932
     PkgID: golang.org/x/crypto@v0.57.0
     PkgName: golang.org/x/crypto
@@ -57355,6 +58381,55 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-81870
     PublishedDate: '2026-09-16T20:17:32.733Z'
     LastModifiedDate: '2026-09-30T17:51:56.193Z'
+  - VulnerabilityID: CVE-2026-128085
+    VendorIDs:
+    - GHSA-q7gw-24fr-5p69
+    PkgID: go.opentelemetry.io/otel/sdk@v1.44.0
+    PkgName: go.opentelemetry.io/otel/sdk
+    PkgIdentifier:
+      PURL: pkg:golang/go.opentelemetry.io/otel/sdk@v1.44.0
+      UID: bb17d8b4f7c9d6ef
+    InstalledVersion: v1.44.0
+    FixedVersion: 1.47.0
+    Status: fixed
+    Layer:
+      Digest: sha256:b2869ff24aa1814265cd28a09992ebe1dad23d948b766384f136c6469053219d
+      DiffID: sha256:16dbd089cbe56666fc5275107cfef69f01661418934b120712db54de7ee33797
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-128085
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:18ae410d39dc1022a3b3d493692f7b751afe27390ed5ac32d33b0bdf17adc6f8
+    Title: 'go.opentelemetry.io/otel/sdk: go.opentelemetry.io/otel/sdk/log: go.opentelemetry.io/otel/trace: OpenTelemetry-Go: Denial of Service via attribute truncation bypass using Unicode replacement characters'
+    Description: OpenTelemetry-Go is the Go implementation of OpenTelemetry. From SDK version 1.33.0, SDK log version 0.9.0, and trace version 1.35.0 until version 1.47.0, the AttributeValueLengthLimit and WithAttributeValueLengthLimit truncation paths in sdk/internal/attrnorm, sdk/log/internal/attrnorm, and trace/auto.go do not count valid U+FFFD replacement characters. This is a distinct incomplete-fix defect in the replacement truncation code introduced by the remediation for CVE-2026-81869. Values composed of or dominated by those characters can therefore exceed the configured character and memory bound in span, log-record, and auto-instrumentation trace attributes. Attacker-controlled telemetry attributes can increase retained memory and pipeline pressure, while confidentiality and integrity are not affected. This issue is fixed in version 1.47.0.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-135
+    - CWE-770
+    VendorSeverity:
+      ghsa: 2
+      redhat: 2
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-128085
+    - https://github.com/open-telemetry/opentelemetry-go
+    - https://github.com/open-telemetry/opentelemetry-go/commit/017b08c7f1018b619991aaf6b2299d4beb9da1d3
+    - https://github.com/open-telemetry/opentelemetry-go/releases/tag/sdk/log/v1.47.0
+    - https://github.com/open-telemetry/opentelemetry-go/releases/tag/sdk/v1.47.0
+    - https://github.com/open-telemetry/opentelemetry-go/releases/tag/trace/v1.47.0
+    - https://github.com/open-telemetry/opentelemetry-go/security/advisories/GHSA-q7gw-24fr-5p69
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-128085
+    - https://www.cve.org/CVERecord?id=CVE-2026-128085
+    PublishedDate: '2026-11-13T19:19:31.193Z'
+    LastModifiedDate: '2026-11-13T19:19:31.193Z'
   - VulnerabilityID: CVE-2026-81870
     VendorIDs:
     - GHSA-8wmf-6v46-5gfg
@@ -57406,6 +58481,55 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-81870
     PublishedDate: '2026-09-16T20:17:32.733Z'
     LastModifiedDate: '2026-09-30T17:51:56.193Z'
+  - VulnerabilityID: CVE-2026-128085
+    VendorIDs:
+    - GHSA-q7gw-24fr-5p69
+    PkgID: go.opentelemetry.io/otel/trace@v1.44.0
+    PkgName: go.opentelemetry.io/otel/trace
+    PkgIdentifier:
+      PURL: pkg:golang/go.opentelemetry.io/otel/trace@v1.44.0
+      UID: 5269b116e77ac3
+    InstalledVersion: v1.44.0
+    FixedVersion: 1.47.0
+    Status: fixed
+    Layer:
+      Digest: sha256:b2869ff24aa1814265cd28a09992ebe1dad23d948b766384f136c6469053219d
+      DiffID: sha256:16dbd089cbe56666fc5275107cfef69f01661418934b120712db54de7ee33797
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-128085
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:6697b9e1208180b0d106820a9f9bb4ff72f4b12378a3b5c6b6b4c2cca6b05a25
+    Title: 'go.opentelemetry.io/otel/sdk: go.opentelemetry.io/otel/sdk/log: go.opentelemetry.io/otel/trace: OpenTelemetry-Go: Denial of Service via attribute truncation bypass using Unicode replacement characters'
+    Description: OpenTelemetry-Go is the Go implementation of OpenTelemetry. From SDK version 1.33.0, SDK log version 0.9.0, and trace version 1.35.0 until version 1.47.0, the AttributeValueLengthLimit and WithAttributeValueLengthLimit truncation paths in sdk/internal/attrnorm, sdk/log/internal/attrnorm, and trace/auto.go do not count valid U+FFFD replacement characters. This is a distinct incomplete-fix defect in the replacement truncation code introduced by the remediation for CVE-2026-81869. Values composed of or dominated by those characters can therefore exceed the configured character and memory bound in span, log-record, and auto-instrumentation trace attributes. Attacker-controlled telemetry attributes can increase retained memory and pipeline pressure, while confidentiality and integrity are not affected. This issue is fixed in version 1.47.0.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-135
+    - CWE-770
+    VendorSeverity:
+      ghsa: 2
+      redhat: 2
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-128085
+    - https://github.com/open-telemetry/opentelemetry-go
+    - https://github.com/open-telemetry/opentelemetry-go/commit/017b08c7f1018b619991aaf6b2299d4beb9da1d3
+    - https://github.com/open-telemetry/opentelemetry-go/releases/tag/sdk/log/v1.47.0
+    - https://github.com/open-telemetry/opentelemetry-go/releases/tag/sdk/v1.47.0
+    - https://github.com/open-telemetry/opentelemetry-go/releases/tag/trace/v1.47.0
+    - https://github.com/open-telemetry/opentelemetry-go/security/advisories/GHSA-q7gw-24fr-5p69
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-128085
+    - https://www.cve.org/CVERecord?id=CVE-2026-128085
+    PublishedDate: '2026-11-13T19:19:31.193Z'
+    LastModifiedDate: '2026-11-13T19:19:31.193Z'
   - VulnerabilityID: CVE-2026-56855
     VendorIDs:
     - GO-2026-6355
@@ -58134,7 +59258,7 @@
     Severity: CRITICAL
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       bitnami: 4
       bottlerocket: 2
       cbl-mariner: 4
@@ -62073,7 +63197,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -62180,7 +63304,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -66443,6 +67567,55 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-81870
     PublishedDate: '2026-09-16T20:17:32.733Z'
     LastModifiedDate: '2026-09-30T17:51:56.193Z'
+  - VulnerabilityID: CVE-2026-128085
+    VendorIDs:
+    - GHSA-q7gw-24fr-5p69
+    PkgID: go.opentelemetry.io/otel/sdk@v1.44.0
+    PkgName: go.opentelemetry.io/otel/sdk
+    PkgIdentifier:
+      PURL: pkg:golang/go.opentelemetry.io/otel/sdk@v1.44.0
+      UID: 6c9c64d16836432a
+    InstalledVersion: v1.44.0
+    FixedVersion: 1.47.0
+    Status: fixed
+    Layer:
+      Digest: sha256:b2869ff24aa1814265cd28a09992ebe1dad23d948b766384f136c6469053219d
+      DiffID: sha256:16dbd089cbe56666fc5275107cfef69f01661418934b120712db54de7ee33797
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-128085
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:fd41a6759f0f2061129f383b59df6488977f9be8cf7b70bea08de9d0c122c416
+    Title: 'go.opentelemetry.io/otel/sdk: go.opentelemetry.io/otel/sdk/log: go.opentelemetry.io/otel/trace: OpenTelemetry-Go: Denial of Service via attribute truncation bypass using Unicode replacement characters'
+    Description: OpenTelemetry-Go is the Go implementation of OpenTelemetry. From SDK version 1.33.0, SDK log version 0.9.0, and trace version 1.35.0 until version 1.47.0, the AttributeValueLengthLimit and WithAttributeValueLengthLimit truncation paths in sdk/internal/attrnorm, sdk/log/internal/attrnorm, and trace/auto.go do not count valid U+FFFD replacement characters. This is a distinct incomplete-fix defect in the replacement truncation code introduced by the remediation for CVE-2026-81869. Values composed of or dominated by those characters can therefore exceed the configured character and memory bound in span, log-record, and auto-instrumentation trace attributes. Attacker-controlled telemetry attributes can increase retained memory and pipeline pressure, while confidentiality and integrity are not affected. This issue is fixed in version 1.47.0.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-135
+    - CWE-770
+    VendorSeverity:
+      ghsa: 2
+      redhat: 2
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-128085
+    - https://github.com/open-telemetry/opentelemetry-go
+    - https://github.com/open-telemetry/opentelemetry-go/commit/017b08c7f1018b619991aaf6b2299d4beb9da1d3
+    - https://github.com/open-telemetry/opentelemetry-go/releases/tag/sdk/log/v1.47.0
+    - https://github.com/open-telemetry/opentelemetry-go/releases/tag/sdk/v1.47.0
+    - https://github.com/open-telemetry/opentelemetry-go/releases/tag/trace/v1.47.0
+    - https://github.com/open-telemetry/opentelemetry-go/security/advisories/GHSA-q7gw-24fr-5p69
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-128085
+    - https://www.cve.org/CVERecord?id=CVE-2026-128085
+    PublishedDate: '2026-11-13T19:19:31.193Z'
+    LastModifiedDate: '2026-11-13T19:19:31.193Z'
   - VulnerabilityID: CVE-2026-81870
     VendorIDs:
     - GHSA-8wmf-6v46-5gfg
@@ -66494,6 +67667,55 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-81870
     PublishedDate: '2026-09-16T20:17:32.733Z'
     LastModifiedDate: '2026-09-30T17:51:56.193Z'
+  - VulnerabilityID: CVE-2026-128085
+    VendorIDs:
+    - GHSA-q7gw-24fr-5p69
+    PkgID: go.opentelemetry.io/otel/trace@v1.44.0
+    PkgName: go.opentelemetry.io/otel/trace
+    PkgIdentifier:
+      PURL: pkg:golang/go.opentelemetry.io/otel/trace@v1.44.0
+      UID: 3addf9312e38467e
+    InstalledVersion: v1.44.0
+    FixedVersion: 1.47.0
+    Status: fixed
+    Layer:
+      Digest: sha256:b2869ff24aa1814265cd28a09992ebe1dad23d948b766384f136c6469053219d
+      DiffID: sha256:16dbd089cbe56666fc5275107cfef69f01661418934b120712db54de7ee33797
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-128085
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:52a4146f5e354f6a813c18b33ca9788a39b1159c549ba512c7579427850081c2
+    Title: 'go.opentelemetry.io/otel/sdk: go.opentelemetry.io/otel/sdk/log: go.opentelemetry.io/otel/trace: OpenTelemetry-Go: Denial of Service via attribute truncation bypass using Unicode replacement characters'
+    Description: OpenTelemetry-Go is the Go implementation of OpenTelemetry. From SDK version 1.33.0, SDK log version 0.9.0, and trace version 1.35.0 until version 1.47.0, the AttributeValueLengthLimit and WithAttributeValueLengthLimit truncation paths in sdk/internal/attrnorm, sdk/log/internal/attrnorm, and trace/auto.go do not count valid U+FFFD replacement characters. This is a distinct incomplete-fix defect in the replacement truncation code introduced by the remediation for CVE-2026-81869. Values composed of or dominated by those characters can therefore exceed the configured character and memory bound in span, log-record, and auto-instrumentation trace attributes. Attacker-controlled telemetry attributes can increase retained memory and pipeline pressure, while confidentiality and integrity are not affected. This issue is fixed in version 1.47.0.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-135
+    - CWE-770
+    VendorSeverity:
+      ghsa: 2
+      redhat: 2
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-128085
+    - https://github.com/open-telemetry/opentelemetry-go
+    - https://github.com/open-telemetry/opentelemetry-go/commit/017b08c7f1018b619991aaf6b2299d4beb9da1d3
+    - https://github.com/open-telemetry/opentelemetry-go/releases/tag/sdk/log/v1.47.0
+    - https://github.com/open-telemetry/opentelemetry-go/releases/tag/sdk/v1.47.0
+    - https://github.com/open-telemetry/opentelemetry-go/releases/tag/trace/v1.47.0
+    - https://github.com/open-telemetry/opentelemetry-go/security/advisories/GHSA-q7gw-24fr-5p69
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-128085
+    - https://www.cve.org/CVERecord?id=CVE-2026-128085
+    PublishedDate: '2026-11-13T19:19:31.193Z'
+    LastModifiedDate: '2026-11-13T19:19:31.193Z'
   - VulnerabilityID: CVE-2026-56864
     VendorIDs:
     - GO-2026-6180
