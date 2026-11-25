@@ -548,7 +548,7 @@
 │                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-19617      
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-08-14T06:17:14.41Z 
-│                        │       ╰ LastModifiedDate: 2026-11-05T20:17:54.993Z 
+│                        │       ╰ LastModifiedDate: 2026-11-24T11:17:17.687Z 
 │                        ├ [7]   ╭ VulnerabilityID : CVE-2024-52005 
 │                        │       ├ PkgID           : git@1:2.53.0-1ubuntu1.1 
 │                        │       ├ PkgName         : git 
@@ -613,14 +613,13 @@
 │                        │       ├ References                                                                  
 │                        │       │                  ───────────────────────────────────────────────────────────
 │                        │       │                  https://access.redhat.com/errata/RHSA-2025:7409            
-│                        │       │                  https://access.redhat.com/errata/RHSA-2025:8414            
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2024-52005      
 │                        │       │                  https://bugzilla.redhat.com/2338289                        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2338289        
 │                        │       │                  https://creativecommons.org/licenses/by/4.0/               
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-520
 │                        │       │                  05                                                         
-│                        │       │                  https://errata.almalinux.org/8/ALSA-2025-8414.html         
+│                        │       │                  https://errata.almalinux.org/9/ALSA-2025-7409.html         
 │                        │       │                                                                             
 │                        │       │                  https://errata.rockylinux.org/RLSA-2025:7409               
 │                        │       │                                                                             
@@ -705,14 +704,13 @@
 │                        │       ├ References                                                                  
 │                        │       │                  ───────────────────────────────────────────────────────────
 │                        │       │                  https://access.redhat.com/errata/RHSA-2025:7409            
-│                        │       │                  https://access.redhat.com/errata/RHSA-2025:8414            
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2024-52005      
 │                        │       │                  https://bugzilla.redhat.com/2338289                        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2338289        
 │                        │       │                  https://creativecommons.org/licenses/by/4.0/               
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-520
 │                        │       │                  05                                                         
-│                        │       │                  https://errata.almalinux.org/8/ALSA-2025-8414.html         
+│                        │       │                  https://errata.almalinux.org/9/ALSA-2025-7409.html         
 │                        │       │                                                                             
 │                        │       │                  https://errata.rockylinux.org/RLSA-2025:7409               
 │                        │       │                                                                             
@@ -1435,8 +1433,8 @@
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:99715           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-107778     
 │                        │       │                  https://bugzilla.redhat.com/2478440                        
-│                        │       │                  https://bugzilla.redhat.com/2478445                        
-│                        │       │                  https://bugzilla.redhat.com/2478446                        
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:51057           
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:97229           
 │                        │       │                  https://bugzilla.redhat.com/2478447                        
 │                        │       │                  https://bugzilla.redhat.com/2478448                        
 │                        │       │                  https://bugzilla.redhat.com/2478449                        
@@ -1935,7 +1933,7 @@
 │                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-19617      
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-08-14T06:17:14.41Z 
-│                        │       ╰ LastModifiedDate: 2026-11-05T20:17:54.993Z 
+│                        │       ╰ LastModifiedDate: 2026-11-24T11:17:17.687Z 
 │                        ├ [24]  ╭ VulnerabilityID : CVE-2026-63379 
 │                        │       ├ PkgID           : libevent-core-2.1-7t64@2.1.12-stable-10ubuntu0.2 
 │                        │       ├ PkgName         : libevent-core-2.1-7t64 
@@ -2151,9 +2149,11 @@
 │                        │       │                           ╰ V3Score : 5.9 
 │                        │       ├ References                                                                  
 │                        │       │                  ───────────────────────────────────────────────────────────
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:92323           
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:98478           
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:98582           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-102633     
+│                        │       │                  https://bugzilla.redhat.com/2517901                        
+│                        │       │                  https://bugzilla.redhat.com/2538967                        
 │                        │       │                  https://bugzilla.redhat.com/2543288                        
 │                        │       │                  https://bugzilla.redhat.com/2547476                        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517901        
@@ -2172,7 +2172,7 @@
 │                        │       │                  14                                                         
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-939
 │                        │       │                  90                                                         
-│                        │       │                  https://errata.almalinux.org/8/ALSA-2026-92323.html        
+│                        │       │                  https://errata.almalinux.org/10/ALSA-2026-98582.html       
 │                        │       │                                                                             
 │                        │       │                  https://errata.rockylinux.org/RLSA-2026:98478              
 │                        │       │                                                                             
@@ -2251,9 +2251,11 @@
 │                        │       │                           ╰ V3Score : 8.2 
 │                        │       ├ References                                                                  
 │                        │       │                  ───────────────────────────────────────────────────────────
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:92323           
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:98478           
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:98582           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-77214      
+│                        │       │                  https://bugzilla.redhat.com/2517901                        
+│                        │       │                  https://bugzilla.redhat.com/2538967                        
 │                        │       │                  https://bugzilla.redhat.com/2543288                        
 │                        │       │                  https://bugzilla.redhat.com/2547476                        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517901        
@@ -2272,7 +2274,7 @@
 │                        │       │                  14                                                         
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-939
 │                        │       │                  90                                                         
-│                        │       │                  https://errata.almalinux.org/8/ALSA-2026-92323.html        
+│                        │       │                  https://errata.almalinux.org/10/ALSA-2026-98582.html       
 │                        │       │                                                                             
 │                        │       │                  https://errata.rockylinux.org/RLSA-2026:98478              
 │                        │       │                                                                             
@@ -2339,11 +2341,14 @@
 │                        │       │                           ╰ V3Score : 7.5 
 │                        │       ├ References                                                                  
 │                        │       │                  ───────────────────────────────────────────────────────────
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:72448           
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:98478           
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:98582           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-93990      
 │                        │       │                  https://blog.hartwork.org/posts/expat-2-8-5-released/      
+│                        │       │                  https://bugzilla.redhat.com/2517901                        
 │                        │       │                  https://bugzilla.redhat.com/2538967                        
+│                        │       │                  https://bugzilla.redhat.com/2543288                        
+│                        │       │                  https://bugzilla.redhat.com/2547476                        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517901        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2538967        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2543288        
@@ -2360,7 +2365,7 @@
 │                        │       │                  14                                                         
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-939
 │                        │       │                  90                                                         
-│                        │       │                  https://errata.almalinux.org/8/ALSA-2026-72448.html        
+│                        │       │                  https://errata.almalinux.org/10/ALSA-2026-98582.html       
 │                        │       │                                                                             
 │                        │       │                  https://errata.rockylinux.org/RLSA-2026:98478              
 │                        │       │                                                                             
@@ -4347,7 +4352,8 @@
 │                        │       │                  ───────
 │                        │       │                  CWE-359
 │                        │       │                  
-│                        │       ├ VendorSeverity   ╭ redhat: 3 
+│                        │       ├ VendorSeverity   ╭ alma  : 3 
+│                        │       │                  ├ redhat: 3 
 │                        │       │                  ╰ ubuntu: 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I
 │                        │       │                           │           :H/A:N 
@@ -4356,7 +4362,45 @@
 │                        │       │                  ──────────────────────────────────────────────────────
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:102168     
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-121876
+│                        │       │                  https://bugzilla.redhat.com/2507051                   
+│                        │       │                  https://bugzilla.redhat.com/2507085                   
+│                        │       │                  https://bugzilla.redhat.com/2507186                   
+│                        │       │                  https://bugzilla.redhat.com/2507795                   
+│                        │       │                  https://bugzilla.redhat.com/2513211                   
+│                        │       │                  https://bugzilla.redhat.com/2516250                   
+│                        │       │                  https://bugzilla.redhat.com/2516417                   
+│                        │       │                  https://bugzilla.redhat.com/2516430                   
+│                        │       │                  https://bugzilla.redhat.com/2516437                   
+│                        │       │                  https://bugzilla.redhat.com/2516869                   
+│                        │       │                  https://bugzilla.redhat.com/2516878                   
+│                        │       │                  https://bugzilla.redhat.com/2516915                   
+│                        │       │                  https://bugzilla.redhat.com/2521501                   
+│                        │       │                  https://bugzilla.redhat.com/2532164                   
+│                        │       │                  https://bugzilla.redhat.com/2532446                   
+│                        │       │                  https://bugzilla.redhat.com/2532454                   
+│                        │       │                  https://bugzilla.redhat.com/2532459                   
+│                        │       │                  https://bugzilla.redhat.com/2536267                   
+│                        │       │                  https://bugzilla.redhat.com/2536280                   
+│                        │       │                  https://bugzilla.redhat.com/2536295                   
+│                        │       │                  https://bugzilla.redhat.com/2536521                   
+│                        │       │                  https://bugzilla.redhat.com/2540179                   
+│                        │       │                  https://bugzilla.redhat.com/2540228                   
+│                        │       │                  https://bugzilla.redhat.com/2540337                   
+│                        │       │                  https://bugzilla.redhat.com/2540363                   
+│                        │       │                  https://bugzilla.redhat.com/2540411                   
+│                        │       │                  https://bugzilla.redhat.com/2540491                   
+│                        │       │                  https://bugzilla.redhat.com/2540541                   
+│                        │       │                  https://bugzilla.redhat.com/2541010                   
+│                        │       │                  https://bugzilla.redhat.com/2546355                   
+│                        │       │                  https://bugzilla.redhat.com/2546490                   
+│                        │       │                  https://bugzilla.redhat.com/2555002                   
+│                        │       │                  https://bugzilla.redhat.com/2558210                   
+│                        │       │                  https://bugzilla.redhat.com/2559696                   
+│                        │       │                  https://bugzilla.redhat.com/2562676                   
+│                        │       │                  https://bugzilla.redhat.com/2565278                   
+│                        │       │                  https://bugzilla.redhat.com/2570103                   
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2558210   
+│                        │       │                  https://errata.almalinux.org/10/ALSA-2026-102168.html 
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-121876      
 │                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-121876      
 │                        │       │                  
@@ -4462,13 +4506,13 @@
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:37469             
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:38342             
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:49667             
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:49668             
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:65886             
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:53371             
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:54387             
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:54760             
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:58981             
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:72394             
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:72395             
+│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2467820          
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:72399             
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:72470             
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:72475             
@@ -4498,7 +4542,7 @@
 │                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-13757              
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-06-29T19:16:40.907Z 
-│                        │       ╰ LastModifiedDate: 2026-11-06T08:17:21.613Z 
+│                        │       ╰ LastModifiedDate: 2026-11-24T11:17:11.13Z 
 │                        ├ [49]  ╭ VulnerabilityID : CVE-2026-121876 
 │                        │       ├ PkgID           : libpam-systemd@259.9-0ubuntu0.1 
 │                        │       ├ PkgName         : libpam-systemd 
@@ -4561,7 +4605,8 @@
 │                        │       │                  ───────
 │                        │       │                  CWE-359
 │                        │       │                  
-│                        │       ├ VendorSeverity   ╭ redhat: 3 
+│                        │       ├ VendorSeverity   ╭ alma  : 3 
+│                        │       │                  ├ redhat: 3 
 │                        │       │                  ╰ ubuntu: 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I
 │                        │       │                           │           :H/A:N 
@@ -4570,7 +4615,45 @@
 │                        │       │                  ──────────────────────────────────────────────────────
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:102168     
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-121876
+│                        │       │                  https://bugzilla.redhat.com/2507051                   
+│                        │       │                  https://bugzilla.redhat.com/2507085                   
+│                        │       │                  https://bugzilla.redhat.com/2507186                   
+│                        │       │                  https://bugzilla.redhat.com/2507795                   
+│                        │       │                  https://bugzilla.redhat.com/2513211                   
+│                        │       │                  https://bugzilla.redhat.com/2516250                   
+│                        │       │                  https://bugzilla.redhat.com/2516417                   
+│                        │       │                  https://bugzilla.redhat.com/2516430                   
+│                        │       │                  https://bugzilla.redhat.com/2516437                   
+│                        │       │                  https://bugzilla.redhat.com/2516869                   
+│                        │       │                  https://bugzilla.redhat.com/2516878                   
+│                        │       │                  https://bugzilla.redhat.com/2516915                   
+│                        │       │                  https://bugzilla.redhat.com/2521501                   
+│                        │       │                  https://bugzilla.redhat.com/2532164                   
+│                        │       │                  https://bugzilla.redhat.com/2532446                   
+│                        │       │                  https://bugzilla.redhat.com/2532454                   
+│                        │       │                  https://bugzilla.redhat.com/2532459                   
+│                        │       │                  https://bugzilla.redhat.com/2536267                   
+│                        │       │                  https://bugzilla.redhat.com/2536280                   
+│                        │       │                  https://bugzilla.redhat.com/2536295                   
+│                        │       │                  https://bugzilla.redhat.com/2536521                   
+│                        │       │                  https://bugzilla.redhat.com/2540179                   
+│                        │       │                  https://bugzilla.redhat.com/2540228                   
+│                        │       │                  https://bugzilla.redhat.com/2540337                   
+│                        │       │                  https://bugzilla.redhat.com/2540363                   
+│                        │       │                  https://bugzilla.redhat.com/2540411                   
+│                        │       │                  https://bugzilla.redhat.com/2540491                   
+│                        │       │                  https://bugzilla.redhat.com/2540541                   
+│                        │       │                  https://bugzilla.redhat.com/2541010                   
+│                        │       │                  https://bugzilla.redhat.com/2546355                   
+│                        │       │                  https://bugzilla.redhat.com/2546490                   
+│                        │       │                  https://bugzilla.redhat.com/2555002                   
+│                        │       │                  https://bugzilla.redhat.com/2558210                   
+│                        │       │                  https://bugzilla.redhat.com/2559696                   
+│                        │       │                  https://bugzilla.redhat.com/2562676                   
+│                        │       │                  https://bugzilla.redhat.com/2565278                   
+│                        │       │                  https://bugzilla.redhat.com/2570103                   
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2558210   
+│                        │       │                  https://errata.almalinux.org/10/ALSA-2026-102168.html 
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-121876      
 │                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-121876      
 │                        │       │                  
@@ -4689,7 +4772,7 @@
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:30858           
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:30859           
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:30860           
-│                        │       │                  https://go.dev/issue/81744                                 
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:50262           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-48962      
 │                        │       │                  https://bugzilla.redhat.com/2481767                        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2481767        
@@ -4699,7 +4782,7 @@
 │                        │       │                                                                             
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-489
 │                        │       │                  62                                                         
-│                        │       │                  https://errata.almalinux.org/8/ALSA-2026-30858.html        
+│                        │       │                  https://errata.almalinux.org/10/ALSA-2026-30860.html       
 │                        │       │                                                                             
 │                        │       │                  https://errata.rockylinux.org/RLSA-2026:30859              
 │                        │       │                                                                             
@@ -4776,7 +4859,7 @@
 │                        │       ├ References                                                                  
 │                        │       │                  ───────────────────────────────────────────────────────────
 │                        │       │                  http://www.openwall.com/lists/oss-security/2026/05/26/4    
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:49524           
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:49523           
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:49525           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-9538       
 │                        │       │                  https://bugzilla.redhat.com/2481315                        
@@ -4784,7 +4867,7 @@
 │                        │       │                  https://creativecommons.org/licenses/by/4.0/               
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-953
 │                        │       │                  8                                                          
-│                        │       │                  https://errata.almalinux.org/8/ALSA-2026-49524.html        
+│                        │       │                  https://errata.almalinux.org/10/ALSA-2026-49523.html       
 │                        │       │                                                                             
 │                        │       │                  https://errata.rockylinux.org/RLSA-2026:49525              
 │                        │       │                                                                             
@@ -4946,14 +5029,14 @@
 │                        │       ├ References                                                                  
 │                        │       │                  ───────────────────────────────────────────────────────────
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:54268           
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:58971           
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:58902           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-11940      
 │                        │       │                  https://bugzilla.redhat.com/2491848                        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2491848        
 │                        │       │                  https://creativecommons.org/licenses/by/4.0/               
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-119
 │                        │       │                  40                                                         
-│                        │       │                  https://errata.almalinux.org/8/ALSA-2026-58971.html        
+│                        │       │                  https://errata.almalinux.org/10/ALSA-2026-58902.html       
 │                        │       │                                                                             
 │                        │       │                  https://errata.rockylinux.org/RLSA-2026:54268              
 │                        │       │                                                                             
@@ -5030,7 +5113,7 @@
 │                        │       │                  ──────
 │                        │       │                  CWE-59
 │                        │       │                  
-│                        │       ├ VendorSeverity   ╭ alma       : 3 
+│                        │       ├ VendorSeverity   ╭ alma       : 2 
 │                        │       │                  ├ amazon     : 2 
 │                        │       │                  ├ azure      : 1 
 │                        │       │                  ├ bitnami    : 2 
@@ -5047,23 +5130,21 @@
 │                        │       ├ References                                                                  
 │                        │       │                  ───────────────────────────────────────────────────────────
 │                        │       │                  http://www.openwall.com/lists/oss-security/2026/09/29/40   
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:85239           
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:89742           
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:98615           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-12345      
 │                        │       │                  https://bugzilla.redhat.com/2543492                        
-│                        │       │                  https://bugzilla.redhat.com/2544127                        
-│                        │       │                  https://bugzilla.redhat.com/2544138                        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2543492        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2544127        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2544138        
 │                        │       │                  https://creativecommons.org/licenses/by/4.0/               
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-123
 │                        │       │                  45                                                         
-│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-194
-│                        │       │                  45                                                         
+│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2548344        
+│                        │       │                                                                             
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-195
 │                        │       │                  53                                                         
-│                        │       │                  https://errata.almalinux.org/8/ALSA-2026-85239.html        
+│                        │       │                  https://errata.almalinux.org/10/ALSA-2026-98615.html       
 │                        │       │                                                                             
 │                        │       │                  https://errata.rockylinux.org/RLSA-2026:89742              
 │                        │       │                                                                             
@@ -5160,10 +5241,9 @@
 │                        │       ├ References                                                                  
 │                        │       │                  ───────────────────────────────────────────────────────────
 │                        │       │                  http://www.openwall.com/lists/oss-security/2026/09/30/17   
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:85239           
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:77020           
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:89742           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-19445      
-│                        │       │                  https://bugzilla.redhat.com/2543492                        
 │                        │       │                  https://bugzilla.redhat.com/2544127                        
 │                        │       │                  https://bugzilla.redhat.com/2544138                        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2543492        
@@ -5179,7 +5259,7 @@
 │                        │       │                  45                                                         
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-195
 │                        │       │                  53                                                         
-│                        │       │                  https://errata.almalinux.org/8/ALSA-2026-85239.html        
+│                        │       │                  https://errata.almalinux.org/10/ALSA-2026-77020.html       
 │                        │       │                                                                             
 │                        │       │                  https://errata.rockylinux.org/RLSA-2026:89742              
 │                        │       │                                                                             
@@ -5302,10 +5382,9 @@
 │                        │       ├ References                                                                  
 │                        │       │                  ───────────────────────────────────────────────────────────
 │                        │       │                  http://www.openwall.com/lists/oss-security/2026/09/30/16   
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:85239           
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:77020           
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:89742           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-19553      
-│                        │       │                  https://bugzilla.redhat.com/2543492                        
 │                        │       │                  https://bugzilla.redhat.com/2544127                        
 │                        │       │                  https://bugzilla.redhat.com/2544138                        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2543492        
@@ -5321,7 +5400,7 @@
 │                        │       │                  45                                                         
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-195
 │                        │       │                  53                                                         
-│                        │       │                  https://errata.almalinux.org/8/ALSA-2026-85239.html        
+│                        │       │                  https://errata.almalinux.org/10/ALSA-2026-77020.html       
 │                        │       │                                                                             
 │                        │       │                  https://errata.rockylinux.org/RLSA-2026:89742              
 │                        │       │                                                                             
@@ -5582,14 +5661,14 @@
 │                        │       ├ References                                                                  
 │                        │       │                  ───────────────────────────────────────────────────────────
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:54268           
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:58971           
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:58902           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-11940      
 │                        │       │                  https://bugzilla.redhat.com/2491848                        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2491848        
 │                        │       │                  https://creativecommons.org/licenses/by/4.0/               
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-119
 │                        │       │                  40                                                         
-│                        │       │                  https://errata.almalinux.org/8/ALSA-2026-58971.html        
+│                        │       │                  https://errata.almalinux.org/10/ALSA-2026-58902.html       
 │                        │       │                                                                             
 │                        │       │                  https://errata.rockylinux.org/RLSA-2026:54268              
 │                        │       │                                                                             
@@ -5666,7 +5745,7 @@
 │                        │       │                  ──────
 │                        │       │                  CWE-59
 │                        │       │                  
-│                        │       ├ VendorSeverity   ╭ alma       : 3 
+│                        │       ├ VendorSeverity   ╭ alma       : 2 
 │                        │       │                  ├ amazon     : 2 
 │                        │       │                  ├ azure      : 1 
 │                        │       │                  ├ bitnami    : 2 
@@ -5683,12 +5762,10 @@
 │                        │       ├ References                                                                  
 │                        │       │                  ───────────────────────────────────────────────────────────
 │                        │       │                  http://www.openwall.com/lists/oss-security/2026/09/29/40   
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:85239           
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:89742           
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:98615           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-12345      
 │                        │       │                  https://bugzilla.redhat.com/2543492                        
-│                        │       │                  https://bugzilla.redhat.com/2544127                        
-│                        │       │                  https://bugzilla.redhat.com/2544138                        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2543492        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2544127        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2544138        
@@ -5699,7 +5776,7 @@
 │                        │       │                  45                                                         
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-195
 │                        │       │                  53                                                         
-│                        │       │                  https://errata.almalinux.org/8/ALSA-2026-85239.html        
+│                        │       │                  https://errata.almalinux.org/10/ALSA-2026-98615.html       
 │                        │       │                                                                             
 │                        │       │                  https://errata.rockylinux.org/RLSA-2026:89742              
 │                        │       │                                                                             
@@ -5796,10 +5873,9 @@
 │                        │       ├ References                                                                  
 │                        │       │                  ───────────────────────────────────────────────────────────
 │                        │       │                  http://www.openwall.com/lists/oss-security/2026/09/30/17   
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:85239           
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:77020           
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:89742           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-19445      
-│                        │       │                  https://bugzilla.redhat.com/2543492                        
 │                        │       │                  https://bugzilla.redhat.com/2544127                        
 │                        │       │                  https://bugzilla.redhat.com/2544138                        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2543492        
@@ -5815,7 +5891,7 @@
 │                        │       │                  45                                                         
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-195
 │                        │       │                  53                                                         
-│                        │       │                  https://errata.almalinux.org/8/ALSA-2026-85239.html        
+│                        │       │                  https://errata.almalinux.org/10/ALSA-2026-77020.html       
 │                        │       │                                                                             
 │                        │       │                  https://errata.rockylinux.org/RLSA-2026:89742              
 │                        │       │                                                                             
@@ -5938,10 +6014,9 @@
 │                        │       ├ References                                                                  
 │                        │       │                  ───────────────────────────────────────────────────────────
 │                        │       │                  http://www.openwall.com/lists/oss-security/2026/09/30/16   
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:85239           
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:77020           
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:89742           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-19553      
-│                        │       │                  https://bugzilla.redhat.com/2543492                        
 │                        │       │                  https://bugzilla.redhat.com/2544127                        
 │                        │       │                  https://bugzilla.redhat.com/2544138                        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2543492        
@@ -5957,7 +6032,7 @@
 │                        │       │                  45                                                         
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-195
 │                        │       │                  53                                                         
-│                        │       │                  https://errata.almalinux.org/8/ALSA-2026-85239.html        
+│                        │       │                  https://errata.almalinux.org/10/ALSA-2026-77020.html       
 │                        │       │                                                                             
 │                        │       │                  https://errata.rockylinux.org/RLSA-2026:89742              
 │                        │       │                                                                             
@@ -6218,14 +6293,14 @@
 │                        │       ├ References                                                                  
 │                        │       │                  ───────────────────────────────────────────────────────────
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:54268           
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:58971           
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:58902           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-11940      
 │                        │       │                  https://bugzilla.redhat.com/2491848                        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2491848        
 │                        │       │                  https://creativecommons.org/licenses/by/4.0/               
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-119
 │                        │       │                  40                                                         
-│                        │       │                  https://errata.almalinux.org/8/ALSA-2026-58971.html        
+│                        │       │                  https://errata.almalinux.org/10/ALSA-2026-58902.html       
 │                        │       │                                                                             
 │                        │       │                  https://errata.rockylinux.org/RLSA-2026:54268              
 │                        │       │                                                                             
@@ -6302,7 +6377,7 @@
 │                        │       │                  ──────
 │                        │       │                  CWE-59
 │                        │       │                  
-│                        │       ├ VendorSeverity   ╭ alma       : 3 
+│                        │       ├ VendorSeverity   ╭ alma       : 2 
 │                        │       │                  ├ amazon     : 2 
 │                        │       │                  ├ azure      : 1 
 │                        │       │                  ├ bitnami    : 2 
@@ -6319,12 +6394,10 @@
 │                        │       ├ References                                                                  
 │                        │       │                  ───────────────────────────────────────────────────────────
 │                        │       │                  http://www.openwall.com/lists/oss-security/2026/09/29/40   
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:85239           
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:89742           
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:98615           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-12345      
 │                        │       │                  https://bugzilla.redhat.com/2543492                        
-│                        │       │                  https://bugzilla.redhat.com/2544127                        
-│                        │       │                  https://bugzilla.redhat.com/2544138                        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2543492        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2544127        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2544138        
@@ -6335,7 +6408,7 @@
 │                        │       │                  45                                                         
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-195
 │                        │       │                  53                                                         
-│                        │       │                  https://errata.almalinux.org/8/ALSA-2026-85239.html        
+│                        │       │                  https://errata.almalinux.org/10/ALSA-2026-98615.html       
 │                        │       │                                                                             
 │                        │       │                  https://errata.rockylinux.org/RLSA-2026:89742              
 │                        │       │                                                                             
@@ -6432,10 +6505,9 @@
 │                        │       ├ References                                                                  
 │                        │       │                  ───────────────────────────────────────────────────────────
 │                        │       │                  http://www.openwall.com/lists/oss-security/2026/09/30/17   
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:85239           
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:77020           
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:89742           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-19445      
-│                        │       │                  https://bugzilla.redhat.com/2543492                        
 │                        │       │                  https://bugzilla.redhat.com/2544127                        
 │                        │       │                  https://bugzilla.redhat.com/2544138                        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2543492        
@@ -6451,7 +6523,7 @@
 │                        │       │                  45                                                         
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-195
 │                        │       │                  53                                                         
-│                        │       │                  https://errata.almalinux.org/8/ALSA-2026-85239.html        
+│                        │       │                  https://errata.almalinux.org/10/ALSA-2026-77020.html       
 │                        │       │                                                                             
 │                        │       │                  https://errata.rockylinux.org/RLSA-2026:89742              
 │                        │       │                                                                             
@@ -6574,10 +6646,9 @@
 │                        │       ├ References                                                                  
 │                        │       │                  ───────────────────────────────────────────────────────────
 │                        │       │                  http://www.openwall.com/lists/oss-security/2026/09/30/16   
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:85239           
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:77020           
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:89742           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-19553      
-│                        │       │                  https://bugzilla.redhat.com/2543492                        
 │                        │       │                  https://bugzilla.redhat.com/2544127                        
 │                        │       │                  https://bugzilla.redhat.com/2544138                        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2543492        
@@ -6593,7 +6664,7 @@
 │                        │       │                  45                                                         
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-195
 │                        │       │                  53                                                         
-│                        │       │                  https://errata.almalinux.org/8/ALSA-2026-85239.html        
+│                        │       │                  https://errata.almalinux.org/10/ALSA-2026-77020.html       
 │                        │       │                                                                             
 │                        │       │                  https://errata.rockylinux.org/RLSA-2026:89742              
 │                        │       │                                                                             
@@ -6775,7 +6846,7 @@
 │                        │       │                                                                             
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-10-07T20:17:10.977Z 
-│                        │       ╰ LastModifiedDate: 2026-11-06T08:17:17.55Z 
+│                        │       ╰ LastModifiedDate: 2026-11-24T10:17:41.92Z 
 │                        ├ [72]  ╭ VulnerabilityID : CVE-2026-107161 
 │                        │       ├ PkgID           : libsasl2-modules@2.1.28+dfsg1-9ubuntu3 
 │                        │       ├ PkgName         : libsasl2-modules 
@@ -6836,7 +6907,7 @@
 │                        │       │                                                                             
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-10-07T20:17:10.977Z 
-│                        │       ╰ LastModifiedDate: 2026-11-06T08:17:17.55Z 
+│                        │       ╰ LastModifiedDate: 2026-11-24T10:17:41.92Z 
 │                        ├ [73]  ╭ VulnerabilityID : CVE-2026-107161 
 │                        │       ├ PkgID           : libsasl2-modules-db@2.1.28+dfsg1-9ubuntu3 
 │                        │       ├ PkgName         : libsasl2-modules-db 
@@ -6897,7 +6968,7 @@
 │                        │       │                                                                             
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-10-07T20:17:10.977Z 
-│                        │       ╰ LastModifiedDate: 2026-11-06T08:17:17.55Z 
+│                        │       ╰ LastModifiedDate: 2026-11-24T10:17:41.92Z 
 │                        ├ [74]  ╭ VulnerabilityID : CVE-2026-76642 
 │                        │       ├ PkgID           : libsmartcols1@2.41.3-3ubuntu2.2 
 │                        │       ├ PkgName         : libsmartcols1 
@@ -7310,7 +7381,7 @@
 │                        │       │                                                                             
 │                        │       │                  https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44
 │                        │       │                  bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241         
-│                        │       │                  https://github.com/shadow-maint/shadow/issues/1157         
+│                        │       │                  21                                                         
 │                        │       │                                                                             
 │                        │       │                  https://github.com/shadow-maint/shadow/releases/tag/4.4    
 │                        │       │                                                                             
@@ -7387,7 +7458,8 @@
 │                        │       │                  ───────
 │                        │       │                  CWE-359
 │                        │       │                  
-│                        │       ├ VendorSeverity   ╭ redhat: 3 
+│                        │       ├ VendorSeverity   ╭ alma  : 3 
+│                        │       │                  ├ redhat: 3 
 │                        │       │                  ╰ ubuntu: 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I
 │                        │       │                           │           :H/A:N 
@@ -7396,7 +7468,45 @@
 │                        │       │                  ──────────────────────────────────────────────────────
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:102168     
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-121876
+│                        │       │                  https://bugzilla.redhat.com/2507051                   
+│                        │       │                  https://bugzilla.redhat.com/2507085                   
+│                        │       │                  https://bugzilla.redhat.com/2507186                   
+│                        │       │                  https://bugzilla.redhat.com/2507795                   
+│                        │       │                  https://bugzilla.redhat.com/2513211                   
+│                        │       │                  https://bugzilla.redhat.com/2516250                   
+│                        │       │                  https://bugzilla.redhat.com/2516417                   
+│                        │       │                  https://bugzilla.redhat.com/2516430                   
+│                        │       │                  https://bugzilla.redhat.com/2516437                   
+│                        │       │                  https://bugzilla.redhat.com/2516869                   
+│                        │       │                  https://bugzilla.redhat.com/2516878                   
+│                        │       │                  https://bugzilla.redhat.com/2516915                   
+│                        │       │                  https://bugzilla.redhat.com/2521501                   
+│                        │       │                  https://bugzilla.redhat.com/2532164                   
+│                        │       │                  https://bugzilla.redhat.com/2532446                   
+│                        │       │                  https://bugzilla.redhat.com/2532454                   
+│                        │       │                  https://bugzilla.redhat.com/2532459                   
+│                        │       │                  https://bugzilla.redhat.com/2536267                   
+│                        │       │                  https://bugzilla.redhat.com/2536280                   
+│                        │       │                  https://bugzilla.redhat.com/2536295                   
+│                        │       │                  https://bugzilla.redhat.com/2536521                   
+│                        │       │                  https://bugzilla.redhat.com/2540179                   
+│                        │       │                  https://bugzilla.redhat.com/2540228                   
+│                        │       │                  https://bugzilla.redhat.com/2540337                   
+│                        │       │                  https://bugzilla.redhat.com/2540363                   
+│                        │       │                  https://bugzilla.redhat.com/2540411                   
+│                        │       │                  https://bugzilla.redhat.com/2540491                   
+│                        │       │                  https://bugzilla.redhat.com/2540541                   
+│                        │       │                  https://bugzilla.redhat.com/2541010                   
+│                        │       │                  https://bugzilla.redhat.com/2546355                   
+│                        │       │                  https://bugzilla.redhat.com/2546490                   
+│                        │       │                  https://bugzilla.redhat.com/2555002                   
+│                        │       │                  https://bugzilla.redhat.com/2558210                   
+│                        │       │                  https://bugzilla.redhat.com/2559696                   
+│                        │       │                  https://bugzilla.redhat.com/2562676                   
+│                        │       │                  https://bugzilla.redhat.com/2565278                   
+│                        │       │                  https://bugzilla.redhat.com/2570103                   
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2558210   
+│                        │       │                  https://errata.almalinux.org/10/ALSA-2026-102168.html 
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-121876      
 │                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-121876      
 │                        │       │                  
@@ -7513,7 +7623,8 @@
 │                        │       │                  ───────
 │                        │       │                  CWE-359
 │                        │       │                  
-│                        │       ├ VendorSeverity   ╭ redhat: 3 
+│                        │       ├ VendorSeverity   ╭ alma  : 3 
+│                        │       │                  ├ redhat: 3 
 │                        │       │                  ╰ ubuntu: 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I
 │                        │       │                           │           :H/A:N 
@@ -7522,7 +7633,45 @@
 │                        │       │                  ──────────────────────────────────────────────────────
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:102168     
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-121876
+│                        │       │                  https://bugzilla.redhat.com/2507051                   
+│                        │       │                  https://bugzilla.redhat.com/2507085                   
+│                        │       │                  https://bugzilla.redhat.com/2507186                   
+│                        │       │                  https://bugzilla.redhat.com/2507795                   
+│                        │       │                  https://bugzilla.redhat.com/2513211                   
+│                        │       │                  https://bugzilla.redhat.com/2516250                   
+│                        │       │                  https://bugzilla.redhat.com/2516417                   
+│                        │       │                  https://bugzilla.redhat.com/2516430                   
+│                        │       │                  https://bugzilla.redhat.com/2516437                   
+│                        │       │                  https://bugzilla.redhat.com/2516869                   
+│                        │       │                  https://bugzilla.redhat.com/2516878                   
+│                        │       │                  https://bugzilla.redhat.com/2516915                   
+│                        │       │                  https://bugzilla.redhat.com/2521501                   
+│                        │       │                  https://bugzilla.redhat.com/2532164                   
+│                        │       │                  https://bugzilla.redhat.com/2532446                   
+│                        │       │                  https://bugzilla.redhat.com/2532454                   
+│                        │       │                  https://bugzilla.redhat.com/2532459                   
+│                        │       │                  https://bugzilla.redhat.com/2536267                   
+│                        │       │                  https://bugzilla.redhat.com/2536280                   
+│                        │       │                  https://bugzilla.redhat.com/2536295                   
+│                        │       │                  https://bugzilla.redhat.com/2536521                   
+│                        │       │                  https://bugzilla.redhat.com/2540179                   
+│                        │       │                  https://bugzilla.redhat.com/2540228                   
+│                        │       │                  https://bugzilla.redhat.com/2540337                   
+│                        │       │                  https://bugzilla.redhat.com/2540363                   
+│                        │       │                  https://bugzilla.redhat.com/2540411                   
+│                        │       │                  https://bugzilla.redhat.com/2540491                   
+│                        │       │                  https://bugzilla.redhat.com/2540541                   
+│                        │       │                  https://bugzilla.redhat.com/2541010                   
+│                        │       │                  https://bugzilla.redhat.com/2546355                   
+│                        │       │                  https://bugzilla.redhat.com/2546490                   
+│                        │       │                  https://bugzilla.redhat.com/2555002                   
+│                        │       │                  https://bugzilla.redhat.com/2558210                   
+│                        │       │                  https://bugzilla.redhat.com/2559696                   
+│                        │       │                  https://bugzilla.redhat.com/2562676                   
+│                        │       │                  https://bugzilla.redhat.com/2565278                   
+│                        │       │                  https://bugzilla.redhat.com/2570103                   
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2558210   
+│                        │       │                  https://errata.almalinux.org/10/ALSA-2026-102168.html 
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-121876      
 │                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-121876      
 │                        │       │                  
@@ -7639,7 +7788,8 @@
 │                        │       │                  ───────
 │                        │       │                  CWE-359
 │                        │       │                  
-│                        │       ├ VendorSeverity   ╭ redhat: 3 
+│                        │       ├ VendorSeverity   ╭ alma  : 3 
+│                        │       │                  ├ redhat: 3 
 │                        │       │                  ╰ ubuntu: 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I
 │                        │       │                           │           :H/A:N 
@@ -7648,7 +7798,45 @@
 │                        │       │                  ──────────────────────────────────────────────────────
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:102168     
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-121876
+│                        │       │                  https://bugzilla.redhat.com/2507051                   
+│                        │       │                  https://bugzilla.redhat.com/2507085                   
+│                        │       │                  https://bugzilla.redhat.com/2507186                   
+│                        │       │                  https://bugzilla.redhat.com/2507795                   
+│                        │       │                  https://bugzilla.redhat.com/2513211                   
+│                        │       │                  https://bugzilla.redhat.com/2516250                   
+│                        │       │                  https://bugzilla.redhat.com/2516417                   
+│                        │       │                  https://bugzilla.redhat.com/2516430                   
+│                        │       │                  https://bugzilla.redhat.com/2516437                   
+│                        │       │                  https://bugzilla.redhat.com/2516869                   
+│                        │       │                  https://bugzilla.redhat.com/2516878                   
+│                        │       │                  https://bugzilla.redhat.com/2516915                   
+│                        │       │                  https://bugzilla.redhat.com/2521501                   
+│                        │       │                  https://bugzilla.redhat.com/2532164                   
+│                        │       │                  https://bugzilla.redhat.com/2532446                   
+│                        │       │                  https://bugzilla.redhat.com/2532454                   
+│                        │       │                  https://bugzilla.redhat.com/2532459                   
+│                        │       │                  https://bugzilla.redhat.com/2536267                   
+│                        │       │                  https://bugzilla.redhat.com/2536280                   
+│                        │       │                  https://bugzilla.redhat.com/2536295                   
+│                        │       │                  https://bugzilla.redhat.com/2536521                   
+│                        │       │                  https://bugzilla.redhat.com/2540179                   
+│                        │       │                  https://bugzilla.redhat.com/2540228                   
+│                        │       │                  https://bugzilla.redhat.com/2540337                   
+│                        │       │                  https://bugzilla.redhat.com/2540363                   
+│                        │       │                  https://bugzilla.redhat.com/2540411                   
+│                        │       │                  https://bugzilla.redhat.com/2540491                   
+│                        │       │                  https://bugzilla.redhat.com/2540541                   
+│                        │       │                  https://bugzilla.redhat.com/2541010                   
+│                        │       │                  https://bugzilla.redhat.com/2546355                   
+│                        │       │                  https://bugzilla.redhat.com/2546490                   
+│                        │       │                  https://bugzilla.redhat.com/2555002                   
+│                        │       │                  https://bugzilla.redhat.com/2558210                   
+│                        │       │                  https://bugzilla.redhat.com/2559696                   
+│                        │       │                  https://bugzilla.redhat.com/2562676                   
+│                        │       │                  https://bugzilla.redhat.com/2565278                   
+│                        │       │                  https://bugzilla.redhat.com/2570103                   
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2558210   
+│                        │       │                  https://errata.almalinux.org/10/ALSA-2026-102168.html 
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-121876      
 │                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-121876      
 │                        │       │                  
@@ -9285,7 +9473,7 @@
 │                        │       │                                                                             
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-489
 │                        │       │                  62                                                         
-│                        │       │                  https://errata.almalinux.org/8/ALSA-2026-30858.html        
+│                        │       │                  https://errata.almalinux.org/10/ALSA-2026-30860.html       
 │                        │       │                                                                             
 │                        │       │                  https://errata.rockylinux.org/RLSA-2026:30859              
 │                        │       │                                                                             
@@ -9362,7 +9550,7 @@
 │                        │       ├ References                                                                  
 │                        │       │                  ───────────────────────────────────────────────────────────
 │                        │       │                  http://www.openwall.com/lists/oss-security/2026/05/26/4    
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:49524           
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:49523           
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:49525           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-9538       
 │                        │       │                  https://bugzilla.redhat.com/2481315                        
@@ -9370,7 +9558,7 @@
 │                        │       │                  https://creativecommons.org/licenses/by/4.0/               
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-953
 │                        │       │                  8                                                          
-│                        │       │                  https://errata.almalinux.org/8/ALSA-2026-49524.html        
+│                        │       │                  https://errata.almalinux.org/10/ALSA-2026-49523.html       
 │                        │       │                                                                             
 │                        │       │                  https://errata.rockylinux.org/RLSA-2026:49525              
 │                        │       │                                                                             
@@ -9467,7 +9655,7 @@
 │                        │       │                                                                             
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-489
 │                        │       │                  62                                                         
-│                        │       │                  https://errata.almalinux.org/8/ALSA-2026-30858.html        
+│                        │       │                  https://errata.almalinux.org/10/ALSA-2026-30860.html       
 │                        │       │                                                                             
 │                        │       │                  https://errata.rockylinux.org/RLSA-2026:30859              
 │                        │       │                                                                             
@@ -9544,7 +9732,7 @@
 │                        │       ├ References                                                                  
 │                        │       │                  ───────────────────────────────────────────────────────────
 │                        │       │                  http://www.openwall.com/lists/oss-security/2026/05/26/4    
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:49524           
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:49523           
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:49525           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-9538       
 │                        │       │                  https://bugzilla.redhat.com/2481315                        
@@ -9552,7 +9740,7 @@
 │                        │       │                  https://creativecommons.org/licenses/by/4.0/               
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-953
 │                        │       │                  8                                                          
-│                        │       │                  https://errata.almalinux.org/8/ALSA-2026-49524.html        
+│                        │       │                  https://errata.almalinux.org/10/ALSA-2026-49523.html       
 │                        │       │                                                                             
 │                        │       │                  https://errata.rockylinux.org/RLSA-2026:49525              
 │                        │       │                                                                             
@@ -9649,7 +9837,7 @@
 │                        │       │                                                                             
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-489
 │                        │       │                  62                                                         
-│                        │       │                  https://errata.almalinux.org/8/ALSA-2026-30858.html        
+│                        │       │                  https://errata.almalinux.org/10/ALSA-2026-30860.html       
 │                        │       │                                                                             
 │                        │       │                  https://errata.rockylinux.org/RLSA-2026:30859              
 │                        │       │                                                                             
@@ -9726,7 +9914,7 @@
 │                        │       ├ References                                                                  
 │                        │       │                  ───────────────────────────────────────────────────────────
 │                        │       │                  http://www.openwall.com/lists/oss-security/2026/05/26/4    
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:49524           
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:49523           
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:49525           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-9538       
 │                        │       │                  https://bugzilla.redhat.com/2481315                        
@@ -9734,7 +9922,7 @@
 │                        │       │                  https://creativecommons.org/licenses/by/4.0/               
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-953
 │                        │       │                  8                                                          
-│                        │       │                  https://errata.almalinux.org/8/ALSA-2026-49524.html        
+│                        │       │                  https://errata.almalinux.org/10/ALSA-2026-49523.html       
 │                        │       │                                                                             
 │                        │       │                  https://errata.rockylinux.org/RLSA-2026:49525              
 │                        │       │                                                                             
@@ -9757,14 +9945,107 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-05-26T02:16:41.15Z 
 │                        │       ╰ LastModifiedDate: 2026-07-23T11:10:00.12Z 
-│                        ├ [107] ╭ VulnerabilityID : CVE-2026-49264 
+│                        ├ [107] ╭ VulnerabilityID : CVE-2026-118669 
 │                        │       ├ PkgID           : python3-oauthlib@3.3.1-1build1 
 │                        │       ├ PkgName         : python3-oauthlib 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3-oauthlib@3.3.1-1build1?arch=
 │                        │       │                  │       all&distro=ubuntu-26.04 
 │                        │       │                  ╰ UID : 63b4c6499abd3a16 
 │                        │       ├ InstalledVersion: 3.3.1-1build1 
-│                        │       ├ Status          : affected 
+│                        │       ├ FixedVersion    : 3.3.1-1ubuntu0.1 
+│                        │       ├ Status          : fixed 
+│                        │       ├ Layer            ╭ Digest: sha256:14cb0260b85e78886481ce046d1d254d0c68fb9624
+│                        │       │                  │         71a65ec12dda151a2fe2ab 
+│                        │       │                  ╰ DiffID: sha256:5bab762262d24c56d72878dd7e42fe9d48e0c3644c
+│                        │       │                            52706ce7f74df0d442c435 
+│                        │       ├ SeveritySource  : ubuntu 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-118669 
+│                        │       ├ DataSource       ╭ ID  : ubuntu 
+│                        │       │                  ├ Name: Ubuntu CVE Tracker 
+│                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │       ├ Fingerprint     : sha256:bca044693d9e1303b197f62e863481452b030608688c3be0de6
+│                        │       │                   2ca6a3d4718b8 
+│                        │       ├ Title           : oauthlib: oauthlib: privilege escalation via client
+│                        │       │                   identity confusion in token grant handlers 
+│                        │       ├ Description     : OAuthLib is an implementation of the OAuth request-signing
+│                        │       │                    logic for Python 3.6+. Prior to 4.0.0, the
+│                        │       │                   client_credentials and Resource Owner Password Credentials
+│                        │       │                    token grant handlers can authenticate request.client as
+│                        │       │                   one confidential client while retaining an
+│                        │       │                   attacker-supplied request.client_id for
+│                        │       │                   validate_grant_type and validate_scopes. A lower-privilege
+│                        │       │                    authenticated client can therefore cause grant and scope
+│                        │       │                   authorization to use another client's identity when an
+│                        │       │                   application validator relies on the documented client_id
+│                        │       │                   argument, potentially issuing tokens with unauthorized
+│                        │       │                   grants or scopes. Validators that authorize exclusively
+│                        │       │                   from request.client may not be affected. This issue is
+│                        │       │                   fixed in version 4.0.0. 
+│                        │       ├ Severity        : MEDIUM 
+│                        │       ├ CweIDs                  
+│                        │       │                  ───────
+│                        │       │                  CWE-863
+│                        │       │                  
+│                        │       ├ VendorSeverity   ╭ alma       : 3 
+│                        │       │                  ├ amazon     : 3 
+│                        │       │                  ├ azure      : 3 
+│                        │       │                  ├ ghsa       : 3 
+│                        │       │                  ├ oracle-oval: 3 
+│                        │       │                  ├ redhat     : 3 
+│                        │       │                  ├ rocky      : 3 
+│                        │       │                  ╰ ubuntu     : 2 
+│                        │       ├ CVSS             ╭ ghsa   ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:
+│                        │       │                  │        │            N/VI:H/VA:N/SC:H/SI:H/SA:N 
+│                        │       │                  │        ╰ V40Score : 8.4 
+│                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I
+│                        │       │                           │           :H/A:N 
+│                        │       │                           ╰ V3Score : 8.1 
+│                        │       ├ References                                                                  
+│                        │       │                  ───────────────────────────────────────────────────────────
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:100542          
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:98641           
+│                        │       │                  https://access.redhat.com/security/cve/CVE-2026-118669     
+│                        │       │                  https://bugzilla.redhat.com/2563201                        
+│                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2563201        
+│                        │       │                  https://creativecommons.org/licenses/by/4.0/               
+│                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-118
+│                        │       │                  669                                                        
+│                        │       │                  https://errata.almalinux.org/10/ALSA-2026-98641.html       
+│                        │       │                                                                             
+│                        │       │                  https://errata.rockylinux.org/RLSA-2026:100542             
+│                        │       │                                                                             
+│                        │       │                  https://github.com/oauthlib/oauthlib                       
+│                        │       │                                                                             
+│                        │       │                  https://github.com/oauthlib/oauthlib/commit/c951a1d09f99f14
+│                        │       │                  e3240973fa83c4f4287d4753d                                  
+│                        │       │                  https://github.com/oauthlib/oauthlib/pull/920              
+│                        │       │                                                                             
+│                        │       │                  https://github.com/oauthlib/oauthlib/releases/tag/v4.0.0   
+│                        │       │                                                                             
+│                        │       │                  https://github.com/oauthlib/oauthlib/security/advisories/GH
+│                        │       │                  SA-7984-qgvg-3j9c                                          
+│                        │       │                  https://linux.oracle.com/cve/CVE-2026-118669.html          
+│                        │       │                                                                             
+│                        │       │                  https://linux.oracle.com/errata/ELSA-2026-98641.html       
+│                        │       │                                                                             
+│                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-118669           
+│                        │       │                                                                             
+│                        │       │                  https://ubuntu.com/security/notices/USN-9188-1             
+│                        │       │                                                                             
+│                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-118669           
+│                        │       │                                                                             
+│                        │       │                  
+│                        │       ├ PublishedDate   : 2026-10-28T22:17:12.61Z 
+│                        │       ╰ LastModifiedDate: 2026-11-03T14:17:32.237Z 
+│                        ├ [108] ╭ VulnerabilityID : CVE-2026-49264 
+│                        │       ├ PkgID           : python3-oauthlib@3.3.1-1build1 
+│                        │       ├ PkgName         : python3-oauthlib 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3-oauthlib@3.3.1-1build1?arch=
+│                        │       │                  │       all&distro=ubuntu-26.04 
+│                        │       │                  ╰ UID : 63b4c6499abd3a16 
+│                        │       ├ InstalledVersion: 3.3.1-1build1 
+│                        │       ├ FixedVersion    : 3.3.1-1ubuntu0.1 
+│                        │       ├ Status          : fixed 
 │                        │       ├ Layer            ╭ Digest: sha256:14cb0260b85e78886481ce046d1d254d0c68fb9624
 │                        │       │                  │         71a65ec12dda151a2fe2ab 
 │                        │       │                  ╰ DiffID: sha256:5bab762262d24c56d72878dd7e42fe9d48e0c3644c
@@ -9826,19 +10107,22 @@
 │                        │       │                  authlib/PYSEC-2026-4113.yaml                               
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-49264            
 │                        │       │                                                                             
+│                        │       │                  https://ubuntu.com/security/notices/USN-9188-1             
+│                        │       │                                                                             
 │                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-49264            
 │                        │       │                                                                             
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-10-13T16:17:20.56Z 
 │                        │       ╰ LastModifiedDate: 2026-10-16T23:17:01.89Z 
-│                        ├ [108] ╭ VulnerabilityID : CVE-2026-49265 
+│                        ├ [109] ╭ VulnerabilityID : CVE-2026-49265 
 │                        │       ├ PkgID           : python3-oauthlib@3.3.1-1build1 
 │                        │       ├ PkgName         : python3-oauthlib 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3-oauthlib@3.3.1-1build1?arch=
 │                        │       │                  │       all&distro=ubuntu-26.04 
 │                        │       │                  ╰ UID : 63b4c6499abd3a16 
 │                        │       ├ InstalledVersion: 3.3.1-1build1 
-│                        │       ├ Status          : affected 
+│                        │       ├ FixedVersion    : 3.3.1-1ubuntu0.1 
+│                        │       ├ Status          : fixed 
 │                        │       ├ Layer            ╭ Digest: sha256:14cb0260b85e78886481ce046d1d254d0c68fb9624
 │                        │       │                  │         71a65ec12dda151a2fe2ab 
 │                        │       │                  ╰ DiffID: sha256:5bab762262d24c56d72878dd7e42fe9d48e0c3644c
@@ -9905,12 +10189,82 @@
 │                        │       │                  authlib/PYSEC-2026-4114.yaml                               
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-49265            
 │                        │       │                                                                             
+│                        │       │                  https://ubuntu.com/security/notices/USN-9188-1             
+│                        │       │                                                                             
 │                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-49265            
 │                        │       │                                                                             
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-10-13T16:17:20.713Z 
 │                        │       ╰ LastModifiedDate: 2026-10-16T20:04:29.76Z 
-│                        ├ [109] ╭ VulnerabilityID : CVE-2026-59890 
+│                        ├ [110] ╭ VulnerabilityID : CVE-2026-49272 
+│                        │       ├ PkgID           : python3-oauthlib@3.3.1-1build1 
+│                        │       ├ PkgName         : python3-oauthlib 
+│                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3-oauthlib@3.3.1-1build1?arch=
+│                        │       │                  │       all&distro=ubuntu-26.04 
+│                        │       │                  ╰ UID : 63b4c6499abd3a16 
+│                        │       ├ InstalledVersion: 3.3.1-1build1 
+│                        │       ├ FixedVersion    : 3.3.1-1ubuntu0.1 
+│                        │       ├ Status          : fixed 
+│                        │       ├ Layer            ╭ Digest: sha256:14cb0260b85e78886481ce046d1d254d0c68fb9624
+│                        │       │                  │         71a65ec12dda151a2fe2ab 
+│                        │       │                  ╰ DiffID: sha256:5bab762262d24c56d72878dd7e42fe9d48e0c3644c
+│                        │       │                            52706ce7f74df0d442c435 
+│                        │       ├ SeveritySource  : ubuntu 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-49272 
+│                        │       ├ DataSource       ╭ ID  : ubuntu 
+│                        │       │                  ├ Name: Ubuntu CVE Tracker 
+│                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │       ├ Fingerprint     : sha256:7cf6b38a061cbc6567747555bcb81a574094175edf9b2544dc7
+│                        │       │                   192ed691f7b4a 
+│                        │       ├ Title           : oauthlib: oauthlib: Authentication bypass via missing
+│                        │       │                   device code validation 
+│                        │       ├ Description     : OAuthLib is an implementation of the OAuth request-signing
+│                        │       │                    logic for Python 3.6+. From 3.3.0 until 4.0.1, OAuthLib's
+│                        │       │                    RFC 8628 device workflow does not require
+│                        │       │                   DeviceCodeGrant.validate_token_request to check that the
+│                        │       │                   device_code parameter is present and valid. A caller whose
+│                        │       │                    client request is accepted by the configured validator
+│                        │       │                   and who knows a valid client ID enabled for the device
+│                        │       │                   workflow can submit a missing or bogus device code to the
+│                        │       │                   token endpoint and obtain a bearer token without
+│                        │       │                   completing device authorization. This issue is fixed in
+│                        │       │                   version 4.0.1. 
+│                        │       ├ Severity        : MEDIUM 
+│                        │       ├ CweIDs                  
+│                        │       │                  ───────
+│                        │       │                  CWE-287
+│                        │       │                  
+│                        │       ├ VendorSeverity   ╭ ghsa  : 3 
+│                        │       │                  ├ redhat: 3 
+│                        │       │                  ╰ ubuntu: 2 
+│                        │       ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I
+│                        │       │                  │        │           :H/A:N 
+│                        │       │                  │        ╰ V3Score : 8.5 
+│                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I
+│                        │       │                           │           :H/A:N 
+│                        │       │                           ╰ V3Score : 8.5 
+│                        │       ├ References                                                                  
+│                        │       │                  ───────────────────────────────────────────────────────────
+│                        │       │                  https://access.redhat.com/security/cve/CVE-2026-49272      
+│                        │       │                  https://github.com/oauthlib/oauthlib                       
+│                        │       │                  https://github.com/oauthlib/oauthlib/commit/77a5f1c8ce00da2
+│                        │       │                  b0b8c5f6e9cc129920085f114                                  
+│                        │       │                  https://github.com/oauthlib/oauthlib/pull/954              
+│                        │       │                                                                             
+│                        │       │                  https://github.com/oauthlib/oauthlib/releases/tag/v4.0.1   
+│                        │       │                                                                             
+│                        │       │                  https://github.com/oauthlib/oauthlib/security/advisories/GH
+│                        │       │                  SA-3jp2-3mrg-2vxc                                          
+│                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-49272            
+│                        │       │                                                                             
+│                        │       │                  https://ubuntu.com/security/notices/USN-9188-1             
+│                        │       │                                                                             
+│                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-49272            
+│                        │       │                                                                             
+│                        │       │                  
+│                        │       ├ PublishedDate   : 2026-11-05T21:18:50.447Z 
+│                        │       ╰ LastModifiedDate: 2026-11-12T20:04:52.377Z 
+│                        ├ [111] ╭ VulnerabilityID : CVE-2026-59890 
 │                        │       ├ PkgID           : python3-pkg-resources@78.1.1-0.1build1 
 │                        │       ├ PkgName         : python3-pkg-resources 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3-pkg-resources@78.1.1-0.1buil
@@ -9981,7 +10335,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-08T17:17:27.02Z 
 │                        │       ╰ LastModifiedDate: 2026-10-25T17:10:00.197Z 
-│                        ├ [110] ╭ VulnerabilityID : CVE-2026-59890 
+│                        ├ [112] ╭ VulnerabilityID : CVE-2026-59890 
 │                        │       ├ PkgID           : python3-setuptools@78.1.1-0.1build1 
 │                        │       ├ PkgName         : python3-setuptools 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3-setuptools@78.1.1-0.1build1?
@@ -10052,7 +10406,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-07-08T17:17:27.02Z 
 │                        │       ╰ LastModifiedDate: 2026-10-25T17:10:00.197Z 
-│                        ├ [111] ╭ VulnerabilityID : CVE-2026-0864 
+│                        ├ [113] ╭ VulnerabilityID : CVE-2026-0864 
 │                        │       ├ PkgID           : python3.14@3.14.4-1ubuntu0.2 
 │                        │       ├ PkgName         : python3.14 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.14@3.14.4-1ubuntu0.2?arch=am
@@ -10131,7 +10485,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-06-23T18:17:41.243Z 
 │                        │       ╰ LastModifiedDate: 2026-10-25T23:10:00.167Z 
-│                        ├ [112] ╭ VulnerabilityID : CVE-2026-11940 
+│                        ├ [114] ╭ VulnerabilityID : CVE-2026-11940 
 │                        │       ├ PkgID           : python3.14@3.14.4-1ubuntu0.2 
 │                        │       ├ PkgName         : python3.14 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.14@3.14.4-1ubuntu0.2?arch=am
@@ -10191,14 +10545,14 @@
 │                        │       ├ References                                                                  
 │                        │       │                  ───────────────────────────────────────────────────────────
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:54268           
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:58971           
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:58902           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-11940      
 │                        │       │                  https://bugzilla.redhat.com/2491848                        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2491848        
 │                        │       │                  https://creativecommons.org/licenses/by/4.0/               
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-119
 │                        │       │                  40                                                         
-│                        │       │                  https://errata.almalinux.org/8/ALSA-2026-58971.html        
+│                        │       │                  https://errata.almalinux.org/10/ALSA-2026-58902.html       
 │                        │       │                                                                             
 │                        │       │                  https://errata.rockylinux.org/RLSA-2026:54268              
 │                        │       │                                                                             
@@ -10239,7 +10593,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-06-23T17:16:40.847Z 
 │                        │       ╰ LastModifiedDate: 2026-10-26T11:10:00.157Z 
-│                        ├ [113] ╭ VulnerabilityID : CVE-2026-12345 
+│                        ├ [115] ╭ VulnerabilityID : CVE-2026-12345 
 │                        │       ├ PkgID           : python3.14@3.14.4-1ubuntu0.2 
 │                        │       ├ PkgName         : python3.14 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.14@3.14.4-1ubuntu0.2?arch=am
@@ -10275,7 +10629,7 @@
 │                        │       │                  ──────
 │                        │       │                  CWE-59
 │                        │       │                  
-│                        │       ├ VendorSeverity   ╭ alma       : 3 
+│                        │       ├ VendorSeverity   ╭ alma       : 2 
 │                        │       │                  ├ amazon     : 2 
 │                        │       │                  ├ azure      : 1 
 │                        │       │                  ├ bitnami    : 2 
@@ -10292,12 +10646,10 @@
 │                        │       ├ References                                                                  
 │                        │       │                  ───────────────────────────────────────────────────────────
 │                        │       │                  http://www.openwall.com/lists/oss-security/2026/09/29/40   
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:85239           
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:89742           
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:98615           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-12345      
 │                        │       │                  https://bugzilla.redhat.com/2543492                        
-│                        │       │                  https://bugzilla.redhat.com/2544127                        
-│                        │       │                  https://bugzilla.redhat.com/2544138                        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2543492        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2544127        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2544138        
@@ -10308,7 +10660,7 @@
 │                        │       │                  45                                                         
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-195
 │                        │       │                  53                                                         
-│                        │       │                  https://errata.almalinux.org/8/ALSA-2026-85239.html        
+│                        │       │                  https://errata.almalinux.org/10/ALSA-2026-98615.html       
 │                        │       │                                                                             
 │                        │       │                  https://errata.rockylinux.org/RLSA-2026:89742              
 │                        │       │                                                                             
@@ -10343,7 +10695,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-09-29T18:17:14.707Z 
 │                        │       ╰ LastModifiedDate: 2026-11-19T01:16:48.603Z 
-│                        ├ [114] ╭ VulnerabilityID : CVE-2026-19445 
+│                        ├ [116] ╭ VulnerabilityID : CVE-2026-19445 
 │                        │       ├ PkgID           : python3.14@3.14.4-1ubuntu0.2 
 │                        │       ├ PkgName         : python3.14 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.14@3.14.4-1ubuntu0.2?arch=am
@@ -10405,10 +10757,9 @@
 │                        │       ├ References                                                                  
 │                        │       │                  ───────────────────────────────────────────────────────────
 │                        │       │                  http://www.openwall.com/lists/oss-security/2026/09/30/17   
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:85239           
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:77020           
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:89742           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-19445      
-│                        │       │                  https://bugzilla.redhat.com/2543492                        
 │                        │       │                  https://bugzilla.redhat.com/2544127                        
 │                        │       │                  https://bugzilla.redhat.com/2544138                        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2543492        
@@ -10424,7 +10775,7 @@
 │                        │       │                  45                                                         
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-195
 │                        │       │                  53                                                         
-│                        │       │                  https://errata.almalinux.org/8/ALSA-2026-85239.html        
+│                        │       │                  https://errata.almalinux.org/10/ALSA-2026-77020.html       
 │                        │       │                                                                             
 │                        │       │                  https://errata.rockylinux.org/RLSA-2026:89742              
 │                        │       │                                                                             
@@ -10467,7 +10818,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-09-30T17:16:45.72Z 
 │                        │       ╰ LastModifiedDate: 2026-11-10T13:18:30.197Z 
-│                        ├ [115] ╭ VulnerabilityID : CVE-2026-19553 
+│                        ├ [117] ╭ VulnerabilityID : CVE-2026-19553 
 │                        │       ├ PkgID           : python3.14@3.14.4-1ubuntu0.2 
 │                        │       ├ PkgName         : python3.14 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.14@3.14.4-1ubuntu0.2?arch=am
@@ -10547,10 +10898,9 @@
 │                        │       ├ References                                                                  
 │                        │       │                  ───────────────────────────────────────────────────────────
 │                        │       │                  http://www.openwall.com/lists/oss-security/2026/09/30/16   
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:85239           
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:77020           
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:89742           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-19553      
-│                        │       │                  https://bugzilla.redhat.com/2543492                        
 │                        │       │                  https://bugzilla.redhat.com/2544127                        
 │                        │       │                  https://bugzilla.redhat.com/2544138                        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2543492        
@@ -10566,7 +10916,7 @@
 │                        │       │                  45                                                         
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-195
 │                        │       │                  53                                                         
-│                        │       │                  https://errata.almalinux.org/8/ALSA-2026-85239.html        
+│                        │       │                  https://errata.almalinux.org/10/ALSA-2026-77020.html       
 │                        │       │                                                                             
 │                        │       │                  https://errata.rockylinux.org/RLSA-2026:89742              
 │                        │       │                                                                             
@@ -10609,7 +10959,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-09-30T17:16:45.88Z 
 │                        │       ╰ LastModifiedDate: 2026-11-10T13:18:30.66Z 
-│                        ├ [116] ╭ VulnerabilityID : CVE-2026-7210 
+│                        ├ [118] ╭ VulnerabilityID : CVE-2026-7210 
 │                        │       ├ PkgID           : python3.14@3.14.4-1ubuntu0.2 
 │                        │       ├ PkgName         : python3.14 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.14@3.14.4-1ubuntu0.2?arch=am
@@ -10688,7 +11038,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-05-11T18:16:42.413Z 
 │                        │       ╰ LastModifiedDate: 2026-10-26T18:10:00.173Z 
-│                        ├ [117] ╭ VulnerabilityID : CVE-2026-0864 
+│                        ├ [119] ╭ VulnerabilityID : CVE-2026-0864 
 │                        │       ├ PkgID           : python3.14-minimal@3.14.4-1ubuntu0.2 
 │                        │       ├ PkgName         : python3.14-minimal 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.14-minimal@3.14.4-1ubuntu0.2
@@ -10767,7 +11117,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-06-23T18:17:41.243Z 
 │                        │       ╰ LastModifiedDate: 2026-10-25T23:10:00.167Z 
-│                        ├ [118] ╭ VulnerabilityID : CVE-2026-11940 
+│                        ├ [120] ╭ VulnerabilityID : CVE-2026-11940 
 │                        │       ├ PkgID           : python3.14-minimal@3.14.4-1ubuntu0.2 
 │                        │       ├ PkgName         : python3.14-minimal 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.14-minimal@3.14.4-1ubuntu0.2
@@ -10827,14 +11177,14 @@
 │                        │       ├ References                                                                  
 │                        │       │                  ───────────────────────────────────────────────────────────
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:54268           
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:58971           
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:58902           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-11940      
 │                        │       │                  https://bugzilla.redhat.com/2491848                        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2491848        
 │                        │       │                  https://creativecommons.org/licenses/by/4.0/               
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-119
 │                        │       │                  40                                                         
-│                        │       │                  https://errata.almalinux.org/8/ALSA-2026-58971.html        
+│                        │       │                  https://errata.almalinux.org/10/ALSA-2026-58902.html       
 │                        │       │                                                                             
 │                        │       │                  https://errata.rockylinux.org/RLSA-2026:54268              
 │                        │       │                                                                             
@@ -10875,7 +11225,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-06-23T17:16:40.847Z 
 │                        │       ╰ LastModifiedDate: 2026-10-26T11:10:00.157Z 
-│                        ├ [119] ╭ VulnerabilityID : CVE-2026-12345 
+│                        ├ [121] ╭ VulnerabilityID : CVE-2026-12345 
 │                        │       ├ PkgID           : python3.14-minimal@3.14.4-1ubuntu0.2 
 │                        │       ├ PkgName         : python3.14-minimal 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.14-minimal@3.14.4-1ubuntu0.2
@@ -10911,7 +11261,7 @@
 │                        │       │                  ──────
 │                        │       │                  CWE-59
 │                        │       │                  
-│                        │       ├ VendorSeverity   ╭ alma       : 3 
+│                        │       ├ VendorSeverity   ╭ alma       : 2 
 │                        │       │                  ├ amazon     : 2 
 │                        │       │                  ├ azure      : 1 
 │                        │       │                  ├ bitnami    : 2 
@@ -10928,12 +11278,10 @@
 │                        │       ├ References                                                                  
 │                        │       │                  ───────────────────────────────────────────────────────────
 │                        │       │                  http://www.openwall.com/lists/oss-security/2026/09/29/40   
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:85239           
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:89742           
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:98615           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-12345      
 │                        │       │                  https://bugzilla.redhat.com/2543492                        
-│                        │       │                  https://bugzilla.redhat.com/2544127                        
-│                        │       │                  https://bugzilla.redhat.com/2544138                        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2543492        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2544127        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2544138        
@@ -10944,7 +11292,7 @@
 │                        │       │                  45                                                         
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-195
 │                        │       │                  53                                                         
-│                        │       │                  https://errata.almalinux.org/8/ALSA-2026-85239.html        
+│                        │       │                  https://errata.almalinux.org/10/ALSA-2026-98615.html       
 │                        │       │                                                                             
 │                        │       │                  https://errata.rockylinux.org/RLSA-2026:89742              
 │                        │       │                                                                             
@@ -10979,7 +11327,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-09-29T18:17:14.707Z 
 │                        │       ╰ LastModifiedDate: 2026-11-19T01:16:48.603Z 
-│                        ├ [120] ╭ VulnerabilityID : CVE-2026-19445 
+│                        ├ [122] ╭ VulnerabilityID : CVE-2026-19445 
 │                        │       ├ PkgID           : python3.14-minimal@3.14.4-1ubuntu0.2 
 │                        │       ├ PkgName         : python3.14-minimal 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.14-minimal@3.14.4-1ubuntu0.2
@@ -11041,10 +11389,9 @@
 │                        │       ├ References                                                                  
 │                        │       │                  ───────────────────────────────────────────────────────────
 │                        │       │                  http://www.openwall.com/lists/oss-security/2026/09/30/17   
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:85239           
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:77020           
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:89742           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-19445      
-│                        │       │                  https://bugzilla.redhat.com/2543492                        
 │                        │       │                  https://bugzilla.redhat.com/2544127                        
 │                        │       │                  https://bugzilla.redhat.com/2544138                        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2543492        
@@ -11060,7 +11407,7 @@
 │                        │       │                  45                                                         
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-195
 │                        │       │                  53                                                         
-│                        │       │                  https://errata.almalinux.org/8/ALSA-2026-85239.html        
+│                        │       │                  https://errata.almalinux.org/10/ALSA-2026-77020.html       
 │                        │       │                                                                             
 │                        │       │                  https://errata.rockylinux.org/RLSA-2026:89742              
 │                        │       │                                                                             
@@ -11103,7 +11450,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-09-30T17:16:45.72Z 
 │                        │       ╰ LastModifiedDate: 2026-11-10T13:18:30.197Z 
-│                        ├ [121] ╭ VulnerabilityID : CVE-2026-19553 
+│                        ├ [123] ╭ VulnerabilityID : CVE-2026-19553 
 │                        │       ├ PkgID           : python3.14-minimal@3.14.4-1ubuntu0.2 
 │                        │       ├ PkgName         : python3.14-minimal 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.14-minimal@3.14.4-1ubuntu0.2
@@ -11183,10 +11530,9 @@
 │                        │       ├ References                                                                  
 │                        │       │                  ───────────────────────────────────────────────────────────
 │                        │       │                  http://www.openwall.com/lists/oss-security/2026/09/30/16   
-│                        │       │                  https://access.redhat.com/errata/RHSA-2026:85239           
+│                        │       │                  https://access.redhat.com/errata/RHSA-2026:77020           
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:89742           
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-19553      
-│                        │       │                  https://bugzilla.redhat.com/2543492                        
 │                        │       │                  https://bugzilla.redhat.com/2544127                        
 │                        │       │                  https://bugzilla.redhat.com/2544138                        
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2543492        
@@ -11202,7 +11548,7 @@
 │                        │       │                  45                                                         
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-195
 │                        │       │                  53                                                         
-│                        │       │                  https://errata.almalinux.org/8/ALSA-2026-85239.html        
+│                        │       │                  https://errata.almalinux.org/10/ALSA-2026-77020.html       
 │                        │       │                                                                             
 │                        │       │                  https://errata.rockylinux.org/RLSA-2026:89742              
 │                        │       │                                                                             
@@ -11245,7 +11591,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-09-30T17:16:45.88Z 
 │                        │       ╰ LastModifiedDate: 2026-11-10T13:18:30.66Z 
-│                        ├ [122] ╭ VulnerabilityID : CVE-2026-7210 
+│                        ├ [124] ╭ VulnerabilityID : CVE-2026-7210 
 │                        │       ├ PkgID           : python3.14-minimal@3.14.4-1ubuntu0.2 
 │                        │       ├ PkgName         : python3.14-minimal 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.14-minimal@3.14.4-1ubuntu0.2
@@ -11324,7 +11670,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-05-11T18:16:42.413Z 
 │                        │       ╰ LastModifiedDate: 2026-10-26T18:10:00.173Z 
-│                        ├ [123] ╭ VulnerabilityID : CVE-2026-35370 
+│                        ├ [125] ╭ VulnerabilityID : CVE-2026-35370 
 │                        │       ├ PkgID           : rust-coreutils@0.10.0-1ubuntu2~26.04.1 
 │                        │       ├ PkgName         : rust-coreutils 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.10.0-1ubuntu2~26.04
@@ -11377,7 +11723,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-04-22T17:16:40.833Z 
 │                        │       ╰ LastModifiedDate: 2026-10-26T21:10:00.17Z 
-│                        ├ [124] ╭ VulnerabilityID : CVE-2026-35371 
+│                        ├ [126] ╭ VulnerabilityID : CVE-2026-35371 
 │                        │       ├ PkgID           : rust-coreutils@0.10.0-1ubuntu2~26.04.1 
 │                        │       ├ PkgName         : rust-coreutils 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.10.0-1ubuntu2~26.04
@@ -11430,7 +11776,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-04-22T17:16:40.987Z 
 │                        │       ╰ LastModifiedDate: 2026-10-25T23:10:00.167Z 
-│                        ├ [125] ╭ VulnerabilityID : CVE-2026-121876 
+│                        ├ [127] ╭ VulnerabilityID : CVE-2026-121876 
 │                        │       ├ PkgID           : systemd@259.9-0ubuntu0.1 
 │                        │       ├ PkgName         : systemd 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd@259.9-0ubuntu0.1?arch=amd64&
@@ -11492,7 +11838,8 @@
 │                        │       │                  ───────
 │                        │       │                  CWE-359
 │                        │       │                  
-│                        │       ├ VendorSeverity   ╭ redhat: 3 
+│                        │       ├ VendorSeverity   ╭ alma  : 3 
+│                        │       │                  ├ redhat: 3 
 │                        │       │                  ╰ ubuntu: 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I
 │                        │       │                           │           :H/A:N 
@@ -11501,13 +11848,51 @@
 │                        │       │                  ──────────────────────────────────────────────────────
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:102168     
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-121876
+│                        │       │                  https://bugzilla.redhat.com/2507051                   
+│                        │       │                  https://bugzilla.redhat.com/2507085                   
+│                        │       │                  https://bugzilla.redhat.com/2507186                   
+│                        │       │                  https://bugzilla.redhat.com/2507795                   
+│                        │       │                  https://bugzilla.redhat.com/2513211                   
+│                        │       │                  https://bugzilla.redhat.com/2516250                   
+│                        │       │                  https://bugzilla.redhat.com/2516417                   
+│                        │       │                  https://bugzilla.redhat.com/2516430                   
+│                        │       │                  https://bugzilla.redhat.com/2516437                   
+│                        │       │                  https://bugzilla.redhat.com/2516869                   
+│                        │       │                  https://bugzilla.redhat.com/2516878                   
+│                        │       │                  https://bugzilla.redhat.com/2516915                   
+│                        │       │                  https://bugzilla.redhat.com/2521501                   
+│                        │       │                  https://bugzilla.redhat.com/2532164                   
+│                        │       │                  https://bugzilla.redhat.com/2532446                   
+│                        │       │                  https://bugzilla.redhat.com/2532454                   
+│                        │       │                  https://bugzilla.redhat.com/2532459                   
+│                        │       │                  https://bugzilla.redhat.com/2536267                   
+│                        │       │                  https://bugzilla.redhat.com/2536280                   
+│                        │       │                  https://bugzilla.redhat.com/2536295                   
+│                        │       │                  https://bugzilla.redhat.com/2536521                   
+│                        │       │                  https://bugzilla.redhat.com/2540179                   
+│                        │       │                  https://bugzilla.redhat.com/2540228                   
+│                        │       │                  https://bugzilla.redhat.com/2540337                   
+│                        │       │                  https://bugzilla.redhat.com/2540363                   
+│                        │       │                  https://bugzilla.redhat.com/2540411                   
+│                        │       │                  https://bugzilla.redhat.com/2540491                   
+│                        │       │                  https://bugzilla.redhat.com/2540541                   
+│                        │       │                  https://bugzilla.redhat.com/2541010                   
+│                        │       │                  https://bugzilla.redhat.com/2546355                   
+│                        │       │                  https://bugzilla.redhat.com/2546490                   
+│                        │       │                  https://bugzilla.redhat.com/2555002                   
+│                        │       │                  https://bugzilla.redhat.com/2558210                   
+│                        │       │                  https://bugzilla.redhat.com/2559696                   
+│                        │       │                  https://bugzilla.redhat.com/2562676                   
+│                        │       │                  https://bugzilla.redhat.com/2565278                   
+│                        │       │                  https://bugzilla.redhat.com/2570103                   
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2558210   
+│                        │       │                  https://errata.almalinux.org/10/ALSA-2026-102168.html 
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-121876      
 │                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-121876      
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-11-12T17:17:29.04Z 
 │                        │       ╰ LastModifiedDate: 2026-11-23T15:17:28.67Z 
-│                        ├ [126] ╭ VulnerabilityID : CVE-2026-40228 
+│                        ├ [128] ╭ VulnerabilityID : CVE-2026-40228 
 │                        │       ├ PkgID           : systemd@259.9-0ubuntu0.1 
 │                        │       ├ PkgName         : systemd 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd@259.9-0ubuntu0.1?arch=amd64&
@@ -11556,7 +11941,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-04-10T16:16:33.753Z 
 │                        │       ╰ LastModifiedDate: 2026-06-17T10:44:53.31Z 
-│                        ├ [127] ╭ VulnerabilityID : CVE-2026-121876 
+│                        ├ [129] ╭ VulnerabilityID : CVE-2026-121876 
 │                        │       ├ PkgID           : systemd-cryptsetup@259.9-0ubuntu0.1 
 │                        │       ├ PkgName         : systemd-cryptsetup 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-cryptsetup@259.9-0ubuntu0.1?
@@ -11618,7 +12003,8 @@
 │                        │       │                  ───────
 │                        │       │                  CWE-359
 │                        │       │                  
-│                        │       ├ VendorSeverity   ╭ redhat: 3 
+│                        │       ├ VendorSeverity   ╭ alma  : 3 
+│                        │       │                  ├ redhat: 3 
 │                        │       │                  ╰ ubuntu: 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I
 │                        │       │                           │           :H/A:N 
@@ -11627,13 +12013,51 @@
 │                        │       │                  ──────────────────────────────────────────────────────
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:102168     
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-121876
+│                        │       │                  https://bugzilla.redhat.com/2507051                   
+│                        │       │                  https://bugzilla.redhat.com/2507085                   
+│                        │       │                  https://bugzilla.redhat.com/2507186                   
+│                        │       │                  https://bugzilla.redhat.com/2507795                   
+│                        │       │                  https://bugzilla.redhat.com/2513211                   
+│                        │       │                  https://bugzilla.redhat.com/2516250                   
+│                        │       │                  https://bugzilla.redhat.com/2516417                   
+│                        │       │                  https://bugzilla.redhat.com/2516430                   
+│                        │       │                  https://bugzilla.redhat.com/2516437                   
+│                        │       │                  https://bugzilla.redhat.com/2516869                   
+│                        │       │                  https://bugzilla.redhat.com/2516878                   
+│                        │       │                  https://bugzilla.redhat.com/2516915                   
+│                        │       │                  https://bugzilla.redhat.com/2521501                   
+│                        │       │                  https://bugzilla.redhat.com/2532164                   
+│                        │       │                  https://bugzilla.redhat.com/2532446                   
+│                        │       │                  https://bugzilla.redhat.com/2532454                   
+│                        │       │                  https://bugzilla.redhat.com/2532459                   
+│                        │       │                  https://bugzilla.redhat.com/2536267                   
+│                        │       │                  https://bugzilla.redhat.com/2536280                   
+│                        │       │                  https://bugzilla.redhat.com/2536295                   
+│                        │       │                  https://bugzilla.redhat.com/2536521                   
+│                        │       │                  https://bugzilla.redhat.com/2540179                   
+│                        │       │                  https://bugzilla.redhat.com/2540228                   
+│                        │       │                  https://bugzilla.redhat.com/2540337                   
+│                        │       │                  https://bugzilla.redhat.com/2540363                   
+│                        │       │                  https://bugzilla.redhat.com/2540411                   
+│                        │       │                  https://bugzilla.redhat.com/2540491                   
+│                        │       │                  https://bugzilla.redhat.com/2540541                   
+│                        │       │                  https://bugzilla.redhat.com/2541010                   
+│                        │       │                  https://bugzilla.redhat.com/2546355                   
+│                        │       │                  https://bugzilla.redhat.com/2546490                   
+│                        │       │                  https://bugzilla.redhat.com/2555002                   
+│                        │       │                  https://bugzilla.redhat.com/2558210                   
+│                        │       │                  https://bugzilla.redhat.com/2559696                   
+│                        │       │                  https://bugzilla.redhat.com/2562676                   
+│                        │       │                  https://bugzilla.redhat.com/2565278                   
+│                        │       │                  https://bugzilla.redhat.com/2570103                   
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2558210   
+│                        │       │                  https://errata.almalinux.org/10/ALSA-2026-102168.html 
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-121876      
 │                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-121876      
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-11-12T17:17:29.04Z 
 │                        │       ╰ LastModifiedDate: 2026-11-23T15:17:28.67Z 
-│                        ├ [128] ╭ VulnerabilityID : CVE-2026-40228 
+│                        ├ [130] ╭ VulnerabilityID : CVE-2026-40228 
 │                        │       ├ PkgID           : systemd-cryptsetup@259.9-0ubuntu0.1 
 │                        │       ├ PkgName         : systemd-cryptsetup 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-cryptsetup@259.9-0ubuntu0.1?
@@ -11682,7 +12106,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-04-10T16:16:33.753Z 
 │                        │       ╰ LastModifiedDate: 2026-06-17T10:44:53.31Z 
-│                        ├ [129] ╭ VulnerabilityID : CVE-2026-121876 
+│                        ├ [131] ╭ VulnerabilityID : CVE-2026-121876 
 │                        │       ├ PkgID           : systemd-resolved@259.9-0ubuntu0.1 
 │                        │       ├ PkgName         : systemd-resolved 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-resolved@259.9-0ubuntu0.1?ar
@@ -11744,7 +12168,8 @@
 │                        │       │                  ───────
 │                        │       │                  CWE-359
 │                        │       │                  
-│                        │       ├ VendorSeverity   ╭ redhat: 3 
+│                        │       ├ VendorSeverity   ╭ alma  : 3 
+│                        │       │                  ├ redhat: 3 
 │                        │       │                  ╰ ubuntu: 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I
 │                        │       │                           │           :H/A:N 
@@ -11753,13 +12178,51 @@
 │                        │       │                  ──────────────────────────────────────────────────────
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:102168     
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-121876
+│                        │       │                  https://bugzilla.redhat.com/2507051                   
+│                        │       │                  https://bugzilla.redhat.com/2507085                   
+│                        │       │                  https://bugzilla.redhat.com/2507186                   
+│                        │       │                  https://bugzilla.redhat.com/2507795                   
+│                        │       │                  https://bugzilla.redhat.com/2513211                   
+│                        │       │                  https://bugzilla.redhat.com/2516250                   
+│                        │       │                  https://bugzilla.redhat.com/2516417                   
+│                        │       │                  https://bugzilla.redhat.com/2516430                   
+│                        │       │                  https://bugzilla.redhat.com/2516437                   
+│                        │       │                  https://bugzilla.redhat.com/2516869                   
+│                        │       │                  https://bugzilla.redhat.com/2516878                   
+│                        │       │                  https://bugzilla.redhat.com/2516915                   
+│                        │       │                  https://bugzilla.redhat.com/2521501                   
+│                        │       │                  https://bugzilla.redhat.com/2532164                   
+│                        │       │                  https://bugzilla.redhat.com/2532446                   
+│                        │       │                  https://bugzilla.redhat.com/2532454                   
+│                        │       │                  https://bugzilla.redhat.com/2532459                   
+│                        │       │                  https://bugzilla.redhat.com/2536267                   
+│                        │       │                  https://bugzilla.redhat.com/2536280                   
+│                        │       │                  https://bugzilla.redhat.com/2536295                   
+│                        │       │                  https://bugzilla.redhat.com/2536521                   
+│                        │       │                  https://bugzilla.redhat.com/2540179                   
+│                        │       │                  https://bugzilla.redhat.com/2540228                   
+│                        │       │                  https://bugzilla.redhat.com/2540337                   
+│                        │       │                  https://bugzilla.redhat.com/2540363                   
+│                        │       │                  https://bugzilla.redhat.com/2540411                   
+│                        │       │                  https://bugzilla.redhat.com/2540491                   
+│                        │       │                  https://bugzilla.redhat.com/2540541                   
+│                        │       │                  https://bugzilla.redhat.com/2541010                   
+│                        │       │                  https://bugzilla.redhat.com/2546355                   
+│                        │       │                  https://bugzilla.redhat.com/2546490                   
+│                        │       │                  https://bugzilla.redhat.com/2555002                   
+│                        │       │                  https://bugzilla.redhat.com/2558210                   
+│                        │       │                  https://bugzilla.redhat.com/2559696                   
+│                        │       │                  https://bugzilla.redhat.com/2562676                   
+│                        │       │                  https://bugzilla.redhat.com/2565278                   
+│                        │       │                  https://bugzilla.redhat.com/2570103                   
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2558210   
+│                        │       │                  https://errata.almalinux.org/10/ALSA-2026-102168.html 
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-121876      
 │                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-121876      
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-11-12T17:17:29.04Z 
 │                        │       ╰ LastModifiedDate: 2026-11-23T15:17:28.67Z 
-│                        ├ [130] ╭ VulnerabilityID : CVE-2026-40228 
+│                        ├ [132] ╭ VulnerabilityID : CVE-2026-40228 
 │                        │       ├ PkgID           : systemd-resolved@259.9-0ubuntu0.1 
 │                        │       ├ PkgName         : systemd-resolved 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-resolved@259.9-0ubuntu0.1?ar
@@ -11808,7 +12271,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-04-10T16:16:33.753Z 
 │                        │       ╰ LastModifiedDate: 2026-06-17T10:44:53.31Z 
-│                        ├ [131] ╭ VulnerabilityID : CVE-2026-121876 
+│                        ├ [133] ╭ VulnerabilityID : CVE-2026-121876 
 │                        │       ├ PkgID           : systemd-sysv@259.9-0ubuntu0.1 
 │                        │       ├ PkgName         : systemd-sysv 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-sysv@259.9-0ubuntu0.1?arch=a
@@ -11870,7 +12333,8 @@
 │                        │       │                  ───────
 │                        │       │                  CWE-359
 │                        │       │                  
-│                        │       ├ VendorSeverity   ╭ redhat: 3 
+│                        │       ├ VendorSeverity   ╭ alma  : 3 
+│                        │       │                  ├ redhat: 3 
 │                        │       │                  ╰ ubuntu: 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I
 │                        │       │                           │           :H/A:N 
@@ -11879,13 +12343,51 @@
 │                        │       │                  ──────────────────────────────────────────────────────
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:102168     
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-121876
+│                        │       │                  https://bugzilla.redhat.com/2507051                   
+│                        │       │                  https://bugzilla.redhat.com/2507085                   
+│                        │       │                  https://bugzilla.redhat.com/2507186                   
+│                        │       │                  https://bugzilla.redhat.com/2507795                   
+│                        │       │                  https://bugzilla.redhat.com/2513211                   
+│                        │       │                  https://bugzilla.redhat.com/2516250                   
+│                        │       │                  https://bugzilla.redhat.com/2516417                   
+│                        │       │                  https://bugzilla.redhat.com/2516430                   
+│                        │       │                  https://bugzilla.redhat.com/2516437                   
+│                        │       │                  https://bugzilla.redhat.com/2516869                   
+│                        │       │                  https://bugzilla.redhat.com/2516878                   
+│                        │       │                  https://bugzilla.redhat.com/2516915                   
+│                        │       │                  https://bugzilla.redhat.com/2521501                   
+│                        │       │                  https://bugzilla.redhat.com/2532164                   
+│                        │       │                  https://bugzilla.redhat.com/2532446                   
+│                        │       │                  https://bugzilla.redhat.com/2532454                   
+│                        │       │                  https://bugzilla.redhat.com/2532459                   
+│                        │       │                  https://bugzilla.redhat.com/2536267                   
+│                        │       │                  https://bugzilla.redhat.com/2536280                   
+│                        │       │                  https://bugzilla.redhat.com/2536295                   
+│                        │       │                  https://bugzilla.redhat.com/2536521                   
+│                        │       │                  https://bugzilla.redhat.com/2540179                   
+│                        │       │                  https://bugzilla.redhat.com/2540228                   
+│                        │       │                  https://bugzilla.redhat.com/2540337                   
+│                        │       │                  https://bugzilla.redhat.com/2540363                   
+│                        │       │                  https://bugzilla.redhat.com/2540411                   
+│                        │       │                  https://bugzilla.redhat.com/2540491                   
+│                        │       │                  https://bugzilla.redhat.com/2540541                   
+│                        │       │                  https://bugzilla.redhat.com/2541010                   
+│                        │       │                  https://bugzilla.redhat.com/2546355                   
+│                        │       │                  https://bugzilla.redhat.com/2546490                   
+│                        │       │                  https://bugzilla.redhat.com/2555002                   
+│                        │       │                  https://bugzilla.redhat.com/2558210                   
+│                        │       │                  https://bugzilla.redhat.com/2559696                   
+│                        │       │                  https://bugzilla.redhat.com/2562676                   
+│                        │       │                  https://bugzilla.redhat.com/2565278                   
+│                        │       │                  https://bugzilla.redhat.com/2570103                   
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2558210   
+│                        │       │                  https://errata.almalinux.org/10/ALSA-2026-102168.html 
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-121876      
 │                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-121876      
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-11-12T17:17:29.04Z 
 │                        │       ╰ LastModifiedDate: 2026-11-23T15:17:28.67Z 
-│                        ├ [132] ╭ VulnerabilityID : CVE-2026-40228 
+│                        ├ [134] ╭ VulnerabilityID : CVE-2026-40228 
 │                        │       ├ PkgID           : systemd-sysv@259.9-0ubuntu0.1 
 │                        │       ├ PkgName         : systemd-sysv 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-sysv@259.9-0ubuntu0.1?arch=a
@@ -11934,7 +12436,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-04-10T16:16:33.753Z 
 │                        │       ╰ LastModifiedDate: 2026-06-17T10:44:53.31Z 
-│                        ├ [133] ╭ VulnerabilityID : CVE-2026-121876 
+│                        ├ [135] ╭ VulnerabilityID : CVE-2026-121876 
 │                        │       ├ PkgID           : systemd-timesyncd@259.9-0ubuntu0.1 
 │                        │       ├ PkgName         : systemd-timesyncd 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-timesyncd@259.9-0ubuntu0.1?a
@@ -11996,7 +12498,8 @@
 │                        │       │                  ───────
 │                        │       │                  CWE-359
 │                        │       │                  
-│                        │       ├ VendorSeverity   ╭ redhat: 3 
+│                        │       ├ VendorSeverity   ╭ alma  : 3 
+│                        │       │                  ├ redhat: 3 
 │                        │       │                  ╰ ubuntu: 2 
 │                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I
 │                        │       │                           │           :H/A:N 
@@ -12005,13 +12508,51 @@
 │                        │       │                  ──────────────────────────────────────────────────────
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:102168     
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-121876
+│                        │       │                  https://bugzilla.redhat.com/2507051                   
+│                        │       │                  https://bugzilla.redhat.com/2507085                   
+│                        │       │                  https://bugzilla.redhat.com/2507186                   
+│                        │       │                  https://bugzilla.redhat.com/2507795                   
+│                        │       │                  https://bugzilla.redhat.com/2513211                   
+│                        │       │                  https://bugzilla.redhat.com/2516250                   
+│                        │       │                  https://bugzilla.redhat.com/2516417                   
+│                        │       │                  https://bugzilla.redhat.com/2516430                   
+│                        │       │                  https://bugzilla.redhat.com/2516437                   
+│                        │       │                  https://bugzilla.redhat.com/2516869                   
+│                        │       │                  https://bugzilla.redhat.com/2516878                   
+│                        │       │                  https://bugzilla.redhat.com/2516915                   
+│                        │       │                  https://bugzilla.redhat.com/2521501                   
+│                        │       │                  https://bugzilla.redhat.com/2532164                   
+│                        │       │                  https://bugzilla.redhat.com/2532446                   
+│                        │       │                  https://bugzilla.redhat.com/2532454                   
+│                        │       │                  https://bugzilla.redhat.com/2532459                   
+│                        │       │                  https://bugzilla.redhat.com/2536267                   
+│                        │       │                  https://bugzilla.redhat.com/2536280                   
+│                        │       │                  https://bugzilla.redhat.com/2536295                   
+│                        │       │                  https://bugzilla.redhat.com/2536521                   
+│                        │       │                  https://bugzilla.redhat.com/2540179                   
+│                        │       │                  https://bugzilla.redhat.com/2540228                   
+│                        │       │                  https://bugzilla.redhat.com/2540337                   
+│                        │       │                  https://bugzilla.redhat.com/2540363                   
+│                        │       │                  https://bugzilla.redhat.com/2540411                   
+│                        │       │                  https://bugzilla.redhat.com/2540491                   
+│                        │       │                  https://bugzilla.redhat.com/2540541                   
+│                        │       │                  https://bugzilla.redhat.com/2541010                   
+│                        │       │                  https://bugzilla.redhat.com/2546355                   
+│                        │       │                  https://bugzilla.redhat.com/2546490                   
+│                        │       │                  https://bugzilla.redhat.com/2555002                   
+│                        │       │                  https://bugzilla.redhat.com/2558210                   
+│                        │       │                  https://bugzilla.redhat.com/2559696                   
+│                        │       │                  https://bugzilla.redhat.com/2562676                   
+│                        │       │                  https://bugzilla.redhat.com/2565278                   
+│                        │       │                  https://bugzilla.redhat.com/2570103                   
 │                        │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2558210   
+│                        │       │                  https://errata.almalinux.org/10/ALSA-2026-102168.html 
 │                        │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-121876      
 │                        │       │                  https://www.cve.org/CVERecord?id=CVE-2026-121876      
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-11-12T17:17:29.04Z 
 │                        │       ╰ LastModifiedDate: 2026-11-23T15:17:28.67Z 
-│                        ├ [134] ╭ VulnerabilityID : CVE-2026-40228 
+│                        ├ [136] ╭ VulnerabilityID : CVE-2026-40228 
 │                        │       ├ PkgID           : systemd-timesyncd@259.9-0ubuntu0.1 
 │                        │       ├ PkgName         : systemd-timesyncd 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-timesyncd@259.9-0ubuntu0.1?a
@@ -12060,7 +12601,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-04-10T16:16:33.753Z 
 │                        │       ╰ LastModifiedDate: 2026-06-17T10:44:53.31Z 
-│                        ├ [135] ╭ VulnerabilityID : CVE-2026-18477 
+│                        ├ [137] ╭ VulnerabilityID : CVE-2026-18477 
 │                        │       ├ PkgID           : tar@1.35+dfsg-4ubuntu0.4 
 │                        │       ├ PkgName         : tar 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tar@1.35%2Bdfsg-4ubuntu0.4?arch=amd6
@@ -12121,7 +12662,6 @@
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:66018             
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:70390             
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-18477        
-│                        │       │                  https://bugzilla.redhat.com/2379592                          
 │                        │       │                  https://bugzilla.redhat.com/2455360                          
 │                        │       │                  https://bugzilla.redhat.com/2509735                          
 │                        │       │                  https://bugzilla.redhat.com/2509843                          
@@ -12132,7 +12672,7 @@
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18477
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18508
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5704 
-│                        │       │                  https://errata.almalinux.org/8/ALSA-2026-70390.html          
+│                        │       │                  https://errata.almalinux.org/9/ALSA-2026-61581.html          
 │                        │       │                  https://errata.rockylinux.org/RLSA-2026:61581                
 │                        │       │                  https://linux.oracle.com/cve/CVE-2026-18477.html             
 │                        │       │                  https://linux.oracle.com/errata/ELSA-2026-70390.html         
@@ -12141,7 +12681,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-08-03T17:16:33.897Z 
 │                        │       ╰ LastModifiedDate: 2026-11-05T20:17:52.39Z 
-│                        ├ [136] ╭ VulnerabilityID : CVE-2026-18508 
+│                        ├ [138] ╭ VulnerabilityID : CVE-2026-18508 
 │                        │       ├ PkgID           : tar@1.35+dfsg-4ubuntu0.4 
 │                        │       ├ PkgName         : tar 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tar@1.35%2Bdfsg-4ubuntu0.4?arch=amd6
@@ -12193,7 +12733,6 @@
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:66018             
 │                        │       │                  https://access.redhat.com/errata/RHSA-2026:70390             
 │                        │       │                  https://access.redhat.com/security/cve/CVE-2026-18508        
-│                        │       │                  https://bugzilla.redhat.com/2379592                          
 │                        │       │                  https://bugzilla.redhat.com/2455360                          
 │                        │       │                  https://bugzilla.redhat.com/2509735                          
 │                        │       │                  https://bugzilla.redhat.com/2509843                          
@@ -12204,7 +12743,7 @@
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18477
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18508
 │                        │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5704 
-│                        │       │                  https://errata.almalinux.org/8/ALSA-2026-70390.html          
+│                        │       │                  https://errata.almalinux.org/9/ALSA-2026-61581.html          
 │                        │       │                  https://errata.rockylinux.org/RLSA-2026:61581                
 │                        │       │                  https://linux.oracle.com/cve/CVE-2026-18508.html             
 │                        │       │                  https://linux.oracle.com/errata/ELSA-2026-70390.html         
@@ -12213,7 +12752,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-08-03T16:16:28.387Z 
 │                        │       ╰ LastModifiedDate: 2026-11-05T20:17:52.95Z 
-│                        ├ [137] ╭ VulnerabilityID : CVE-2024-56433 
+│                        ├ [139] ╭ VulnerabilityID : CVE-2024-56433 
 │                        │       ├ PkgID           : uidmap@1:4.17.4-2ubuntu3 
 │                        │       ├ PkgName         : uidmap 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/uidmap@4.17.4-2ubuntu3?arch=amd64&di
@@ -12292,7 +12831,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                        │       ╰ LastModifiedDate: 2026-10-15T01:19:16.297Z 
-│                        ├ [138] ╭ VulnerabilityID : CVE-2026-76642 
+│                        ├ [140] ╭ VulnerabilityID : CVE-2026-76642 
 │                        │       ├ PkgID           : util-linux@2.41.3-3ubuntu2.2 
 │                        │       ├ PkgName         : util-linux 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/util-linux@2.41.3-3ubuntu2.2?arch=am
@@ -12413,7 +12952,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-09-03T13:06:08.44Z 
 │                        │       ╰ LastModifiedDate: 2026-09-24T20:28:01.78Z 
-│                        ├ [139] ╭ VulnerabilityID : CVE-2026-78408 
+│                        ├ [141] ╭ VulnerabilityID : CVE-2026-78408 
 │                        │       ├ PkgID           : util-linux@2.41.3-3ubuntu2.2 
 │                        │       ├ PkgName         : util-linux 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/util-linux@2.41.3-3ubuntu2.2?arch=am
@@ -12528,7 +13067,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-09-02T16:17:23.687Z 
 │                        │       ╰ LastModifiedDate: 2026-11-23T16:17:59.867Z 
-│                        ├ [140] ╭ VulnerabilityID : CVE-2026-78410 
+│                        ├ [142] ╭ VulnerabilityID : CVE-2026-78410 
 │                        │       ├ PkgID           : util-linux@2.41.3-3ubuntu2.2 
 │                        │       ├ PkgName         : util-linux 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/util-linux@2.41.3-3ubuntu2.2?arch=am
@@ -12640,7 +13179,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2026-09-02T16:17:23.983Z 
 │                        │       ╰ LastModifiedDate: 2026-11-23T16:18:00.23Z 
-│                        ├ [141] ╭ VulnerabilityID : CVE-2021-31879 
+│                        ├ [143] ╭ VulnerabilityID : CVE-2021-31879 
 │                        │       ├ PkgID           : wget@1.25.0-2ubuntu4.4 
 │                        │       ├ PkgName         : wget 
 │                        │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.25.0-2ubuntu4.4?arch=amd64&di
@@ -12702,7 +13241,7 @@
 │                        │       │                  
 │                        │       ├ PublishedDate   : 2021-04-29T05:15:08.707Z 
 │                        │       ╰ LastModifiedDate: 2026-10-08T21:17:35.39Z 
-│                        ╰ [142] ╭ VulnerabilityID : CVE-2026-16599 
+│                        ╰ [144] ╭ VulnerabilityID : CVE-2026-16599 
 │                                ├ PkgID           : wget@1.25.0-2ubuntu4.4 
 │                                ├ PkgName         : wget 
 │                                ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.25.0-2ubuntu4.4?arch=amd64&di
@@ -12743,10 +13282,14 @@
 │                                │                  ───────
 │                                │                  CWE-606
 │                                │                  
-│                                ├ VendorSeverity   ╭ photon: 2 
+│                                ├ VendorSeverity   ╭ julia : 2 
+│                                │                  ├ photon: 2 
 │                                │                  ├ redhat: 2 
 │                                │                  ╰ ubuntu: 1 
-│                                ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I
+│                                ├ CVSS             ╭ julia  ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:A/VC:
+│                                │                  │        │            N/VI:N/VA:L/SC:N/SI:N/SA:N 
+│                                │                  │        ╰ V40Score : 5.1 
+│                                │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I
 │                                │                           │           :N/A:H 
 │                                │                           ╰ V3Score : 6.5 
 │                                ├ References                                                                  
@@ -12754,6 +13297,7 @@
 │                                │                  https://access.redhat.com/security/cve/CVE-2026-16599      
 │                                │                  https://cert.pl/en/posts/2026/08/CVE-2026-16599            
 │                                │                  https://cert.pl/en/posts/2026/08/CVE-2026-16599/           
+│                                │                  https://github.com/advisories/GHSA-48r3-mr49-jp8x          
 │                                │                  https://gitlab.com/gnuwget/wget                            
 │                                │                  https://gitlab.com/gnuwget/wget/-/commit/e9697d98e7249b0f68
 │                                │                  a6be040a4f3dcc5bc101fa                                     
@@ -13071,7 +13615,7 @@
 │                        │      │                  9                                                           
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4250
 │                        │      │                  1                                                           
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-22112.html         
+│                        │      │                  https://errata.almalinux.org/9/ALSA-2026-22121.html         
 │                        │      │                                                                              
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:22121               
 │                        │      │                                                                              
@@ -13122,7 +13666,7 @@
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.38.0 
 │                        │      │                  ╰ UID : 543edd873ca3925d 
 │                        │      ├ InstalledVersion: v0.38.0 
-│                        │      ├ FixedVersion    : 0.55.0 
+│                        │      ├ FixedVersion    : 0.57.0 
 │                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:14cb0260b85e78886481ce046d1d254d0c68fb96247
 │                        │      │                  │         1a65ec12dda151a2fe2ab 
@@ -13316,17 +13860,12 @@
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:67319            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:67517            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:68504            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:97386            
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-39821       
-│                        │      │                  https://bugzilla.redhat.com/2315719                         
-│                        │      │                  https://bugzilla.redhat.com/2341751                         
-│                        │      │                  https://bugzilla.redhat.com/2467820                         
+│                        │      │                  https://bugzilla.redhat.com/2445345                         
+│                        │      │                  https://bugzilla.redhat.com/2445356                         
+│                        │      │                  https://bugzilla.redhat.com/2467822                         
 │                        │      │                  https://bugzilla.redhat.com/2480756                         
-│                        │      │                  https://bugzilla.redhat.com/2515815                         
-│                        │      │                  https://bugzilla.redhat.com/2515820                         
-│                        │      │                  https://bugzilla.redhat.com/2515827                         
-│                        │      │                  https://bugzilla.redhat.com/2515838                         
-│                        │      │                  https://bugzilla.redhat.com/2515839                         
-│                        │      │                  https://bugzilla.redhat.com/2515840                         
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2456333         
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2456339         
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2467809         
@@ -13367,11 +13906,13 @@
 │                        │      │                  0                                                           
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5686
 │                        │      │                  2                                                           
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-66016.html         
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-97386.html        
 │                        │      │                                                                              
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:65886               
 │                        │      │                                                                              
 │                        │      │                  https://go.dev/cl/767220                                    
+│                        │      │                                                                              
+│                        │      │                  https://go.dev/cl/796421                                    
 │                        │      │                                                                              
 │                        │      │                  https://go.dev/issue/78760                                  
 │                        │      │                                                                              
@@ -13403,7 +13944,7 @@
 │                        │      │                                                                              
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-05-22T16:16:20.41Z 
-│                        │      ╰ LastModifiedDate: 2026-09-17T12:18:05.767Z 
+│                        │      ╰ LastModifiedDate: 2026-11-23T21:17:03.49Z 
 │                        ├ [4]  ╭ VulnerabilityID : CVE-2026-46600 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
@@ -13565,12 +14106,14 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:88189              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:98479              
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:98617              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-78669         
-│                        │      │                  https://bugzilla.redhat.com/2548336                           
+│                        │      │                  https://bugzilla.redhat.com/2484207                           
+│                        │      │                  https://bugzilla.redhat.com/2515815                           
+│                        │      │                  https://bugzilla.redhat.com/2515820                           
+│                        │      │                  https://bugzilla.redhat.com/2515839                           
 │                        │      │                  https://bugzilla.redhat.com/2548344                           
-│                        │      │                  https://bugzilla.redhat.com/2556068                           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515815           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515820           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515827           
@@ -13588,7 +14131,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78669 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-88189.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-98617.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:98479                 
 │                        │      │                  https://github.com/golang/go/issues/81742                     
 │                        │      │                  https://go.dev/cl/847186                                      
@@ -13597,7 +14140,7 @@
 │                        │      │                  https://groups.google.com/g/golang-announce/c/U2fTuyDJznI     
 │                        │      │                  https://groups.google.com/g/golang-announce/c/ZPwCyRUuGBs     
 │                        │      │                  https://linux.oracle.com/cve/CVE-2026-78669.html              
-│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98479.html          
+│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98617.html          
 │                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-78669               
 │                        │      │                  https://pkg.go.dev/vuln/GO-2026-6611                          
 │                        │      │                  https://ubuntu.com/security/notices/USN-8935-1                
@@ -13960,8 +14503,8 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86093              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:86196              
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86203              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-78659         
 │                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
@@ -13998,7 +14541,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97030 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97032 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-86203.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-86093.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:86196                 
 │                        │      │                  https://github.com/golang/go/issues/81857                     
 │                        │      │                  https://go.dev/cl/847185                                      
@@ -14067,8 +14610,8 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86093              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:86196              
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86203              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-78660         
 │                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
@@ -14105,7 +14648,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97030 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97032 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-86203.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-86093.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:86196                 
 │                        │      │                  https://github.com/golang/go/issues/81115                     
 │                        │      │                  https://go.dev/cl/835145                                      
@@ -14174,8 +14717,8 @@
 │                        │      │                            ╰ V3Score : 5.3 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86093              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:86196              
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86203              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-78663         
 │                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
@@ -14212,7 +14755,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97030 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97032 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-86203.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-86093.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:86196                 
 │                        │      │                  https://github.com/golang/go/issues/81743                     
 │                        │      │                  https://go.dev/cl/847187                                      
@@ -14283,8 +14826,8 @@
 │                        │      │                            ╰ V3Score : 5.9 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86093              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:86196              
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86203              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-97032         
 │                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
@@ -14321,7 +14864,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97030 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97032 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-86203.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-86093.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:86196                 
 │                        │      │                  https://github.com/golang/go/issues/81867                     
 │                        │      │                  https://go.dev/cl/847188                                      
@@ -14634,14 +15177,20 @@
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
 │                        │      │                  http://www.openwall.com/lists/oss-security/2026/10/20/29      
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:95638              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:98539              
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:98610              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-111943        
+│                        │      │                  https://bugzilla.redhat.com/2515815                           
+│                        │      │                  https://bugzilla.redhat.com/2515827                           
+│                        │      │                  https://bugzilla.redhat.com/2515839                           
+│                        │      │                  https://bugzilla.redhat.com/2548334                           
+│                        │      │                  https://bugzilla.redhat.com/2548336                           
+│                        │      │                  https://bugzilla.redhat.com/2548341                           
 │                        │      │                  https://bugzilla.redhat.com/2556068                           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556068           
 │                        │      │                  https://creativecommons.org/licenses/by/4.0/                  
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-111943
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-95638.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-98610.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:98539                 
 │                        │      │                  https://github.com/golang/go/issues/82345                     
 │                        │      │                  https://go.dev/cl/851047                                      
@@ -14649,7 +15198,7 @@
 │                        │      │                  https://groups.google.com/g/golang-announce/c/66pojueaQek     
 │                        │      │                  https://groups.google.com/g/golang-nuts/c/K22sG2AYnKU         
 │                        │      │                  https://linux.oracle.com/cve/CVE-2026-111943.html             
-│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98539.html          
+│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98610.html          
 │                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-111943              
 │                        │      │                  https://pkg.go.dev/vuln/GO-2026-6809                          
 │                        │      │                  https://www.cve.org/CVERecord?id=CVE-2026-111943              
@@ -14955,15 +15504,19 @@
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:9453             
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:9461             
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:9695             
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:97387            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:9742             
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:9872             
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-25679       
+│                        │      │                  https://bugzilla.redhat.com/2445345                         
 │                        │      │                  https://bugzilla.redhat.com/2445356                         
+│                        │      │                  https://bugzilla.redhat.com/2467822                         
+│                        │      │                  https://bugzilla.redhat.com/2515840                         
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2445356         
 │                        │      │                  https://creativecommons.org/licenses/by/4.0/                
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-2567
 │                        │      │                  9                                                           
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-8456.html          
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-97387.html        
 │                        │      │                                                                              
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:9044                
 │                        │      │                                                                              
@@ -15136,10 +15689,13 @@
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:68334            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:68335            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:97644            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:98617            
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-27145       
-│                        │      │                  https://bugzilla.redhat.com/2480756                         
 │                        │      │                  https://bugzilla.redhat.com/2484207                         
-│                        │      │                  https://bugzilla.redhat.com/2498152                         
+│                        │      │                  https://bugzilla.redhat.com/2515815                         
+│                        │      │                  https://bugzilla.redhat.com/2515820                         
+│                        │      │                  https://bugzilla.redhat.com/2515839                         
+│                        │      │                  https://bugzilla.redhat.com/2548344                         
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2467822         
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2484207         
 │                        │      │                  https://creativecommons.org/licenses/by/4.0/                
@@ -15147,7 +15703,7 @@
 │                        │      │                  5                                                           
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3381
 │                        │      │                  1                                                           
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-38995.html         
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-98617.html        
 │                        │      │                                                                              
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:97644               
 │                        │      │                                                                              
@@ -15159,7 +15715,7 @@
 │                        │      │                                                                              
 │                        │      │                  https://linux.oracle.com/cve/CVE-2026-27145.html            
 │                        │      │                                                                              
-│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-97644.html        
+│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98617.html        
 │                        │      │                                                                              
 │                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-27145             
 │                        │      │                                                                              
@@ -15413,13 +15969,12 @@
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:67319            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:68504            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:9385             
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:97215            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:97555            
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-32280       
-│                        │      │                  https://bugzilla.redhat.com/2449833                         
-│                        │      │                  https://bugzilla.redhat.com/2455470                         
-│                        │      │                  https://bugzilla.redhat.com/2456336                         
-│                        │      │                  https://bugzilla.redhat.com/2456338                         
+│                        │      │                  https://bugzilla.redhat.com/2456335                         
 │                        │      │                  https://bugzilla.redhat.com/2456339                         
+│                        │      │                  https://bugzilla.redhat.com/2480757                         
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2456335         
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2456339         
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2480757         
@@ -15430,7 +15985,7 @@
 │                        │      │                  0                                                           
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3381
 │                        │      │                  0                                                           
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-48790.html         
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-97215.html        
 │                        │      │                                                                              
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:97555               
 │                        │      │                                                                              
@@ -15512,14 +16067,10 @@
 │                        │      ├ References                                                                    
 │                        │      │                  ─────────────────────────────────────────────────────────────
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:65886             
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:67148             
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:97284             
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-32281        
-│                        │      │                  https://bugzilla.redhat.com/2344219                          
 │                        │      │                  https://bugzilla.redhat.com/2456333                          
-│                        │      │                  https://bugzilla.redhat.com/2467809                          
-│                        │      │                  https://bugzilla.redhat.com/2484204                          
-│                        │      │                  https://bugzilla.redhat.com/2484830                          
-│                        │      │                  https://bugzilla.redhat.com/2493622                          
+│                        │      │                  https://bugzilla.redhat.com/2456335                          
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2456333          
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2456339          
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2467809          
@@ -15547,7 +16098,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56859
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-67148.html          
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-97284.html         
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:65886                
 │                        │      │                  https://go.dev/cl/758061                                     
 │                        │      │                  https://go.dev/issue/78281                                   
@@ -15753,9 +16304,7 @@
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:7291             
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:7385             
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-32283       
-│                        │      │                  https://bugzilla.redhat.com/2449833                         
-│                        │      │                  https://bugzilla.redhat.com/2455470                         
-│                        │      │                  https://bugzilla.redhat.com/2456336                         
+│                        │      │                  https://bugzilla.redhat.com/2456333                         
 │                        │      │                  https://bugzilla.redhat.com/2456338                         
 │                        │      │                  https://bugzilla.redhat.com/2456339                         
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2445356         
@@ -15771,7 +16320,7 @@
 │                        │      │                  1                                                           
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3228
 │                        │      │                  3                                                           
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-48790.html         
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-24470.html        
 │                        │      │                                                                              
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:29703               
 │                        │      │                                                                              
@@ -15975,9 +16524,13 @@
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:67149            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:67287            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:67319            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:97387            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:97644            
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-33811       
+│                        │      │                  https://bugzilla.redhat.com/2445345                         
+│                        │      │                  https://bugzilla.redhat.com/2445356                         
 │                        │      │                  https://bugzilla.redhat.com/2467822                         
+│                        │      │                  https://bugzilla.redhat.com/2515840                         
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2467822         
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2484207         
 │                        │      │                  https://creativecommons.org/licenses/by/4.0/                
@@ -15985,7 +16538,7 @@
 │                        │      │                  5                                                           
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3381
 │                        │      │                  1                                                           
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-39266.html         
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-97387.html        
 │                        │      │                                                                              
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:97644               
 │                        │      │                                                                              
@@ -16164,7 +16717,7 @@
 │                        │      │                  9                                                           
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4250
 │                        │      │                  1                                                           
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-22112.html         
+│                        │      │                  https://errata.almalinux.org/9/ALSA-2026-22121.html         
 │                        │      │                                                                              
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:22121               
 │                        │      │                                                                              
@@ -16253,12 +16806,14 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:67161              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:98502              
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:98617              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-33818         
+│                        │      │                  https://bugzilla.redhat.com/2484207                           
 │                        │      │                  https://bugzilla.redhat.com/2515815                           
 │                        │      │                  https://bugzilla.redhat.com/2515820                           
 │                        │      │                  https://bugzilla.redhat.com/2515839                           
+│                        │      │                  https://bugzilla.redhat.com/2548344                           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515815           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515827           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515839           
@@ -16274,14 +16829,14 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78667 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-94440 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-67161.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-98617.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:98502                 
 │                        │      │                  https://github.com/golang/go/issues/80405                     
 │                        │      │                  https://go.dev/cl/814980                                      
 │                        │      │                  https://go.dev/issue/80405                                    
 │                        │      │                  https://groups.google.com/g/golang-announce/c/94pEornpRlI     
 │                        │      │                  https://linux.oracle.com/cve/CVE-2026-33818.html              
-│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98502.html          
+│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98617.html          
 │                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-33818               
 │                        │      │                  https://pkg.go.dev/vuln/GO-2026-5972                          
 │                        │      │                  https://ubuntu.com/security/notices/USN-8935-1                
@@ -16434,10 +16989,10 @@
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:68504            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:68527            
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-39820       
-│                        │      │                  https://bugzilla.redhat.com/2315719                         
-│                        │      │                  https://bugzilla.redhat.com/2341751                         
+│                        │      │                  https://bugzilla.redhat.com/2467809                         
 │                        │      │                  https://bugzilla.redhat.com/2467820                         
 │                        │      │                  https://bugzilla.redhat.com/2480756                         
+│                        │      │                  https://bugzilla.redhat.com/2484204                         
 │                        │      │                  https://bugzilla.redhat.com/2515815                         
 │                        │      │                  https://bugzilla.redhat.com/2515820                         
 │                        │      │                  https://bugzilla.redhat.com/2515827                         
@@ -16484,7 +17039,7 @@
 │                        │      │                  0                                                           
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5686
 │                        │      │                  2                                                           
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-66016.html         
+│                        │      │                  https://errata.almalinux.org/9/ALSA-2026-65153.html         
 │                        │      │                                                                              
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:65886               
 │                        │      │                                                                              
@@ -16717,17 +17272,12 @@
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:67319            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:67517            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:68504            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:97386            
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-39821       
-│                        │      │                  https://bugzilla.redhat.com/2315719                         
-│                        │      │                  https://bugzilla.redhat.com/2341751                         
-│                        │      │                  https://bugzilla.redhat.com/2467820                         
+│                        │      │                  https://bugzilla.redhat.com/2445345                         
+│                        │      │                  https://bugzilla.redhat.com/2445356                         
+│                        │      │                  https://bugzilla.redhat.com/2467822                         
 │                        │      │                  https://bugzilla.redhat.com/2480756                         
-│                        │      │                  https://bugzilla.redhat.com/2515815                         
-│                        │      │                  https://bugzilla.redhat.com/2515820                         
-│                        │      │                  https://bugzilla.redhat.com/2515827                         
-│                        │      │                  https://bugzilla.redhat.com/2515838                         
-│                        │      │                  https://bugzilla.redhat.com/2515839                         
-│                        │      │                  https://bugzilla.redhat.com/2515840                         
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2456333         
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2456339         
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2467809         
@@ -16768,11 +17318,13 @@
 │                        │      │                  0                                                           
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5686
 │                        │      │                  2                                                           
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-66016.html         
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-97386.html        
 │                        │      │                                                                              
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:65886               
 │                        │      │                                                                              
 │                        │      │                  https://go.dev/cl/767220                                    
+│                        │      │                                                                              
+│                        │      │                  https://go.dev/cl/796421                                    
 │                        │      │                                                                              
 │                        │      │                  https://go.dev/issue/78760                                  
 │                        │      │                                                                              
@@ -16804,7 +17356,7 @@
 │                        │      │                                                                              
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-05-22T16:16:20.41Z 
-│                        │      ╰ LastModifiedDate: 2026-09-17T12:18:05.767Z 
+│                        │      ╰ LastModifiedDate: 2026-11-23T21:17:03.49Z 
 │                        ├ [31] ╭ VulnerabilityID : CVE-2026-39822 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
@@ -16857,16 +17409,14 @@
 │                        │      │                            ╰ V3Score : 7.8 
 │                        │      ├ References                                                                    
 │                        │      │                  ─────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:38495             
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:38878             
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:38995             
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-39822        
-│                        │      │                  https://bugzilla.redhat.com/2480756                          
-│                        │      │                  https://bugzilla.redhat.com/2484207                          
 │                        │      │                  https://bugzilla.redhat.com/2498152                          
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2498152          
 │                        │      │                  https://creativecommons.org/licenses/by/4.0/                 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-39822
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-38995.html          
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-38495.html         
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:38878                
 │                        │      │                  https://github.com/golang/go/issues/79005                    
 │                        │      │                  https://go.dev/cl/797880                                     
@@ -16930,7 +17480,6 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                    
 │                        │      │                  ─────────────────────────────────────────────────────────────
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:22112             
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:22121             
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-39836        
 │                        │      │                  https://bugzilla.redhat.com/2467822                          
@@ -16957,7 +17506,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-39836
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-42499
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-42501
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-22112.html          
+│                        │      │                  https://errata.almalinux.org/9/ALSA-2026-22121.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:22121                
 │                        │      │                  https://go.dev/cl/775320                                     
 │                        │      │                  https://go.dev/issue/79006                                   
@@ -17110,14 +17659,19 @@
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:68334            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:68504            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:68527            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:70201            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:98448            
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-42499       
-│                        │      │                  https://bugzilla.redhat.com/2344219                         
-│                        │      │                  https://bugzilla.redhat.com/2456333                         
+│                        │      │                  https://bugzilla.redhat.com/2456335                         
 │                        │      │                  https://bugzilla.redhat.com/2467809                         
-│                        │      │                  https://bugzilla.redhat.com/2484204                         
-│                        │      │                  https://bugzilla.redhat.com/2484830                         
-│                        │      │                  https://bugzilla.redhat.com/2493622                         
+│                        │      │                  https://bugzilla.redhat.com/2504233                         
+│                        │      │                  https://bugzilla.redhat.com/2508234                         
+│                        │      │                  https://bugzilla.redhat.com/2515815                         
+│                        │      │                  https://bugzilla.redhat.com/2515820                         
+│                        │      │                  https://bugzilla.redhat.com/2515827                         
+│                        │      │                  https://bugzilla.redhat.com/2515838                         
+│                        │      │                  https://bugzilla.redhat.com/2515839                         
+│                        │      │                  https://bugzilla.redhat.com/2515840                         
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2467809         
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515815         
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515820         
@@ -17137,7 +17691,7 @@
 │                        │      │                  0                                                           
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5686
 │                        │      │                  2                                                           
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-67148.html         
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-70201.html        
 │                        │      │                                                                              
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:98448               
 │                        │      │                                                                              
@@ -17193,7 +17747,7 @@
 │                        │      │                  ───────
 │                        │      │                  CWE-407
 │                        │      │                  
-│                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      ├ VendorSeverity   ╭ alma       : 2 
 │                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 3 
 │                        │      │                  ├ bitnami    : 3 
@@ -17209,15 +17763,10 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                    
 │                        │      │                  ─────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:29980             
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:65886             
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:67148             
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-42504        
-│                        │      │                  https://bugzilla.redhat.com/2344219                          
-│                        │      │                  https://bugzilla.redhat.com/2456333                          
-│                        │      │                  https://bugzilla.redhat.com/2467809                          
-│                        │      │                  https://bugzilla.redhat.com/2484204                          
-│                        │      │                  https://bugzilla.redhat.com/2484830                          
-│                        │      │                  https://bugzilla.redhat.com/2493622                          
+│                        │      │                  https://bugzilla.redhat.com/2484205                          
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2456333          
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2456339          
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2467809          
@@ -17245,7 +17794,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56859
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-67148.html          
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-29980.html         
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:65886                
 │                        │      │                  https://go.dev/cl/774481                                     
 │                        │      │                  https://go.dev/issue/79217                                   
@@ -17306,19 +17855,16 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:66016              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:98502              
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:98610              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-56853         
-│                        │      │                  https://bugzilla.redhat.com/2315719                           
-│                        │      │                  https://bugzilla.redhat.com/2341751                           
-│                        │      │                  https://bugzilla.redhat.com/2467820                           
-│                        │      │                  https://bugzilla.redhat.com/2480756                           
 │                        │      │                  https://bugzilla.redhat.com/2515815                           
-│                        │      │                  https://bugzilla.redhat.com/2515820                           
 │                        │      │                  https://bugzilla.redhat.com/2515827                           
-│                        │      │                  https://bugzilla.redhat.com/2515838                           
 │                        │      │                  https://bugzilla.redhat.com/2515839                           
-│                        │      │                  https://bugzilla.redhat.com/2515840                           
+│                        │      │                  https://bugzilla.redhat.com/2548334                           
+│                        │      │                  https://bugzilla.redhat.com/2548336                           
+│                        │      │                  https://bugzilla.redhat.com/2548341                           
+│                        │      │                  https://bugzilla.redhat.com/2556068                           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515815           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515827           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515839           
@@ -17334,13 +17880,13 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78667 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-94440 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-66016.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-98610.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:98502                 
 │                        │      │                  https://go.dev/cl/795540                                      
 │                        │      │                  https://go.dev/issue/80205                                    
 │                        │      │                  https://groups.google.com/g/golang-announce/c/94pEornpRlI     
 │                        │      │                  https://linux.oracle.com/cve/CVE-2026-56853.html              
-│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98502.html          
+│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98610.html          
 │                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-56853               
 │                        │      │                  https://pkg.go.dev/vuln/GO-2026-6089                          
 │                        │      │                  https://www.cve.org/CVERecord?id=CVE-2026-56853               
@@ -17394,19 +17940,14 @@
 │                        │      │                            ╰ V3Score : 8.1 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:66016              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:98479              
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:98556              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-56858         
-│                        │      │                  https://bugzilla.redhat.com/2315719                           
-│                        │      │                  https://bugzilla.redhat.com/2341751                           
-│                        │      │                  https://bugzilla.redhat.com/2467820                           
-│                        │      │                  https://bugzilla.redhat.com/2480756                           
 │                        │      │                  https://bugzilla.redhat.com/2515815                           
 │                        │      │                  https://bugzilla.redhat.com/2515820                           
 │                        │      │                  https://bugzilla.redhat.com/2515827                           
 │                        │      │                  https://bugzilla.redhat.com/2515838                           
 │                        │      │                  https://bugzilla.redhat.com/2515839                           
-│                        │      │                  https://bugzilla.redhat.com/2515840                           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515815           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515820           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515827           
@@ -17424,7 +17965,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78669 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-66016.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-98556.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:98479                 
 │                        │      │                  https://go.dev/cl/807100                                      
 │                        │      │                  https://go.dev/issue/80435                                    
@@ -17485,19 +18026,16 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                    
 │                        │      │                  ─────────────────────────────────────────────────────────────
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:66016             
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:98447             
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:98554             
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-56859        
-│                        │      │                  https://bugzilla.redhat.com/2315719                          
-│                        │      │                  https://bugzilla.redhat.com/2341751                          
-│                        │      │                  https://bugzilla.redhat.com/2467820                          
-│                        │      │                  https://bugzilla.redhat.com/2480756                          
 │                        │      │                  https://bugzilla.redhat.com/2515815                          
 │                        │      │                  https://bugzilla.redhat.com/2515820                          
 │                        │      │                  https://bugzilla.redhat.com/2515827                          
 │                        │      │                  https://bugzilla.redhat.com/2515838                          
 │                        │      │                  https://bugzilla.redhat.com/2515839                          
 │                        │      │                  https://bugzilla.redhat.com/2515840                          
+│                        │      │                  https://bugzilla.redhat.com/2518147                          
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2467809          
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515815          
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515820          
@@ -17511,7 +18049,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56859
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-66016.html          
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-98554.html         
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:98447                
 │                        │      │                  https://github.com/golang/go/issues/80481                    
 │                        │      │                  https://go.dev/cl/803320                                     
@@ -17578,12 +18116,14 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:67161              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:98479              
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:98617              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-56860         
+│                        │      │                  https://bugzilla.redhat.com/2484207                           
 │                        │      │                  https://bugzilla.redhat.com/2515815                           
 │                        │      │                  https://bugzilla.redhat.com/2515820                           
 │                        │      │                  https://bugzilla.redhat.com/2515839                           
+│                        │      │                  https://bugzilla.redhat.com/2548344                           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515815           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515820           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515827           
@@ -17601,13 +18141,13 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78669 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-67161.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-98617.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:98479                 
 │                        │      │                  https://go.dev/cl/803681                                      
 │                        │      │                  https://go.dev/issue/80494                                    
 │                        │      │                  https://groups.google.com/g/golang-announce/c/94pEornpRlI     
 │                        │      │                  https://linux.oracle.com/cve/CVE-2026-56860.html              
-│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98479.html          
+│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98617.html          
 │                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-56860               
 │                        │      │                  https://pkg.go.dev/vuln/GO-2026-6218                          
 │                        │      │                  https://www.cve.org/CVERecord?id=CVE-2026-56860               
@@ -17665,12 +18205,14 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:67161              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:98502              
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:98617              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-56862         
+│                        │      │                  https://bugzilla.redhat.com/2484207                           
 │                        │      │                  https://bugzilla.redhat.com/2515815                           
 │                        │      │                  https://bugzilla.redhat.com/2515820                           
 │                        │      │                  https://bugzilla.redhat.com/2515839                           
+│                        │      │                  https://bugzilla.redhat.com/2548344                           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515815           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515827           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515839           
@@ -17686,14 +18228,14 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78667 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-94440 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-67161.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-98617.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:98502                 
 │                        │      │                  https://github.com/golang/go/issues/80528                     
 │                        │      │                  https://go.dev/cl/804261                                      
 │                        │      │                  https://go.dev/issue/80528                                    
 │                        │      │                  https://groups.google.com/g/golang-announce/c/94pEornpRlI     
 │                        │      │                  https://linux.oracle.com/cve/CVE-2026-56862.html              
-│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98502.html          
+│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98617.html          
 │                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-56862               
 │                        │      │                  https://pkg.go.dev/vuln/GO-2026-6090                          
 │                        │      │                  https://ubuntu.com/security/notices/USN-8935-1                
@@ -17748,10 +18290,15 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:89760              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:98502              
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:98610              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-78667         
+│                        │      │                  https://bugzilla.redhat.com/2515815                           
+│                        │      │                  https://bugzilla.redhat.com/2515827                           
+│                        │      │                  https://bugzilla.redhat.com/2515839                           
 │                        │      │                  https://bugzilla.redhat.com/2548334                           
+│                        │      │                  https://bugzilla.redhat.com/2548336                           
+│                        │      │                  https://bugzilla.redhat.com/2548341                           
 │                        │      │                  https://bugzilla.redhat.com/2556068                           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515815           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515827           
@@ -17768,14 +18315,14 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78667 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-94440 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-89760.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-98610.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:98502                 
 │                        │      │                  https://github.com/golang/go/issues/81858                     
 │                        │      │                  https://go.dev/cl/847309                                      
 │                        │      │                  https://go.dev/issue/81858                                    
 │                        │      │                  https://groups.google.com/g/golang-announce/c/U2fTuyDJznI     
 │                        │      │                  https://linux.oracle.com/cve/CVE-2026-78667.html              
-│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98502.html          
+│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98610.html          
 │                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-78667               
 │                        │      │                  https://pkg.go.dev/vuln/GO-2026-6609                          
 │                        │      │                  https://ubuntu.com/security/notices/USN-8935-1                
@@ -17834,12 +18381,14 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:88189              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:98479              
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:98617              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-78669         
-│                        │      │                  https://bugzilla.redhat.com/2548336                           
+│                        │      │                  https://bugzilla.redhat.com/2484207                           
+│                        │      │                  https://bugzilla.redhat.com/2515815                           
+│                        │      │                  https://bugzilla.redhat.com/2515820                           
+│                        │      │                  https://bugzilla.redhat.com/2515839                           
 │                        │      │                  https://bugzilla.redhat.com/2548344                           
-│                        │      │                  https://bugzilla.redhat.com/2556068                           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515815           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515820           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515827           
@@ -17857,7 +18406,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78669 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-88189.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-98617.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:98479                 
 │                        │      │                  https://github.com/golang/go/issues/81742                     
 │                        │      │                  https://go.dev/cl/847186                                      
@@ -17866,7 +18415,7 @@
 │                        │      │                  https://groups.google.com/g/golang-announce/c/U2fTuyDJznI     
 │                        │      │                  https://groups.google.com/g/golang-announce/c/ZPwCyRUuGBs     
 │                        │      │                  https://linux.oracle.com/cve/CVE-2026-78669.html              
-│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98479.html          
+│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98617.html          
 │                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-78669               
 │                        │      │                  https://pkg.go.dev/vuln/GO-2026-6611                          
 │                        │      │                  https://ubuntu.com/security/notices/USN-8935-1                
@@ -17924,11 +18473,15 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:88189              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:98502              
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:98610              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-97031         
+│                        │      │                  https://bugzilla.redhat.com/2515815                           
+│                        │      │                  https://bugzilla.redhat.com/2515827                           
+│                        │      │                  https://bugzilla.redhat.com/2515839                           
+│                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
-│                        │      │                  https://bugzilla.redhat.com/2548344                           
+│                        │      │                  https://bugzilla.redhat.com/2548341                           
 │                        │      │                  https://bugzilla.redhat.com/2556068                           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515815           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515827           
@@ -17945,13 +18498,13 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78667 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-94440 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-88189.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-98610.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:98502                 
 │                        │      │                  https://go.dev/cl/847312                                      
 │                        │      │                  https://go.dev/issue/81855                                    
 │                        │      │                  https://groups.google.com/g/golang-announce/c/U2fTuyDJznI     
 │                        │      │                  https://linux.oracle.com/cve/CVE-2026-97031.html              
-│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98502.html          
+│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98610.html          
 │                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-97031               
 │                        │      │                  https://pkg.go.dev/vuln/GO-2026-6607                          
 │                        │      │                  https://www.cve.org/CVERecord?id=CVE-2026-97031               
@@ -18057,7 +18610,7 @@
 │                        │      │                  ──────
 │                        │      │                  CWE-59
 │                        │      │                  
-│                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      ├ VendorSeverity   ╭ alma       : 2 
 │                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ nvd        : 2 
@@ -18076,13 +18629,12 @@
 │                        │      │                            ╰ V3Score : 7.8 
 │                        │      ├ References                                                                    
 │                        │      │                  ─────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:22141             
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:23228             
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:48790             
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-32282        
-│                        │      │                  https://bugzilla.redhat.com/2449833                          
-│                        │      │                  https://bugzilla.redhat.com/2455470                          
+│                        │      │                  https://bugzilla.redhat.com/2437111                          
+│                        │      │                  https://bugzilla.redhat.com/2456333                          
 │                        │      │                  https://bugzilla.redhat.com/2456336                          
-│                        │      │                  https://bugzilla.redhat.com/2456338                          
 │                        │      │                  https://bugzilla.redhat.com/2456339                          
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2434432          
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2437111          
@@ -18101,7 +18653,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-32283
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-33186
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-34986
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-48790.html          
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-22141.html         
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:23228                
 │                        │      │                  https://go.dev/cl/763761                                     
 │                        │      │                  https://go.dev/issue/78293                                   
@@ -18299,7 +18851,6 @@
 │                        │      │                            ╰ V3Score : 5.4 
 │                        │      ├ References                                                                    
 │                        │      │                  ─────────────────────────────────────────────────────────────
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:22112             
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:22121             
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-39823        
 │                        │      │                  https://bugzilla.redhat.com/2467822                          
@@ -18326,7 +18877,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-39836
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-42499
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-42501
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-22112.html          
+│                        │      │                  https://errata.almalinux.org/9/ALSA-2026-22121.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:22121                
 │                        │      │                  https://go.dev/cl/769920                                     
 │                        │      │                  https://go.dev/issue/78913                                   
@@ -18393,7 +18944,6 @@
 │                        │      │                            ╰ V3Score : 6.5 
 │                        │      ├ References                                                                    
 │                        │      │                  ─────────────────────────────────────────────────────────────
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:22112             
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:22121             
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-39825        
 │                        │      │                  https://bugzilla.redhat.com/2467822                          
@@ -18420,7 +18970,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-39836
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-42499
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-42501
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-22112.html          
+│                        │      │                  https://errata.almalinux.org/9/ALSA-2026-22121.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:22121                
 │                        │      │                  https://go.dev/cl/770541                                     
 │                        │      │                  https://go.dev/issue/78948                                   
@@ -18482,7 +19032,6 @@
 │                        │      │                            ╰ V3Score : 5.4 
 │                        │      ├ References                                                                    
 │                        │      │                  ─────────────────────────────────────────────────────────────
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:22112             
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:22121             
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-39826        
 │                        │      │                  https://bugzilla.redhat.com/2467822                          
@@ -18509,7 +19058,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-39836
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-42499
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-42501
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-22112.html          
+│                        │      │                  https://errata.almalinux.org/9/ALSA-2026-22121.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:22121                
 │                        │      │                  https://go.dev/cl/771180                                     
 │                        │      │                  https://go.dev/issue/78981                                   
@@ -18569,12 +19118,10 @@
 │                        │      │                            ╰ V3Score : 5.3 
 │                        │      ├ References                                                                
 │                        │      │                  ─────────────────────────────────────────────────────────
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:38995         
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:37436         
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-42505    
 │                        │      │                  https://bugzilla.redhat.com/2480756                      
-│                        │      │                  https://bugzilla.redhat.com/2484207                      
-│                        │      │                  https://bugzilla.redhat.com/2498152                      
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-38995.html      
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-37436.html     
 │                        │      │                  https://go.dev/cl/775960                                 
 │                        │      │                  https://go.dev/issue/79282                               
 │                        │      │                  https://groups.google.com/g/golang-announce/c/OrmQE_Yp5Sc
@@ -18613,7 +19160,7 @@
 │                        │      │                   might allow an attacker to inject misleading content to
 │                        │      │                   errors that are printed or logged. 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      ├ VendorSeverity   ╭ alma       : 2 
 │                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
@@ -18629,18 +19176,16 @@
 │                        │      │                            ╰ V3Score : 5.3 
 │                        │      ├ References                                                                    
 │                        │      │                  ─────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:29980             
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:29981             
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:38995             
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-42507        
-│                        │      │                  https://bugzilla.redhat.com/2480756                          
-│                        │      │                  https://bugzilla.redhat.com/2484207                          
-│                        │      │                  https://bugzilla.redhat.com/2498152                          
+│                        │      │                  https://bugzilla.redhat.com/2484205                          
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2484205          
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2484207          
 │                        │      │                  https://creativecommons.org/licenses/by/4.0/                 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-27145
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-42507
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-38995.html          
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-29980.html         
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:29981                
 │                        │      │                  https://go.dev/cl/777060                                     
 │                        │      │                  https://go.dev/issue/79346                                   
@@ -18711,8 +19256,8 @@
 │                        │      │                            ╰ V3Score : 6.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86093              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:86196              
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86203              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-56866         
 │                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
@@ -18749,7 +19294,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97030 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97032 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-86203.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-86093.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:86196                 
 │                        │      │                  https://github.com/golang/go/issues/81740                     
 │                        │      │                  https://go.dev/cl/847306                                      
@@ -18820,8 +19365,8 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86093              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:86196              
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86203              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-78659         
 │                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
@@ -18858,7 +19403,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97030 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97032 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-86203.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-86093.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:86196                 
 │                        │      │                  https://github.com/golang/go/issues/81857                     
 │                        │      │                  https://go.dev/cl/847185                                      
@@ -18927,8 +19472,8 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86093              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:86196              
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86203              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-78660         
 │                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
@@ -18965,7 +19510,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97030 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97032 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-86203.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-86093.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:86196                 
 │                        │      │                  https://github.com/golang/go/issues/81115                     
 │                        │      │                  https://go.dev/cl/835145                                      
@@ -19034,8 +19579,8 @@
 │                        │      │                            ╰ V3Score : 5.3 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86093              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:86196              
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86203              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-78663         
 │                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
@@ -19072,7 +19617,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97030 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97032 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-86203.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-86093.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:86196                 
 │                        │      │                  https://github.com/golang/go/issues/81743                     
 │                        │      │                  https://go.dev/cl/847187                                      
@@ -19142,8 +19687,8 @@
 │                        │      │                            ╰ V3Score : 6.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86093              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:86196              
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86203              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-94439         
 │                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
@@ -19180,7 +19725,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97030 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97032 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-86203.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-86093.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:86196                 
 │                        │      │                  https://github.com/golang/go/issues/81744                     
 │                        │      │                  https://go.dev/cl/847311                                      
@@ -19242,11 +19787,15 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:88189              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:98502              
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:98610              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-94440         
+│                        │      │                  https://bugzilla.redhat.com/2515815                           
+│                        │      │                  https://bugzilla.redhat.com/2515827                           
+│                        │      │                  https://bugzilla.redhat.com/2515839                           
+│                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
-│                        │      │                  https://bugzilla.redhat.com/2548344                           
+│                        │      │                  https://bugzilla.redhat.com/2548341                           
 │                        │      │                  https://bugzilla.redhat.com/2556068                           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515815           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515827           
@@ -19263,14 +19812,14 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78667 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-94440 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-88189.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-98610.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:98502                 
 │                        │      │                  https://github.com/golang/go/issues/81741                     
 │                        │      │                  https://go.dev/cl/847307                                      
 │                        │      │                  https://go.dev/issue/81741                                    
 │                        │      │                  https://groups.google.com/g/golang-announce/c/U2fTuyDJznI     
 │                        │      │                  https://linux.oracle.com/cve/CVE-2026-94440.html              
-│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98502.html          
+│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98610.html          
 │                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-94440               
 │                        │      │                  https://pkg.go.dev/vuln/GO-2026-6608                          
 │                        │      │                  https://ubuntu.com/security/notices/USN-8935-1                
@@ -19327,8 +19876,8 @@
 │                        │      │                            ╰ V3Score : 6.1 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86093              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:86196              
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86203              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-94448         
 │                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
@@ -19365,7 +19914,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97030 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97032 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-86203.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-86093.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:86196                 
 │                        │      │                  https://go.dev/cl/839866                                      
 │                        │      │                  https://go.dev/issue/81821                                    
@@ -19423,8 +19972,8 @@
 │                        │      │                            ╰ V3Score : 6.1 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86093              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:86196              
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86203              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-97030         
 │                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
@@ -19461,7 +20010,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97030 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97032 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-86203.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-86093.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:86196                 
 │                        │      │                  https://go.dev/cl/840925                                      
 │                        │      │                  https://go.dev/issue/81823                                    
@@ -19527,8 +20076,8 @@
 │                        │      │                            ╰ V3Score : 5.9 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86093              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:86196              
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86203              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-97032         
 │                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
@@ -19565,7 +20114,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97030 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97032 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-86203.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-86093.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:86196                 
 │                        │      │                  https://github.com/golang/go/issues/81867                     
 │                        │      │                  https://go.dev/cl/847188                                      
@@ -19618,7 +20167,8 @@
 │                        │      │                  CWE-362
 │                        │      │                  CWE-820
 │                        │      │                  
-│                        │      ├ VendorSeverity   ╭ amazon: 2 
+│                        │      ├ VendorSeverity   ╭ alma  : 2 
+│                        │      │                  ├ amazon: 2 
 │                        │      │                  ├ photon: 2 
 │                        │      │                  ╰ redhat: 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
@@ -19626,7 +20176,21 @@
 │                        │      │                           ╰ V3Score : 5.9 
 │                        │      ├ References                                                                
 │                        │      │                  ─────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:102587        
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-97054    
+│                        │      │                  https://bugzilla.redhat.com/2571442                      
+│                        │      │                  https://bugzilla.redhat.com/2571443                      
+│                        │      │                  https://bugzilla.redhat.com/2571444                      
+│                        │      │                  https://bugzilla.redhat.com/2571445                      
+│                        │      │                  https://bugzilla.redhat.com/2571446                      
+│                        │      │                  https://bugzilla.redhat.com/2571447                      
+│                        │      │                  https://bugzilla.redhat.com/2571448                      
+│                        │      │                  https://bugzilla.redhat.com/2571449                      
+│                        │      │                  https://bugzilla.redhat.com/2571450                      
+│                        │      │                  https://bugzilla.redhat.com/2571451                      
+│                        │      │                  https://bugzilla.redhat.com/2571452                      
+│                        │      │                  https://bugzilla.redhat.com/2571453                      
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-102587.html    
 │                        │      │                  https://go.dev/cl/862185                                 
 │                        │      │                  https://go.dev/issue/82563                               
 │                        │      │                  https://groups.google.com/g/golang-announce/c/iY8TY0wWgbM
@@ -19693,7 +20257,7 @@
 │                        │      │                  https://www.cve.org/CVERecord?id=CVE-2026-27139          
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-03-06T22:16:01.07Z 
-│                        │      ╰ LastModifiedDate: 2026-06-17T10:26:44.23Z 
+│                        │      ╰ LastModifiedDate: 2026-11-23T21:17:02.99Z 
 │                        ╰ [63] ╭ VulnerabilityID : CVE-2026-56857 
 │                               ├ VendorIDs                    
 │                               │                  ────────────
@@ -20056,7 +20620,7 @@
 │                        │      │                  9                                                           
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4250
 │                        │      │                  1                                                           
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-22112.html         
+│                        │      │                  https://errata.almalinux.org/9/ALSA-2026-22121.html         
 │                        │      │                                                                              
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:22121               
 │                        │      │                                                                              
@@ -20107,7 +20671,7 @@
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.38.0 
 │                        │      │                  ╰ UID : 8e64f46bdecee340 
 │                        │      ├ InstalledVersion: v0.38.0 
-│                        │      ├ FixedVersion    : 0.55.0 
+│                        │      ├ FixedVersion    : 0.57.0 
 │                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:14cb0260b85e78886481ce046d1d254d0c68fb96247
 │                        │      │                  │         1a65ec12dda151a2fe2ab 
@@ -20301,17 +20865,12 @@
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:67319            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:67517            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:68504            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:97386            
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-39821       
-│                        │      │                  https://bugzilla.redhat.com/2315719                         
-│                        │      │                  https://bugzilla.redhat.com/2341751                         
-│                        │      │                  https://bugzilla.redhat.com/2467820                         
+│                        │      │                  https://bugzilla.redhat.com/2445345                         
+│                        │      │                  https://bugzilla.redhat.com/2445356                         
+│                        │      │                  https://bugzilla.redhat.com/2467822                         
 │                        │      │                  https://bugzilla.redhat.com/2480756                         
-│                        │      │                  https://bugzilla.redhat.com/2515815                         
-│                        │      │                  https://bugzilla.redhat.com/2515820                         
-│                        │      │                  https://bugzilla.redhat.com/2515827                         
-│                        │      │                  https://bugzilla.redhat.com/2515838                         
-│                        │      │                  https://bugzilla.redhat.com/2515839                         
-│                        │      │                  https://bugzilla.redhat.com/2515840                         
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2456333         
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2456339         
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2467809         
@@ -20352,11 +20911,13 @@
 │                        │      │                  0                                                           
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5686
 │                        │      │                  2                                                           
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-66016.html         
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-97386.html        
 │                        │      │                                                                              
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:65886               
 │                        │      │                                                                              
 │                        │      │                  https://go.dev/cl/767220                                    
+│                        │      │                                                                              
+│                        │      │                  https://go.dev/cl/796421                                    
 │                        │      │                                                                              
 │                        │      │                  https://go.dev/issue/78760                                  
 │                        │      │                                                                              
@@ -20388,7 +20949,7 @@
 │                        │      │                                                                              
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-05-22T16:16:20.41Z 
-│                        │      ╰ LastModifiedDate: 2026-09-17T12:18:05.767Z 
+│                        │      ╰ LastModifiedDate: 2026-11-23T21:17:03.49Z 
 │                        ├ [4]  ╭ VulnerabilityID : CVE-2026-46600 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
@@ -20550,12 +21111,14 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:88189              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:98479              
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:98617              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-78669         
-│                        │      │                  https://bugzilla.redhat.com/2548336                           
+│                        │      │                  https://bugzilla.redhat.com/2484207                           
+│                        │      │                  https://bugzilla.redhat.com/2515815                           
+│                        │      │                  https://bugzilla.redhat.com/2515820                           
+│                        │      │                  https://bugzilla.redhat.com/2515839                           
 │                        │      │                  https://bugzilla.redhat.com/2548344                           
-│                        │      │                  https://bugzilla.redhat.com/2556068                           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515815           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515820           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515827           
@@ -20573,7 +21136,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78669 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-88189.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-98617.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:98479                 
 │                        │      │                  https://github.com/golang/go/issues/81742                     
 │                        │      │                  https://go.dev/cl/847186                                      
@@ -20582,7 +21145,7 @@
 │                        │      │                  https://groups.google.com/g/golang-announce/c/U2fTuyDJznI     
 │                        │      │                  https://groups.google.com/g/golang-announce/c/ZPwCyRUuGBs     
 │                        │      │                  https://linux.oracle.com/cve/CVE-2026-78669.html              
-│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98479.html          
+│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98617.html          
 │                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-78669               
 │                        │      │                  https://pkg.go.dev/vuln/GO-2026-6611                          
 │                        │      │                  https://ubuntu.com/security/notices/USN-8935-1                
@@ -20945,8 +21508,8 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86093              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:86196              
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86203              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-78659         
 │                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
@@ -20983,7 +21546,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97030 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97032 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-86203.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-86093.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:86196                 
 │                        │      │                  https://github.com/golang/go/issues/81857                     
 │                        │      │                  https://go.dev/cl/847185                                      
@@ -21052,8 +21615,8 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86093              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:86196              
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86203              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-78660         
 │                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
@@ -21090,7 +21653,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97030 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97032 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-86203.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-86093.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:86196                 
 │                        │      │                  https://github.com/golang/go/issues/81115                     
 │                        │      │                  https://go.dev/cl/835145                                      
@@ -21159,8 +21722,8 @@
 │                        │      │                            ╰ V3Score : 5.3 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86093              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:86196              
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86203              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-78663         
 │                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
@@ -21197,7 +21760,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97030 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97032 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-86203.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-86093.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:86196                 
 │                        │      │                  https://github.com/golang/go/issues/81743                     
 │                        │      │                  https://go.dev/cl/847187                                      
@@ -21268,8 +21831,8 @@
 │                        │      │                            ╰ V3Score : 5.9 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86093              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:86196              
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86203              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-97032         
 │                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
@@ -21306,7 +21869,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97030 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97032 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-86203.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-86093.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:86196                 
 │                        │      │                  https://github.com/golang/go/issues/81867                     
 │                        │      │                  https://go.dev/cl/847188                                      
@@ -21619,14 +22182,20 @@
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
 │                        │      │                  http://www.openwall.com/lists/oss-security/2026/10/20/29      
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:95638              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:98539              
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:98610              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-111943        
+│                        │      │                  https://bugzilla.redhat.com/2515815                           
+│                        │      │                  https://bugzilla.redhat.com/2515827                           
+│                        │      │                  https://bugzilla.redhat.com/2515839                           
+│                        │      │                  https://bugzilla.redhat.com/2548334                           
+│                        │      │                  https://bugzilla.redhat.com/2548336                           
+│                        │      │                  https://bugzilla.redhat.com/2548341                           
 │                        │      │                  https://bugzilla.redhat.com/2556068                           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556068           
 │                        │      │                  https://creativecommons.org/licenses/by/4.0/                  
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-111943
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-95638.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-98610.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:98539                 
 │                        │      │                  https://github.com/golang/go/issues/82345                     
 │                        │      │                  https://go.dev/cl/851047                                      
@@ -21634,7 +22203,7 @@
 │                        │      │                  https://groups.google.com/g/golang-announce/c/66pojueaQek     
 │                        │      │                  https://groups.google.com/g/golang-nuts/c/K22sG2AYnKU         
 │                        │      │                  https://linux.oracle.com/cve/CVE-2026-111943.html             
-│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98539.html          
+│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98610.html          
 │                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-111943              
 │                        │      │                  https://pkg.go.dev/vuln/GO-2026-6809                          
 │                        │      │                  https://www.cve.org/CVERecord?id=CVE-2026-111943              
@@ -21940,15 +22509,19 @@
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:9453             
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:9461             
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:9695             
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:97387            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:9742             
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:9872             
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-25679       
+│                        │      │                  https://bugzilla.redhat.com/2445345                         
 │                        │      │                  https://bugzilla.redhat.com/2445356                         
+│                        │      │                  https://bugzilla.redhat.com/2467822                         
+│                        │      │                  https://bugzilla.redhat.com/2515840                         
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2445356         
 │                        │      │                  https://creativecommons.org/licenses/by/4.0/                
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-2567
 │                        │      │                  9                                                           
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-8456.html          
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-97387.html        
 │                        │      │                                                                              
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:9044                
 │                        │      │                                                                              
@@ -22121,10 +22694,13 @@
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:68334            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:68335            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:97644            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:98617            
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-27145       
-│                        │      │                  https://bugzilla.redhat.com/2480756                         
 │                        │      │                  https://bugzilla.redhat.com/2484207                         
-│                        │      │                  https://bugzilla.redhat.com/2498152                         
+│                        │      │                  https://bugzilla.redhat.com/2515815                         
+│                        │      │                  https://bugzilla.redhat.com/2515820                         
+│                        │      │                  https://bugzilla.redhat.com/2515839                         
+│                        │      │                  https://bugzilla.redhat.com/2548344                         
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2467822         
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2484207         
 │                        │      │                  https://creativecommons.org/licenses/by/4.0/                
@@ -22132,7 +22708,7 @@
 │                        │      │                  5                                                           
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3381
 │                        │      │                  1                                                           
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-38995.html         
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-98617.html        
 │                        │      │                                                                              
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:97644               
 │                        │      │                                                                              
@@ -22144,7 +22720,7 @@
 │                        │      │                                                                              
 │                        │      │                  https://linux.oracle.com/cve/CVE-2026-27145.html            
 │                        │      │                                                                              
-│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-97644.html        
+│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98617.html        
 │                        │      │                                                                              
 │                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-27145             
 │                        │      │                                                                              
@@ -22398,13 +22974,12 @@
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:67319            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:68504            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:9385             
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:97215            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:97555            
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-32280       
-│                        │      │                  https://bugzilla.redhat.com/2449833                         
-│                        │      │                  https://bugzilla.redhat.com/2455470                         
-│                        │      │                  https://bugzilla.redhat.com/2456336                         
-│                        │      │                  https://bugzilla.redhat.com/2456338                         
+│                        │      │                  https://bugzilla.redhat.com/2456335                         
 │                        │      │                  https://bugzilla.redhat.com/2456339                         
+│                        │      │                  https://bugzilla.redhat.com/2480757                         
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2456335         
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2456339         
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2480757         
@@ -22415,7 +22990,7 @@
 │                        │      │                  0                                                           
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3381
 │                        │      │                  0                                                           
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-48790.html         
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-97215.html        
 │                        │      │                                                                              
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:97555               
 │                        │      │                                                                              
@@ -22497,14 +23072,10 @@
 │                        │      ├ References                                                                    
 │                        │      │                  ─────────────────────────────────────────────────────────────
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:65886             
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:67148             
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:97284             
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-32281        
-│                        │      │                  https://bugzilla.redhat.com/2344219                          
 │                        │      │                  https://bugzilla.redhat.com/2456333                          
-│                        │      │                  https://bugzilla.redhat.com/2467809                          
-│                        │      │                  https://bugzilla.redhat.com/2484204                          
-│                        │      │                  https://bugzilla.redhat.com/2484830                          
-│                        │      │                  https://bugzilla.redhat.com/2493622                          
+│                        │      │                  https://bugzilla.redhat.com/2456335                          
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2456333          
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2456339          
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2467809          
@@ -22532,7 +23103,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56859
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-67148.html          
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-97284.html         
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:65886                
 │                        │      │                  https://go.dev/cl/758061                                     
 │                        │      │                  https://go.dev/issue/78281                                   
@@ -22738,9 +23309,7 @@
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:7291             
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:7385             
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-32283       
-│                        │      │                  https://bugzilla.redhat.com/2449833                         
-│                        │      │                  https://bugzilla.redhat.com/2455470                         
-│                        │      │                  https://bugzilla.redhat.com/2456336                         
+│                        │      │                  https://bugzilla.redhat.com/2456333                         
 │                        │      │                  https://bugzilla.redhat.com/2456338                         
 │                        │      │                  https://bugzilla.redhat.com/2456339                         
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2445356         
@@ -22756,7 +23325,7 @@
 │                        │      │                  1                                                           
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3228
 │                        │      │                  3                                                           
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-48790.html         
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-24470.html        
 │                        │      │                                                                              
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:29703               
 │                        │      │                                                                              
@@ -22960,9 +23529,13 @@
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:67149            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:67287            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:67319            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:97387            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:97644            
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-33811       
+│                        │      │                  https://bugzilla.redhat.com/2445345                         
+│                        │      │                  https://bugzilla.redhat.com/2445356                         
 │                        │      │                  https://bugzilla.redhat.com/2467822                         
+│                        │      │                  https://bugzilla.redhat.com/2515840                         
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2467822         
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2484207         
 │                        │      │                  https://creativecommons.org/licenses/by/4.0/                
@@ -22970,7 +23543,7 @@
 │                        │      │                  5                                                           
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3381
 │                        │      │                  1                                                           
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-39266.html         
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-97387.html        
 │                        │      │                                                                              
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:97644               
 │                        │      │                                                                              
@@ -23149,7 +23722,7 @@
 │                        │      │                  9                                                           
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4250
 │                        │      │                  1                                                           
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-22112.html         
+│                        │      │                  https://errata.almalinux.org/9/ALSA-2026-22121.html         
 │                        │      │                                                                              
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:22121               
 │                        │      │                                                                              
@@ -23238,12 +23811,14 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:67161              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:98502              
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:98617              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-33818         
+│                        │      │                  https://bugzilla.redhat.com/2484207                           
 │                        │      │                  https://bugzilla.redhat.com/2515815                           
 │                        │      │                  https://bugzilla.redhat.com/2515820                           
 │                        │      │                  https://bugzilla.redhat.com/2515839                           
+│                        │      │                  https://bugzilla.redhat.com/2548344                           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515815           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515827           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515839           
@@ -23259,14 +23834,14 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78667 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-94440 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-67161.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-98617.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:98502                 
 │                        │      │                  https://github.com/golang/go/issues/80405                     
 │                        │      │                  https://go.dev/cl/814980                                      
 │                        │      │                  https://go.dev/issue/80405                                    
 │                        │      │                  https://groups.google.com/g/golang-announce/c/94pEornpRlI     
 │                        │      │                  https://linux.oracle.com/cve/CVE-2026-33818.html              
-│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98502.html          
+│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98617.html          
 │                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-33818               
 │                        │      │                  https://pkg.go.dev/vuln/GO-2026-5972                          
 │                        │      │                  https://ubuntu.com/security/notices/USN-8935-1                
@@ -23419,10 +23994,10 @@
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:68504            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:68527            
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-39820       
-│                        │      │                  https://bugzilla.redhat.com/2315719                         
-│                        │      │                  https://bugzilla.redhat.com/2341751                         
+│                        │      │                  https://bugzilla.redhat.com/2467809                         
 │                        │      │                  https://bugzilla.redhat.com/2467820                         
 │                        │      │                  https://bugzilla.redhat.com/2480756                         
+│                        │      │                  https://bugzilla.redhat.com/2484204                         
 │                        │      │                  https://bugzilla.redhat.com/2515815                         
 │                        │      │                  https://bugzilla.redhat.com/2515820                         
 │                        │      │                  https://bugzilla.redhat.com/2515827                         
@@ -23469,7 +24044,7 @@
 │                        │      │                  0                                                           
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5686
 │                        │      │                  2                                                           
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-66016.html         
+│                        │      │                  https://errata.almalinux.org/9/ALSA-2026-65153.html         
 │                        │      │                                                                              
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:65886               
 │                        │      │                                                                              
@@ -23702,17 +24277,12 @@
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:67319            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:67517            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:68504            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:97386            
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-39821       
-│                        │      │                  https://bugzilla.redhat.com/2315719                         
-│                        │      │                  https://bugzilla.redhat.com/2341751                         
-│                        │      │                  https://bugzilla.redhat.com/2467820                         
+│                        │      │                  https://bugzilla.redhat.com/2445345                         
+│                        │      │                  https://bugzilla.redhat.com/2445356                         
+│                        │      │                  https://bugzilla.redhat.com/2467822                         
 │                        │      │                  https://bugzilla.redhat.com/2480756                         
-│                        │      │                  https://bugzilla.redhat.com/2515815                         
-│                        │      │                  https://bugzilla.redhat.com/2515820                         
-│                        │      │                  https://bugzilla.redhat.com/2515827                         
-│                        │      │                  https://bugzilla.redhat.com/2515838                         
-│                        │      │                  https://bugzilla.redhat.com/2515839                         
-│                        │      │                  https://bugzilla.redhat.com/2515840                         
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2456333         
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2456339         
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2467809         
@@ -23753,11 +24323,13 @@
 │                        │      │                  0                                                           
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5686
 │                        │      │                  2                                                           
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-66016.html         
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-97386.html        
 │                        │      │                                                                              
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:65886               
 │                        │      │                                                                              
 │                        │      │                  https://go.dev/cl/767220                                    
+│                        │      │                                                                              
+│                        │      │                  https://go.dev/cl/796421                                    
 │                        │      │                                                                              
 │                        │      │                  https://go.dev/issue/78760                                  
 │                        │      │                                                                              
@@ -23789,7 +24361,7 @@
 │                        │      │                                                                              
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-05-22T16:16:20.41Z 
-│                        │      ╰ LastModifiedDate: 2026-09-17T12:18:05.767Z 
+│                        │      ╰ LastModifiedDate: 2026-11-23T21:17:03.49Z 
 │                        ├ [31] ╭ VulnerabilityID : CVE-2026-39822 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
@@ -23842,16 +24414,14 @@
 │                        │      │                            ╰ V3Score : 7.8 
 │                        │      ├ References                                                                    
 │                        │      │                  ─────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:38495             
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:38878             
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:38995             
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-39822        
-│                        │      │                  https://bugzilla.redhat.com/2480756                          
-│                        │      │                  https://bugzilla.redhat.com/2484207                          
 │                        │      │                  https://bugzilla.redhat.com/2498152                          
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2498152          
 │                        │      │                  https://creativecommons.org/licenses/by/4.0/                 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-39822
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-38995.html          
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-38495.html         
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:38878                
 │                        │      │                  https://github.com/golang/go/issues/79005                    
 │                        │      │                  https://go.dev/cl/797880                                     
@@ -23915,7 +24485,6 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                    
 │                        │      │                  ─────────────────────────────────────────────────────────────
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:22112             
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:22121             
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-39836        
 │                        │      │                  https://bugzilla.redhat.com/2467822                          
@@ -23942,7 +24511,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-39836
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-42499
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-42501
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-22112.html          
+│                        │      │                  https://errata.almalinux.org/9/ALSA-2026-22121.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:22121                
 │                        │      │                  https://go.dev/cl/775320                                     
 │                        │      │                  https://go.dev/issue/79006                                   
@@ -24095,14 +24664,19 @@
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:68334            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:68504            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:68527            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:70201            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:98448            
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-42499       
-│                        │      │                  https://bugzilla.redhat.com/2344219                         
-│                        │      │                  https://bugzilla.redhat.com/2456333                         
+│                        │      │                  https://bugzilla.redhat.com/2456335                         
 │                        │      │                  https://bugzilla.redhat.com/2467809                         
-│                        │      │                  https://bugzilla.redhat.com/2484204                         
-│                        │      │                  https://bugzilla.redhat.com/2484830                         
-│                        │      │                  https://bugzilla.redhat.com/2493622                         
+│                        │      │                  https://bugzilla.redhat.com/2504233                         
+│                        │      │                  https://bugzilla.redhat.com/2508234                         
+│                        │      │                  https://bugzilla.redhat.com/2515815                         
+│                        │      │                  https://bugzilla.redhat.com/2515820                         
+│                        │      │                  https://bugzilla.redhat.com/2515827                         
+│                        │      │                  https://bugzilla.redhat.com/2515838                         
+│                        │      │                  https://bugzilla.redhat.com/2515839                         
+│                        │      │                  https://bugzilla.redhat.com/2515840                         
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2467809         
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515815         
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515820         
@@ -24122,7 +24696,7 @@
 │                        │      │                  0                                                           
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5686
 │                        │      │                  2                                                           
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-67148.html         
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-70201.html        
 │                        │      │                                                                              
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:98448               
 │                        │      │                                                                              
@@ -24178,7 +24752,7 @@
 │                        │      │                  ───────
 │                        │      │                  CWE-407
 │                        │      │                  
-│                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      ├ VendorSeverity   ╭ alma       : 2 
 │                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 3 
 │                        │      │                  ├ bitnami    : 3 
@@ -24194,15 +24768,10 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                    
 │                        │      │                  ─────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:29980             
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:65886             
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:67148             
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-42504        
-│                        │      │                  https://bugzilla.redhat.com/2344219                          
-│                        │      │                  https://bugzilla.redhat.com/2456333                          
-│                        │      │                  https://bugzilla.redhat.com/2467809                          
-│                        │      │                  https://bugzilla.redhat.com/2484204                          
-│                        │      │                  https://bugzilla.redhat.com/2484830                          
-│                        │      │                  https://bugzilla.redhat.com/2493622                          
+│                        │      │                  https://bugzilla.redhat.com/2484205                          
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2456333          
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2456339          
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2467809          
@@ -24230,7 +24799,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56859
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-67148.html          
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-29980.html         
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:65886                
 │                        │      │                  https://go.dev/cl/774481                                     
 │                        │      │                  https://go.dev/issue/79217                                   
@@ -24291,19 +24860,16 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:66016              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:98502              
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:98610              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-56853         
-│                        │      │                  https://bugzilla.redhat.com/2315719                           
-│                        │      │                  https://bugzilla.redhat.com/2341751                           
-│                        │      │                  https://bugzilla.redhat.com/2467820                           
-│                        │      │                  https://bugzilla.redhat.com/2480756                           
 │                        │      │                  https://bugzilla.redhat.com/2515815                           
-│                        │      │                  https://bugzilla.redhat.com/2515820                           
 │                        │      │                  https://bugzilla.redhat.com/2515827                           
-│                        │      │                  https://bugzilla.redhat.com/2515838                           
 │                        │      │                  https://bugzilla.redhat.com/2515839                           
-│                        │      │                  https://bugzilla.redhat.com/2515840                           
+│                        │      │                  https://bugzilla.redhat.com/2548334                           
+│                        │      │                  https://bugzilla.redhat.com/2548336                           
+│                        │      │                  https://bugzilla.redhat.com/2548341                           
+│                        │      │                  https://bugzilla.redhat.com/2556068                           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515815           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515827           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515839           
@@ -24319,13 +24885,13 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78667 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-94440 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-66016.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-98610.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:98502                 
 │                        │      │                  https://go.dev/cl/795540                                      
 │                        │      │                  https://go.dev/issue/80205                                    
 │                        │      │                  https://groups.google.com/g/golang-announce/c/94pEornpRlI     
 │                        │      │                  https://linux.oracle.com/cve/CVE-2026-56853.html              
-│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98502.html          
+│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98610.html          
 │                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-56853               
 │                        │      │                  https://pkg.go.dev/vuln/GO-2026-6089                          
 │                        │      │                  https://www.cve.org/CVERecord?id=CVE-2026-56853               
@@ -24379,19 +24945,14 @@
 │                        │      │                            ╰ V3Score : 8.1 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:66016              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:98479              
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:98556              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-56858         
-│                        │      │                  https://bugzilla.redhat.com/2315719                           
-│                        │      │                  https://bugzilla.redhat.com/2341751                           
-│                        │      │                  https://bugzilla.redhat.com/2467820                           
-│                        │      │                  https://bugzilla.redhat.com/2480756                           
 │                        │      │                  https://bugzilla.redhat.com/2515815                           
 │                        │      │                  https://bugzilla.redhat.com/2515820                           
 │                        │      │                  https://bugzilla.redhat.com/2515827                           
 │                        │      │                  https://bugzilla.redhat.com/2515838                           
 │                        │      │                  https://bugzilla.redhat.com/2515839                           
-│                        │      │                  https://bugzilla.redhat.com/2515840                           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515815           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515820           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515827           
@@ -24409,7 +24970,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78669 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-66016.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-98556.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:98479                 
 │                        │      │                  https://go.dev/cl/807100                                      
 │                        │      │                  https://go.dev/issue/80435                                    
@@ -24470,19 +25031,16 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                    
 │                        │      │                  ─────────────────────────────────────────────────────────────
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:66016             
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:98447             
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:98554             
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-56859        
-│                        │      │                  https://bugzilla.redhat.com/2315719                          
-│                        │      │                  https://bugzilla.redhat.com/2341751                          
-│                        │      │                  https://bugzilla.redhat.com/2467820                          
-│                        │      │                  https://bugzilla.redhat.com/2480756                          
 │                        │      │                  https://bugzilla.redhat.com/2515815                          
 │                        │      │                  https://bugzilla.redhat.com/2515820                          
 │                        │      │                  https://bugzilla.redhat.com/2515827                          
 │                        │      │                  https://bugzilla.redhat.com/2515838                          
 │                        │      │                  https://bugzilla.redhat.com/2515839                          
 │                        │      │                  https://bugzilla.redhat.com/2515840                          
+│                        │      │                  https://bugzilla.redhat.com/2518147                          
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2467809          
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515815          
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515820          
@@ -24496,7 +25054,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56859
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-66016.html          
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-98554.html         
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:98447                
 │                        │      │                  https://github.com/golang/go/issues/80481                    
 │                        │      │                  https://go.dev/cl/803320                                     
@@ -24563,12 +25121,14 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:67161              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:98479              
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:98617              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-56860         
+│                        │      │                  https://bugzilla.redhat.com/2484207                           
 │                        │      │                  https://bugzilla.redhat.com/2515815                           
 │                        │      │                  https://bugzilla.redhat.com/2515820                           
 │                        │      │                  https://bugzilla.redhat.com/2515839                           
+│                        │      │                  https://bugzilla.redhat.com/2548344                           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515815           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515820           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515827           
@@ -24586,13 +25146,13 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78669 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-67161.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-98617.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:98479                 
 │                        │      │                  https://go.dev/cl/803681                                      
 │                        │      │                  https://go.dev/issue/80494                                    
 │                        │      │                  https://groups.google.com/g/golang-announce/c/94pEornpRlI     
 │                        │      │                  https://linux.oracle.com/cve/CVE-2026-56860.html              
-│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98479.html          
+│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98617.html          
 │                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-56860               
 │                        │      │                  https://pkg.go.dev/vuln/GO-2026-6218                          
 │                        │      │                  https://www.cve.org/CVERecord?id=CVE-2026-56860               
@@ -24650,12 +25210,14 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:67161              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:98502              
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:98617              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-56862         
+│                        │      │                  https://bugzilla.redhat.com/2484207                           
 │                        │      │                  https://bugzilla.redhat.com/2515815                           
 │                        │      │                  https://bugzilla.redhat.com/2515820                           
 │                        │      │                  https://bugzilla.redhat.com/2515839                           
+│                        │      │                  https://bugzilla.redhat.com/2548344                           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515815           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515827           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515839           
@@ -24671,14 +25233,14 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78667 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-94440 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-67161.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-98617.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:98502                 
 │                        │      │                  https://github.com/golang/go/issues/80528                     
 │                        │      │                  https://go.dev/cl/804261                                      
 │                        │      │                  https://go.dev/issue/80528                                    
 │                        │      │                  https://groups.google.com/g/golang-announce/c/94pEornpRlI     
 │                        │      │                  https://linux.oracle.com/cve/CVE-2026-56862.html              
-│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98502.html          
+│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98617.html          
 │                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-56862               
 │                        │      │                  https://pkg.go.dev/vuln/GO-2026-6090                          
 │                        │      │                  https://ubuntu.com/security/notices/USN-8935-1                
@@ -24733,10 +25295,15 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:89760              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:98502              
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:98610              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-78667         
+│                        │      │                  https://bugzilla.redhat.com/2515815                           
+│                        │      │                  https://bugzilla.redhat.com/2515827                           
+│                        │      │                  https://bugzilla.redhat.com/2515839                           
 │                        │      │                  https://bugzilla.redhat.com/2548334                           
+│                        │      │                  https://bugzilla.redhat.com/2548336                           
+│                        │      │                  https://bugzilla.redhat.com/2548341                           
 │                        │      │                  https://bugzilla.redhat.com/2556068                           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515815           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515827           
@@ -24753,14 +25320,14 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78667 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-94440 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-89760.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-98610.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:98502                 
 │                        │      │                  https://github.com/golang/go/issues/81858                     
 │                        │      │                  https://go.dev/cl/847309                                      
 │                        │      │                  https://go.dev/issue/81858                                    
 │                        │      │                  https://groups.google.com/g/golang-announce/c/U2fTuyDJznI     
 │                        │      │                  https://linux.oracle.com/cve/CVE-2026-78667.html              
-│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98502.html          
+│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98610.html          
 │                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-78667               
 │                        │      │                  https://pkg.go.dev/vuln/GO-2026-6609                          
 │                        │      │                  https://ubuntu.com/security/notices/USN-8935-1                
@@ -24819,12 +25386,14 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:88189              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:98479              
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:98617              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-78669         
-│                        │      │                  https://bugzilla.redhat.com/2548336                           
+│                        │      │                  https://bugzilla.redhat.com/2484207                           
+│                        │      │                  https://bugzilla.redhat.com/2515815                           
+│                        │      │                  https://bugzilla.redhat.com/2515820                           
+│                        │      │                  https://bugzilla.redhat.com/2515839                           
 │                        │      │                  https://bugzilla.redhat.com/2548344                           
-│                        │      │                  https://bugzilla.redhat.com/2556068                           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515815           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515820           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515827           
@@ -24842,7 +25411,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78669 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-88189.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-98617.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:98479                 
 │                        │      │                  https://github.com/golang/go/issues/81742                     
 │                        │      │                  https://go.dev/cl/847186                                      
@@ -24851,7 +25420,7 @@
 │                        │      │                  https://groups.google.com/g/golang-announce/c/U2fTuyDJznI     
 │                        │      │                  https://groups.google.com/g/golang-announce/c/ZPwCyRUuGBs     
 │                        │      │                  https://linux.oracle.com/cve/CVE-2026-78669.html              
-│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98479.html          
+│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98617.html          
 │                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-78669               
 │                        │      │                  https://pkg.go.dev/vuln/GO-2026-6611                          
 │                        │      │                  https://ubuntu.com/security/notices/USN-8935-1                
@@ -24909,11 +25478,15 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:88189              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:98502              
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:98610              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-97031         
+│                        │      │                  https://bugzilla.redhat.com/2515815                           
+│                        │      │                  https://bugzilla.redhat.com/2515827                           
+│                        │      │                  https://bugzilla.redhat.com/2515839                           
+│                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
-│                        │      │                  https://bugzilla.redhat.com/2548344                           
+│                        │      │                  https://bugzilla.redhat.com/2548341                           
 │                        │      │                  https://bugzilla.redhat.com/2556068                           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515815           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515827           
@@ -24930,13 +25503,13 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78667 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-94440 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-88189.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-98610.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:98502                 
 │                        │      │                  https://go.dev/cl/847312                                      
 │                        │      │                  https://go.dev/issue/81855                                    
 │                        │      │                  https://groups.google.com/g/golang-announce/c/U2fTuyDJznI     
 │                        │      │                  https://linux.oracle.com/cve/CVE-2026-97031.html              
-│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98502.html          
+│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98610.html          
 │                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-97031               
 │                        │      │                  https://pkg.go.dev/vuln/GO-2026-6607                          
 │                        │      │                  https://www.cve.org/CVERecord?id=CVE-2026-97031               
@@ -25042,7 +25615,7 @@
 │                        │      │                  ──────
 │                        │      │                  CWE-59
 │                        │      │                  
-│                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      ├ VendorSeverity   ╭ alma       : 2 
 │                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ nvd        : 2 
@@ -25061,13 +25634,12 @@
 │                        │      │                            ╰ V3Score : 7.8 
 │                        │      ├ References                                                                    
 │                        │      │                  ─────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:22141             
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:23228             
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:48790             
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-32282        
-│                        │      │                  https://bugzilla.redhat.com/2449833                          
-│                        │      │                  https://bugzilla.redhat.com/2455470                          
+│                        │      │                  https://bugzilla.redhat.com/2437111                          
+│                        │      │                  https://bugzilla.redhat.com/2456333                          
 │                        │      │                  https://bugzilla.redhat.com/2456336                          
-│                        │      │                  https://bugzilla.redhat.com/2456338                          
 │                        │      │                  https://bugzilla.redhat.com/2456339                          
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2434432          
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2437111          
@@ -25086,7 +25658,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-32283
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-33186
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-34986
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-48790.html          
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-22141.html         
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:23228                
 │                        │      │                  https://go.dev/cl/763761                                     
 │                        │      │                  https://go.dev/issue/78293                                   
@@ -25284,7 +25856,6 @@
 │                        │      │                            ╰ V3Score : 5.4 
 │                        │      ├ References                                                                    
 │                        │      │                  ─────────────────────────────────────────────────────────────
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:22112             
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:22121             
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-39823        
 │                        │      │                  https://bugzilla.redhat.com/2467822                          
@@ -25311,7 +25882,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-39836
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-42499
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-42501
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-22112.html          
+│                        │      │                  https://errata.almalinux.org/9/ALSA-2026-22121.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:22121                
 │                        │      │                  https://go.dev/cl/769920                                     
 │                        │      │                  https://go.dev/issue/78913                                   
@@ -25378,7 +25949,6 @@
 │                        │      │                            ╰ V3Score : 6.5 
 │                        │      ├ References                                                                    
 │                        │      │                  ─────────────────────────────────────────────────────────────
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:22112             
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:22121             
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-39825        
 │                        │      │                  https://bugzilla.redhat.com/2467822                          
@@ -25405,7 +25975,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-39836
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-42499
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-42501
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-22112.html          
+│                        │      │                  https://errata.almalinux.org/9/ALSA-2026-22121.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:22121                
 │                        │      │                  https://go.dev/cl/770541                                     
 │                        │      │                  https://go.dev/issue/78948                                   
@@ -25467,7 +26037,6 @@
 │                        │      │                            ╰ V3Score : 5.4 
 │                        │      ├ References                                                                    
 │                        │      │                  ─────────────────────────────────────────────────────────────
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:22112             
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:22121             
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-39826        
 │                        │      │                  https://bugzilla.redhat.com/2467822                          
@@ -25494,7 +26063,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-39836
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-42499
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-42501
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-22112.html          
+│                        │      │                  https://errata.almalinux.org/9/ALSA-2026-22121.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:22121                
 │                        │      │                  https://go.dev/cl/771180                                     
 │                        │      │                  https://go.dev/issue/78981                                   
@@ -25554,12 +26123,10 @@
 │                        │      │                            ╰ V3Score : 5.3 
 │                        │      ├ References                                                                
 │                        │      │                  ─────────────────────────────────────────────────────────
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:38995         
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:37436         
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-42505    
 │                        │      │                  https://bugzilla.redhat.com/2480756                      
-│                        │      │                  https://bugzilla.redhat.com/2484207                      
-│                        │      │                  https://bugzilla.redhat.com/2498152                      
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-38995.html      
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-37436.html     
 │                        │      │                  https://go.dev/cl/775960                                 
 │                        │      │                  https://go.dev/issue/79282                               
 │                        │      │                  https://groups.google.com/g/golang-announce/c/OrmQE_Yp5Sc
@@ -25598,7 +26165,7 @@
 │                        │      │                   might allow an attacker to inject misleading content to
 │                        │      │                   errors that are printed or logged. 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      ├ VendorSeverity   ╭ alma       : 2 
 │                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
@@ -25614,18 +26181,16 @@
 │                        │      │                            ╰ V3Score : 5.3 
 │                        │      ├ References                                                                    
 │                        │      │                  ─────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:29980             
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:29981             
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:38995             
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-42507        
-│                        │      │                  https://bugzilla.redhat.com/2480756                          
-│                        │      │                  https://bugzilla.redhat.com/2484207                          
-│                        │      │                  https://bugzilla.redhat.com/2498152                          
+│                        │      │                  https://bugzilla.redhat.com/2484205                          
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2484205          
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2484207          
 │                        │      │                  https://creativecommons.org/licenses/by/4.0/                 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-27145
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-42507
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-38995.html          
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-29980.html         
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:29981                
 │                        │      │                  https://go.dev/cl/777060                                     
 │                        │      │                  https://go.dev/issue/79346                                   
@@ -25696,8 +26261,8 @@
 │                        │      │                            ╰ V3Score : 6.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86093              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:86196              
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86203              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-56866         
 │                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
@@ -25734,7 +26299,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97030 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97032 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-86203.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-86093.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:86196                 
 │                        │      │                  https://github.com/golang/go/issues/81740                     
 │                        │      │                  https://go.dev/cl/847306                                      
@@ -25805,8 +26370,8 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86093              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:86196              
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86203              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-78659         
 │                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
@@ -25843,7 +26408,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97030 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97032 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-86203.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-86093.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:86196                 
 │                        │      │                  https://github.com/golang/go/issues/81857                     
 │                        │      │                  https://go.dev/cl/847185                                      
@@ -25912,8 +26477,8 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86093              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:86196              
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86203              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-78660         
 │                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
@@ -25950,7 +26515,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97030 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97032 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-86203.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-86093.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:86196                 
 │                        │      │                  https://github.com/golang/go/issues/81115                     
 │                        │      │                  https://go.dev/cl/835145                                      
@@ -26019,8 +26584,8 @@
 │                        │      │                            ╰ V3Score : 5.3 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86093              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:86196              
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86203              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-78663         
 │                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
@@ -26057,7 +26622,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97030 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97032 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-86203.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-86093.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:86196                 
 │                        │      │                  https://github.com/golang/go/issues/81743                     
 │                        │      │                  https://go.dev/cl/847187                                      
@@ -26127,8 +26692,8 @@
 │                        │      │                            ╰ V3Score : 6.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86093              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:86196              
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86203              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-94439         
 │                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
@@ -26165,7 +26730,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97030 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97032 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-86203.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-86093.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:86196                 
 │                        │      │                  https://github.com/golang/go/issues/81744                     
 │                        │      │                  https://go.dev/cl/847311                                      
@@ -26227,11 +26792,15 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:88189              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:98502              
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:98610              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-94440         
+│                        │      │                  https://bugzilla.redhat.com/2515815                           
+│                        │      │                  https://bugzilla.redhat.com/2515827                           
+│                        │      │                  https://bugzilla.redhat.com/2515839                           
+│                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
-│                        │      │                  https://bugzilla.redhat.com/2548344                           
+│                        │      │                  https://bugzilla.redhat.com/2548341                           
 │                        │      │                  https://bugzilla.redhat.com/2556068                           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515815           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515827           
@@ -26248,14 +26817,14 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78667 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-94440 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-88189.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-98610.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:98502                 
 │                        │      │                  https://github.com/golang/go/issues/81741                     
 │                        │      │                  https://go.dev/cl/847307                                      
 │                        │      │                  https://go.dev/issue/81741                                    
 │                        │      │                  https://groups.google.com/g/golang-announce/c/U2fTuyDJznI     
 │                        │      │                  https://linux.oracle.com/cve/CVE-2026-94440.html              
-│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98502.html          
+│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98610.html          
 │                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-94440               
 │                        │      │                  https://pkg.go.dev/vuln/GO-2026-6608                          
 │                        │      │                  https://ubuntu.com/security/notices/USN-8935-1                
@@ -26312,8 +26881,8 @@
 │                        │      │                            ╰ V3Score : 6.1 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86093              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:86196              
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86203              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-94448         
 │                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
@@ -26350,7 +26919,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97030 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97032 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-86203.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-86093.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:86196                 
 │                        │      │                  https://go.dev/cl/839866                                      
 │                        │      │                  https://go.dev/issue/81821                                    
@@ -26408,8 +26977,8 @@
 │                        │      │                            ╰ V3Score : 6.1 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86093              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:86196              
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86203              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-97030         
 │                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
@@ -26446,7 +27015,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97030 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97032 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-86203.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-86093.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:86196                 
 │                        │      │                  https://go.dev/cl/840925                                      
 │                        │      │                  https://go.dev/issue/81823                                    
@@ -26512,8 +27081,8 @@
 │                        │      │                            ╰ V3Score : 5.9 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86093              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:86196              
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86203              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-97032         
 │                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
@@ -26550,7 +27119,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97030 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97032 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-86203.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-86093.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:86196                 
 │                        │      │                  https://github.com/golang/go/issues/81867                     
 │                        │      │                  https://go.dev/cl/847188                                      
@@ -26603,7 +27172,8 @@
 │                        │      │                  CWE-362
 │                        │      │                  CWE-820
 │                        │      │                  
-│                        │      ├ VendorSeverity   ╭ amazon: 2 
+│                        │      ├ VendorSeverity   ╭ alma  : 2 
+│                        │      │                  ├ amazon: 2 
 │                        │      │                  ├ photon: 2 
 │                        │      │                  ╰ redhat: 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
@@ -26611,7 +27181,21 @@
 │                        │      │                           ╰ V3Score : 5.9 
 │                        │      ├ References                                                                
 │                        │      │                  ─────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:102587        
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-97054    
+│                        │      │                  https://bugzilla.redhat.com/2571442                      
+│                        │      │                  https://bugzilla.redhat.com/2571443                      
+│                        │      │                  https://bugzilla.redhat.com/2571444                      
+│                        │      │                  https://bugzilla.redhat.com/2571445                      
+│                        │      │                  https://bugzilla.redhat.com/2571446                      
+│                        │      │                  https://bugzilla.redhat.com/2571447                      
+│                        │      │                  https://bugzilla.redhat.com/2571448                      
+│                        │      │                  https://bugzilla.redhat.com/2571449                      
+│                        │      │                  https://bugzilla.redhat.com/2571450                      
+│                        │      │                  https://bugzilla.redhat.com/2571451                      
+│                        │      │                  https://bugzilla.redhat.com/2571452                      
+│                        │      │                  https://bugzilla.redhat.com/2571453                      
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-102587.html    
 │                        │      │                  https://go.dev/cl/862185                                 
 │                        │      │                  https://go.dev/issue/82563                               
 │                        │      │                  https://groups.google.com/g/golang-announce/c/iY8TY0wWgbM
@@ -26678,7 +27262,7 @@
 │                        │      │                  https://www.cve.org/CVERecord?id=CVE-2026-27139          
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-03-06T22:16:01.07Z 
-│                        │      ╰ LastModifiedDate: 2026-06-17T10:26:44.23Z 
+│                        │      ╰ LastModifiedDate: 2026-11-23T21:17:02.99Z 
 │                        ╰ [63] ╭ VulnerabilityID : CVE-2026-56857 
 │                               ├ VendorIDs                    
 │                               │                  ────────────
@@ -27409,12 +27993,14 @@
 │                        │     │                            ╰ V3Score : 7.5 
 │                        │     ├ References                                                                     
 │                        │     │                  ──────────────────────────────────────────────────────────────
-│                        │     │                  https://access.redhat.com/errata/RHSA-2026:88189              
 │                        │     │                  https://access.redhat.com/errata/RHSA-2026:98479              
+│                        │     │                  https://access.redhat.com/errata/RHSA-2026:98617              
 │                        │     │                  https://access.redhat.com/security/cve/CVE-2026-78669         
-│                        │     │                  https://bugzilla.redhat.com/2548336                           
+│                        │     │                  https://bugzilla.redhat.com/2484207                           
+│                        │     │                  https://bugzilla.redhat.com/2515815                           
+│                        │     │                  https://bugzilla.redhat.com/2515820                           
+│                        │     │                  https://bugzilla.redhat.com/2515839                           
 │                        │     │                  https://bugzilla.redhat.com/2548344                           
-│                        │     │                  https://bugzilla.redhat.com/2556068                           
 │                        │     │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515815           
 │                        │     │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515820           
 │                        │     │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515827           
@@ -27432,7 +28018,7 @@
 │                        │     │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862 
 │                        │     │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78669 
 │                        │     │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
-│                        │     │                  https://errata.almalinux.org/8/ALSA-2026-88189.html           
+│                        │     │                  https://errata.almalinux.org/10/ALSA-2026-98617.html          
 │                        │     │                  https://errata.rockylinux.org/RLSA-2026:98479                 
 │                        │     │                  https://github.com/golang/go/issues/81742                     
 │                        │     │                  https://go.dev/cl/847186                                      
@@ -27441,7 +28027,7 @@
 │                        │     │                  https://groups.google.com/g/golang-announce/c/U2fTuyDJznI     
 │                        │     │                  https://groups.google.com/g/golang-announce/c/ZPwCyRUuGBs     
 │                        │     │                  https://linux.oracle.com/cve/CVE-2026-78669.html              
-│                        │     │                  https://linux.oracle.com/errata/ELSA-2026-98479.html          
+│                        │     │                  https://linux.oracle.com/errata/ELSA-2026-98617.html          
 │                        │     │                  https://nvd.nist.gov/vuln/detail/CVE-2026-78669               
 │                        │     │                  https://pkg.go.dev/vuln/GO-2026-6611                          
 │                        │     │                  https://ubuntu.com/security/notices/USN-8935-1                
@@ -27507,8 +28093,8 @@
 │                        │     │                            ╰ V3Score : 7.5 
 │                        │     ├ References                                                                     
 │                        │     │                  ──────────────────────────────────────────────────────────────
+│                        │     │                  https://access.redhat.com/errata/RHSA-2026:86093              
 │                        │     │                  https://access.redhat.com/errata/RHSA-2026:86196              
-│                        │     │                  https://access.redhat.com/errata/RHSA-2026:86203              
 │                        │     │                  https://access.redhat.com/security/cve/CVE-2026-78659         
 │                        │     │                  https://bugzilla.redhat.com/2548334                           
 │                        │     │                  https://bugzilla.redhat.com/2548336                           
@@ -27545,7 +28131,7 @@
 │                        │     │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97030 
 │                        │     │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
 │                        │     │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97032 
-│                        │     │                  https://errata.almalinux.org/8/ALSA-2026-86203.html           
+│                        │     │                  https://errata.almalinux.org/10/ALSA-2026-86093.html          
 │                        │     │                  https://errata.rockylinux.org/RLSA-2026:86196                 
 │                        │     │                  https://github.com/golang/go/issues/81857                     
 │                        │     │                  https://go.dev/cl/847185                                      
@@ -27614,8 +28200,8 @@
 │                        │     │                            ╰ V3Score : 7.5 
 │                        │     ├ References                                                                     
 │                        │     │                  ──────────────────────────────────────────────────────────────
+│                        │     │                  https://access.redhat.com/errata/RHSA-2026:86093              
 │                        │     │                  https://access.redhat.com/errata/RHSA-2026:86196              
-│                        │     │                  https://access.redhat.com/errata/RHSA-2026:86203              
 │                        │     │                  https://access.redhat.com/security/cve/CVE-2026-78660         
 │                        │     │                  https://bugzilla.redhat.com/2548334                           
 │                        │     │                  https://bugzilla.redhat.com/2548336                           
@@ -27652,7 +28238,7 @@
 │                        │     │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97030 
 │                        │     │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
 │                        │     │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97032 
-│                        │     │                  https://errata.almalinux.org/8/ALSA-2026-86203.html           
+│                        │     │                  https://errata.almalinux.org/10/ALSA-2026-86093.html          
 │                        │     │                  https://errata.rockylinux.org/RLSA-2026:86196                 
 │                        │     │                  https://github.com/golang/go/issues/81115                     
 │                        │     │                  https://go.dev/cl/835145                                      
@@ -27721,8 +28307,8 @@
 │                        │     │                            ╰ V3Score : 5.3 
 │                        │     ├ References                                                                     
 │                        │     │                  ──────────────────────────────────────────────────────────────
+│                        │     │                  https://access.redhat.com/errata/RHSA-2026:86093              
 │                        │     │                  https://access.redhat.com/errata/RHSA-2026:86196              
-│                        │     │                  https://access.redhat.com/errata/RHSA-2026:86203              
 │                        │     │                  https://access.redhat.com/security/cve/CVE-2026-78663         
 │                        │     │                  https://bugzilla.redhat.com/2548334                           
 │                        │     │                  https://bugzilla.redhat.com/2548336                           
@@ -27759,7 +28345,7 @@
 │                        │     │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97030 
 │                        │     │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
 │                        │     │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97032 
-│                        │     │                  https://errata.almalinux.org/8/ALSA-2026-86203.html           
+│                        │     │                  https://errata.almalinux.org/10/ALSA-2026-86093.html          
 │                        │     │                  https://errata.rockylinux.org/RLSA-2026:86196                 
 │                        │     │                  https://github.com/golang/go/issues/81743                     
 │                        │     │                  https://go.dev/cl/847187                                      
@@ -27830,8 +28416,8 @@
 │                        │     │                            ╰ V3Score : 5.9 
 │                        │     ├ References                                                                     
 │                        │     │                  ──────────────────────────────────────────────────────────────
+│                        │     │                  https://access.redhat.com/errata/RHSA-2026:86093              
 │                        │     │                  https://access.redhat.com/errata/RHSA-2026:86196              
-│                        │     │                  https://access.redhat.com/errata/RHSA-2026:86203              
 │                        │     │                  https://access.redhat.com/security/cve/CVE-2026-97032         
 │                        │     │                  https://bugzilla.redhat.com/2548334                           
 │                        │     │                  https://bugzilla.redhat.com/2548336                           
@@ -27868,7 +28454,7 @@
 │                        │     │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97030 
 │                        │     │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
 │                        │     │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97032 
-│                        │     │                  https://errata.almalinux.org/8/ALSA-2026-86203.html           
+│                        │     │                  https://errata.almalinux.org/10/ALSA-2026-86093.html          
 │                        │     │                  https://errata.rockylinux.org/RLSA-2026:86196                 
 │                        │     │                  https://github.com/golang/go/issues/81867                     
 │                        │     │                  https://go.dev/cl/847188                                      
@@ -28030,7 +28616,8 @@
 │                              │                  CWE-362
 │                              │                  CWE-820
 │                              │                  
-│                              ├ VendorSeverity   ╭ amazon: 2 
+│                              ├ VendorSeverity   ╭ alma  : 2 
+│                              │                  ├ amazon: 2 
 │                              │                  ├ photon: 2 
 │                              │                  ╰ redhat: 2 
 │                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
@@ -28038,7 +28625,21 @@
 │                              │                           ╰ V3Score : 5.9 
 │                              ├ References                                                                
 │                              │                  ─────────────────────────────────────────────────────────
+│                              │                  https://access.redhat.com/errata/RHSA-2026:102587        
 │                              │                  https://access.redhat.com/security/cve/CVE-2026-97054    
+│                              │                  https://bugzilla.redhat.com/2571442                      
+│                              │                  https://bugzilla.redhat.com/2571443                      
+│                              │                  https://bugzilla.redhat.com/2571444                      
+│                              │                  https://bugzilla.redhat.com/2571445                      
+│                              │                  https://bugzilla.redhat.com/2571446                      
+│                              │                  https://bugzilla.redhat.com/2571447                      
+│                              │                  https://bugzilla.redhat.com/2571448                      
+│                              │                  https://bugzilla.redhat.com/2571449                      
+│                              │                  https://bugzilla.redhat.com/2571450                      
+│                              │                  https://bugzilla.redhat.com/2571451                      
+│                              │                  https://bugzilla.redhat.com/2571452                      
+│                              │                  https://bugzilla.redhat.com/2571453                      
+│                              │                  https://errata.almalinux.org/10/ALSA-2026-102587.html    
 │                              │                  https://go.dev/cl/862185                                 
 │                              │                  https://go.dev/issue/82563                               
 │                              │                  https://groups.google.com/g/golang-announce/c/iY8TY0wWgbM
@@ -28053,9 +28654,9 @@
 │      ├ Type           : gobinary 
 │      ├ Packages        
 │      ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2026-97054 
-│                              ├ VendorIDs                           
-│                              │                  ───────────────────
-│                              │                  GHSA-q7gw-24fr-5p69
+│                              ├ VendorIDs                    
+│                              │                  ────────────
+│                              │                  GO-2026-6859
 │                              │                  
 │                              ├ PkgID           : stdlib@v1.27.3 
 │                              ├ PkgName         : stdlib 
@@ -28089,7 +28690,8 @@
 │                              │                  CWE-362
 │                              │                  CWE-820
 │                              │                  
-│                              ├ VendorSeverity   ╭ amazon: 2 
+│                              ├ VendorSeverity   ╭ alma  : 2 
+│                              │                  ├ amazon: 2 
 │                              │                  ├ photon: 2 
 │                              │                  ╰ redhat: 2 
 │                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
@@ -28097,7 +28699,21 @@
 │                              │                           ╰ V3Score : 5.9 
 │                              ├ References                                                                
 │                              │                  ─────────────────────────────────────────────────────────
+│                              │                  https://access.redhat.com/errata/RHSA-2026:102587        
 │                              │                  https://access.redhat.com/security/cve/CVE-2026-97054    
+│                              │                  https://bugzilla.redhat.com/2571442                      
+│                              │                  https://bugzilla.redhat.com/2571443                      
+│                              │                  https://bugzilla.redhat.com/2571444                      
+│                              │                  https://bugzilla.redhat.com/2571445                      
+│                              │                  https://bugzilla.redhat.com/2571446                      
+│                              │                  https://bugzilla.redhat.com/2571447                      
+│                              │                  https://bugzilla.redhat.com/2571448                      
+│                              │                  https://bugzilla.redhat.com/2571449                      
+│                              │                  https://bugzilla.redhat.com/2571450                      
+│                              │                  https://bugzilla.redhat.com/2571451                      
+│                              │                  https://bugzilla.redhat.com/2571452                      
+│                              │                  https://bugzilla.redhat.com/2571453                      
+│                              │                  https://errata.almalinux.org/10/ALSA-2026-102587.html    
 │                              │                  https://go.dev/cl/862185                                 
 │                              │                  https://go.dev/issue/82563                               
 │                              │                  https://groups.google.com/g/golang-announce/c/iY8TY0wWgbM
@@ -28501,8 +29117,8 @@
 │                        │     │                  45685947756a22a                                              
 │                        │     │                  https://github.com/moby/moby/releases/tag/docker-v29.3.1     
 │                        │     │                                                                               
-│                        │     │                  https://github.com/moby/moby/security/advisories/GHSA-pxq6-2p
-│                        │     │                  rw-chj9                                                      
+│                        │     │                  https://creativecommons.org/licenses/by/4.0/                 
+│                        │     │                                                                               
 │                        │     │                  https://nvd.nist.gov/vuln/detail/CVE-2026-33997              
 │                        │     │                                                                               
 │                        │     │                  https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-
@@ -29768,8 +30384,8 @@
 │                        │      │                  tag/exporters/zipkin/v1.45.0                                
 │                        │      │                  https://github.com/open-telemetry/opentelemetry-go/releases/
 │                        │      │                  tag/sdk/v1.45.0                                             
-│                        │      │                  https://github.com/open-telemetry/opentelemetry-go/security/
-│                        │      │                  advisories/GHSA-8wmf-6v46-5gfg                              
+│                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515820         
+│                        │      │                                                                              
 │                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-81870             
 │                        │      │                                                                              
 │                        │      │                  https://www.cve.org/CVERecord?id=CVE-2026-81870             
@@ -30128,12 +30744,14 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:88189              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:98479              
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:98617              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-78669         
-│                        │      │                  https://bugzilla.redhat.com/2548336                           
+│                        │      │                  https://bugzilla.redhat.com/2484207                           
+│                        │      │                  https://bugzilla.redhat.com/2515815                           
+│                        │      │                  https://bugzilla.redhat.com/2515820                           
+│                        │      │                  https://bugzilla.redhat.com/2515839                           
 │                        │      │                  https://bugzilla.redhat.com/2548344                           
-│                        │      │                  https://bugzilla.redhat.com/2556068                           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515815           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515820           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515827           
@@ -30151,7 +30769,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78669 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-88189.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-98617.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:98479                 
 │                        │      │                  https://github.com/golang/go/issues/81742                     
 │                        │      │                  https://go.dev/cl/847186                                      
@@ -30160,7 +30778,7 @@
 │                        │      │                  https://groups.google.com/g/golang-announce/c/U2fTuyDJznI     
 │                        │      │                  https://groups.google.com/g/golang-announce/c/ZPwCyRUuGBs     
 │                        │      │                  https://linux.oracle.com/cve/CVE-2026-78669.html              
-│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98479.html          
+│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98617.html          
 │                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-78669               
 │                        │      │                  https://pkg.go.dev/vuln/GO-2026-6611                          
 │                        │      │                  https://ubuntu.com/security/notices/USN-8935-1                
@@ -30226,8 +30844,8 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86093              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:86196              
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86203              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-78659         
 │                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
@@ -30264,7 +30882,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97030 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97032 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-86203.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-86093.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:86196                 
 │                        │      │                  https://github.com/golang/go/issues/81857                     
 │                        │      │                  https://go.dev/cl/847185                                      
@@ -30333,8 +30951,8 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86093              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:86196              
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86203              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-78660         
 │                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
@@ -30371,7 +30989,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97030 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97032 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-86203.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-86093.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:86196                 
 │                        │      │                  https://github.com/golang/go/issues/81115                     
 │                        │      │                  https://go.dev/cl/835145                                      
@@ -30440,8 +31058,8 @@
 │                        │      │                            ╰ V3Score : 5.3 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86093              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:86196              
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86203              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-78663         
 │                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
@@ -30478,7 +31096,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97030 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97032 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-86203.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-86093.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:86196                 
 │                        │      │                  https://github.com/golang/go/issues/81743                     
 │                        │      │                  https://go.dev/cl/847187                                      
@@ -30549,8 +31167,8 @@
 │                        │      │                            ╰ V3Score : 5.9 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86196              
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86203              
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86093              
+│                        │      │                  https://bugzilla.redhat.com/2478684                           
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-97032         
 │                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
@@ -30587,7 +31205,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97030 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97032 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-86203.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-86093.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:86196                 
 │                        │      │                  https://github.com/golang/go/issues/81867                     
 │                        │      │                  https://go.dev/cl/847188                                      
@@ -30700,7 +31318,8 @@
 │                               │                  CWE-362
 │                               │                  CWE-820
 │                               │                  
-│                               ├ VendorSeverity   ╭ amazon: 2 
+│                               ├ VendorSeverity   ╭ alma  : 2 
+│                               │                  ├ amazon: 2 
 │                               │                  ├ photon: 2 
 │                               │                  ╰ redhat: 2 
 │                               ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
@@ -30708,7 +31327,21 @@
 │                               │                           ╰ V3Score : 5.9 
 │                               ├ References                                                                
 │                               │                  ─────────────────────────────────────────────────────────
+│                               │                  https://access.redhat.com/errata/RHSA-2026:102587        
 │                               │                  https://access.redhat.com/security/cve/CVE-2026-97054    
+│                               │                  https://bugzilla.redhat.com/2571442                      
+│                               │                  https://bugzilla.redhat.com/2571443                      
+│                               │                  https://bugzilla.redhat.com/2571444                      
+│                               │                  https://bugzilla.redhat.com/2571445                      
+│                               │                  https://bugzilla.redhat.com/2571446                      
+│                               │                  https://bugzilla.redhat.com/2571447                      
+│                               │                  https://bugzilla.redhat.com/2571448                      
+│                               │                  https://bugzilla.redhat.com/2571449                      
+│                               │                  https://bugzilla.redhat.com/2571450                      
+│                               │                  https://bugzilla.redhat.com/2571451                      
+│                               │                  https://bugzilla.redhat.com/2571452                      
+│                               │                  https://bugzilla.redhat.com/2571453                      
+│                               │                  https://errata.almalinux.org/10/ALSA-2026-102587.html    
 │                               │                  https://go.dev/cl/862185                                 
 │                               │                  https://go.dev/issue/82563                               
 │                               │                  https://groups.google.com/g/golang-announce/c/iY8TY0wWgbM
@@ -31378,10 +32011,10 @@
 │                        │      │                                                                              
 │                        │      │                  https://errata.almalinux.org/10/ALSA-2026-98554.html        
 │                        │      │                                                                              
-│                        │      │                  https://errata.rockylinux.org/RLSA-2026:69961               
+│                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-78408             
 │                        │      │                                                                              
-│                        │      │                  https://github.com/bikini/exploitarium/tree/main/docker-cp-c
-│                        │      │                  opyout-destination-escape                                   
+│                        │      │                  https://www.cve.org/CVERecord?id=CVE-2026-78408             
+│                        │      │                                                                              
 │                        │      │                  https://github.com/docker/cli/releases/tag/v29.7.0          
 │                        │      │                                                                              
 │                        │      │                  https://github.com/docker/compose/releases/tag/v5.4.0       
@@ -31528,10 +32161,10 @@
 │                        │      │                   headers, TLS key material, or span payloads. This issue is
 │                        │      │                   fixed in version 1.45.0. 
 │                        │      ├ Severity        : LOW 
-│                        │      ├ CweIDs                  
-│                        │      │                  ───────
-│                        │      │                  CWE-200
-│                        │      │                  CWE-532
+│                        │      ├ CweIDs                                                          
+│                        │      │                  ───────────────────────────────────────────────
+│                        │      │                  CWE-200                                        
+│                        │      │                  https://advisory.echohq.com/cve/CVE-2026-128085
 │                        │      │                  
 │                        │      ├ VendorSeverity   ╭ amazon: 3 
 │                        │      │                  ├ azure : 1 
@@ -32018,7 +32651,296 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-08-13T22:17:22.797Z 
 │                        │      ╰ LastModifiedDate: 2026-09-03T16:37:52.17Z 
-│                        ├ [16] ╭ VulnerabilityID : CVE-2026-46600 
+│                        ├ [16] ╭ VulnerabilityID : CVE-2026-39821 
+│                        │      ├ VendorIDs                    
+│                        │      │                  ────────────
+│                        │      │                  GO-2026-5026
+│                        │      │                  
+│                        │      ├ PkgID           : golang.org/x/net@v0.55.0 
+│                        │      ├ PkgName         : golang.org/x/net 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.55.0 
+│                        │      │                  ╰ UID : 2f843a7f8b510757 
+│                        │      ├ InstalledVersion: v0.55.0 
+│                        │      ├ FixedVersion    : 0.57.0 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:14cb0260b85e78886481ce046d1d254d0c68fb96247
+│                        │      │                  │         1a65ec12dda151a2fe2ab 
+│                        │      │                  ╰ DiffID: sha256:5bab762262d24c56d72878dd7e42fe9d48e0c3644c5
+│                        │      │                            2706ce7f74df0d442c435 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-39821 
+│                        │      ├ DataSource       ╭ ID  : govulndb 
+│                        │      │                  ├ Name: The Go Vulnerability Database 
+│                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │      ├ Fingerprint     : sha256:f606b91e34d665f431495b979195fd24bc1893f05d7581da901c
+│                        │      │                   5c6f9fc57115 
+│                        │      ├ Title           : golang.org/x/net/idna: golang: net/http:
+│                        │      │                   golang.org/x/net/idna: Privilege escalation via incorrect
+│                        │      │                   Punycode label processing 
+│                        │      ├ Description     : The ToASCII and ToUnicode functions incorrectly accept
+│                        │      │                   Punycode-encoded labels that decode to an ASCII-only label.
+│                        │      │                    For example, ToUnicode("xn--example-.com") incorrectly
+│                        │      │                   returns the name "example.com" rather than an error. This
+│                        │      │                   behavior can lead to privilege escalation in programs using
+│                        │      │                    the idna package. For example, a program which performs
+│                        │      │                   privilege checks on the ASCII hostname may reject
+│                        │      │                   "example.com" but permit "xn--example-.com". If that
+│                        │      │                   program subsequently converts the ASCII hostname to
+│                        │      │                   Unicode, it will inadvertently permits access to the
+│                        │      │                   Unicode name "example.com". 
+│                        │      ├ Severity        : HIGH 
+│                        │      ├ CweIDs                   
+│                        │      │                  ────────
+│                        │      │                  CWE-1289
+│                        │      │                  
+│                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ azure      : 4 
+│                        │      │                  ├ oracle-oval: 3 
+│                        │      │                  ├ redhat     : 3 
+│                        │      │                  ├ rocky      : 3 
+│                        │      │                  ╰ ubuntu     : 3 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:
+│                        │      │                           │           H/A:N 
+│                        │      │                           ╰ V3Score : 8.2 
+│                        │      ├ References                                                                   
+│                        │      │                  ────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:23262            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:23264            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:26546            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:26547            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:30650            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:30651            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:30853            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:30854            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:30855            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:33155            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:33160            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:33163            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:33173            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:33183            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:33524            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:33531            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:34342            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:34357            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:34359            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:34364            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:34789            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:35826            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:35827            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:35828            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:35829            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:35830            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:35831            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:35993            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:35994            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:36105            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:36167            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:36207            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:36648            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:36651            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:36796            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:36797            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:36808            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:36820            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:36883            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:37387            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:37435            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:37436            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:38995            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:39005            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:39573            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:39879            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:40118            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:40262            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:40945            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:41019            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:41030            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:41031            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:41036            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:41055            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:41066            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:41928            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:41930            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:42043            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:42047            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:42048            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:42049            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:42050            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:42051            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:42078            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:42079            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:42080            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:42082            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:42132            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:42142            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:42146            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:42150            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:42151            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:42240            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:42644            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:42796            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:42852            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:43038            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:43052            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:43692            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:44622            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:44624            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:46395            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:47149            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:47735            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:47737            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:47952            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:49702            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:49712            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:50300            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:50843            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:51033            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:51112            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:51187            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:51194            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:51341            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:52826            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:53374            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:53412            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:53413            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:53415            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:53530            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:54191            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:54274            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:54283            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:54284            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:54285            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:54286            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:54287            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:54395            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:54401            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:54435            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:54441            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:54531            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:54580            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:54757            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:56143            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:56223            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:56340            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:56431            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:57194            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:57541            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:57649            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:57845            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:59546            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:59549            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:59562            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:60315            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:60354            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:60387            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:60520            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:61245            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:61253            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:62549            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:63134            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:65126            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:65153            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:65359            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:65534            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:65851            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:65886            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:66016            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:66022            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:66350            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:66432            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:67149            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:67159            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:67160            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:67287            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:67319            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:67517            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:68504            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:97386            
+│                        │      │                  https://access.redhat.com/security/cve/CVE-2026-39821       
+│                        │      │                  https://bugzilla.redhat.com/2445345                         
+│                        │      │                  https://bugzilla.redhat.com/2445356                         
+│                        │      │                  https://bugzilla.redhat.com/2467822                         
+│                        │      │                  https://bugzilla.redhat.com/2480756                         
+│                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2456333         
+│                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2456339         
+│                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2467809         
+│                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2467820         
+│                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2467822         
+│                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2480756         
+│                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2484204         
+│                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515815         
+│                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515820         
+│                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515827         
+│                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515838         
+│                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515839         
+│                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515840         
+│                        │      │                  https://creativecommons.org/licenses/by/4.0/                
+│                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3228
+│                        │      │                  0                                                           
+│                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3228
+│                        │      │                  1                                                           
+│                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3381
+│                        │      │                  1                                                           
+│                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3381
+│                        │      │                  8                                                           
+│                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3982
+│                        │      │                  0                                                           
+│                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3982
+│                        │      │                  1                                                           
+│                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4249
+│                        │      │                  9                                                           
+│                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4250
+│                        │      │                  4                                                           
+│                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5685
+│                        │      │                  3                                                           
+│                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5685
+│                        │      │                  8                                                           
+│                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5685
+│                        │      │                  9                                                           
+│                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5686
+│                        │      │                  0                                                           
+│                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5686
+│                        │      │                  2                                                           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-97386.html        
+│                        │      │                                                                              
+│                        │      │                  https://errata.rockylinux.org/RLSA-2026:65886               
+│                        │      │                                                                              
+│                        │      │                  https://go.dev/cl/767220                                    
+│                        │      │                                                                              
+│                        │      │                  https://go.dev/cl/796421                                    
+│                        │      │                                                                              
+│                        │      │                  https://go.dev/issue/78760                                  
+│                        │      │                                                                              
+│                        │      │                  https://groups.google.com/g/golang-announce/c/94pEornpRlI   
+│                        │      │                                                                              
+│                        │      │                  https://groups.google.com/g/golang-announce/c/iI-mYSI0lu8   
+│                        │      │                                                                              
+│                        │      │                  https://linux.oracle.com/cve/CVE-2026-39821.html            
+│                        │      │                                                                              
+│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-97386.html        
+│                        │      │                                                                              
+│                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-39821             
+│                        │      │                                                                              
+│                        │      │                  https://pkg.go.dev/vuln/GO-2026-5026                        
+│                        │      │                                                                              
+│                        │      │                  https://security.access.redhat.com/data/csaf/v2/vex/2026/cve
+│                        │      │                  -2026-39821.json                                            
+│                        │      │                  https://ubuntu.com/security/notices/USN-8416-1              
+│                        │      │                                                                              
+│                        │      │                  https://ubuntu.com/security/notices/USN-8883-1              
+│                        │      │                                                                              
+│                        │      │                  https://ubuntu.com/security/notices/USN-8883-2              
+│                        │      │                                                                              
+│                        │      │                  https://ubuntu.com/security/notices/USN-8900-1              
+│                        │      │                                                                              
+│                        │      │                  https://ubuntu.com/security/notices/USN-8914-1              
+│                        │      │                                                                              
+│                        │      │                  https://www.cve.org/CVERecord?id=CVE-2026-39821             
+│                        │      │                                                                              
+│                        │      │                  
+│                        │      ├ PublishedDate   : 2026-05-22T16:16:20.41Z 
+│                        │      ╰ LastModifiedDate: 2026-11-23T21:17:03.49Z 
+│                        ├ [17] ╭ VulnerabilityID : CVE-2026-46600 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-5942
@@ -32072,7 +32994,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-07-21T20:17:01.213Z 
 │                        │      ╰ LastModifiedDate: 2026-10-24T19:10:00.127Z 
-│                        ├ [17] ╭ VulnerabilityID : CVE-2026-78661 
+│                        ├ [18] ╭ VulnerabilityID : CVE-2026-78661 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6860
@@ -32129,7 +33051,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-27T22:18:05.93Z 
 │                        │      ╰ LastModifiedDate: 2026-11-04T17:17:37.673Z 
-│                        ├ [18] ╭ VulnerabilityID : CVE-2026-78669 
+│                        ├ [19] ╭ VulnerabilityID : CVE-2026-78669 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6611
@@ -32179,12 +33101,14 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:88189              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:98479              
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:98617              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-78669         
-│                        │      │                  https://bugzilla.redhat.com/2548336                           
+│                        │      │                  https://bugzilla.redhat.com/2484207                           
+│                        │      │                  https://bugzilla.redhat.com/2515815                           
+│                        │      │                  https://bugzilla.redhat.com/2515820                           
+│                        │      │                  https://bugzilla.redhat.com/2515839                           
 │                        │      │                  https://bugzilla.redhat.com/2548344                           
-│                        │      │                  https://bugzilla.redhat.com/2556068                           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515815           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515820           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515827           
@@ -32202,7 +33126,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78669 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-88189.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-98617.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:98479                 
 │                        │      │                  https://github.com/golang/go/issues/81742                     
 │                        │      │                  https://go.dev/cl/847186                                      
@@ -32211,7 +33135,7 @@
 │                        │      │                  https://groups.google.com/g/golang-announce/c/U2fTuyDJznI     
 │                        │      │                  https://groups.google.com/g/golang-announce/c/ZPwCyRUuGBs     
 │                        │      │                  https://linux.oracle.com/cve/CVE-2026-78669.html              
-│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98479.html          
+│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98617.html          
 │                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-78669               
 │                        │      │                  https://pkg.go.dev/vuln/GO-2026-6611                          
 │                        │      │                  https://ubuntu.com/security/notices/USN-8935-1                
@@ -32220,7 +33144,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-08T23:17:04.01Z 
 │                        │      ╰ LastModifiedDate: 2026-10-09T17:16:49.857Z 
-│                        ├ [19] ╭ VulnerabilityID : CVE-2026-78659 
+│                        ├ [20] ╭ VulnerabilityID : CVE-2026-78659 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6603
@@ -32277,8 +33201,8 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86093              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:86196              
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86203              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-78659         
 │                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
@@ -32315,7 +33239,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97030 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97032 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-86203.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-86093.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:86196                 
 │                        │      │                  https://github.com/golang/go/issues/81857                     
 │                        │      │                  https://go.dev/cl/847185                                      
@@ -32331,7 +33255,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-08T23:17:03.27Z 
 │                        │      ╰ LastModifiedDate: 2026-10-09T16:35:35.9Z 
-│                        ├ [20] ╭ VulnerabilityID : CVE-2026-78660 
+│                        ├ [21] ╭ VulnerabilityID : CVE-2026-78660 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6610
@@ -32384,8 +33308,8 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86093              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:86196              
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86203              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-78660         
 │                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
@@ -32422,7 +33346,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97030 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97032 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-86203.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-86093.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:86196                 
 │                        │      │                  https://github.com/golang/go/issues/81115                     
 │                        │      │                  https://go.dev/cl/835145                                      
@@ -32437,7 +33361,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-08T23:17:03.51Z 
 │                        │      ╰ LastModifiedDate: 2026-10-09T17:16:49.243Z 
-│                        ├ [21] ╭ VulnerabilityID : CVE-2026-78663 
+│                        ├ [22] ╭ VulnerabilityID : CVE-2026-78663 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6612
@@ -32491,8 +33415,8 @@
 │                        │      │                            ╰ V3Score : 5.3 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86093              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:86196              
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86203              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-78663         
 │                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
@@ -32529,7 +33453,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97030 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97032 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-86203.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-86093.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:86196                 
 │                        │      │                  https://github.com/golang/go/issues/81743                     
 │                        │      │                  https://go.dev/cl/847187                                      
@@ -32545,7 +33469,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-08T23:17:03.647Z 
 │                        │      ╰ LastModifiedDate: 2026-10-09T17:16:49.42Z 
-│                        ├ [22] ╭ VulnerabilityID : CVE-2026-97032 
+│                        ├ [23] ╭ VulnerabilityID : CVE-2026-97032 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6617
@@ -32600,8 +33524,8 @@
 │                        │      │                            ╰ V3Score : 5.9 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86093              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:86196              
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86203              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-97032         
 │                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
@@ -32638,13 +33562,13 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97030 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97032 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-86203.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-86093.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:86196                 
 │                        │      │                  https://github.com/golang/go/issues/81867                     
 │                        │      │                  https://go.dev/cl/847188                                      
 │                        │      │                  https://go.dev/cl/847313                                      
 │                        │      │                  https://go.dev/issue/81867                                    
-│                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515820           
+│                        │      │                  https://groups.google.com/g/golang-announce/c/U2fTuyDJznI     
 │                        │      │                  https://groups.google.com/g/golang-announce/c/ZPwCyRUuGBs     
 │                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-97032               
 │                        │      │                  https://pkg.go.dev/vuln/GO-2026-6617                          
@@ -32653,7 +33577,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-08T23:17:06.213Z 
 │                        │      ╰ LastModifiedDate: 2026-10-15T16:18:24.967Z 
-│                        ├ [23] ╭ VulnerabilityID : CVE-2026-97045 
+│                        ├ [24] ╭ VulnerabilityID : CVE-2026-97045 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6866
@@ -32713,7 +33637,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-27T22:19:22.613Z 
 │                        │      ╰ LastModifiedDate: 2026-11-04T17:17:38.33Z 
-│                        ├ [24] ╭ VulnerabilityID : CVE-2026-56851 
+│                        ├ [25] ╭ VulnerabilityID : CVE-2026-56851 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6629
@@ -32763,7 +33687,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-07T18:17:20.903Z 
 │                        │      ╰ LastModifiedDate: 2026-10-08T21:35:53.89Z 
-│                        ├ [25] ╭ VulnerabilityID : CVE-2026-56852 
+│                        ├ [26] ╭ VulnerabilityID : CVE-2026-56852 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-5970
@@ -32854,7 +33778,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-07-21T20:17:02.867Z 
 │                        │      ╰ LastModifiedDate: 2026-10-24T19:10:00.127Z 
-│                        ├ [26] ╭ VulnerabilityID : CVE-2026-84304 
+│                        ├ [27] ╭ VulnerabilityID : CVE-2026-84304 
 │                        │      ├ VendorIDs                           
 │                        │      │                  ───────────────────
 │                        │      │                  GHSA-vp52-pcj8-j9qc
@@ -32933,7 +33857,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-09-01T19:17:30.743Z 
 │                        │      ╰ LastModifiedDate: 2026-09-09T21:09:13.08Z 
-│                        ├ [27] ╭ VulnerabilityID : CVE-2026-84445 
+│                        ├ [28] ╭ VulnerabilityID : CVE-2026-84445 
 │                        │      ├ VendorIDs                           
 │                        │      │                  ───────────────────
 │                        │      │                  GHSA-2v4p-qf9q-27wj
@@ -33036,7 +33960,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-09-14T17:17:51.743Z 
 │                        │      ╰ LastModifiedDate: 2026-09-25T14:10:13.927Z 
-│                        ├ [28] ╭ VulnerabilityID : GHSA-hrxh-6v49-42gf 
+│                        ├ [29] ╭ VulnerabilityID : GHSA-hrxh-6v49-42gf 
 │                        │      ├ PkgID           : google.golang.org/grpc@v1.81.1 
 │                        │      ├ PkgName         : google.golang.org/grpc 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/google.golang.org/grpc@v1.81.1 
@@ -33168,7 +34092,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-07-21T22:03:55Z 
 │                        │      ╰ LastModifiedDate: 2026-07-21T22:03:56Z 
-│                        ├ [29] ╭ VulnerabilityID : CVE-2026-84303 
+│                        ├ [30] ╭ VulnerabilityID : CVE-2026-84303 
 │                        │      ├ VendorIDs                           
 │                        │      │                  ───────────────────
 │                        │      │                  GHSA-qc2q-p7wx-3px3
@@ -33245,7 +34169,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-09-01T19:17:30.6Z 
 │                        │      ╰ LastModifiedDate: 2026-09-09T21:09:13.08Z 
-│                        ├ [30] ╭ VulnerabilityID : CVE-2026-111943 
+│                        ├ [31] ╭ VulnerabilityID : CVE-2026-111943 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6809
@@ -33298,14 +34222,20 @@
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
 │                        │      │                  http://www.openwall.com/lists/oss-security/2026/10/20/29      
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:95638              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:98539              
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:98610              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-111943        
+│                        │      │                  https://bugzilla.redhat.com/2515815                           
+│                        │      │                  https://bugzilla.redhat.com/2515827                           
+│                        │      │                  https://bugzilla.redhat.com/2515839                           
+│                        │      │                  https://bugzilla.redhat.com/2548334                           
+│                        │      │                  https://bugzilla.redhat.com/2548336                           
+│                        │      │                  https://bugzilla.redhat.com/2548341                           
 │                        │      │                  https://bugzilla.redhat.com/2556068                           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556068           
 │                        │      │                  https://creativecommons.org/licenses/by/4.0/                  
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-111943
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-95638.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-98610.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:98539                 
 │                        │      │                  https://github.com/golang/go/issues/82345                     
 │                        │      │                  https://go.dev/cl/851047                                      
@@ -33313,14 +34243,14 @@
 │                        │      │                  https://groups.google.com/g/golang-announce/c/66pojueaQek     
 │                        │      │                  https://groups.google.com/g/golang-nuts/c/K22sG2AYnKU         
 │                        │      │                  https://linux.oracle.com/cve/CVE-2026-111943.html             
-│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98539.html          
+│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98610.html          
 │                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-111943              
 │                        │      │                  https://pkg.go.dev/vuln/GO-2026-6809                          
 │                        │      │                  https://www.cve.org/CVERecord?id=CVE-2026-111943              
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-21T01:17:20.797Z 
 │                        │      ╰ LastModifiedDate: 2026-10-30T13:18:28.74Z 
-│                        ├ [31] ╭ VulnerabilityID : CVE-2026-27145 
+│                        ├ [32] ╭ VulnerabilityID : CVE-2026-27145 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-5037
@@ -33468,10 +34398,13 @@
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:68334            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:68335            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:97644            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:98617            
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-27145       
-│                        │      │                  https://bugzilla.redhat.com/2480756                         
 │                        │      │                  https://bugzilla.redhat.com/2484207                         
-│                        │      │                  https://bugzilla.redhat.com/2498152                         
+│                        │      │                  https://bugzilla.redhat.com/2515815                         
+│                        │      │                  https://bugzilla.redhat.com/2515820                         
+│                        │      │                  https://bugzilla.redhat.com/2515839                         
+│                        │      │                  https://bugzilla.redhat.com/2548344                         
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2467822         
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2484207         
 │                        │      │                  https://creativecommons.org/licenses/by/4.0/                
@@ -33479,7 +34412,7 @@
 │                        │      │                  5                                                           
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3381
 │                        │      │                  1                                                           
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-38995.html         
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-98617.html        
 │                        │      │                                                                              
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:97644               
 │                        │      │                                                                              
@@ -33491,7 +34424,7 @@
 │                        │      │                                                                              
 │                        │      │                  https://linux.oracle.com/cve/CVE-2026-27145.html            
 │                        │      │                                                                              
-│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-97644.html        
+│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98617.html        
 │                        │      │                                                                              
 │                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-27145             
 │                        │      │                                                                              
@@ -33504,7 +34437,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-06-02T23:16:35.57Z 
 │                        │      ╰ LastModifiedDate: 2026-09-18T13:17:43.283Z 
-│                        ├ [32] ╭ VulnerabilityID : CVE-2026-33818 
+│                        ├ [33] ╭ VulnerabilityID : CVE-2026-33818 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-5972
@@ -33552,12 +34485,14 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:67161              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:98502              
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:98617              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-33818         
+│                        │      │                  https://bugzilla.redhat.com/2484207                           
 │                        │      │                  https://bugzilla.redhat.com/2515815                           
 │                        │      │                  https://bugzilla.redhat.com/2515820                           
 │                        │      │                  https://bugzilla.redhat.com/2515839                           
+│                        │      │                  https://bugzilla.redhat.com/2548344                           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515815           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515827           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515839           
@@ -33573,14 +34508,14 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78667 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-94440 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-67161.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-98617.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:98502                 
 │                        │      │                  https://github.com/golang/go/issues/80405                     
 │                        │      │                  https://go.dev/cl/814980                                      
 │                        │      │                  https://go.dev/issue/80405                                    
 │                        │      │                  https://groups.google.com/g/golang-announce/c/94pEornpRlI     
 │                        │      │                  https://linux.oracle.com/cve/CVE-2026-33818.html              
-│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98502.html          
+│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98617.html          
 │                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-33818               
 │                        │      │                  https://pkg.go.dev/vuln/GO-2026-5972                          
 │                        │      │                  https://ubuntu.com/security/notices/USN-8935-1                
@@ -33588,7 +34523,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-08-13T22:17:19.84Z 
 │                        │      ╰ LastModifiedDate: 2026-09-03T16:37:52.17Z 
-│                        ├ [33] ╭ VulnerabilityID : CVE-2026-39821 
+│                        ├ [34] ╭ VulnerabilityID : CVE-2026-39821 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-5026
@@ -33792,17 +34727,12 @@
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:67319            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:67517            
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:68504            
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:97386            
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-39821       
-│                        │      │                  https://bugzilla.redhat.com/2315719                         
-│                        │      │                  https://bugzilla.redhat.com/2341751                         
-│                        │      │                  https://bugzilla.redhat.com/2467820                         
+│                        │      │                  https://bugzilla.redhat.com/2445345                         
+│                        │      │                  https://bugzilla.redhat.com/2445356                         
+│                        │      │                  https://bugzilla.redhat.com/2467822                         
 │                        │      │                  https://bugzilla.redhat.com/2480756                         
-│                        │      │                  https://bugzilla.redhat.com/2515815                         
-│                        │      │                  https://bugzilla.redhat.com/2515820                         
-│                        │      │                  https://bugzilla.redhat.com/2515827                         
-│                        │      │                  https://bugzilla.redhat.com/2515838                         
-│                        │      │                  https://bugzilla.redhat.com/2515839                         
-│                        │      │                  https://bugzilla.redhat.com/2515840                         
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2456333         
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2456339         
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2467809         
@@ -33843,11 +34773,13 @@
 │                        │      │                  0                                                           
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5686
 │                        │      │                  2                                                           
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-66016.html         
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-97386.html        
 │                        │      │                                                                              
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:65886               
 │                        │      │                                                                              
 │                        │      │                  https://go.dev/cl/767220                                    
+│                        │      │                                                                              
+│                        │      │                  https://go.dev/cl/796421                                    
 │                        │      │                                                                              
 │                        │      │                  https://go.dev/issue/78760                                  
 │                        │      │                                                                              
@@ -33879,8 +34811,8 @@
 │                        │      │                                                                              
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-05-22T16:16:20.41Z 
-│                        │      ╰ LastModifiedDate: 2026-09-17T12:18:05.767Z 
-│                        ├ [34] ╭ VulnerabilityID : CVE-2026-39822 
+│                        │      ╰ LastModifiedDate: 2026-11-23T21:17:03.49Z 
+│                        ├ [35] ╭ VulnerabilityID : CVE-2026-39822 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-4970
@@ -33932,16 +34864,14 @@
 │                        │      │                            ╰ V3Score : 7.8 
 │                        │      ├ References                                                                    
 │                        │      │                  ─────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:38495             
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:38878             
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:38995             
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-39822        
-│                        │      │                  https://bugzilla.redhat.com/2480756                          
-│                        │      │                  https://bugzilla.redhat.com/2484207                          
 │                        │      │                  https://bugzilla.redhat.com/2498152                          
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2498152          
 │                        │      │                  https://creativecommons.org/licenses/by/4.0/                 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-39822
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-38995.html          
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-38495.html         
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:38878                
 │                        │      │                  https://github.com/golang/go/issues/79005                    
 │                        │      │                  https://go.dev/cl/797880                                     
@@ -33955,7 +34885,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-07-08T17:17:21.31Z 
 │                        │      ╰ LastModifiedDate: 2026-10-25T17:10:00.197Z 
-│                        ├ [35] ╭ VulnerabilityID : CVE-2026-42504 
+│                        ├ [36] ╭ VulnerabilityID : CVE-2026-42504 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-5038
@@ -33986,7 +34916,7 @@
 │                        │      │                  ───────
 │                        │      │                  CWE-407
 │                        │      │                  
-│                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      ├ VendorSeverity   ╭ alma       : 2 
 │                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 3 
 │                        │      │                  ├ bitnami    : 3 
@@ -34002,27 +34932,22 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                    
 │                        │      │                  ─────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:29980             
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:65886             
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:67148             
-│                        │      │                  https://access.redhat.com/security/cve/CVE-2026-42504        
-│                        │      │                  https://bugzilla.redhat.com/2344219                          
-│                        │      │                  https://bugzilla.redhat.com/2456333                          
-│                        │      │                  https://bugzilla.redhat.com/2467809                          
-│                        │      │                  https://bugzilla.redhat.com/2484204                          
-│                        │      │                  https://bugzilla.redhat.com/2484830                          
-│                        │      │                  https://bugzilla.redhat.com/2493622                          
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:53371             
+│                        │      │                  https://bugzilla.redhat.com/2484205                          
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2456333          
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2456339          
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2467809          
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2467820          
-│                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2467822          
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:72399             
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2480756          
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2484204          
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515815          
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515820          
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515827          
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515838          
-│                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515839          
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:82888             
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515840          
 │                        │      │                  https://creativecommons.org/licenses/by/4.0/                 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-32280
@@ -34038,7 +34963,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56859
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-67148.html          
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-29980.html         
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:65886                
 │                        │      │                  https://go.dev/cl/774481                                     
 │                        │      │                  https://go.dev/issue/79217                                   
@@ -34051,7 +34976,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-06-02T23:16:37.927Z 
 │                        │      ╰ LastModifiedDate: 2026-07-22T19:10:00.12Z 
-│                        ├ [36] ╭ VulnerabilityID : CVE-2026-46600 
+│                        ├ [37] ╭ VulnerabilityID : CVE-2026-46600 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-5942
@@ -34105,7 +35030,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-07-21T20:17:01.213Z 
 │                        │      ╰ LastModifiedDate: 2026-10-24T19:10:00.127Z 
-│                        ├ [37] ╭ VulnerabilityID : CVE-2026-56853 
+│                        ├ [38] ╭ VulnerabilityID : CVE-2026-56853 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6089
@@ -34153,19 +35078,16 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:66016              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:98502              
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:98610              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-56853         
-│                        │      │                  https://bugzilla.redhat.com/2315719                           
-│                        │      │                  https://bugzilla.redhat.com/2341751                           
-│                        │      │                  https://bugzilla.redhat.com/2467820                           
-│                        │      │                  https://bugzilla.redhat.com/2480756                           
 │                        │      │                  https://bugzilla.redhat.com/2515815                           
-│                        │      │                  https://bugzilla.redhat.com/2515820                           
 │                        │      │                  https://bugzilla.redhat.com/2515827                           
-│                        │      │                  https://bugzilla.redhat.com/2515838                           
 │                        │      │                  https://bugzilla.redhat.com/2515839                           
-│                        │      │                  https://bugzilla.redhat.com/2515840                           
+│                        │      │                  https://bugzilla.redhat.com/2548334                           
+│                        │      │                  https://bugzilla.redhat.com/2548336                           
+│                        │      │                  https://bugzilla.redhat.com/2548341                           
+│                        │      │                  https://bugzilla.redhat.com/2556068                           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515815           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515827           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515839           
@@ -34181,20 +35103,20 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78667 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-94440 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-66016.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-98610.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:98502                 
 │                        │      │                  https://go.dev/cl/795540                                      
 │                        │      │                  https://go.dev/issue/80205                                    
 │                        │      │                  https://groups.google.com/g/golang-announce/c/94pEornpRlI     
 │                        │      │                  https://linux.oracle.com/cve/CVE-2026-56853.html              
-│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98502.html          
+│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98610.html          
 │                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-56853               
 │                        │      │                  https://pkg.go.dev/vuln/GO-2026-6089                          
 │                        │      │                  https://www.cve.org/CVERecord?id=CVE-2026-56853               
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-08-13T22:17:22.093Z 
 │                        │      ╰ LastModifiedDate: 2026-09-03T16:37:52.17Z 
-│                        ├ [38] ╭ VulnerabilityID : CVE-2026-56858 
+│                        ├ [39] ╭ VulnerabilityID : CVE-2026-56858 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6091
@@ -34241,19 +35163,14 @@
 │                        │      │                            ╰ V3Score : 8.1 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:66016              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:98479              
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:98556              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-56858         
-│                        │      │                  https://bugzilla.redhat.com/2315719                           
-│                        │      │                  https://bugzilla.redhat.com/2341751                           
-│                        │      │                  https://bugzilla.redhat.com/2467820                           
-│                        │      │                  https://bugzilla.redhat.com/2480756                           
 │                        │      │                  https://bugzilla.redhat.com/2515815                           
 │                        │      │                  https://bugzilla.redhat.com/2515820                           
 │                        │      │                  https://bugzilla.redhat.com/2515827                           
 │                        │      │                  https://bugzilla.redhat.com/2515838                           
 │                        │      │                  https://bugzilla.redhat.com/2515839                           
-│                        │      │                  https://bugzilla.redhat.com/2515840                           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515815           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515820           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515827           
@@ -34271,7 +35188,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78669 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-66016.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-98556.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:98479                 
 │                        │      │                  https://go.dev/cl/807100                                      
 │                        │      │                  https://go.dev/issue/80435                                    
@@ -34284,7 +35201,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-08-13T22:17:22.207Z 
 │                        │      ╰ LastModifiedDate: 2026-09-03T16:37:52.17Z 
-│                        ├ [39] ╭ VulnerabilityID : CVE-2026-56859 
+│                        ├ [40] ╭ VulnerabilityID : CVE-2026-56859 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6088
@@ -34332,19 +35249,16 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                    
 │                        │      │                  ─────────────────────────────────────────────────────────────
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:66016             
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:98447             
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:98554             
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-56859        
-│                        │      │                  https://bugzilla.redhat.com/2315719                          
-│                        │      │                  https://bugzilla.redhat.com/2341751                          
-│                        │      │                  https://bugzilla.redhat.com/2467820                          
-│                        │      │                  https://bugzilla.redhat.com/2480756                          
 │                        │      │                  https://bugzilla.redhat.com/2515815                          
 │                        │      │                  https://bugzilla.redhat.com/2515820                          
 │                        │      │                  https://bugzilla.redhat.com/2515827                          
 │                        │      │                  https://bugzilla.redhat.com/2515838                          
 │                        │      │                  https://bugzilla.redhat.com/2515839                          
 │                        │      │                  https://bugzilla.redhat.com/2515840                          
+│                        │      │                  https://bugzilla.redhat.com/2518147                          
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2467809          
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515815          
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515820          
@@ -34358,7 +35272,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56859
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-66016.html          
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-98554.html         
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:98447                
 │                        │      │                  https://github.com/golang/go/issues/80481                    
 │                        │      │                  https://go.dev/cl/803320                                     
@@ -34373,7 +35287,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-08-13T22:17:22.32Z 
 │                        │      ╰ LastModifiedDate: 2026-09-03T16:37:52.17Z 
-│                        ├ [40] ╭ VulnerabilityID : CVE-2026-56860 
+│                        ├ [41] ╭ VulnerabilityID : CVE-2026-56860 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6218
@@ -34425,12 +35339,14 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:67161              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:98479              
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:98617              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-56860         
+│                        │      │                  https://bugzilla.redhat.com/2484207                           
 │                        │      │                  https://bugzilla.redhat.com/2515815                           
 │                        │      │                  https://bugzilla.redhat.com/2515820                           
 │                        │      │                  https://bugzilla.redhat.com/2515839                           
+│                        │      │                  https://bugzilla.redhat.com/2548344                           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515815           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515820           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515827           
@@ -34448,20 +35364,20 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78669 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-67161.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-98617.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:98479                 
 │                        │      │                  https://go.dev/cl/803681                                      
 │                        │      │                  https://go.dev/issue/80494                                    
 │                        │      │                  https://groups.google.com/g/golang-announce/c/94pEornpRlI     
 │                        │      │                  https://linux.oracle.com/cve/CVE-2026-56860.html              
-│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98479.html          
+│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98617.html          
 │                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-56860               
 │                        │      │                  https://pkg.go.dev/vuln/GO-2026-6218                          
 │                        │      │                  https://www.cve.org/CVERecord?id=CVE-2026-56860               
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-08-13T22:17:22.44Z 
 │                        │      ╰ LastModifiedDate: 2026-09-03T16:37:52.17Z 
-│                        ├ [41] ╭ VulnerabilityID : CVE-2026-56862 
+│                        ├ [42] ╭ VulnerabilityID : CVE-2026-56862 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6090
@@ -34512,12 +35428,14 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:67161              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:98502              
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:98617              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-56862         
+│                        │      │                  https://bugzilla.redhat.com/2484207                           
 │                        │      │                  https://bugzilla.redhat.com/2515815                           
 │                        │      │                  https://bugzilla.redhat.com/2515820                           
 │                        │      │                  https://bugzilla.redhat.com/2515839                           
+│                        │      │                  https://bugzilla.redhat.com/2548344                           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515815           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515827           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515839           
@@ -34533,14 +35451,14 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78667 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-94440 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-67161.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-98617.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:98502                 
 │                        │      │                  https://github.com/golang/go/issues/80528                     
 │                        │      │                  https://go.dev/cl/804261                                      
 │                        │      │                  https://go.dev/issue/80528                                    
 │                        │      │                  https://groups.google.com/g/golang-announce/c/94pEornpRlI     
 │                        │      │                  https://linux.oracle.com/cve/CVE-2026-56862.html              
-│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98502.html          
+│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98617.html          
 │                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-56862               
 │                        │      │                  https://pkg.go.dev/vuln/GO-2026-6090                          
 │                        │      │                  https://ubuntu.com/security/notices/USN-8935-1                
@@ -34548,7 +35466,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-08-13T22:17:22.55Z 
 │                        │      ╰ LastModifiedDate: 2026-10-24T16:10:00.153Z 
-│                        ├ [42] ╭ VulnerabilityID : CVE-2026-78667 
+│                        ├ [43] ╭ VulnerabilityID : CVE-2026-78667 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6609
@@ -34595,10 +35513,15 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:89760              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:98502              
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:98610              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-78667         
+│                        │      │                  https://bugzilla.redhat.com/2515815                           
+│                        │      │                  https://bugzilla.redhat.com/2515827                           
+│                        │      │                  https://bugzilla.redhat.com/2515839                           
 │                        │      │                  https://bugzilla.redhat.com/2548334                           
+│                        │      │                  https://bugzilla.redhat.com/2548336                           
+│                        │      │                  https://bugzilla.redhat.com/2548341                           
 │                        │      │                  https://bugzilla.redhat.com/2556068                           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515815           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515827           
@@ -34615,14 +35538,14 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78667 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-94440 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-89760.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-98610.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:98502                 
 │                        │      │                  https://github.com/golang/go/issues/81858                     
 │                        │      │                  https://go.dev/cl/847309                                      
 │                        │      │                  https://go.dev/issue/81858                                    
 │                        │      │                  https://groups.google.com/g/golang-announce/c/U2fTuyDJznI     
 │                        │      │                  https://linux.oracle.com/cve/CVE-2026-78667.html              
-│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98502.html          
+│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98610.html          
 │                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-78667               
 │                        │      │                  https://pkg.go.dev/vuln/GO-2026-6609                          
 │                        │      │                  https://ubuntu.com/security/notices/USN-8935-1                
@@ -34631,7 +35554,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-08T23:17:03.88Z 
 │                        │      ╰ LastModifiedDate: 2026-10-09T17:16:49.69Z 
-│                        ├ [43] ╭ VulnerabilityID : CVE-2026-78669 
+│                        ├ [44] ╭ VulnerabilityID : CVE-2026-78669 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6611
@@ -34681,12 +35604,14 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:88189              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:98479              
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:98617              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-78669         
-│                        │      │                  https://bugzilla.redhat.com/2548336                           
+│                        │      │                  https://bugzilla.redhat.com/2484207                           
+│                        │      │                  https://bugzilla.redhat.com/2515815                           
+│                        │      │                  https://bugzilla.redhat.com/2515820                           
+│                        │      │                  https://bugzilla.redhat.com/2515839                           
 │                        │      │                  https://bugzilla.redhat.com/2548344                           
-│                        │      │                  https://bugzilla.redhat.com/2556068                           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515815           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515820           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515827           
@@ -34704,7 +35629,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78669 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-88189.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-98617.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:98479                 
 │                        │      │                  https://github.com/golang/go/issues/81742                     
 │                        │      │                  https://go.dev/cl/847186                                      
@@ -34713,7 +35638,7 @@
 │                        │      │                  https://groups.google.com/g/golang-announce/c/U2fTuyDJznI     
 │                        │      │                  https://groups.google.com/g/golang-announce/c/ZPwCyRUuGBs     
 │                        │      │                  https://linux.oracle.com/cve/CVE-2026-78669.html              
-│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98479.html          
+│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98617.html          
 │                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-78669               
 │                        │      │                  https://pkg.go.dev/vuln/GO-2026-6611                          
 │                        │      │                  https://ubuntu.com/security/notices/USN-8935-1                
@@ -34722,7 +35647,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-08T23:17:04.01Z 
 │                        │      ╰ LastModifiedDate: 2026-10-09T17:16:49.857Z 
-│                        ├ [44] ╭ VulnerabilityID : CVE-2026-97031 
+│                        ├ [45] ╭ VulnerabilityID : CVE-2026-97031 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6607
@@ -34771,11 +35696,15 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:88189              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:98502              
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:98610              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-97031         
+│                        │      │                  https://bugzilla.redhat.com/2515815                           
+│                        │      │                  https://bugzilla.redhat.com/2515827                           
+│                        │      │                  https://bugzilla.redhat.com/2515839                           
+│                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
-│                        │      │                  https://bugzilla.redhat.com/2548344                           
+│                        │      │                  https://bugzilla.redhat.com/2548341                           
 │                        │      │                  https://bugzilla.redhat.com/2556068                           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515815           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515827           
@@ -34792,20 +35721,20 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78667 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-94440 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-88189.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-98610.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:98502                 
 │                        │      │                  https://go.dev/cl/847312                                      
 │                        │      │                  https://go.dev/issue/81855                                    
 │                        │      │                  https://groups.google.com/g/golang-announce/c/U2fTuyDJznI     
 │                        │      │                  https://linux.oracle.com/cve/CVE-2026-97031.html              
-│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98502.html          
+│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98610.html          
 │                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-97031               
 │                        │      │                  https://pkg.go.dev/vuln/GO-2026-6607                          
 │                        │      │                  https://www.cve.org/CVERecord?id=CVE-2026-97031               
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-08T23:17:06.037Z 
 │                        │      ╰ LastModifiedDate: 2026-10-09T16:35:35.9Z 
-│                        ├ [45] ╭ VulnerabilityID : CVE-2026-42505 
+│                        ├ [46] ╭ VulnerabilityID : CVE-2026-42505 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-5856
@@ -34852,12 +35781,10 @@
 │                        │      │                            ╰ V3Score : 5.3 
 │                        │      ├ References                                                                
 │                        │      │                  ─────────────────────────────────────────────────────────
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:38995         
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:37436         
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-42505    
 │                        │      │                  https://bugzilla.redhat.com/2480756                      
-│                        │      │                  https://bugzilla.redhat.com/2484207                      
-│                        │      │                  https://bugzilla.redhat.com/2498152                      
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-38995.html      
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-37436.html     
 │                        │      │                  https://go.dev/cl/775960                                 
 │                        │      │                  https://go.dev/issue/79282                               
 │                        │      │                  https://groups.google.com/g/golang-announce/c/OrmQE_Yp5Sc
@@ -34867,7 +35794,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-07-08T17:17:21.497Z 
 │                        │      ╰ LastModifiedDate: 2026-10-25T17:10:00.197Z 
-│                        ├ [46] ╭ VulnerabilityID : CVE-2026-42507 
+│                        ├ [47] ╭ VulnerabilityID : CVE-2026-42507 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-5039
@@ -34896,7 +35823,7 @@
 │                        │      │                   might allow an attacker to inject misleading content to
 │                        │      │                   errors that are printed or logged. 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      ├ VendorSeverity   ╭ alma       : 2 
 │                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ azure      : 2 
 │                        │      │                  ├ bitnami    : 2 
@@ -34912,18 +35839,16 @@
 │                        │      │                            ╰ V3Score : 5.3 
 │                        │      ├ References                                                                    
 │                        │      │                  ─────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:29980             
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:29981             
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:38995             
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-42507        
-│                        │      │                  https://bugzilla.redhat.com/2480756                          
-│                        │      │                  https://bugzilla.redhat.com/2484207                          
-│                        │      │                  https://bugzilla.redhat.com/2498152                          
+│                        │      │                  https://bugzilla.redhat.com/2484205                          
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2484205          
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2484207          
 │                        │      │                  https://creativecommons.org/licenses/by/4.0/                 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-27145
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-42507
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-38995.html          
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-29980.html         
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:29981                
 │                        │      │                  https://go.dev/cl/777060                                     
 │                        │      │                  https://go.dev/issue/79346                                   
@@ -34936,7 +35861,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-06-02T23:16:38.027Z 
 │                        │      ╰ LastModifiedDate: 2026-07-22T19:10:00.12Z 
-│                        ├ [47] ╭ VulnerabilityID : CVE-2026-56866 
+│                        ├ [48] ╭ VulnerabilityID : CVE-2026-56866 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6605
@@ -34994,8 +35919,8 @@
 │                        │      │                            ╰ V3Score : 6.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86093              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:86196              
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86203              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-56866         
 │                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
@@ -35032,7 +35957,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97030 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97032 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-86203.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-86093.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:86196                 
 │                        │      │                  https://github.com/golang/go/issues/81740                     
 │                        │      │                  https://go.dev/cl/847306                                      
@@ -35046,7 +35971,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-08T23:17:01.62Z 
 │                        │      ╰ LastModifiedDate: 2026-10-09T16:35:35.9Z 
-│                        ├ [48] ╭ VulnerabilityID : CVE-2026-78659 
+│                        ├ [49] ╭ VulnerabilityID : CVE-2026-78659 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6603
@@ -35103,8 +36028,8 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86093              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:86196              
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86203              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-78659         
 │                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
@@ -35141,7 +36066,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97030 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97032 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-86203.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-86093.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:86196                 
 │                        │      │                  https://github.com/golang/go/issues/81857                     
 │                        │      │                  https://go.dev/cl/847185                                      
@@ -35157,7 +36082,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-08T23:17:03.27Z 
 │                        │      ╰ LastModifiedDate: 2026-10-09T16:35:35.9Z 
-│                        ├ [49] ╭ VulnerabilityID : CVE-2026-78660 
+│                        ├ [50] ╭ VulnerabilityID : CVE-2026-78660 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6610
@@ -35210,8 +36135,8 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86093              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:86196              
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86203              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-78660         
 │                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
@@ -35248,7 +36173,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97030 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97032 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-86203.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-86093.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:86196                 
 │                        │      │                  https://github.com/golang/go/issues/81115                     
 │                        │      │                  https://go.dev/cl/835145                                      
@@ -35263,7 +36188,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-08T23:17:03.51Z 
 │                        │      ╰ LastModifiedDate: 2026-10-09T17:16:49.243Z 
-│                        ├ [50] ╭ VulnerabilityID : CVE-2026-78663 
+│                        ├ [51] ╭ VulnerabilityID : CVE-2026-78663 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6612
@@ -35317,8 +36242,8 @@
 │                        │      │                            ╰ V3Score : 5.3 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86093              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:86196              
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86203              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-78663         
 │                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
@@ -35355,7 +36280,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97030 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97032 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-86203.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-86093.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:86196                 
 │                        │      │                  https://github.com/golang/go/issues/81743                     
 │                        │      │                  https://go.dev/cl/847187                                      
@@ -35371,7 +36296,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-08T23:17:03.647Z 
 │                        │      ╰ LastModifiedDate: 2026-10-09T17:16:49.42Z 
-│                        ├ [51] ╭ VulnerabilityID : CVE-2026-94439 
+│                        ├ [52] ╭ VulnerabilityID : CVE-2026-94439 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6613
@@ -35425,8 +36350,8 @@
 │                        │      │                            ╰ V3Score : 6.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86093              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:86196              
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86203              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-94439         
 │                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
@@ -35463,7 +36388,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97030 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97032 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-86203.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-86093.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:86196                 
 │                        │      │                  https://github.com/golang/go/issues/81744                     
 │                        │      │                  https://go.dev/cl/847311                                      
@@ -35477,7 +36402,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-08T23:17:04.76Z 
 │                        │      ╰ LastModifiedDate: 2026-10-09T17:16:50.703Z 
-│                        ├ [52] ╭ VulnerabilityID : CVE-2026-94440 
+│                        ├ [53] ╭ VulnerabilityID : CVE-2026-94440 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6608
@@ -35525,11 +36450,15 @@
 │                        │      │                            ╰ V3Score : 7.5 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:88189              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:98502              
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:98610              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-94440         
+│                        │      │                  https://bugzilla.redhat.com/2515815                           
+│                        │      │                  https://bugzilla.redhat.com/2515827                           
+│                        │      │                  https://bugzilla.redhat.com/2515839                           
+│                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
-│                        │      │                  https://bugzilla.redhat.com/2548344                           
+│                        │      │                  https://bugzilla.redhat.com/2548341                           
 │                        │      │                  https://bugzilla.redhat.com/2556068                           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515815           
 │                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515827           
@@ -35546,14 +36475,14 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78667 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-94440 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-88189.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-98610.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:98502                 
 │                        │      │                  https://github.com/golang/go/issues/81741                     
 │                        │      │                  https://go.dev/cl/847307                                      
 │                        │      │                  https://go.dev/issue/81741                                    
 │                        │      │                  https://groups.google.com/g/golang-announce/c/U2fTuyDJznI     
 │                        │      │                  https://linux.oracle.com/cve/CVE-2026-94440.html              
-│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98502.html          
+│                        │      │                  https://linux.oracle.com/errata/ELSA-2026-98610.html          
 │                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-94440               
 │                        │      │                  https://pkg.go.dev/vuln/GO-2026-6608                          
 │                        │      │                  https://ubuntu.com/security/notices/USN-8935-1                
@@ -35562,7 +36491,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-08T23:17:04.917Z 
 │                        │      ╰ LastModifiedDate: 2026-10-09T17:16:50.907Z 
-│                        ├ [53] ╭ VulnerabilityID : CVE-2026-94448 
+│                        ├ [54] ╭ VulnerabilityID : CVE-2026-94448 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6599
@@ -35610,8 +36539,8 @@
 │                        │      │                            ╰ V3Score : 6.1 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86093              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:86196              
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86203              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-94448         
 │                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
@@ -35648,7 +36577,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97030 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97032 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-86203.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-86093.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:86196                 
 │                        │      │                  https://go.dev/cl/839866                                      
 │                        │      │                  https://go.dev/issue/81821                                    
@@ -35659,7 +36588,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-08T23:17:05.3Z 
 │                        │      ╰ LastModifiedDate: 2026-10-15T16:18:24.327Z 
-│                        ├ [54] ╭ VulnerabilityID : CVE-2026-97030 
+│                        ├ [55] ╭ VulnerabilityID : CVE-2026-97030 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6600
@@ -35706,8 +36635,8 @@
 │                        │      │                            ╰ V3Score : 6.1 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86093              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:86196              
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86203              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-97030         
 │                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
@@ -35744,7 +36673,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97030 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97032 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-86203.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-86093.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:86196                 
 │                        │      │                  https://go.dev/cl/840925                                      
 │                        │      │                  https://go.dev/issue/81823                                    
@@ -35755,7 +36684,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-08T23:17:05.91Z 
 │                        │      ╰ LastModifiedDate: 2026-10-15T16:18:24.817Z 
-│                        ├ [55] ╭ VulnerabilityID : CVE-2026-97032 
+│                        ├ [56] ╭ VulnerabilityID : CVE-2026-97032 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6617
@@ -35810,8 +36739,8 @@
 │                        │      │                            ╰ V3Score : 5.9 
 │                        │      ├ References                                                                     
 │                        │      │                  ──────────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86093              
 │                        │      │                  https://access.redhat.com/errata/RHSA-2026:86196              
-│                        │      │                  https://access.redhat.com/errata/RHSA-2026:86203              
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-97032         
 │                        │      │                  https://bugzilla.redhat.com/2548334                           
 │                        │      │                  https://bugzilla.redhat.com/2548336                           
@@ -35848,7 +36777,7 @@
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97030 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97031 
 │                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-97032 
-│                        │      │                  https://errata.almalinux.org/8/ALSA-2026-86203.html           
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-86093.html          
 │                        │      │                  https://errata.rockylinux.org/RLSA-2026:86196                 
 │                        │      │                  https://github.com/golang/go/issues/81867                     
 │                        │      │                  https://go.dev/cl/847188                                      
@@ -35863,7 +36792,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-10-08T23:17:06.213Z 
 │                        │      ╰ LastModifiedDate: 2026-10-15T16:18:24.967Z 
-│                        ├ [56] ╭ VulnerabilityID : CVE-2026-97054 
+│                        ├ [57] ╭ VulnerabilityID : CVE-2026-97054 
 │                        │      ├ VendorIDs                    
 │                        │      │                  ────────────
 │                        │      │                  GO-2026-6859
@@ -35901,7 +36830,8 @@
 │                        │      │                  CWE-362
 │                        │      │                  CWE-820
 │                        │      │                  
-│                        │      ├ VendorSeverity   ╭ amazon: 2 
+│                        │      ├ VendorSeverity   ╭ alma  : 2 
+│                        │      │                  ├ amazon: 2 
 │                        │      │                  ├ photon: 2 
 │                        │      │                  ╰ redhat: 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
@@ -35909,7 +36839,21 @@
 │                        │      │                           ╰ V3Score : 5.9 
 │                        │      ├ References                                                                
 │                        │      │                  ─────────────────────────────────────────────────────────
+│                        │      │                  https://access.redhat.com/errata/RHSA-2026:102587        
 │                        │      │                  https://access.redhat.com/security/cve/CVE-2026-97054    
+│                        │      │                  https://bugzilla.redhat.com/2571442                      
+│                        │      │                  https://bugzilla.redhat.com/2571443                      
+│                        │      │                  https://bugzilla.redhat.com/2571444                      
+│                        │      │                  https://bugzilla.redhat.com/2571445                      
+│                        │      │                  https://bugzilla.redhat.com/2571446                      
+│                        │      │                  https://bugzilla.redhat.com/2571447                      
+│                        │      │                  https://bugzilla.redhat.com/2571448                      
+│                        │      │                  https://bugzilla.redhat.com/2571449                      
+│                        │      │                  https://bugzilla.redhat.com/2571450                      
+│                        │      │                  https://bugzilla.redhat.com/2571451                      
+│                        │      │                  https://bugzilla.redhat.com/2571452                      
+│                        │      │                  https://bugzilla.redhat.com/2571453                      
+│                        │      │                  https://errata.almalinux.org/10/ALSA-2026-102587.html    
 │                        │      │                  https://go.dev/cl/862185                                 
 │                        │      │                  https://go.dev/issue/82563                               
 │                        │      │                  https://groups.google.com/g/golang-announce/c/iY8TY0wWgbM
@@ -35919,7 +36863,7 @@
 │                        │      │                  
 │                        │      ├ PublishedDate   : 2026-11-11T05:19:58.943Z 
 │                        │      ╰ LastModifiedDate: 2026-11-16T16:17:56.29Z 
-│                        ╰ [57] ╭ VulnerabilityID : CVE-2026-56857 
+│                        ╰ [58] ╭ VulnerabilityID : CVE-2026-56857 
 │                               ├ VendorIDs                    
 │                               │                  ────────────
 │                               │                  GO-2026-6604
@@ -36004,16 +36948,16 @@
 │                      │                         │*******│       │          │         │           │          │...
 │                      │                         │*******│       │          │         │           │          │...
 │                      │                         │*******│       │          │         │           │          │...
-│                      │                   3     │https:/│true   │          │false    │***********│false     │...
-│                      │                         │/cve.mi│       │          │         │***********│          │...
-│                      │                         │tre.org│       │          │         │***********│          │...
-│                      │                         │/cgi-bi│       │          │         │***********│          │...
-│                      │                         │n/cvena│       │          │         │***********│          │...
-│                      │                         │me.cgi?│       │          │         │***********│          │...
-│                      │                         │name=CV│       │          │         │****       │          │...
-│                      │                         │E-2026-│       │          │         │           │          │...
-│                      │                         │12345  │       │          │         │           │          │...
-│                      │                         │       │       │          │         │           │          │...
+│                      │                   3     │*******│true   │          │false    │***********│false     │...
+│                      │                         │*******│       │          │         │***********│          │...
+│                      │                         │*******│       │          │         │***********│          │...
+│                      │                         │*******│       │          │         │***********│          │...
+│                      │                         │*******│       │          │         │***********│          │...
+│                      │                         │*******│       │          │         │***********│          │...
+│                      │                         │*******│       │          │         │****       │          │...
+│                      │                         │*******│       │          │         │           │          │...
+│                      │                         │*******│       │          │         │           │          │...
+│                      │                         │*******│       │          │         │           │          │...
 │                      │                   4     │*******│true   │          │false    │***********│false     │...
 │                      │                         │*******│       │          │         │***********│          │...
 │                      │                         │*******│       │          │         │***********│          │...
